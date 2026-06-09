@@ -1,0 +1,112 @@
+{
+  "schema": "nostradamus.trading.manifest/v1",
+  "generatedAt": "2026-06-09T19:48:43Z",
+  "mode": "paper",
+  "dryRun": true,
+  "brokerTarget": "robinhood_agents",
+  "portfolio": {
+    "valueUsd": 8606.046312846249,
+    "cashAvailableUsd": 6884.837050276999
+  },
+  "risk": {
+    "maxGrossExposure": 0.9,
+    "maxPositionFrac": 0.2,
+    "minProba": 0.6,
+    "notes": [
+      "investor backtest return negative on full window \u2014 review before live",
+      "policy min_proba=0.6 mode=edge",
+      "PROFIT GATE: paper agent unhealthy \u2014 manifest forced paper",
+      "risk_engine: kept 1 orders, dropped 0",
+      "LIVE TRADING BLOCKED by readiness gate: edge not proven on tradeable universe (run honest eval); forward paper PnL insufficient (days=1193/20, sharpe=-0.9198/0.5, ret%=-3.5294/1.0); live forward IC insufficient (days=1/20, mean_ic=0.07395/0.01)"
+    ]
+  },
+  "orders": [
+    {
+      "order_id": "b9afdb92-e097-4cda-afe7-8c8b34cdb096",
+      "symbol": "MUD",
+      "side": "buy",
+      "order_type": "market",
+      "quantity": 98.0126,
+      "notional_usd": 1721.21,
+      "limit_price": null,
+      "time_in_force": "day",
+      "metadata": {
+        "proba_up": 0.60607476635514,
+        "pred_ret": 0.0239306333334548,
+        "edge": 0.005076872679153487,
+        "rationale": "['Calibrated up-day probability 60.6% (threshold 60%) \u2014 model is confident this name rises tomorrow.', 'Predicted next-day return +2.39% (floor 2.0%) \u2014 expected magnitude clears the 30 bps cost+slippage drag.', \"Edge score +0.508% ranks #2 across today's eligible universe after liquidity, vol and exclusion filters.\", 'Sector: Other. 20d realised daily vol 5.14% (floor 1.0%) \u2014 enough movement for the predicted edge to materialise.'] | Unified: ML +0.33",
+        "trade_date": "2026-05-08",
+        "agent": "investor_v3",
+        "position_side": "long",
+        "position_effect": "open",
+        "contract_type": "equity",
+        "legs": null
+      }
+    }
+  ],
+  "instructions": "Execute orders in order. POST fills to /api/trading/ack with order_id and status.",
+  "gates": {
+    "profitGate": {
+      "passed": false,
+      "action": null
+    }
+  },
+  "riskEngine": {
+    "enforced": true,
+    "dropped": 0,
+    "dropReasons": [],
+    "minProba": 0.6,
+    "minPredRet": 0.02,
+    "maxOrders": 12
+  },
+  "liveReadiness": {
+    "liveTradingPermitted": false,
+    "reasons": [
+      "edge not proven on tradeable universe (run honest eval)",
+      "forward paper PnL insufficient (days=1193/20, sharpe=-0.9198/0.5, ret%=-3.5294/1.0)",
+      "live forward IC insufficient (days=1/20, mean_ic=0.07395/0.01)"
+    ],
+    "checkedAt": "2026-06-09T19:46:23.531603+00:00"
+  },
+  "tradeDate": "2026-05-08",
+  "signalCount": 1,
+  "unifiedScore": {
+    "enabled": true,
+    "altScale": 1.0,
+    "weights": {
+      "mlEdge": 1.0,
+      "congress": 0.35,
+      "insider": 0.3,
+      "crowd": 0.2,
+      "pennyMl": 0.15
+    },
+    "maxNotionalBoost": 1.4
+  },
+  "congressIntel": {
+    "enabled": true,
+    "symbolsWithSignals": 0
+  },
+  "intelligence": {
+    "unifiedScore": true,
+    "allowShorts": true,
+    "legalNote": "Insider signals use public SEC Form 4 filings only \u2014 not illegal front-running"
+  },
+  "capabilities": {
+    "positionSides": [
+      "long",
+      "short"
+    ],
+    "contractTypes": [
+      "equity",
+      "etf",
+      "option",
+      "spread"
+    ],
+    "orderTypes": [
+      "market",
+      "limit",
+      "stop",
+      "stop_limit"
+    ]
+  }
+}

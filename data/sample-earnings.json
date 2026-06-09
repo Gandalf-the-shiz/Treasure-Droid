@@ -1,0 +1,10 @@
+{
+  "asOf": "2026-04-18",
+  "earningsCalendar": [
+    { "symbol": "AAPL", "date": "2026-04-30", "hour": "amc", "epsEstimate": 1.62 },
+    { "symbol": "MSFT", "date": "2026-04-29", "hour": "amc", "epsEstimate": 2.87 },
+    { "symbol": "TSLA", "date": "2026-04-24", "hour": "amc", "epsEstimate": 0.61 },
+    { "symbol": "AMZN", "date": "2026-05-01", "hour": "amc", "epsEstimate": 1.14 },
+    { "symbol": "GOOGL", "date": "2026-04-25", "hour": "amc", "epsEstimate": 1.93 }
+  ]
+}

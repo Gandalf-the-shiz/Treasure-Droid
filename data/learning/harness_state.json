@@ -1,0 +1,40 @@
+{
+  "phase": "complete",
+  "mode": "intraday",
+  "updatedAt": "2026-06-09T20:39:48Z",
+  "results": {
+    "npu_probe": 0,
+    "regime": 0,
+    "congress": 0,
+    "mass_psych": 0,
+    "insider_monitor": 0,
+    "live_pred": 0,
+    "alpha_engine": 0,
+    "fleet": 0,
+    "champion_sync": 0,
+    "forward_score": 0,
+    "execution_feedback": 0,
+    "reasoning": 0,
+    "daytrade": 0
+  },
+  "failedStep": "investor",
+  "log": "harness-20260609T202834Z.log",
+  "npu": {
+    "generatedAt": "2026-06-09T20:28:35Z",
+    "qnnRegistered": true,
+    "qnnDevices": 3,
+    "available": [
+      "QNNExecutionProvider",
+      "AzureExecutionProvider",
+      "CPUExecutionProvider"
+    ],
+    "selected": [
+      "QNNExecutionProvider",
+      "CPUExecutionProvider"
+    ],
+    "primary": "QNNExecutionProvider",
+    "preferNpu": true,
+    "soc": "Snapdragon X (X1P64100)",
+    "qnnPackage": "2.1.1"
+  }
+}

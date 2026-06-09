@@ -1,0 +1,34 @@
+{
+  "id": "401b82072fb0",
+  "status": "approved_pending_implementation",
+  "approvedAt": "2026-06-04T01:18:30Z",
+  "source": "auto",
+  "recommendation": {
+    "id": "401b82072fb0",
+    "area": "concentration_risk",
+    "priority": "high",
+    "finding": "Winners cluster in ['LOTWW', 'KWMWW', 'SDAWW'] (often warrants).",
+    "action": "Add liquidity/price filters in arena sim; validate tradability before promotion.",
+    "status": "proposed",
+    "firstSeenAt": "2026-06-04T00:42:17Z",
+    "lastSeenAt": "2026-06-04T01:18:30Z"
+  },
+  "briefPath": "data\\intelligence\\megamind\\LATEST_APPROVED.md",
+  "cursorPromptPath": "data\\intelligence\\megamind\\CURRENT_AGENT_PROMPT.md",
+  "cursorLaunch": {
+    "promptPath": "data\\intelligence\\megamind\\CURRENT_AGENT_PROMPT.md",
+    "rulePath": ".cursor\\rules\\megamind-active-task.mdc",
+    "autoLaunch": "both",
+    "sdk": {
+      "sdk": true,
+      "mode": "background",
+      "model": "composer-2.5"
+    },
+    "ide": {
+      "opened": true,
+      "cursor": "C:\\Users\\nicho\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin\\cursor.cmd"
+    },
+    "composerHint": "In Cursor Agent, send: Implement the Megamind active task in .cursor/rules/megamind-active-task.mdc (or @CURRENT_AGENT_PROMPT.md)",
+    "sdkWorker": "started"
+  }
+}

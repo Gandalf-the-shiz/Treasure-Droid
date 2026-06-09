@@ -1,0 +1,117 @@
+name: Weekly Intelligence Report
+
+on:
+  schedule:
+    # Run every Sunday at 5:00 AM UTC (after auto-retrain at 4 AM)
+    - cron: '0 5 * * 0'
+  workflow_dispatch:   # allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  weekly-report:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Configure Git LFS
+        run: git lfs install
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Generate weekly report
+        run: python scripts/generate-weekly-report.py
+
+      - name: Print weekly diagnostics summary
+        run: |
+          python - <<'PYEOF'
+          import json
+          from pathlib import Path
+          from datetime import datetime
+
+          y, w, _ = datetime.utcnow().isocalendar()
+          report_path = Path(f"data/reports/weekly/{y}-W{w:02d}.json")
+          if not report_path.exists():
+            print(f"Weekly report not found: {report_path}")
+            raise SystemExit(1)
+
+          with report_path.open() as f:
+            report = json.load(f)
+
+          rolling30 = (report.get("modelPerformance") or {}).get("rolling30d") or {}
+          calibration = report.get("calibration") or {}
+          cc = report.get("championChallenger") or {}
+          activity = report.get("marketActivitySignals") or {}
+          fw = activity.get("forwardWatchlist") or {}
+          tracking = activity.get("tracking") or {}
+          alerts = report.get("alerts") or []
+
+          print("=== Weekly Diagnostics Summary ===")
+          print(f"Report: {report_path}")
+          print(f"Macro regime: {report.get('macroRegime')}")
+          print(f"Rolling 30d hit rate: {rolling30.get('hitRate')} (n={rolling30.get('totalPredictions')})")
+          print(f"Calibration ECE: {calibration.get('ece')} | Brier: {calibration.get('brier')}")
+          print(
+            f"Unusual flow high-intensity count: "
+            f"{(activity.get('summary') or {}).get('highIntensityCount')}"
+          )
+          print(
+            f"Forward watchlist high-conviction count: {fw.get('highConvictionCount')} "
+            f"(sample={fw.get('sampleSize')})"
+          )
+          print(
+            f"Signal tracking trend: {tracking.get('trend')} "
+            f"| top-overlap={tracking.get('topSignalsOverlapAvg')} "
+            f"| fw-overlap={tracking.get('forwardWatchlistOverlapAvg')}"
+          )
+          print(
+            f"Activity thresholds: {(activity.get('thresholds') or {})} "
+            f"| sectorPicked={(activity.get('summary') or {}).get('sectorPicked')}"
+          )
+
+          narratives = activity.get("narratives") or []
+          if narratives:
+            print("Sample activity narratives:")
+            for line in narratives[:5]:
+              print(f"- {line}")
+          if cc.get("available"):
+            d = cc.get("delta") or {}
+            print(f"Champion/challenger verdict: {cc.get('verdict')} | Δacc={d.get('accuracy')} Δauc={d.get('auc')}")
+          else:
+            print(f"Champion/challenger: unavailable ({cc.get('reason')})")
+
+          if alerts:
+            print("Alerts:")
+            for a in alerts:
+              print(f"- [{a.get('severity')}] {a.get('code')}: {a.get('message')}")
+          else:
+            print("Alerts: none")
+          PYEOF
+
+      - name: Commit report
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add data/reports/weekly/ || true
+
+          if git diff --cached --quiet; then
+            echo "No new report to commit."
+          else
+            WEEK=$(python -c "from datetime import datetime; d=datetime.utcnow(); y,w,_=d.isocalendar(); print(f'{y}-W{w:02d}')")
+            git commit -m "chore: generate weekly intelligence report ${WEEK}"
+            git pull --rebase --autostash origin main
+            git push
+          fi

@@ -1,0 +1,51 @@
+{
+  "trialId": "1838bf129ad5",
+  "ts": "2026-06-03T23:27:20.326725+00:00",
+  "config": {
+    "horizon": 1,
+    "features": [
+      "ret_20",
+      "ret_1",
+      "sma20_ratio",
+      "vol_20",
+      "max_ret_20",
+      "dist_252_high",
+      "ret_60",
+      "min_ret_20",
+      "ret_5",
+      "ret_10",
+      "mom_60",
+      "hl_range",
+      "mom_20",
+      "log_dollar_vol",
+      "vol_10",
+      "rsi_14",
+      "drawdown_60",
+      "turnover_z"
+    ],
+    "max_depth": 6,
+    "learning_rate": 0.03,
+    "max_iter": 200,
+    "min_samples_leaf": 120,
+    "l2_regularization": 0.5
+  },
+  "metrics": {
+    "valid": true,
+    "mean_ic": 0.02803,
+    "icir": 0.3308,
+    "n_days": 2048,
+    "hit_rate": 0.636,
+    "quintile_spread": 0.006542,
+    "accuracy": 0.5097,
+    "oos_rows": 1186281
+  },
+  "objective": 0.892584,
+  "elapsedSec": 29.6,
+  "promoted": true,
+  "onnx": {
+    "ok": true,
+    "path": "C:\\Users\\nicho\\Nostradamus_remote_audit\\models\\penny\\champion.onnx",
+    "primary": "QNNExecutionProvider"
+  },
+  "onnxNote": "ExtraTrees shadow of HGB champion for ONNX/NPU inference"
+}

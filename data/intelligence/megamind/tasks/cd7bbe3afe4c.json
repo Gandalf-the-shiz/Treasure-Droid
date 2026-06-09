@@ -1,0 +1,57 @@
+{
+  "id": "cd7bbe3afe4c",
+  "status": "approved_pending_implementation",
+  "approvedAt": "2026-06-04T01:43:47Z",
+  "source": "email_link",
+  "recommendation": {
+    "priority": "high",
+    "area": "concentration_risk",
+    "finding": "Winners cluster in ['KWMWW', 'LOTWW', 'SDAWW'] (often warrants).",
+    "action": "Add liquidity/price filters in arena sim; validate tradability before promotion.",
+    "id": "cd7bbe3afe4c",
+    "status": "proposed",
+    "approveToken": "7ac72e07742d8a7fc7fc",
+    "approveUrl": "https://terminals-afterwards-tables-shoppers.trycloudflare.com/api/megamind/approve/cd7bbe3afe4c?token=7ac72e07742d8a7fc7fc",
+    "reviewUrl": "https://terminals-afterwards-tables-shoppers.trycloudflare.com/#/megamind?highlight=cd7bbe3afe4c"
+  },
+  "briefPath": "data\\intelligence\\megamind\\LATEST_APPROVED.md",
+  "cursorPromptPath": "data\\intelligence\\megamind\\CURRENT_AGENT_PROMPT.md",
+  "cursorLaunch": {
+    "promptPath": "data\\intelligence\\megamind\\CURRENT_AGENT_PROMPT.md",
+    "rulePath": ".cursor\\rules\\megamind-active-task.mdc",
+    "autoLaunch": "both",
+    "sdk": {
+      "sdk": true,
+      "mode": "background",
+      "model": "composer-2.5"
+    },
+    "ide": {
+      "opened": true,
+      "cursor": "C:\\Users\\nicho\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin\\cursor.cmd"
+    },
+    "composerHint": "In Cursor Agent, send: Implement the Megamind active task in .cursor/rules/megamind-active-task.mdc (or @CURRENT_AGENT_PROMPT.md)",
+    "arenaSpawn": {
+      "version": "v6",
+      "meta": {
+        "startedAt": "2026-06-04T01:43:47Z",
+        "nTraders": 100,
+        "label": "Megamind v3 \u2014 liquidity-aware rank panel",
+        "selectionMode": "rank_v2",
+        "panelPath": "data/arena_feeds/arena-v3-liquidity-panel.csv",
+        "megamindSpawned": true,
+        "sourceRecommendation": "cd7bbe3afe4c",
+        "frozen": false
+      },
+      "summary": {
+        "version": "v6",
+        "nTraders": 100,
+        "bestCumulativePct": 7.9903,
+        "medianCumulativePct": 1.2399,
+        "meanCumulativePct": 1.2798,
+        "topTraderId": 50
+      },
+      "spawned": true
+    },
+    "sdkWorker": "started"
+  }
+}

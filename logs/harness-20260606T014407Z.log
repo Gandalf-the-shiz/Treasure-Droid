@@ -1,0 +1,111 @@
+# learning harness @ 2026-06-06T01:44:07.731516+00:00
+
+# 2026-06-06T01:44:07.873985+00:00 scripts/npu_runtime.py
+{
+  "generatedAt": "2026-06-06T01:44:08Z",
+  "qnnRegistered": true,
+  "qnnDevices": 3,
+  "available": [
+    "QNNExecutionProvider",
+    "AzureExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "selected": [
+    "QNNExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "primary": "QNNExecutionProvider",
+  "preferNpu": true,
+  "soc": "Snapdragon X (X1P64100)",
+  "qnnPackage": "2.1.1"
+}
+
+# 2026-06-06T01:44:08.064086+00:00 scripts/fetch-regime-data.py
+[fetch-regime] Fetching GDELT daily tone…
+[fetch-regime] GDELT 2025-06-05 -> 2025-07-04
+[fetch-regime] GDELT 2025-07-05 -> 2025-08-03
+[fetch-regime] GDELT 2025-08-04 -> 2025-09-02
+[fetch-regime] GDELT 2025-09-03 -> 2025-10-02
+[fetch-regime] GDELT 2025-10-03 -> 2025-11-01
+[fetch-regime] GDELT 2025-11-02 -> 2025-12-01
+[fetch-regime] GDELT 2025-12-02 -> 2025-12-31
+[fetch-regime] GDELT 2026-01-01 -> 2026-01-30
+[fetch-regime] GDELT 2026-01-31 -> 2026-03-01
+[fetch-regime] GDELT 2026-03-02 -> 2026-03-31
+[fetch-regime] GDELT 2026-04-01 -> 2026-04-30
+[fetch-regime] GDELT 2026-05-01 -> 2026-05-30
+[fetch-regime] GDELT 2026-05-31 -> 2026-06-05
+[fetch-regime] Wrote C:\Users\nicho\Nostradamus_remote_audit\data\regime\gdelt_timeline.json (186 rows)
+[fetch-regime] Merged timeline -> C:\Users\nicho\Nostradamus_remote_audit\data\regime\timeline.json
+[fetch-regime] Feature columns: ['gdelt_tone_norm', 'gdelt_tone_delta_5d', 'gdelt_article_z', 'macro_t10y3m_norm', 'macro_hy_oas_norm', 'macro_unrate_norm', 'macro_cpi_norm', 'macro_indpro_norm', 'macro_sp500_norm', 'macro_m2_norm', 'regime_bull', 'regime_bear', 'regime_high_vol', 'regime_sideways']
+
+# 2026-06-06T01:49:25.422968+00:00 scripts/fetch-congress-trades.py
+[fetch-congress] pulling trades from all configured sources…
+[congress] kadoa normalized 3,084 equity trades
+[fetch-congress] wrote C:\Users\nicho\Nostradamus_remote_audit\data\congress\trades_normalized.json
+[fetch-congress] total=2,861 recent(90d)=259 symbols=192 watchlist_365d=140 pelosi_365d=17
+  · Rohit Khanna: 14 buys / 6 sells
+  · Michael T. McCaul: 14 buys / 6 sells
+  · Josh Gottheimer: 1 buys / 8 sells
+  · Markwayne Mullin: 1 buys / 2 sells
+  · Donald J Trump: 31 buys / 0 sells
+
+# 2026-06-06T01:49:27.658219+00:00 scripts/intelligence/mass_psychology.py
+[mass-psych] mood=mixed (-0.0769) tickers=1
+
+# 2026-06-06T01:49:31.426537+00:00 scripts/intelligence/insider_monitor.py
+[insider-monitor] alerts=5 follow_symbols=6
+
+# 2026-06-06T01:49:31.502414+00:00 scripts/generate_live_predictions.py --limit 800
+[live] 800 symbols @ 2026-05-22 in 16.1s
+
+# 2026-06-06T01:49:51.261140+00:00 scripts/intelligence/alpha/engine.py
+[tradeable] dropped 381/800 symbols
+[alpha-engine] universe=419 sleeves=['ml_edge', 'reversal_5d', 'reversal_1d', 'momentum_120_20', 'pead', 'revisions'] long=41 short=41 net=-0.0
+
+# 2026-06-06T01:50:43.183312+00:00 scripts/intelligence/champion_sync.py
+[champion-sync] trial=16efa3f88a boost=True
+
+# 2026-06-06T01:50:43.238469+00:00 scripts/intelligence/forward_score.py
+Traceback (most recent call last):
+  File "C:\Users\nicho\Nostradamus_remote_audit\scripts\intelligence\forward_score.py", line 140, in <module>
+    score_live()
+  File "C:\Users\nicho\Nostradamus_remote_audit\scripts\intelligence\forward_score.py", line 83, in score_live
+    from intelligence.tradeable_universe import is_tradeable
+ModuleNotFoundError: No module named 'intelligence'
+
+# 2026-06-06T01:50:43.706778+00:00 scripts/intelligence/execution_feedback.py
+
+# 2026-06-06T01:50:43.751075+00:00 scripts/reasoning_agent.py --tick
+[reasoning] 12 picks backend=gemini session=after_hours
+
+# 2026-06-06T01:50:45.575438+00:00 scripts/generate_daytrade_signals.py
+[tradeable] dropped 2/2 symbols
+Traceback (most recent call last):
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python311-arm64\Lib\site-packages\pandas\core\indexes\base.py", line 3641, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 168, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 197, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7668, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7676, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'unified_score'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\nicho\Nostradamus_remote_audit\scripts\generate_daytrade_signals.py", line 83, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "C:\Users\nicho\Nostradamus_remote_audit\scripts\generate_daytrade_signals.py", line 24, in main
+    picks = rank_daytrades(df, top_k=top_k, min_proba=min_proba)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicho\Nostradamus_remote_audit\scripts\daytrader_engine.py", line 97, in rank_daytrades
+    d["day_score"] = d["unified_score"] * (1.0 + d["mom_5m"].clip(-0.05, 0.15) * 8.0)
+                     ~^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python311-arm64\Lib\site-packages\pandas\core\frame.py", line 4378, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python311-arm64\Lib\site-packages\pandas\core\indexes\base.py", line 3648, in get_loc
+    raise KeyError(key) from err
+KeyError: 'unified_score'

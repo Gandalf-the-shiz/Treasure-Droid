@@ -1,0 +1,16 @@
+{
+  "date": "2026-06-03",
+  "agentId": "ms_c78f7f77",
+  "name": "MS-long_sho-c78f7f77",
+  "kind": null,
+  "equity": 100000.0,
+  "cash": 100000.0,
+  "dayPnl": 0.0,
+  "returnPct": 0.0,
+  "nLong": 0,
+  "nShort": 0,
+  "grossExposure": 0,
+  "netExposure": 0,
+  "nTrades": 0,
+  "picks": []
+}

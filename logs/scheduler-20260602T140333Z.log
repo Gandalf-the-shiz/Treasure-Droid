@@ -1,0 +1,61 @@
+# scheduler mode=intraday_pulse
+
+# 2026-06-02T14:03:33.399196+00:00 scripts/npu_runtime.py
+{
+  "generatedAt": "2026-06-02T14:06:22Z",
+  "qnnRegistered": true,
+  "qnnDevices": 3,
+  "available": [
+    "QNNExecutionProvider",
+    "AzureExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "selected": [
+    "QNNExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "primary": "QNNExecutionProvider",
+  "preferNpu": true,
+  "soc": "Snapdragon X (X1P64100)",
+  "qnnPackage": "2.1.1",
+  "pennyMlSearch": true
+}
+
+# 2026-06-02T14:06:22.717106+00:00 scripts/fetch-regime-data.py
+[fetch-regime] Fetching GDELT daily tone…
+[fetch-regime] GDELT 2025-06-02 -> 2025-07-01
+[fetch-regime] GDELT 2025-07-02 -> 2025-07-31
+[fetch-regime] GDELT 2025-08-01 -> 2025-08-30
+[fetch-regime] GDELT 2025-08-31 -> 2025-09-29
+[fetch-regime] GDELT 2025-09-30 -> 2025-10-29
+[fetch-regime] GDELT 2025-10-30 -> 2025-11-28
+[fetch-regime] GDELT 2025-11-29 -> 2025-12-28
+[fetch-regime] GDELT 2025-12-29 -> 2026-01-27
+[fetch-regime] GDELT 2026-01-28 -> 2026-02-26
+[fetch-regime] GDELT 2026-02-27 -> 2026-03-28
+[fetch-regime] GDELT 2026-03-29 -> 2026-04-27
+[fetch-regime] GDELT 2026-04-28 -> 2026-05-27
+[fetch-regime] GDELT 2026-05-28 -> 2026-06-02
+[fetch-regime] Wrote C:\Users\nicho\Nostradamus_remote_audit\data\regime\gdelt_timeline.json (229 rows)
+[fetch-regime] Merged timeline -> C:\Users\nicho\Nostradamus_remote_audit\data\regime\timeline.json
+[fetch-regime] Feature columns: ['gdelt_tone_norm', 'gdelt_tone_delta_5d', 'gdelt_article_z', 'macro_t10y3m_norm', 'macro_hy_oas_norm', 'macro_unrate_norm', 'macro_cpi_norm', 'macro_indpro_norm', 'macro_sp500_norm', 'macro_m2_norm', 'regime_bull', 'regime_bear', 'regime_high_vol', 'regime_sideways']
+
+# 2026-06-02T14:12:28.121721+00:00 scripts/fetch-congress-trades.py
+[fetch-congress] pulling trades from all configured sources…
+[congress] kadoa normalized 3,087 equity trades
+[fetch-congress] wrote C:\Users\nicho\Nostradamus_remote_audit\data\congress\trades_normalized.json
+[fetch-congress] total=2,864 recent(90d)=303 symbols=200 watchlist_365d=140 pelosi_365d=17
+  · Rohit Khanna: 14 buys / 6 sells
+  · Michael T. McCaul: 14 buys / 6 sells
+  · Josh Gottheimer: 1 buys / 8 sells
+  · Markwayne Mullin: 1 buys / 2 sells
+  · Donald J Trump: 67 buys / 0 sells
+
+# 2026-06-02T14:12:31.174343+00:00 scripts/generate_live_predictions.py --limit 800
+[live] 800 symbols @ 2026-05-22 in 36.2s
+
+# 2026-06-02T14:13:10.870223+00:00 scripts/reasoning_agent.py --tick
+[reasoning] 12 picks backend=gemini session=regular
+
+# 2026-06-02T14:13:14.416034+00:00 scripts/generate_daytrade_signals.py
+[daytrade] manifest 1 orders -> C:\Users\nicho\Nostradamus_remote_audit\data\trading\daytrade_manifest.json

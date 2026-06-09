@@ -1,0 +1,57 @@
+name: Fetch Macro Data
+
+on:
+  schedule:
+    # Run weekly on Sundays at 05:00 UTC
+    - cron: '0 5 * * 0'
+  workflow_dispatch:
+
+concurrency:
+  group: main-branch-writer
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-macro:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          lfs: false   # macro data is small, no LFS needed
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Fetch FRED macroeconomic data and classify regime
+        env:
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+        run: python scripts/fetch-macro.py
+        continue-on-error: true
+
+      - name: Commit macro data
+        run: |
+          git config user.name  "Nostradamus Bot"
+          git config user.email "bot@nostradamus.app"
+
+          git add data/macro/ || true
+
+          if git diff --cached --quiet; then
+            echo "No new macro data to commit."
+          else
+            REGIME=$(jq -r '.regime // "UNKNOWN"' data/macro/current-regime.json 2>/dev/null || echo "UNKNOWN")
+            TODAY=$(date -u +%Y-%m-%d)
+            git commit -m "📈 Macro update [${TODAY}] — regime: ${REGIME}"
+            git pull --rebase --autostash origin main
+            git push
+          fi

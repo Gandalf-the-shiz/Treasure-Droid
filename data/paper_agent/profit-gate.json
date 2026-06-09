@@ -1,0 +1,35 @@
+{
+  "generatedAt": "2026-06-09T21:28:15Z",
+  "status": "warmup",
+  "reasons": [
+    "insufficient_days_or_trades_for_hard_gate"
+  ],
+  "metrics": {
+    "daysProcessed": 9,
+    "tradeCount": 58,
+    "totalReturnPct": -1.0219,
+    "maxDrawdownPct": 1.8416,
+    "onlineLearningDelta": -0.109,
+    "recentWindow": {
+      "windowDays": 9,
+      "returnPct": -1.1446,
+      "maxDrawdownPct": 1.8416,
+      "avgDailyPnl": -11.3541
+    }
+  },
+  "thresholds": {
+    "minDaysForHardGate": 25,
+    "minTradesForHardGate": 120,
+    "minTotalReturnPct": 0.0,
+    "maxDrawdownPct": 9.0,
+    "minOnlineLearningDelta": -0.01,
+    "severeLossTriggerPct": -2.0,
+    "recentWindowDays": 20,
+    "minRecentReturnPct": -0.5,
+    "maxRecentDrawdownPct": 5.0
+  },
+  "actions": {
+    "softenedRiskConfig": false,
+    "needsMainRetrain": false
+  }
+}

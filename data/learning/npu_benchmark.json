@@ -1,0 +1,98 @@
+{
+  "generatedAt": "2026-06-02T02:36:48Z",
+  "soc": "Snapdragon X",
+  "primary": "QNNExecutionProvider",
+  "qnnDevices": 3,
+  "workloads": {
+    "penny_champion": {
+      "model": "C:\\Users\\nicho\\Nostradamus_remote_audit\\models\\penny\\champion.onnx",
+      "features": 13,
+      "npu": {
+        "provider_label": "QNN (HTP)",
+        "session_providers": [
+          "QNNExecutionProvider",
+          "CPUExecutionProvider"
+        ],
+        "batch": 32,
+        "runs": 20,
+        "total_ms": 1.35,
+        "mean_ms": 0.067,
+        "median_ms": 0.066,
+        "p95_ms": 0.072,
+        "min_ms": 0.064,
+        "max_ms": 0.076,
+        "per_sec": 14842.3
+      },
+      "cpu": {
+        "provider_label": "CPU",
+        "session_providers": [
+          "CPUExecutionProvider"
+        ],
+        "batch": 32,
+        "runs": 20,
+        "total_ms": 1.23,
+        "mean_ms": 0.061,
+        "median_ms": 0.061,
+        "p95_ms": 0.064,
+        "min_ms": 0.059,
+        "max_ms": 0.067,
+        "per_sec": 16245.63
+      },
+      "speedup_mean": 0.91
+    },
+    "finbert_sentiment": {
+      "model": "C:\\Users\\nicho\\Nostradamus_remote_audit\\models\\sentiment\\model.onnx",
+      "model_mb": 438.2,
+      "npu": {
+        "provider_label": "QNN (HTP)",
+        "session_providers": [
+          "QNNExecutionProvider",
+          "CPUExecutionProvider"
+        ],
+        "batch": 8,
+        "runs": 10,
+        "total_ms": 1141.12,
+        "mean_ms": 114.109,
+        "median_ms": 108.177,
+        "p95_ms": 153.035,
+        "min_ms": 87.069,
+        "max_ms": 162.498,
+        "per_sec": 8.76
+      },
+      "cpu": {
+        "provider_label": "CPU",
+        "session_providers": [
+          "CPUExecutionProvider"
+        ],
+        "batch": 8,
+        "runs": 10,
+        "total_ms": 1009.16,
+        "mean_ms": 100.914,
+        "median_ms": 95.972,
+        "p95_ms": 125.828,
+        "min_ms": 70.845,
+        "max_ms": 128.286,
+        "per_sec": 9.91
+      },
+      "speedup_mean": 0.88
+    },
+    "penny_live_score": {
+      "symbol": "TLNE",
+      "path": "penny_ml.score_live",
+      "runs": 10,
+      "total_ms": 2830.41,
+      "mean_ms": 283.038,
+      "median_ms": 282.097,
+      "p95_ms": 301.119,
+      "min_ms": 270.212,
+      "max_ms": 312.589,
+      "per_sec": 3.53
+    }
+  },
+  "notes": [
+    "Penny champion: simulates one scan batch of heat/ML scores.",
+    "FinBERT: batch headline scoring for enrich_decisions / sentiment.",
+    "First NPU run includes graph compile; warmup reduces that bias.",
+    "Training (HGB search) stays on CPU \u2014 not benchmarked here."
+  ]
+}

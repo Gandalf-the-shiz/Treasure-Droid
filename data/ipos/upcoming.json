@@ -1,0 +1,59 @@
+{
+  "updatedAt": "2026-05-22T00:00:00Z",
+  "sources": [
+    "manual-seed",
+    "finnhub-ipo-calendar"
+  ],
+  "ipos": [
+    {
+      "company": "Databricks, Inc.",
+      "symbol": "TBD",
+      "expectedDate": "2026-06-18",
+      "exchange": "NASDAQ",
+      "sector": "Technology",
+      "expectedDealSizeUsdBn": 1.5,
+      "underwriterTier": 1,
+      "riskLevel": "medium"
+    },
+    {
+      "company": "Stripe, Inc.",
+      "symbol": "TBD",
+      "expectedDate": "2026-07-09",
+      "exchange": "NYSE",
+      "sector": "Financials",
+      "expectedDealSizeUsdBn": 2.1,
+      "underwriterTier": 1,
+      "riskLevel": "medium"
+    },
+    {
+      "company": "Redwood Fusion Energy",
+      "symbol": "TBD",
+      "expectedDate": "2026-08-04",
+      "exchange": "NASDAQ",
+      "sector": "Energy",
+      "expectedDealSizeUsdBn": 0.7,
+      "underwriterTier": 2,
+      "riskLevel": "high"
+    },
+    {
+      "company": "Helios Robotics",
+      "symbol": "TBD",
+      "expectedDate": "2026-08-21",
+      "exchange": "NASDAQ",
+      "sector": "Industrials",
+      "expectedDealSizeUsdBn": 0.55,
+      "underwriterTier": 2,
+      "riskLevel": "high"
+    },
+    {
+      "company": "Northstar Therapeutics",
+      "symbol": "TBD",
+      "expectedDate": "2026-09-03",
+      "exchange": "NASDAQ",
+      "sector": "Healthcare",
+      "expectedDealSizeUsdBn": 0.9,
+      "underwriterTier": 2,
+      "riskLevel": "high"
+    }
+  ]
+}

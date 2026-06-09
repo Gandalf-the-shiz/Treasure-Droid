@@ -1,0 +1,51 @@
+{
+  "analysisDate": "2026-05-11",
+  "generatedAt": "2026-05-11T08:12:58Z",
+  "windowDays": 7,
+  "overallHitRate": 0.5712,
+  "totalPredictions": 2836,
+  "totalCorrect": 1620,
+  "dailyRates": [
+    {
+      "date": "2026-05-06",
+      "hitRate": 0.6104,
+      "total": 1481
+    },
+    {
+      "date": "2026-05-08",
+      "hitRate": 0.5284,
+      "total": 1355
+    }
+  ],
+  "sectorMisses": {
+    "Other": {
+      "hitRate": 0.595,
+      "total": 400,
+      "correct": 238,
+      "flag": "OK"
+    }
+  },
+  "confidenceBucketAnalysis": [
+    {
+      "bucket": "low (<0.3)",
+      "hitRate": 0.5429,
+      "total": 280,
+      "correct": 152
+    },
+    {
+      "bucket": "medium (0.3-0.5)",
+      "hitRate": 0.7167,
+      "total": 120,
+      "correct": 86
+    }
+  ],
+  "evTopN": {
+    "n": 20,
+    "hitRate": 0.7,
+    "total": 40,
+    "correct": 28
+  },
+  "topMissPatterns": [
+    "Top-20 EV predictions achieve 70% hit rate (vs 57% overall). EV-filtered trading signal is working well."
+  ]
+}

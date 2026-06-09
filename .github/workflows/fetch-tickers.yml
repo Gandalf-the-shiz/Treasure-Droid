@@ -1,0 +1,40 @@
+name: Weekly Ticker Registry Update
+
+on:
+  schedule:
+    # Every Sunday at midnight UTC
+    - cron: '0 0 * * 0'
+  workflow_dispatch:
+
+jobs:
+  fetch-tickers:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Fetch tickers from SEC EDGAR
+        run: python scripts/fetch-tickers.py
+
+      - name: Commit updated ticker registry
+        run: |
+          git config user.name  "Nostradamus Bot"
+          git config user.email "bot@nostradamus.app"
+          git add data/tickers/us_tickers.json
+          git diff --cached --quiet && echo "No changes to commit" && exit 0
+          TICKER_COUNT=$(python -c "import json; d=json.load(open('data/tickers/us_tickers.json')); print(d['metadata']['totalTickers'])")
+          TODAY=$(date -u +%Y-%m-%d)
+          git commit -m "📋 Weekly ticker registry update [${TODAY}] — ${TICKER_COUNT} tickers"
+          git pull --rebase --autostash origin main
+          git push

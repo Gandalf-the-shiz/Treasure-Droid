@@ -1,0 +1,56 @@
+{
+  "schema": "nostradamus.trading.manifest/v1-daytrade",
+  "generatedAt": "2026-06-09T20:39:47Z",
+  "mode": "paper",
+  "dryRun": true,
+  "brokerTarget": "robinhood_agents",
+  "portfolio": {
+    "valueUsd": 25000.0,
+    "cashAvailableUsd": 2500.0
+  },
+  "risk": {
+    "maxGrossExposure": 0.9,
+    "maxPositionFrac": 0.2,
+    "minProba": 0.6,
+    "notes": [
+      "INTRADAY_AGGRESSIVE \u2014 highest turnover Robinhood path",
+      "top_k=15 min_proba=0.55",
+      "Exit same session; POST ack to /api/trading/ack",
+      "PROFIT GATE: paper agent unhealthy \u2014 manifest forced paper",
+      "risk_engine: kept 0 orders, dropped 1",
+      "LIVE TRADING BLOCKED by readiness gate: edge not proven on tradeable universe (run honest eval); forward paper PnL insufficient (days=1199/20, sharpe=-0.9175/0.5, ret%=-3.5294/1.0); live forward IC insufficient (days=1/20, mean_ic=0.07395/0.01)"
+    ]
+  },
+  "orders": [],
+  "instructions": "Execute orders in order. POST fills to /api/trading/ack with order_id and status.",
+  "gates": {
+    "profitGate": {
+      "passed": false,
+      "action": null
+    }
+  },
+  "riskEngine": {
+    "enforced": true,
+    "dropped": 1,
+    "dropReasons": [
+      {
+        "order_id": "e4cc021b-afe2-4e8e-8074-5319d6a8f2de",
+        "reason": "proba 0.5789916909948348 < 0.6"
+      }
+    ],
+    "minProba": 0.6,
+    "minPredRet": 0.02,
+    "maxOrders": 12
+  },
+  "liveReadiness": {
+    "liveTradingPermitted": false,
+    "reasons": [
+      "edge not proven on tradeable universe (run honest eval)",
+      "forward paper PnL insufficient (days=1199/20, sharpe=-0.9175/0.5, ret%=-3.5294/1.0)",
+      "live forward IC insufficient (days=1/20, mean_ic=0.07395/0.01)"
+    ],
+    "checkedAt": "2026-06-09T20:31:25.329680+00:00"
+  },
+  "style": "intraday_aggressive",
+  "refreshSeconds": 300
+}

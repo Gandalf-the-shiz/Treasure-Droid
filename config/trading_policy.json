@@ -1,0 +1,53 @@
+{
+  "version": "1.0.0",
+  "description": "Canonical risk envelope for investor + Robinhood handoff",
+  "predictor": {
+    "minHeldOutAuc": 0.54,
+    "requireRegimeFeatures": true,
+    "retrainCadenceDays": 7
+  },
+  "investor": {
+    "topK": 5,
+    "maxPositionFrac": 0.2,
+    "maxGrossExposure": 0.9,
+    "kellyScale": 0.5,
+    "minProba": 0.6,
+    "minPredRet": 0.02,
+    "minVol20": 0.01,
+    "minPrice": 5,
+    "minAdv": 1000000,
+    "costBps": 5,
+    "slippageBps": 10,
+    "policyMode": "edge"
+  },
+  "broker": {
+    "mode": "manifest_only",
+    "minOrderNotionalUsd": 50,
+    "allowedSides": ["buy", "sell"],
+    "allowShorts": true,
+    "maxShortGrossExposure": 0.35,
+    "maxShortPositions": 5,
+    "allowedContractTypes": ["equity", "etf", "option", "spread"],
+    "allowedOrderTypes": ["market", "limit", "stop", "stop_limit"],
+    "blockedPatterns": "^(BIL|TBIL|SGOV|ZVZZT)"
+  },
+  "gates": {
+    "requireFeedHealth": true,
+    "requirePositiveBacktest": false,
+    "maxLiveDrawdownPct": 15
+  },
+  "unifiedScore": {
+    "enabled": true,
+    "description": "Single composite for arena, manifests, Penny, daytrader — ML + congress + insider + crowd",
+    "weights": {
+      "mlEdge": 1.0,
+      "congress": 0.35,
+      "insider": 0.30,
+      "crowd": 0.2,
+      "pennyMl": 0.15
+    },
+    "maxNotionalBoost": 1.4,
+    "maxNotionalCut": 0.72,
+    "minCongressScore": 0.0
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "date": "2026-06-03",
+  "agentId": "genome_v3_760",
+  "name": "Sparks",
+  "kind": "genome",
+  "equity": 99990.2,
+  "cash": 119590.2,
+  "dayPnl": 0.0,
+  "returnPct": -0.01,
+  "nLong": 0,
+  "nShort": 1,
+  "grossExposure": 19600.0,
+  "netExposure": -19600.0,
+  "nTrades": 0,
+  "picks": [
+    {
+      "symbol": "JDZG",
+      "side": "short",
+      "weight": -0.1962,
+      "shares": 392,
+      "notional": 19600.0,
+      "entryPrice": 50.0,
+      "signals": {
+        "pred_proba_up": 0.3336,
+        "pred_ret": -0.01849,
+        "edge": -0.00615,
+        "alpha_z": -5.6373,
+        "sector": "consumer_discretionary",
+        "sleeves": {
+          "ml_edge": -3.707,
+          "reversal_5d": -3.185,
+          "reversal_1d": 2.124,
+          "momentum_120_20": -1.908
+        }
+      },
+      "why": "Short JDZG: model only 33% up, -1.8% expected \u2014 expected to lag peers. Drivers: model edge -3.7\u03c3; 5-day mean-reversion -3.2\u03c3; 6-month momentum -1.9\u03c3. genome gate: proba\u22650.65, |pred_ret|\u22651.0%, top-6 Unified: ML +0.43. Sized 19.6% of book \u2014 Kelly\u00d70.766, sector-neutralized vs consumer_discretionary peers."
+    }
+  ]
+}

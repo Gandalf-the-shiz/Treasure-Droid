@@ -1,0 +1,25 @@
+# scheduler mode=weekly_deep
+
+# 2026-05-31T14:27:45.253164+00:00 scripts/learning_harness.py --once --mode weekly
+[harness] npu_probe rc=0 (0s)
+[harness] feeds rc=0 (23s)
+[harness] macro rc=0 (135s)
+[harness] regime rc=0 (367s)
+[harness] congress rc=0 (2s)
+[harness] insider rc=1 (81s)
+[harness] soft-fail insider — continuing
+[harness] history rc=0 (750s)
+[harness] train_predictor rc=0 (7950s)
+[harness] promote_predictor rc=1 (0s)
+[harness] soft-fail promote_predictor — continuing
+[harness] predictor challenger not promoted — champion restored
+[harness] investor rc=0 (146s)
+[harness] promote_investor rc=1 (0s)
+[harness] soft-fail promote_investor — continuing
+[harness] investor challenger not promoted — champion restored
+[harness] enrich_sentiment rc=0 (3s)
+[harness] enrich_congress rc=0 (0s)
+[harness] signals rc=0 (0s)
+[harness] reasoning rc=0 (1s)
+[harness] daytrade rc=0 (4s)
+[harness] cycle complete

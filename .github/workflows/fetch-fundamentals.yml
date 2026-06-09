@@ -1,0 +1,59 @@
+name: Fetch Fundamental Data
+
+on:
+  schedule:
+    # Run weekly on Saturdays at 06:00 UTC (no market activity on weekends)
+    - cron: '0 6 * * 6'
+  workflow_dispatch:
+
+concurrency:
+  group: main-branch-writer
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-fundamentals:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      FUNDAMENTALS_MAX_TICKERS: '500'
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Configure Git LFS
+        run: git lfs install
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Fetch fundamentals (SEC Form 4 + yfinance earnings + options P/C)
+        run: python scripts/fetch-fundamentals.py
+        continue-on-error: true
+
+      - name: Commit fundamentals data
+        run: |
+          git config user.name  "Nostradamus Bot"
+          git config user.email "bot@nostradamus.app"
+
+          git add data/fundamentals/ || true
+
+          if git diff --cached --quiet; then
+            echo "No new fundamentals data to commit."
+          else
+            TODAY=$(date -u +%Y-%m-%d)
+            git commit -m "📊 Fundamentals data update [${TODAY}] — insider + earnings + options"
+            git pull --rebase --autostash origin main
+            git push
+          fi

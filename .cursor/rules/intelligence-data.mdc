@@ -1,0 +1,13 @@
+---
+description: Intelligence artifacts — Megamind registry, real agents, arena operating state
+globs:
+  - data/intelligence/**
+---
+
+# Intelligence data conventions
+
+- Megamind registry: `data/intelligence/megamind/registry.json` — set recommendation `status` to `implemented` when done.
+- Active task brief: `.cursor/rules/megamind-active-task.mdc` + `CURRENT_AGENT_PROMPT.md`.
+- Real ML agents: `data/intelligence/real_agents/registry.json` (1 predictor + ≤4 policy slots).
+- Arena operating: champion v3, optional challenger; archived v4+ are harvest-only.
+- Treat arena P&L as **simulated** from `pred_ret`; forward paper is the scoreboard.

@@ -1,0 +1,25 @@
+{
+  "positions": {
+    "JDZG": {
+      "qty": -193,
+      "entryPrice": 50.0,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "SDOT": {
+      "qty": -852,
+      "entryPrice": 11.37,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "XOS": {
+      "qty": -1834,
+      "entryPrice": 5.28,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    }
+  },
+  "cash": 129006.24434,
+  "startingCash": 100000.0,
+  "lastDate": "2026-06-03"
+}

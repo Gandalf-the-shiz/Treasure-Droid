@@ -1,0 +1,16 @@
+{
+  "description": "Politicians whose trades get extra weight in the Robinhood prep agent",
+  "notable": [
+    {"name": "Nancy Pelosi", "aliases": ["Pelosi", "Nancy P"], "weight": 2.0},
+    {"name": "Josh Gottheimer", "aliases": ["Gottheimer"], "weight": 1.3},
+    {"name": "Dan Crenshaw", "aliases": ["Crenshaw"], "weight": 1.2},
+    {"name": "Tommy Tuberville", "aliases": ["Tuberville"], "weight": 1.4},
+    {"name": "Markwayne Mullin", "aliases": ["Mullin"], "weight": 1.2},
+    {"name": "Ro Khanna", "aliases": ["Khanna"], "weight": 1.1},
+    {"name": "Michael McCaul", "aliases": ["McCaul"], "weight": 1.2},
+    {"name": "Suzan K. DelBene", "aliases": ["DelBene"], "weight": 1.1}
+  ],
+  "signalWindowDays": 90,
+  "watchlistHistoryDays": 365,
+  "minAmountMidUsd": 15000
+}

@@ -1,0 +1,37 @@
+# Phase 2: Ticker registry
+requests>=2.31.0
+
+# Phase 3: Historical data
+yfinance>=0.2.36
+pandas>=2.2.0
+
+# Phase 4: Feature engineering
+ta>=0.11.0
+numpy>=1.26.0
+
+# Phase 5: Model training
+tensorflow>=2.16.0
+tensorflowjs>=4.17.0
+protobuf>=4.25.0,<5.0.0
+
+# Phase A: Real sentiment (NewsAPI + Reddit + VADER NLP)
+praw>=7.7.0
+vaderSentiment>=3.3.2
+
+# Phase B: Earnings + insider (scikit-learn for Platt calibration)
+scikit-learn>=1.4.0
+
+# Phase C: Macro regime (FRED API)
+fredapi>=0.5.0
+
+# Phase 6: ONNX export + NPU inference (Snapdragon X / Copilot+)
+# QNN EP 2.x is a plugin: pip install both; register via scripts/npu_runtime.py
+skl2onnx>=1.20.0
+onnxruntime>=1.24
+onnxruntime-qnn>=2.0.0
+fastapi>=0.110.0
+uvicorn>=0.30.0
+
+# Phase 7: Sentiment encoder (FinBERT/MiniLM via ONNX Runtime on NPU)
+transformers>=4.36.0
+optimum[onnxruntime]>=1.20.0

@@ -1,0 +1,11 @@
+{
+  "generatedAt": "2026-06-02T20:18:08Z",
+  "session": "after_hours",
+  "recommendedMode": "daily_close",
+  "sleepSeconds": 1800,
+  "lastRuns": {
+    "intraday_pulse": "2026-06-02T20:08:48Z",
+    "daily_close": "2026-06-01T21:57:18Z",
+    "weekly_deep": "2026-05-31T17:05:28Z"
+  }
+}

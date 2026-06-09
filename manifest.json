@@ -1,0 +1,33 @@
+{
+  "name": "Treasure Droid",
+  "short_name": "Treasure Droid",
+  "description": "Autonomous treasure-hunting AI for the markets — mining the markets for buried treasure.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0b1020",
+  "theme_color": "#0b1020",
+  "orientation": "any",
+  "scope": "./",
+  "lang": "en-US",
+  "categories": ["finance", "productivity"],
+  "icons": [
+    {
+      "src": "assets/treasure-droid-icon.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Command Deck",
+      "url": "./#/home",
+      "description": "Treasure Droid command center"
+    },
+    {
+      "name": "Bounties",
+      "url": "./#/predictions",
+      "description": "Prediction market portfolio"
+    }
+  ]
+}

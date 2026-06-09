@@ -1,0 +1,47 @@
+{
+  "generatedAt": "2026-06-06T14:24:28Z",
+  "ok": true,
+  "mantra": "mad_scientist",
+  "train_end": "2023-12-31",
+  "walkforward": {
+    "start": "2024-01-01",
+    "end": "2025-12-31"
+  },
+  "n_rows": 2252287,
+  "n_days": 502,
+  "n_symbols": 4648,
+  "columns": [
+    "date",
+    "symbol",
+    "sector",
+    "price",
+    "pred_proba_up",
+    "pred_ret",
+    "edge",
+    "alpha",
+    "y_ret",
+    "reversal_1d",
+    "reversal_5d",
+    "momentum_120_20",
+    "n_ml_edge",
+    "n_reversal_1d",
+    "n_reversal_5d",
+    "n_momentum_120_20",
+    "n_pead",
+    "n_revisions",
+    "n_sentiment"
+  ],
+  "path": "data\\intelligence\\historical\\panel.csv.gz",
+  "matches_live": [
+    "date",
+    "symbol",
+    "sector",
+    "pred_proba_up",
+    "pred_ret",
+    "edge",
+    "alpha",
+    "price",
+    "n_<sleeve>"
+  ],
+  "note": "Panel built from predictor exports (8yr-trained model) + PIT price sleeves + same neutralization as live alpha engine. Sparse sleeves (PEAD/revisions/sentiment) omitted in history until dated feeds are backfilled."
+}

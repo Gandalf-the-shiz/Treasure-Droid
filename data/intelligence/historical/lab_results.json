@@ -1,0 +1,891 @@
+{
+  "generatedAt": "2026-06-09T20:58:26Z",
+  "ok": true,
+  "mantra": "mad_scientist",
+  "panel": {
+    "rows": 2252287,
+    "days": 502,
+    "meta": {
+      "start": "2024-01-01",
+      "end": "2025-12-31"
+    }
+  },
+  "method": "8yr-trained predictor v3 (<= 2023-12-31) + 2yr walk-forward panel with alpha frame. Select genomes on first 60% of days; judge on held-out tail.",
+  "caveat": "Mad Scientist upper bound: all genomes share the same predictor + panel. Survivors must still prove forward on live paper. But this panel NOW matches live Treasure Droid outputs (preds + neutralized sleeves + alpha).",
+  "window": {
+    "start": "2024-01-02",
+    "end": "2025-12-31",
+    "nDays": 502,
+    "selectionDays": 301,
+    "holdoutDays": 201
+  },
+  "nGenomes": 350,
+  "nScored": 298,
+  "costBps": 7.0,
+  "topSelectionHeldUp": "43/44",
+  "leaderboard": [
+    {
+      "rank": 1,
+      "id": "ms_0262",
+      "family": "long_short_neutral",
+      "signal": "alpha",
+      "selSharpe": 6.292,
+      "holdSharpe": 2.255,
+      "holdReturnPct": 92.5,
+      "holdDays": 201,
+      "top_k": 32,
+      "short_enabled": true
+    },
+    {
+      "rank": 2,
+      "id": "ms_0281",
+      "family": "contrarian",
+      "signal": "edge",
+      "selSharpe": 6.274,
+      "holdSharpe": 2.896,
+      "holdReturnPct": 178.72,
+      "holdDays": 201,
+      "top_k": 18,
+      "short_enabled": true
+    },
+    {
+      "rank": 3,
+      "id": "ms_0034",
+      "family": "short_bias",
+      "signal": "alpha",
+      "selSharpe": 6.13,
+      "holdSharpe": 3.105,
+      "holdReturnPct": 158.13,
+      "holdDays": 201,
+      "top_k": 19,
+      "short_enabled": true
+    },
+    {
+      "rank": 4,
+      "id": "ms_0126",
+      "family": "long_short_neutral",
+      "signal": "alpha",
+      "selSharpe": 5.972,
+      "holdSharpe": 2.863,
+      "holdReturnPct": 163.04,
+      "holdDays": 201,
+      "top_k": 22,
+      "short_enabled": true
+    },
+    {
+      "rank": 5,
+      "id": "ms_0242",
+      "family": "short_bias",
+      "signal": "edge",
+      "selSharpe": 5.749,
+      "holdSharpe": 1.988,
+      "holdReturnPct": 83.06,
+      "holdDays": 201,
+      "top_k": 30,
+      "short_enabled": true
+    },
+    {
+      "rank": 6,
+      "id": "ms_0151",
+      "family": "ml_edge",
+      "signal": "alpha",
+      "selSharpe": 5.652,
+      "holdSharpe": 2.347,
+      "holdReturnPct": 87.39,
+      "holdDays": 201,
+      "top_k": 27,
+      "short_enabled": true
+    },
+    {
+      "rank": 7,
+      "id": "ms_0098",
+      "family": "ml_edge",
+      "signal": "edge",
+      "selSharpe": 5.381,
+      "holdSharpe": 3.208,
+      "holdReturnPct": 189.77,
+      "holdDays": 201,
+      "top_k": 20,
+      "short_enabled": true
+    },
+    {
+      "rank": 8,
+      "id": "ms_0331",
+      "family": "short_bias",
+      "signal": "edge",
+      "selSharpe": 5.016,
+      "holdSharpe": 3.131,
+      "holdReturnPct": 222.72,
+      "holdDays": 199,
+      "top_k": 29,
+      "short_enabled": true
+    },
+    {
+      "rank": 9,
+      "id": "ms_0018",
+      "family": "ml_edge",
+      "signal": "edge",
+      "selSharpe": 4.615,
+      "holdSharpe": 3.473,
+      "holdReturnPct": 138.75,
+      "holdDays": 141,
+      "top_k": 22,
+      "short_enabled": true
+    },
+    {
+      "rank": 10,
+      "id": "ms_0296",
+      "family": "mean_reverter",
+      "signal": "edge",
+      "selSharpe": 4.469,
+      "holdSharpe": 3.221,
+      "holdReturnPct": 211.99,
+      "holdDays": 200,
+      "top_k": 17,
+      "short_enabled": true
+    },
+    {
+      "rank": 11,
+      "id": "ms_0006",
+      "family": "long_short_neutral",
+      "signal": "alpha",
+      "selSharpe": 4.4,
+      "holdSharpe": 3.336,
+      "holdReturnPct": 190.66,
+      "holdDays": 194,
+      "top_k": 35,
+      "short_enabled": true
+    },
+    {
+      "rank": 12,
+      "id": "ms_0112",
+      "family": "alpha_neutral",
+      "signal": "alpha",
+      "selSharpe": 4.125,
+      "holdSharpe": 2.498,
+      "holdReturnPct": 174.5,
+      "holdDays": 198,
+      "top_k": 20,
+      "short_enabled": true
+    },
+    {
+      "rank": 13,
+      "id": "ms_0325",
+      "family": "short_bias",
+      "signal": "alpha",
+      "selSharpe": 4.122,
+      "holdSharpe": 2.783,
+      "holdReturnPct": 196.87,
+      "holdDays": 195,
+      "top_k": 16,
+      "short_enabled": true
+    },
+    {
+      "rank": 14,
+      "id": "ms_0133",
+      "family": "ml_edge",
+      "signal": "edge",
+      "selSharpe": 4.027,
+      "holdSharpe": 0.463,
+      "holdReturnPct": 7.17,
+      "holdDays": 157,
+      "top_k": 28,
+      "short_enabled": false
+    },
+    {
+      "rank": 15,
+      "id": "ms_0321",
+      "family": "mean_reverter",
+      "signal": "edge",
+      "selSharpe": 3.931,
+      "holdSharpe": 3.568,
+      "holdReturnPct": 346.46,
+      "holdDays": 198,
+      "top_k": 18,
+      "short_enabled": true
+    },
+    {
+      "rank": 16,
+      "id": "ms_0243",
+      "family": "short_bias",
+      "signal": "alpha",
+      "selSharpe": 3.841,
+      "holdSharpe": 2.588,
+      "holdReturnPct": 171.47,
+      "holdDays": 199,
+      "top_k": 14,
+      "short_enabled": true
+    },
+    {
+      "rank": 17,
+      "id": "ms_0287",
+      "family": "high_conviction",
+      "signal": "edge",
+      "selSharpe": 3.81,
+      "holdSharpe": 0.867,
+      "holdReturnPct": 33.3,
+      "holdDays": 117,
+      "top_k": 32,
+      "short_enabled": false
+    },
+    {
+      "rank": 18,
+      "id": "ms_0120",
+      "family": "alpha_neutral",
+      "signal": "alpha",
+      "selSharpe": 3.751,
+      "holdSharpe": 2.828,
+      "holdReturnPct": 218.92,
+      "holdDays": 199,
+      "top_k": 15,
+      "short_enabled": true
+    },
+    {
+      "rank": 19,
+      "id": "ms_0293",
+      "family": "long_short_neutral",
+      "signal": "alpha",
+      "selSharpe": 3.741,
+      "holdSharpe": 2.923,
+      "holdReturnPct": 209.16,
+      "holdDays": 182,
+      "top_k": 7,
+      "short_enabled": true
+    },
+    {
+      "rank": 20,
+      "id": "ms_0147",
+      "family": "alpha_neutral",
+      "signal": "alpha",
+      "selSharpe": 3.711,
+      "holdSharpe": 3.327,
+      "holdReturnPct": 158.74,
+      "holdDays": 174,
+      "top_k": 23,
+      "short_enabled": true
+    },
+    {
+      "rank": 21,
+      "id": "ms_0107",
+      "family": "breakout",
+      "signal": "alpha",
+      "selSharpe": 3.681,
+      "holdSharpe": 3.688,
+      "holdReturnPct": 271.85,
+      "holdDays": 130,
+      "top_k": 19,
+      "short_enabled": true
+    },
+    {
+      "rank": 22,
+      "id": "ms_0328",
+      "family": "contrarian",
+      "signal": "edge",
+      "selSharpe": 3.623,
+      "holdSharpe": 2.916,
+      "holdReturnPct": 201.37,
+      "holdDays": 199,
+      "top_k": 32,
+      "short_enabled": true
+    },
+    {
+      "rank": 23,
+      "id": "ms_0157",
+      "family": "long_short_neutral",
+      "signal": "alpha",
+      "selSharpe": 3.52,
+      "holdSharpe": 1.021,
+      "holdReturnPct": 32.76,
+      "holdDays": 78,
+      "top_k": 15,
+      "short_enabled": true
+    },
+    {
+      "rank": 24,
+      "id": "ms_0237",
+      "family": "long_short_neutral",
+      "signal": "alpha",
+      "selSharpe": 3.485,
+      "holdSharpe": 3.879,
+      "holdReturnPct": 166.3,
+      "holdDays": 113,
+      "top_k": 20,
+      "short_enabled": true
+    },
+    {
+      "rank": 25,
+      "id": "ms_0247",
+      "family": "alpha_neutral",
+      "signal": "alpha",
+      "selSharpe": 3.43,
+      "holdSharpe": 0.833,
+      "holdReturnPct": 22.15,
+      "holdDays": 62,
+      "top_k": 33,
+      "short_enabled": true
+    },
+    {
+      "rank": 26,
+      "id": "ms_0220",
+      "family": "contrarian",
+      "signal": "edge",
+      "selSharpe": 3.374,
+      "holdSharpe": 3.451,
+      "holdReturnPct": 260.55,
+      "holdDays": 110,
+      "top_k": 26,
+      "short_enabled": true
+    },
+    {
+      "rank": 27,
+      "id": "ms_0215",
+      "family": "alpha_neutral",
+      "signal": "alpha",
+      "selSharpe": 3.356,
+      "holdSharpe": 0.903,
+      "holdReturnPct": 28.7,
+      "holdDays": 81,
+      "top_k": 6,
+      "short_enabled": true
+    },
+    {
+      "rank": 28,
+      "id": "ms_0251",
+      "family": "contrarian",
+      "signal": "edge",
+      "selSharpe": 3.312,
+      "holdSharpe": 0.171,
+      "holdReturnPct": 1.04,
+      "holdDays": 22,
+      "top_k": 22,
+      "short_enabled": true
+    },
+    {
+      "rank": 29,
+      "id": "ms_0248",
+      "family": "breakout",
+      "signal": "edge",
+      "selSharpe": 3.308,
+      "holdSharpe": 3.728,
+      "holdReturnPct": 227.82,
+      "holdDays": 120,
+      "top_k": 7,
+      "short_enabled": true
+    },
+    {
+      "rank": 30,
+      "id": "ms_0059",
+      "family": "mean_reverter",
+      "signal": "alpha",
+      "selSharpe": 3.293,
+      "holdSharpe": 0.424,
+      "holdReturnPct": 5.86,
+      "holdDays": 21,
+      "top_k": 32,
+      "short_enabled": true
+    }
+  ],
+  "survivors": [
+    {
+      "id": "ms_0262",
+      "family": "long_short_neutral",
+      "signal": "alpha",
+      "min_proba": 0.537,
+      "min_pred_ret": 0.0022,
+      "top_k": 32,
+      "kelly": 0.391,
+      "short_enabled": true,
+      "short_frac": 0.437,
+      "selection": {
+        "sharpe": 6.292,
+        "totalReturnPct": 1360.1,
+        "hitRate": 0.641,
+        "maxDrawdownPct": -12.38,
+        "nDays": 301
+      },
+      "holdout": {
+        "sharpe": 2.255,
+        "totalReturnPct": 92.5,
+        "hitRate": 0.512,
+        "maxDrawdownPct": -15.42,
+        "nDays": 201
+      }
+    },
+    {
+      "id": "ms_0281",
+      "family": "contrarian",
+      "signal": "edge",
+      "min_proba": 0.558,
+      "min_pred_ret": 0.0031,
+      "top_k": 18,
+      "kelly": 0.46,
+      "short_enabled": true,
+      "short_frac": 0.495,
+      "selection": {
+        "sharpe": 6.274,
+        "totalReturnPct": 2473.28,
+        "hitRate": 0.631,
+        "maxDrawdownPct": -14.26,
+        "nDays": 301
+      },
+      "holdout": {
+        "sharpe": 2.896,
+        "totalReturnPct": 178.72,
+        "hitRate": 0.597,
+        "maxDrawdownPct": -20.56,
+        "nDays": 201
+      }
+    },
+    {
+      "id": "ms_0034",
+      "family": "short_bias",
+      "signal": "alpha",
+      "min_proba": 0.553,
+      "min_pred_ret": 0.0021,
+      "top_k": 19,
+      "kelly": 0.731,
+      "short_enabled": true,
+      "short_frac": 0.494,
+      "selection": {
+        "sharpe": 6.13,
+        "totalReturnPct": 1284.54,
+        "hitRate": 0.654,
+        "maxDrawdownPct": -11.48,
+        "nDays": 301
+      },
+      "holdout": {
+        "sharpe": 3.105,
+        "totalReturnPct": 158.13,
+        "hitRate": 0.557,
+        "maxDrawdownPct": -13.9,
+        "nDays": 201
+      }
+    },
+    {
+      "id": "ms_0126",
+      "family": "long_short_neutral",
+      "signal": "alpha",
+      "min_proba": 0.562,
+      "min_pred_ret": 0.0025,
+      "top_k": 22,
+      "kelly": 0.353,
+      "short_enabled": true,
+      "short_frac": 0.398,
+      "selection": {
+        "sharpe": 5.972,
+        "totalReturnPct": 1663.04,
+        "hitRate": 0.631,
+        "maxDrawdownPct": -14.14,
+        "nDays": 301
+      },
+      "holdout": {
+        "sharpe": 2.863,
+        "totalReturnPct": 163.04,
+        "hitRate": 0.572,
+        "maxDrawdownPct": -15.35,
+        "nDays": 201
+      }
+    },
+    {
+      "id": "ms_0242",
+      "family": "short_bias",
+      "signal": "edge",
+      "min_proba": 0.541,
+      "min_pred_ret": 0.0021,
+      "top_k": 30,
+      "kelly": 0.758,
+      "short_enabled": true,
+      "short_frac": 0.357,
+      "selection": {
+        "sharpe": 5.749,
+        "totalReturnPct": 1227.22,
+        "hitRate": 0.631,
+        "maxDrawdownPct": -14.02,
+        "nDays": 301
+      },
+      "holdout": {
+        "sharpe": 1.988,
+        "totalReturnPct": 83.06,
+        "hitRate": 0.498,
+        "maxDrawdownPct": -17.68,
+        "nDays": 201
+      }
+    },
+    {
+      "id": "ms_0151",
+      "family": "ml_edge",
+      "signal": "alpha",
+      "min_proba": 0.512,
+      "min_pred_ret": 0.0023,
+      "top_k": 27,
+      "kelly": 0.304,
+      "short_enabled": true,
+      "short_frac": 0.531,
+      "selection": {
+        "sharpe": 5.652,
+        "totalReturnPct": 857.73,
+        "hitRate": 0.638,
+        "maxDrawdownPct": -11.68,
+        "nDays": 301
+      },
+      "holdout": {
+        "sharpe": 2.347,
+        "totalReturnPct": 87.39,
+        "hitRate": 0.532,
+        "maxDrawdownPct": -14.06,
+        "nDays": 201
+      }
+    },
+    {
+      "id": "ms_0098",
+      "family": "ml_edge",
+      "signal": "edge",
+      "min_proba": 0.57,
+      "min_pred_ret": 0.0026,
+      "top_k": 20,
+      "kelly": 0.805,
+      "short_enabled": true,
+      "short_frac": 0.494,
+      "selection": {
+        "sharpe": 5.381,
+        "totalReturnPct": 1352.73,
+        "hitRate": 0.608,
+        "maxDrawdownPct": -13.1,
+        "nDays": 301
+      },
+      "holdout": {
+        "sharpe": 3.208,
+        "totalReturnPct": 189.77,
+        "hitRate": 0.617,
+        "maxDrawdownPct": -14.65,
+        "nDays": 201
+      }
+    },
+    {
+      "id": "ms_0331",
+      "family": "short_bias",
+      "signal": "edge",
+      "min_proba": 0.563,
+      "min_pred_ret": 0.0038,
+      "top_k": 29,
+      "kelly": 0.981,
+      "short_enabled": true,
+      "short_frac": 0.449,
+      "selection": {
+        "sharpe": 5.016,
+        "totalReturnPct": 1552.62,
+        "hitRate": 0.617,
+        "maxDrawdownPct": -19.86,
+        "nDays": 300
+      },
+      "holdout": {
+        "sharpe": 3.131,
+        "totalReturnPct": 222.72,
+        "hitRate": 0.583,
+        "maxDrawdownPct": -25.03,
+        "nDays": 199
+      }
+    },
+    {
+      "id": "ms_0018",
+      "family": "ml_edge",
+      "signal": "edge",
+      "min_proba": 0.67,
+      "min_pred_ret": 0.0022,
+      "top_k": 22,
+      "kelly": 0.313,
+      "short_enabled": true,
+      "short_frac": 0.326,
+      "selection": {
+        "sharpe": 4.615,
+        "totalReturnPct": 465.75,
+        "hitRate": 0.682,
+        "maxDrawdownPct": -13.75,
+        "nDays": 198
+      },
+      "holdout": {
+        "sharpe": 3.473,
+        "totalReturnPct": 138.75,
+        "hitRate": 0.645,
+        "maxDrawdownPct": -18.78,
+        "nDays": 141
+      }
+    },
+    {
+      "id": "ms_0296",
+      "family": "mean_reverter",
+      "signal": "edge",
+      "min_proba": 0.504,
+      "min_pred_ret": 0.0035,
+      "top_k": 17,
+      "kelly": 0.511,
+      "short_enabled": true,
+      "short_frac": 0.546,
+      "selection": {
+        "sharpe": 4.469,
+        "totalReturnPct": 1181.87,
+        "hitRate": 0.635,
+        "maxDrawdownPct": -17.12,
+        "nDays": 301
+      },
+      "holdout": {
+        "sharpe": 3.221,
+        "totalReturnPct": 211.99,
+        "hitRate": 0.525,
+        "maxDrawdownPct": -23.0,
+        "nDays": 200
+      }
+    },
+    {
+      "id": "ms_0006",
+      "family": "long_short_neutral",
+      "signal": "alpha",
+      "min_proba": 0.627,
+      "min_pred_ret": 0.0026,
+      "top_k": 35,
+      "kelly": 0.356,
+      "short_enabled": true,
+      "short_frac": 0.497,
+      "selection": {
+        "sharpe": 4.4,
+        "totalReturnPct": 804.02,
+        "hitRate": 0.614,
+        "maxDrawdownPct": -19.71,
+        "nDays": 290
+      },
+      "holdout": {
+        "sharpe": 3.336,
+        "totalReturnPct": 190.66,
+        "hitRate": 0.644,
+        "maxDrawdownPct": -15.12,
+        "nDays": 194
+      }
+    },
+    {
+      "id": "ms_0112",
+      "family": "alpha_neutral",
+      "signal": "alpha",
+      "min_proba": 0.532,
+      "min_pred_ret": 0.0054,
+      "top_k": 20,
+      "kelly": 0.548,
+      "short_enabled": true,
+      "short_frac": 0.309,
+      "selection": {
+        "sharpe": 4.125,
+        "totalReturnPct": 995.62,
+        "hitRate": 0.584,
+        "maxDrawdownPct": -18.47,
+        "nDays": 291
+      },
+      "holdout": {
+        "sharpe": 2.498,
+        "totalReturnPct": 174.5,
+        "hitRate": 0.581,
+        "maxDrawdownPct": -20.67,
+        "nDays": 198
+      }
+    },
+    {
+      "id": "ms_0325",
+      "family": "short_bias",
+      "signal": "alpha",
+      "min_proba": 0.568,
+      "min_pred_ret": 0.0058,
+      "top_k": 16,
+      "kelly": 0.427,
+      "short_enabled": true,
+      "short_frac": 0.342,
+      "selection": {
+        "sharpe": 4.122,
+        "totalReturnPct": 940.75,
+        "hitRate": 0.615,
+        "maxDrawdownPct": -16.82,
+        "nDays": 286
+      },
+      "holdout": {
+        "sharpe": 2.783,
+        "totalReturnPct": 196.87,
+        "hitRate": 0.595,
+        "maxDrawdownPct": -31.5,
+        "nDays": 195
+      }
+    },
+    {
+      "id": "ms_0133",
+      "family": "ml_edge",
+      "signal": "edge",
+      "min_proba": 0.541,
+      "min_pred_ret": 0.0025,
+      "top_k": 28,
+      "kelly": 0.422,
+      "short_enabled": false,
+      "short_frac": 0.0,
+      "selection": {
+        "sharpe": 4.027,
+        "totalReturnPct": 1157.4,
+        "hitRate": 0.572,
+        "maxDrawdownPct": -27.54,
+        "nDays": 250
+      },
+      "holdout": {
+        "sharpe": 0.463,
+        "totalReturnPct": 7.17,
+        "hitRate": 0.497,
+        "maxDrawdownPct": -32.78,
+        "nDays": 157
+      }
+    },
+    {
+      "id": "ms_0321",
+      "family": "mean_reverter",
+      "signal": "edge",
+      "min_proba": 0.561,
+      "min_pred_ret": 0.0051,
+      "top_k": 18,
+      "kelly": 0.246,
+      "short_enabled": true,
+      "short_frac": 0.485,
+      "selection": {
+        "sharpe": 3.931,
+        "totalReturnPct": 1092.27,
+        "hitRate": 0.589,
+        "maxDrawdownPct": -18.55,
+        "nDays": 292
+      },
+      "holdout": {
+        "sharpe": 3.568,
+        "totalReturnPct": 346.46,
+        "hitRate": 0.657,
+        "maxDrawdownPct": -34.9,
+        "nDays": 198
+      }
+    },
+    {
+      "id": "ms_0243",
+      "family": "short_bias",
+      "signal": "alpha",
+      "min_proba": 0.528,
+      "min_pred_ret": 0.004,
+      "top_k": 14,
+      "kelly": 0.215,
+      "short_enabled": true,
+      "short_frac": 0.308,
+      "selection": {
+        "sharpe": 3.841,
+        "totalReturnPct": 744.24,
+        "hitRate": 0.581,
+        "maxDrawdownPct": -19.44,
+        "nDays": 301
+      },
+      "holdout": {
+        "sharpe": 2.588,
+        "totalReturnPct": 171.47,
+        "hitRate": 0.553,
+        "maxDrawdownPct": -27.19,
+        "nDays": 199
+      }
+    },
+    {
+      "id": "ms_0287",
+      "family": "high_conviction",
+      "signal": "edge",
+      "min_proba": 0.549,
+      "min_pred_ret": 0.0045,
+      "top_k": 32,
+      "kelly": 0.244,
+      "short_enabled": false,
+      "short_frac": 0.0,
+      "selection": {
+        "sharpe": 3.81,
+        "totalReturnPct": 929.54,
+        "hitRate": 0.565,
+        "maxDrawdownPct": -31.07,
+        "nDays": 184
+      },
+      "holdout": {
+        "sharpe": 0.867,
+        "totalReturnPct": 33.3,
+        "hitRate": 0.496,
+        "maxDrawdownPct": -36.48,
+        "nDays": 117
+      }
+    },
+    {
+      "id": "ms_0120",
+      "family": "alpha_neutral",
+      "signal": "alpha",
+      "min_proba": 0.529,
+      "min_pred_ret": 0.0052,
+      "top_k": 15,
+      "kelly": 0.901,
+      "short_enabled": true,
+      "short_frac": 0.334,
+      "selection": {
+        "sharpe": 3.751,
+        "totalReturnPct": 791.13,
+        "hitRate": 0.553,
+        "maxDrawdownPct": -21.08,
+        "nDays": 293
+      },
+      "holdout": {
+        "sharpe": 2.828,
+        "totalReturnPct": 218.92,
+        "hitRate": 0.593,
+        "maxDrawdownPct": -19.0,
+        "nDays": 199
+      }
+    },
+    {
+      "id": "ms_0293",
+      "family": "long_short_neutral",
+      "signal": "alpha",
+      "min_proba": 0.634,
+      "min_pred_ret": 0.0034,
+      "top_k": 7,
+      "kelly": 0.81,
+      "short_enabled": true,
+      "short_frac": 0.514,
+      "selection": {
+        "sharpe": 3.741,
+        "totalReturnPct": 814.85,
+        "hitRate": 0.622,
+        "maxDrawdownPct": -24.13,
+        "nDays": 267
+      },
+      "holdout": {
+        "sharpe": 2.923,
+        "totalReturnPct": 209.16,
+        "hitRate": 0.626,
+        "maxDrawdownPct": -15.73,
+        "nDays": 182
+      }
+    },
+    {
+      "id": "ms_0147",
+      "family": "alpha_neutral",
+      "signal": "alpha",
+      "min_proba": 0.638,
+      "min_pred_ret": 0.0047,
+      "top_k": 23,
+      "kelly": 0.334,
+      "short_enabled": true,
+      "short_frac": 0.344,
+      "selection": {
+        "sharpe": 3.711,
+        "totalReturnPct": 419.99,
+        "hitRate": 0.634,
+        "maxDrawdownPct": -15.67,
+        "nDays": 254
+      },
+      "holdout": {
+        "sharpe": 3.327,
+        "totalReturnPct": 158.74,
+        "hitRate": 0.632,
+        "maxDrawdownPct": -15.7,
+        "nDays": 174
+      }
+    }
+  ],
+  "verdict": "Mad Scientist Lab: 43/44 top genomes held up on holdout. Best holdout Sharpe 4.684, 591.19% (187d)."
+}

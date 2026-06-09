@@ -1,0 +1,165 @@
+{
+  "recommendations": {
+    "68668683dc3b": {
+      "id": "68668683dc3b",
+      "area": "arena_selection",
+      "priority": "medium",
+      "finding": "Arena v1 still ahead on cumulative mean \u2014 threshold gate may be filtering noise.",
+      "action": "Keep v1 for production hints; use v2 for diversification research only.",
+      "status": "proposed",
+      "firstSeenAt": "2026-06-06T03:22:50Z",
+      "lastSeenAt": "2026-06-09T19:48:18Z"
+    },
+    "d62c825fff3a": {
+      "id": "d62c825fff3a",
+      "area": "v1_starvation",
+      "priority": "high",
+      "finding": "v1 agents often take 0-1 trades (strict proba/pred_ret filters on sparse panel).",
+      "action": "Already addressed in v2; do not tighten v1 further.",
+      "status": "approved",
+      "firstSeenAt": "2026-06-06T03:22:50Z",
+      "lastSeenAt": "2026-06-09T19:48:18Z"
+    },
+    "b27ac57ee587": {
+      "id": "b27ac57ee587",
+      "area": "v2_diversification",
+      "priority": "info",
+      "finding": "v2 holds more names per book \u2014 better use of 800-symbol panel.",
+      "action": "Monitor forward IC; sim returns still upper bound.",
+      "status": "proposed",
+      "firstSeenAt": "2026-06-06T03:22:50Z",
+      "lastSeenAt": "2026-06-09T19:48:18Z"
+    },
+    "ef0036ed9d37": {
+      "id": "ef0036ed9d37",
+      "area": "concentration_risk",
+      "priority": "high",
+      "finding": "Winners cluster in ['XOS', 'JDZG', 'SDOT'] (often warrants).",
+      "action": "Megamind will update the best v3+ arm or spawn a new one (profit-focused) \u2014 v1/v2 frozen.",
+      "status": "approved",
+      "firstSeenAt": "2026-06-06T03:22:50Z",
+      "lastSeenAt": "2026-06-09T19:48:18Z"
+    },
+    "ceae61d0939d": {
+      "id": "ceae61d0939d",
+      "area": "data_pipelines",
+      "priority": "high",
+      "finding": "Insider Form 4 and Reddit crowd feeds remain weak or blocked.",
+      "action": "Keep SEC insider fetch on schedule; crowd uses ML-proxy until Reddit API restored.",
+      "status": "approved",
+      "firstSeenAt": "2026-06-06T03:22:50Z",
+      "lastSeenAt": "2026-06-09T19:48:18Z"
+    },
+    "d5bc5b46bfd3": {
+      "id": "d5bc5b46bfd3",
+      "area": "live_gate",
+      "priority": "critical",
+      "finding": "Arena sim profit does not prove forward edge.",
+      "action": "Ultimate Model must not open live trading \u2014 only suggest paper experiments.",
+      "status": "approved",
+      "firstSeenAt": "2026-06-06T03:22:50Z",
+      "lastSeenAt": "2026-06-09T19:48:18Z"
+    },
+    "2198920d614c": {
+      "id": "2198920d614c",
+      "area": "fleet_allocation",
+      "priority": "medium",
+      "finding": "Capital should follow the forward-paper leader of the crew, not sim winners.",
+      "action": "Allocate more of the Alpaca paper book to the leading forward agent and demote laggards as track records build.",
+      "status": "proposed",
+      "firstSeenAt": "2026-06-06T03:22:50Z",
+      "lastSeenAt": "2026-06-09T19:48:18Z"
+    },
+    "b6884fb84450": {
+      "id": "b6884fb84450",
+      "area": "data_pipelines",
+      "priority": "medium",
+      "finding": "Consumer/crowd sentiment is an ML-proxy only \u2014 a real consumer-sentiment feed is the biggest untapped uncorrelated sleeve.",
+      "action": "Build a consumer-sentiment pipeline (Reddit + news + Google Trends), wire it as a new alpha sleeve and a Treasure Arena feed, and prove forward IC before weighting it.",
+      "status": "proposed",
+      "firstSeenAt": "2026-06-06T03:22:50Z",
+      "lastSeenAt": "2026-06-09T19:48:18Z"
+    },
+    "f8d8d2d863ac": {
+      "id": "f8d8d2d863ac",
+      "area": "arena_expansion",
+      "priority": "medium",
+      "finding": "Worth testing whether tilting genome/sleeve weights toward fundamental sleeves (PEAD, analyst revisions) raises forward IC.",
+      "action": "Spawn a Treasure Arena vX with re-weighted genomes and compare its forward IC against the champion before promoting.",
+      "status": "proposed",
+      "firstSeenAt": "2026-06-06T03:22:50Z",
+      "lastSeenAt": "2026-06-09T19:48:18Z"
+    },
+    "ff392b43390e": {
+      "id": "ff392b43390e",
+      "area": "model_promotion",
+      "priority": "medium",
+      "finding": "ML challengers should only be promoted on forward proof, never backtest.",
+      "action": "Keep accumulating forward IC before promoting challengers; gate not yet cleared.",
+      "status": "proposed",
+      "firstSeenAt": "2026-06-06T03:22:50Z",
+      "lastSeenAt": "2026-06-09T19:48:18Z"
+    },
+    "7cacf42ad455": {
+      "id": "7cacf42ad455",
+      "area": "concentration_risk",
+      "priority": "high",
+      "finding": "Winners cluster in ['SDOT', 'XOS', 'JDZG'] (often warrants).",
+      "action": "Megamind will update the best v3+ arm or spawn a new one (profit-focused) \u2014 v1/v2 frozen.",
+      "status": "approved",
+      "firstSeenAt": "2026-06-06T04:56:00Z",
+      "lastSeenAt": "2026-06-09T13:26:50Z"
+    },
+    "fbf86386f675": {
+      "id": "fbf86386f675",
+      "area": "concentration_risk",
+      "priority": "high",
+      "finding": "Winners cluster in ['XOS', 'SDOT', 'JDZG'] (often warrants).",
+      "action": "Megamind will update the best v3+ arm or spawn a new one (profit-focused) \u2014 v1/v2 frozen.",
+      "status": "approved",
+      "firstSeenAt": "2026-06-06T11:08:35Z",
+      "lastSeenAt": "2026-06-09T07:05:13Z"
+    },
+    "06d14077e26e": {
+      "id": "06d14077e26e",
+      "area": "concentration_risk",
+      "priority": "high",
+      "finding": "Winners cluster in ['JDZG', 'XOS', 'SDOT'] (often warrants).",
+      "action": "Megamind will update the best v3+ arm or spawn a new one (profit-focused) \u2014 v1/v2 frozen.",
+      "status": "approved",
+      "firstSeenAt": "2026-06-06T14:30:26Z",
+      "lastSeenAt": "2026-06-08T11:55:17Z"
+    },
+    "25b68bbf3bb2": {
+      "id": "25b68bbf3bb2",
+      "area": "mad_scientist_lab",
+      "priority": "high",
+      "finding": "Mad Scientist Lab walks 500 genomes day-by-day on the 2yr historical panel (matching live outputs). Survivors need forward paper proof next.",
+      "action": "Review lab leaderboard on Bridge; ensure weekly lab run promotes shadow fleet agents; kill laggards after 20d forward.",
+      "status": "approved",
+      "firstSeenAt": "2026-06-06T14:30:26Z",
+      "lastSeenAt": "2026-06-09T19:48:18Z"
+    },
+    "b6b1fceb56fa": {
+      "id": "b6b1fceb56fa",
+      "area": "concentration_risk",
+      "priority": "high",
+      "finding": "Winners cluster in ['JDZG', 'SDOT', 'XOS'] (often warrants).",
+      "action": "Megamind will update the best v3+ arm or spawn a new one (profit-focused) \u2014 v1/v2 frozen.",
+      "status": "approved",
+      "firstSeenAt": "2026-06-07T10:19:22Z",
+      "lastSeenAt": "2026-06-08T05:33:41Z"
+    },
+    "dbff372c7c0b": {
+      "id": "dbff372c7c0b",
+      "area": "concentration_risk",
+      "priority": "high",
+      "finding": "Winners cluster in ['SDOT', 'JDZG', 'XOS'] (often warrants).",
+      "action": "Megamind will update the best v3+ arm or spawn a new one (profit-focused) \u2014 v1/v2 frozen.",
+      "status": "approved",
+      "firstSeenAt": "2026-06-08T18:18:15Z",
+      "lastSeenAt": "2026-06-08T18:21:17Z"
+    }
+  },
+  "updatedAt": "2026-06-09T19:48:18Z"
+}

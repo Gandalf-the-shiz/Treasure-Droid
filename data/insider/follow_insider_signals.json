@@ -1,0 +1,61 @@
+{
+  "generatedAt": "2026-06-09T21:18:49Z",
+  "bySymbol": {
+    "FLDDW": {
+      "symbol": "FLDDW",
+      "clusterBuys14d": 7,
+      "uniqueInsiders": 0,
+      "cSuiteBuys": 0,
+      "spikeVs90d": false,
+      "fedMonitorScore": 1.0,
+      "alertLevel": "high",
+      "legalNote": "Public Form 4 only \u2014 follow with delay; paper default",
+      "insiders": [],
+      "latestFiling": "2026-06-02",
+      "followBoost": 1.3,
+      "recommendedSide": "buy"
+    },
+    "FLD": {
+      "symbol": "FLD",
+      "clusterBuys14d": 7,
+      "uniqueInsiders": 0,
+      "cSuiteBuys": 0,
+      "spikeVs90d": false,
+      "fedMonitorScore": 1.0,
+      "alertLevel": "high",
+      "legalNote": "Public Form 4 only \u2014 follow with delay; paper default",
+      "insiders": [],
+      "latestFiling": "2026-06-02",
+      "followBoost": 1.3,
+      "recommendedSide": "buy"
+    },
+    "EDBL": {
+      "symbol": "EDBL",
+      "clusterBuys14d": 4,
+      "uniqueInsiders": 0,
+      "cSuiteBuys": 0,
+      "spikeVs90d": true,
+      "fedMonitorScore": 0.85,
+      "alertLevel": "high",
+      "legalNote": "Public Form 4 only \u2014 follow with delay; paper default",
+      "insiders": [],
+      "latestFiling": "2026-06-05",
+      "followBoost": 1.2975,
+      "recommendedSide": "buy"
+    },
+    "GMEX": {
+      "symbol": "GMEX",
+      "clusterBuys14d": 2,
+      "uniqueInsiders": 0,
+      "cSuiteBuys": 0,
+      "spikeVs90d": false,
+      "fedMonitorScore": 0.3,
+      "alertLevel": "low",
+      "legalNote": "Public Form 4 only \u2014 follow with delay; paper default",
+      "insiders": [],
+      "latestFiling": "2026-06-09",
+      "followBoost": 1.105,
+      "recommendedSide": "watch"
+    }
+  }
+}

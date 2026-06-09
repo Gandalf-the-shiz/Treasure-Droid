@@ -1,0 +1,105 @@
+{
+  "generatedAt": "2026-06-09T21:28:15Z",
+  "maxAgents": 5,
+  "championArena": "v3",
+  "agents": [
+    {
+      "id": "predictor_v3",
+      "role": "predictor",
+      "status": "active",
+      "source": "generate_live_predictions.py",
+      "panelPath": "data/predictions_v3/live.csv",
+      "panelReady": true,
+      "modelDir": "models/v3/predictor"
+    },
+    {
+      "id": "policy_champion_225",
+      "role": "execution_policy",
+      "status": "candidate",
+      "rank": 1,
+      "distilledFrom": "arena_champion",
+      "traderId": 225,
+      "family": "high_conviction",
+      "genome": {
+        "min_proba": 0.541,
+        "min_pred_ret": 0.0104,
+        "short_enabled": true,
+        "short_frac": 0.23,
+        "top_k": 7,
+        "kelly": 0.733,
+        "alt_scale": 1.175,
+        "selection_mode": "rank_v2",
+        "contrarian": false
+      },
+      "simCumulativeReturnPct": 13.4666,
+      "note": "Sim performance \u2014 forward paper required before promotion to active."
+    },
+    {
+      "id": "policy_champion_760",
+      "role": "execution_policy",
+      "status": "candidate",
+      "rank": 2,
+      "distilledFrom": "arena_champion",
+      "traderId": 760,
+      "family": "long_short_neutral",
+      "genome": {
+        "min_proba": 0.651,
+        "min_pred_ret": 0.01,
+        "short_enabled": true,
+        "short_frac": 0.218,
+        "top_k": 6,
+        "kelly": 0.766,
+        "alt_scale": 1.253,
+        "selection_mode": "rank_v2",
+        "contrarian": false
+      },
+      "simCumulativeReturnPct": 13.4576,
+      "note": "Sim performance \u2014 forward paper required before promotion to active."
+    },
+    {
+      "id": "policy_champion_546",
+      "role": "execution_policy",
+      "status": "candidate",
+      "rank": 3,
+      "distilledFrom": "arena_champion",
+      "traderId": 546,
+      "family": "high_conviction",
+      "genome": {
+        "min_proba": 0.538,
+        "min_pred_ret": 0.0089,
+        "short_enabled": true,
+        "short_frac": 0.384,
+        "top_k": 7,
+        "kelly": 0.799,
+        "alt_scale": 0.827,
+        "selection_mode": "rank_v2",
+        "contrarian": false
+      },
+      "simCumulativeReturnPct": 13.4496,
+      "note": "Sim performance \u2014 forward paper required before promotion to active."
+    },
+    {
+      "id": "policy_champion_8",
+      "role": "execution_policy",
+      "status": "candidate",
+      "rank": 4,
+      "distilledFrom": "arena_champion",
+      "traderId": 8,
+      "family": "low_vol",
+      "genome": {
+        "min_proba": 0.603,
+        "min_pred_ret": 0.0061,
+        "short_enabled": true,
+        "short_frac": 0.338,
+        "top_k": 5,
+        "kelly": 0.522,
+        "alt_scale": 1.113,
+        "selection_mode": "rank_v2",
+        "contrarian": false
+      },
+      "simCumulativeReturnPct": 13.4057,
+      "note": "Sim performance \u2014 forward paper required before promotion to active."
+    }
+  ],
+  "policy": "One shared predictor; up to four execution policies distilled from champion sim. Live trading only behind readiness gate."
+}

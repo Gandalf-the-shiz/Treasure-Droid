@@ -1,0 +1,44 @@
+{
+  "generatedAt": "2026-06-09T21:18:49Z",
+  "marketMood": 0.0,
+  "marketMoodLabel": "mixed",
+  "nPosts": 0,
+  "nHeadlines": 12,
+  "topMentioned": [
+    "BOLD",
+    "CAN",
+    "HAS",
+    "NEXT"
+  ],
+  "bySymbol": {
+    "BOLD": {
+      "symbol": "BOLD",
+      "crowdScore": 0.0,
+      "mentions": 1,
+      "traderSentiment": "neutral",
+      "followCrowdBoost": 1.0
+    },
+    "CAN": {
+      "symbol": "CAN",
+      "crowdScore": 0.0,
+      "mentions": 1,
+      "traderSentiment": "neutral",
+      "followCrowdBoost": 1.0
+    },
+    "HAS": {
+      "symbol": "HAS",
+      "crowdScore": 0.0,
+      "mentions": 1,
+      "traderSentiment": "neutral",
+      "followCrowdBoost": 1.0
+    },
+    "NEXT": {
+      "symbol": "NEXT",
+      "crowdScore": 0.0,
+      "mentions": 1,
+      "traderSentiment": "neutral",
+      "followCrowdBoost": 1.0
+    }
+  },
+  "proxyUsed": true
+}

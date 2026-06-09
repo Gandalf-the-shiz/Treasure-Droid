@@ -1,0 +1,47 @@
+name: Fetch Regime Data
+
+on:
+  schedule:
+    - cron: '30 9 * * 1-5'   # 09:30 UTC weekdays (after macro)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-regime:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - run: pip install -r scripts/requirements.txt
+
+      - name: Fetch macro snapshots
+        run: python scripts/fetch-macro.py
+
+      - name: Fetch GDELT regime timeline
+        env:
+          REGIME_GDELT_LOOKBACK_DAYS: 90
+        run: python scripts/fetch-regime-data.py
+
+      - name: Commit regime artefacts
+        run: |
+          git config user.name "Nostradamus Bot"
+          git config user.email "bot@nostradamus.app"
+          git add data/regime/ data/macro/
+          if git diff --cached --quiet; then
+            echo "No regime changes."
+          else
+            git commit -m "📊 Regime data [$(date -u +%Y-%m-%d)]"
+            git pull --rebase --autostash origin main || true
+            git push || true
+          fi

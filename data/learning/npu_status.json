@@ -1,0 +1,19 @@
+{
+  "generatedAt": "2026-06-09T22:50:43Z",
+  "qnnRegistered": true,
+  "qnnDevices": 3,
+  "available": [
+    "QNNExecutionProvider",
+    "AzureExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "selected": [
+    "QNNExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "primary": "QNNExecutionProvider",
+  "preferNpu": true,
+  "soc": "Snapdragon X (X1P64100)",
+  "qnnPackage": "2.1.1",
+  "pennyMlSearch": true
+}

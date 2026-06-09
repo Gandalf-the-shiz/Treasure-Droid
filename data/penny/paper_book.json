@@ -1,0 +1,187 @@
+{
+  "cash": 4000.0,
+  "startingCash": 100000.0,
+  "positions": {
+    "AREN": {
+      "qty": 4285.7143,
+      "avgPx": 1.4,
+      "costBasis": 6000.0,
+      "openedAt": "2026-06-02T01:18:36.963079+00:00",
+      "heat": 100.0,
+      "tag": "hot",
+      "lastPx": 1.4,
+      "marketValue": 6000.0,
+      "unrealizedPnl": 0.0
+    },
+    "TOON": {
+      "qty": 8450.7042,
+      "avgPx": 0.71,
+      "costBasis": 6000.0,
+      "openedAt": "2026-06-02T01:18:36.963079+00:00",
+      "heat": 100.0,
+      "tag": "hot",
+      "lastPx": 0.721,
+      "marketValue": 6092.96,
+      "unrealizedPnl": 92.96
+    },
+    "VENU": {
+      "qty": 1621.6216,
+      "avgPx": 3.7,
+      "costBasis": 6000.0,
+      "openedAt": "2026-06-02T01:18:36.963079+00:00",
+      "heat": 100.0,
+      "tag": "hot",
+      "lastPx": 3.7,
+      "marketValue": 6000.0,
+      "unrealizedPnl": -0.0
+    },
+    "ANGH": {
+      "qty": 1666.6667,
+      "avgPx": 3.6,
+      "costBasis": 6000.0,
+      "openedAt": "2026-06-02T01:18:36.963079+00:00",
+      "heat": 100.0,
+      "tag": "hot",
+      "lastPx": 3.54,
+      "marketValue": 5900.0,
+      "unrealizedPnl": -100.0
+    },
+    "CHAI": {
+      "qty": 5714.2857,
+      "avgPx": 1.05,
+      "costBasis": 6000.0,
+      "openedAt": "2026-06-02T01:18:36.963079+00:00",
+      "heat": 100.0,
+      "tag": "hot",
+      "lastPx": 1.05,
+      "marketValue": 6000.0,
+      "unrealizedPnl": -0.0
+    },
+    "CNVS": {
+      "qty": 2469.1358,
+      "avgPx": 2.43,
+      "costBasis": 6000.0,
+      "openedAt": "2026-06-02T01:18:36.963079+00:00",
+      "heat": 100.0,
+      "tag": "hot",
+      "lastPx": 2.59,
+      "marketValue": 6395.06,
+      "unrealizedPnl": 395.06
+    },
+    "CPOP": {
+      "qty": 19417.4757,
+      "avgPx": 0.309,
+      "costBasis": 6000.0,
+      "openedAt": "2026-06-02T01:18:36.963079+00:00",
+      "heat": 100.0,
+      "tag": "hot",
+      "lastPx": 0.284,
+      "marketValue": 5514.56,
+      "unrealizedPnl": -485.44
+    },
+    "CURI": {
+      "qty": 2097.9021,
+      "avgPx": 2.86,
+      "costBasis": 6000.0,
+      "openedAt": "2026-06-02T01:18:36.963079+00:00",
+      "heat": 100.0,
+      "tag": "hot",
+      "lastPx": 3.23,
+      "marketValue": 6776.22,
+      "unrealizedPnl": 776.22
+    },
+    "FTRK": {
+      "qty": 12500.0,
+      "avgPx": 0.48,
+      "costBasis": 6000.0,
+      "openedAt": "2026-06-02T01:18:36.963079+00:00",
+      "heat": 100.0,
+      "tag": "hot",
+      "lastPx": 0.495,
+      "marketValue": 6187.5,
+      "unrealizedPnl": 187.5
+    },
+    "GAIA": {
+      "qty": 2564.1026,
+      "avgPx": 2.34,
+      "costBasis": 6000.0,
+      "openedAt": "2026-06-02T01:18:36.963079+00:00",
+      "heat": 100.0,
+      "tag": "hot",
+      "lastPx": 2.42,
+      "marketValue": 6205.13,
+      "unrealizedPnl": 205.13
+    },
+    "GAMB": {
+      "qty": 2521.0084,
+      "avgPx": 2.38,
+      "costBasis": 6000.0,
+      "openedAt": "2026-06-02T01:18:36.963079+00:00",
+      "heat": 100.0,
+      "tag": "hot",
+      "lastPx": 2.4,
+      "marketValue": 6050.42,
+      "unrealizedPnl": 50.42
+    },
+    "GAME": {
+      "qty": 14598.5401,
+      "avgPx": 0.411,
+      "costBasis": 6000.0,
+      "openedAt": "2026-06-02T01:18:36.963079+00:00",
+      "heat": 100.0,
+      "tag": "hot",
+      "lastPx": 0.42,
+      "marketValue": 6131.39,
+      "unrealizedPnl": 131.39
+    },
+    "GOGO": {
+      "qty": 1312.9103,
+      "avgPx": 4.57,
+      "costBasis": 6000.0,
+      "openedAt": "2026-06-02T01:19:14.100710+00:00",
+      "heat": 100.0,
+      "tag": "on fire",
+      "lastPx": 4.57,
+      "marketValue": 6000.0,
+      "unrealizedPnl": 0.0
+    },
+    "IHRT": {
+      "qty": 1392.1114,
+      "avgPx": 4.31,
+      "costBasis": 6000.0,
+      "openedAt": "2026-06-02T01:19:14.100710+00:00",
+      "heat": 100.0,
+      "tag": "on fire",
+      "lastPx": 4.31,
+      "marketValue": 6000.0,
+      "unrealizedPnl": 0.0
+    },
+    "IOTR": {
+      "qty": 1534.5269,
+      "avgPx": 3.91,
+      "costBasis": 6000.0,
+      "openedAt": "2026-06-02T01:19:14.100710+00:00",
+      "heat": 100.0,
+      "tag": "on fire",
+      "lastPx": 4.1,
+      "marketValue": 6291.56,
+      "unrealizedPnl": 291.56
+    },
+    "IQ": {
+      "qty": 5263.1579,
+      "avgPx": 1.14,
+      "costBasis": 6000.0,
+      "openedAt": "2026-06-02T01:19:14.100710+00:00",
+      "heat": 100.0,
+      "tag": "hot",
+      "lastPx": 1.14,
+      "marketValue": 6000.0,
+      "unrealizedPnl": 0.0
+    }
+  },
+  "closedTrades": [],
+  "openedAt": "2026-06-02T01:18:05.782454+00:00",
+  "equity": 101544.8,
+  "investedValue": 97544.8,
+  "lastTick": "2026-06-09T21:22:24.553487+00:00"
+}

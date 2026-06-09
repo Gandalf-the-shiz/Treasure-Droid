@@ -1,0 +1,70 @@
+name: Nightly Historical Data Fetch
+
+on:
+  schedule:
+    # Weekdays at 9:30 PM UTC (after NYSE close at 4 PM ET = 8 PM UTC, plus buffer)
+    - cron: '30 21 * * 1-5'
+    # Sunday night full refresh to reset the weekly candle base.
+    - cron: '30 21 * * 0'
+  workflow_dispatch:
+    inputs:
+      full_fetch:
+        description: 'Force a full 1-year fetch (ignore incremental mode)'
+        required: false
+        default: 'false'
+        type: boolean
+
+jobs:
+  fetch-history:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120  # 2 hour timeout for full market fetch
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          lfs: true
+
+      - name: Configure Git LFS
+        run: git lfs install
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Clear manifest for full fetch
+        env:
+          FULL_FETCH_REQUESTED: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.full_fetch == 'true' || github.event.schedule == '30 21 * * 0' }}
+        run: |
+          if [ "$FULL_FETCH_REQUESTED" = "true" ]; then
+            rm -f data/historical/manifest.json
+          fi
+
+      - name: Fetch historical data
+        env:
+          FULL_FETCH_REQUESTED: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.full_fetch == 'true' || github.event.schedule == '30 21 * * 0' }}
+        run: |
+          if [ "$FULL_FETCH_REQUESTED" = "true" ]; then
+            python scripts/fetch-history.py --full-fetch
+          else
+            python scripts/fetch-history.py
+          fi
+
+      - name: Commit and push
+        run: |
+          git config user.name "Nostradamus Bot"
+          git config user.email "bot@nostradamus.app"
+          git add data/historical/
+          git diff --cached --quiet && echo "No changes to commit" && exit 0
+          TICKER_COUNT=$(python -c "import json; d=json.load(open('data/historical/manifest.json')); print(d['totalTickers'])")
+          TODAY=$(date -u +%Y-%m-%d)
+          git commit -m "📈 Historical data update [${TODAY}] — ${TICKER_COUNT} tickers"
+          git pull --rebase --autostash origin main
+          git push

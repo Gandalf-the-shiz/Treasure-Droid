@@ -1,0 +1,2544 @@
+{
+  "generatedAt": "2026-06-09T20:36:50Z",
+  "ok": true,
+  "universe": 1258,
+  "sleevesUsed": {
+    "ml_edge": 1.0,
+    "reversal_5d": 0.7,
+    "reversal_1d": 0.5,
+    "momentum_120_20": 0.4,
+    "pead": 0.8,
+    "revisions": 0.6,
+    "sentiment": 0.5
+  },
+  "weightMode": "static_config",
+  "config": {
+    "top_frac": 0.1,
+    "gross_exposure": 1.0,
+    "max_name_weight": 0.04,
+    "min_names_per_side": 5,
+    "sleeve_weights": {
+      "ml_edge": 1.0,
+      "reversal_5d": 0.7,
+      "reversal_1d": 0.5,
+      "momentum_120_20": 0.4,
+      "pead": 0.8,
+      "revisions": 0.6,
+      "sentiment": 0.5,
+      "ml_proba": 0.0
+    },
+    "winsor": 0.02,
+    "_comment": "Cross-sectional alpha engine (Alpha Doctrine Phase A). Weights validated on test window: blended neutralized spread flipped POSITIVE (+0.00028) with ICIR 0.27, IC 0.0284 > raw 0.0267. Tune sleeve_weights as new sleeves prove forward IC."
+  },
+  "book": {
+    "longs": [
+      {
+        "symbol": "EPRX",
+        "sector": "healthcare",
+        "side": "long",
+        "weight": 0.00833,
+        "price": 6.45,
+        "alpha": 5.77397,
+        "pred_proba_up": 0.5319,
+        "pred_ret": 0.00116
+      },
+      {
+        "symbol": "CRCL",
+        "sector": "financials",
+        "side": "long",
+        "weight": 0.00744,
+        "price": 90.54,
+        "alpha": 5.16012,
+        "pred_proba_up": 0.579,
+        "pred_ret": 0.00691
+      },
+      {
+        "symbol": "WEN",
+        "sector": "consumer_discretionary",
+        "side": "long",
+        "weight": 0.00719,
+        "price": 6.75,
+        "alpha": 4.98201,
+        "pred_proba_up": 0.5482,
+        "pred_ret": 0.00127
+      },
+      {
+        "symbol": "KVHI",
+        "sector": "communication_services",
+        "side": "long",
+        "weight": 0.0068,
+        "price": 8.41,
+        "alpha": 4.71497,
+        "pred_proba_up": 0.517,
+        "pred_ret": 0.00223
+      },
+      {
+        "symbol": "RILY",
+        "sector": "financials",
+        "side": "long",
+        "weight": 0.00653,
+        "price": 9.15,
+        "alpha": 4.52857,
+        "pred_proba_up": 0.5113,
+        "pred_ret": 0.00088
+      },
+      {
+        "symbol": "BUD",
+        "sector": "consumer_staples",
+        "side": "long",
+        "weight": 0.00631,
+        "price": 77.92,
+        "alpha": 4.37602,
+        "pred_proba_up": 0.5314,
+        "pred_ret": 0.00069
+      },
+      {
+        "symbol": "APLS",
+        "sector": "healthcare",
+        "side": "long",
+        "weight": 0.00608,
+        "price": 41.03,
+        "alpha": 4.21198,
+        "pred_proba_up": 0.5314,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "CNTA",
+        "sector": "healthcare",
+        "side": "long",
+        "weight": 0.00593,
+        "price": 39.8,
+        "alpha": 4.11339,
+        "pred_proba_up": 0.5482,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "SG",
+        "sector": "consumer_discretionary",
+        "side": "long",
+        "weight": 0.00576,
+        "price": 7.37,
+        "alpha": 3.99313,
+        "pred_proba_up": 0.5134,
+        "pred_ret": 0.0014
+      },
+      {
+        "symbol": "WMS",
+        "sector": "consumer_discretionary",
+        "side": "long",
+        "weight": 0.00573,
+        "price": 131.2,
+        "alpha": 3.97002,
+        "pred_proba_up": 0.5081,
+        "pred_ret": 0.00054
+      },
+      {
+        "symbol": "ANAB",
+        "sector": "healthcare",
+        "side": "long",
+        "weight": 0.00572,
+        "price": 51.67,
+        "alpha": 3.96828,
+        "pred_proba_up": 0.5035,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "ELVN",
+        "sector": "healthcare",
+        "side": "long",
+        "weight": 0.00565,
+        "price": 35.49,
+        "alpha": 3.91725,
+        "pred_proba_up": 0.4835,
+        "pred_ret": 0.00043
+      },
+      {
+        "symbol": "ASST",
+        "sector": "financials",
+        "side": "long",
+        "weight": 0.00548,
+        "price": 15.02,
+        "alpha": 3.79851,
+        "pred_proba_up": 0.517,
+        "pred_ret": 0.00162
+      },
+      {
+        "symbol": "ATNI",
+        "sector": "communication_services",
+        "side": "long",
+        "weight": 0.00543,
+        "price": 25.89,
+        "alpha": 3.76795,
+        "pred_proba_up": 0.517,
+        "pred_ret": 0.00133
+      },
+      {
+        "symbol": "AEVA",
+        "sector": "consumer_discretionary",
+        "side": "long",
+        "weight": 0.00538,
+        "price": 24.4,
+        "alpha": 3.72701,
+        "pred_proba_up": 0.5081,
+        "pred_ret": 0.0014
+      },
+      {
+        "symbol": "DRUG",
+        "sector": "healthcare",
+        "side": "long",
+        "weight": 0.00537,
+        "price": 74.5,
+        "alpha": 3.72435,
+        "pred_proba_up": 0.5083,
+        "pred_ret": 0.00076
+      },
+      {
+        "symbol": "ULTA",
+        "sector": "consumer_discretionary",
+        "side": "long",
+        "weight": 0.00528,
+        "price": 462.52,
+        "alpha": 3.6573,
+        "pred_proba_up": 0.4993,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "BTSG",
+        "sector": "healthcare",
+        "side": "long",
+        "weight": 0.00511,
+        "price": 57.4,
+        "alpha": 3.54428,
+        "pred_proba_up": 0.5113,
+        "pred_ret": 0.00038
+      },
+      {
+        "symbol": "PUK",
+        "sector": "financials",
+        "side": "long",
+        "weight": 0.005,
+        "price": 26.11,
+        "alpha": 3.4687,
+        "pred_proba_up": 0.5247,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "ARDX",
+        "sector": "healthcare",
+        "side": "long",
+        "weight": 0.005,
+        "price": 5.4,
+        "alpha": 3.46547,
+        "pred_proba_up": 0.5041,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "BLMN",
+        "sector": "consumer_discretionary",
+        "side": "long",
+        "weight": 0.00483,
+        "price": 7.14,
+        "alpha": 3.3484,
+        "pred_proba_up": 0.517,
+        "pred_ret": 0.00088
+      },
+      {
+        "symbol": "GTX",
+        "sector": "consumer_discretionary",
+        "side": "long",
+        "weight": 0.00481,
+        "price": 32.86,
+        "alpha": 3.33235,
+        "pred_proba_up": 0.5081,
+        "pred_ret": 0.00038
+      },
+      {
+        "symbol": "AURA",
+        "sector": "healthcare",
+        "side": "long",
+        "weight": 0.00478,
+        "price": 6.8,
+        "alpha": 3.31328,
+        "pred_proba_up": 0.5035,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "USCI",
+        "sector": "financials",
+        "side": "long",
+        "weight": 0.00478,
+        "price": 98.11,
+        "alpha": 3.31141,
+        "pred_proba_up": 0.5482,
+        "pred_ret": 0.00054
+      },
+      {
+        "symbol": "PWP",
+        "sector": "financials",
+        "side": "long",
+        "weight": 0.00473,
+        "price": 15.52,
+        "alpha": 3.2778,
+        "pred_proba_up": 0.5314,
+        "pred_ret": 0.00076
+      },
+      {
+        "symbol": "EWCZ",
+        "sector": "consumer_discretionary",
+        "side": "long",
+        "weight": 0.00469,
+        "price": 5.82,
+        "alpha": 3.24937,
+        "pred_proba_up": 0.6113,
+        "pred_ret": 0.00069
+      },
+      {
+        "symbol": "RUSHA",
+        "sector": "consumer_discretionary",
+        "side": "long",
+        "weight": 0.00468,
+        "price": 66.12,
+        "alpha": 3.24523,
+        "pred_proba_up": 0.517,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "LAD",
+        "sector": "consumer_discretionary",
+        "side": "long",
+        "weight": 0.00468,
+        "price": 290.6,
+        "alpha": 3.24455,
+        "pred_proba_up": 0.579,
+        "pred_ret": 0.00069
+      },
+      {
+        "symbol": "AGRO",
+        "sector": "consumer_staples",
+        "side": "long",
+        "weight": 0.00465,
+        "price": 12.11,
+        "alpha": 3.22581,
+        "pred_proba_up": 0.517,
+        "pred_ret": 0.00097
+      },
+      {
+        "symbol": "IMKTA",
+        "sector": "consumer_staples",
+        "side": "long",
+        "weight": 0.00462,
+        "price": 87.14,
+        "alpha": 3.20019,
+        "pred_proba_up": 0.5314,
+        "pred_ret": 0.00069
+      },
+      {
+        "symbol": "LLYVA",
+        "sector": "communication_services",
+        "side": "long",
+        "weight": 0.00448,
+        "price": 88.64,
+        "alpha": 3.10351,
+        "pred_proba_up": 0.5197,
+        "pred_ret": 0.00058
+      },
+      {
+        "symbol": "STRF",
+        "sector": "financials",
+        "side": "long",
+        "weight": 0.00443,
+        "price": 95.29,
+        "alpha": 3.07261,
+        "pred_proba_up": 0.5482,
+        "pred_ret": 0.00054
+      },
+      {
+        "symbol": "VZ",
+        "sector": "communication_services",
+        "side": "long",
+        "weight": 0.00435,
+        "price": 44.87,
+        "alpha": 3.01733,
+        "pred_proba_up": 0.5081,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "TGT",
+        "sector": "consumer_discretionary",
+        "side": "long",
+        "weight": 0.00435,
+        "price": 123.85,
+        "alpha": 3.01294,
+        "pred_proba_up": 0.5035,
+        "pred_ret": 0.00043
+      },
+      {
+        "symbol": "CLYM",
+        "sector": "healthcare",
+        "side": "long",
+        "weight": 0.00433,
+        "price": 10.91,
+        "alpha": 3.00243,
+        "pred_proba_up": 0.5081,
+        "pred_ret": 0.00076
+      },
+      {
+        "symbol": "BAP",
+        "sector": "financials",
+        "side": "long",
+        "weight": 0.0042,
+        "price": 326.53,
+        "alpha": 2.91376,
+        "pred_proba_up": 0.5752,
+        "pred_ret": 0.00097
+      },
+      {
+        "symbol": "JHG",
+        "sector": "financials",
+        "side": "long",
+        "weight": 0.00417,
+        "price": 51.78,
+        "alpha": 2.89116,
+        "pred_proba_up": 0.5888,
+        "pred_ret": 0.00069
+      },
+      {
+        "symbol": "DRDB",
+        "sector": "financials",
+        "side": "long",
+        "weight": 0.00416,
+        "price": 10.52,
+        "alpha": 2.8866,
+        "pred_proba_up": 0.6088,
+        "pred_ret": 0.00069
+      },
+      {
+        "symbol": "CVSA",
+        "sector": "consumer_discretionary",
+        "side": "long",
+        "weight": 0.00416,
+        "price": 124.45,
+        "alpha": 2.88312,
+        "pred_proba_up": 0.5035,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "FGMC",
+        "sector": "financials",
+        "side": "long",
+        "weight": 0.00412,
+        "price": 10.36,
+        "alpha": 2.85949,
+        "pred_proba_up": 0.579,
+        "pred_ret": 0.00054
+      },
+      {
+        "symbol": "ATHS",
+        "sector": "financials",
+        "side": "long",
+        "weight": 0.00412,
+        "price": 25.01,
+        "alpha": 2.85597,
+        "pred_proba_up": 0.6088,
+        "pred_ret": 0.00069
+      },
+      {
+        "symbol": "BKKT",
+        "sector": "financials",
+        "side": "long",
+        "weight": 0.00411,
+        "price": 9.18,
+        "alpha": 2.85288,
+        "pred_proba_up": 0.5134,
+        "pred_ret": 0.00162
+      },
+      {
+        "symbol": "ALMS",
+        "sector": "healthcare",
+        "side": "long",
+        "weight": 0.00411,
+        "price": 20.39,
+        "alpha": 2.84893,
+        "pred_proba_up": 0.4956,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "ANSC",
+        "sector": "financials",
+        "side": "long",
+        "weight": 0.0041,
+        "price": 11.37,
+        "alpha": 2.84162,
+        "pred_proba_up": 0.5752,
+        "pred_ret": 0.00069
+      },
+      {
+        "symbol": "FIVE",
+        "sector": "consumer_discretionary",
+        "side": "long",
+        "weight": 0.0041,
+        "price": 192.17,
+        "alpha": 2.84109,
+        "pred_proba_up": 0.4993,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "DGXX",
+        "sector": "financials",
+        "side": "long",
+        "weight": 0.0041,
+        "price": 7.48,
+        "alpha": 2.84101,
+        "pred_proba_up": 0.5081,
+        "pred_ret": 0.00088
+      },
+      {
+        "symbol": "IHS",
+        "sector": "communication_services",
+        "side": "long",
+        "weight": 0.00408,
+        "price": 8.3,
+        "alpha": 2.82771,
+        "pred_proba_up": 0.5919,
+        "pred_ret": 0.00069
+      },
+      {
+        "symbol": "NFBK",
+        "sector": "financials",
+        "side": "long",
+        "weight": 0.00408,
+        "price": 14.26,
+        "alpha": 2.82589,
+        "pred_proba_up": 0.561,
+        "pred_ret": 0.00069
+      },
+      {
+        "symbol": "TTI",
+        "sector": "energy",
+        "side": "long",
+        "weight": 0.00407,
+        "price": 9.93,
+        "alpha": 2.82204,
+        "pred_proba_up": 0.5113,
+        "pred_ret": 0.00216
+      },
+      {
+        "symbol": "AMRN",
+        "sector": "healthcare",
+        "side": "long",
+        "weight": 0.00407,
+        "price": 13.8,
+        "alpha": 2.81975,
+        "pred_proba_up": 0.4993,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "DBB",
+        "sector": "financials",
+        "side": "long",
+        "weight": 0.00407,
+        "price": 26.22,
+        "alpha": 2.81896,
+        "pred_proba_up": 0.553,
+        "pred_ret": 0.00054
+      },
+      {
+        "symbol": "ASND",
+        "sector": "healthcare",
+        "side": "long",
+        "weight": 0.00403,
+        "price": 218.84,
+        "alpha": 2.79395,
+        "pred_proba_up": 0.5113,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "LLYVK",
+        "sector": "communication_services",
+        "side": "long",
+        "weight": 0.00403,
+        "price": 91.53,
+        "alpha": 2.7935,
+        "pred_proba_up": 0.5151,
+        "pred_ret": 0.00058
+      },
+      {
+        "symbol": "AHCO",
+        "sector": "healthcare",
+        "side": "long",
+        "weight": 0.00396,
+        "price": 9.73,
+        "alpha": 2.74374,
+        "pred_proba_up": 0.5134,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "CMG",
+        "sector": "consumer_discretionary",
+        "side": "long",
+        "weight": 0.00395,
+        "price": 28.18,
+        "alpha": 2.74153,
+        "pred_proba_up": 0.5247,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "DJP",
+        "sector": "financials",
+        "side": "long",
+        "weight": 0.00394,
+        "price": 48.54,
+        "alpha": 2.73199,
+        "pred_proba_up": 0.5413,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "DBC",
+        "sector": "financials",
+        "side": "long",
+        "weight": 0.00394,
+        "price": 29.88,
+        "alpha": 2.72993,
+        "pred_proba_up": 0.5458,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "ELMD",
+        "sector": "healthcare",
+        "side": "long",
+        "weight": 0.00393,
+        "price": 36.72,
+        "alpha": 2.72344,
+        "pred_proba_up": 0.5149,
+        "pred_ret": 0.00088
+      },
+      {
+        "symbol": "PBR-A",
+        "sector": "energy",
+        "side": "long",
+        "weight": 0.0039,
+        "price": 16.16,
+        "alpha": 2.70288,
+        "pred_proba_up": 0.517,
+        "pred_ret": 0.00069
+      },
+      {
+        "symbol": "SBUX",
+        "sector": "consumer_discretionary",
+        "side": "long",
+        "weight": 0.00385,
+        "price": 94.14,
+        "alpha": 2.66609,
+        "pred_proba_up": 0.5247,
+        "pred_ret": 0.00054
+      },
+      {
+        "symbol": "NIC",
+        "sector": "financials",
+        "side": "long",
+        "weight": 0.00384,
+        "price": 136.23,
+        "alpha": 2.66181,
+        "pred_proba_up": 0.5413,
+        "pred_ret": 0.00097
+      },
+      {
+        "symbol": "CSV",
+        "sector": "consumer_discretionary",
+        "side": "long",
+        "weight": 0.0038,
+        "price": 37.55,
+        "alpha": 2.63417,
+        "pred_proba_up": 0.517,
+        "pred_ret": 0.00058
+      },
+      {
+        "symbol": "CODI",
+        "sector": "consumer_discretionary",
+        "side": "long",
+        "weight": 0.00379,
+        "price": 10.67,
+        "alpha": 2.62754,
+        "pred_proba_up": 0.5035,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "DIS",
+        "sector": "communication_services",
+        "side": "long",
+        "weight": 0.00374,
+        "price": 99.34,
+        "alpha": 2.59458,
+        "pred_proba_up": 0.5149,
+        "pred_ret": 0.00058
+      },
+      {
+        "symbol": "GIL",
+        "sector": "consumer_discretionary",
+        "side": "long",
+        "weight": 0.00373,
+        "price": 57.87,
+        "alpha": 2.58459,
+        "pred_proba_up": 0.5113,
+        "pred_ret": 0.00054
+      },
+      {
+        "symbol": "TJX",
+        "sector": "consumer_discretionary",
+        "side": "long",
+        "weight": 0.00372,
+        "price": 158.63,
+        "alpha": 2.58139,
+        "pred_proba_up": 0.5081,
+        "pred_ret": 0.00038
+      },
+      {
+        "symbol": "OPLN",
+        "sector": "consumer_discretionary",
+        "side": "long",
+        "weight": 0.00368,
+        "price": 36.51,
+        "alpha": 2.5489,
+        "pred_proba_up": 0.5151,
+        "pred_ret": 0.00058
+      },
+      {
+        "symbol": "TD",
+        "sector": "financials",
+        "side": "long",
+        "weight": 0.00367,
+        "price": 113.75,
+        "alpha": 2.54431,
+        "pred_proba_up": 0.561,
+        "pred_ret": 0.00069
+      },
+      {
+        "symbol": "UGA",
+        "sector": "financials",
+        "side": "long",
+        "weight": 0.00363,
+        "price": 105.37,
+        "alpha": 2.51736,
+        "pred_proba_up": 0.5113,
+        "pred_ret": 0.00054
+      },
+      {
+        "symbol": "WBS",
+        "sector": "financials",
+        "side": "long",
+        "weight": 0.00363,
+        "price": 72.9,
+        "alpha": 2.51659,
+        "pred_proba_up": 0.5539,
+        "pred_ret": 0.00058
+      },
+      {
+        "symbol": "WEST",
+        "sector": "consumer_staples",
+        "side": "long",
+        "weight": 0.00362,
+        "price": 7.51,
+        "alpha": 2.50823,
+        "pred_proba_up": 0.5041,
+        "pred_ret": 0.00088
+      },
+      {
+        "symbol": "GILD",
+        "sector": "healthcare",
+        "side": "long",
+        "weight": 0.00361,
+        "price": 129.18,
+        "alpha": 2.50074,
+        "pred_proba_up": 0.4993,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "TILE",
+        "sector": "consumer_discretionary",
+        "side": "long",
+        "weight": 0.00354,
+        "price": 29.75,
+        "alpha": 2.45308,
+        "pred_proba_up": 0.5035,
+        "pred_ret": 0.00038
+      },
+      {
+        "symbol": "BTC",
+        "sector": "financials",
+        "side": "long",
+        "weight": 0.00353,
+        "price": 28.1,
+        "alpha": 2.44959,
+        "pred_proba_up": 0.5113,
+        "pred_ret": 0.00054
+      },
+      {
+        "symbol": "WYFI",
+        "sector": "financials",
+        "side": "long",
+        "weight": 0.00353,
+        "price": 27.46,
+        "alpha": 2.44808,
+        "pred_proba_up": 0.5035,
+        "pred_ret": 0.00065
+      },
+      {
+        "symbol": "BITB",
+        "sector": "financials",
+        "side": "long",
+        "weight": 0.00352,
+        "price": 34.51,
+        "alpha": 2.44242,
+        "pred_proba_up": 0.5113,
+        "pred_ret": 0.00054
+      },
+      {
+        "symbol": "AMZN",
+        "sector": "consumer_discretionary",
+        "side": "long",
+        "weight": 0.00349,
+        "price": 253.79,
+        "alpha": 2.42123,
+        "pred_proba_up": 0.5314,
+        "pred_ret": 0.00054
+      },
+      {
+        "symbol": "ESQ",
+        "sector": "financials",
+        "side": "long",
+        "weight": 0.00349,
+        "price": 108.62,
+        "alpha": 2.41853,
+        "pred_proba_up": 0.5482,
+        "pred_ret": 0.00097
+      },
+      {
+        "symbol": "CYTK",
+        "sector": "healthcare",
+        "side": "long",
+        "weight": 0.00346,
+        "price": 72.29,
+        "alpha": 2.39733,
+        "pred_proba_up": 0.5113,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "LCII",
+        "sector": "consumer_discretionary",
+        "side": "long",
+        "weight": 0.00344,
+        "price": 96.04,
+        "alpha": 2.38811,
+        "pred_proba_up": 0.487,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "PVH",
+        "sector": "consumer_discretionary",
+        "side": "long",
+        "weight": 0.00342,
+        "price": 78.16,
+        "alpha": 2.37265,
+        "pred_proba_up": 0.4835,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "WH",
+        "sector": "consumer_discretionary",
+        "side": "long",
+        "weight": 0.00341,
+        "price": 79.69,
+        "alpha": 2.36155,
+        "pred_proba_up": 0.5113,
+        "pred_ret": 0.00058
+      },
+      {
+        "symbol": "BKE",
+        "sector": "consumer_discretionary",
+        "side": "long",
+        "weight": 0.0034,
+        "price": 43.56,
+        "alpha": 2.35399,
+        "pred_proba_up": 0.5041,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "GBTC",
+        "sector": "financials",
+        "side": "long",
+        "weight": 0.00334,
+        "price": 49.34,
+        "alpha": 2.31328,
+        "pred_proba_up": 0.5113,
+        "pred_ret": 0.00058
+      },
+      {
+        "symbol": "GSAT",
+        "sector": "communication_services",
+        "side": "long",
+        "weight": 0.00333,
+        "price": 82.65,
+        "alpha": 2.31165,
+        "pred_proba_up": 0.5413,
+        "pred_ret": 0.00058
+      },
+      {
+        "symbol": "ENTA",
+        "sector": "healthcare",
+        "side": "long",
+        "weight": 0.00332,
+        "price": 11.73,
+        "alpha": 2.29935,
+        "pred_proba_up": 0.5041,
+        "pred_ret": 0.00076
+      },
+      {
+        "symbol": "FSS",
+        "sector": "consumer_discretionary",
+        "side": "long",
+        "weight": 0.00332,
+        "price": 107.91,
+        "alpha": 2.29897,
+        "pred_proba_up": 0.5041,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "KRNY",
+        "sector": "financials",
+        "side": "long",
+        "weight": 0.00327,
+        "price": 8.23,
+        "alpha": 2.26878,
+        "pred_proba_up": 0.5413,
+        "pred_ret": 0.00069
+      },
+      {
+        "symbol": "FBRX",
+        "sector": "healthcare",
+        "side": "long",
+        "weight": 0.00327,
+        "price": 16.69,
+        "alpha": 2.26624,
+        "pred_proba_up": 0.469,
+        "pred_ret": 0.00054
+      },
+      {
+        "symbol": "PBA",
+        "sector": "energy",
+        "side": "long",
+        "weight": 0.00325,
+        "price": 49.25,
+        "alpha": 2.2544,
+        "pred_proba_up": 0.5752,
+        "pred_ret": 0.00069
+      },
+      {
+        "symbol": "RL",
+        "sector": "consumer_discretionary",
+        "side": "long",
+        "weight": 0.00322,
+        "price": 366.72,
+        "alpha": 2.23382,
+        "pred_proba_up": 0.5113,
+        "pred_ret": 0.00054
+      },
+      {
+        "symbol": "CXDO",
+        "sector": "communication_services",
+        "side": "long",
+        "weight": 0.00321,
+        "price": 8.93,
+        "alpha": 2.22815,
+        "pred_proba_up": 0.4993,
+        "pred_ret": 0.00151
+      },
+      {
+        "symbol": "SLDE",
+        "sector": "financials",
+        "side": "long",
+        "weight": 0.00321,
+        "price": 16.03,
+        "alpha": 2.22486,
+        "pred_proba_up": 0.5113,
+        "pred_ret": 0.00058
+      },
+      {
+        "symbol": "FCFS",
+        "sector": "consumer_discretionary",
+        "side": "long",
+        "weight": 0.0032,
+        "price": 222.44,
+        "alpha": 2.21986,
+        "pred_proba_up": 0.5081,
+        "pred_ret": 0.00038
+      },
+      {
+        "symbol": "SSL",
+        "sector": "energy",
+        "side": "long",
+        "weight": 0.00318,
+        "price": 13.29,
+        "alpha": 2.20144,
+        "pred_proba_up": 0.5209,
+        "pred_ret": 0.00069
+      },
+      {
+        "symbol": "ARVN",
+        "sector": "healthcare",
+        "side": "long",
+        "weight": 0.00317,
+        "price": 7.74,
+        "alpha": 2.20054,
+        "pred_proba_up": 0.4947,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "ARCO",
+        "sector": "consumer_discretionary",
+        "side": "long",
+        "weight": 0.00317,
+        "price": 8.26,
+        "alpha": 2.19577,
+        "pred_proba_up": 0.5113,
+        "pred_ret": 0.00058
+      },
+      {
+        "symbol": "SLF",
+        "sector": "financials",
+        "side": "long",
+        "weight": 0.00316,
+        "price": 72.96,
+        "alpha": 2.19144,
+        "pred_proba_up": 0.5413,
+        "pred_ret": 0.00058
+      },
+      {
+        "symbol": "F",
+        "sector": "consumer_discretionary",
+        "side": "long",
+        "weight": 0.00316,
+        "price": 15.34,
+        "alpha": 2.18754,
+        "pred_proba_up": 0.5113,
+        "pred_ret": 0.00054
+      },
+      {
+        "symbol": "STRK",
+        "sector": "financials",
+        "side": "long",
+        "weight": 0.00315,
+        "price": 68.25,
+        "alpha": 2.18085,
+        "pred_proba_up": 0.5247,
+        "pred_ret": 0.00069
+      },
+      {
+        "symbol": "ENTG",
+        "sector": "consumer_discretionary",
+        "side": "long",
+        "weight": 0.00312,
+        "price": 139.88,
+        "alpha": 2.16257,
+        "pred_proba_up": 0.5113,
+        "pred_ret": 0.00076
+      },
+      {
+        "symbol": "GSG",
+        "sector": "financials",
+        "side": "long",
+        "weight": 0.0031,
+        "price": 32.39,
+        "alpha": 2.15019,
+        "pred_proba_up": 0.5314,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "OBT",
+        "sector": "financials",
+        "side": "long",
+        "weight": 0.00309,
+        "price": 34.06,
+        "alpha": 2.14219,
+        "pred_proba_up": 0.5313,
+        "pred_ret": 0.00069
+      },
+      {
+        "symbol": "ROST",
+        "sector": "consumer_discretionary",
+        "side": "long",
+        "weight": 0.00306,
+        "price": 233.06,
+        "alpha": 2.1188,
+        "pred_proba_up": 0.5081,
+        "pred_ret": 0.00038
+      },
+      {
+        "symbol": "AMCX",
+        "sector": "communication_services",
+        "side": "long",
+        "weight": 0.00303,
+        "price": 9.75,
+        "alpha": 2.10201,
+        "pred_proba_up": 0.5314,
+        "pred_ret": 0.00225
+      },
+      {
+        "symbol": "CGON",
+        "sector": "healthcare",
+        "side": "long",
+        "weight": 0.00301,
+        "price": 56.09,
+        "alpha": 2.08605,
+        "pred_proba_up": 0.4927,
+        "pred_ret": 0.00054
+      },
+      {
+        "symbol": "CPRX",
+        "sector": "healthcare",
+        "side": "long",
+        "weight": 0.00301,
+        "price": 31.29,
+        "alpha": 2.08432,
+        "pred_proba_up": 0.5081,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "SDRL",
+        "sector": "energy",
+        "side": "long",
+        "weight": 0.00298,
+        "price": 45.67,
+        "alpha": 2.06825,
+        "pred_proba_up": 0.5134,
+        "pred_ret": 0.00058
+      },
+      {
+        "symbol": "HGV",
+        "sector": "consumer_discretionary",
+        "side": "long",
+        "weight": 0.00297,
+        "price": 49.01,
+        "alpha": 2.05834,
+        "pred_proba_up": 0.5113,
+        "pred_ret": 0.00058
+      },
+      {
+        "symbol": "TM",
+        "sector": "consumer_discretionary",
+        "side": "long",
+        "weight": 0.00297,
+        "price": 179.5,
+        "alpha": 2.05813,
+        "pred_proba_up": 0.5113,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "BBY",
+        "sector": "consumer_discretionary",
+        "side": "long",
+        "weight": 0.00295,
+        "price": 70.99,
+        "alpha": 2.04531,
+        "pred_proba_up": 0.4892,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "NFJ",
+        "sector": "financials",
+        "side": "long",
+        "weight": 0.00294,
+        "price": 15.08,
+        "alpha": 2.03925,
+        "pred_proba_up": 0.5413,
+        "pred_ret": 0.00054
+      },
+      {
+        "symbol": "FENC",
+        "sector": "healthcare",
+        "side": "long",
+        "weight": 0.00293,
+        "price": 9.16,
+        "alpha": 2.03009,
+        "pred_proba_up": 0.4993,
+        "pred_ret": 0.00162
+      },
+      {
+        "symbol": "LOB",
+        "sector": "financials",
+        "side": "long",
+        "weight": 0.0029,
+        "price": 37.58,
+        "alpha": 2.00909,
+        "pred_proba_up": 0.561,
+        "pred_ret": 0.00097
+      },
+      {
+        "symbol": "CHEF",
+        "sector": "consumer_staples",
+        "side": "long",
+        "weight": 0.00288,
+        "price": 77.54,
+        "alpha": 1.99337,
+        "pred_proba_up": 0.5041,
+        "pred_ret": 0.00054
+      },
+      {
+        "symbol": "CASY",
+        "sector": "consumer_discretionary",
+        "side": "long",
+        "weight": 0.00286,
+        "price": 761.57,
+        "alpha": 1.97994,
+        "pred_proba_up": 0.5041,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "ATLC",
+        "sector": "financials",
+        "side": "long",
+        "weight": 0.00277,
+        "price": 82.22,
+        "alpha": 1.92379,
+        "pred_proba_up": 0.5821,
+        "pred_ret": 0.00163
+      },
+      {
+        "symbol": "KHC",
+        "sector": "consumer_staples",
+        "side": "long",
+        "weight": 0.00277,
+        "price": 22.47,
+        "alpha": 1.92255,
+        "pred_proba_up": 0.517,
+        "pred_ret": 0.00054
+      },
+      {
+        "symbol": "CVGI",
+        "sector": "consumer_discretionary",
+        "side": "long",
+        "weight": 0.00276,
+        "price": 5.52,
+        "alpha": 1.9107,
+        "pred_proba_up": 0.4993,
+        "pred_ret": 0.0006
+      },
+      {
+        "symbol": "LEVI",
+        "sector": "consumer_discretionary",
+        "side": "long",
+        "weight": 0.00273,
+        "price": 22.53,
+        "alpha": 1.88934,
+        "pred_proba_up": 0.5113,
+        "pred_ret": 0.00054
+      },
+      {
+        "symbol": "NWG",
+        "sector": "financials",
+        "side": "long",
+        "weight": 0.00272,
+        "price": 16.19,
+        "alpha": 1.88531,
+        "pred_proba_up": 0.5413,
+        "pred_ret": 0.00069
+      },
+      {
+        "symbol": "BULZ",
+        "sector": "financials",
+        "side": "long",
+        "weight": 0.00272,
+        "price": 49.89,
+        "alpha": 1.88457,
+        "pred_proba_up": 0.5041,
+        "pred_ret": 0.00054
+      },
+      {
+        "symbol": "BJRI",
+        "sector": "consumer_discretionary",
+        "side": "long",
+        "weight": 0.00271,
+        "price": 42.9,
+        "alpha": 1.87704,
+        "pred_proba_up": 0.517,
+        "pred_ret": 0.00054
+      },
+      {
+        "symbol": "PRMB",
+        "sector": "consumer_staples",
+        "side": "long",
+        "weight": 0.0027,
+        "price": 23.02,
+        "alpha": 1.87508,
+        "pred_proba_up": 0.5002,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "VSAT",
+        "sector": "communication_services",
+        "side": "long",
+        "weight": 0.0027,
+        "price": 72.93,
+        "alpha": 1.87091,
+        "pred_proba_up": 0.5113,
+        "pred_ret": 0.00076
+      }
+    ],
+    "shorts": [
+      {
+        "symbol": "WBD",
+        "sector": "communication_services",
+        "side": "short",
+        "weight": -0.00216,
+        "price": 27.0,
+        "alpha": -1.79347,
+        "pred_proba_up": 0.5314,
+        "pred_ret": 0.00069
+      },
+      {
+        "symbol": "UTI",
+        "sector": "consumer_discretionary",
+        "side": "short",
+        "weight": -0.00218,
+        "price": 44.9,
+        "alpha": -1.80317,
+        "pred_proba_up": 0.4947,
+        "pred_ret": 0.00016
+      },
+      {
+        "symbol": "TPG",
+        "sector": "financials",
+        "side": "short",
+        "weight": -0.00218,
+        "price": 42.15,
+        "alpha": -1.81034,
+        "pred_proba_up": 0.4947,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "DJCO",
+        "sector": "communication_services",
+        "side": "short",
+        "weight": -0.00219,
+        "price": 528.3,
+        "alpha": -1.81617,
+        "pred_proba_up": 0.469,
+        "pred_ret": 0.00038
+      },
+      {
+        "symbol": "SOFI",
+        "sector": "financials",
+        "side": "short",
+        "weight": -0.00225,
+        "price": 17.15,
+        "alpha": -1.86764,
+        "pred_proba_up": 0.5035,
+        "pred_ret": 0.00054
+      },
+      {
+        "symbol": "TH",
+        "sector": "consumer_discretionary",
+        "side": "short",
+        "weight": -0.00225,
+        "price": 16.81,
+        "alpha": -1.86796,
+        "pred_proba_up": 0.4203,
+        "pred_ret": -0.0014
+      },
+      {
+        "symbol": "DPZ",
+        "sector": "consumer_staples",
+        "side": "short",
+        "weight": -0.00226,
+        "price": 307.51,
+        "alpha": -1.87435,
+        "pred_proba_up": 0.5002,
+        "pred_ret": 0.00038
+      },
+      {
+        "symbol": "MNSO",
+        "sector": "consumer_discretionary",
+        "side": "short",
+        "weight": -0.00229,
+        "price": 13.31,
+        "alpha": -1.89651,
+        "pred_proba_up": 0.4857,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "TSCO",
+        "sector": "consumer_discretionary",
+        "side": "short",
+        "weight": -0.00231,
+        "price": 29.37,
+        "alpha": -1.91161,
+        "pred_proba_up": 0.487,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "MH",
+        "sector": "communication_services",
+        "side": "short",
+        "weight": -0.00231,
+        "price": 12.02,
+        "alpha": -1.9136,
+        "pred_proba_up": 0.4993,
+        "pred_ret": 0.00076
+      },
+      {
+        "symbol": "GCO",
+        "sector": "consumer_discretionary",
+        "side": "short",
+        "weight": -0.00231,
+        "price": 39.91,
+        "alpha": -1.918,
+        "pred_proba_up": 0.48,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "DKNG",
+        "sector": "communication_services",
+        "side": "short",
+        "weight": -0.00232,
+        "price": 25.37,
+        "alpha": -1.92233,
+        "pred_proba_up": 0.48,
+        "pred_ret": 0.00038
+      },
+      {
+        "symbol": "BYD",
+        "sector": "consumer_discretionary",
+        "side": "short",
+        "weight": -0.00233,
+        "price": 88.38,
+        "alpha": -1.9276,
+        "pred_proba_up": 0.4993,
+        "pred_ret": 0.00038
+      },
+      {
+        "symbol": "PSKY",
+        "sector": "communication_services",
+        "side": "short",
+        "weight": -0.00233,
+        "price": 10.68,
+        "alpha": -1.93521,
+        "pred_proba_up": 0.5041,
+        "pred_ret": 0.00054
+      },
+      {
+        "symbol": "AMG",
+        "sector": "financials",
+        "side": "short",
+        "weight": -0.00235,
+        "price": 334.82,
+        "alpha": -1.94482,
+        "pred_proba_up": 0.5081,
+        "pred_ret": 0.00038
+      },
+      {
+        "symbol": "CTBB",
+        "sector": "communication_services",
+        "side": "short",
+        "weight": -0.00238,
+        "price": 19.4,
+        "alpha": -1.97189,
+        "pred_proba_up": 0.4835,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "LC",
+        "sector": "financials",
+        "side": "short",
+        "weight": -0.00241,
+        "price": 17.57,
+        "alpha": -1.99893,
+        "pred_proba_up": 0.5041,
+        "pred_ret": 0.00054
+      },
+      {
+        "symbol": "MAMA",
+        "sector": "consumer_staples",
+        "side": "short",
+        "weight": -0.00242,
+        "price": 15.27,
+        "alpha": -2.00772,
+        "pred_proba_up": 0.4956,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "NSIT",
+        "sector": "consumer_discretionary",
+        "side": "short",
+        "weight": -0.00243,
+        "price": 118.83,
+        "alpha": -2.01144,
+        "pred_proba_up": 0.4876,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "HTZ",
+        "sector": "consumer_discretionary",
+        "side": "short",
+        "weight": -0.00245,
+        "price": 5.1,
+        "alpha": -2.02666,
+        "pred_proba_up": 0.4646,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "GME",
+        "sector": "consumer_discretionary",
+        "side": "short",
+        "weight": -0.00245,
+        "price": 22.27,
+        "alpha": -2.03385,
+        "pred_proba_up": 0.5113,
+        "pred_ret": 0.00058
+      },
+      {
+        "symbol": "GPGI",
+        "sector": "financials",
+        "side": "short",
+        "weight": -0.00246,
+        "price": 11.97,
+        "alpha": -2.0396,
+        "pred_proba_up": 0.4835,
+        "pred_ret": 0.0006
+      },
+      {
+        "symbol": "LOVE",
+        "sector": "consumer_discretionary",
+        "side": "short",
+        "weight": -0.00247,
+        "price": 16.35,
+        "alpha": -2.0437,
+        "pred_proba_up": 0.4118,
+        "pred_ret": -0.00011
+      },
+      {
+        "symbol": "FUN",
+        "sector": "communication_services",
+        "side": "short",
+        "weight": -0.00249,
+        "price": 21.21,
+        "alpha": -2.0628,
+        "pred_proba_up": 0.48,
+        "pred_ret": 0.0006
+      },
+      {
+        "symbol": "WD",
+        "sector": "financials",
+        "side": "short",
+        "weight": -0.0025,
+        "price": 51.69,
+        "alpha": -2.07078,
+        "pred_proba_up": 0.4993,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "CHYM",
+        "sector": "financials",
+        "side": "short",
+        "weight": -0.00253,
+        "price": 18.16,
+        "alpha": -2.10007,
+        "pred_proba_up": 0.48,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "AIN",
+        "sector": "consumer_discretionary",
+        "side": "short",
+        "weight": -0.00257,
+        "price": 68.69,
+        "alpha": -2.12657,
+        "pred_proba_up": 0.5197,
+        "pred_ret": 0.00054
+      },
+      {
+        "symbol": "KMX",
+        "sector": "consumer_discretionary",
+        "side": "short",
+        "weight": -0.00266,
+        "price": 46.92,
+        "alpha": -2.20504,
+        "pred_proba_up": 0.5041,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "PRAA",
+        "sector": "financials",
+        "side": "short",
+        "weight": -0.00268,
+        "price": 15.04,
+        "alpha": -2.21803,
+        "pred_proba_up": 0.4835,
+        "pred_ret": 0.00076
+      },
+      {
+        "symbol": "GRAL",
+        "sector": "healthcare",
+        "side": "short",
+        "weight": -0.00268,
+        "price": 66.55,
+        "alpha": -2.22257,
+        "pred_proba_up": 0.4374,
+        "pred_ret": 0.00038
+      },
+      {
+        "symbol": "MOH",
+        "sector": "financials",
+        "side": "short",
+        "weight": -0.00269,
+        "price": 192.81,
+        "alpha": -2.23326,
+        "pred_proba_up": 0.5041,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "FRHC",
+        "sector": "financials",
+        "side": "short",
+        "weight": -0.00275,
+        "price": 159.22,
+        "alpha": -2.27797,
+        "pred_proba_up": 0.4835,
+        "pred_ret": 0.00043
+      },
+      {
+        "symbol": "ARES",
+        "sector": "financials",
+        "side": "short",
+        "weight": -0.00277,
+        "price": 130.5,
+        "alpha": -2.29914,
+        "pred_proba_up": 0.4993,
+        "pred_ret": 0.00038
+      },
+      {
+        "symbol": "HYLN",
+        "sector": "consumer_discretionary",
+        "side": "short",
+        "weight": -0.00278,
+        "price": 7.62,
+        "alpha": -2.30157,
+        "pred_proba_up": 0.4533,
+        "pred_ret": -0.00015
+      },
+      {
+        "symbol": "DSGN",
+        "sector": "healthcare",
+        "side": "short",
+        "weight": -0.00279,
+        "price": 10.76,
+        "alpha": -2.30932,
+        "pred_proba_up": 0.4274,
+        "pred_ret": 0.0006
+      },
+      {
+        "symbol": "ADPT",
+        "sector": "healthcare",
+        "side": "short",
+        "weight": -0.00282,
+        "price": 18.08,
+        "alpha": -2.33483,
+        "pred_proba_up": 0.5081,
+        "pred_ret": -0.00081
+      },
+      {
+        "symbol": "ACHV",
+        "sector": "healthcare",
+        "side": "short",
+        "weight": -0.00288,
+        "price": 5.29,
+        "alpha": -2.38913,
+        "pred_proba_up": 0.4646,
+        "pred_ret": 0.0006
+      },
+      {
+        "symbol": "OSG",
+        "sector": "financials",
+        "side": "short",
+        "weight": -0.00292,
+        "price": 5.41,
+        "alpha": -2.41648,
+        "pred_proba_up": 0.4835,
+        "pred_ret": 0.0006
+      },
+      {
+        "symbol": "AKTX",
+        "sector": "healthcare",
+        "side": "short",
+        "weight": -0.00294,
+        "price": 15.84,
+        "alpha": -2.43692,
+        "pred_proba_up": 0.3575,
+        "pred_ret": -0.00503
+      },
+      {
+        "symbol": "ZD",
+        "sector": "communication_services",
+        "side": "short",
+        "weight": -0.00297,
+        "price": 47.95,
+        "alpha": -2.45866,
+        "pred_proba_up": 0.5113,
+        "pred_ret": 0.00054
+      },
+      {
+        "symbol": "ONIT",
+        "sector": "financials",
+        "side": "short",
+        "weight": -0.00297,
+        "price": 37.0,
+        "alpha": -2.4623,
+        "pred_proba_up": 0.487,
+        "pred_ret": 0.00054
+      },
+      {
+        "symbol": "HUT",
+        "sector": "financials",
+        "side": "short",
+        "weight": -0.00298,
+        "price": 127.76,
+        "alpha": -2.47355,
+        "pred_proba_up": 0.4573,
+        "pred_ret": 0.0006
+      },
+      {
+        "symbol": "GSHD",
+        "sector": "financials",
+        "side": "short",
+        "weight": -0.003,
+        "price": 35.82,
+        "alpha": -2.48525,
+        "pred_proba_up": 0.4927,
+        "pred_ret": 0.00076
+      },
+      {
+        "symbol": "YELP",
+        "sector": "consumer_discretionary",
+        "side": "short",
+        "weight": -0.00302,
+        "price": 23.63,
+        "alpha": -2.50403,
+        "pred_proba_up": 0.5002,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "EVC",
+        "sector": "communication_services",
+        "side": "short",
+        "weight": -0.00305,
+        "price": 9.07,
+        "alpha": -2.52387,
+        "pred_proba_up": 0.469,
+        "pred_ret": -0.00111
+      },
+      {
+        "symbol": "OPY",
+        "sector": "financials",
+        "side": "short",
+        "weight": -0.00307,
+        "price": 100.44,
+        "alpha": -2.54728,
+        "pred_proba_up": 0.4927,
+        "pred_ret": 0.00038
+      },
+      {
+        "symbol": "HUM",
+        "sector": "financials",
+        "side": "short",
+        "weight": -0.00309,
+        "price": 349.8,
+        "alpha": -2.56485,
+        "pred_proba_up": 0.5113,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "CRK",
+        "sector": "energy",
+        "side": "short",
+        "weight": -0.0031,
+        "price": 13.83,
+        "alpha": -2.5679,
+        "pred_proba_up": 0.4835,
+        "pred_ret": 0.00054
+      },
+      {
+        "symbol": "ARTV",
+        "sector": "healthcare",
+        "side": "short",
+        "weight": -0.00321,
+        "price": 7.68,
+        "alpha": -2.66273,
+        "pred_proba_up": 0.4431,
+        "pred_ret": 0.0006
+      },
+      {
+        "symbol": "PK",
+        "sector": "consumer_discretionary",
+        "side": "short",
+        "weight": -0.00324,
+        "price": 14.04,
+        "alpha": -2.68424,
+        "pred_proba_up": 0.4993,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "M",
+        "sector": "consumer_discretionary",
+        "side": "short",
+        "weight": -0.00325,
+        "price": 23.03,
+        "alpha": -2.69774,
+        "pred_proba_up": 0.4927,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "RH",
+        "sector": "consumer_discretionary",
+        "side": "short",
+        "weight": -0.00329,
+        "price": 153.25,
+        "alpha": -2.72726,
+        "pred_proba_up": 0.4646,
+        "pred_ret": 0.00038
+      },
+      {
+        "symbol": "DDS",
+        "sector": "consumer_discretionary",
+        "side": "short",
+        "weight": -0.00335,
+        "price": 613.5,
+        "alpha": -2.77343,
+        "pred_proba_up": 0.5035,
+        "pred_ret": 0.00038
+      },
+      {
+        "symbol": "ELTX",
+        "sector": "healthcare",
+        "side": "short",
+        "weight": -0.00335,
+        "price": 13.93,
+        "alpha": -2.77723,
+        "pred_proba_up": 0.47,
+        "pred_ret": 0.00016
+      },
+      {
+        "symbol": "PPC",
+        "sector": "consumer_staples",
+        "side": "short",
+        "weight": -0.00341,
+        "price": 28.97,
+        "alpha": -2.82308,
+        "pred_proba_up": 0.5035,
+        "pred_ret": 0.00054
+      },
+      {
+        "symbol": "HPK",
+        "sector": "energy",
+        "side": "short",
+        "weight": -0.00341,
+        "price": 8.3,
+        "alpha": -2.82642,
+        "pred_proba_up": 0.4956,
+        "pred_ret": 0.0006
+      },
+      {
+        "symbol": "FAST",
+        "sector": "consumer_discretionary",
+        "side": "short",
+        "weight": -0.00342,
+        "price": 47.16,
+        "alpha": -2.83458,
+        "pred_proba_up": 0.5081,
+        "pred_ret": 0.00038
+      },
+      {
+        "symbol": "UPST",
+        "sector": "financials",
+        "side": "short",
+        "weight": -0.00342,
+        "price": 32.27,
+        "alpha": -2.83475,
+        "pred_proba_up": 0.4857,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "LCID",
+        "sector": "consumer_discretionary",
+        "side": "short",
+        "weight": -0.00345,
+        "price": 5.68,
+        "alpha": -2.85667,
+        "pred_proba_up": 0.487,
+        "pred_ret": 0.00076
+      },
+      {
+        "symbol": "MGM",
+        "sector": "consumer_discretionary",
+        "side": "short",
+        "weight": -0.00345,
+        "price": 47.94,
+        "alpha": -2.85761,
+        "pred_proba_up": 0.4857,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "NUAI",
+        "sector": "energy",
+        "side": "short",
+        "weight": -0.00348,
+        "price": 6.02,
+        "alpha": -2.88315,
+        "pred_proba_up": 0.469,
+        "pred_ret": -0.00015
+      },
+      {
+        "symbol": "FTRE",
+        "sector": "healthcare",
+        "side": "short",
+        "weight": -0.00348,
+        "price": 17.25,
+        "alpha": -2.88833,
+        "pred_proba_up": 0.4431,
+        "pred_ret": 4e-05
+      },
+      {
+        "symbol": "LPLA",
+        "sector": "financials",
+        "side": "short",
+        "weight": -0.00351,
+        "price": 291.84,
+        "alpha": -2.90669,
+        "pred_proba_up": 0.473,
+        "pred_ret": 0.00043
+      },
+      {
+        "symbol": "CABO",
+        "sector": "communication_services",
+        "side": "short",
+        "weight": -0.00351,
+        "price": 46.51,
+        "alpha": -2.91024,
+        "pred_proba_up": 0.4646,
+        "pred_ret": 0.00086
+      },
+      {
+        "symbol": "BH-A",
+        "sector": "consumer_discretionary",
+        "side": "short",
+        "weight": -0.00353,
+        "price": 1536.02,
+        "alpha": -2.92569,
+        "pred_proba_up": 0.487,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "INV",
+        "sector": "financials",
+        "side": "short",
+        "weight": -0.00354,
+        "price": 6.69,
+        "alpha": -2.93269,
+        "pred_proba_up": 0.4876,
+        "pred_ret": 0.00065
+      },
+      {
+        "symbol": "ABCL",
+        "sector": "healthcare",
+        "side": "short",
+        "weight": -0.00354,
+        "price": 6.37,
+        "alpha": -2.93481,
+        "pred_proba_up": 0.4815,
+        "pred_ret": 0.00065
+      },
+      {
+        "symbol": "CTAS",
+        "sector": "consumer_discretionary",
+        "side": "short",
+        "weight": -0.00358,
+        "price": 179.96,
+        "alpha": -2.96471,
+        "pred_proba_up": 0.5081,
+        "pred_ret": 0.00038
+      },
+      {
+        "symbol": "XPRO",
+        "sector": "energy",
+        "side": "short",
+        "weight": -0.00376,
+        "price": 16.59,
+        "alpha": -3.12024,
+        "pred_proba_up": 0.4993,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "TBBB",
+        "sector": "consumer_staples",
+        "side": "short",
+        "weight": -0.00379,
+        "price": 38.2,
+        "alpha": -3.14434,
+        "pred_proba_up": 0.4514,
+        "pred_ret": -0.00027
+      },
+      {
+        "symbol": "HOOD",
+        "sector": "financials",
+        "side": "short",
+        "weight": -0.00384,
+        "price": 88.33,
+        "alpha": -3.18146,
+        "pred_proba_up": 0.487,
+        "pred_ret": 0.00054
+      },
+      {
+        "symbol": "CSTL",
+        "sector": "healthcare",
+        "side": "short",
+        "weight": -0.00387,
+        "price": 21.6,
+        "alpha": -3.20888,
+        "pred_proba_up": 0.4514,
+        "pred_ret": 0.0006
+      },
+      {
+        "symbol": "ESTA",
+        "sector": "healthcare",
+        "side": "short",
+        "weight": -0.00392,
+        "price": 76.49,
+        "alpha": -3.2463,
+        "pred_proba_up": 0.4374,
+        "pred_ret": 0.00043
+      },
+      {
+        "symbol": "ABSI",
+        "sector": "healthcare",
+        "side": "short",
+        "weight": -0.00394,
+        "price": 7.34,
+        "alpha": -3.26846,
+        "pred_proba_up": 0.4646,
+        "pred_ret": 0.00031
+      },
+      {
+        "symbol": "GOLF",
+        "sector": "consumer_discretionary",
+        "side": "short",
+        "weight": -0.00395,
+        "price": 88.99,
+        "alpha": -3.27616,
+        "pred_proba_up": 0.4993,
+        "pred_ret": 0.00054
+      },
+      {
+        "symbol": "RHLD",
+        "sector": "financials",
+        "side": "short",
+        "weight": -0.00398,
+        "price": 116.97,
+        "alpha": -3.30087,
+        "pred_proba_up": 0.473,
+        "pred_ret": 0.0006
+      },
+      {
+        "symbol": "KSS",
+        "sector": "consumer_discretionary",
+        "side": "short",
+        "weight": -0.00399,
+        "price": 15.96,
+        "alpha": -3.3099,
+        "pred_proba_up": 0.469,
+        "pred_ret": 0.00031
+      },
+      {
+        "symbol": "CLPT",
+        "sector": "healthcare",
+        "side": "short",
+        "weight": -0.00401,
+        "price": 14.32,
+        "alpha": -3.32351,
+        "pred_proba_up": 0.4835,
+        "pred_ret": 0.00043
+      },
+      {
+        "symbol": "PRKS",
+        "sector": "communication_services",
+        "side": "short",
+        "weight": -0.00403,
+        "price": 40.78,
+        "alpha": -3.3405,
+        "pred_proba_up": 0.4956,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "CVRX",
+        "sector": "healthcare",
+        "side": "short",
+        "weight": -0.00403,
+        "price": 5.88,
+        "alpha": -3.34323,
+        "pred_proba_up": 0.469,
+        "pred_ret": 0.00065
+      },
+      {
+        "symbol": "NCSM",
+        "sector": "energy",
+        "side": "short",
+        "weight": -0.00405,
+        "price": 56.01,
+        "alpha": -3.36077,
+        "pred_proba_up": 0.4431,
+        "pred_ret": 0.0002
+      },
+      {
+        "symbol": "AVBP",
+        "sector": "healthcare",
+        "side": "short",
+        "weight": -0.00406,
+        "price": 33.09,
+        "alpha": -3.36323,
+        "pred_proba_up": 0.4835,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "CODX",
+        "sector": "healthcare",
+        "side": "short",
+        "weight": -0.00412,
+        "price": 5.76,
+        "alpha": -3.41681,
+        "pred_proba_up": 0.4431,
+        "pred_ret": -0.00865
+      },
+      {
+        "symbol": "VSCO",
+        "sector": "consumer_discretionary",
+        "side": "short",
+        "weight": -0.00416,
+        "price": 73.08,
+        "alpha": -3.44476,
+        "pred_proba_up": 0.4374,
+        "pred_ret": -0.00199
+      },
+      {
+        "symbol": "FNGD",
+        "sector": "financials",
+        "side": "short",
+        "weight": -0.00429,
+        "price": 32.89,
+        "alpha": -3.55385,
+        "pred_proba_up": 0.469,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "RIVN",
+        "sector": "consumer_discretionary",
+        "side": "short",
+        "weight": -0.00429,
+        "price": 18.12,
+        "alpha": -3.55399,
+        "pred_proba_up": 0.4993,
+        "pred_ret": 0.00038
+      },
+      {
+        "symbol": "BF-B",
+        "sector": "consumer_staples",
+        "side": "short",
+        "weight": -0.00429,
+        "price": 25.46,
+        "alpha": -3.55952,
+        "pred_proba_up": 0.5041,
+        "pred_ret": 0.00054
+      },
+      {
+        "symbol": "AMCI",
+        "sector": "consumer_discretionary",
+        "side": "short",
+        "weight": -0.00432,
+        "price": 5.21,
+        "alpha": -3.57904,
+        "pred_proba_up": 0.487,
+        "pred_ret": 0.00088
+      },
+      {
+        "symbol": "NEGG",
+        "sector": "consumer_discretionary",
+        "side": "short",
+        "weight": -0.00432,
+        "price": 18.45,
+        "alpha": -3.5842,
+        "pred_proba_up": 0.4835,
+        "pred_ret": 0.00172
+      },
+      {
+        "symbol": "PGY",
+        "sector": "financials",
+        "side": "short",
+        "weight": -0.00435,
+        "price": 15.46,
+        "alpha": -3.60368,
+        "pred_proba_up": 0.5041,
+        "pred_ret": 0.00129
+      },
+      {
+        "symbol": "LUXE",
+        "sector": "consumer_discretionary",
+        "side": "short",
+        "weight": -0.00442,
+        "price": 7.6,
+        "alpha": -3.66229,
+        "pred_proba_up": 0.4561,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "CUE",
+        "sector": "healthcare",
+        "side": "short",
+        "weight": -0.00446,
+        "price": 29.64,
+        "alpha": -3.69384,
+        "pred_proba_up": 0.4203,
+        "pred_ret": 0.00031
+      },
+      {
+        "symbol": "APGE",
+        "sector": "healthcare",
+        "side": "short",
+        "weight": -0.00449,
+        "price": 90.9,
+        "alpha": -3.71919,
+        "pred_proba_up": 0.4717,
+        "pred_ret": 0.00043
+      },
+      {
+        "symbol": "DBI",
+        "sector": "consumer_discretionary",
+        "side": "short",
+        "weight": -0.00449,
+        "price": 9.11,
+        "alpha": -3.71964,
+        "pred_proba_up": 0.4835,
+        "pred_ret": 0.00038
+      },
+      {
+        "symbol": "CRMT",
+        "sector": "consumer_discretionary",
+        "side": "short",
+        "weight": -0.00456,
+        "price": 7.85,
+        "alpha": -3.78039,
+        "pred_proba_up": 0.4858,
+        "pred_ret": 0.00394
+      },
+      {
+        "symbol": "CRBP",
+        "sector": "healthcare",
+        "side": "short",
+        "weight": -0.00457,
+        "price": 8.01,
+        "alpha": -3.78752,
+        "pred_proba_up": 0.469,
+        "pred_ret": 0.00088
+      },
+      {
+        "symbol": "CPNG",
+        "sector": "consumer_discretionary",
+        "side": "short",
+        "weight": -0.00457,
+        "price": 16.53,
+        "alpha": -3.79167,
+        "pred_proba_up": 0.4993,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "MLEC",
+        "sector": "consumer_staples",
+        "side": "short",
+        "weight": -0.00477,
+        "price": 8.04,
+        "alpha": -3.95371,
+        "pred_proba_up": 0.3425,
+        "pred_ret": -0.00017
+      },
+      {
+        "symbol": "BBNX",
+        "sector": "healthcare",
+        "side": "short",
+        "weight": -0.00483,
+        "price": 13.89,
+        "alpha": -4.00352,
+        "pred_proba_up": 0.4876,
+        "pred_ret": 0.00054
+      },
+      {
+        "symbol": "LEG",
+        "sector": "consumer_discretionary",
+        "side": "short",
+        "weight": -0.00493,
+        "price": 10.2,
+        "alpha": -4.08486,
+        "pred_proba_up": 0.4876,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "CPB",
+        "sector": "consumer_staples",
+        "side": "short",
+        "weight": -0.00511,
+        "price": 21.55,
+        "alpha": -4.23562,
+        "pred_proba_up": 0.4993,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "ASTC",
+        "sector": "healthcare",
+        "side": "short",
+        "weight": -0.00516,
+        "price": 38.45,
+        "alpha": -4.27281,
+        "pred_proba_up": 0.3725,
+        "pred_ret": -0.0046
+      },
+      {
+        "symbol": "APPS",
+        "sector": "financials",
+        "side": "short",
+        "weight": -0.0052,
+        "price": 9.32,
+        "alpha": -4.30864,
+        "pred_proba_up": 0.4374,
+        "pred_ret": -0.00015
+      },
+      {
+        "symbol": "VITL",
+        "sector": "consumer_staples",
+        "side": "short",
+        "weight": -0.0056,
+        "price": 9.83,
+        "alpha": -4.64491,
+        "pred_proba_up": 0.4431,
+        "pred_ret": 0.00038
+      },
+      {
+        "symbol": "XOS",
+        "sector": "consumer_discretionary",
+        "side": "short",
+        "weight": -0.00565,
+        "price": 5.28,
+        "alpha": -4.68685,
+        "pred_proba_up": 0.3336,
+        "pred_ret": -0.01548
+      },
+      {
+        "symbol": "FABC",
+        "sector": "communication_services",
+        "side": "short",
+        "weight": -0.00568,
+        "price": 5.7,
+        "alpha": -4.71135,
+        "pred_proba_up": 0.4274,
+        "pred_ret": 0.0006
+      },
+      {
+        "symbol": "TPB",
+        "sector": "consumer_staples",
+        "side": "short",
+        "weight": -0.00572,
+        "price": 87.66,
+        "alpha": -4.73879,
+        "pred_proba_up": 0.3725,
+        "pred_ret": -0.00238
+      },
+      {
+        "symbol": "SCO",
+        "sector": "financials",
+        "side": "short",
+        "weight": -0.00594,
+        "price": 25.69,
+        "alpha": -4.9273,
+        "pred_proba_up": 0.4406,
+        "pred_ret": -0.00295
+      },
+      {
+        "symbol": "NMAX",
+        "sector": "communication_services",
+        "side": "short",
+        "weight": -0.00597,
+        "price": 9.57,
+        "alpha": -4.94433,
+        "pred_proba_up": 0.4717,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "WLAC",
+        "sector": "financials",
+        "side": "short",
+        "weight": -0.006,
+        "price": 18.83,
+        "alpha": -4.97056,
+        "pred_proba_up": 0.4835,
+        "pred_ret": 0.00227
+      },
+      {
+        "symbol": "GENI",
+        "sector": "communication_services",
+        "side": "short",
+        "weight": -0.00601,
+        "price": 6.36,
+        "alpha": -4.98071,
+        "pred_proba_up": 0.4815,
+        "pred_ret": 0.0006
+      },
+      {
+        "symbol": "PUSA",
+        "sector": "communication_services",
+        "side": "short",
+        "weight": -0.00608,
+        "price": 5.9,
+        "alpha": -5.03769,
+        "pred_proba_up": 0.4274,
+        "pred_ret": -0.00068
+      },
+      {
+        "symbol": "FDMT",
+        "sector": "healthcare",
+        "side": "short",
+        "weight": -0.00621,
+        "price": 10.01,
+        "alpha": -5.14622,
+        "pred_proba_up": 0.4203,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "NCI",
+        "sector": "consumer_discretionary",
+        "side": "short",
+        "weight": -0.0063,
+        "price": 10.51,
+        "alpha": -5.22266,
+        "pred_proba_up": 0.44,
+        "pred_ret": 0.0008
+      },
+      {
+        "symbol": "BWET",
+        "sector": "financials",
+        "side": "short",
+        "weight": -0.00633,
+        "price": 210.01,
+        "alpha": -5.25023,
+        "pred_proba_up": 0.4579,
+        "pred_ret": 0.0006
+      },
+      {
+        "symbol": "JDZG",
+        "sector": "consumer_discretionary",
+        "side": "short",
+        "weight": -0.0068,
+        "price": 50.0,
+        "alpha": -5.63734,
+        "pred_proba_up": 0.3336,
+        "pred_ret": -0.01849
+      },
+      {
+        "symbol": "ACDC",
+        "sector": "energy",
+        "side": "short",
+        "weight": -0.00681,
+        "price": 8.06,
+        "alpha": -5.64145,
+        "pred_proba_up": 0.4646,
+        "pred_ret": 0.00065
+      },
+      {
+        "symbol": "CV",
+        "sector": "healthcare",
+        "side": "short",
+        "weight": -0.00732,
+        "price": 7.54,
+        "alpha": -6.07,
+        "pred_proba_up": 0.4374,
+        "pred_ret": 0.00049
+      },
+      {
+        "symbol": "TLYS",
+        "sector": "consumer_discretionary",
+        "side": "short",
+        "weight": -0.00742,
+        "price": 5.27,
+        "alpha": -6.14644,
+        "pred_proba_up": 0.4561,
+        "pred_ret": 0.00054
+      },
+      {
+        "symbol": "SLNG",
+        "sector": "energy",
+        "side": "short",
+        "weight": -0.00788,
+        "price": 5.09,
+        "alpha": -6.53077,
+        "pred_proba_up": 0.3575,
+        "pred_ret": 0.00016
+      },
+      {
+        "symbol": "BOIL",
+        "sector": "financials",
+        "side": "short",
+        "weight": -0.00799,
+        "price": 30.92,
+        "alpha": -6.62281,
+        "pred_proba_up": 0.4533,
+        "pred_ret": -0.00339
+      },
+      {
+        "symbol": "BJDX",
+        "sector": "healthcare",
+        "side": "short",
+        "weight": -0.00887,
+        "price": 5.3,
+        "alpha": -7.35594,
+        "pred_proba_up": 0.3725,
+        "pred_ret": -0.00657
+      },
+      {
+        "symbol": "VSA",
+        "sector": "consumer_discretionary",
+        "side": "short",
+        "weight": -0.00909,
+        "price": 6.45,
+        "alpha": -7.53422,
+        "pred_proba_up": 0.3425,
+        "pred_ret": -0.00994
+      },
+      {
+        "symbol": "LESL",
+        "sector": "consumer_discretionary",
+        "side": "short",
+        "weight": -0.01013,
+        "price": 5.33,
+        "alpha": -8.39711,
+        "pred_proba_up": 0.3575,
+        "pred_ret": -0.01001
+      },
+      {
+        "symbol": "SDOT",
+        "sector": "consumer_discretionary",
+        "side": "short",
+        "weight": -0.01267,
+        "price": 11.37,
+        "alpha": -10.49982,
+        "pred_proba_up": 0.3211,
+        "pred_ret": -0.01424
+      }
+    ],
+    "nLong": 125,
+    "nShort": 125,
+    "netExposure": 0.0001,
+    "grossExposure": 1.0001
+  },
+  "note": "Market-neutral candidate. Forward IC must be proven before capital."
+}

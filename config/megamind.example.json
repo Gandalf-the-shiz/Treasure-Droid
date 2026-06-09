@@ -1,0 +1,19 @@
+{
+  "_comment": "Copy to config/megamind.json. autoLaunch: ide opens prompt in Cursor; sdk runs Agent.prompt; both.",
+  "approveSecret": "change-me-to-a-long-random-string",
+  "dashboardBaseUrl": "http://127.0.0.1:8000",
+  "publicDashboardUrl": "",
+  "serveHost": "127.0.0.1",
+  "remoteApproveEnabled": false,
+  "tunnelEnabled": false,
+  "_tunnelDoc": "See docs/cloudflare-tunnel.md and config/cloudflare.example.json",
+  "autoLaunch": "both",
+  "cursorModel": "composer-2.5",
+  "cursorApiKey": "",
+  "cursorPath": "C:\\Users\\nicho\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin\\cursor.cmd",
+  "sdkBlocking": false,
+  "postCompletionEnabled": true,
+  "postCompletionOnApprove": true,
+  "followupEmailEnabled": true,
+  "debugAgentEnabled": true
+}

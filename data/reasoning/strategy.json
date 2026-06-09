@@ -1,0 +1,26 @@
+{
+  "updatedAt": "2026-06-09T23:01:37Z",
+  "session": "after_hours",
+  "marketOpen": false,
+  "regime": {},
+  "name": "nostradamus_overlay_momentum",
+  "horizon": "intraday_to_swing",
+  "maxPositions": 12,
+  "riskBudget": 0.85,
+  "narrative": "No data provided. Please run `learning_harness, reasoning_agent --tick` to gather system context.",
+  "llmBackend": "gemini",
+  "watchlist": [
+    "ALCYW",
+    "SDAWW",
+    "BFRIW",
+    "AMODW",
+    "BDMDW",
+    "FLD",
+    "FLDDW",
+    "CRBU",
+    "SHFSW",
+    "ACONW",
+    "SIMAW",
+    "THCH"
+  ]
+}

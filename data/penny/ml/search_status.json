@@ -1,0 +1,47 @@
+{
+  "phase": "searching",
+  "trialsDone": 6292,
+  "bestObjective": 0.892584,
+  "lastTrial": {
+    "trialId": "d6334b248ed0",
+    "ts": "2026-06-09T23:09:52.676001+00:00",
+    "config": {
+      "horizon": 20,
+      "features": [
+        "amihud_20",
+        "max_ret_20",
+        "hl_range",
+        "drawdown_60",
+        "ret_1",
+        "ret_20",
+        "vol_20",
+        "sma20_ratio",
+        "rsi_14",
+        "ret_10",
+        "mom_60",
+        "log_dollar_vol",
+        "vol_60",
+        "dist_252_high",
+        "ret_60"
+      ],
+      "max_depth": 10,
+      "learning_rate": 0.08,
+      "max_iter": 500,
+      "min_samples_leaf": 80,
+      "l2_regularization": 0.5
+    },
+    "metrics": {
+      "valid": true,
+      "mean_ic": 0.00382,
+      "icir": 0.047,
+      "n_days": 2035,
+      "hit_rate": 0.523,
+      "quintile_spread": 0.025691,
+      "accuracy": 0.4991,
+      "oos_rows": 1140645
+    },
+    "objective": 0.165349,
+    "elapsedSec": 125.9
+  },
+  "championId": "1838bf129ad5"
+}

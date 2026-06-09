@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0",
+  "style": "intraday_aggressive",
+  "topK": 15,
+  "minProba": 0.55,
+  "positionFrac": 0.06,
+  "maxHoldMinutes": 240,
+  "refreshSeconds": 300,
+  "portfolioUsd": 25000,
+  "allowSameDayExit": true,
+  "manifestSchema": "nostradamus.trading.manifest/v1-daytrade"
+}

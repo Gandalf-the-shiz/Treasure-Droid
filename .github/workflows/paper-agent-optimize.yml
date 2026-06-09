@@ -1,0 +1,91 @@
+name: Paper Agent Profit Loop
+
+on:
+  schedule:
+    # Run every weekday after accuracy scoring window.
+    - cron: '20 0 * * 1-5'
+  workflow_dispatch:
+
+concurrency:
+  group: main-branch-writer
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  optimize-paper-agent:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Configure Git LFS
+        run: git lfs install
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Refresh accuracy snapshots (best effort)
+        run: python scripts/score-accuracy.py
+        continue-on-error: true
+
+      - name: Tune paper agent config
+        run: python scripts/tune-paper-agent.py
+
+      - name: Run paper agent simulation
+        run: python scripts/paper-agent.py
+
+      - name: Run paper agent profit gate
+        run: python scripts/paper-agent-profit-gate.py
+
+      - name: Check if main retrain should be triggered
+        id: retrain_gate
+        run: |
+          flag=$(python - <<'EOF'
+          import json
+          from pathlib import Path
+
+          path = Path('data/paper_agent/profit-gate.json')
+          if not path.exists():
+              print('false')
+          else:
+              data = json.loads(path.read_text(encoding='utf-8'))
+              actions = data.get('actions') or {}
+              print('true' if actions.get('needsMainRetrain') else 'false')
+          EOF
+          )
+          echo "needs_retrain=$flag" >> "$GITHUB_OUTPUT"
+
+      - name: Trigger auto retrain workflow
+        if: steps.retrain_gate.outputs.needs_retrain == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "Paper agent gate requested main retrain. Triggering auto-retrain workflow."
+          gh workflow run auto-retrain.yml --repo "$GITHUB_REPOSITORY"
+
+      - name: Commit paper agent artifacts
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add data/paper_agent/ models/v2/paper_agent_model.joblib scripts/paper-agent-profit-gate.py scripts/tune-paper-agent.py scripts/paper-agent.py .github/workflows/paper-agent-optimize.yml || true
+
+          if git diff --cached --quiet; then
+            echo "No paper agent changes to commit."
+          else
+            git commit -m "chore: optimize paper agent $(date -u +%Y-%m-%d)"
+            git pull --rebase --autostash origin main
+            git push
+          fi

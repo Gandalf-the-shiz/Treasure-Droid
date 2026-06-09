@@ -1,0 +1,16 @@
+---
+description: When user asks to implement Megamind or LATEST_APPROVED, read the queued task file first.
+globs:
+  - data/intelligence/**
+---
+
+# Megamind implementation queue
+
+When the user says they approved a Megamind recommendation, or asks to implement Megamind / Ultimate Model work:
+
+1. Read `.cursor/rules/megamind-active-task.mdc` first (alwaysApply when a task is queued), then `data/intelligence/megamind/CURRENT_AGENT_PROMPT.md`.
+2. Implement only what that prompt requests — minimal diff, match repo conventions.
+3. Do **not** weaken live trading gates or readiness checks to make metrics look better.
+4. After shipping, mention marking the task done (registry status `implemented` is optional).
+
+Arena returns are simulated; treat Megamind actions as research/engineering tasks unless the brief explicitly says otherwise.

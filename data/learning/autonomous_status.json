@@ -1,0 +1,23 @@
+{
+  "updatedAt": "2026-06-02T10:23:41Z",
+  "mode": "autonomous_improvement",
+  "loops": {
+    "autonomous_loop.ps1": "reasoning 15m, intraday 4h, penny 2h, penny ML, intelligence 2h, arena 1h, improve 6h",
+    "continual_improve.ps1": "congress + SEC Form 4 + brain + arena + manifests every 6h",
+    "nostradamus-live": "auto_search + daily email supervisor"
+  },
+  "recentFixes": [
+    "SEC Form 4 fetch: use folder index.json (was 404 on all filings)",
+    "insider_monitor: fixed write_artifacts corrupting trades file",
+    "mass_psychology: valid-ticker filter + ML panel proxy when Reddit blocked",
+    "unified_score on all traders (arena, manifests, Penny, daytrade)"
+  ],
+  "lastKnown": {
+    "insiderTrades": 9,
+    "massPsychTickers": 40,
+    "arenaBestTrader": 7,
+    "npu": "QNNExecutionProvider",
+    "gate": "paper only - see nostradamus-live/data/gate/readiness.json"
+  },
+  "note": "Profit not proven forward. System improves data + signals autonomously; live gate unchanged."
+}

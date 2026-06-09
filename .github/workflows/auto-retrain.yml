@@ -1,0 +1,167 @@
+name: Auto-Retrain Model
+
+on:
+  schedule:
+    # Run every Sunday at 4:00 AM UTC
+    - cron: '0 4 * * 0'
+  workflow_dispatch:   # allow manual trigger
+
+concurrency:
+  group: main-branch-writer
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  auto-retrain:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Configure Git LFS
+        run: git lfs install
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Check rolling accuracy
+        id: accuracy_check
+        run: |
+          python - <<'EOF'
+          import json, sys, os
+
+          log_path = "data/accuracy/accuracy-log.json"
+          threshold = 0.53  # Minimum acceptable accuracy (slightly above naive 50% baseline)
+
+          try:
+              with open(log_path) as f:
+                  data = json.load(f)
+              entries = data.get("entries", [])
+              if not entries:
+                  print("No accuracy entries found. Triggering retraining.")
+                  print("NEEDS_RETRAIN=true")
+                  sys.exit(0)
+
+              # Check rolling 30-day accuracy
+              from datetime import datetime, timedelta, timezone
+              cutoff = datetime.now(timezone.utc) - timedelta(days=30)
+              recent = [
+                  e for e in entries
+                  if datetime.fromisoformat(e["date"].replace("Z", "+00:00")) >= cutoff
+              ]
+
+              if not recent:
+                  print("No recent entries (last 30 days). Triggering retraining.")
+                  print("NEEDS_RETRAIN=true")
+                  sys.exit(0)
+
+              sample_size = sum(int(e.get("total", 0) or 0) for e in recent if e.get("hitRate") is not None)
+              correct = sum(int(e.get("correct", 0) or 0) for e in recent if e.get("hitRate") is not None)
+              hit_rate = (correct / sample_size) if sample_size > 0 else 0.0
+
+              print(f"Rolling 30-day hit rate: {hit_rate:.4f} ({correct}/{sample_size})")
+              print(f"Threshold: {threshold}")
+
+              if hit_rate < threshold:
+                  print(f"Accuracy {hit_rate:.2%} is below threshold {threshold:.2%}. Triggering retraining.")
+                  print("NEEDS_RETRAIN=true")
+              else:
+                  print(f"Model performing adequately ({hit_rate:.2%} >= {threshold:.2%}), skipping retraining.")
+                  print("NEEDS_RETRAIN=false")
+
+          except FileNotFoundError:
+              print(f"Accuracy log not found at {log_path}. Triggering retraining.")
+              print("NEEDS_RETRAIN=true")
+          except Exception as e:
+              print(f"Error reading accuracy log: {e}. Triggering retraining as a precaution.")
+              print("NEEDS_RETRAIN=true")
+          EOF
+        shell: bash
+
+      - name: Extract retrain flag
+        id: set_flag
+        run: |
+          output=$(python - <<'EOF'
+          import json, sys
+          from datetime import datetime, timedelta, timezone
+
+          log_path  = "data/accuracy/accuracy-log.json"
+          # Minimum acceptable accuracy: slightly above the ~52% naive "always UP" baseline
+          threshold = 0.53
+
+          try:
+              with open(log_path) as f:
+                  data = json.load(f)
+              entries = data.get("entries", [])
+              if not entries:
+                  print("true")
+                  sys.exit(0)
+              cutoff = datetime.now(timezone.utc) - timedelta(days=30)
+              recent = [
+                  e for e in entries
+                  if datetime.fromisoformat(e["date"].replace("Z", "+00:00")) >= cutoff
+              ]
+              if not recent:
+                  print("true")
+                  sys.exit(0)
+              sample_size = sum(int(e.get("total", 0) or 0) for e in recent if e.get("hitRate") is not None)
+              correct = sum(int(e.get("correct", 0) or 0) for e in recent if e.get("hitRate") is not None)
+              hit_rate = (correct / sample_size) if sample_size > 0 else 0.0
+              print("true" if hit_rate < threshold else "false")
+          except Exception:
+              print("true")
+          EOF
+          )
+          echo "needs_retrain=$output" >> "$GITHUB_OUTPUT"
+
+      - name: Back up existing model
+        if: steps.set_flag.outputs.needs_retrain == 'true'
+        run: |
+          if [ -d models/v2 ]; then
+            cp -r models/v2 models/v2_backup
+            echo "Backed up models/v2 to models/v2_backup"
+          else
+            echo "No existing model to back up."
+          fi
+
+      - name: Run model training
+        if: steps.set_flag.outputs.needs_retrain == 'true'
+        run: python scripts/train-model.py
+
+      - name: Compare models and promote if better
+        if: steps.set_flag.outputs.needs_retrain == 'true'
+        run: |
+          python scripts/model-promotion-gate.py \
+          --models-dir models/v2 \
+          --baseline-metadata models/v2/metadata_prev.json \
+          --backup-dir models/v2_backup \
+          --history-path data/accuracy/retrain-history.json \
+          --decision-path models/v2/promotion-decision.json
+
+      - name: Commit updated model
+        if: steps.set_flag.outputs.needs_retrain == 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add models/v2/ models/archive/ data/accuracy/retrain-history.json data/training-logs/ scripts/model-promotion-gate.py || true
+
+          if git diff --cached --quiet; then
+            echo "No model changes to commit."
+          else
+            git commit -m "chore: auto-retrain model $(date -u +%Y-%m-%d)"
+            git pull --rebase --autostash origin main
+            git push
+          fi

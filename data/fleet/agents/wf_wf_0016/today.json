@@ -1,0 +1,87 @@
+{
+  "date": "2026-06-03",
+  "agentId": "wf_wf_0016",
+  "name": "WF-Bolt",
+  "kind": "genome",
+  "equity": 99985.48,
+  "cash": 129006.24,
+  "dayPnl": 0.0,
+  "returnPct": -0.015,
+  "nLong": 0,
+  "nShort": 3,
+  "grossExposure": 29020.76,
+  "netExposure": -29020.76,
+  "nTrades": 0,
+  "picks": [
+    {
+      "symbol": "JDZG",
+      "side": "short",
+      "weight": -0.0969,
+      "shares": 193,
+      "notional": 9650.0,
+      "entryPrice": 50.0,
+      "signals": {
+        "pred_proba_up": 0.3336,
+        "pred_ret": -0.01849,
+        "edge": -0.00615,
+        "alpha_z": -5.6373,
+        "sector": "consumer_discretionary",
+        "sleeves": {
+          "ml_edge": -3.707,
+          "reversal_5d": -3.185,
+          "reversal_1d": 2.124,
+          "momentum_120_20": -1.908
+        }
+      },
+      "why": "Short JDZG: model only 33% up, -1.8% expected \u2014 expected to lag peers. Drivers: model edge -3.7\u03c3; 5-day mean-reversion -3.2\u03c3; 6-month momentum -1.9\u03c3. genome gate: proba\u22650.53, |pred_ret|\u22651.1%, top-15 Unified: ML +0.43. Sized 9.7% of book \u2014 Kelly\u00d70.929, sector-neutralized vs consumer_discretionary peers."
+    },
+    {
+      "symbol": "XOS",
+      "side": "short",
+      "weight": -0.0969,
+      "shares": 1834,
+      "notional": 9683.52,
+      "entryPrice": 5.28,
+      "signals": {
+        "pred_proba_up": 0.3336,
+        "pred_ret": -0.01548,
+        "edge": -0.00515,
+        "alpha_z": -4.6868,
+        "sector": "consumer_discretionary",
+        "sleeves": {
+          "ml_edge": -3.685,
+          "reversal_5d": -3.2,
+          "reversal_1d": 1.958,
+          "momentum_120_20": -0.789,
+          "pead": 0.472,
+          "revisions": 0.329
+        }
+      },
+      "why": "Short XOS: model only 33% up, -1.5% expected \u2014 expected to lag peers. Drivers: model edge -3.7\u03c3; 5-day mean-reversion -3.2\u03c3; 6-month momentum -0.8\u03c3. genome gate: proba\u22650.53, |pred_ret|\u22651.1%, top-15 Unified: ML +0.41. Sized 9.7% of book \u2014 Kelly\u00d70.929, sector-neutralized vs consumer_discretionary peers."
+    },
+    {
+      "symbol": "SDOT",
+      "side": "short",
+      "weight": -0.0969,
+      "shares": 852,
+      "notional": 9687.24,
+      "entryPrice": 11.37,
+      "signals": {
+        "pred_proba_up": 0.3211,
+        "pred_ret": -0.01424,
+        "edge": -0.0051,
+        "alpha_z": -10.4998,
+        "sector": "consumer_discretionary",
+        "sleeves": {
+          "ml_edge": -3.685,
+          "reversal_5d": -3.2,
+          "reversal_1d": -3.839,
+          "momentum_120_20": -1.761,
+          "pead": -0.443,
+          "revisions": -2.662
+        }
+      },
+      "why": "Short SDOT: model only 32% up, -1.4% expected \u2014 expected to lag peers. Drivers: 1-day mean-reversion -3.8\u03c3; model edge -3.7\u03c3; 5-day mean-reversion -3.2\u03c3. genome gate: proba\u22650.53, |pred_ret|\u22651.1%, top-15 Unified: ML +0.43. Sized 9.7% of book \u2014 Kelly\u00d70.929, sector-neutralized vs consumer_discretionary peers."
+    }
+  ]
+}

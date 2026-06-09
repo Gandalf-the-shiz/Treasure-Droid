@@ -1,0 +1,80 @@
+name: Weekly Model Training
+
+on:
+  workflow_run:
+    workflows: ["Build Feature Matrix"]
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    # Every Sunday at 3 AM UTC (after tickers + history + features have run)
+    - cron: '0 3 * * 0'
+
+concurrency:
+  group: main-branch-writer
+  cancel-in-progress: false
+
+jobs:
+  train:
+    runs-on: ubuntu-latest
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event_name == 'schedule' || github.event.workflow_run.conclusion == 'success' }}
+    timeout-minutes: 360
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Configure Git LFS
+        run: git lfs install
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Back up existing model
+        run: |
+          if [ -d models/v2 ]; then
+            cp -r models/v2 models/v2_backup
+            echo "Backed up models/v2 to models/v2_backup"
+          else
+            echo "No existing model to back up."
+          fi
+
+      - name: Train model
+        run: python scripts/train-model.py
+
+      - name: Evaluate and promote candidate model
+        run: |
+          python scripts/model-promotion-gate.py \
+            --models-dir models/v2 \
+            --baseline-metadata models/v2/metadata_prev.json \
+            --backup-dir models/v2_backup \
+            --history-path data/accuracy/retrain-history.json \
+            --decision-path models/v2/promotion-decision.json
+
+      - name: Commit and push
+        run: |
+          git config user.name "Nostradamus Bot"
+          git config user.email "bot@nostradamus.app"
+          git add models/v2/ models/archive/ data/training-logs/ data/accuracy/retrain-history.json scripts/model-promotion-gate.py
+          git diff --cached --quiet && echo "No changes to commit" && exit 0
+          ACCURACY=$(python -c "
+          import json, sys
+          try:
+              d = json.load(open('models/v2/metadata.json'))
+              print(f\"{d['testMetrics']['accuracy']:.1%}\")
+          except Exception:
+              print('unknown')
+          ")
+          TODAY=$(date -u +%Y-%m-%d)
+          git commit -m "🧠 Model training [${TODAY}] — test accuracy: ${ACCURACY}"
+          git pull --rebase --autostash origin main
+          git push

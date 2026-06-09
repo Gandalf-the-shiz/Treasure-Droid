@@ -1,0 +1,25 @@
+{
+  "entries": [
+    {
+      "timestamp": "2026-05-23T00:58:46Z",
+      "decision": "promoted",
+      "reasons": [
+        "wilson_lower_bound_improved"
+      ],
+      "previousAccuracy": 0.666,
+      "newAccuracy": 0.6666,
+      "sampleSize": 177097,
+      "diagnostics": {
+        "wilson": {
+          "candidateLower95": 0.664401,
+          "baselineLower95": 0.663794
+        },
+        "composite": {
+          "candidate": 0.68338,
+          "baseline": 0.68136,
+          "delta": 0.00202
+        }
+      }
+    }
+  ]
+}

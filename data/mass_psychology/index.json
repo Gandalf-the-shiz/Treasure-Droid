@@ -1,0 +1,89 @@
+{
+  "generatedAt": "2026-06-09T21:18:49Z",
+  "marketMood": 0.0,
+  "marketMoodLabel": "mixed",
+  "nPosts": 0,
+  "nHeadlines": 12,
+  "samplePosts": [],
+  "sampleHeadlines": [
+    {
+      "source": "rss/headlines",
+      "title": "MarketWatch.com - Top Stories",
+      "score": 0.0,
+      "tickers": []
+    },
+    {
+      "source": "rss/headlines",
+      "title": "MarketWatch.com - Top Stories",
+      "score": 0.0,
+      "tickers": []
+    },
+    {
+      "source": "rss/headlines",
+      "title": "Angst over SpaceX IPO adds to dive in tech stocks",
+      "score": 0.0,
+      "tickers": []
+    },
+    {
+      "source": "rss/headlines",
+      "title": "A powerful inflation storm is brewing &#x2014; and your portfolio isn&#x2019;t ready",
+      "score": 0.0,
+      "tickers": []
+    },
+    {
+      "source": "rss/headlines",
+      "title": "Adobe needs a new CEO to make bold AI moves, and its choice could be revealed on Thursday",
+      "score": 0.0,
+      "tickers": [
+        "BOLD"
+      ]
+    },
+    {
+      "source": "rss/headlines",
+      "title": "Your tech portfolio could be on the wrong side of the AI boom",
+      "score": 0.0,
+      "tickers": []
+    },
+    {
+      "source": "rss/headlines",
+      "title": "Fund a grandchild&#x2019;s retirement tax-free from birth &#x2014; if you can trust an 18-year-old with the money",
+      "score": 0.0,
+      "tickers": [
+        "CAN"
+      ]
+    },
+    {
+      "source": "rss/headlines",
+      "title": "When a World Cup team loses, its country&#x2019;s stock market also goes down. Here&#x2019;s the weird reason why.",
+      "score": -1.0,
+      "tickers": []
+    },
+    {
+      "source": "rss/headlines",
+      "title": "Sales of million-dollar homes suggest inflation is spurring the wealthy to buy now",
+      "score": 1.0,
+      "tickers": []
+    },
+    {
+      "source": "rss/headlines",
+      "title": "AST SpaceMobile&#x2019;s stock experiences rocky trading as SpaceX plans to launch its satellites into orbit",
+      "score": 0.0,
+      "tickers": []
+    },
+    {
+      "source": "rss/headlines",
+      "title": "I&#x2019;m 60, retired with $3 million. My fianc&#xe9;e, 55, has $1 million but plans to work for the next 10 years. Are we compatible?",
+      "score": 0.0,
+      "tickers": [
+        "HAS",
+        "NEXT"
+      ]
+    },
+    {
+      "source": "rss/headlines",
+      "title": "As SpaceX IPO anticipation heats up, what 2026&#x2019;s biggest IPOs say about investor demand",
+      "score": 0.0,
+      "tickers": []
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+# scheduler mode=daily_close
+
+# 2026-06-02T20:18:08.092320+00:00 scripts/learning_harness.py --once --mode daily
+[harness] npu_probe rc=0 (0s)
+[harness] feeds rc=0 (31s)
+[harness] macro rc=0 (241s)
+[harness] regime rc=0 (311s)
+[harness] congress rc=0 (3s)
+[harness] insider rc=0 (7s)
+[harness] mass_psych rc=0 (4s)
+[harness] insider_monitor rc=0 (0s)
+[harness] history rc=0 (1684s)
+[harness] promote_predictor rc=1 (0s)
+[harness] soft-fail promote_predictor — continuing
+[harness] predictor challenger not promoted — champion restored
+[harness] investor rc=1 (92594s)

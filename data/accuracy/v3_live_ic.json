@@ -1,0 +1,26 @@
+{
+  "updatedAt": "2026-06-09T21:20:08Z",
+  "generatedAt": "2026-06-09T21:20:08Z",
+  "source": "forward_score_audit",
+  "universe": "tradeable",
+  "horizonDays": 1,
+  "points": [
+    {
+      "date": "2026-06-03",
+      "ic": 0.07395,
+      "breadth": 1250
+    }
+  ],
+  "n_days": 1,
+  "mean_ic": 0.07395,
+  "hitRate": 1.0,
+  "nDays": 1,
+  "meanRankIc": 0.07395,
+  "daily": [
+    {
+      "date": "2026-06-03",
+      "ic": 0.07395,
+      "n": 1250
+    }
+  ]
+}

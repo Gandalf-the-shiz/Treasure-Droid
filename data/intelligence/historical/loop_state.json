@@ -1,0 +1,223 @@
+{
+  "cycle": 28,
+  "profile_idx": 0,
+  "seed": 420,
+  "champions": [
+    {
+      "ts": "2026-06-07T14:54:07Z",
+      "id": "ms_0264",
+      "family": "mean_reverter",
+      "holdSharpe": 3.95,
+      "holdReturnPct": 217.57,
+      "profile": "edge_hunter"
+    },
+    {
+      "ts": "2026-06-09T08:57:32Z",
+      "id": "ms_0336",
+      "family": "alpha_neutral",
+      "holdSharpe": 3.551,
+      "holdReturnPct": 239.41,
+      "profile": "tight_holdout"
+    },
+    {
+      "ts": "2026-06-09T17:58:13Z",
+      "id": "ms_0223",
+      "family": "mean_reverter",
+      "holdSharpe": 3.447,
+      "holdReturnPct": 276.88,
+      "profile": "deep_search"
+    },
+    {
+      "ts": "2026-06-08T17:56:18Z",
+      "id": "ms_0505",
+      "family": "ml_edge",
+      "holdSharpe": 3.249,
+      "holdReturnPct": 181.92,
+      "profile": "deep_search"
+    },
+    {
+      "ts": "2026-06-08T14:56:02Z",
+      "id": "ms_0066",
+      "family": "short_bias",
+      "holdSharpe": 3.198,
+      "holdReturnPct": 157.22,
+      "profile": "edge_hunter"
+    },
+    {
+      "ts": "2026-06-08T05:55:21Z",
+      "id": "ms_0204",
+      "family": "contrarian",
+      "holdSharpe": 3.133,
+      "holdReturnPct": 146.92,
+      "profile": "deep_search"
+    },
+    {
+      "ts": "2026-06-07T17:54:22Z",
+      "id": "ms_0593",
+      "family": "ml_edge",
+      "holdSharpe": 3.093,
+      "holdReturnPct": 160.71,
+      "profile": "deep_search"
+    },
+    {
+      "ts": "2026-06-06T20:52:42Z",
+      "id": "ms_0253",
+      "family": "short_bias",
+      "holdSharpe": 3.041,
+      "holdReturnPct": 185.42,
+      "profile": "tight_holdout"
+    },
+    {
+      "ts": "2026-06-07T20:54:37Z",
+      "id": "ms_0009",
+      "family": "breakout",
+      "holdSharpe": 3.009,
+      "holdReturnPct": 185.25,
+      "profile": "tight_holdout"
+    },
+    {
+      "ts": "2026-06-06T17:52:26Z",
+      "id": "ms_0237",
+      "family": "mean_reverter",
+      "holdSharpe": 2.92,
+      "holdReturnPct": 124.06,
+      "profile": "deep_search"
+    },
+    {
+      "ts": "2026-06-09T02:57:04Z",
+      "id": "ms_0062",
+      "family": "long_short_neutral",
+      "holdSharpe": 2.839,
+      "holdReturnPct": 158.02,
+      "profile": "edge_hunter"
+    },
+    {
+      "ts": "2026-06-06T14:44:21Z",
+      "id": "ms_0138",
+      "family": "ml_edge",
+      "holdSharpe": 2.766,
+      "holdReturnPct": 124.65,
+      "profile": "alpha_neutral_wide"
+    },
+    {
+      "ts": "2026-06-07T11:53:53Z",
+      "id": "ms_0036",
+      "family": "ml_edge",
+      "holdSharpe": 2.721,
+      "holdReturnPct": 159.0,
+      "profile": "alpha_neutral_wide"
+    },
+    {
+      "ts": "2026-06-09T11:57:44Z",
+      "id": "ms_0136",
+      "family": "mean_reverter",
+      "holdSharpe": 2.698,
+      "holdReturnPct": 160.47,
+      "profile": "alpha_neutral_wide"
+    },
+    {
+      "ts": "2026-06-07T08:53:40Z",
+      "id": "ms_0109",
+      "family": "alpha_neutral",
+      "holdSharpe": 2.632,
+      "holdReturnPct": 133.57,
+      "profile": "tight_holdout"
+    },
+    {
+      "ts": "2026-06-08T08:55:35Z",
+      "id": "ms_0066",
+      "family": "long_short_neutral",
+      "holdSharpe": 2.623,
+      "holdReturnPct": 112.28,
+      "profile": "tight_holdout"
+    },
+    {
+      "ts": "2026-06-08T11:55:48Z",
+      "id": "ms_0239",
+      "family": "alpha_neutral",
+      "holdSharpe": 2.594,
+      "holdReturnPct": 134.02,
+      "profile": "alpha_neutral_wide"
+    },
+    {
+      "ts": "2026-06-07T23:54:50Z",
+      "id": "ms_0247",
+      "family": "ml_edge",
+      "holdSharpe": 2.481,
+      "holdReturnPct": 138.29,
+      "profile": "alpha_neutral_wide"
+    },
+    {
+      "ts": "2026-06-08T23:56:50Z",
+      "id": "ms_0175",
+      "family": "mean_reverter",
+      "holdSharpe": 2.453,
+      "holdReturnPct": 140.85,
+      "profile": "alpha_neutral_wide"
+    },
+    {
+      "ts": "2026-06-08T02:55:04Z",
+      "id": "ms_0142",
+      "family": "alpha_neutral",
+      "holdSharpe": 2.411,
+      "holdReturnPct": 125.5,
+      "profile": "edge_hunter"
+    },
+    {
+      "ts": "2026-06-09T14:57:56Z",
+      "id": "ms_0117",
+      "family": "long_short_neutral",
+      "holdSharpe": 2.372,
+      "holdReturnPct": 136.34,
+      "profile": "edge_hunter"
+    },
+    {
+      "ts": "2026-06-06T23:52:57Z",
+      "id": "ms_0239",
+      "family": "ml_edge",
+      "holdSharpe": 2.37,
+      "holdReturnPct": 122.07,
+      "profile": "alpha_neutral_wide"
+    },
+    {
+      "ts": "2026-06-09T20:58:26Z",
+      "id": "ms_0262",
+      "family": "long_short_neutral",
+      "holdSharpe": 2.255,
+      "holdReturnPct": 92.5,
+      "profile": "tight_holdout"
+    },
+    {
+      "ts": "2026-06-06T14:52:09Z",
+      "id": "ms_0248",
+      "family": "alpha_neutral",
+      "holdSharpe": 2.237,
+      "holdReturnPct": 109.16,
+      "profile": "edge_hunter"
+    },
+    {
+      "ts": "2026-06-09T05:57:19Z",
+      "id": "ms_0019",
+      "family": "long_short_neutral",
+      "holdSharpe": 2.227,
+      "holdReturnPct": 115.78,
+      "profile": "deep_search"
+    }
+  ],
+  "lastProfile": "tight_holdout",
+  "lastResult": {
+    "ts": "2026-06-09T20:58:26Z",
+    "cycle": 27,
+    "profile": "tight_holdout",
+    "seed": 420,
+    "nGenomes": 350,
+    "nScored": 298,
+    "bestHoldoutSharpe": 2.255,
+    "bestHoldoutReturnPct": 92.5,
+    "nSurvivors": 20,
+    "nPromoted": 19,
+    "verdict": "Mad Scientist Lab: 43/44 top genomes held up on holdout. Best holdout Sharpe 4.684, 591.19% (187d)."
+  },
+  "status": "running",
+  "updatedAt": "2026-06-09T20:58:26Z"
+}

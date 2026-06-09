@@ -1,0 +1,1036 @@
+# learning harness @ 2026-06-04T21:41:43.096404+00:00
+
+# 2026-06-04T21:41:43.225088+00:00 scripts/npu_runtime.py
+{
+  "generatedAt": "2026-06-04T21:41:43Z",
+  "qnnRegistered": true,
+  "qnnDevices": 3,
+  "available": [
+    "QNNExecutionProvider",
+    "AzureExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "selected": [
+    "QNNExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "primary": "QNNExecutionProvider",
+  "preferNpu": true,
+  "soc": "Snapdragon X (X1P64100)",
+  "qnnPackage": "2.1.1"
+}
+
+# 2026-06-04T21:41:43.392559+00:00 scripts/verify-data-feeds.py
+[verify-data-feeds] complete
+[verify-data-feeds] OK    yfinance rows=10    latencyMs=652.69 error=
+[verify-data-feeds] FAIL      stooq rows=0     latencyMs=0.0 error=skipped: programmatic access captcha-walled; use import-stooq-bulk-zip.py instead
+[verify-data-feeds] FAIL       fred rows=0     latencyMs=30371.47 error=
+[verify-data-feeds] FAIL      gdelt rows=0     latencyMs=22605.71 error=
+[verify-data-feeds] FAIL     tiingo rows=0     latencyMs=0.0 error=skipped: set TIINGO_API_TOKEN
+[verify-data-feeds] FAIL alphavantage rows=0     latencyMs=0.0 error=skipped: set ALPHAVANTAGE_API_KEY
+[verify-data-feeds] criticalReady=True
+
+# 2026-06-04T21:42:37.697900+00:00 scripts/fetch-macro.py
+============================================================
+[fetch-macro] Fetching macroeconomic data for 2026-06-04
+============================================================
+[fetch-macro] FRED graph CSV error (DFF): HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=30)
+[fetch-macro] FRED graph CSV error (T10Y2Y): HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=30)
+[fetch-macro] FRED graph CSV error (VIXCLS): HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=30)
+[fetch-macro] Loaded public history for UMCSENT: 672 points
+[fetch-macro] FRED graph CSV error (ICSA): HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=30)
+[fetch-macro] FRED graph CSV error (SP500): HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=30)
+[fetch-macro] Loaded public history for M2SL: 808 points
+[fetch-macro] FRED graph CSV error (T10Y3M): HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=30)
+[fetch-macro] Loaded public history for BAMLH0A0HYM2: 787 points
+[fetch-macro] Loaded public history for UNRATE: 939 points
+[fetch-macro] Loaded public history for CPIAUCSL: 951 points
+[fetch-macro] Loaded public history for INDPRO: 1288 points
+
+[fetch-macro] Regime classification: SIDEWAYS
+[fetch-macro] Normalised macro features: {'macro_vix_norm': 0.1429, 'macro_spread_norm': 0.5, 'macro_fed_norm': 0.5, 'macro_sentiment_norm': 0.0, 'macro_claims_norm': 0.8222, 'macro_t10y3m_norm': 0.5, 'macro_hy_oas_norm': 0.0938, 'macro_unrate_norm': 0.8143, 'macro_cpi_norm': 0.8241, 'macro_indpro_norm': 0.6248, 'macro_sp500_norm': 0.5, 'macro_m2_norm': 0.8007}
+[fetch-macro] Wrote snapshot: C:\Users\nicho\Nostradamus_remote_audit\data\macro\2026-06-04.json
+[fetch-macro] Updated current regime: C:\Users\nicho\Nostradamus_remote_audit\data\macro\current-regime.json
+
+============================================================
+[fetch-macro] DONE — Regime: SIDEWAYS
+============================================================
+
+# 2026-06-04T21:46:02.409449+00:00 scripts/fetch-regime-data.py
+[fetch-regime] Fetching GDELT daily tone…
+[fetch-regime] GDELT 2025-06-04 -> 2025-07-03
+[fetch-regime] GDELT 2025-07-04 -> 2025-08-02
+[fetch-regime] GDELT 2025-08-03 -> 2025-09-01
+[fetch-regime] GDELT 2025-09-02 -> 2025-10-01
+[fetch-regime] GDELT 2025-10-02 -> 2025-10-31
+[fetch-regime] GDELT 2025-11-01 -> 2025-11-30
+[fetch-regime] GDELT 2025-12-01 -> 2025-12-30
+[fetch-regime] GDELT 2025-12-31 -> 2026-01-29
+[fetch-regime] GDELT 2026-01-30 -> 2026-02-28
+[fetch-regime] GDELT 2026-03-01 -> 2026-03-30
+[fetch-regime] GDELT 2026-03-31 -> 2026-04-29
+[fetch-regime] GDELT 2026-04-30 -> 2026-05-29
+[fetch-regime] GDELT 2026-05-30 -> 2026-06-04
+[fetch-regime] Wrote C:\Users\nicho\Nostradamus_remote_audit\data\regime\gdelt_timeline.json (163 rows)
+[fetch-regime] Merged timeline -> C:\Users\nicho\Nostradamus_remote_audit\data\regime\timeline.json
+[fetch-regime] Feature columns: ['gdelt_tone_norm', 'gdelt_tone_delta_5d', 'gdelt_article_z', 'macro_t10y3m_norm', 'macro_hy_oas_norm', 'macro_unrate_norm', 'macro_cpi_norm', 'macro_indpro_norm', 'macro_sp500_norm', 'macro_m2_norm', 'regime_bull', 'regime_bear', 'regime_high_vol', 'regime_sideways']
+
+# 2026-06-04T21:52:16.359717+00:00 scripts/fetch-congress-trades.py
+[fetch-congress] pulling trades from all configured sources…
+[congress] kadoa normalized 3,084 equity trades
+[fetch-congress] wrote C:\Users\nicho\Nostradamus_remote_audit\data\congress\trades_normalized.json
+[fetch-congress] total=2,861 recent(90d)=267 symbols=198 watchlist_365d=140 pelosi_365d=17
+  · Rohit Khanna: 14 buys / 6 sells
+  · Michael T. McCaul: 14 buys / 6 sells
+  · Josh Gottheimer: 1 buys / 8 sells
+  · Markwayne Mullin: 1 buys / 2 sells
+  · Donald J Trump: 31 buys / 0 sells
+
+# 2026-06-04T21:52:18.392886+00:00 scripts/fetch-insider-trades.py
+[fetch-insider] 120 tickers, lookback=90d
+[fetch-insider] 20/120 trades=38
+[fetch-insider] 40/120 trades=110
+[fetch-insider] 60/120 trades=173
+[fetch-insider] 80/120 trades=234
+[fetch-insider] 100/120 trades=300
+[fetch-insider] 120/120 trades=494
+[fetch-insider] done trades=494
+
+# 2026-06-04T21:55:06.012365+00:00 scripts/intelligence/mass_psychology.py
+[mass-psych] mood=mixed (0.1903) tickers=40
+
+# 2026-06-04T21:55:09.524320+00:00 scripts/intelligence/insider_monitor.py
+[insider-monitor] alerts=11 follow_symbols=14
+
+# 2026-06-04T21:55:09.588113+00:00 scripts/fetch-history.py
+$AACBR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$AACIW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$AACOW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+3 Failed downloads:
+['AACBR', 'AACIW', 'AACOW']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$ADACW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$ACAAW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+2 Failed downloads:
+['ADACW', 'ACAAW']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$AEAQW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+1 Failed download:
+['AEAQW']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$AFJKR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+1 Failed download:
+['AFJKR']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$ALISR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+1 Failed download:
+['ALISR']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$ALOVW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+1 Failed download:
+['ALOVW']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$AMPGR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$AMPGZ: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$AMWD: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+3 Failed downloads:
+['AMPGR', 'AMPGZ', 'AMWD']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$APLS: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$APACR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+2 Failed downloads:
+['APLS', 'APACR']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$ARCIW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+1 Failed download:
+['ARCIW']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$ASPCR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$ARTCW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+2 Failed downloads:
+['ASPCR', 'ARTCW']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$AXINR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$BACCR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+2 Failed downloads:
+['AXINR', 'BACCR']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$BAYAR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$BC-PC: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+2 Failed downloads:
+['BAYAR', 'BC-PC']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$BCTXL: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$BEAGR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+2 Failed downloads:
+['BCTXL', 'BEAGR']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$BHAVR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+1 Failed download:
+['BHAVR']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$BKHAR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+1 Failed download:
+['BKHAR']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$BLRKW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+1 Failed download:
+['BLRKW']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$BPACR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$BNCWZ: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+2 Failed downloads:
+['BPACR', 'BNCWZ']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$BRUNW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$BSAAR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+2 Failed downloads:
+['BRUNW', 'BSAAR']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$CAEP: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$CAQUW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$CAPNR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+3 Failed downloads:
+['CAEP', 'CAQUW', 'CAPNR']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$CCLDO: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+1 Failed download:
+['CCLDO']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$CCXIW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+1 Failed download:
+['CCXIW']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$CHARR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+1 Failed download:
+['CHARR']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$CHPGR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+1 Failed download:
+['CHPGR']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$CMIIW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+1 Failed download:
+['CMIIW']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$COLAR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+1 Failed download:
+['COLAR']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$CRANR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$CRACR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$CRAQR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+3 Failed downloads:
+['CRANR', 'CRACR', 'CRAQR']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$CSHRW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$CSGS: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+2 Failed downloads:
+['CSHRW', 'CSGS']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$CTAAR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$CTLP: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$CTBB: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$CTDD: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+4 Failed downloads:
+['CTAAR', 'CTLP', 'CTBB', 'CTDD']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$CVGW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+1 Failed download:
+['CVGW']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$DBCAW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+1 Failed download:
+['DBCAW']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$DFNSW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$DHCNL: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+2 Failed downloads:
+['DFNSW', 'DHCNL']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$DMIIR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$DMAAR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+2 Failed downloads:
+['DMIIR', 'DMAAR']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$DSX-WT: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$DSACW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+2 Failed downloads:
+['DSX-WT', 'DSACW']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$DYNCW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$DTSTW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$DTSQR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+3 Failed downloads:
+['DYNCW', 'DTSTW', 'DTSQR']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$EHAB: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$EGHAR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+2 Failed downloads:
+['EHAB', 'EGHAR']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$EMISR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+1 Failed download:
+['EMISR']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$ERNAW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+1 Failed download:
+['ERNAW']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$ESLAW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$EURKR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+2 Failed downloads:
+['ESLAW', 'EURKR']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$F-PD: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$F-PB: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$EWCZ: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$F-PC: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+4 Failed downloads:
+['F-PD', 'F-PB', 'EWCZ', 'F-PC']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$FCRX: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$FCO: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+2 Failed downloads:
+['FCRX', 'FCO']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$FGMCR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$FGIIW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$FERAR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+3 Failed downloads:
+['FGMCR', 'FGIIW', 'FERAR']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$FORA: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$FMACR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+2 Failed downloads:
+['FORA', 'FMACR']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$FSHPR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+1 Failed download:
+['FSHPR']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$FVNNR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$FTW-WT: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+2 Failed downloads:
+['FVNNR', 'FTW-WT']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$GECCO: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+1 Failed download:
+['GECCO']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$GIWWR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$GIXXR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$GIGGU: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$GL-PD: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$GIGGW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+5 Failed downloads:
+['GIWWR', 'GIXXR', 'GIGGU', 'GL-PD', 'GIGGW']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$GME-WT: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$GLNDW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+2 Failed downloads:
+['GME-WT', 'GLNDW']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$GPACW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$GRMLW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+2 Failed downloads:
+['GPACW', 'GRMLW']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$GTERR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+1 Failed download:
+['GTERR']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$GWH-WT: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$HACQW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$HAVAR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+3 Failed downloads:
+['GWH-WT', 'HACQW', 'HAVAR']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$HCACR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$HCICR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+2 Failed downloads:
+['HCACR', 'HCICR']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$HSPTR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+1 Failed download:
+['HSPTR']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$HVIIR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+1 Failed download:
+['HVIIR']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$IACOW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$IBACR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+2 Failed downloads:
+['IACOW', 'IBACR']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$ILLRW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$IEAGR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+2 Failed downloads:
+['ILLRW', 'IEAGR']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$ILLUW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$INACR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+2 Failed downloads:
+['ILLUW', 'INACR']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$IPCXR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+1 Failed download:
+['IPCXR']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$IRHOR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$IPFXW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$ITHAW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$IPEXR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+4 Failed downloads:
+['IRHOR', 'IPFXW', 'ITHAW', 'IPEXR']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$KFIIR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$KBONW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$KCHVR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+3 Failed downloads:
+['KFIIR', 'KBONW', 'KCHVR']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$KRAQW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$KTWOR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+2 Failed downloads:
+['KRAQW', 'KTWOR']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$KZR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+1 Failed download:
+['KZR']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$LCCCR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$LFACW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+2 Failed downloads:
+['LCCCR', 'LFACW']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$LKSPR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+1 Failed download:
+['LKSPR']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$LPCVW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+1 Failed download:
+['LPCVW']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$LZM-WT: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+1 Failed download:
+['LZM-WT']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$MCW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+1 Failed download:
+['MCW']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$MEVOW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$MESHW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+2 Failed downloads:
+['MEVOW', 'MESHW']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$MFICL: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+1 Failed download:
+['MFICL']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$MLACR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$MLAAW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$MKLYR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$MMTXW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+4 Failed downloads:
+['MLACR', 'MLAAW', 'MKLYR', 'MMTXW']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$MPX: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+1 Failed download:
+['MPX']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$MUZEW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+1 Failed download:
+['MUZEW']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$MYXXW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$MYXXR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+2 Failed downloads:
+['MYXXW', 'MYXXR']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$NE-WT: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$NBRGR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+2 Failed downloads:
+['NE-WT', 'NBRGR']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$NEE-PW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$NEXRW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+2 Failed downloads:
+['NEE-PW', 'NEXRW']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$NIXXW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$NMPAR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+2 Failed downloads:
+['NIXXW', 'NMPAR']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$NOEMR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+1 Failed download:
+['NOEMR']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$NRXPW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$NTWOW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+2 Failed downloads:
+['NRXPW', 'NTWOW']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$NUCLW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+1 Failed download:
+['NUCLW']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$OIOWW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$OIMAW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+2 Failed downloads:
+['OIOWW', 'OIMAW']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$PAACW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$OXY-WT: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+2 Failed downloads:
+['PAACW', 'OXY-WT']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$PCG-PI: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$PALOW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+2 Failed downloads:
+['PCG-PI', 'PALOW']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$PEW-WT: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+1 Failed download:
+['PEW-WT']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$PGACR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+1 Failed download:
+['PGACR']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$PONOR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+1 Failed download:
+['PONOR']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$PRHIZ: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+1 Failed download:
+['PRHIZ']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$PTORW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+1 Failed download:
+['PTORW']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$QSEAR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$PW-PA: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$QADRW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$QETAR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+4 Failed downloads:
+['QSEAR', 'PW-PA', 'QADRW', 'QETAR']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$RAC-WT: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$RANGR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$QUMSR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+3 Failed downloads:
+['RAC-WT', 'RANGR', 'QUMSR']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$RDACR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+1 Failed download:
+['RDACR']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$RIBBR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$RFAIR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$RFAMR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+3 Failed downloads:
+['RIBBR', 'RFAIR', 'RFAMR']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$RREVW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+1 Failed download:
+['RREVW']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$SAC-WT: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$SAAQW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+2 Failed downloads:
+['SAC-WT', 'SAAQW']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$SCIIR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$SCPQW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+2 Failed downloads:
+['SCIIR', 'SCPQW']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$SDHIR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$SES-WT: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+2 Failed downloads:
+['SDHIR', 'SES-WT']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$SLNO: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+1 Failed download:
+['SLNO']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$SNCY: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+1 Failed download:
+['SNCY']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$SORNW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$SPEGR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+2 Failed downloads:
+['SORNW', 'SPEGR']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$SSACR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$SSACW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$SSEAR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+3 Failed downloads:
+['SSACR', 'SSACW', 'SSEAR']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$SUMAR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$SVIVW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$SVAQW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+3 Failed downloads:
+['SUMAR', 'SVIVW', 'SVAQW']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$SZZLR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+1 Failed download:
+['SZZLR']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$TAVIR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$TDWDR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+2 Failed downloads:
+['TAVIR', 'TDWDR']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$THR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$TGE-WT: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$TE-WT: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+3 Failed downloads:
+['THR', 'TGE-WT', 'TE-WT']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$TMTSW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+1 Failed download:
+['TMTSW']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$TPH: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+1 Failed download:
+['TPH']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$TRGSR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+1 Failed download:
+['TRGSR']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$TWLVR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$TVAIR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+2 Failed downloads:
+['TWLVR', 'TVAIR']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$UAC-WT: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$TYG-RW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$UCFIW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$UDMY: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+4 Failed downloads:
+['UAC-WT', 'TYG-RW', 'UCFIW', 'UDMY']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$UYSCR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$VAL-WT: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+2 Failed downloads:
+['UYSCR', 'VAL-WT']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$VHCPW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+1 Failed download:
+['VHCPW']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$VLN-WT: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+1 Failed download:
+['VLN-WT']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$VRE: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+1 Failed download:
+['VRE']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$WLACU: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$WLACW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$WLAC: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+3 Failed downloads:
+['WLACU', 'WLACW', 'WLAC']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$WLIIW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$WSTNR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+2 Failed downloads:
+['WLIIW', 'WSTNR']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$WTGUR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$XCBEW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+2 Failed downloads:
+['WTGUR', 'XCBEW']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$XRXDW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$XSLLW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+2 Failed downloads:
+['XRXDW', 'XSLLW']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$YCY-WT: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$YHNAR: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+2 Failed downloads:
+['YCY-WT', 'YHNAR']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+$ZKPW: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+
+1 Failed download:
+['ZKPW']: possibly delisted; no price data found  (1d 2026-05-30 -> 2026-06-04)
+[fetch-history] Loaded 7,146 tickers from registry
+[fetch-history] Mode: INCREMENTAL (last 5 days)
+[fetch-history] Processing 143 batches of up to 50 tickers each
+[fetch-history] Batch 1/143 complete - 50/7,146 tickers processed
+[fetch-history] Batch 2/143 complete - 100/7,146 tickers processed
+[fetch-history] Batch 3/143 complete - 150/7,146 tickers processed
+[fetch-history] Batch 4/143 complete - 200/7,146 tickers processed
+[fetch-history] Batch 5/143 complete - 250/7,146 tickers processed
+[fetch-history] Batch 6/143 complete - 300/7,146 tickers processed
+[fetch-history] Batch 7/143 complete - 350/7,146 tickers processed
+[fetch-history] Batch 8/143 complete - 400/7,146 tickers processed
+[fetch-history] Batch 9/143 complete - 450/7,146 tickers processed
+[fetch-history] Batch 10/143 complete - 500/7,146 tickers processed
+[fetch-history] Batch 11/143 complete - 550/7,146 tickers processed
+[fetch-history] Batch 12/143 complete - 600/7,146 tickers processed
+[fetch-history] Batch 13/143 complete - 650/7,146 tickers processed
+[fetch-history] Batch 14/143 complete - 700/7,146 tickers processed
+[fetch-history] Batch 15/143 complete - 750/7,146 tickers processed
+[fetch-history] Batch 16/143 complete - 800/7,146 tickers processed
+[fetch-history] Batch 17/143 complete - 850/7,146 tickers processed
+[fetch-history] Batch 18/143 complete - 900/7,146 tickers processed
+[fetch-history] Batch 19/143 complete - 950/7,146 tickers processed
+[fetch-history] Batch 20/143 complete - 1,000/7,146 tickers processed
+[fetch-history] Batch 21/143 complete - 1,050/7,146 tickers processed
+[fetch-history] Batch 22/143 complete - 1,100/7,146 tickers processed
+[fetch-history] Batch 23/143 complete - 1,150/7,146 tickers processed
+[fetch-history] Batch 24/143 complete - 1,200/7,146 tickers processed
+[fetch-history] Batch 25/143 complete - 1,250/7,146 tickers processed
+[fetch-history] Batch 26/143 complete - 1,300/7,146 tickers processed
+[fetch-history] Batch 27/143 complete - 1,350/7,146 tickers processed
+[fetch-history] Batch 28/143 complete - 1,400/7,146 tickers processed
+[fetch-history] Batch 29/143 complete - 1,450/7,146 tickers processed
+[fetch-history] Batch 30/143 complete - 1,500/7,146 tickers processed
+[fetch-history] Batch 31/143 complete - 1,550/7,146 tickers processed
+[fetch-history] Batch 32/143 complete - 1,600/7,146 tickers processed
+[fetch-history] Batch 33/143 complete - 1,650/7,146 tickers processed
+[fetch-history] Batch 34/143 complete - 1,700/7,146 tickers processed
+[fetch-history] Batch 35/143 complete - 1,750/7,146 tickers processed
+[fetch-history] Batch 36/143 complete - 1,800/7,146 tickers processed
+[fetch-history] Batch 37/143 complete - 1,850/7,146 tickers processed
+[fetch-history] Batch 38/143 complete - 1,900/7,146 tickers processed
+[fetch-history] Batch 39/143 complete - 1,950/7,146 tickers processed
+[fetch-history] Batch 40/143 complete - 2,000/7,146 tickers processed
+[fetch-history] Batch 41/143 complete - 2,050/7,146 tickers processed
+[fetch-history] Batch 42/143 complete - 2,100/7,146 tickers processed
+[fetch-history] Batch 43/143 complete - 2,150/7,146 tickers processed
+[fetch-history] Batch 44/143 complete - 2,200/7,146 tickers processed
+[fetch-history] Batch 45/143 complete - 2,250/7,146 tickers processed
+[fetch-history] Batch 46/143 complete - 2,300/7,146 tickers processed
+[fetch-history] Batch 47/143 complete - 2,350/7,146 tickers processed
+[fetch-history] Batch 48/143 complete - 2,400/7,146 tickers processed
+[fetch-history] Batch 49/143 complete - 2,450/7,146 tickers processed
+[fetch-history] Batch 50/143 complete - 2,500/7,146 tickers processed
+[fetch-history] Batch 51/143 complete - 2,550/7,146 tickers processed
+[fetch-history] Batch 52/143 complete - 2,600/7,146 tickers processed
+[fetch-history] Batch 53/143 complete - 2,650/7,146 tickers processed
+[fetch-history] Batch 54/143 complete - 2,700/7,146 tickers processed
+[fetch-history] Batch 55/143 complete - 2,750/7,146 tickers processed
+[fetch-history] Batch 56/143 complete - 2,800/7,146 tickers processed
+[fetch-history] Batch 57/143 complete - 2,850/7,146 tickers processed
+[fetch-history] Batch 58/143 complete - 2,900/7,146 tickers processed
+[fetch-history] Batch 59/143 complete - 2,950/7,146 tickers processed
+[fetch-history] Batch 60/143 complete - 3,000/7,146 tickers processed
+[fetch-history] Batch 61/143 complete - 3,050/7,146 tickers processed
+[fetch-history] Batch 62/143 complete - 3,100/7,146 tickers processed
+[fetch-history] Batch 63/143 complete - 3,150/7,146 tickers processed
+[fetch-history] Batch 64/143 complete - 3,200/7,146 tickers processed
+[fetch-history] Batch 65/143 complete - 3,250/7,146 tickers processed
+[fetch-history] Batch 66/143 complete - 3,300/7,146 tickers processed
+[fetch-history] Batch 67/143 complete - 3,350/7,146 tickers processed
+[fetch-history] Batch 68/143 complete - 3,400/7,146 tickers processed
+[fetch-history] Batch 69/143 complete - 3,450/7,146 tickers processed
+[fetch-history] Batch 70/143 complete - 3,500/7,146 tickers processed
+[fetch-history] Batch 71/143 complete - 3,550/7,146 tickers processed
+[fetch-history] Batch 72/143 complete - 3,600/7,146 tickers processed
+[fetch-history] Batch 73/143 complete - 3,650/7,146 tickers processed
+[fetch-history] Batch 74/143 complete - 3,700/7,146 tickers processed
+[fetch-history] Batch 75/143 complete - 3,750/7,146 tickers processed
+[fetch-history] Batch 76/143 complete - 3,800/7,146 tickers processed
+[fetch-history] Batch 77/143 complete - 3,850/7,146 tickers processed
+[fetch-history] Batch 78/143 complete - 3,900/7,146 tickers processed
+[fetch-history] Batch 79/143 complete - 3,950/7,146 tickers processed
+[fetch-history] Batch 80/143 complete - 4,000/7,146 tickers processed
+[fetch-history] Batch 81/143 complete - 4,050/7,146 tickers processed
+[fetch-history] Batch 82/143 complete - 4,100/7,146 tickers processed
+[fetch-history] Batch 83/143 complete - 4,150/7,146 tickers processed
+[fetch-history] Batch 84/143 complete - 4,200/7,146 tickers processed
+[fetch-history] Batch 85/143 complete - 4,250/7,146 tickers processed
+[fetch-history] Batch 86/143 complete - 4,300/7,146 tickers processed
+[fetch-history] Batch 87/143 complete - 4,350/7,146 tickers processed
+[fetch-history] Batch 88/143 complete - 4,400/7,146 tickers processed
+[fetch-history] Batch 89/143 complete - 4,450/7,146 tickers processed
+[fetch-history] Batch 90/143 complete - 4,500/7,146 tickers processed
+[fetch-history] Batch 91/143 complete - 4,550/7,146 tickers processed
+[fetch-history] Batch 92/143 complete - 4,600/7,146 tickers processed
+[fetch-history] Batch 93/143 complete - 4,650/7,146 tickers processed
+[fetch-history] Batch 94/143 complete - 4,700/7,146 tickers processed
+[fetch-history] Batch 95/143 complete - 4,750/7,146 tickers processed
+[fetch-history] Batch 96/143 complete - 4,800/7,146 tickers processed
+[fetch-history] Batch 97/143 complete - 4,850/7,146 tickers processed
+[fetch-history] Batch 98/143 complete - 4,900/7,146 tickers processed
+[fetch-history] Batch 99/143 complete - 4,950/7,146 tickers processed
+[fetch-history] Batch 100/143 complete - 5,000/7,146 tickers processed
+[fetch-history] Batch 101/143 complete - 5,050/7,146 tickers processed
+[fetch-history] Batch 102/143 complete - 5,100/7,146 tickers processed
+[fetch-history] Batch 103/143 complete - 5,150/7,146 tickers processed
+[fetch-history] Batch 104/143 complete - 5,200/7,146 tickers processed
+[fetch-history] Batch 105/143 complete - 5,250/7,146 tickers processed
+[fetch-history] Batch 106/143 complete - 5,300/7,146 tickers processed
+[fetch-history] Batch 107/143 complete - 5,350/7,146 tickers processed
+[fetch-history] Batch 108/143 complete - 5,400/7,146 tickers processed
+[fetch-history] Batch 109/143 complete - 5,450/7,146 tickers processed
+[fetch-history] Batch 110/143 complete - 5,500/7,146 tickers processed
+[fetch-history] Batch 111/143 complete - 5,550/7,146 tickers processed
+[fetch-history] Batch 112/143 complete - 5,600/7,146 tickers processed
+[fetch-history] Batch 113/143 complete - 5,650/7,146 tickers processed
+[fetch-history] Batch 114/143 complete - 5,700/7,146 tickers processed
+[fetch-history] Batch 115/143 complete - 5,750/7,146 tickers processed
+[fetch-history] Batch 116/143 complete - 5,800/7,146 tickers processed
+[fetch-history] Batch 117/143 complete - 5,850/7,146 tickers processed
+[fetch-history] Batch 118/143 complete - 5,900/7,146 tickers processed
+[fetch-history] Batch 119/143 complete - 5,950/7,146 tickers processed
+[fetch-history] Batch 120/143 complete - 6,000/7,146 tickers processed
+[fetch-history] Batch 121/143 complete - 6,050/7,146 tickers processed
+[fetch-history] Batch 122/143 complete - 6,100/7,146 tickers processed
+[fetch-history] Batch 123/143 complete - 6,150/7,146 tickers processed
+[fetch-history] Batch 124/143 complete - 6,200/7,146 tickers processed
+[fetch-history] Batch 125/143 complete - 6,250/7,146 tickers processed
+[fetch-history] Batch 126/143 complete - 6,300/7,146 tickers processed
+[fetch-history] Batch 127/143 complete - 6,350/7,146 tickers processed
+[fetch-history] Batch 128/143 complete - 6,400/7,146 tickers processed
+[fetch-history] Batch 129/143 complete - 6,450/7,146 tickers processed
+[fetch-history] Batch 130/143 complete - 6,500/7,146 tickers processed
+[fetch-history] Batch 131/143 complete - 6,550/7,146 tickers processed
+[fetch-history] Batch 132/143 complete - 6,600/7,146 tickers processed
+[fetch-history] Batch 133/143 complete - 6,650/7,146 tickers processed
+[fetch-history] Batch 134/143 complete - 6,700/7,146 tickers processed
+[fetch-history] Batch 135/143 complete - 6,750/7,146 tickers processed
+[fetch-history] Batch 136/143 complete - 6,800/7,146 tickers processed
+[fetch-history] Batch 137/143 complete - 6,850/7,146 tickers processed
+[fetch-history] Batch 138/143 complete - 6,900/7,146 tickers processed
+[fetch-history] Batch 139/143 complete - 6,950/7,146 tickers processed
+[fetch-history] Batch 140/143 complete - 7,000/7,146 tickers processed
+[fetch-history] Batch 141/143 complete - 7,050/7,146 tickers processed
+[fetch-history] Batch 142/143 complete - 7,100/7,146 tickers processed
+[fetch-history] Batch 143/143 complete - 7,146/7,146 tickers processed
+
+============================================================
+[fetch-history] OK Historical data pipeline complete
+  Mode:            INCREMENTAL (last 5 days)
+  Total tickers:   7,146
+  Succeeded:       6,035
+  Failed:          1,111
+  Total data pts:  11,194,992
+  Elapsed:         620.2s
+  Sector files:    12
+============================================================
+
+# 2026-06-04T22:05:33.323933+00:00 scripts/promotion_gate_v3.py
+Traceback (most recent call last):
+  File "C:\Users\nicho\Nostradamus_remote_audit\scripts\promotion_gate_v3.py", line 17, in <module>
+    _spec.loader.exec_module(_mpg)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\nicho\Nostradamus_remote_audit\scripts\model-promotion-gate.py", line 32, in <module>
+    @dataclass
+     ^^^^^^^^^
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python311-arm64\Lib\dataclasses.py", line 1232, in dataclass
+    return wrap(cls)
+           ^^^^^^^^^
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python311-arm64\Lib\dataclasses.py", line 1222, in wrap
+    return _process_class(cls, init, repr, eq, order, unsafe_hash,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python311-arm64\Lib\dataclasses.py", line 947, in _process_class
+    and _is_type(type, cls, dataclasses, dataclasses.KW_ONLY,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python311-arm64\Lib\dataclasses.py", line 712, in _is_type
+    ns = sys.modules.get(cls.__module__).__dict__
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute '__dict__'. Did you mean: '__dir__'?
+
+# 2026-06-04T22:05:33.470823+00:00 scripts/train-investor-v3.py --top-k 5 --max-position-frac 0.20 --max-gross-exposure 0.90 --kelly-scale 0.5 --cost-bps 5 --slippage-bps 10 --min-proba 0.60 --min-pred-ret 0.020 --min-price 5 --min-adv 1000000 --min-vol-20 0.01 --max-daily-ret 0.20 --policy-mode edge
+[load] val=2,161,932 test=3,298,392 test_dates=351 symbols=9831
+[liquidity] kept 7,635,095 (date,symbol) bars across 8232 symbols
+[liquidity-filter] val 2,161,932 -> 786  test 3,298,392 -> 1,536
+[overlay] congress/insider attach skipped: 0
+[policy] mode=edge iters=25 val_mae=0.11786
+[policy] ONNX export skipped: 'charmap' codec can't encode character '\u2192' in position 23: character maps to <undefined>
+[backtest] 337 trading days, $10000.00 start
+[bt] 2025-01-02 equity=$10,000.00 cash=$10,000.00 positions=0
+[bt] 2025-03-18 equity=$9,798.76 cash=$9,798.76 positions=0
+[bt] 2025-05-29 equity=$8,555.70 cash=$8,555.70 positions=0
+[bt] 2025-08-14 equity=$9,329.48 cash=$9,329.48 positions=0
+[bt] 2025-10-29 equity=$8,531.34 cash=$5,118.80 positions=2
+[bt] 2026-01-13 equity=$8,154.75 cash=$8,154.75 positions=0
+[bt] 2026-04-01 equity=$8,879.90 cash=$8,879.90 positions=0
+[bt] 2026-05-28 equity=$8,490.52 cash=$8,490.52 positions=0
+[price-history] loaded 10,358 symbols
+[decisions] wrote C:\Users\nicho\Nostradamus_remote_audit\data\investor_v3\decisions.json (337 days, 87 unique symbols)
+
+=== INVESTOR SUMMARY ===
+{
+  "starting_cash": 10000.0,
+  "ending_cash": 8490.51508980857,
+  "total_return_pct": -15.0948491019143,
+  "annualized_sharpe": -0.6275403853937007,
+  "max_drawdown_pct": -24.00261139184797,
+  "trading_days": 337,
+  "trades": 103,
+  "wins": 52,
+  "losses": 51,
+  "win_rate_pct": 50.48543689320388,
+  "config": {
+    "top_k": 5,
+    "max_position_frac": 0.2,
+    "max_gross_exposure": 0.9,
+    "kelly_scale": 0.5,
+    "cost_bps": 5.0,
+    "min_proba": 0.6
+  }
+}
+
+# 2026-06-04T22:07:26.002133+00:00 scripts/promotion_gate_investor.py
+DECISION=rolled_back
+
+# 2026-06-04T22:07:26.090124+00:00 scripts/enrich_decisions.py --last-days 10
+[enrich] loading data\investor_v3\decisions.json
+[enrich] 12 unique symbols across 10 days
+[enrich] fetched 50 headlines for 10/12 symbols in 632 ms
+[enrich] scoring 50 headlines via FinBERT...
+ [ 0 ; 9 3 m 2 0 2 6 - 0 6 - 0 4   1 8 : 0 7 : 2 7 . 0 5 3 6 9 4 1   [ W : o n n x r u n t i m e : D e f a u l t ,   c o n f i g _ o p t i o n s . c c : 4 5   o n n x r u n t i m e : : C o n f i g O p t i o n s : : A d d C o n f i g E n t r y ]   C o n f i g   w i t h   k e y   [ e p . q n n e x e c u t i o n p r o v i d e r . b a c k e n d _ p a t h ]   a l r e a d y   e x i s t s   w i t h   v a l u e   [ C : \ U s e r s \ n i c h o \ A p p D a t a \ L o c a l \ P r o g r a m s \ P y t h o n \ P y t h o n 3 1 1 - a r m 6 4 \ L i b \ s i t e - p a c k a g e s \ o n n x r u n t i m e _ q n n \ Q n n H t p . d l l ] .   I t   w i l l   b e   o v e r w r i t t e n  [ m 
+  [ 0 ; 9 3 m 2 0 2 6 - 0 6 - 0 4   1 8 : 0 7 : 2 7 . 0 5 5 4 5 8 8   [ W : o n n x r u n t i m e : D e f a u l t ,   c o n f i g _ o p t i o n s . c c : 4 5   o n n x r u n t i m e : : C o n f i g O p t i o n s : : A d d C o n f i g E n t r y ]   C o n f i g   w i t h   k e y   [ e p . q n n e x e c u t i o n p r o v i d e r . b a c k e n d _ p a t h ]   a l r e a d y   e x i s t s   w i t h   v a l u e   [ C : \ U s e r s \ n i c h o \ A p p D a t a \ L o c a l \ P r o g r a m s \ P y t h o n \ P y t h o n 3 1 1 - a r m 6 4 \ L i b \ s i t e - p a c k a g e s \ o n n x r u n t i m e _ q n n \ Q n n H t p . d l l ] .   I t   w i l l   b e   o v e r w r i t t e n  [ m 
+ DSP_INFO UNSUPPORTED_KEY: 49
+DSP_INFO UNSUPPORTED_KEY: 50
+DSP_INFO UNSUPPORTED_KEY: 49
+DSP_INFO UNSUPPORTED_KEY: 50
+ [ 0 ; 9 3 m 2 0 2 6 - 0 6 - 0 4   1 8 : 0 7 : 2 9 . 9 0 4 8 2 0 2   [ W : o n n x r u n t i m e : ,   e p _ a p i _ t y p e s . c c : 3 8 7   o n n x r u n t i m e : : E p V a l u e I n f o : : G e t P r o d u c e r I n f o ]   U n a b l e   t o   g e t   p r o d u c e r   n o d e   f o r   O r t V a l u e I n f o   ' / b e r t / e m b e d d i n g s / S h a p e _ o u t p u t _ 0 '   t h a t   i s   n o t   o w n e d   b y   a n   O r t G r a p h .  [ m 
+ DSP_INFO UNSUPPORTED_KEY: 49
+DSP_INFO UNSUPPORTED_KEY: 50
+Starting stage: Graph Preparation Initializing
+Completed stage: Graph Preparation Initializing (333 us)
+Starting stage: Graph Optimizations
+Completed stage: Graph Optimizations (5957 us)
+Starting stage: Post Graph Optimization
+Completed stage: Post Graph Optimization (1054 us)
+Starting stage: Graph Sequencing for Target
+Completed stage: Graph Sequencing for Target (1112 us)
+Starting stage: VTCM Allocation
+Completed stage: VTCM Allocation (99 us)
+Starting stage: Parallelization Optimization
+Completed stage: Parallelization Optimization (64 us)
+Starting stage: Finalizing Graph Sequence
+
+====== DDR bandwidth summary ======
+spill_bytes=0
+fill_bytes=0
+write_total_bytes=2048
+read_total_bytes=2048
+
+Completed stage: Finalizing Graph Sequence (197 us)
+Starting stage: Completion
+Completed stage: Completion (47 us)
+ [ 0 ; 9 3 m 2 0 2 6 - 0 6 - 0 4   1 8 : 0 7 : 3 1 . 0 8 5 9 7 6 5   [ W : o n n x r u n t i m e : ,   s e s s i o n _ s t a t e . c c : 1 3 2 7   o n n x r u n t i m e : : V e r i f y E a c h N o d e I s A s s i g n e d T o A n E p ]   S o m e   n o d e s   w e r e   n o t   a s s i g n e d   t o   t h e   p r e f e r r e d   e x e c u t i o n   p r o v i d e r s   w h i c h   m a y   o r   m a y   n o t   h a v e   a n   n e g a t i v e   i m p a c t   o n   p e r f o r m a n c e .   e . g .   O R T   e x p l i c i t l y   a s s i g n s   s h a p e   r e l a t e d   o p s   t o   C P U   t o   i m p r o v e   p e r f .  [ m 
+  [ 0 ; 9 3 m 2 0 2 6 - 0 6 - 0 4   1 8 : 0 7 : 3 1 . 0 8 6 7 5 7 9   [ W : o n n x r u n t i m e : ,   s e s s i o n _ s t a t e . c c : 1 3 2 9   o n n x r u n t i m e : : V e r i f y E a c h N o d e I s A s s i g n e d T o A n E p ]   R e r u n n i n g   w i t h   v e r b o s e   o u t p u t   o n   a   n o n - m i n i m a l   b u i l d   w i l l   s h o w   n o d e   a s s i g n m e n t s .  [ m 
+ [sentiment] ready - providers=['QNNExecutionProvider', 'CPUExecutionProvider']  labels=['positive', 'negative', 'neutral']
+[enrich] scored in 6777 ms (135.5 ms/headline, provider=QNNExecutionProvider)
+[enrich] wrote data\sentiment\per_symbol.json
+[enrich] attached sentiment to 13 picks
+[enrich] updated data\investor_v3\decisions.json (3210 KiB)
+
+# 2026-06-04T22:07:33.954451+00:00 scripts/enrich_congress_decisions.py --last-days 30
+[enrich-congress] attached to 0 picks across 30 days
+
+# 2026-06-04T22:07:34.173060+00:00 scripts/intelligence/champion_sync.py
+[champion-sync] trial=16efa3f88a boost=True
+
+# 2026-06-04T22:07:34.235907+00:00 scripts/intelligence/forward_score.py
+[forward-score] days=2 mean_ic=0.06486
+
+# 2026-06-04T22:08:17.368508+00:00 scripts/intelligence/execution_feedback.py
+
+# 2026-06-04T22:08:17.422068+00:00 scripts/paper-agent-profit-gate.py
+[paper-agent-profit-gate] complete
+[paper-agent-profit-gate] status=warmup reasons=insufficient_days_or_trades_for_hard_gate
+[paper-agent-profit-gate] needs_main_retrain=False softened=False
+
+# 2026-06-04T22:08:17.481656+00:00 scripts/generate_trade_signals.py
+[signals] trade_date=2026-05-08 orders=1 manifest=C:\Users\nicho\Nostradamus_remote_audit\data\trading\robinhood_manifest.json
+
+# 2026-06-04T22:08:17.929949+00:00 scripts/reasoning_agent.py --tick
+[reasoning] 12 picks backend=gemini session=after_hours
+
+# 2026-06-04T22:08:19.598682+00:00 scripts/intelligence/brain.py --quick
+[champion-sync] trial=16efa3f88a boost=True
+{
+  "generatedAt": "2026-06-04T22:08:19Z",
+  "quick": true,
+  "executionFeedback": {
+    "processed": 0,
+    "message": "no execution log"
+  },
+  "championSync": {
+    "generatedAt": "2026-06-04T22:08:19Z",
+    "synced": true,
+    "trialId": "16efa3f88a",
+    "horizon": 20,
+    "features": [
+      "dist_252_high",
+      "dist_252_low",
+      "downside_vol_20",
+      "hl_range",
+      "idio_vol_60",
+      "intraday_20",
+      "log_dollar_vol",
+      "macd_norm",
+      "max_ret_20",
+      "min_ret_20",
+      "mom_120",
+      "mom_252_21",
+      "mom_60",
+      "peer_rel_20",
+      "ret_60",
+      "sector_ret_20",
+      "sma10_ratio",
+      "sma50_ratio",
+      "vol_60"
+    ],
+    "meanIc": 0.05128965851612301,
+    "quintileSpread": 0.027292053794805763,
+    "objective": 0.40286,
+    "source": "C:\\Users\\nicho\\nostradamus-live\\reports\\auto_search\\champion.json",
+    "useForManifestBoost": true
+  }
+}
+
+# 2026-06-04T22:08:19.646688+00:00 scripts/intelligence/trader_arena.py --pulse
+[arena-v1] 100 traders | best=#7 cum=23.2218% | 85.0% beat baseline
+[arena-v2] 100 traders | best=#0 cum=20.6232% | 53.0% beat baseline
+[arena-v3] 112 traders | best=#470 cum=11.6054% | 73.54% beat baseline
+{
+  "v1": {
+    "version": "v1",
+    "nTraders": 100,
+    "bestCumulativePct": 23.2218,
+    "medianCumulativePct": 5.9756,
+    "meanCumulativePct": 6.5572,
+    "topTraderId": 7
+  },
+  "v2": {
+    "version": "v2",
+    "nTraders": 100,
+    "bestCumulativePct": 20.6232,
+    "medianCumulativePct": 3.2593,
+    "meanCumulativePct": 3.6149,
+    "topTraderId": 0
+  },
+  "v3": {
+    "version": "v3",
+    "nTraders": 669,
+    "bestCumulativePct": 11.6054,
+    "medianCumulativePct": 3.2458,
+    "meanCumulativePct": 3.2595,
+    "topTraderId": 470
+  }
+}
+
+# 2026-06-04T22:15:34.336498+00:00 scripts/generate_daytrade_signals.py
+[daytrade] manifest 5 orders -> C:\Users\nicho\Nostradamus_remote_audit\data\trading\daytrade_manifest.json

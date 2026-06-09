@@ -1,0 +1,1442 @@
+{
+  "generatedAt": "2026-06-06T14:25:29Z",
+  "ok": true,
+  "fetchedThisRun": 200,
+  "cachedSymbols": 212,
+  "signalSymbols": 204,
+  "sources": [
+    "finnhub_news",
+    "reddit",
+    "vader"
+  ],
+  "bySymbol": {
+    "TSLA": {
+      "news_sentiment": 0.085,
+      "news_count": 248,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.151
+    },
+    "AMZN": {
+      "news_sentiment": 0.0821,
+      "news_count": 250,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1493
+    },
+    "UNH": {
+      "news_sentiment": 0.1108,
+      "news_count": 89,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1665
+    },
+    "JPM": {
+      "news_sentiment": 0.1474,
+      "news_count": 138,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1884
+    },
+    "NFLX": {
+      "news_sentiment": 0.0604,
+      "news_count": 65,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1362
+    },
+    "IREN": {
+      "news_sentiment": 0.1,
+      "news_count": 17,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.094
+    },
+    "GS": {
+      "news_sentiment": 0.144,
+      "news_count": 162,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1864
+    },
+    "BAC": {
+      "news_sentiment": 0.0834,
+      "news_count": 79,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.15
+    },
+    "HOOD": {
+      "news_sentiment": 0.0955,
+      "news_count": 103,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1573
+    },
+    "WMT": {
+      "news_sentiment": 0.0422,
+      "news_count": 132,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1253
+    },
+    "IBIT": {
+      "news_sentiment": -0.197,
+      "news_count": 7,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": -0.1322
+    },
+    "COST": {
+      "news_sentiment": 0.1745,
+      "news_count": 80,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.2047
+    },
+    "GLD": {
+      "news_sentiment": 0.0474,
+      "news_count": 28,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.0844
+    },
+    "T": {
+      "news_sentiment": 0.1643,
+      "news_count": 75,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1986
+    },
+    "ASTS": {
+      "news_sentiment": -0.1599,
+      "news_count": 13,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": -0.1219
+    },
+    "XOM": {
+      "news_sentiment": 0.0282,
+      "news_count": 69,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1169
+    },
+    "GILD": {
+      "news_sentiment": 0.2464,
+      "news_count": 31,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.2098
+    },
+    "WFC": {
+      "news_sentiment": 0.3119,
+      "news_count": 23,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.2331
+    },
+    "C": {
+      "news_sentiment": 0.1014,
+      "news_count": 62,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1608
+    },
+    "KO": {
+      "news_sentiment": 0.1015,
+      "news_count": 65,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1609
+    },
+    "VZ": {
+      "news_sentiment": 0.1768,
+      "news_count": 63,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.2061
+    },
+    "HD": {
+      "news_sentiment": 0.0679,
+      "news_count": 33,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1067
+    },
+    "COIN": {
+      "news_sentiment": -0.0583,
+      "news_count": 80,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": -0.135
+    },
+    "AZO": {
+      "news_sentiment": 0.1423,
+      "news_count": 11,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1074
+    },
+    "MS": {
+      "news_sentiment": 0.1702,
+      "news_count": 104,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.2021
+    },
+    "PEP": {
+      "news_sentiment": 0.1691,
+      "news_count": 34,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1695
+    },
+    "CRCL": {
+      "news_sentiment": 0.2085,
+      "news_count": 9,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1431
+    },
+    "CMCSA": {
+      "news_sentiment": 0.2236,
+      "news_count": 23,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1802
+    },
+    "TMUS": {
+      "news_sentiment": 0.1486,
+      "news_count": 25,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1392
+    },
+    "SOFI": {
+      "news_sentiment": 0.0286,
+      "news_count": 3,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.0232
+    },
+    "BLK": {
+      "news_sentiment": 0.1235,
+      "news_count": 34,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1421
+    },
+    "AMGN": {
+      "news_sentiment": 0.0951,
+      "news_count": 37,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1311
+    },
+    "FANG": {
+      "news_sentiment": 0.1929,
+      "news_count": 16,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1477
+    },
+    "CVX": {
+      "news_sentiment": 0.0139,
+      "news_count": 94,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1083
+    },
+    "FIVE": {
+      "news_sentiment": 0.0734,
+      "news_count": 64,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.144
+    },
+    "MCD": {
+      "news_sentiment": 0.1152,
+      "news_count": 50,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1691
+    },
+    "BX": {
+      "news_sentiment": 0.0323,
+      "news_count": 83,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1194
+    },
+    "DIS": {
+      "news_sentiment": 0.1411,
+      "news_count": 40,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1647
+    },
+    "CME": {
+      "news_sentiment": 0.0615,
+      "news_count": 33,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1029
+    },
+    "AXP": {
+      "news_sentiment": 0.1856,
+      "news_count": 51,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.2114
+    },
+    "CB": {
+      "news_sentiment": 0.1801,
+      "news_count": 11,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1301
+    },
+    "TJX": {
+      "news_sentiment": 0.2616,
+      "news_count": 19,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.195
+    },
+    "CMG": {
+      "news_sentiment": 0.0741,
+      "news_count": 51,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1445
+    },
+    "SLV": {
+      "news_sentiment": 0.0828,
+      "news_count": 7,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.0637
+    },
+    "SATS": {
+      "news_sentiment": 0.0604,
+      "news_count": 17,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.0702
+    },
+    "F": {
+      "news_sentiment": 0.153,
+      "news_count": 69,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1918
+    },
+    "NKE": {
+      "news_sentiment": 0.0184,
+      "news_count": 44,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.099
+    },
+    "SHEL": {
+      "news_sentiment": 0.3662,
+      "news_count": 3,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.2257
+    },
+    "COF": {
+      "news_sentiment": 0.1453,
+      "news_count": 14,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1152
+    },
+    "CI": {
+      "news_sentiment": 0.137,
+      "news_count": 19,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1202
+    },
+    "SBUX": {
+      "news_sentiment": 0.0998,
+      "news_count": 35,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1299
+    },
+    "ROST": {
+      "news_sentiment": 0.148,
+      "news_count": 20,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1288
+    },
+    "ICE": {
+      "news_sentiment": 0.107,
+      "news_count": 30,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1242
+    },
+    "ORLY": {
+      "news_sentiment": 0.1106,
+      "news_count": 6,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.0784
+    },
+    "HLT": {
+      "news_sentiment": -0.0417,
+      "news_count": 12,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": -0.049
+    },
+    "HUM": {
+      "news_sentiment": 0.1492,
+      "news_count": 31,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1515
+    },
+    "SPOT": {
+      "news_sentiment": 0.6908,
+      "news_count": 1,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.4165
+    },
+    "RIVN": {
+      "news_sentiment": 0.0206,
+      "news_count": 12,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.0364
+    },
+    "BTSG": {
+      "news_sentiment": 0.0184,
+      "news_count": 9,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.029
+    },
+    "DVN": {
+      "news_sentiment": 0.3147,
+      "news_count": 19,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.2268
+    },
+    "PM": {
+      "news_sentiment": 0.0806,
+      "news_count": 20,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.0884
+    },
+    "VLO": {
+      "news_sentiment": 0.2513,
+      "news_count": 27,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.2048
+    },
+    "WULF": {
+      "news_sentiment": 0.0,
+      "news_count": 2,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.004
+    },
+    "ULTA": {
+      "news_sentiment": 0.4306,
+      "news_count": 86,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.3584
+    },
+    "TGT": {
+      "news_sentiment": 0.152,
+      "news_count": 49,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1892
+    },
+    "ELV": {
+      "news_sentiment": 0.1854,
+      "news_count": 22,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1552
+    },
+    "SLB": {
+      "news_sentiment": 0.0315,
+      "news_count": 12,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.0429
+    },
+    "COP": {
+      "news_sentiment": 0.1266,
+      "news_count": 24,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.124
+    },
+    "USO": {
+      "news_sentiment": -0.0681,
+      "news_count": 74,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": -0.1409
+    },
+    "GM": {
+      "news_sentiment": 0.0781,
+      "news_count": 47,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1409
+    },
+    "MPC": {
+      "news_sentiment": 0.2769,
+      "news_count": 31,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.2281
+    },
+    "TFC": {
+      "news_sentiment": 0.2037,
+      "news_count": 46,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.2142
+    },
+    "ABVX": {
+      "news_sentiment": 0.1254,
+      "news_count": 29,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1332
+    },
+    "FITB": {
+      "news_sentiment": 0.1739,
+      "news_count": 17,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1383
+    },
+    "APO": {
+      "news_sentiment": 0.0585,
+      "news_count": 42,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1191
+    },
+    "LYV": {
+      "news_sentiment": 0.1436,
+      "news_count": 3,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.0922
+    },
+    "MRSH": {
+      "news_sentiment": 0.1081,
+      "news_count": 9,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.0829
+    },
+    "CELH": {
+      "news_sentiment": 0.0708,
+      "news_count": 16,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.0745
+    },
+    "AON": {
+      "news_sentiment": 0.1645,
+      "news_count": 6,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1107
+    },
+    "OXY": {
+      "news_sentiment": 0.0311,
+      "news_count": 23,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.0647
+    },
+    "USB": {
+      "news_sentiment": 0.1168,
+      "news_count": 9,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.0881
+    },
+    "TSN": {
+      "news_sentiment": -0.0085,
+      "news_count": 20,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": -0.0451
+    },
+    "HUT": {
+      "news_sentiment": -0.199,
+      "news_count": 3,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": -0.1254
+    },
+    "MARA": {
+      "news_sentiment": -0.0123,
+      "news_count": 4,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": -0.0154
+    },
+    "WMB": {
+      "news_sentiment": 0.275,
+      "news_count": 21,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.207
+    },
+    "APTV": {
+      "news_sentiment": 0.1613,
+      "news_count": 20,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1368
+    },
+    "DXCM": {
+      "news_sentiment": 0.1129,
+      "news_count": 12,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.0917
+    },
+    "CTAS": {
+      "news_sentiment": 0.2519,
+      "news_count": 13,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1771
+    },
+    "OWL": {
+      "news_sentiment": 0.3653,
+      "news_count": 6,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.2312
+    },
+    "RIOT": {
+      "news_sentiment": -0.3243,
+      "news_count": 2,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": -0.1986
+    },
+    "CVNA": {
+      "news_sentiment": 0.038,
+      "news_count": 24,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.0708
+    },
+    "GIS": {
+      "news_sentiment": -0.0021,
+      "news_count": 24,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": -0.0493
+    },
+    "KHC": {
+      "news_sentiment": 0.0503,
+      "news_count": 22,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.0742
+    },
+    "ETHA": {
+      "news_sentiment": -0.1001,
+      "news_count": 3,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": -0.0661
+    },
+    "MNST": {
+      "news_sentiment": 0.151,
+      "news_count": 13,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1166
+    },
+    "HIG": {
+      "news_sentiment": 0.0693,
+      "news_count": 18,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.0776
+    },
+    "PVH": {
+      "news_sentiment": 0.0301,
+      "news_count": 58,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1181
+    },
+    "MO": {
+      "news_sentiment": 0.2376,
+      "news_count": 25,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1926
+    },
+    "PNC": {
+      "news_sentiment": -0.0408,
+      "news_count": 7,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": -0.0385
+    },
+    "BURL": {
+      "news_sentiment": 0.212,
+      "news_count": 12,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1512
+    },
+    "WBD": {
+      "news_sentiment": -0.2093,
+      "news_count": 18,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": -0.1616
+    },
+    "HAL": {
+      "news_sentiment": 0.0452,
+      "news_count": 12,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.0511
+    },
+    "RKT": {
+      "news_sentiment": 0.0509,
+      "news_count": 4,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.0385
+    },
+    "TRV": {
+      "news_sentiment": 0.2089,
+      "news_count": 17,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1593
+    },
+    "CNC": {
+      "news_sentiment": 0.1829,
+      "news_count": 29,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1677
+    },
+    "MDLZ": {
+      "news_sentiment": 0.1919,
+      "news_count": 7,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1291
+    },
+    "AJG": {
+      "news_sentiment": 0.3082,
+      "news_count": 7,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1989
+    },
+    "CELC": {
+      "news_sentiment": -0.1114,
+      "news_count": 14,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": -0.0948
+    },
+    "LNG": {
+      "news_sentiment": 0.4013,
+      "news_count": 6,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.2528
+    },
+    "FAST": {
+      "news_sentiment": 0.1424,
+      "news_count": 7,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.0994
+    },
+    "CASY": {
+      "news_sentiment": 0.1873,
+      "news_count": 8,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1284
+    },
+    "CFG": {
+      "news_sentiment": 0.1317,
+      "news_count": 6,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.091
+    },
+    "ENTG": {
+      "news_sentiment": 0.2097,
+      "news_count": 5,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1358
+    },
+    "ALNY": {
+      "news_sentiment": 0.2091,
+      "news_count": 14,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1535
+    },
+    "AFRM": {
+      "news_sentiment": 0.3321,
+      "news_count": 8,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.2153
+    },
+    "MOD": {
+      "news_sentiment": 0.0714,
+      "news_count": 2,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.0468
+    },
+    "MET": {
+      "news_sentiment": 0.1554,
+      "news_count": 13,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1192
+    },
+    "LPLA": {
+      "news_sentiment": 0.3208,
+      "news_count": 19,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.2305
+    },
+    "DG": {
+      "news_sentiment": 0.0718,
+      "news_count": 88,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1431
+    },
+    "HBAN": {
+      "news_sentiment": 0.1806,
+      "news_count": 9,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1264
+    },
+    "TXRH": {
+      "news_sentiment": 0.0,
+      "news_count": 1,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.002
+    },
+    "CLSK": {
+      "news_sentiment": -0.2004,
+      "news_count": 4,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": -0.1282
+    },
+    "OKE": {
+      "news_sentiment": 0.2236,
+      "news_count": 10,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1542
+    },
+    "GLDM": {
+      "news_sentiment": 0.0859,
+      "news_count": 16,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.0835
+    },
+    "KEEL": {
+      "news_sentiment": 0.1216,
+      "news_count": 8,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.089
+    },
+    "TSCO": {
+      "news_sentiment": 0.3022,
+      "news_count": 17,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.2153
+    },
+    "M": {
+      "news_sentiment": 0.1481,
+      "news_count": 81,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1889
+    },
+    "ALL": {
+      "news_sentiment": -0.0649,
+      "news_count": 5,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": -0.0489
+    },
+    "BWA": {
+      "news_sentiment": 0.2115,
+      "news_count": 7,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1409
+    },
+    "VSCO": {
+      "news_sentiment": 0.1345,
+      "news_count": 28,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1367
+    },
+    "KDP": {
+      "news_sentiment": 0.2003,
+      "news_count": 5,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1302
+    },
+    "EOG": {
+      "news_sentiment": 0.2001,
+      "news_count": 10,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1401
+    },
+    "YUM": {
+      "news_sentiment": 0.0534,
+      "news_count": 32,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.096
+    },
+    "BBY": {
+      "news_sentiment": 0.5388,
+      "news_count": 20,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.3633
+    },
+    "NDAQ": {
+      "news_sentiment": 0.1429,
+      "news_count": 21,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1277
+    },
+    "HSY": {
+      "news_sentiment": 0.1737,
+      "news_count": 10,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1242
+    },
+    "ATO": {
+      "news_sentiment": 0.1684,
+      "news_count": 10,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.121
+    },
+    "GEHC": {
+      "news_sentiment": 0.0957,
+      "news_count": 16,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.0894
+    },
+    "ARES": {
+      "news_sentiment": 0.0937,
+      "news_count": 36,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1282
+    },
+    "RF": {
+      "news_sentiment": 0.3967,
+      "news_count": 7,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.252
+    },
+    "EQT": {
+      "news_sentiment": 0.0404,
+      "news_count": 9,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.0422
+    },
+    "AFL": {
+      "news_sentiment": -0.038,
+      "news_count": 4,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": -0.0308
+    },
+    "STT": {
+      "news_sentiment": 0.1361,
+      "news_count": 15,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1117
+    },
+    "GH": {
+      "news_sentiment": 0.1228,
+      "news_count": 7,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.0877
+    },
+    "CTVA": {
+      "news_sentiment": 0.4321,
+      "news_count": 4,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.2673
+    },
+    "DKS": {
+      "news_sentiment": 0.2623,
+      "news_count": 3,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1634
+    },
+    "CNQ": {
+      "news_sentiment": 0.1655,
+      "news_count": 1,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1013
+    },
+    "AMP": {
+      "news_sentiment": 0.272,
+      "news_count": 7,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1772
+    },
+    "STZ": {
+      "news_sentiment": 0.0259,
+      "news_count": 6,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.0275
+    },
+    "COO": {
+      "news_sentiment": -0.0033,
+      "news_count": 43,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": -0.088
+    },
+    "AIG": {
+      "news_sentiment": 0.1618,
+      "news_count": 4,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1051
+    },
+    "RL": {
+      "news_sentiment": 0.0717,
+      "news_count": 14,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.071
+    },
+    "BP": {
+      "news_sentiment": 0.3284,
+      "news_count": 5,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.207
+    },
+    "BEN": {
+      "news_sentiment": 0.3562,
+      "news_count": 15,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.2437
+    },
+    "BJ": {
+      "news_sentiment": 0.0043,
+      "news_count": 5,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.0126
+    },
+    "CORZ": {
+      "news_sentiment": 0.0,
+      "news_count": 1,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.002
+    },
+    "HSBC": {
+      "news_sentiment": -0.1101,
+      "news_count": 4,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": -0.0741
+    },
+    "BTI": {
+      "news_sentiment": 0.0426,
+      "news_count": 4,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.0336
+    },
+    "PSX": {
+      "news_sentiment": 0.1025,
+      "news_count": 16,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.0935
+    },
+    "KEY": {
+      "news_sentiment": 0.2794,
+      "news_count": 6,
+      "reddit_score": 0.0,
+      "reddit_sentiment": "neutral",
+      "sentiment_score": 0.1796
+    },
+    "GLXY": {
+      "news_sentiment": -0.4404,
+      "news_count": 1,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": -0.2662
+    },
+    "EXE": {
+      "news_sentiment": 0.5044,
+      "news_count": 7,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.3166
+    },
+    "DKNG": {
+      "news_sentiment": -0.0217,
+      "news_count": 5,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": -0.023
+    },
+    "EG": {
+      "news_sentiment": 0.0669,
+      "news_count": 3,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.0461
+    },
+    "SYF": {
+      "news_sentiment": 0.1325,
+      "news_count": 5,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.0895
+    },
+    "DRI": {
+      "news_sentiment": 0.0312,
+      "news_count": 3,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.0247
+    },
+    "BG": {
+      "news_sentiment": 0.0778,
+      "news_count": 7,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.0607
+    },
+    "OLLI": {
+      "news_sentiment": 0.1591,
+      "news_count": 35,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1655
+    },
+    "CG": {
+      "news_sentiment": 0.1242,
+      "news_count": 15,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1045
+    },
+    "TRGP": {
+      "news_sentiment": 0.1468,
+      "news_count": 3,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.0941
+    },
+    "KMI": {
+      "news_sentiment": 0.4054,
+      "news_count": 16,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.2752
+    },
+    "DPZ": {
+      "news_sentiment": 0.3315,
+      "news_count": 9,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.2169
+    },
+    "SKM": {
+      "news_sentiment": 0.296,
+      "news_count": 1,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1796
+    },
+    "ACGL": {
+      "news_sentiment": -0.0417,
+      "news_count": 10,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": -0.045
+    },
+    "SCI": {
+      "news_sentiment": 0.3548,
+      "news_count": 2,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.2169
+    },
+    "ADM": {
+      "news_sentiment": 0.1367,
+      "news_count": 9,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1
+    },
+    "CPB": {
+      "news_sentiment": 0.0566,
+      "news_count": 30,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.094
+    },
+    "HDB": {
+      "news_sentiment": 0.1192,
+      "news_count": 5,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.0815
+    },
+    "CAVA": {
+      "news_sentiment": 0.2065,
+      "news_count": 11,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1459
+    },
+    "BAP": {
+      "news_sentiment": 0.0,
+      "news_count": 1,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.002
+    },
+    "TKO": {
+      "news_sentiment": 0.2348,
+      "news_count": 7,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1549
+    },
+    "SN": {
+      "news_sentiment": 0.3232,
+      "news_count": 6,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.2059
+    },
+    "USFD": {
+      "news_sentiment": 0.0983,
+      "news_count": 6,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.071
+    },
+    "SGI": {
+      "news_sentiment": 0.2527,
+      "news_count": 3,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1576
+    },
+    "HAS": {
+      "news_sentiment": 0.2583,
+      "news_count": 11,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.177
+    },
+    "MTB": {
+      "news_sentiment": 0.357,
+      "news_count": 5,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.2242
+    },
+    "CPNG": {
+      "news_sentiment": 0.0233,
+      "news_count": 3,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.02
+    },
+    "MOH": {
+      "news_sentiment": 0.0,
+      "news_count": 2,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.004
+    },
+    "ARGX": {
+      "news_sentiment": 0.056,
+      "news_count": 3,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.0396
+    },
+    "DEO": {
+      "news_sentiment": 0.2997,
+      "news_count": 2,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1838
+    },
+    "BROS": {
+      "news_sentiment": 0.2749,
+      "news_count": 11,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1869
+    },
+    "CRSP": {
+      "news_sentiment": 0.2741,
+      "news_count": 3,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1705
+    },
+    "WSM": {
+      "news_sentiment": 0.1972,
+      "news_count": 9,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1363
+    },
+    "FOXA": {
+      "news_sentiment": 0.1646,
+      "news_count": 3,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1048
+    },
+    "AMG": {
+      "news_sentiment": 0.3675,
+      "news_count": 5,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.2305
+    },
+    "SYY": {
+      "news_sentiment": 0.0508,
+      "news_count": 8,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.0465
+    },
+    "ARMK": {
+      "news_sentiment": 0.0982,
+      "news_count": 4,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.0669
+    },
+    "MGM": {
+      "news_sentiment": 0.0776,
+      "news_count": 68,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1466
+    },
+    "BRO": {
+      "news_sentiment": 0.2832,
+      "news_count": 8,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1859
+    },
+    "PTEN": {
+      "news_sentiment": 0.2732,
+      "news_count": 1,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.1659
+    },
+    "PFGC": {
+      "news_sentiment": 0.1012,
+      "news_count": 2,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.0647
+    },
+    "RY": {
+      "news_sentiment": 0.1012,
+      "news_count": 2,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.0647
+    },
+    "TPL": {
+      "news_sentiment": 0.1213,
+      "news_count": 11,
+      "reddit_score": 0.0,
+      "reddit_sentiment": null,
+      "sentiment_score": 0.0948
+    },
+    "AM": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_score": -1.0,
+      "reddit_sentiment": "bearish",
+      "sentiment_score": -0.4
+    }
+  }
+}

@@ -1,0 +1,9 @@
+﻿tunnel: f96b8b42-bae0-4ccd-9344-4e21abc80698
+credentials-file: C:/Users/nicho/.cloudflared/f96b8b42-bae0-4ccd-9344-4e21abc80698.json
+
+ingress:
+  - hostname: treasure-droid.com
+    service: http://127.0.0.1:4174
+  - hostname: www.treasure-droid.com
+    service: http://127.0.0.1:4174
+  - service: http_status:404

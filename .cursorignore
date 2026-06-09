@@ -1,0 +1,42 @@
+﻿# Large / generated data — keep out of agent indexing
+data/
+.cache/
+*.csv
+*.parquet
+*.feather
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.onnx
+*.pb
+*.ckpt
+*.pt
+*.pth
+*.npy
+*.npz
+
+# Arena snapshots (also in .gitignore)
+data/trader_arena/snapshots/
+
+# Python / Node artifacts
+__pycache__/
+*.pyc
+.venv/
+venv/
+node_modules/
+
+# Build / tooling
+dist/
+build/
+tools/python311-amd64/
+tools/python311-amd64-full/
+
+# Logs and local secrets
+logs/
+config/megamind.secrets.json
+config/cloudflare.json
+
+# Editor / OS noise
+.vscode/
+.idea/

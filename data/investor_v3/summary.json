@@ -1,0 +1,20 @@
+{
+  "starting_cash": 10000.0,
+  "ending_cash": 8490.51508980857,
+  "total_return_pct": -15.0948491019143,
+  "annualized_sharpe": -0.6275403853937007,
+  "max_drawdown_pct": -24.00261139184797,
+  "trading_days": 337,
+  "trades": 103,
+  "wins": 52,
+  "losses": 51,
+  "win_rate_pct": 50.48543689320388,
+  "config": {
+    "top_k": 5,
+    "max_position_frac": 0.2,
+    "max_gross_exposure": 0.9,
+    "kelly_scale": 0.5,
+    "cost_bps": 5.0,
+    "min_proba": 0.6
+  }
+}

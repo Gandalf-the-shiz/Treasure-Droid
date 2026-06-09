@@ -1,0 +1,35 @@
+{
+  "id": "b27ac57ee587",
+  "status": "approved_pending_implementation",
+  "approvedAt": "2026-06-04T01:43:43Z",
+  "source": "email_link",
+  "recommendation": {
+    "priority": "info",
+    "area": "v2_diversification",
+    "finding": "v2 holds more names per book \u2014 better use of 800-symbol panel.",
+    "action": "Monitor forward IC; sim returns still upper bound.",
+    "id": "b27ac57ee587",
+    "status": "proposed",
+    "approveToken": "ac1cdf42ae1f49954f67",
+    "approveUrl": "https://terminals-afterwards-tables-shoppers.trycloudflare.com/api/megamind/approve/b27ac57ee587?token=ac1cdf42ae1f49954f67",
+    "reviewUrl": "https://terminals-afterwards-tables-shoppers.trycloudflare.com/#/megamind?highlight=b27ac57ee587"
+  },
+  "briefPath": "data\\intelligence\\megamind\\LATEST_APPROVED.md",
+  "cursorPromptPath": "data\\intelligence\\megamind\\CURRENT_AGENT_PROMPT.md",
+  "cursorLaunch": {
+    "promptPath": "data\\intelligence\\megamind\\CURRENT_AGENT_PROMPT.md",
+    "rulePath": ".cursor\\rules\\megamind-active-task.mdc",
+    "autoLaunch": "both",
+    "sdk": {
+      "sdk": true,
+      "mode": "background",
+      "model": "composer-2.5"
+    },
+    "ide": {
+      "opened": true,
+      "cursor": "C:\\Users\\nicho\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin\\cursor.cmd"
+    },
+    "composerHint": "In Cursor Agent, send: Implement the Megamind active task in .cursor/rules/megamind-active-task.mdc (or @CURRENT_AGENT_PROMPT.md)",
+    "sdkWorker": "started"
+  }
+}

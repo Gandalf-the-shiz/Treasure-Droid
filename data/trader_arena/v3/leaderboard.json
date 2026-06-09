@@ -1,0 +1,4297 @@
+{
+  "generatedAt": "2026-06-09T23:09:00Z",
+  "arenaVersion": "v3",
+  "nTraders": 112,
+  "panelSymbols": 419,
+  "baselineSingleTrader": {
+    "traderId": -1,
+    "seed": 0,
+    "family": "single_champion",
+    "arenaVersion": "v2",
+    "selectionMode": "rank_v2",
+    "returnPct": 0.0252,
+    "nTrades": 5,
+    "nLong": 5,
+    "nShort": 0,
+    "shortEnabled": false,
+    "trades": [
+      {
+        "symbol": "COST",
+        "side": "long",
+        "position_effect": "open",
+        "ret": 0.0005410895030457,
+        "rationale": "ML +0.03 | Congress +1.00",
+        "score": 0.3829
+      },
+      {
+        "symbol": "NFLX",
+        "side": "long",
+        "position_effect": "open",
+        "ret": 0.0004875201297634,
+        "rationale": "ML +0.00 | Congress +0.83",
+        "score": 0.2915
+      },
+      {
+        "symbol": "AMZN",
+        "side": "long",
+        "position_effect": "open",
+        "ret": 0.0005410895030457,
+        "rationale": "ML +0.04 | Congress +0.69 | Pelosi buy",
+        "score": 0.2825
+      },
+      {
+        "symbol": "ULTA",
+        "side": "long",
+        "position_effect": "open",
+        "ret": 0.0005410895030457,
+        "rationale": "ML +0.01 | Congress +0.66",
+        "score": 0.2403
+      },
+      {
+        "symbol": "EWCZ",
+        "side": "long",
+        "position_effect": "open",
+        "ret": 0.0006929717922585,
+        "rationale": "ML +0.23",
+        "score": 0.2261
+      }
+    ],
+    "portfolio": [
+      {
+        "symbol": "COST",
+        "side": "long",
+        "notionalUsd": 9000.0,
+        "weightPct": 9.0,
+        "modelPredRetPct": 0.054,
+        "unifiedRationale": "ML +0.03 | Congress +1.00"
+      },
+      {
+        "symbol": "NFLX",
+        "side": "long",
+        "notionalUsd": 9000.0,
+        "weightPct": 9.0,
+        "modelPredRetPct": 0.049,
+        "unifiedRationale": "ML +0.00 | Congress +0.83"
+      },
+      {
+        "symbol": "AMZN",
+        "side": "long",
+        "notionalUsd": 9000.0,
+        "weightPct": 9.0,
+        "modelPredRetPct": 0.054,
+        "unifiedRationale": "ML +0.04 | Congress +0.69 | Pelosi buy"
+      },
+      {
+        "symbol": "ULTA",
+        "side": "long",
+        "notionalUsd": 9000.0,
+        "weightPct": 9.0,
+        "modelPredRetPct": 0.054,
+        "unifiedRationale": "ML +0.01 | Congress +0.66"
+      },
+      {
+        "symbol": "EWCZ",
+        "side": "long",
+        "notionalUsd": 9000.0,
+        "weightPct": 9.0,
+        "modelPredRetPct": 0.069,
+        "unifiedRationale": "ML +0.23"
+      }
+    ],
+    "reasoning": "Arena V2 (rank_v2): single_champion genome. Rules: top_k=5 kelly=0.5 shorts=off alt_scale=1.0. Rank-unified: picks top names by composite score across full ML panel (no starvation).   COST long: model pred_ret +0.05%   NFLX long: model pred_ret +0.05%   AMZN long: model pred_ret +0.05%   ULTA long: model pred_ret +0.05%   EWCZ long: model pred_ret +0.07%"
+  },
+  "top10": [
+    {
+      "traderId": 225,
+      "family": "high_conviction",
+      "cumulativeReturnPct": 13.4666,
+      "equityUsd": 56733.3,
+      "nDays": 2,
+      "daily": [
+        {
+          "date": "2026-06-04",
+          "returnPct": 6.5207,
+          "nTrades": 8,
+          "nLong": 7,
+          "nShort": 1,
+          "trades": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0960266390587027,
+              "rationale": "ML +0.78",
+              "score": 0.7823
+            },
+            {
+              "symbol": "COST",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0005410895030457,
+              "rationale": "ML +0.03 | Congress +1.00",
+              "score": 0.4442
+            },
+            {
+              "symbol": "SNBR",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0211472086390574,
+              "rationale": "ML +0.12 | Insider +0.85 | Form4 high",
+              "score": 0.4215
+            },
+            {
+              "symbol": "T",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0004875201297634,
+              "rationale": "ML -0.02 | Congress +1.00",
+              "score": 0.3888
+            },
+            {
+              "symbol": "NFLX",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0004875201297634,
+              "rationale": "ML +0.00 | Congress +0.83",
+              "score": 0.3423
+            },
+            {
+              "symbol": "WEN",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0004875201297634,
+              "rationale": "ML -0.02 | Insider +1.00 | Form4 high",
+              "score": 0.3301
+            },
+            {
+              "symbol": "AREN",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0217558880582555,
+              "rationale": "ML +0.32",
+              "score": 0.3209
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.3623491467989561,
+              "rationale": "ML +1.96"
+            }
+          ],
+          "reasoning": "Arena V2 (rank_v2): high_conviction genome. Rules: top_k=7 kelly=0.733 shorts=on alt_scale=1.175. Rank-unified: picks top names by composite score across full ML panel (no starvation).   SDAWW long: model pred_ret +9.60%   COST long: model pred_ret +0.05%   SNBR long: model pred_ret +2.11%   T long: model pred_ret +0.05%   NFLX long: model pred_ret +0.05%",
+          "portfolio": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "notionalUsd": 3628.35,
+              "weightPct": 7.26,
+              "modelPredRetPct": 9.603,
+              "unifiedRationale": "ML +0.78"
+            },
+            {
+              "symbol": "COST",
+              "side": "long",
+              "notionalUsd": 3628.35,
+              "weightPct": 7.26,
+              "modelPredRetPct": 0.054,
+              "unifiedRationale": "ML +0.03 | Congress +1.00"
+            },
+            {
+              "symbol": "SNBR",
+              "side": "long",
+              "notionalUsd": 3628.35,
+              "weightPct": 7.26,
+              "modelPredRetPct": 2.115,
+              "unifiedRationale": "ML +0.12 | Insider +0.85 | Form4 high"
+            },
+            {
+              "symbol": "T",
+              "side": "long",
+              "notionalUsd": 3628.35,
+              "weightPct": 7.26,
+              "modelPredRetPct": 0.049,
+              "unifiedRationale": "ML -0.02 | Congress +1.00"
+            },
+            {
+              "symbol": "NFLX",
+              "side": "long",
+              "notionalUsd": 3628.35,
+              "weightPct": 7.26,
+              "modelPredRetPct": 0.049,
+              "unifiedRationale": "ML +0.00 | Congress +0.83"
+            },
+            {
+              "symbol": "WEN",
+              "side": "long",
+              "notionalUsd": 3628.35,
+              "weightPct": 7.26,
+              "modelPredRetPct": 0.049,
+              "unifiedRationale": "ML -0.02 | Insider +1.00 | Form4 high"
+            },
+            {
+              "symbol": "AREN",
+              "side": "long",
+              "notionalUsd": 3628.35,
+              "weightPct": 7.26,
+              "modelPredRetPct": 2.176,
+              "unifiedRationale": "ML +0.32"
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "notionalUsd": 7586.55,
+              "weightPct": 15.17,
+              "modelPredRetPct": -36.235,
+              "unifiedRationale": "ML +1.96"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-05",
+          "returnPct": 6.5207,
+          "nTrades": 8,
+          "nLong": 7,
+          "nShort": 1,
+          "trades": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0960266390587027,
+              "rationale": "ML +0.78",
+              "score": 0.7823
+            },
+            {
+              "symbol": "COST",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0005410895030457,
+              "rationale": "ML +0.03 | Congress +1.00",
+              "score": 0.4442
+            },
+            {
+              "symbol": "SNBR",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0211472086390574,
+              "rationale": "ML +0.12 | Insider +0.85 | Form4 high",
+              "score": 0.4215
+            },
+            {
+              "symbol": "T",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0004875201297634,
+              "rationale": "ML -0.02 | Congress +1.00",
+              "score": 0.3888
+            },
+            {
+              "symbol": "NFLX",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0004875201297634,
+              "rationale": "ML +0.00 | Congress +0.83",
+              "score": 0.3423
+            },
+            {
+              "symbol": "WEN",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0004875201297634,
+              "rationale": "ML -0.02 | Insider +1.00 | Form4 high",
+              "score": 0.3301
+            },
+            {
+              "symbol": "AREN",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0217558880582555,
+              "rationale": "ML +0.32",
+              "score": 0.3209
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.3623491467989561,
+              "rationale": "ML +1.96"
+            }
+          ],
+          "reasoning": "Arena V2 (rank_v2): high_conviction genome. Rules: top_k=7 kelly=0.733 shorts=on alt_scale=1.175. Rank-unified: picks top names by composite score across full ML panel (no starvation).   SDAWW long: model pred_ret +9.60%   COST long: model pred_ret +0.05%   SNBR long: model pred_ret +2.11%   T long: model pred_ret +0.05%   NFLX long: model pred_ret +0.05%",
+          "portfolio": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "notionalUsd": 3628.35,
+              "weightPct": 7.26,
+              "modelPredRetPct": 9.603,
+              "unifiedRationale": "ML +0.78"
+            },
+            {
+              "symbol": "COST",
+              "side": "long",
+              "notionalUsd": 3628.35,
+              "weightPct": 7.26,
+              "modelPredRetPct": 0.054,
+              "unifiedRationale": "ML +0.03 | Congress +1.00"
+            },
+            {
+              "symbol": "SNBR",
+              "side": "long",
+              "notionalUsd": 3628.35,
+              "weightPct": 7.26,
+              "modelPredRetPct": 2.115,
+              "unifiedRationale": "ML +0.12 | Insider +0.85 | Form4 high"
+            },
+            {
+              "symbol": "T",
+              "side": "long",
+              "notionalUsd": 3628.35,
+              "weightPct": 7.26,
+              "modelPredRetPct": 0.049,
+              "unifiedRationale": "ML -0.02 | Congress +1.00"
+            },
+            {
+              "symbol": "NFLX",
+              "side": "long",
+              "notionalUsd": 3628.35,
+              "weightPct": 7.26,
+              "modelPredRetPct": 0.049,
+              "unifiedRationale": "ML +0.00 | Congress +0.83"
+            },
+            {
+              "symbol": "WEN",
+              "side": "long",
+              "notionalUsd": 3628.35,
+              "weightPct": 7.26,
+              "modelPredRetPct": 0.049,
+              "unifiedRationale": "ML -0.02 | Insider +1.00 | Form4 high"
+            },
+            {
+              "symbol": "AREN",
+              "side": "long",
+              "notionalUsd": 3628.35,
+              "weightPct": 7.26,
+              "modelPredRetPct": 2.176,
+              "unifiedRationale": "ML +0.32"
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "notionalUsd": 7586.55,
+              "weightPct": 15.17,
+              "modelPredRetPct": -36.235,
+              "unifiedRationale": "ML +1.96"
+            }
+          ]
+        }
+      ],
+      "genome": {
+        "family": "high_conviction",
+        "min_proba": 0.541,
+        "min_pred_ret": 0.0104,
+        "short_enabled": true,
+        "short_frac": 0.23,
+        "top_k": 7,
+        "kelly": 0.733,
+        "alt_scale": 1.175,
+        "selection_mode": "rank_v2",
+        "contrarian": false
+      },
+      "rank": 1,
+      "returnPct": 13.4666,
+      "dailyReturnPct": 6.5207
+    },
+    {
+      "traderId": 760,
+      "family": "long_short_neutral",
+      "cumulativeReturnPct": 13.4576,
+      "equityUsd": 56728.82,
+      "nDays": 2,
+      "daily": [
+        {
+          "date": "2026-06-04",
+          "returnPct": 6.5165,
+          "nTrades": 7,
+          "nLong": 6,
+          "nShort": 1,
+          "trades": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0960266390587027,
+              "rationale": "ML +0.78",
+              "score": 0.7823
+            },
+            {
+              "symbol": "COST",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0005410895030457,
+              "rationale": "ML +0.03 | Congress +1.00",
+              "score": 0.4715
+            },
+            {
+              "symbol": "SNBR",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0211472086390574,
+              "rationale": "ML +0.12 | Insider +0.85 | Form4 high",
+              "score": 0.4414
+            },
+            {
+              "symbol": "T",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0004875201297634,
+              "rationale": "ML -0.02 | Congress +1.00",
+              "score": 0.4161
+            },
+            {
+              "symbol": "NFLX",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0004875201297634,
+              "rationale": "ML +0.00 | Congress +0.83",
+              "score": 0.365
+            },
+            {
+              "symbol": "WEN",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0004875201297634,
+              "rationale": "ML -0.02 | Insider +1.00 | Form4 high",
+              "score": 0.3535
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.3623491467989561,
+              "rationale": "ML +1.96"
+            }
+          ],
+          "reasoning": "Arena V2 (rank_v2): long_short_neutral genome. Rules: top_k=6 kelly=0.766 shorts=on alt_scale=1.253. Rank-unified: picks top names by composite score across full ML panel (no starvation).   SDAWW long: model pred_ret +9.60%   COST long: model pred_ret +0.05%   SNBR long: model pred_ret +2.11%   T long: model pred_ret +0.05%   NFLX long: model pred_ret +0.05%",
+          "portfolio": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "notionalUsd": 4492.59,
+              "weightPct": 8.99,
+              "modelPredRetPct": 9.603,
+              "unifiedRationale": "ML +0.78"
+            },
+            {
+              "symbol": "COST",
+              "side": "long",
+              "notionalUsd": 4492.59,
+              "weightPct": 8.99,
+              "modelPredRetPct": 0.054,
+              "unifiedRationale": "ML +0.03 | Congress +1.00"
+            },
+            {
+              "symbol": "SNBR",
+              "side": "long",
+              "notionalUsd": 4492.59,
+              "weightPct": 8.99,
+              "modelPredRetPct": 2.115,
+              "unifiedRationale": "ML +0.12 | Insider +0.85 | Form4 high"
+            },
+            {
+              "symbol": "T",
+              "side": "long",
+              "notionalUsd": 4492.59,
+              "weightPct": 8.99,
+              "modelPredRetPct": 0.049,
+              "unifiedRationale": "ML -0.02 | Congress +1.00"
+            },
+            {
+              "symbol": "NFLX",
+              "side": "long",
+              "notionalUsd": 4492.59,
+              "weightPct": 8.99,
+              "modelPredRetPct": 0.049,
+              "unifiedRationale": "ML +0.00 | Congress +0.83"
+            },
+            {
+              "symbol": "WEN",
+              "side": "long",
+              "notionalUsd": 4492.59,
+              "weightPct": 8.99,
+              "modelPredRetPct": 0.049,
+              "unifiedRationale": "ML -0.02 | Insider +1.00 | Form4 high"
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "notionalUsd": 7514.46,
+              "weightPct": 15.03,
+              "modelPredRetPct": -36.235,
+              "unifiedRationale": "ML +1.96"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-05",
+          "returnPct": 6.5165,
+          "nTrades": 7,
+          "nLong": 6,
+          "nShort": 1,
+          "trades": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0960266390587027,
+              "rationale": "ML +0.78",
+              "score": 0.7823
+            },
+            {
+              "symbol": "COST",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0005410895030457,
+              "rationale": "ML +0.03 | Congress +1.00",
+              "score": 0.4715
+            },
+            {
+              "symbol": "SNBR",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0211472086390574,
+              "rationale": "ML +0.12 | Insider +0.85 | Form4 high",
+              "score": 0.4414
+            },
+            {
+              "symbol": "T",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0004875201297634,
+              "rationale": "ML -0.02 | Congress +1.00",
+              "score": 0.4161
+            },
+            {
+              "symbol": "NFLX",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0004875201297634,
+              "rationale": "ML +0.00 | Congress +0.83",
+              "score": 0.365
+            },
+            {
+              "symbol": "WEN",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0004875201297634,
+              "rationale": "ML -0.02 | Insider +1.00 | Form4 high",
+              "score": 0.3535
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.3623491467989561,
+              "rationale": "ML +1.96"
+            }
+          ],
+          "reasoning": "Arena V2 (rank_v2): long_short_neutral genome. Rules: top_k=6 kelly=0.766 shorts=on alt_scale=1.253. Rank-unified: picks top names by composite score across full ML panel (no starvation).   SDAWW long: model pred_ret +9.60%   COST long: model pred_ret +0.05%   SNBR long: model pred_ret +2.11%   T long: model pred_ret +0.05%   NFLX long: model pred_ret +0.05%",
+          "portfolio": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "notionalUsd": 4492.59,
+              "weightPct": 8.99,
+              "modelPredRetPct": 9.603,
+              "unifiedRationale": "ML +0.78"
+            },
+            {
+              "symbol": "COST",
+              "side": "long",
+              "notionalUsd": 4492.59,
+              "weightPct": 8.99,
+              "modelPredRetPct": 0.054,
+              "unifiedRationale": "ML +0.03 | Congress +1.00"
+            },
+            {
+              "symbol": "SNBR",
+              "side": "long",
+              "notionalUsd": 4492.59,
+              "weightPct": 8.99,
+              "modelPredRetPct": 2.115,
+              "unifiedRationale": "ML +0.12 | Insider +0.85 | Form4 high"
+            },
+            {
+              "symbol": "T",
+              "side": "long",
+              "notionalUsd": 4492.59,
+              "weightPct": 8.99,
+              "modelPredRetPct": 0.049,
+              "unifiedRationale": "ML -0.02 | Congress +1.00"
+            },
+            {
+              "symbol": "NFLX",
+              "side": "long",
+              "notionalUsd": 4492.59,
+              "weightPct": 8.99,
+              "modelPredRetPct": 0.049,
+              "unifiedRationale": "ML +0.00 | Congress +0.83"
+            },
+            {
+              "symbol": "WEN",
+              "side": "long",
+              "notionalUsd": 4492.59,
+              "weightPct": 8.99,
+              "modelPredRetPct": 0.049,
+              "unifiedRationale": "ML -0.02 | Insider +1.00 | Form4 high"
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "notionalUsd": 7514.46,
+              "weightPct": 15.03,
+              "modelPredRetPct": -36.235,
+              "unifiedRationale": "ML +1.96"
+            }
+          ]
+        }
+      ],
+      "genome": {
+        "family": "long_short_neutral",
+        "min_proba": 0.651,
+        "min_pred_ret": 0.01,
+        "short_enabled": true,
+        "short_frac": 0.218,
+        "top_k": 6,
+        "kelly": 0.766,
+        "alt_scale": 1.253,
+        "selection_mode": "rank_v2",
+        "contrarian": false
+      },
+      "rank": 2,
+      "returnPct": 13.4576,
+      "dailyReturnPct": 6.5165
+    },
+    {
+      "traderId": 546,
+      "family": "high_conviction",
+      "cumulativeReturnPct": 13.4496,
+      "equityUsd": 56724.78,
+      "nDays": 2,
+      "daily": [
+        {
+          "date": "2026-06-04",
+          "returnPct": 6.5127,
+          "nTrades": 9,
+          "nLong": 7,
+          "nShort": 2,
+          "trades": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0960266390587027,
+              "rationale": "ML +0.78",
+              "score": 0.7823
+            },
+            {
+              "symbol": "SNBR",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0211472086390574,
+              "rationale": "ML +0.12 | Insider +0.85 | Form4 high",
+              "score": 0.3327
+            },
+            {
+              "symbol": "COST",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0005410895030457,
+              "rationale": "ML +0.03 | Congress +1.00",
+              "score": 0.3224
+            },
+            {
+              "symbol": "AREN",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0217558880582555,
+              "rationale": "ML +0.32",
+              "score": 0.3209
+            },
+            {
+              "symbol": "T",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0004875201297634,
+              "rationale": "ML -0.02 | Congress +1.00",
+              "score": 0.267
+            },
+            {
+              "symbol": "GTN-A",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0069109894948349,
+              "rationale": "ML +0.25",
+              "score": 0.2522
+            },
+            {
+              "symbol": "CHGG",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0069109894948349,
+              "rationale": "ML +0.25",
+              "score": 0.2467
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.3623491467989561,
+              "rationale": "ML +1.96"
+            },
+            {
+              "symbol": "LOTWW",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.0388738296317602,
+              "rationale": "ML +0.60"
+            }
+          ],
+          "reasoning": "Arena V2 (rank_v2): high_conviction genome. Rules: top_k=7 kelly=0.799 shorts=on alt_scale=0.827. Rank-unified: picks top names by composite score across full ML panel (no starvation).   SDAWW long: model pred_ret +9.60%   SNBR long: model pred_ret +2.11%   COST long: model pred_ret +0.05%   AREN long: model pred_ret +2.18%   T long: model pred_ret +0.05%",
+          "portfolio": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "notionalUsd": 3164.04,
+              "weightPct": 6.33,
+              "modelPredRetPct": 9.603,
+              "unifiedRationale": "ML +0.78"
+            },
+            {
+              "symbol": "SNBR",
+              "side": "long",
+              "notionalUsd": 3164.04,
+              "weightPct": 6.33,
+              "modelPredRetPct": 2.115,
+              "unifiedRationale": "ML +0.12 | Insider +0.85 | Form4 high"
+            },
+            {
+              "symbol": "COST",
+              "side": "long",
+              "notionalUsd": 3164.04,
+              "weightPct": 6.33,
+              "modelPredRetPct": 0.054,
+              "unifiedRationale": "ML +0.03 | Congress +1.00"
+            },
+            {
+              "symbol": "AREN",
+              "side": "long",
+              "notionalUsd": 3164.04,
+              "weightPct": 6.33,
+              "modelPredRetPct": 2.176,
+              "unifiedRationale": "ML +0.32"
+            },
+            {
+              "symbol": "T",
+              "side": "long",
+              "notionalUsd": 3164.04,
+              "weightPct": 6.33,
+              "modelPredRetPct": 0.049,
+              "unifiedRationale": "ML -0.02 | Congress +1.00"
+            },
+            {
+              "symbol": "GTN-A",
+              "side": "long",
+              "notionalUsd": 3164.04,
+              "weightPct": 6.33,
+              "modelPredRetPct": 0.691,
+              "unifiedRationale": "ML +0.25"
+            },
+            {
+              "symbol": "CHGG",
+              "side": "long",
+              "notionalUsd": 3164.04,
+              "weightPct": 6.33,
+              "modelPredRetPct": 0.691,
+              "unifiedRationale": "ML +0.25"
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "notionalUsd": 6903.36,
+              "weightPct": 13.81,
+              "modelPredRetPct": -36.235,
+              "unifiedRationale": "ML +1.96"
+            },
+            {
+              "symbol": "LOTWW",
+              "side": "short",
+              "notionalUsd": 6903.36,
+              "weightPct": 13.81,
+              "modelPredRetPct": -3.887,
+              "unifiedRationale": "ML +0.60"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-05",
+          "returnPct": 6.5127,
+          "nTrades": 9,
+          "nLong": 7,
+          "nShort": 2,
+          "trades": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0960266390587027,
+              "rationale": "ML +0.78",
+              "score": 0.7823
+            },
+            {
+              "symbol": "SNBR",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0211472086390574,
+              "rationale": "ML +0.12 | Insider +0.85 | Form4 high",
+              "score": 0.3327
+            },
+            {
+              "symbol": "COST",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0005410895030457,
+              "rationale": "ML +0.03 | Congress +1.00",
+              "score": 0.3224
+            },
+            {
+              "symbol": "AREN",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0217558880582555,
+              "rationale": "ML +0.32",
+              "score": 0.3209
+            },
+            {
+              "symbol": "T",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0004875201297634,
+              "rationale": "ML -0.02 | Congress +1.00",
+              "score": 0.267
+            },
+            {
+              "symbol": "GTN-A",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0069109894948349,
+              "rationale": "ML +0.25",
+              "score": 0.2522
+            },
+            {
+              "symbol": "CHGG",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0069109894948349,
+              "rationale": "ML +0.25",
+              "score": 0.2467
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.3623491467989561,
+              "rationale": "ML +1.96"
+            },
+            {
+              "symbol": "LOTWW",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.0388738296317602,
+              "rationale": "ML +0.60"
+            }
+          ],
+          "reasoning": "Arena V2 (rank_v2): high_conviction genome. Rules: top_k=7 kelly=0.799 shorts=on alt_scale=0.827. Rank-unified: picks top names by composite score across full ML panel (no starvation).   SDAWW long: model pred_ret +9.60%   SNBR long: model pred_ret +2.11%   COST long: model pred_ret +0.05%   AREN long: model pred_ret +2.18%   T long: model pred_ret +0.05%",
+          "portfolio": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "notionalUsd": 3164.04,
+              "weightPct": 6.33,
+              "modelPredRetPct": 9.603,
+              "unifiedRationale": "ML +0.78"
+            },
+            {
+              "symbol": "SNBR",
+              "side": "long",
+              "notionalUsd": 3164.04,
+              "weightPct": 6.33,
+              "modelPredRetPct": 2.115,
+              "unifiedRationale": "ML +0.12 | Insider +0.85 | Form4 high"
+            },
+            {
+              "symbol": "COST",
+              "side": "long",
+              "notionalUsd": 3164.04,
+              "weightPct": 6.33,
+              "modelPredRetPct": 0.054,
+              "unifiedRationale": "ML +0.03 | Congress +1.00"
+            },
+            {
+              "symbol": "AREN",
+              "side": "long",
+              "notionalUsd": 3164.04,
+              "weightPct": 6.33,
+              "modelPredRetPct": 2.176,
+              "unifiedRationale": "ML +0.32"
+            },
+            {
+              "symbol": "T",
+              "side": "long",
+              "notionalUsd": 3164.04,
+              "weightPct": 6.33,
+              "modelPredRetPct": 0.049,
+              "unifiedRationale": "ML -0.02 | Congress +1.00"
+            },
+            {
+              "symbol": "GTN-A",
+              "side": "long",
+              "notionalUsd": 3164.04,
+              "weightPct": 6.33,
+              "modelPredRetPct": 0.691,
+              "unifiedRationale": "ML +0.25"
+            },
+            {
+              "symbol": "CHGG",
+              "side": "long",
+              "notionalUsd": 3164.04,
+              "weightPct": 6.33,
+              "modelPredRetPct": 0.691,
+              "unifiedRationale": "ML +0.25"
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "notionalUsd": 6903.36,
+              "weightPct": 13.81,
+              "modelPredRetPct": -36.235,
+              "unifiedRationale": "ML +1.96"
+            },
+            {
+              "symbol": "LOTWW",
+              "side": "short",
+              "notionalUsd": 6903.36,
+              "weightPct": 13.81,
+              "modelPredRetPct": -3.887,
+              "unifiedRationale": "ML +0.60"
+            }
+          ]
+        }
+      ],
+      "genome": {
+        "family": "high_conviction",
+        "min_proba": 0.538,
+        "min_pred_ret": 0.0089,
+        "short_enabled": true,
+        "short_frac": 0.384,
+        "top_k": 7,
+        "kelly": 0.799,
+        "alt_scale": 0.827,
+        "selection_mode": "rank_v2",
+        "contrarian": false
+      },
+      "rank": 3,
+      "returnPct": 13.4496,
+      "dailyReturnPct": 6.5127
+    },
+    {
+      "traderId": 8,
+      "family": "low_vol",
+      "cumulativeReturnPct": 13.4057,
+      "equityUsd": 56702.84,
+      "nDays": 2,
+      "daily": [
+        {
+          "date": "2026-06-04",
+          "returnPct": 6.4921,
+          "nTrades": 6,
+          "nLong": 5,
+          "nShort": 1,
+          "trades": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0960266390587027,
+              "rationale": "ML +0.78",
+              "score": 0.7823
+            },
+            {
+              "symbol": "COST",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0005410895030457,
+              "rationale": "ML +0.03 | Congress +1.00",
+              "score": 0.4225
+            },
+            {
+              "symbol": "SNBR",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0211472086390574,
+              "rationale": "ML +0.12 | Insider +0.85 | Form4 high",
+              "score": 0.4057
+            },
+            {
+              "symbol": "T",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0004875201297634,
+              "rationale": "ML -0.02 | Congress +1.00",
+              "score": 0.3671
+            },
+            {
+              "symbol": "NFLX",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0004875201297634,
+              "rationale": "ML +0.00 | Congress +0.83",
+              "score": 0.3243
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.3623491467989561,
+              "rationale": "ML +1.96"
+            }
+          ],
+          "reasoning": "Arena V2 (rank_v2): low_vol genome. Rules: top_k=5 kelly=0.522 shorts=on alt_scale=1.113. Rank-unified: picks top names by composite score across full ML panel (no starvation).   SDAWW long: model pred_ret +9.60%   COST long: model pred_ret +0.05%   SNBR long: model pred_ret +2.11%   T long: model pred_ret +0.05%   NFLX long: model pred_ret +0.05%",
+          "portfolio": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "notionalUsd": 3110.08,
+              "weightPct": 6.22,
+              "modelPredRetPct": 9.603,
+              "unifiedRationale": "ML +0.78"
+            },
+            {
+              "symbol": "COST",
+              "side": "long",
+              "notionalUsd": 3110.08,
+              "weightPct": 6.22,
+              "modelPredRetPct": 0.054,
+              "unifiedRationale": "ML +0.03 | Congress +1.00"
+            },
+            {
+              "symbol": "SNBR",
+              "side": "long",
+              "notionalUsd": 3110.08,
+              "weightPct": 6.22,
+              "modelPredRetPct": 2.115,
+              "unifiedRationale": "ML +0.12 | Insider +0.85 | Form4 high"
+            },
+            {
+              "symbol": "T",
+              "side": "long",
+              "notionalUsd": 3110.08,
+              "weightPct": 6.22,
+              "modelPredRetPct": 0.049,
+              "unifiedRationale": "ML -0.02 | Congress +1.00"
+            },
+            {
+              "symbol": "NFLX",
+              "side": "long",
+              "notionalUsd": 3110.08,
+              "weightPct": 6.22,
+              "modelPredRetPct": 0.049,
+              "unifiedRationale": "ML +0.00 | Congress +0.83"
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "notionalUsd": 7939.62,
+              "weightPct": 15.88,
+              "modelPredRetPct": -36.235,
+              "unifiedRationale": "ML +1.96"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-05",
+          "returnPct": 6.4921,
+          "nTrades": 6,
+          "nLong": 5,
+          "nShort": 1,
+          "trades": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0960266390587027,
+              "rationale": "ML +0.78",
+              "score": 0.7823
+            },
+            {
+              "symbol": "COST",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0005410895030457,
+              "rationale": "ML +0.03 | Congress +1.00",
+              "score": 0.4225
+            },
+            {
+              "symbol": "SNBR",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0211472086390574,
+              "rationale": "ML +0.12 | Insider +0.85 | Form4 high",
+              "score": 0.4057
+            },
+            {
+              "symbol": "T",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0004875201297634,
+              "rationale": "ML -0.02 | Congress +1.00",
+              "score": 0.3671
+            },
+            {
+              "symbol": "NFLX",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0004875201297634,
+              "rationale": "ML +0.00 | Congress +0.83",
+              "score": 0.3243
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.3623491467989561,
+              "rationale": "ML +1.96"
+            }
+          ],
+          "reasoning": "Arena V2 (rank_v2): low_vol genome. Rules: top_k=5 kelly=0.522 shorts=on alt_scale=1.113. Rank-unified: picks top names by composite score across full ML panel (no starvation).   SDAWW long: model pred_ret +9.60%   COST long: model pred_ret +0.05%   SNBR long: model pred_ret +2.11%   T long: model pred_ret +0.05%   NFLX long: model pred_ret +0.05%",
+          "portfolio": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "notionalUsd": 3110.08,
+              "weightPct": 6.22,
+              "modelPredRetPct": 9.603,
+              "unifiedRationale": "ML +0.78"
+            },
+            {
+              "symbol": "COST",
+              "side": "long",
+              "notionalUsd": 3110.08,
+              "weightPct": 6.22,
+              "modelPredRetPct": 0.054,
+              "unifiedRationale": "ML +0.03 | Congress +1.00"
+            },
+            {
+              "symbol": "SNBR",
+              "side": "long",
+              "notionalUsd": 3110.08,
+              "weightPct": 6.22,
+              "modelPredRetPct": 2.115,
+              "unifiedRationale": "ML +0.12 | Insider +0.85 | Form4 high"
+            },
+            {
+              "symbol": "T",
+              "side": "long",
+              "notionalUsd": 3110.08,
+              "weightPct": 6.22,
+              "modelPredRetPct": 0.049,
+              "unifiedRationale": "ML -0.02 | Congress +1.00"
+            },
+            {
+              "symbol": "NFLX",
+              "side": "long",
+              "notionalUsd": 3110.08,
+              "weightPct": 6.22,
+              "modelPredRetPct": 0.049,
+              "unifiedRationale": "ML +0.00 | Congress +0.83"
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "notionalUsd": 7939.62,
+              "weightPct": 15.88,
+              "modelPredRetPct": -36.235,
+              "unifiedRationale": "ML +1.96"
+            }
+          ]
+        }
+      ],
+      "genome": {
+        "family": "low_vol",
+        "min_proba": 0.603,
+        "min_pred_ret": 0.0061,
+        "short_enabled": true,
+        "short_frac": 0.338,
+        "top_k": 5,
+        "kelly": 0.522,
+        "alt_scale": 1.113,
+        "selection_mode": "rank_v2",
+        "contrarian": false
+      },
+      "rank": 4,
+      "returnPct": 13.4057,
+      "dailyReturnPct": 6.4921
+    },
+    {
+      "traderId": 331,
+      "family": "long_short_neutral",
+      "cumulativeReturnPct": 13.398,
+      "equityUsd": 56699.0,
+      "nDays": 2,
+      "daily": [
+        {
+          "date": "2026-06-04",
+          "returnPct": 6.4885,
+          "nTrades": 8,
+          "nLong": 7,
+          "nShort": 1,
+          "trades": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0960266390587027,
+              "rationale": "ML +0.78",
+              "score": 0.7823
+            },
+            {
+              "symbol": "COST",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0005410895030457,
+              "rationale": "ML +0.03 | Congress +1.00",
+              "score": 0.3966
+            },
+            {
+              "symbol": "SNBR",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0211472086390574,
+              "rationale": "ML +0.12 | Insider +0.85 | Form4 high",
+              "score": 0.3868
+            },
+            {
+              "symbol": "T",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0004875201297634,
+              "rationale": "ML -0.02 | Congress +1.00",
+              "score": 0.3412
+            },
+            {
+              "symbol": "AREN",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0217558880582555,
+              "rationale": "ML +0.32",
+              "score": 0.3209
+            },
+            {
+              "symbol": "NFLX",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0004875201297634,
+              "rationale": "ML +0.00 | Congress +0.83",
+              "score": 0.3028
+            },
+            {
+              "symbol": "WEN",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0004875201297634,
+              "rationale": "ML -0.02 | Insider +1.00 | Form4 high",
+              "score": 0.2893
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.3623491467989561,
+              "rationale": "ML +1.96"
+            }
+          ],
+          "reasoning": "Arena V2 (rank_v2): long_short_neutral genome. Rules: top_k=7 kelly=0.775 shorts=on alt_scale=1.039. Rank-unified: picks top names by composite score across full ML panel (no starvation).   SDAWW long: model pred_ret +9.60%   COST long: model pred_ret +0.05%   SNBR long: model pred_ret +2.11%   T long: model pred_ret +0.05%   AREN long: model pred_ret +2.18%",
+          "portfolio": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "notionalUsd": 3920.95,
+              "weightPct": 7.84,
+              "modelPredRetPct": 9.603,
+              "unifiedRationale": "ML +0.78"
+            },
+            {
+              "symbol": "COST",
+              "side": "long",
+              "notionalUsd": 3920.95,
+              "weightPct": 7.84,
+              "modelPredRetPct": 0.054,
+              "unifiedRationale": "ML +0.03 | Congress +1.00"
+            },
+            {
+              "symbol": "SNBR",
+              "side": "long",
+              "notionalUsd": 3920.95,
+              "weightPct": 7.84,
+              "modelPredRetPct": 2.115,
+              "unifiedRationale": "ML +0.12 | Insider +0.85 | Form4 high"
+            },
+            {
+              "symbol": "T",
+              "side": "long",
+              "notionalUsd": 3920.95,
+              "weightPct": 7.84,
+              "modelPredRetPct": 0.049,
+              "unifiedRationale": "ML -0.02 | Congress +1.00"
+            },
+            {
+              "symbol": "AREN",
+              "side": "long",
+              "notionalUsd": 3920.95,
+              "weightPct": 7.84,
+              "modelPredRetPct": 2.176,
+              "unifiedRationale": "ML +0.32"
+            },
+            {
+              "symbol": "NFLX",
+              "side": "long",
+              "notionalUsd": 3920.95,
+              "weightPct": 7.84,
+              "modelPredRetPct": 0.049,
+              "unifiedRationale": "ML +0.00 | Congress +0.83"
+            },
+            {
+              "symbol": "WEN",
+              "side": "long",
+              "notionalUsd": 3920.95,
+              "weightPct": 7.84,
+              "modelPredRetPct": 0.049,
+              "unifiedRationale": "ML -0.02 | Insider +1.00 | Form4 high"
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "notionalUsd": 7428.38,
+              "weightPct": 14.86,
+              "modelPredRetPct": -36.235,
+              "unifiedRationale": "ML +1.96"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-05",
+          "returnPct": 6.4885,
+          "nTrades": 8,
+          "nLong": 7,
+          "nShort": 1,
+          "trades": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0960266390587027,
+              "rationale": "ML +0.78",
+              "score": 0.7823
+            },
+            {
+              "symbol": "COST",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0005410895030457,
+              "rationale": "ML +0.03 | Congress +1.00",
+              "score": 0.3966
+            },
+            {
+              "symbol": "SNBR",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0211472086390574,
+              "rationale": "ML +0.12 | Insider +0.85 | Form4 high",
+              "score": 0.3868
+            },
+            {
+              "symbol": "T",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0004875201297634,
+              "rationale": "ML -0.02 | Congress +1.00",
+              "score": 0.3412
+            },
+            {
+              "symbol": "AREN",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0217558880582555,
+              "rationale": "ML +0.32",
+              "score": 0.3209
+            },
+            {
+              "symbol": "NFLX",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0004875201297634,
+              "rationale": "ML +0.00 | Congress +0.83",
+              "score": 0.3028
+            },
+            {
+              "symbol": "WEN",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0004875201297634,
+              "rationale": "ML -0.02 | Insider +1.00 | Form4 high",
+              "score": 0.2893
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.3623491467989561,
+              "rationale": "ML +1.96"
+            }
+          ],
+          "reasoning": "Arena V2 (rank_v2): long_short_neutral genome. Rules: top_k=7 kelly=0.775 shorts=on alt_scale=1.039. Rank-unified: picks top names by composite score across full ML panel (no starvation).   SDAWW long: model pred_ret +9.60%   COST long: model pred_ret +0.05%   SNBR long: model pred_ret +2.11%   T long: model pred_ret +0.05%   AREN long: model pred_ret +2.18%",
+          "portfolio": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "notionalUsd": 3920.95,
+              "weightPct": 7.84,
+              "modelPredRetPct": 9.603,
+              "unifiedRationale": "ML +0.78"
+            },
+            {
+              "symbol": "COST",
+              "side": "long",
+              "notionalUsd": 3920.95,
+              "weightPct": 7.84,
+              "modelPredRetPct": 0.054,
+              "unifiedRationale": "ML +0.03 | Congress +1.00"
+            },
+            {
+              "symbol": "SNBR",
+              "side": "long",
+              "notionalUsd": 3920.95,
+              "weightPct": 7.84,
+              "modelPredRetPct": 2.115,
+              "unifiedRationale": "ML +0.12 | Insider +0.85 | Form4 high"
+            },
+            {
+              "symbol": "T",
+              "side": "long",
+              "notionalUsd": 3920.95,
+              "weightPct": 7.84,
+              "modelPredRetPct": 0.049,
+              "unifiedRationale": "ML -0.02 | Congress +1.00"
+            },
+            {
+              "symbol": "AREN",
+              "side": "long",
+              "notionalUsd": 3920.95,
+              "weightPct": 7.84,
+              "modelPredRetPct": 2.176,
+              "unifiedRationale": "ML +0.32"
+            },
+            {
+              "symbol": "NFLX",
+              "side": "long",
+              "notionalUsd": 3920.95,
+              "weightPct": 7.84,
+              "modelPredRetPct": 0.049,
+              "unifiedRationale": "ML +0.00 | Congress +0.83"
+            },
+            {
+              "symbol": "WEN",
+              "side": "long",
+              "notionalUsd": 3920.95,
+              "weightPct": 7.84,
+              "modelPredRetPct": 0.049,
+              "unifiedRationale": "ML -0.02 | Insider +1.00 | Form4 high"
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "notionalUsd": 7428.38,
+              "weightPct": 14.86,
+              "modelPredRetPct": -36.235,
+              "unifiedRationale": "ML +1.96"
+            }
+          ]
+        }
+      ],
+      "genome": {
+        "family": "long_short_neutral",
+        "min_proba": 0.523,
+        "min_pred_ret": 0.0088,
+        "short_enabled": true,
+        "short_frac": 0.213,
+        "top_k": 7,
+        "kelly": 0.775,
+        "alt_scale": 1.039,
+        "selection_mode": "rank_v2",
+        "contrarian": false
+      },
+      "rank": 5,
+      "returnPct": 13.398,
+      "dailyReturnPct": 6.4885
+    },
+    {
+      "traderId": 662,
+      "family": "long_short_neutral",
+      "cumulativeReturnPct": 13.3906,
+      "equityUsd": 56695.28,
+      "nDays": 2,
+      "daily": [
+        {
+          "date": "2026-06-04",
+          "returnPct": 6.485,
+          "nTrades": 6,
+          "nLong": 5,
+          "nShort": 1,
+          "trades": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0960266390587027,
+              "rationale": "ML +0.78",
+              "score": 0.7823
+            },
+            {
+              "symbol": "COST",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0005410895030457,
+              "rationale": "ML +0.03 | Congress +1.00",
+              "score": 0.3654
+            },
+            {
+              "symbol": "SNBR",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0211472086390574,
+              "rationale": "ML +0.12 | Insider +0.85 | Form4 high",
+              "score": 0.3641
+            },
+            {
+              "symbol": "AREN",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0217558880582555,
+              "rationale": "ML +0.32",
+              "score": 0.3209
+            },
+            {
+              "symbol": "T",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0004875201297634,
+              "rationale": "ML -0.02 | Congress +1.00",
+              "score": 0.3101
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.3623491467989561,
+              "rationale": "ML +1.96"
+            }
+          ],
+          "reasoning": "Arena V2 (rank_v2): long_short_neutral genome. Rules: top_k=5 kelly=0.799 shorts=on alt_scale=0.95. Rank-unified: picks top names by composite score across full ML panel (no starvation).   SDAWW long: model pred_ret +9.60%   COST long: model pred_ret +0.05%   SNBR long: model pred_ret +2.11%   AREN long: model pred_ret +2.18%   T long: model pred_ret +0.05%",
+          "portfolio": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "notionalUsd": 5853.47,
+              "weightPct": 11.71,
+              "modelPredRetPct": 9.603,
+              "unifiedRationale": "ML +0.78"
+            },
+            {
+              "symbol": "COST",
+              "side": "long",
+              "notionalUsd": 5853.47,
+              "weightPct": 11.71,
+              "modelPredRetPct": 0.054,
+              "unifiedRationale": "ML +0.03 | Congress +1.00"
+            },
+            {
+              "symbol": "SNBR",
+              "side": "long",
+              "notionalUsd": 5853.47,
+              "weightPct": 11.71,
+              "modelPredRetPct": 2.115,
+              "unifiedRationale": "ML +0.12 | Insider +0.85 | Form4 high"
+            },
+            {
+              "symbol": "AREN",
+              "side": "long",
+              "notionalUsd": 5853.47,
+              "weightPct": 11.71,
+              "modelPredRetPct": 2.176,
+              "unifiedRationale": "ML +0.32"
+            },
+            {
+              "symbol": "T",
+              "side": "long",
+              "notionalUsd": 5853.47,
+              "weightPct": 11.71,
+              "modelPredRetPct": 0.049,
+              "unifiedRationale": "ML -0.02 | Congress +1.00"
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "notionalUsd": 6687.63,
+              "weightPct": 13.38,
+              "modelPredRetPct": -36.235,
+              "unifiedRationale": "ML +1.96"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-05",
+          "returnPct": 6.485,
+          "nTrades": 6,
+          "nLong": 5,
+          "nShort": 1,
+          "trades": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0960266390587027,
+              "rationale": "ML +0.78",
+              "score": 0.7823
+            },
+            {
+              "symbol": "COST",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0005410895030457,
+              "rationale": "ML +0.03 | Congress +1.00",
+              "score": 0.3654
+            },
+            {
+              "symbol": "SNBR",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0211472086390574,
+              "rationale": "ML +0.12 | Insider +0.85 | Form4 high",
+              "score": 0.3641
+            },
+            {
+              "symbol": "AREN",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0217558880582555,
+              "rationale": "ML +0.32",
+              "score": 0.3209
+            },
+            {
+              "symbol": "T",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0004875201297634,
+              "rationale": "ML -0.02 | Congress +1.00",
+              "score": 0.3101
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.3623491467989561,
+              "rationale": "ML +1.96"
+            }
+          ],
+          "reasoning": "Arena V2 (rank_v2): long_short_neutral genome. Rules: top_k=5 kelly=0.799 shorts=on alt_scale=0.95. Rank-unified: picks top names by composite score across full ML panel (no starvation).   SDAWW long: model pred_ret +9.60%   COST long: model pred_ret +0.05%   SNBR long: model pred_ret +2.11%   AREN long: model pred_ret +2.18%   T long: model pred_ret +0.05%",
+          "portfolio": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "notionalUsd": 5853.47,
+              "weightPct": 11.71,
+              "modelPredRetPct": 9.603,
+              "unifiedRationale": "ML +0.78"
+            },
+            {
+              "symbol": "COST",
+              "side": "long",
+              "notionalUsd": 5853.47,
+              "weightPct": 11.71,
+              "modelPredRetPct": 0.054,
+              "unifiedRationale": "ML +0.03 | Congress +1.00"
+            },
+            {
+              "symbol": "SNBR",
+              "side": "long",
+              "notionalUsd": 5853.47,
+              "weightPct": 11.71,
+              "modelPredRetPct": 2.115,
+              "unifiedRationale": "ML +0.12 | Insider +0.85 | Form4 high"
+            },
+            {
+              "symbol": "AREN",
+              "side": "long",
+              "notionalUsd": 5853.47,
+              "weightPct": 11.71,
+              "modelPredRetPct": 2.176,
+              "unifiedRationale": "ML +0.32"
+            },
+            {
+              "symbol": "T",
+              "side": "long",
+              "notionalUsd": 5853.47,
+              "weightPct": 11.71,
+              "modelPredRetPct": 0.049,
+              "unifiedRationale": "ML -0.02 | Congress +1.00"
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "notionalUsd": 6687.63,
+              "weightPct": 13.38,
+              "modelPredRetPct": -36.235,
+              "unifiedRationale": "ML +1.96"
+            }
+          ]
+        }
+      ],
+      "genome": {
+        "family": "long_short_neutral",
+        "min_proba": 0.5,
+        "min_pred_ret": 0.0045,
+        "short_enabled": true,
+        "short_frac": 0.186,
+        "top_k": 5,
+        "kelly": 0.799,
+        "alt_scale": 0.95,
+        "selection_mode": "rank_v2",
+        "contrarian": false
+      },
+      "rank": 6,
+      "returnPct": 13.3906,
+      "dailyReturnPct": 6.485
+    },
+    {
+      "traderId": 754,
+      "family": "short_bias",
+      "cumulativeReturnPct": 13.3522,
+      "equityUsd": 56676.11,
+      "nDays": 2,
+      "daily": [
+        {
+          "date": "2026-06-04",
+          "returnPct": 6.467,
+          "nTrades": 6,
+          "nLong": 5,
+          "nShort": 1,
+          "trades": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0960266390587027,
+              "rationale": "ML +0.78",
+              "score": 0.7823
+            },
+            {
+              "symbol": "COST",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0005410895030457,
+              "rationale": "ML +0.03 | Congress +1.00",
+              "score": 0.4837
+            },
+            {
+              "symbol": "SNBR",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0211472086390574,
+              "rationale": "ML +0.12 | Insider +0.85 | Form4 high",
+              "score": 0.4503
+            },
+            {
+              "symbol": "T",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0004875201297634,
+              "rationale": "ML -0.02 | Congress +1.00",
+              "score": 0.4284
+            },
+            {
+              "symbol": "NFLX",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0004875201297634,
+              "rationale": "ML +0.00 | Congress +0.83",
+              "score": 0.3752
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.3623491467989561,
+              "rationale": "ML +1.96"
+            }
+          ],
+          "reasoning": "Arena V2 (rank_v2): short_bias genome. Rules: top_k=5 kelly=0.819 shorts=on alt_scale=1.288. Rank-unified: picks top names by composite score across full ML panel (no starvation).   SDAWW long: model pred_ret +9.60%   COST long: model pred_ret +0.05%   SNBR long: model pred_ret +2.11%   T long: model pred_ret +0.05%   NFLX long: model pred_ret +0.05%",
+          "portfolio": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "notionalUsd": 5977.88,
+              "weightPct": 11.96,
+              "modelPredRetPct": 9.603,
+              "unifiedRationale": "ML +0.78"
+            },
+            {
+              "symbol": "COST",
+              "side": "long",
+              "notionalUsd": 5977.88,
+              "weightPct": 11.96,
+              "modelPredRetPct": 0.054,
+              "unifiedRationale": "ML +0.03 | Congress +1.00"
+            },
+            {
+              "symbol": "SNBR",
+              "side": "long",
+              "notionalUsd": 5977.88,
+              "weightPct": 11.96,
+              "modelPredRetPct": 2.115,
+              "unifiedRationale": "ML +0.12 | Insider +0.85 | Form4 high"
+            },
+            {
+              "symbol": "T",
+              "side": "long",
+              "notionalUsd": 5977.88,
+              "weightPct": 11.96,
+              "modelPredRetPct": 0.049,
+              "unifiedRationale": "ML -0.02 | Congress +1.00"
+            },
+            {
+              "symbol": "NFLX",
+              "side": "long",
+              "notionalUsd": 5977.88,
+              "weightPct": 11.96,
+              "modelPredRetPct": 0.049,
+              "unifiedRationale": "ML +0.00 | Congress +0.83"
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "notionalUsd": 6965.6,
+              "weightPct": 13.93,
+              "modelPredRetPct": -36.235,
+              "unifiedRationale": "ML +1.96"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-05",
+          "returnPct": 6.467,
+          "nTrades": 6,
+          "nLong": 5,
+          "nShort": 1,
+          "trades": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0960266390587027,
+              "rationale": "ML +0.78",
+              "score": 0.7823
+            },
+            {
+              "symbol": "COST",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0005410895030457,
+              "rationale": "ML +0.03 | Congress +1.00",
+              "score": 0.4837
+            },
+            {
+              "symbol": "SNBR",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0211472086390574,
+              "rationale": "ML +0.12 | Insider +0.85 | Form4 high",
+              "score": 0.4503
+            },
+            {
+              "symbol": "T",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0004875201297634,
+              "rationale": "ML -0.02 | Congress +1.00",
+              "score": 0.4284
+            },
+            {
+              "symbol": "NFLX",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0004875201297634,
+              "rationale": "ML +0.00 | Congress +0.83",
+              "score": 0.3752
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.3623491467989561,
+              "rationale": "ML +1.96"
+            }
+          ],
+          "reasoning": "Arena V2 (rank_v2): short_bias genome. Rules: top_k=5 kelly=0.819 shorts=on alt_scale=1.288. Rank-unified: picks top names by composite score across full ML panel (no starvation).   SDAWW long: model pred_ret +9.60%   COST long: model pred_ret +0.05%   SNBR long: model pred_ret +2.11%   T long: model pred_ret +0.05%   NFLX long: model pred_ret +0.05%",
+          "portfolio": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "notionalUsd": 5977.88,
+              "weightPct": 11.96,
+              "modelPredRetPct": 9.603,
+              "unifiedRationale": "ML +0.78"
+            },
+            {
+              "symbol": "COST",
+              "side": "long",
+              "notionalUsd": 5977.88,
+              "weightPct": 11.96,
+              "modelPredRetPct": 0.054,
+              "unifiedRationale": "ML +0.03 | Congress +1.00"
+            },
+            {
+              "symbol": "SNBR",
+              "side": "long",
+              "notionalUsd": 5977.88,
+              "weightPct": 11.96,
+              "modelPredRetPct": 2.115,
+              "unifiedRationale": "ML +0.12 | Insider +0.85 | Form4 high"
+            },
+            {
+              "symbol": "T",
+              "side": "long",
+              "notionalUsd": 5977.88,
+              "weightPct": 11.96,
+              "modelPredRetPct": 0.049,
+              "unifiedRationale": "ML -0.02 | Congress +1.00"
+            },
+            {
+              "symbol": "NFLX",
+              "side": "long",
+              "notionalUsd": 5977.88,
+              "weightPct": 11.96,
+              "modelPredRetPct": 0.049,
+              "unifiedRationale": "ML +0.00 | Congress +0.83"
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "notionalUsd": 6965.6,
+              "weightPct": 13.93,
+              "modelPredRetPct": -36.235,
+              "unifiedRationale": "ML +1.96"
+            }
+          ]
+        }
+      ],
+      "genome": {
+        "family": "short_bias",
+        "min_proba": 0.531,
+        "min_pred_ret": 0.007,
+        "short_enabled": true,
+        "short_frac": 0.189,
+        "top_k": 5,
+        "kelly": 0.819,
+        "alt_scale": 1.288,
+        "selection_mode": "rank_v2",
+        "contrarian": false
+      },
+      "rank": 7,
+      "returnPct": 13.3522,
+      "dailyReturnPct": 6.467
+    },
+    {
+      "traderId": 253,
+      "family": "long_short_neutral",
+      "cumulativeReturnPct": 13.325,
+      "equityUsd": 56662.48,
+      "nDays": 2,
+      "daily": [
+        {
+          "date": "2026-06-04",
+          "returnPct": 6.4542,
+          "nTrades": 7,
+          "nLong": 6,
+          "nShort": 1,
+          "trades": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0960266390587027,
+              "rationale": "ML +0.78",
+              "score": 0.7823
+            },
+            {
+              "symbol": "COST",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0005410895030457,
+              "rationale": "ML +0.03 | Congress +1.00",
+              "score": 0.3707
+            },
+            {
+              "symbol": "SNBR",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0211472086390574,
+              "rationale": "ML +0.12 | Insider +0.85 | Form4 high",
+              "score": 0.3679
+            },
+            {
+              "symbol": "AREN",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0217558880582555,
+              "rationale": "ML +0.32",
+              "score": 0.3209
+            },
+            {
+              "symbol": "T",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0004875201297634,
+              "rationale": "ML -0.02 | Congress +1.00",
+              "score": 0.3153
+            },
+            {
+              "symbol": "NFLX",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0004875201297634,
+              "rationale": "ML +0.00 | Congress +0.83",
+              "score": 0.2813
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.3623491467989561,
+              "rationale": "ML +1.96"
+            }
+          ],
+          "reasoning": "Arena V2 (rank_v2): long_short_neutral genome. Rules: top_k=6 kelly=0.659 shorts=on alt_scale=0.965. Rank-unified: picks top names by composite score across full ML panel (no starvation).   SDAWW long: model pred_ret +9.60%   COST long: model pred_ret +0.05%   SNBR long: model pred_ret +2.11%   AREN long: model pred_ret +2.18%   T long: model pred_ret +0.05%",
+          "portfolio": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "notionalUsd": 3696.99,
+              "weightPct": 7.39,
+              "modelPredRetPct": 9.603,
+              "unifiedRationale": "ML +0.78"
+            },
+            {
+              "symbol": "COST",
+              "side": "long",
+              "notionalUsd": 3696.99,
+              "weightPct": 7.39,
+              "modelPredRetPct": 0.054,
+              "unifiedRationale": "ML +0.03 | Congress +1.00"
+            },
+            {
+              "symbol": "SNBR",
+              "side": "long",
+              "notionalUsd": 3696.99,
+              "weightPct": 7.39,
+              "modelPredRetPct": 2.115,
+              "unifiedRationale": "ML +0.12 | Insider +0.85 | Form4 high"
+            },
+            {
+              "symbol": "AREN",
+              "side": "long",
+              "notionalUsd": 3696.99,
+              "weightPct": 7.39,
+              "modelPredRetPct": 2.176,
+              "unifiedRationale": "ML +0.32"
+            },
+            {
+              "symbol": "T",
+              "side": "long",
+              "notionalUsd": 3696.99,
+              "weightPct": 7.39,
+              "modelPredRetPct": 0.049,
+              "unifiedRationale": "ML -0.02 | Congress +1.00"
+            },
+            {
+              "symbol": "NFLX",
+              "side": "long",
+              "notionalUsd": 3696.99,
+              "weightPct": 7.39,
+              "modelPredRetPct": 0.049,
+              "unifiedRationale": "ML +0.00 | Congress +0.83"
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "notionalUsd": 7473.06,
+              "weightPct": 14.95,
+              "modelPredRetPct": -36.235,
+              "unifiedRationale": "ML +1.96"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-05",
+          "returnPct": 6.4542,
+          "nTrades": 7,
+          "nLong": 6,
+          "nShort": 1,
+          "trades": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0960266390587027,
+              "rationale": "ML +0.78",
+              "score": 0.7823
+            },
+            {
+              "symbol": "COST",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0005410895030457,
+              "rationale": "ML +0.03 | Congress +1.00",
+              "score": 0.3707
+            },
+            {
+              "symbol": "SNBR",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0211472086390574,
+              "rationale": "ML +0.12 | Insider +0.85 | Form4 high",
+              "score": 0.3679
+            },
+            {
+              "symbol": "AREN",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0217558880582555,
+              "rationale": "ML +0.32",
+              "score": 0.3209
+            },
+            {
+              "symbol": "T",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0004875201297634,
+              "rationale": "ML -0.02 | Congress +1.00",
+              "score": 0.3153
+            },
+            {
+              "symbol": "NFLX",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0004875201297634,
+              "rationale": "ML +0.00 | Congress +0.83",
+              "score": 0.2813
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.3623491467989561,
+              "rationale": "ML +1.96"
+            }
+          ],
+          "reasoning": "Arena V2 (rank_v2): long_short_neutral genome. Rules: top_k=6 kelly=0.659 shorts=on alt_scale=0.965. Rank-unified: picks top names by composite score across full ML panel (no starvation).   SDAWW long: model pred_ret +9.60%   COST long: model pred_ret +0.05%   SNBR long: model pred_ret +2.11%   AREN long: model pred_ret +2.18%   T long: model pred_ret +0.05%",
+          "portfolio": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "notionalUsd": 3696.99,
+              "weightPct": 7.39,
+              "modelPredRetPct": 9.603,
+              "unifiedRationale": "ML +0.78"
+            },
+            {
+              "symbol": "COST",
+              "side": "long",
+              "notionalUsd": 3696.99,
+              "weightPct": 7.39,
+              "modelPredRetPct": 0.054,
+              "unifiedRationale": "ML +0.03 | Congress +1.00"
+            },
+            {
+              "symbol": "SNBR",
+              "side": "long",
+              "notionalUsd": 3696.99,
+              "weightPct": 7.39,
+              "modelPredRetPct": 2.115,
+              "unifiedRationale": "ML +0.12 | Insider +0.85 | Form4 high"
+            },
+            {
+              "symbol": "AREN",
+              "side": "long",
+              "notionalUsd": 3696.99,
+              "weightPct": 7.39,
+              "modelPredRetPct": 2.176,
+              "unifiedRationale": "ML +0.32"
+            },
+            {
+              "symbol": "T",
+              "side": "long",
+              "notionalUsd": 3696.99,
+              "weightPct": 7.39,
+              "modelPredRetPct": 0.049,
+              "unifiedRationale": "ML -0.02 | Congress +1.00"
+            },
+            {
+              "symbol": "NFLX",
+              "side": "long",
+              "notionalUsd": 3696.99,
+              "weightPct": 7.39,
+              "modelPredRetPct": 0.049,
+              "unifiedRationale": "ML +0.00 | Congress +0.83"
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "notionalUsd": 7473.06,
+              "weightPct": 14.95,
+              "modelPredRetPct": -36.235,
+              "unifiedRationale": "ML +1.96"
+            }
+          ]
+        }
+      ],
+      "genome": {
+        "family": "long_short_neutral",
+        "min_proba": 0.667,
+        "min_pred_ret": 0.0057,
+        "short_enabled": true,
+        "short_frac": 0.252,
+        "top_k": 6,
+        "kelly": 0.659,
+        "alt_scale": 0.965,
+        "selection_mode": "rank_v2",
+        "contrarian": false
+      },
+      "rank": 8,
+      "returnPct": 13.325,
+      "dailyReturnPct": 6.4542
+    },
+    {
+      "traderId": 514,
+      "family": "short_bias",
+      "cumulativeReturnPct": 13.1368,
+      "equityUsd": 56568.42,
+      "nDays": 2,
+      "daily": [
+        {
+          "date": "2026-06-04",
+          "returnPct": 6.3658,
+          "nTrades": 9,
+          "nLong": 7,
+          "nShort": 2,
+          "trades": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0960266390587027,
+              "rationale": "ML +0.78",
+              "score": 0.7823
+            },
+            {
+              "symbol": "COST",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0005410895030457,
+              "rationale": "ML +0.03 | Congress +1.00",
+              "score": 0.4564
+            },
+            {
+              "symbol": "SNBR",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0211472086390574,
+              "rationale": "ML +0.12 | Insider +0.85 | Form4 high",
+              "score": 0.4304
+            },
+            {
+              "symbol": "T",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0004875201297634,
+              "rationale": "ML -0.02 | Congress +1.00",
+              "score": 0.4011
+            },
+            {
+              "symbol": "NFLX",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0004875201297634,
+              "rationale": "ML +0.00 | Congress +0.83",
+              "score": 0.3525
+            },
+            {
+              "symbol": "WEN",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0004875201297634,
+              "rationale": "ML -0.02 | Insider +1.00 | Form4 high",
+              "score": 0.3406
+            },
+            {
+              "symbol": "HD",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0005804514418645,
+              "rationale": "ML +0.03 | Congress +0.69",
+              "score": 0.3235
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.3623491467989561,
+              "rationale": "ML +1.96"
+            },
+            {
+              "symbol": "LOTWW",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.0388738296317602,
+              "rationale": "ML +0.60"
+            }
+          ],
+          "reasoning": "Arena V2 (rank_v2): short_bias genome. Rules: top_k=7 kelly=0.843 shorts=on alt_scale=1.21. Rank-unified: picks top names by composite score across full ML panel (no starvation).   SDAWW long: model pred_ret +9.60%   COST long: model pred_ret +0.05%   SNBR long: model pred_ret +2.11%   T long: model pred_ret +0.05%   NFLX long: model pred_ret +0.05%",
+          "portfolio": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "notionalUsd": 3446.67,
+              "weightPct": 6.89,
+              "modelPredRetPct": 9.603,
+              "unifiedRationale": "ML +0.78"
+            },
+            {
+              "symbol": "COST",
+              "side": "long",
+              "notionalUsd": 3446.67,
+              "weightPct": 6.89,
+              "modelPredRetPct": 0.054,
+              "unifiedRationale": "ML +0.03 | Congress +1.00"
+            },
+            {
+              "symbol": "SNBR",
+              "side": "long",
+              "notionalUsd": 3446.67,
+              "weightPct": 6.89,
+              "modelPredRetPct": 2.115,
+              "unifiedRationale": "ML +0.12 | Insider +0.85 | Form4 high"
+            },
+            {
+              "symbol": "T",
+              "side": "long",
+              "notionalUsd": 3446.67,
+              "weightPct": 6.89,
+              "modelPredRetPct": 0.049,
+              "unifiedRationale": "ML -0.02 | Congress +1.00"
+            },
+            {
+              "symbol": "NFLX",
+              "side": "long",
+              "notionalUsd": 3446.67,
+              "weightPct": 6.89,
+              "modelPredRetPct": 0.049,
+              "unifiedRationale": "ML +0.00 | Congress +0.83"
+            },
+            {
+              "symbol": "WEN",
+              "side": "long",
+              "notionalUsd": 3446.67,
+              "weightPct": 6.89,
+              "modelPredRetPct": 0.049,
+              "unifiedRationale": "ML -0.02 | Insider +1.00 | Form4 high"
+            },
+            {
+              "symbol": "HD",
+              "side": "long",
+              "notionalUsd": 3446.67,
+              "weightPct": 6.89,
+              "modelPredRetPct": 0.058,
+              "unifiedRationale": "ML +0.03 | Congress +0.69"
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "notionalUsd": 6904.17,
+              "weightPct": 13.81,
+              "modelPredRetPct": -36.235,
+              "unifiedRationale": "ML +1.96"
+            },
+            {
+              "symbol": "LOTWW",
+              "side": "short",
+              "notionalUsd": 6904.17,
+              "weightPct": 13.81,
+              "modelPredRetPct": -3.887,
+              "unifiedRationale": "ML +0.60"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-05",
+          "returnPct": 6.3658,
+          "nTrades": 9,
+          "nLong": 7,
+          "nShort": 2,
+          "trades": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0960266390587027,
+              "rationale": "ML +0.78",
+              "score": 0.7823
+            },
+            {
+              "symbol": "COST",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0005410895030457,
+              "rationale": "ML +0.03 | Congress +1.00",
+              "score": 0.4564
+            },
+            {
+              "symbol": "SNBR",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0211472086390574,
+              "rationale": "ML +0.12 | Insider +0.85 | Form4 high",
+              "score": 0.4304
+            },
+            {
+              "symbol": "T",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0004875201297634,
+              "rationale": "ML -0.02 | Congress +1.00",
+              "score": 0.4011
+            },
+            {
+              "symbol": "NFLX",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0004875201297634,
+              "rationale": "ML +0.00 | Congress +0.83",
+              "score": 0.3525
+            },
+            {
+              "symbol": "WEN",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0004875201297634,
+              "rationale": "ML -0.02 | Insider +1.00 | Form4 high",
+              "score": 0.3406
+            },
+            {
+              "symbol": "HD",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0005804514418645,
+              "rationale": "ML +0.03 | Congress +0.69",
+              "score": 0.3235
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.3623491467989561,
+              "rationale": "ML +1.96"
+            },
+            {
+              "symbol": "LOTWW",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.0388738296317602,
+              "rationale": "ML +0.60"
+            }
+          ],
+          "reasoning": "Arena V2 (rank_v2): short_bias genome. Rules: top_k=7 kelly=0.843 shorts=on alt_scale=1.21. Rank-unified: picks top names by composite score across full ML panel (no starvation).   SDAWW long: model pred_ret +9.60%   COST long: model pred_ret +0.05%   SNBR long: model pred_ret +2.11%   T long: model pred_ret +0.05%   NFLX long: model pred_ret +0.05%",
+          "portfolio": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "notionalUsd": 3446.67,
+              "weightPct": 6.89,
+              "modelPredRetPct": 9.603,
+              "unifiedRationale": "ML +0.78"
+            },
+            {
+              "symbol": "COST",
+              "side": "long",
+              "notionalUsd": 3446.67,
+              "weightPct": 6.89,
+              "modelPredRetPct": 0.054,
+              "unifiedRationale": "ML +0.03 | Congress +1.00"
+            },
+            {
+              "symbol": "SNBR",
+              "side": "long",
+              "notionalUsd": 3446.67,
+              "weightPct": 6.89,
+              "modelPredRetPct": 2.115,
+              "unifiedRationale": "ML +0.12 | Insider +0.85 | Form4 high"
+            },
+            {
+              "symbol": "T",
+              "side": "long",
+              "notionalUsd": 3446.67,
+              "weightPct": 6.89,
+              "modelPredRetPct": 0.049,
+              "unifiedRationale": "ML -0.02 | Congress +1.00"
+            },
+            {
+              "symbol": "NFLX",
+              "side": "long",
+              "notionalUsd": 3446.67,
+              "weightPct": 6.89,
+              "modelPredRetPct": 0.049,
+              "unifiedRationale": "ML +0.00 | Congress +0.83"
+            },
+            {
+              "symbol": "WEN",
+              "side": "long",
+              "notionalUsd": 3446.67,
+              "weightPct": 6.89,
+              "modelPredRetPct": 0.049,
+              "unifiedRationale": "ML -0.02 | Insider +1.00 | Form4 high"
+            },
+            {
+              "symbol": "HD",
+              "side": "long",
+              "notionalUsd": 3446.67,
+              "weightPct": 6.89,
+              "modelPredRetPct": 0.058,
+              "unifiedRationale": "ML +0.03 | Congress +0.69"
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "notionalUsd": 6904.17,
+              "weightPct": 13.81,
+              "modelPredRetPct": -36.235,
+              "unifiedRationale": "ML +1.96"
+            },
+            {
+              "symbol": "LOTWW",
+              "side": "short",
+              "notionalUsd": 6904.17,
+              "weightPct": 13.81,
+              "modelPredRetPct": -3.887,
+              "unifiedRationale": "ML +0.60"
+            }
+          ]
+        }
+      ],
+      "genome": {
+        "family": "short_bias",
+        "min_proba": 0.529,
+        "min_pred_ret": 0.0141,
+        "short_enabled": true,
+        "short_frac": 0.364,
+        "top_k": 7,
+        "kelly": 0.843,
+        "alt_scale": 1.21,
+        "selection_mode": "rank_v2",
+        "contrarian": false
+      },
+      "rank": 9,
+      "returnPct": 13.1368,
+      "dailyReturnPct": 6.3658
+    },
+    {
+      "traderId": 29,
+      "family": "short_bias",
+      "cumulativeReturnPct": 13.0158,
+      "equityUsd": 56507.91,
+      "nDays": 2,
+      "daily": [
+        {
+          "date": "2026-06-04",
+          "returnPct": 6.3089,
+          "nTrades": 8,
+          "nLong": 7,
+          "nShort": 1,
+          "trades": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0960266390587027,
+              "rationale": "ML +0.78",
+              "score": 0.7823
+            },
+            {
+              "symbol": "SNBR",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0211472086390574,
+              "rationale": "ML +0.12 | Insider +0.85 | Form4 high",
+              "score": 0.3258
+            },
+            {
+              "symbol": "AREN",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0217558880582555,
+              "rationale": "ML +0.32",
+              "score": 0.3209
+            },
+            {
+              "symbol": "COST",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0005410895030457,
+              "rationale": "ML +0.03 | Congress +1.00",
+              "score": 0.3129
+            },
+            {
+              "symbol": "T",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0004875201297634,
+              "rationale": "ML -0.02 | Congress +1.00",
+              "score": 0.2576
+            },
+            {
+              "symbol": "GTN-A",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0069109894948349,
+              "rationale": "ML +0.25",
+              "score": 0.2522
+            },
+            {
+              "symbol": "CHGG",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0069109894948349,
+              "rationale": "ML +0.25",
+              "score": 0.2467
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.3623491467989561,
+              "rationale": "ML +1.96"
+            }
+          ],
+          "reasoning": "Arena V2 (rank_v2): short_bias genome. Rules: top_k=7 kelly=0.596 shorts=on alt_scale=0.8. Rank-unified: picks top names by composite score across full ML panel (no starvation).   SDAWW long: model pred_ret +9.60%   SNBR long: model pred_ret +2.11%   AREN long: model pred_ret +2.18%   COST long: model pred_ret +0.05%   T long: model pred_ret +0.05%",
+          "portfolio": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "notionalUsd": 2754.8,
+              "weightPct": 5.51,
+              "modelPredRetPct": 9.603,
+              "unifiedRationale": "ML +0.78"
+            },
+            {
+              "symbol": "SNBR",
+              "side": "long",
+              "notionalUsd": 2754.8,
+              "weightPct": 5.51,
+              "modelPredRetPct": 2.115,
+              "unifiedRationale": "ML +0.12 | Insider +0.85 | Form4 high"
+            },
+            {
+              "symbol": "AREN",
+              "side": "long",
+              "notionalUsd": 2754.8,
+              "weightPct": 5.51,
+              "modelPredRetPct": 2.176,
+              "unifiedRationale": "ML +0.32"
+            },
+            {
+              "symbol": "COST",
+              "side": "long",
+              "notionalUsd": 2754.8,
+              "weightPct": 5.51,
+              "modelPredRetPct": 0.054,
+              "unifiedRationale": "ML +0.03 | Congress +1.00"
+            },
+            {
+              "symbol": "T",
+              "side": "long",
+              "notionalUsd": 2754.8,
+              "weightPct": 5.51,
+              "modelPredRetPct": 0.049,
+              "unifiedRationale": "ML -0.02 | Congress +1.00"
+            },
+            {
+              "symbol": "GTN-A",
+              "side": "long",
+              "notionalUsd": 2754.8,
+              "weightPct": 5.51,
+              "modelPredRetPct": 0.691,
+              "unifiedRationale": "ML +0.25"
+            },
+            {
+              "symbol": "CHGG",
+              "side": "long",
+              "notionalUsd": 2754.8,
+              "weightPct": 5.51,
+              "modelPredRetPct": 0.691,
+              "unifiedRationale": "ML +0.25"
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "notionalUsd": 7536.42,
+              "weightPct": 15.07,
+              "modelPredRetPct": -36.235,
+              "unifiedRationale": "ML +1.96"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-05",
+          "returnPct": 6.3089,
+          "nTrades": 8,
+          "nLong": 7,
+          "nShort": 1,
+          "trades": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0960266390587027,
+              "rationale": "ML +0.78",
+              "score": 0.7823
+            },
+            {
+              "symbol": "SNBR",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0211472086390574,
+              "rationale": "ML +0.12 | Insider +0.85 | Form4 high",
+              "score": 0.3258
+            },
+            {
+              "symbol": "AREN",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0217558880582555,
+              "rationale": "ML +0.32",
+              "score": 0.3209
+            },
+            {
+              "symbol": "COST",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0005410895030457,
+              "rationale": "ML +0.03 | Congress +1.00",
+              "score": 0.3129
+            },
+            {
+              "symbol": "T",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0004875201297634,
+              "rationale": "ML -0.02 | Congress +1.00",
+              "score": 0.2576
+            },
+            {
+              "symbol": "GTN-A",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0069109894948349,
+              "rationale": "ML +0.25",
+              "score": 0.2522
+            },
+            {
+              "symbol": "CHGG",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0069109894948349,
+              "rationale": "ML +0.25",
+              "score": 0.2467
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.3623491467989561,
+              "rationale": "ML +1.96"
+            }
+          ],
+          "reasoning": "Arena V2 (rank_v2): short_bias genome. Rules: top_k=7 kelly=0.596 shorts=on alt_scale=0.8. Rank-unified: picks top names by composite score across full ML panel (no starvation).   SDAWW long: model pred_ret +9.60%   SNBR long: model pred_ret +2.11%   AREN long: model pred_ret +2.18%   COST long: model pred_ret +0.05%   T long: model pred_ret +0.05%",
+          "portfolio": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "notionalUsd": 2754.8,
+              "weightPct": 5.51,
+              "modelPredRetPct": 9.603,
+              "unifiedRationale": "ML +0.78"
+            },
+            {
+              "symbol": "SNBR",
+              "side": "long",
+              "notionalUsd": 2754.8,
+              "weightPct": 5.51,
+              "modelPredRetPct": 2.115,
+              "unifiedRationale": "ML +0.12 | Insider +0.85 | Form4 high"
+            },
+            {
+              "symbol": "AREN",
+              "side": "long",
+              "notionalUsd": 2754.8,
+              "weightPct": 5.51,
+              "modelPredRetPct": 2.176,
+              "unifiedRationale": "ML +0.32"
+            },
+            {
+              "symbol": "COST",
+              "side": "long",
+              "notionalUsd": 2754.8,
+              "weightPct": 5.51,
+              "modelPredRetPct": 0.054,
+              "unifiedRationale": "ML +0.03 | Congress +1.00"
+            },
+            {
+              "symbol": "T",
+              "side": "long",
+              "notionalUsd": 2754.8,
+              "weightPct": 5.51,
+              "modelPredRetPct": 0.049,
+              "unifiedRationale": "ML -0.02 | Congress +1.00"
+            },
+            {
+              "symbol": "GTN-A",
+              "side": "long",
+              "notionalUsd": 2754.8,
+              "weightPct": 5.51,
+              "modelPredRetPct": 0.691,
+              "unifiedRationale": "ML +0.25"
+            },
+            {
+              "symbol": "CHGG",
+              "side": "long",
+              "notionalUsd": 2754.8,
+              "weightPct": 5.51,
+              "modelPredRetPct": 0.691,
+              "unifiedRationale": "ML +0.25"
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "notionalUsd": 7536.42,
+              "weightPct": 15.07,
+              "modelPredRetPct": -36.235,
+              "unifiedRationale": "ML +1.96"
+            }
+          ]
+        }
+      ],
+      "genome": {
+        "family": "short_bias",
+        "min_proba": 0.603,
+        "min_pred_ret": 0.0086,
+        "short_enabled": true,
+        "short_frac": 0.281,
+        "top_k": 7,
+        "kelly": 0.596,
+        "alt_scale": 0.8,
+        "selection_mode": "rank_v2",
+        "contrarian": false
+      },
+      "rank": 10,
+      "returnPct": 13.0158,
+      "dailyReturnPct": 6.3089
+    }
+  ],
+  "bottom5": [
+    {
+      "traderId": 341,
+      "family": "contrarian",
+      "cumulativeReturnPct": -5.9337,
+      "equityUsd": 47033.15,
+      "nDays": 1,
+      "daily": [
+        {
+          "date": "2026-06-04",
+          "returnPct": -5.9337,
+          "nTrades": 5,
+          "nLong": 5,
+          "nShort": 0,
+          "trades": [
+            {
+              "symbol": "KWMWW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": -0.3623491467989561,
+              "rationale": "ML -1.96",
+              "score": 1.957
+            },
+            {
+              "symbol": "LOTWW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": -0.0388738296317602,
+              "rationale": "ML -0.60",
+              "score": 0.5958
+            },
+            {
+              "symbol": "STG",
+              "side": "long",
+              "position_effect": "open",
+              "ret": -0.019414566082014,
+              "rationale": "ML -0.50",
+              "score": 0.4985
+            },
+            {
+              "symbol": "ABVEW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": -0.0078371602960871,
+              "rationale": "ML -0.45",
+              "score": 0.4468
+            },
+            {
+              "symbol": "BRLSW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": -0.0035680120489128,
+              "rationale": "ML -0.43",
+              "score": 0.4255
+            }
+          ],
+          "reasoning": "Arena V2 (rank_v2): contrarian genome. Rules: top_k=5 kelly=0.763 shorts=off alt_scale=0.691. Rank-unified: picks top names by composite score across full ML panel (no starvation). Contrarian: inverted unified score.   KWMWW long: model pred_ret -36.23%   LOTWW long: model pred_ret -3.89%   STG long: model pred_ret -1.94%   ABVEW long: model pred_ret -0.78%   BRLSW long: model pred_ret -0.36%",
+          "portfolio": [
+            {
+              "symbol": "KWMWW",
+              "side": "long",
+              "notionalUsd": 6867.0,
+              "weightPct": 13.73,
+              "modelPredRetPct": -36.235,
+              "unifiedRationale": "ML -1.96"
+            },
+            {
+              "symbol": "LOTWW",
+              "side": "long",
+              "notionalUsd": 6867.0,
+              "weightPct": 13.73,
+              "modelPredRetPct": -3.887,
+              "unifiedRationale": "ML -0.60"
+            },
+            {
+              "symbol": "STG",
+              "side": "long",
+              "notionalUsd": 6867.0,
+              "weightPct": 13.73,
+              "modelPredRetPct": -1.941,
+              "unifiedRationale": "ML -0.50"
+            },
+            {
+              "symbol": "ABVEW",
+              "side": "long",
+              "notionalUsd": 6867.0,
+              "weightPct": 13.73,
+              "modelPredRetPct": -0.784,
+              "unifiedRationale": "ML -0.45"
+            },
+            {
+              "symbol": "BRLSW",
+              "side": "long",
+              "notionalUsd": 6867.0,
+              "weightPct": 13.73,
+              "modelPredRetPct": -0.357,
+              "unifiedRationale": "ML -0.43"
+            }
+          ]
+        }
+      ],
+      "genome": {
+        "family": "contrarian",
+        "min_proba": 0.533,
+        "min_pred_ret": 0.0057,
+        "short_enabled": false,
+        "short_frac": 0.0,
+        "top_k": 5,
+        "kelly": 0.763,
+        "alt_scale": 0.691,
+        "selection_mode": "rank_v2",
+        "contrarian": true
+      },
+      "rank": 3269
+    },
+    {
+      "traderId": 739,
+      "family": "contrarian",
+      "cumulativeReturnPct": -6.2156,
+      "equityUsd": 46892.2,
+      "nDays": 1,
+      "daily": [
+        {
+          "date": "2026-06-04",
+          "returnPct": -6.2156,
+          "nTrades": 6,
+          "nLong": 5,
+          "nShort": 1,
+          "trades": [
+            {
+              "symbol": "KWMWW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": -0.3623491467989561,
+              "rationale": "ML -1.96",
+              "score": 1.957
+            },
+            {
+              "symbol": "LOTWW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": -0.0388738296317602,
+              "rationale": "ML -0.60",
+              "score": 0.5958
+            },
+            {
+              "symbol": "STG",
+              "side": "long",
+              "position_effect": "open",
+              "ret": -0.019414566082014,
+              "rationale": "ML -0.50",
+              "score": 0.4985
+            },
+            {
+              "symbol": "ABVEW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": -0.0078371602960871,
+              "rationale": "ML -0.45",
+              "score": 0.4468
+            },
+            {
+              "symbol": "BRLSW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": -0.0035680120489128,
+              "rationale": "ML -0.43",
+              "score": 0.4255
+            },
+            {
+              "symbol": "SDAWW",
+              "side": "short",
+              "position_effect": "open",
+              "ret": 0.0960266390587027,
+              "rationale": "ML -0.78"
+            }
+          ],
+          "reasoning": "Arena V2 (rank_v2): contrarian genome. Rules: top_k=5 kelly=0.766 shorts=on alt_scale=0.944. Rank-unified: picks top names by composite score across full ML panel (no starvation). Contrarian: inverted unified score.   KWMWW long: model pred_ret -36.23%   LOTWW long: model pred_ret -3.89%   STG long: model pred_ret -1.94%   ABVEW long: model pred_ret -0.78%   BRLSW long: model pred_ret -0.36%",
+          "portfolio": [
+            {
+              "symbol": "KWMWW",
+              "side": "long",
+              "notionalUsd": 4205.34,
+              "weightPct": 8.41,
+              "modelPredRetPct": -36.235,
+              "unifiedRationale": "ML -1.96"
+            },
+            {
+              "symbol": "LOTWW",
+              "side": "long",
+              "notionalUsd": 4205.34,
+              "weightPct": 8.41,
+              "modelPredRetPct": -3.887,
+              "unifiedRationale": "ML -0.60"
+            },
+            {
+              "symbol": "STG",
+              "side": "long",
+              "notionalUsd": 4205.34,
+              "weightPct": 8.41,
+              "modelPredRetPct": -1.941,
+              "unifiedRationale": "ML -0.50"
+            },
+            {
+              "symbol": "ABVEW",
+              "side": "long",
+              "notionalUsd": 4205.34,
+              "weightPct": 8.41,
+              "modelPredRetPct": -0.784,
+              "unifiedRationale": "ML -0.45"
+            },
+            {
+              "symbol": "BRLSW",
+              "side": "long",
+              "notionalUsd": 4205.34,
+              "weightPct": 8.41,
+              "modelPredRetPct": -0.357,
+              "unifiedRationale": "ML -0.43"
+            },
+            {
+              "symbol": "SDAWW",
+              "side": "short",
+              "notionalUsd": 13443.3,
+              "weightPct": 26.89,
+              "modelPredRetPct": 9.603,
+              "unifiedRationale": "ML -0.78"
+            }
+          ]
+        }
+      ],
+      "genome": {
+        "family": "contrarian",
+        "min_proba": 0.66,
+        "min_pred_ret": 0.01,
+        "short_enabled": true,
+        "short_frac": 0.39,
+        "top_k": 5,
+        "kelly": 0.766,
+        "alt_scale": 0.944,
+        "selection_mode": "rank_v2",
+        "contrarian": true
+      },
+      "rank": 3270
+    },
+    {
+      "traderId": 508,
+      "family": "contrarian",
+      "cumulativeReturnPct": -6.2914,
+      "equityUsd": 46854.3,
+      "nDays": 1,
+      "daily": [
+        {
+          "date": "2026-06-04",
+          "returnPct": -6.2914,
+          "nTrades": 5,
+          "nLong": 5,
+          "nShort": 0,
+          "trades": [
+            {
+              "symbol": "KWMWW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": -0.3623491467989561,
+              "rationale": "ML -1.96",
+              "score": 1.957
+            },
+            {
+              "symbol": "LOTWW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": -0.0388738296317602,
+              "rationale": "ML -0.60",
+              "score": 0.5958
+            },
+            {
+              "symbol": "STG",
+              "side": "long",
+              "position_effect": "open",
+              "ret": -0.019414566082014,
+              "rationale": "ML -0.50",
+              "score": 0.4985
+            },
+            {
+              "symbol": "ABVEW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": -0.0078371602960871,
+              "rationale": "ML -0.45",
+              "score": 0.4468
+            },
+            {
+              "symbol": "BRLSW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": -0.0035680120489128,
+              "rationale": "ML -0.43",
+              "score": 0.4255
+            }
+          ],
+          "reasoning": "Arena V2 (rank_v2): contrarian genome. Rules: top_k=5 kelly=0.809 shorts=off alt_scale=1.039. Rank-unified: picks top names by composite score across full ML panel (no starvation). Contrarian: inverted unified score.   KWMWW long: model pred_ret -36.23%   LOTWW long: model pred_ret -3.89%   STG long: model pred_ret -1.94%   ABVEW long: model pred_ret -0.78%   BRLSW long: model pred_ret -0.36%",
+          "portfolio": [
+            {
+              "symbol": "KWMWW",
+              "side": "long",
+              "notionalUsd": 7281.0,
+              "weightPct": 14.56,
+              "modelPredRetPct": -36.235,
+              "unifiedRationale": "ML -1.96"
+            },
+            {
+              "symbol": "LOTWW",
+              "side": "long",
+              "notionalUsd": 7281.0,
+              "weightPct": 14.56,
+              "modelPredRetPct": -3.887,
+              "unifiedRationale": "ML -0.60"
+            },
+            {
+              "symbol": "STG",
+              "side": "long",
+              "notionalUsd": 7281.0,
+              "weightPct": 14.56,
+              "modelPredRetPct": -1.941,
+              "unifiedRationale": "ML -0.50"
+            },
+            {
+              "symbol": "ABVEW",
+              "side": "long",
+              "notionalUsd": 7281.0,
+              "weightPct": 14.56,
+              "modelPredRetPct": -0.784,
+              "unifiedRationale": "ML -0.45"
+            },
+            {
+              "symbol": "BRLSW",
+              "side": "long",
+              "notionalUsd": 7281.0,
+              "weightPct": 14.56,
+              "modelPredRetPct": -0.357,
+              "unifiedRationale": "ML -0.43"
+            }
+          ]
+        }
+      ],
+      "genome": {
+        "family": "contrarian",
+        "min_proba": 0.631,
+        "min_pred_ret": 0.0098,
+        "short_enabled": false,
+        "short_frac": 0.0,
+        "top_k": 5,
+        "kelly": 0.809,
+        "alt_scale": 1.039,
+        "selection_mode": "rank_v2",
+        "contrarian": true
+      },
+      "rank": 3271
+    },
+    {
+      "traderId": 538,
+      "family": "contrarian",
+      "cumulativeReturnPct": -6.654,
+      "equityUsd": 46673.0,
+      "nDays": 1,
+      "daily": [
+        {
+          "date": "2026-06-04",
+          "returnPct": -6.654,
+          "nTrades": 6,
+          "nLong": 5,
+          "nShort": 1,
+          "trades": [
+            {
+              "symbol": "KWMWW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": -0.3623491467989561,
+              "rationale": "ML -1.96",
+              "score": 1.957
+            },
+            {
+              "symbol": "LOTWW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": -0.0388738296317602,
+              "rationale": "ML -0.60",
+              "score": 0.5958
+            },
+            {
+              "symbol": "STG",
+              "side": "long",
+              "position_effect": "open",
+              "ret": -0.019414566082014,
+              "rationale": "ML -0.50",
+              "score": 0.4985
+            },
+            {
+              "symbol": "ABVEW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": -0.0078371602960871,
+              "rationale": "ML -0.45",
+              "score": 0.4468
+            },
+            {
+              "symbol": "BRLSW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": -0.0035680120489128,
+              "rationale": "ML -0.43",
+              "score": 0.4255
+            },
+            {
+              "symbol": "SDAWW",
+              "side": "short",
+              "position_effect": "open",
+              "ret": 0.0960266390587027,
+              "rationale": "ML -0.78"
+            }
+          ],
+          "reasoning": "Arena V2 (rank_v2): contrarian genome. Rules: top_k=5 kelly=0.839 shorts=on alt_scale=1.131. Rank-unified: picks top names by composite score across full ML panel (no starvation). Contrarian: inverted unified score.   KWMWW long: model pred_ret -36.23%   LOTWW long: model pred_ret -3.89%   STG long: model pred_ret -1.94%   ABVEW long: model pred_ret -0.78%   BRLSW long: model pred_ret -0.36%",
+          "portfolio": [
+            {
+              "symbol": "KWMWW",
+              "side": "long",
+              "notionalUsd": 6206.92,
+              "weightPct": 12.41,
+              "modelPredRetPct": -36.235,
+              "unifiedRationale": "ML -1.96"
+            },
+            {
+              "symbol": "LOTWW",
+              "side": "long",
+              "notionalUsd": 6206.92,
+              "weightPct": 12.41,
+              "modelPredRetPct": -3.887,
+              "unifiedRationale": "ML -0.60"
+            },
+            {
+              "symbol": "STG",
+              "side": "long",
+              "notionalUsd": 6206.92,
+              "weightPct": 12.41,
+              "modelPredRetPct": -1.941,
+              "unifiedRationale": "ML -0.50"
+            },
+            {
+              "symbol": "ABVEW",
+              "side": "long",
+              "notionalUsd": 6206.92,
+              "weightPct": 12.41,
+              "modelPredRetPct": -0.784,
+              "unifiedRationale": "ML -0.45"
+            },
+            {
+              "symbol": "BRLSW",
+              "side": "long",
+              "notionalUsd": 6206.92,
+              "weightPct": 12.41,
+              "modelPredRetPct": -0.357,
+              "unifiedRationale": "ML -0.43"
+            },
+            {
+              "symbol": "SDAWW",
+              "side": "short",
+              "notionalUsd": 6720.39,
+              "weightPct": 13.44,
+              "modelPredRetPct": 9.603,
+              "unifiedRationale": "ML -0.78"
+            }
+          ]
+        }
+      ],
+      "genome": {
+        "family": "contrarian",
+        "min_proba": 0.651,
+        "min_pred_ret": 0.0106,
+        "short_enabled": true,
+        "short_frac": 0.178,
+        "top_k": 5,
+        "kelly": 0.839,
+        "alt_scale": 1.131,
+        "selection_mode": "rank_v2",
+        "contrarian": true
+      },
+      "rank": 3272
+    },
+    {
+      "traderId": 768,
+      "family": "contrarian",
+      "cumulativeReturnPct": -8.8472,
+      "equityUsd": 45576.42,
+      "nDays": 2,
+      "daily": [
+        {
+          "date": "2026-06-04",
+          "returnPct": -4.526,
+          "nTrades": 7,
+          "nLong": 7,
+          "nShort": 0,
+          "trades": [
+            {
+              "symbol": "KWMWW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": -0.3623491467989561,
+              "rationale": "ML -1.96",
+              "score": 1.957
+            },
+            {
+              "symbol": "LOTWW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": -0.0388738296317602,
+              "rationale": "ML -0.60",
+              "score": 0.5958
+            },
+            {
+              "symbol": "STG",
+              "side": "long",
+              "position_effect": "open",
+              "ret": -0.019414566082014,
+              "rationale": "ML -0.50",
+              "score": 0.4985
+            },
+            {
+              "symbol": "ABVEW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": -0.0078371602960871,
+              "rationale": "ML -0.45",
+              "score": 0.4468
+            },
+            {
+              "symbol": "BRLSW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": -0.0035680120489128,
+              "rationale": "ML -0.43",
+              "score": 0.4255
+            },
+            {
+              "symbol": "CPOP",
+              "side": "long",
+              "position_effect": "open",
+              "ret": -0.0032068111589373,
+              "rationale": "ML -0.42",
+              "score": 0.4237
+            },
+            {
+              "symbol": "SEATW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": -0.0114755412340614,
+              "rationale": "ML -0.42",
+              "score": 0.4153
+            }
+          ],
+          "reasoning": "Arena V2 (rank_v2): contrarian genome. Rules: top_k=7 kelly=0.788 shorts=off alt_scale=0.834. Rank-unified: picks top names by composite score across full ML panel (no starvation). Contrarian: inverted unified score.   KWMWW long: model pred_ret -36.23%   LOTWW long: model pred_ret -3.89%   STG long: model pred_ret -1.94%   ABVEW long: model pred_ret -0.78%   BRLSW long: model pred_ret -0.36%",
+          "portfolio": [
+            {
+              "symbol": "KWMWW",
+              "side": "long",
+              "notionalUsd": 5065.71,
+              "weightPct": 10.13,
+              "modelPredRetPct": -36.235,
+              "unifiedRationale": "ML -1.96"
+            },
+            {
+              "symbol": "LOTWW",
+              "side": "long",
+              "notionalUsd": 5065.71,
+              "weightPct": 10.13,
+              "modelPredRetPct": -3.887,
+              "unifiedRationale": "ML -0.60"
+            },
+            {
+              "symbol": "STG",
+              "side": "long",
+              "notionalUsd": 5065.71,
+              "weightPct": 10.13,
+              "modelPredRetPct": -1.941,
+              "unifiedRationale": "ML -0.50"
+            },
+            {
+              "symbol": "ABVEW",
+              "side": "long",
+              "notionalUsd": 5065.71,
+              "weightPct": 10.13,
+              "modelPredRetPct": -0.784,
+              "unifiedRationale": "ML -0.45"
+            },
+            {
+              "symbol": "BRLSW",
+              "side": "long",
+              "notionalUsd": 5065.71,
+              "weightPct": 10.13,
+              "modelPredRetPct": -0.357,
+              "unifiedRationale": "ML -0.43"
+            },
+            {
+              "symbol": "CPOP",
+              "side": "long",
+              "notionalUsd": 5065.71,
+              "weightPct": 10.13,
+              "modelPredRetPct": -0.321,
+              "unifiedRationale": "ML -0.42"
+            },
+            {
+              "symbol": "SEATW",
+              "side": "long",
+              "notionalUsd": 5065.71,
+              "weightPct": 10.13,
+              "modelPredRetPct": -1.148,
+              "unifiedRationale": "ML -0.42"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-05",
+          "returnPct": -4.526,
+          "nTrades": 7,
+          "nLong": 7,
+          "nShort": 0,
+          "trades": [
+            {
+              "symbol": "KWMWW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": -0.3623491467989561,
+              "rationale": "ML -1.96",
+              "score": 1.957
+            },
+            {
+              "symbol": "LOTWW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": -0.0388738296317602,
+              "rationale": "ML -0.60",
+              "score": 0.5958
+            },
+            {
+              "symbol": "STG",
+              "side": "long",
+              "position_effect": "open",
+              "ret": -0.019414566082014,
+              "rationale": "ML -0.50",
+              "score": 0.4985
+            },
+            {
+              "symbol": "ABVEW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": -0.0078371602960871,
+              "rationale": "ML -0.45",
+              "score": 0.4468
+            },
+            {
+              "symbol": "BRLSW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": -0.0035680120489128,
+              "rationale": "ML -0.43",
+              "score": 0.4255
+            },
+            {
+              "symbol": "CPOP",
+              "side": "long",
+              "position_effect": "open",
+              "ret": -0.0032068111589373,
+              "rationale": "ML -0.42",
+              "score": 0.4237
+            },
+            {
+              "symbol": "SEATW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": -0.0114755412340614,
+              "rationale": "ML -0.42",
+              "score": 0.4153
+            }
+          ],
+          "reasoning": "Arena V2 (rank_v2): contrarian genome. Rules: top_k=7 kelly=0.788 shorts=off alt_scale=0.834. Rank-unified: picks top names by composite score across full ML panel (no starvation). Contrarian: inverted unified score.   KWMWW long: model pred_ret -36.23%   LOTWW long: model pred_ret -3.89%   STG long: model pred_ret -1.94%   ABVEW long: model pred_ret -0.78%   BRLSW long: model pred_ret -0.36%",
+          "portfolio": [
+            {
+              "symbol": "KWMWW",
+              "side": "long",
+              "notionalUsd": 5065.71,
+              "weightPct": 10.13,
+              "modelPredRetPct": -36.235,
+              "unifiedRationale": "ML -1.96"
+            },
+            {
+              "symbol": "LOTWW",
+              "side": "long",
+              "notionalUsd": 5065.71,
+              "weightPct": 10.13,
+              "modelPredRetPct": -3.887,
+              "unifiedRationale": "ML -0.60"
+            },
+            {
+              "symbol": "STG",
+              "side": "long",
+              "notionalUsd": 5065.71,
+              "weightPct": 10.13,
+              "modelPredRetPct": -1.941,
+              "unifiedRationale": "ML -0.50"
+            },
+            {
+              "symbol": "ABVEW",
+              "side": "long",
+              "notionalUsd": 5065.71,
+              "weightPct": 10.13,
+              "modelPredRetPct": -0.784,
+              "unifiedRationale": "ML -0.45"
+            },
+            {
+              "symbol": "BRLSW",
+              "side": "long",
+              "notionalUsd": 5065.71,
+              "weightPct": 10.13,
+              "modelPredRetPct": -0.357,
+              "unifiedRationale": "ML -0.43"
+            },
+            {
+              "symbol": "CPOP",
+              "side": "long",
+              "notionalUsd": 5065.71,
+              "weightPct": 10.13,
+              "modelPredRetPct": -0.321,
+              "unifiedRationale": "ML -0.42"
+            },
+            {
+              "symbol": "SEATW",
+              "side": "long",
+              "notionalUsd": 5065.71,
+              "weightPct": 10.13,
+              "modelPredRetPct": -1.148,
+              "unifiedRationale": "ML -0.42"
+            }
+          ]
+        }
+      ],
+      "genome": {
+        "family": "contrarian",
+        "min_proba": 0.582,
+        "min_pred_ret": 0.0095,
+        "short_enabled": false,
+        "short_frac": 0.0,
+        "top_k": 7,
+        "kelly": 0.788,
+        "alt_scale": 0.834,
+        "selection_mode": "rank_v2",
+        "contrarian": true
+      },
+      "rank": 3273
+    }
+  ],
+  "best": {
+    "traderId": 225,
+    "family": "high_conviction",
+    "cumulativeReturnPct": 13.4666,
+    "equityUsd": 56733.3,
+    "nDays": 2,
+    "daily": [
+      {
+        "date": "2026-06-04",
+        "returnPct": 6.5207,
+        "nTrades": 8,
+        "nLong": 7,
+        "nShort": 1,
+        "trades": [
+          {
+            "symbol": "SDAWW",
+            "side": "long",
+            "position_effect": "open",
+            "ret": 0.0960266390587027,
+            "rationale": "ML +0.78",
+            "score": 0.7823
+          },
+          {
+            "symbol": "COST",
+            "side": "long",
+            "position_effect": "open",
+            "ret": 0.0005410895030457,
+            "rationale": "ML +0.03 | Congress +1.00",
+            "score": 0.4442
+          },
+          {
+            "symbol": "SNBR",
+            "side": "long",
+            "position_effect": "open",
+            "ret": 0.0211472086390574,
+            "rationale": "ML +0.12 | Insider +0.85 | Form4 high",
+            "score": 0.4215
+          },
+          {
+            "symbol": "T",
+            "side": "long",
+            "position_effect": "open",
+            "ret": 0.0004875201297634,
+            "rationale": "ML -0.02 | Congress +1.00",
+            "score": 0.3888
+          },
+          {
+            "symbol": "NFLX",
+            "side": "long",
+            "position_effect": "open",
+            "ret": 0.0004875201297634,
+            "rationale": "ML +0.00 | Congress +0.83",
+            "score": 0.3423
+          },
+          {
+            "symbol": "WEN",
+            "side": "long",
+            "position_effect": "open",
+            "ret": 0.0004875201297634,
+            "rationale": "ML -0.02 | Insider +1.00 | Form4 high",
+            "score": 0.3301
+          },
+          {
+            "symbol": "AREN",
+            "side": "long",
+            "position_effect": "open",
+            "ret": 0.0217558880582555,
+            "rationale": "ML +0.32",
+            "score": 0.3209
+          },
+          {
+            "symbol": "KWMWW",
+            "side": "short",
+            "position_effect": "open",
+            "ret": -0.3623491467989561,
+            "rationale": "ML +1.96"
+          }
+        ],
+        "reasoning": "Arena V2 (rank_v2): high_conviction genome. Rules: top_k=7 kelly=0.733 shorts=on alt_scale=1.175. Rank-unified: picks top names by composite score across full ML panel (no starvation).   SDAWW long: model pred_ret +9.60%   COST long: model pred_ret +0.05%   SNBR long: model pred_ret +2.11%   T long: model pred_ret +0.05%   NFLX long: model pred_ret +0.05%",
+        "portfolio": [
+          {
+            "symbol": "SDAWW",
+            "side": "long",
+            "notionalUsd": 3628.35,
+            "weightPct": 7.26,
+            "modelPredRetPct": 9.603,
+            "unifiedRationale": "ML +0.78"
+          },
+          {
+            "symbol": "COST",
+            "side": "long",
+            "notionalUsd": 3628.35,
+            "weightPct": 7.26,
+            "modelPredRetPct": 0.054,
+            "unifiedRationale": "ML +0.03 | Congress +1.00"
+          },
+          {
+            "symbol": "SNBR",
+            "side": "long",
+            "notionalUsd": 3628.35,
+            "weightPct": 7.26,
+            "modelPredRetPct": 2.115,
+            "unifiedRationale": "ML +0.12 | Insider +0.85 | Form4 high"
+          },
+          {
+            "symbol": "T",
+            "side": "long",
+            "notionalUsd": 3628.35,
+            "weightPct": 7.26,
+            "modelPredRetPct": 0.049,
+            "unifiedRationale": "ML -0.02 | Congress +1.00"
+          },
+          {
+            "symbol": "NFLX",
+            "side": "long",
+            "notionalUsd": 3628.35,
+            "weightPct": 7.26,
+            "modelPredRetPct": 0.049,
+            "unifiedRationale": "ML +0.00 | Congress +0.83"
+          },
+          {
+            "symbol": "WEN",
+            "side": "long",
+            "notionalUsd": 3628.35,
+            "weightPct": 7.26,
+            "modelPredRetPct": 0.049,
+            "unifiedRationale": "ML -0.02 | Insider +1.00 | Form4 high"
+          },
+          {
+            "symbol": "AREN",
+            "side": "long",
+            "notionalUsd": 3628.35,
+            "weightPct": 7.26,
+            "modelPredRetPct": 2.176,
+            "unifiedRationale": "ML +0.32"
+          },
+          {
+            "symbol": "KWMWW",
+            "side": "short",
+            "notionalUsd": 7586.55,
+            "weightPct": 15.17,
+            "modelPredRetPct": -36.235,
+            "unifiedRationale": "ML +1.96"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-05",
+        "returnPct": 6.5207,
+        "nTrades": 8,
+        "nLong": 7,
+        "nShort": 1,
+        "trades": [
+          {
+            "symbol": "SDAWW",
+            "side": "long",
+            "position_effect": "open",
+            "ret": 0.0960266390587027,
+            "rationale": "ML +0.78",
+            "score": 0.7823
+          },
+          {
+            "symbol": "COST",
+            "side": "long",
+            "position_effect": "open",
+            "ret": 0.0005410895030457,
+            "rationale": "ML +0.03 | Congress +1.00",
+            "score": 0.4442
+          },
+          {
+            "symbol": "SNBR",
+            "side": "long",
+            "position_effect": "open",
+            "ret": 0.0211472086390574,
+            "rationale": "ML +0.12 | Insider +0.85 | Form4 high",
+            "score": 0.4215
+          },
+          {
+            "symbol": "T",
+            "side": "long",
+            "position_effect": "open",
+            "ret": 0.0004875201297634,
+            "rationale": "ML -0.02 | Congress +1.00",
+            "score": 0.3888
+          },
+          {
+            "symbol": "NFLX",
+            "side": "long",
+            "position_effect": "open",
+            "ret": 0.0004875201297634,
+            "rationale": "ML +0.00 | Congress +0.83",
+            "score": 0.3423
+          },
+          {
+            "symbol": "WEN",
+            "side": "long",
+            "position_effect": "open",
+            "ret": 0.0004875201297634,
+            "rationale": "ML -0.02 | Insider +1.00 | Form4 high",
+            "score": 0.3301
+          },
+          {
+            "symbol": "AREN",
+            "side": "long",
+            "position_effect": "open",
+            "ret": 0.0217558880582555,
+            "rationale": "ML +0.32",
+            "score": 0.3209
+          },
+          {
+            "symbol": "KWMWW",
+            "side": "short",
+            "position_effect": "open",
+            "ret": -0.3623491467989561,
+            "rationale": "ML +1.96"
+          }
+        ],
+        "reasoning": "Arena V2 (rank_v2): high_conviction genome. Rules: top_k=7 kelly=0.733 shorts=on alt_scale=1.175. Rank-unified: picks top names by composite score across full ML panel (no starvation).   SDAWW long: model pred_ret +9.60%   COST long: model pred_ret +0.05%   SNBR long: model pred_ret +2.11%   T long: model pred_ret +0.05%   NFLX long: model pred_ret +0.05%",
+        "portfolio": [
+          {
+            "symbol": "SDAWW",
+            "side": "long",
+            "notionalUsd": 3628.35,
+            "weightPct": 7.26,
+            "modelPredRetPct": 9.603,
+            "unifiedRationale": "ML +0.78"
+          },
+          {
+            "symbol": "COST",
+            "side": "long",
+            "notionalUsd": 3628.35,
+            "weightPct": 7.26,
+            "modelPredRetPct": 0.054,
+            "unifiedRationale": "ML +0.03 | Congress +1.00"
+          },
+          {
+            "symbol": "SNBR",
+            "side": "long",
+            "notionalUsd": 3628.35,
+            "weightPct": 7.26,
+            "modelPredRetPct": 2.115,
+            "unifiedRationale": "ML +0.12 | Insider +0.85 | Form4 high"
+          },
+          {
+            "symbol": "T",
+            "side": "long",
+            "notionalUsd": 3628.35,
+            "weightPct": 7.26,
+            "modelPredRetPct": 0.049,
+            "unifiedRationale": "ML -0.02 | Congress +1.00"
+          },
+          {
+            "symbol": "NFLX",
+            "side": "long",
+            "notionalUsd": 3628.35,
+            "weightPct": 7.26,
+            "modelPredRetPct": 0.049,
+            "unifiedRationale": "ML +0.00 | Congress +0.83"
+          },
+          {
+            "symbol": "WEN",
+            "side": "long",
+            "notionalUsd": 3628.35,
+            "weightPct": 7.26,
+            "modelPredRetPct": 0.049,
+            "unifiedRationale": "ML -0.02 | Insider +1.00 | Form4 high"
+          },
+          {
+            "symbol": "AREN",
+            "side": "long",
+            "notionalUsd": 3628.35,
+            "weightPct": 7.26,
+            "modelPredRetPct": 2.176,
+            "unifiedRationale": "ML +0.32"
+          },
+          {
+            "symbol": "KWMWW",
+            "side": "short",
+            "notionalUsd": 7586.55,
+            "weightPct": 15.17,
+            "modelPredRetPct": -36.235,
+            "unifiedRationale": "ML +1.96"
+          }
+        ]
+      }
+    ],
+    "genome": {
+      "family": "high_conviction",
+      "min_proba": 0.541,
+      "min_pred_ret": 0.0104,
+      "short_enabled": true,
+      "short_frac": 0.23,
+      "top_k": 7,
+      "kelly": 0.733,
+      "alt_scale": 1.175,
+      "selection_mode": "rank_v2",
+      "contrarian": false
+    },
+    "rank": 1
+  },
+  "medianCumulativePct": 0.06,
+  "pctBeatingBaseline": 86.71,
+  "promotionHint": {
+    "traderId": 225,
+    "family": "high_conviction",
+    "cumulativeReturnPct": 13.4666,
+    "equityUsd": 56733.3,
+    "nDays": 2,
+    "daily": [
+      {
+        "date": "2026-06-04",
+        "returnPct": 6.5207,
+        "nTrades": 8,
+        "nLong": 7,
+        "nShort": 1,
+        "trades": [
+          {
+            "symbol": "SDAWW",
+            "side": "long",
+            "position_effect": "open",
+            "ret": 0.0960266390587027,
+            "rationale": "ML +0.78",
+            "score": 0.7823
+          },
+          {
+            "symbol": "COST",
+            "side": "long",
+            "position_effect": "open",
+            "ret": 0.0005410895030457,
+            "rationale": "ML +0.03 | Congress +1.00",
+            "score": 0.4442
+          },
+          {
+            "symbol": "SNBR",
+            "side": "long",
+            "position_effect": "open",
+            "ret": 0.0211472086390574,
+            "rationale": "ML +0.12 | Insider +0.85 | Form4 high",
+            "score": 0.4215
+          },
+          {
+            "symbol": "T",
+            "side": "long",
+            "position_effect": "open",
+            "ret": 0.0004875201297634,
+            "rationale": "ML -0.02 | Congress +1.00",
+            "score": 0.3888
+          },
+          {
+            "symbol": "NFLX",
+            "side": "long",
+            "position_effect": "open",
+            "ret": 0.0004875201297634,
+            "rationale": "ML +0.00 | Congress +0.83",
+            "score": 0.3423
+          },
+          {
+            "symbol": "WEN",
+            "side": "long",
+            "position_effect": "open",
+            "ret": 0.0004875201297634,
+            "rationale": "ML -0.02 | Insider +1.00 | Form4 high",
+            "score": 0.3301
+          },
+          {
+            "symbol": "AREN",
+            "side": "long",
+            "position_effect": "open",
+            "ret": 0.0217558880582555,
+            "rationale": "ML +0.32",
+            "score": 0.3209
+          },
+          {
+            "symbol": "KWMWW",
+            "side": "short",
+            "position_effect": "open",
+            "ret": -0.3623491467989561,
+            "rationale": "ML +1.96"
+          }
+        ],
+        "reasoning": "Arena V2 (rank_v2): high_conviction genome. Rules: top_k=7 kelly=0.733 shorts=on alt_scale=1.175. Rank-unified: picks top names by composite score across full ML panel (no starvation).   SDAWW long: model pred_ret +9.60%   COST long: model pred_ret +0.05%   SNBR long: model pred_ret +2.11%   T long: model pred_ret +0.05%   NFLX long: model pred_ret +0.05%",
+        "portfolio": [
+          {
+            "symbol": "SDAWW",
+            "side": "long",
+            "notionalUsd": 3628.35,
+            "weightPct": 7.26,
+            "modelPredRetPct": 9.603,
+            "unifiedRationale": "ML +0.78"
+          },
+          {
+            "symbol": "COST",
+            "side": "long",
+            "notionalUsd": 3628.35,
+            "weightPct": 7.26,
+            "modelPredRetPct": 0.054,
+            "unifiedRationale": "ML +0.03 | Congress +1.00"
+          },
+          {
+            "symbol": "SNBR",
+            "side": "long",
+            "notionalUsd": 3628.35,
+            "weightPct": 7.26,
+            "modelPredRetPct": 2.115,
+            "unifiedRationale": "ML +0.12 | Insider +0.85 | Form4 high"
+          },
+          {
+            "symbol": "T",
+            "side": "long",
+            "notionalUsd": 3628.35,
+            "weightPct": 7.26,
+            "modelPredRetPct": 0.049,
+            "unifiedRationale": "ML -0.02 | Congress +1.00"
+          },
+          {
+            "symbol": "NFLX",
+            "side": "long",
+            "notionalUsd": 3628.35,
+            "weightPct": 7.26,
+            "modelPredRetPct": 0.049,
+            "unifiedRationale": "ML +0.00 | Congress +0.83"
+          },
+          {
+            "symbol": "WEN",
+            "side": "long",
+            "notionalUsd": 3628.35,
+            "weightPct": 7.26,
+            "modelPredRetPct": 0.049,
+            "unifiedRationale": "ML -0.02 | Insider +1.00 | Form4 high"
+          },
+          {
+            "symbol": "AREN",
+            "side": "long",
+            "notionalUsd": 3628.35,
+            "weightPct": 7.26,
+            "modelPredRetPct": 2.176,
+            "unifiedRationale": "ML +0.32"
+          },
+          {
+            "symbol": "KWMWW",
+            "side": "short",
+            "notionalUsd": 7586.55,
+            "weightPct": 15.17,
+            "modelPredRetPct": -36.235,
+            "unifiedRationale": "ML +1.96"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-05",
+        "returnPct": 6.5207,
+        "nTrades": 8,
+        "nLong": 7,
+        "nShort": 1,
+        "trades": [
+          {
+            "symbol": "SDAWW",
+            "side": "long",
+            "position_effect": "open",
+            "ret": 0.0960266390587027,
+            "rationale": "ML +0.78",
+            "score": 0.7823
+          },
+          {
+            "symbol": "COST",
+            "side": "long",
+            "position_effect": "open",
+            "ret": 0.0005410895030457,
+            "rationale": "ML +0.03 | Congress +1.00",
+            "score": 0.4442
+          },
+          {
+            "symbol": "SNBR",
+            "side": "long",
+            "position_effect": "open",
+            "ret": 0.0211472086390574,
+            "rationale": "ML +0.12 | Insider +0.85 | Form4 high",
+            "score": 0.4215
+          },
+          {
+            "symbol": "T",
+            "side": "long",
+            "position_effect": "open",
+            "ret": 0.0004875201297634,
+            "rationale": "ML -0.02 | Congress +1.00",
+            "score": 0.3888
+          },
+          {
+            "symbol": "NFLX",
+            "side": "long",
+            "position_effect": "open",
+            "ret": 0.0004875201297634,
+            "rationale": "ML +0.00 | Congress +0.83",
+            "score": 0.3423
+          },
+          {
+            "symbol": "WEN",
+            "side": "long",
+            "position_effect": "open",
+            "ret": 0.0004875201297634,
+            "rationale": "ML -0.02 | Insider +1.00 | Form4 high",
+            "score": 0.3301
+          },
+          {
+            "symbol": "AREN",
+            "side": "long",
+            "position_effect": "open",
+            "ret": 0.0217558880582555,
+            "rationale": "ML +0.32",
+            "score": 0.3209
+          },
+          {
+            "symbol": "KWMWW",
+            "side": "short",
+            "position_effect": "open",
+            "ret": -0.3623491467989561,
+            "rationale": "ML +1.96"
+          }
+        ],
+        "reasoning": "Arena V2 (rank_v2): high_conviction genome. Rules: top_k=7 kelly=0.733 shorts=on alt_scale=1.175. Rank-unified: picks top names by composite score across full ML panel (no starvation).   SDAWW long: model pred_ret +9.60%   COST long: model pred_ret +0.05%   SNBR long: model pred_ret +2.11%   T long: model pred_ret +0.05%   NFLX long: model pred_ret +0.05%",
+        "portfolio": [
+          {
+            "symbol": "SDAWW",
+            "side": "long",
+            "notionalUsd": 3628.35,
+            "weightPct": 7.26,
+            "modelPredRetPct": 9.603,
+            "unifiedRationale": "ML +0.78"
+          },
+          {
+            "symbol": "COST",
+            "side": "long",
+            "notionalUsd": 3628.35,
+            "weightPct": 7.26,
+            "modelPredRetPct": 0.054,
+            "unifiedRationale": "ML +0.03 | Congress +1.00"
+          },
+          {
+            "symbol": "SNBR",
+            "side": "long",
+            "notionalUsd": 3628.35,
+            "weightPct": 7.26,
+            "modelPredRetPct": 2.115,
+            "unifiedRationale": "ML +0.12 | Insider +0.85 | Form4 high"
+          },
+          {
+            "symbol": "T",
+            "side": "long",
+            "notionalUsd": 3628.35,
+            "weightPct": 7.26,
+            "modelPredRetPct": 0.049,
+            "unifiedRationale": "ML -0.02 | Congress +1.00"
+          },
+          {
+            "symbol": "NFLX",
+            "side": "long",
+            "notionalUsd": 3628.35,
+            "weightPct": 7.26,
+            "modelPredRetPct": 0.049,
+            "unifiedRationale": "ML +0.00 | Congress +0.83"
+          },
+          {
+            "symbol": "WEN",
+            "side": "long",
+            "notionalUsd": 3628.35,
+            "weightPct": 7.26,
+            "modelPredRetPct": 0.049,
+            "unifiedRationale": "ML -0.02 | Insider +1.00 | Form4 high"
+          },
+          {
+            "symbol": "AREN",
+            "side": "long",
+            "notionalUsd": 3628.35,
+            "weightPct": 7.26,
+            "modelPredRetPct": 2.176,
+            "unifiedRationale": "ML +0.32"
+          },
+          {
+            "symbol": "KWMWW",
+            "side": "short",
+            "notionalUsd": 7586.55,
+            "weightPct": 15.17,
+            "modelPredRetPct": -36.235,
+            "unifiedRationale": "ML +1.96"
+          }
+        ]
+      }
+    ],
+    "genome": {
+      "family": "high_conviction",
+      "min_proba": 0.541,
+      "min_pred_ret": 0.0104,
+      "short_enabled": true,
+      "short_frac": 0.23,
+      "top_k": 7,
+      "kelly": 0.733,
+      "alt_scale": 1.175,
+      "selection_mode": "rank_v2",
+      "contrarian": false
+    },
+    "rank": 1
+  },
+  "summary": {
+    "version": "v3",
+    "nTraders": 3273,
+    "bestCumulativePct": 13.4666,
+    "medianCumulativePct": 0.06,
+    "meanCumulativePct": 0.903,
+    "topTraderId": 225
+  }
+}

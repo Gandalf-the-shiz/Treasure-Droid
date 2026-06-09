@@ -1,0 +1,426 @@
+{
+  "cash": 100000.0,
+  "positions": {
+    "TLNE": {
+      "notional": 8000.0,
+      "proba_up": 0.4809511952191235,
+      "pred_ret": 0.0005122730482949,
+      "reason": "ML edge -0.00% \u2014 P(up)=48.1%, E[ret]=+0.05%",
+      "openedAt": "2026-05-29T12:04:55Z"
+    },
+    "SDAWW": {
+      "notional": 666.67,
+      "proba_up": 0.6510942760942761,
+      "pred_ret": 0.0960266390587027,
+      "reason": "ML edge 2.90% \u2014 P(up)=65.1%, E[ret]=+9.60%",
+      "openedAt": "2026-06-09T23:01:37Z"
+    },
+    "MYSEW": {
+      "notional": 666.67,
+      "proba_up": 0.5990621336459554,
+      "pred_ret": 0.0667853721521794,
+      "reason": "ML edge 1.32% \u2014 P(up)=59.9%, E[ret]=+6.68%",
+      "openedAt": "2026-05-29T13:09:39Z"
+    },
+    "YMAT": {
+      "notional": 666.67,
+      "proba_up": 0.5109146756078683,
+      "pred_ret": 0.3377196492242262,
+      "reason": "ML edge 0.74% \u2014 P(up)=51.1%, E[ret]=+33.77%",
+      "openedAt": "2026-05-29T13:09:39Z"
+    },
+    "ANGHW": {
+      "notional": 666.67,
+      "proba_up": 0.545382446246035,
+      "pred_ret": 0.0327796156083576,
+      "reason": "ML edge 0.30% \u2014 P(up)=54.5%, E[ret]=+3.28%",
+      "openedAt": "2026-05-29T13:09:39Z"
+    },
+    "REE": {
+      "notional": 666.67,
+      "proba_up": 0.5767647600909258,
+      "pred_ret": 0.007012624007136,
+      "reason": "ML edge 0.11% \u2014 P(up)=57.7%, E[ret]=+0.70%",
+      "openedAt": "2026-05-29T13:09:39Z"
+    },
+    "VFSWW": {
+      "notional": 666.67,
+      "proba_up": 0.5767647600909258,
+      "pred_ret": 0.0068993461068301,
+      "reason": "ML edge 0.11% \u2014 P(up)=57.7%, E[ret]=+0.69%",
+      "openedAt": "2026-05-29T13:09:39Z"
+    },
+    "ABVEW": {
+      "notional": 666.67,
+      "proba_up": 0.517596154894118,
+      "pred_ret": 0.0264298879910363,
+      "reason": "ML edge 0.09% \u2014 P(up)=51.8%, E[ret]=+2.64%",
+      "openedAt": "2026-05-29T13:09:39Z"
+    },
+    "GTN-A": {
+      "notional": 666.67,
+      "proba_up": 0.6087986964894094,
+      "pred_ret": 0.0069109894948349,
+      "reason": "ML edge 0.15% \u2014 P(up)=60.9%, E[ret]=+0.69%",
+      "openedAt": "2026-06-04T21:09:14Z"
+    },
+    "EWCZ": {
+      "notional": 666.67,
+      "proba_up": 0.6112936958470271,
+      "pred_ret": 0.0006929717922585,
+      "reason": "ML edge 0.02% \u2014 P(up)=61.1%, E[ret]=+0.07%",
+      "openedAt": "2026-06-06T14:11:46Z"
+    },
+    "KORE": {
+      "notional": 666.67,
+      "proba_up": 0.5990621336459554,
+      "pred_ret": 0.0006838854486846,
+      "reason": "ML edge 0.01% \u2014 P(up)=59.9%, E[ret]=+0.07%",
+      "openedAt": "2026-05-29T13:09:39Z"
+    },
+    "YOUL": {
+      "notional": 666.67,
+      "proba_up": 0.5169876253935715,
+      "pred_ret": 0.0083374636662968,
+      "reason": "ML edge 0.03% \u2014 P(up)=51.7%, E[ret]=+0.83%",
+      "openedAt": "2026-06-06T14:11:46Z"
+    },
+    "KMRK": {
+      "notional": 666.67,
+      "proba_up": 0.60607476635514,
+      "pred_ret": 0.0208106642226036,
+      "reason": "ML edge 0.44% \u2014 P(up)=60.6%, E[ret]=+2.08%",
+      "openedAt": "2026-06-05T21:09:32Z"
+    },
+    "FEBO": {
+      "notional": 666.67,
+      "proba_up": 0.545382446246035,
+      "pred_ret": 0.0038262053527307,
+      "reason": "ML edge 0.03% \u2014 P(up)=54.5%, E[ret]=+0.38%",
+      "openedAt": "2026-06-02T01:18:09Z"
+    },
+    "ABLVW": {
+      "notional": 666.67,
+      "proba_up": 0.5529696969696966,
+      "pred_ret": 0.0041436772932896,
+      "reason": "ML edge 0.04% \u2014 P(up)=55.3%, E[ret]=+0.41%",
+      "openedAt": "2026-06-06T14:11:46Z"
+    },
+    "YJ": {
+      "notional": 666.67,
+      "proba_up": 0.5413073411116746,
+      "pred_ret": 0.0016843882606391,
+      "reason": "ML edge 0.01% \u2014 P(up)=54.1%, E[ret]=+0.17%",
+      "openedAt": "2026-06-04T21:09:14Z"
+    },
+    "EVGOW": {
+      "notional": 666.67,
+      "proba_up": 0.5313343161525413,
+      "pred_ret": 0.0020366793930278,
+      "reason": "ML edge 0.01% \u2014 P(up)=53.1%, E[ret]=+0.20%",
+      "openedAt": "2026-06-02T01:18:09Z"
+    },
+    "ILAG": {
+      "notional": 666.67,
+      "proba_up": 0.5615022929122894,
+      "pred_ret": 0.0008531444883695,
+      "reason": "ML edge 0.01% \u2014 P(up)=56.2%, E[ret]=+0.09%",
+      "openedAt": "2026-06-02T01:18:09Z"
+    },
+    "AMBO": {
+      "notional": 666.67,
+      "proba_up": 0.5789916909948348,
+      "pred_ret": 0.0017970876824751,
+      "reason": "ML edge 0.03% \u2014 P(up)=57.9%, E[ret]=+0.18%",
+      "openedAt": "2026-06-06T14:11:46Z"
+    },
+    "WKSP": {
+      "notional": 666.67,
+      "proba_up": 0.5268851415844734,
+      "pred_ret": 0.0017062037329616,
+      "reason": "ML edge 0.01% \u2014 P(up)=52.7%, E[ret]=+0.17%",
+      "openedAt": "2026-06-02T01:18:09Z"
+    },
+    "TULP": {
+      "notional": 666.67,
+      "proba_up": 0.545382446246035,
+      "pred_ret": 0.0008531444883695,
+      "reason": "ML edge 0.01% \u2014 P(up)=54.5%, E[ret]=+0.09%",
+      "openedAt": "2026-06-02T01:18:09Z"
+    },
+    "WVVI": {
+      "notional": 666.67,
+      "proba_up": 0.5482330468003822,
+      "pred_ret": 0.0011570600940249,
+      "reason": "ML edge 0.01% \u2014 P(up)=54.8%, E[ret]=+0.12%",
+      "openedAt": "2026-06-03T08:14:24Z"
+    },
+    "WAFU": {
+      "notional": 666.67,
+      "proba_up": 0.5405575681209641,
+      "pred_ret": 0.0008531444883695,
+      "reason": "ML edge 0.01% \u2014 P(up)=54.1%, E[ret]=+0.09%",
+      "openedAt": "2026-06-02T01:18:09Z"
+    },
+    "RYM": {
+      "notional": 666.67,
+      "proba_up": 0.5413073411116746,
+      "pred_ret": 0.001269759515861,
+      "reason": "ML edge 0.01% \u2014 P(up)=54.1%, E[ret]=+0.13%",
+      "openedAt": "2026-06-03T08:14:24Z"
+    },
+    "BUD": {
+      "notional": 666.67,
+      "proba_up": 0.5789916909948348,
+      "pred_ret": 0.0005804514418645,
+      "reason": "ML edge 0.01% \u2014 P(up)=57.9%, E[ret]=+0.06%",
+      "openedAt": "2026-06-03T08:14:24Z"
+    },
+    "MLEC": {
+      "notional": 666.67,
+      "proba_up": 0.5247395833333338,
+      "pred_ret": 0.0017970876824751,
+      "reason": "ML edge 0.01% \u2014 P(up)=52.5%, E[ret]=+0.18%",
+      "openedAt": "2026-06-03T08:14:24Z"
+    },
+    "MB": {
+      "notional": 666.67,
+      "proba_up": 0.531869771825787,
+      "pred_ret": 0.001210795932454,
+      "reason": "ML edge 0.01% \u2014 P(up)=53.2%, E[ret]=+0.12%",
+      "openedAt": "2026-06-03T08:14:24Z"
+    },
+    "NIU": {
+      "notional": 666.67,
+      "proba_up": 0.531869771825787,
+      "pred_ret": 0.0011570600940249,
+      "reason": "ML edge 0.01% \u2014 P(up)=53.2%, E[ret]=+0.12%",
+      "openedAt": "2026-06-03T08:14:24Z"
+    },
+    "RDIB": {
+      "notional": 666.67,
+      "proba_up": 0.5314030341426664,
+      "pred_ret": 0.0011570600940249,
+      "reason": "ML edge 0.01% \u2014 P(up)=53.1%, E[ret]=+0.12%",
+      "openedAt": "2026-06-03T08:14:24Z"
+    },
+    "ABEV": {
+      "notional": 666.67,
+      "proba_up": 0.5457520990465344,
+      "pred_ret": 0.0006929717922585,
+      "reason": "ML edge 0.01% \u2014 P(up)=54.6%, E[ret]=+0.07%",
+      "openedAt": "2026-06-03T08:14:24Z"
+    },
+    "IH": {
+      "notional": 666.67,
+      "proba_up": 0.5314030341426664,
+      "pred_ret": 0.0009744000197267,
+      "reason": "ML edge 0.01% \u2014 P(up)=53.1%, E[ret]=+0.10%",
+      "openedAt": "2026-06-03T08:14:24Z"
+    },
+    "AREN": {
+      "notional": 666.67,
+      "proba_up": 0.60607476635514,
+      "pred_ret": 0.0217558880582555,
+      "reason": "ML edge 0.46% \u2014 P(up)=60.6%, E[ret]=+2.18%",
+      "openedAt": "2026-06-04T21:09:14Z"
+    },
+    "CHGG": {
+      "notional": 666.67,
+      "proba_up": 0.60607476635514,
+      "pred_ret": 0.0069109894948349,
+      "reason": "ML edge 0.15% \u2014 P(up)=60.6%, E[ret]=+0.69%",
+      "openedAt": "2026-06-04T21:09:14Z"
+    },
+    "SCAG": {
+      "notional": 666.67,
+      "proba_up": 0.5169876253935715,
+      "pred_ret": 0.0054801568350189,
+      "reason": "ML edge 0.02% \u2014 P(up)=51.7%, E[ret]=+0.55%",
+      "openedAt": "2026-06-06T14:11:46Z"
+    },
+    "SNBR": {
+      "notional": 666.67,
+      "proba_up": 0.5080529983653101,
+      "pred_ret": 0.0211472086390574,
+      "reason": "ML edge 0.03% \u2014 P(up)=50.8%, E[ret]=+2.11%",
+      "openedAt": "2026-06-04T21:09:14Z"
+    },
+    "DDT": {
+      "notional": 666.67,
+      "proba_up": 0.6112936958470271,
+      "pred_ret": 0.0006929717922585,
+      "reason": "ML edge 0.02% \u2014 P(up)=61.1%, E[ret]=+0.07%",
+      "openedAt": "2026-06-04T21:09:14Z"
+    },
+    "TGE": {
+      "notional": 666.67,
+      "proba_up": 0.5529696969696966,
+      "pred_ret": 0.0016843882606391,
+      "reason": "ML edge 0.02% \u2014 P(up)=55.3%, E[ret]=+0.17%",
+      "openedAt": "2026-06-06T14:11:46Z"
+    },
+    "MPU": {
+      "notional": 666.67,
+      "proba_up": 0.6510942760942761,
+      "pred_ret": 0.053104028063432,
+      "reason": "ML edge 1.60% \u2014 P(up)=65.1%, E[ret]=+5.31%",
+      "openedAt": "2026-06-05T21:09:32Z"
+    },
+    "XXII": {
+      "notional": 666.67,
+      "proba_up": 0.5821339950372207,
+      "pred_ret": 0.0246086432874607,
+      "reason": "ML edge 0.40% \u2014 P(up)=58.2%, E[ret]=+2.46%",
+      "openedAt": "2026-06-05T21:09:32Z"
+    },
+    "GOTU": {
+      "notional": 666.67,
+      "proba_up": 0.5888482632541132,
+      "pred_ret": 0.0067982900729989,
+      "reason": "ML edge 0.12% \u2014 P(up)=58.9%, E[ret]=+0.68%",
+      "openedAt": "2026-06-05T21:09:32Z"
+    },
+    "UCL": {
+      "notional": 666.67,
+      "proba_up": 0.5678670360110804,
+      "pred_ret": 0.0067982900729989,
+      "reason": "ML edge 0.09% \u2014 P(up)=56.8%, E[ret]=+0.68%",
+      "openedAt": "2026-06-05T21:09:32Z"
+    },
+    "LIDRW": {
+      "notional": 666.67,
+      "proba_up": 0.5120646483041202,
+      "pred_ret": 0.0141356073523364,
+      "reason": "ML edge 0.03% \u2014 P(up)=51.2%, E[ret]=+1.41%",
+      "openedAt": "2026-06-05T21:09:32Z"
+    },
+    "STKS": {
+      "notional": 666.67,
+      "proba_up": 0.5789916909948348,
+      "pred_ret": 0.0016254246772321,
+      "reason": "ML edge 0.03% \u2014 P(up)=57.9%, E[ret]=+0.16%",
+      "openedAt": "2026-06-05T21:09:32Z"
+    },
+    "GV": {
+      "notional": 666.67,
+      "proba_up": 0.5169876253935715,
+      "pred_ret": 0.0070881931014538,
+      "reason": "ML edge 0.02% \u2014 P(up)=51.7%, E[ret]=+0.71%",
+      "openedAt": "2026-06-05T21:09:32Z"
+    },
+    "WEN": {
+      "notional": 666.67,
+      "proba_up": 0.5678670360110804,
+      "pred_ret": 0.0017381240990681,
+      "reason": "ML edge 0.02% \u2014 P(up)=56.8%, E[ret]=+0.17%",
+      "openedAt": "2026-06-05T21:09:32Z"
+    },
+    "DXLG": {
+      "notional": 666.67,
+      "proba_up": 0.5678670360110804,
+      "pred_ret": 0.0016843882606391,
+      "reason": "ML edge 0.02% \u2014 P(up)=56.8%, E[ret]=+0.17%",
+      "openedAt": "2026-06-06T14:11:46Z"
+    },
+    "THCH": {
+      "notional": 666.67,
+      "proba_up": 0.6294117647058823,
+      "pred_ret": 0.0063836613282207,
+      "reason": "ML edge 0.17% \u2014 P(up)=62.9%, E[ret]=+0.64%",
+      "openedAt": "2026-06-09T23:01:37Z"
+    },
+    "VIRC": {
+      "notional": 666.67,
+      "proba_up": 0.5789916909948348,
+      "pred_ret": 0.0033209896305412,
+      "reason": "ML edge 0.05% \u2014 P(up)=57.9%, E[ret]=+0.33%",
+      "openedAt": "2026-06-06T14:11:46Z"
+    },
+    "CHAI": {
+      "notional": 666.67,
+      "proba_up": 0.5457520990465344,
+      "pred_ret": 0.0041436772932896,
+      "reason": "ML edge 0.04% \u2014 P(up)=54.6%, E[ret]=+0.41%",
+      "openedAt": "2026-06-06T14:11:46Z"
+    },
+    "EDBL": {
+      "notional": 666.67,
+      "proba_up": 0.5034771190974084,
+      "pred_ret": 0.0229359011691292,
+      "reason": "ML edge 0.02% \u2014 P(up)=50.3%, E[ret]=+2.29%",
+      "openedAt": "2026-06-06T14:11:46Z"
+    },
+    "ALCYW": {
+      "notional": 666.67,
+      "proba_up": 0.6829025844930418,
+      "pred_ret": 0.1385557661150671,
+      "reason": "ML edge 5.07% \u2014 P(up)=68.3%, E[ret]=+13.86%",
+      "openedAt": "2026-06-09T23:01:37Z"
+    },
+    "BFRIW": {
+      "notional": 666.67,
+      "proba_up": 0.5789916909948348,
+      "pred_ret": 0.0636993563031374,
+      "reason": "ML edge 1.01% \u2014 P(up)=57.9%, E[ret]=+6.37%",
+      "openedAt": "2026-06-09T23:01:37Z"
+    },
+    "AMODW": {
+      "notional": 666.67,
+      "proba_up": 0.5752132914234392,
+      "pred_ret": 0.0656724515170212,
+      "reason": "ML edge 0.99% \u2014 P(up)=57.5%, E[ret]=+6.57%",
+      "openedAt": "2026-06-09T23:01:37Z"
+    },
+    "BDMDW": {
+      "notional": 666.67,
+      "proba_up": 0.6510942760942761,
+      "pred_ret": 0.0243943678519914,
+      "reason": "ML edge 0.74% \u2014 P(up)=65.1%, E[ret]=+2.44%",
+      "openedAt": "2026-06-09T23:01:37Z"
+    },
+    "FLD": {
+      "notional": 666.67,
+      "proba_up": 0.6112936958470271,
+      "pred_ret": 0.0251501430284204,
+      "reason": "ML edge 0.56% \u2014 P(up)=61.1%, E[ret]=+2.52%",
+      "openedAt": "2026-06-09T23:01:37Z"
+    },
+    "FLDDW": {
+      "notional": 666.67,
+      "proba_up": 0.5752132914234392,
+      "pred_ret": 0.0320567068457816,
+      "reason": "ML edge 0.48% \u2014 P(up)=57.5%, E[ret]=+3.21%",
+      "openedAt": "2026-06-09T23:01:37Z"
+    },
+    "CRBU": {
+      "notional": 666.67,
+      "proba_up": 0.6112936958470271,
+      "pred_ret": 0.019859855485251,
+      "reason": "ML edge 0.44% \u2014 P(up)=61.1%, E[ret]=+1.99%",
+      "openedAt": "2026-06-09T23:01:37Z"
+    },
+    "SHFSW": {
+      "notional": 666.67,
+      "proba_up": 0.6112936958470271,
+      "pred_ret": 0.019859855485251,
+      "reason": "ML edge 0.44% \u2014 P(up)=61.1%, E[ret]=+1.99%",
+      "openedAt": "2026-06-09T23:01:37Z"
+    },
+    "ACONW": {
+      "notional": 666.67,
+      "proba_up": 0.6087986964894094,
+      "pred_ret": 0.019859855485251,
+      "reason": "ML edge 0.43% \u2014 P(up)=60.9%, E[ret]=+1.99%",
+      "openedAt": "2026-06-09T23:01:37Z"
+    },
+    "SIMAW": {
+      "notional": 666.67,
+      "proba_up": 0.5247395833333338,
+      "pred_ret": 0.0375604732407481,
+      "reason": "ML edge 0.19% \u2014 P(up)=52.5%, E[ret]=+3.76%",
+      "openedAt": "2026-06-09T23:01:37Z"
+    }
+  },
+  "updatedAt": "2026-06-09T23:01:37Z"
+}

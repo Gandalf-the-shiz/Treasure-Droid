@@ -1,0 +1,78 @@
+NOSTRADAMUS TRADER ARENA REPORT
+Generated: 2026-06-03T22:47:15Z
+
+ARENA HEALTH
+  100 agents configured: YES (100 traders, 100 genomes)
+  ML panel size: 800 symbols (live.csv)
+  Median sim return: 3.1374%
+  Beat 1-trader baseline: 64.0%
+
+IMPORTANT: Returns are ONE-DAY SIMULATED PnL from model pred_ret, not realized trades.
+
+Baseline (single champion): +2.65%
+
+TOP 10 PERFORMERS
+
+#1 Trader 7 — long_short_neutral — sim +11.22%
+  Rules: min_proba=0.546 min_pred_ret=0.014 top_k=5 kelly=0.739 shorts=True alt_scale=0.612
+  Book (2 long, 1 short) on $50k sim capital:
+    SDAWW    long    21.2% ($10,608)  model next-day ret +9.60%
+    AREN     long    21.2% ($10,608)  model next-day ret +2.18%
+    KWMWW    short   24.1% ($12,038)  model next-day ret +36.23%
+
+#2 Trader 61 — low_vol — sim +8.52%
+  Rules: min_proba=0.524 min_pred_ret=0.0111 top_k=5 kelly=0.57 shorts=True alt_scale=0.627
+  Book (2 long, 1 short) on $50k sim capital:
+    SDAWW    long    16.6% ($8,298)  model next-day ret +9.60%
+    AREN     long    16.6% ($8,298)  model next-day ret +2.18%
+    KWMWW    short   18.1% ($9,054)  model next-day ret +36.23%
+
+#3 Trader 2 — low_vol — sim +8.49%
+  Rules: min_proba=0.571 min_pred_ret=0.0296 top_k=14 kelly=0.678 shorts=True alt_scale=1.062
+  Book (1 long, 2 short) on $50k sim capital:
+    SDAWW    long    35.9% ($17,940)  model next-day ret +9.60%
+    KWMWW    short   12.6% ($6,285)  model next-day ret +36.23%
+    LOTWW    short   12.6% ($6,285)  model next-day ret +3.89%
+
+#4 Trader 34 — short_bias — sim +7.90%
+  Rules: min_proba=0.545 min_pred_ret=0.0303 top_k=15 kelly=0.797 shorts=True alt_scale=1.088
+  Book (1 long, 2 short) on $50k sim capital:
+    SDAWW    long    62.0% ($31,023)  model next-day ret +9.60%
+    KWMWW    short    4.8% ($2,421)  model next-day ret +36.23%
+    LOTWW    short    4.8% ($2,421)  model next-day ret +3.89%
+
+#5 Trader 58 — long_short_neutral — sim +7.77%
+  Rules: min_proba=0.52 min_pred_ret=0.0078 top_k=5 kelly=0.759 shorts=True alt_scale=0.686
+  Book (2 long, 1 short) on $50k sim capital:
+    SDAWW    long    28.0% ($13,986)  model next-day ret +9.60%
+    AREN     long    28.0% ($13,986)  model next-day ret +2.18%
+    KWMWW    short   12.4% ($6,182)  model next-day ret +36.23%
+
+#6 Trader 87 — long_short_neutral — sim +6.97%
+  Rules: min_proba=0.523 min_pred_ret=0.0088 top_k=13 kelly=0.766 shorts=True alt_scale=1.039
+  Book (2 long, 1 short) on $50k sim capital:
+    SDAWW    long    29.7% ($14,839)  model next-day ret +9.60%
+    AREN     long    29.7% ($14,839)  model next-day ret +2.18%
+    KWMWW    short    9.6% ($4,791)  model next-day ret +36.23%
+
+#7 Trader 93 — contrarian — sim +6.91%
+  Rules: min_proba=0.538 min_pred_ret=0.0289 top_k=11 kelly=0.799 shorts=False alt_scale=0.827
+  Book (1 long, 0 short) on $50k sim capital:
+    SDAWW    long    71.9% ($35,955)  model next-day ret +9.60%
+
+#8 Trader 76 — ml_edge — sim +6.65%
+  Rules: min_proba=0.617 min_pred_ret=0.0251 top_k=7 kelly=0.769 shorts=False alt_scale=1.175
+  Book (1 long, 0 short) on $50k sim capital:
+    SDAWW    long    69.2% ($34,605)  model next-day ret +9.60%
+
+#9 Trader 88 — high_conviction — sim +6.63%
+  Rules: min_proba=0.639 min_pred_ret=0.0212 top_k=12 kelly=0.767 shorts=False alt_scale=0.716
+  Book (1 long, 0 short) on $50k sim capital:
+    SDAWW    long    69.0% ($34,515)  model next-day ret +9.60%
+
+#10 Trader 50 — low_vol — sim +6.59%
+  Rules: min_proba=0.62 min_pred_ret=0.0348 top_k=10 kelly=0.763 shorts=False alt_scale=1.026
+  Book (1 long, 0 short) on $50k sim capital:
+    SDAWW    long    68.7% ($34,335)  model next-day ret +9.60%
+
+Promotion hint: 7

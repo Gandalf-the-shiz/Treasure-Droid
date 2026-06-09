@@ -1,0 +1,42 @@
+# nostradamus retrain @ 2026-06-04T04:23:27.106157+00:00
+# cmd: C:\Users\nicho\AppData\Local\Programs\Python\Python311-arm64\python.exe C:\Users\nicho\Nostradamus_remote_audit\scripts\train-investor-v3.py --top-k 5 --max-position-frac 0.20 --max-gross-exposure 0.90 --kelly-scale 0.5 --cost-bps 5 --slippage-bps 10 --min-proba 0.60 --min-pred-ret 0.020 --min-price 5 --min-adv 1000000 --min-vol-20 0.01 --max-daily-ret 0.20 --policy-mode edge
+
+[load] val=2,161,932 test=3,298,392 test_dates=351 symbols=9831
+[liquidity] kept 7,628,642 (date,symbol) bars across 8232 symbols
+[liquidity-filter] val 2,161,932 -> 786  test 3,298,392 -> 1,536
+[overlay] congress/insider attach skipped: 0
+[policy] mode=edge iters=25 val_mae=0.11786
+[policy] ONNX export skipped: 'charmap' codec can't encode character '\u2192' in position 23: character maps to <undefined>
+[backtest] 337 trading days, $10000.00 start
+[bt] 2025-01-02 equity=$10,000.00 cash=$10,000.00 positions=0
+[bt] 2025-03-18 equity=$9,798.76 cash=$9,798.76 positions=0
+[bt] 2025-05-29 equity=$8,555.70 cash=$8,555.70 positions=0
+[bt] 2025-08-14 equity=$9,329.48 cash=$9,329.48 positions=0
+[bt] 2025-10-29 equity=$8,531.34 cash=$5,118.80 positions=2
+[bt] 2026-01-13 equity=$8,154.75 cash=$8,154.75 positions=0
+[bt] 2026-04-01 equity=$8,879.90 cash=$8,879.90 positions=0
+[bt] 2026-05-28 equity=$8,490.52 cash=$8,490.52 positions=0
+[price-history] loaded 10,358 symbols
+[decisions] wrote C:\Users\nicho\Nostradamus_remote_audit\data\investor_v3\decisions.json (337 days, 87 unique symbols)
+
+=== INVESTOR SUMMARY ===
+{
+  "starting_cash": 10000.0,
+  "ending_cash": 8490.51508980857,
+  "total_return_pct": -15.0948491019143,
+  "annualized_sharpe": -0.6275403853937007,
+  "max_drawdown_pct": -24.00261139184797,
+  "trading_days": 337,
+  "trades": 103,
+  "wins": 52,
+  "losses": 51,
+  "win_rate_pct": 50.48543689320388,
+  "config": {
+    "top_k": 5,
+    "max_position_frac": 0.2,
+    "max_gross_exposure": 0.9,
+    "kelly_scale": 0.5,
+    "cost_bps": 5.0,
+    "min_proba": 0.6
+  }
+}

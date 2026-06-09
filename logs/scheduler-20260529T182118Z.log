@@ -1,0 +1,54 @@
+# scheduler mode=intraday_pulse
+
+# 2026-05-29T18:21:18.923835+00:00 scripts/npu_runtime.py
+{
+  "generatedAt": "2026-05-29T18:21:18Z",
+  "available": [
+    "AzureExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "selected": [
+    "CPUExecutionProvider"
+  ],
+  "primary": "CPUExecutionProvider",
+  "preferNpu": true
+}
+
+# 2026-05-29T18:21:19.306377+00:00 scripts/fetch-regime-data.py
+[fetch-regime] Fetching GDELT daily tone…
+[fetch-regime] GDELT 2025-05-29 -> 2025-06-27
+[fetch-regime] GDELT 2025-06-28 -> 2025-07-27
+[fetch-regime] GDELT 2025-07-28 -> 2025-08-26
+[fetch-regime] GDELT 2025-08-27 -> 2025-09-25
+[fetch-regime] GDELT 2025-09-26 -> 2025-10-25
+[fetch-regime] GDELT 2025-10-26 -> 2025-11-24
+[fetch-regime] GDELT 2025-11-25 -> 2025-12-24
+[fetch-regime] GDELT 2025-12-25 -> 2026-01-23
+[fetch-regime] GDELT 2026-01-24 -> 2026-02-22
+[fetch-regime] GDELT 2026-02-23 -> 2026-03-24
+[fetch-regime] GDELT 2026-03-25 -> 2026-04-23
+[fetch-regime] GDELT 2026-04-24 -> 2026-05-23
+[fetch-regime] GDELT 2026-05-24 -> 2026-05-29
+[fetch-regime] Wrote C:\Users\nicho\Nostradamus_remote_audit\data\regime\gdelt_timeline.json (223 rows)
+[fetch-regime] Merged timeline -> C:\Users\nicho\Nostradamus_remote_audit\data\regime\timeline.json
+[fetch-regime] Feature columns: ['gdelt_tone_norm', 'gdelt_tone_delta_5d', 'gdelt_article_z', 'macro_t10y3m_norm', 'macro_hy_oas_norm', 'macro_unrate_norm', 'macro_cpi_norm', 'macro_indpro_norm', 'macro_sp500_norm', 'macro_m2_norm', 'regime_bull', 'regime_bear', 'regime_high_vol', 'regime_sideways']
+
+# 2026-05-29T18:27:34.944700+00:00 scripts/fetch-congress-trades.py
+[fetch-congress] pulling trades from all configured sources…
+[congress] kadoa normalized 3,859 equity trades
+[fetch-congress] wrote C:\Users\nicho\Nostradamus_remote_audit\data\congress\trades_normalized.json
+[fetch-congress] total=3,458 recent(90d)=349 symbols=208 watchlist_365d=114 pelosi_365d=16
+  · Markwayne Mullin: 11 buys / 7 sells
+  · Suzan K. DelBene: 3 buys / 1 sells
+  · Josh Gottheimer: 1 buys / 8 sells
+  · Donald J Trump: 68 buys / 0 sells
+  · Maria Elvira Salazar: 13 buys / 1 sells
+
+# 2026-05-29T18:27:37.916654+00:00 scripts/generate_live_predictions.py --limit 800
+[live] 800 symbols @ 2026-05-22 in 23.0s
+
+# 2026-05-29T18:28:03.579613+00:00 scripts/reasoning_agent.py --tick
+[reasoning] 12 picks backend=template session=regular
+
+# 2026-05-29T18:28:04.519169+00:00 scripts/generate_daytrade_signals.py
+[daytrade] manifest 1 orders -> C:\Users\nicho\Nostradamus_remote_audit\data\trading\daytrade_manifest.json

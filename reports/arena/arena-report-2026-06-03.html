@@ -1,0 +1,116 @@
+<!DOCTYPE html><html><body style="font-family:system-ui,sans-serif;max-width:720px;margin:20px">
+    <h1>Trader Arena — 100 Investor Agents</h1>
+    <p style="color:#0a0;font-weight:600">
+      Arena status: Running correctly (100/100 genomes)
+    </p>
+    <p>Snapshot: 2026-06-03T22:47:15Z · Panel: 800 symbols ·
+       Median sim return: 3.1374% · 64.0% beat baseline</p>
+    <p style="background:#fff8e6;padding:10px;border-radius:6px;font-size:13px;color:#664">
+      <b>Honest caveat:</b> These are research simulations on Predictor v3 <code>pred_ret</code> for one rebalance day,
+      not live Robinhood fills. Warrants and penny tickers (e.g. SDAWW) can dominate; treat as strategy comparison, not profit proof.
+    </p>
+    <p>Baseline single trader: <b>+2.65%</b></p>
+    <hr/>
+    
+        <h3>#1 Trader 7 — long_short_neutral <span style="color:#06c">(+11.22% sim)</span></h3>
+        <p style="color:#555;font-size:13px">
+          min proba 0.546 · min pred ret 0.014 · top 5 names ·
+          Kelly 0.739 · shorts on · unified alt-scale 0.612
+        </p>
+        <table border="0" cellpadding="6" cellspacing="0" style="border-collapse:collapse;width:100%;font-size:13px">
+          <tr style="background:#f0f0f0"><th>Symbol</th><th>Side</th><th>Weight</th><th>Notional</th><th>Model pred ret</th></tr>
+          <tr><td>SDAWW</td><td>long</td><td>21.2%</td><td>$10,608</td><td>+9.60%</td></tr><tr><td>AREN</td><td>long</td><td>21.2%</td><td>$10,608</td><td>+2.18%</td></tr><tr><td>KWMWW</td><td>short</td><td>24.1%</td><td>$12,038</td><td>+36.23%</td></tr>
+        </table>
+        
+        <h3>#2 Trader 61 — low_vol <span style="color:#06c">(+8.52% sim)</span></h3>
+        <p style="color:#555;font-size:13px">
+          min proba 0.524 · min pred ret 0.0111 · top 5 names ·
+          Kelly 0.57 · shorts on · unified alt-scale 0.627
+        </p>
+        <table border="0" cellpadding="6" cellspacing="0" style="border-collapse:collapse;width:100%;font-size:13px">
+          <tr style="background:#f0f0f0"><th>Symbol</th><th>Side</th><th>Weight</th><th>Notional</th><th>Model pred ret</th></tr>
+          <tr><td>SDAWW</td><td>long</td><td>16.6%</td><td>$8,298</td><td>+9.60%</td></tr><tr><td>AREN</td><td>long</td><td>16.6%</td><td>$8,298</td><td>+2.18%</td></tr><tr><td>KWMWW</td><td>short</td><td>18.1%</td><td>$9,054</td><td>+36.23%</td></tr>
+        </table>
+        
+        <h3>#3 Trader 2 — low_vol <span style="color:#06c">(+8.49% sim)</span></h3>
+        <p style="color:#555;font-size:13px">
+          min proba 0.571 · min pred ret 0.0296 · top 14 names ·
+          Kelly 0.678 · shorts on · unified alt-scale 1.062
+        </p>
+        <table border="0" cellpadding="6" cellspacing="0" style="border-collapse:collapse;width:100%;font-size:13px">
+          <tr style="background:#f0f0f0"><th>Symbol</th><th>Side</th><th>Weight</th><th>Notional</th><th>Model pred ret</th></tr>
+          <tr><td>SDAWW</td><td>long</td><td>35.9%</td><td>$17,940</td><td>+9.60%</td></tr><tr><td>KWMWW</td><td>short</td><td>12.6%</td><td>$6,285</td><td>+36.23%</td></tr><tr><td>LOTWW</td><td>short</td><td>12.6%</td><td>$6,285</td><td>+3.89%</td></tr>
+        </table>
+        
+        <h3>#4 Trader 34 — short_bias <span style="color:#06c">(+7.90% sim)</span></h3>
+        <p style="color:#555;font-size:13px">
+          min proba 0.545 · min pred ret 0.0303 · top 15 names ·
+          Kelly 0.797 · shorts on · unified alt-scale 1.088
+        </p>
+        <table border="0" cellpadding="6" cellspacing="0" style="border-collapse:collapse;width:100%;font-size:13px">
+          <tr style="background:#f0f0f0"><th>Symbol</th><th>Side</th><th>Weight</th><th>Notional</th><th>Model pred ret</th></tr>
+          <tr><td>SDAWW</td><td>long</td><td>62.0%</td><td>$31,023</td><td>+9.60%</td></tr><tr><td>KWMWW</td><td>short</td><td>4.8%</td><td>$2,421</td><td>+36.23%</td></tr><tr><td>LOTWW</td><td>short</td><td>4.8%</td><td>$2,421</td><td>+3.89%</td></tr>
+        </table>
+        
+        <h3>#5 Trader 58 — long_short_neutral <span style="color:#06c">(+7.77% sim)</span></h3>
+        <p style="color:#555;font-size:13px">
+          min proba 0.52 · min pred ret 0.0078 · top 5 names ·
+          Kelly 0.759 · shorts on · unified alt-scale 0.686
+        </p>
+        <table border="0" cellpadding="6" cellspacing="0" style="border-collapse:collapse;width:100%;font-size:13px">
+          <tr style="background:#f0f0f0"><th>Symbol</th><th>Side</th><th>Weight</th><th>Notional</th><th>Model pred ret</th></tr>
+          <tr><td>SDAWW</td><td>long</td><td>28.0%</td><td>$13,986</td><td>+9.60%</td></tr><tr><td>AREN</td><td>long</td><td>28.0%</td><td>$13,986</td><td>+2.18%</td></tr><tr><td>KWMWW</td><td>short</td><td>12.4%</td><td>$6,182</td><td>+36.23%</td></tr>
+        </table>
+        
+        <h3>#6 Trader 87 — long_short_neutral <span style="color:#06c">(+6.97% sim)</span></h3>
+        <p style="color:#555;font-size:13px">
+          min proba 0.523 · min pred ret 0.0088 · top 13 names ·
+          Kelly 0.766 · shorts on · unified alt-scale 1.039
+        </p>
+        <table border="0" cellpadding="6" cellspacing="0" style="border-collapse:collapse;width:100%;font-size:13px">
+          <tr style="background:#f0f0f0"><th>Symbol</th><th>Side</th><th>Weight</th><th>Notional</th><th>Model pred ret</th></tr>
+          <tr><td>SDAWW</td><td>long</td><td>29.7%</td><td>$14,839</td><td>+9.60%</td></tr><tr><td>AREN</td><td>long</td><td>29.7%</td><td>$14,839</td><td>+2.18%</td></tr><tr><td>KWMWW</td><td>short</td><td>9.6%</td><td>$4,791</td><td>+36.23%</td></tr>
+        </table>
+        
+        <h3>#7 Trader 93 — contrarian <span style="color:#06c">(+6.91% sim)</span></h3>
+        <p style="color:#555;font-size:13px">
+          min proba 0.538 · min pred ret 0.0289 · top 11 names ·
+          Kelly 0.799 · shorts off · unified alt-scale 0.827
+        </p>
+        <table border="0" cellpadding="6" cellspacing="0" style="border-collapse:collapse;width:100%;font-size:13px">
+          <tr style="background:#f0f0f0"><th>Symbol</th><th>Side</th><th>Weight</th><th>Notional</th><th>Model pred ret</th></tr>
+          <tr><td>SDAWW</td><td>long</td><td>71.9%</td><td>$35,955</td><td>+9.60%</td></tr>
+        </table>
+        
+        <h3>#8 Trader 76 — ml_edge <span style="color:#06c">(+6.65% sim)</span></h3>
+        <p style="color:#555;font-size:13px">
+          min proba 0.617 · min pred ret 0.0251 · top 7 names ·
+          Kelly 0.769 · shorts off · unified alt-scale 1.175
+        </p>
+        <table border="0" cellpadding="6" cellspacing="0" style="border-collapse:collapse;width:100%;font-size:13px">
+          <tr style="background:#f0f0f0"><th>Symbol</th><th>Side</th><th>Weight</th><th>Notional</th><th>Model pred ret</th></tr>
+          <tr><td>SDAWW</td><td>long</td><td>69.2%</td><td>$34,605</td><td>+9.60%</td></tr>
+        </table>
+        
+        <h3>#9 Trader 88 — high_conviction <span style="color:#06c">(+6.63% sim)</span></h3>
+        <p style="color:#555;font-size:13px">
+          min proba 0.639 · min pred ret 0.0212 · top 12 names ·
+          Kelly 0.767 · shorts off · unified alt-scale 0.716
+        </p>
+        <table border="0" cellpadding="6" cellspacing="0" style="border-collapse:collapse;width:100%;font-size:13px">
+          <tr style="background:#f0f0f0"><th>Symbol</th><th>Side</th><th>Weight</th><th>Notional</th><th>Model pred ret</th></tr>
+          <tr><td>SDAWW</td><td>long</td><td>69.0%</td><td>$34,515</td><td>+9.60%</td></tr>
+        </table>
+        
+        <h3>#10 Trader 50 — low_vol <span style="color:#06c">(+6.59% sim)</span></h3>
+        <p style="color:#555;font-size:13px">
+          min proba 0.62 · min pred ret 0.0348 · top 10 names ·
+          Kelly 0.763 · shorts off · unified alt-scale 1.026
+        </p>
+        <table border="0" cellpadding="6" cellspacing="0" style="border-collapse:collapse;width:100%;font-size:13px">
+          <tr style="background:#f0f0f0"><th>Symbol</th><th>Side</th><th>Weight</th><th>Notional</th><th>Model pred ret</th></tr>
+          <tr><td>SDAWW</td><td>long</td><td>68.7%</td><td>$34,335</td><td>+9.60%</td></tr>
+        </table>
+        
+    <p style="color:#888;font-size:12px;margin-top:24px">Nostradamus Trader Arena · paper research only</p>
+    </body></html>

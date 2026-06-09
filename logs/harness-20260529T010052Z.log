@@ -1,0 +1,452 @@
+# learning harness @ 2026-05-29T01:00:52.783296+00:00
+
+# 2026-05-29T01:00:52.943805+00:00 scripts/npu_runtime.py
+{
+  "generatedAt": "2026-05-29T01:00:52Z",
+  "available": [
+    "AzureExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "selected": [
+    "CPUExecutionProvider"
+  ],
+  "primary": "CPUExecutionProvider",
+  "preferNpu": true
+}
+
+# 2026-05-29T01:00:53.157744+00:00 scripts/verify-data-feeds.py
+[verify-data-feeds] complete
+[verify-data-feeds] OK    yfinance rows=9     latencyMs=2317.54 error=
+[verify-data-feeds] FAIL      stooq rows=0     latencyMs=0.0 error=skipped: programmatic access captcha-walled; use import-stooq-bulk-zip.py instead
+[verify-data-feeds] FAIL       fred rows=0     latencyMs=30328.82 error=
+[verify-data-feeds] OK       gdelt rows=8     latencyMs=29242.49 error=
+[verify-data-feeds] FAIL     tiingo rows=0     latencyMs=0.0 error=skipped: set TIINGO_API_TOKEN
+[verify-data-feeds] FAIL alphavantage rows=0     latencyMs=0.0 error=skipped: set ALPHAVANTAGE_API_KEY
+[verify-data-feeds] criticalReady=True
+
+# 2026-05-29T01:01:56.080860+00:00 scripts/fetch-macro.py
+============================================================
+[fetch-macro] Fetching macroeconomic data for 2026-05-28
+============================================================
+[fetch-macro] FRED graph CSV error (DFF): HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=30)
+[fetch-macro] FRED graph CSV error (T10Y2Y): HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=30)
+[fetch-macro] FRED graph CSV error (VIXCLS): 404 Client Error: Not Found for url: https://fred.stlouisfed.org/graph/fredgraph.csv?id=VIXCLS
+[fetch-macro] FRED graph CSV error (UMCSENT): 502 Server Error: Bad Gateway for url: https://fred.stlouisfed.org/graph/fredgraph.csv?id=UMCSENT
+[fetch-macro] FRED graph CSV error (ICSA): 404 Client Error: Not Found for url: https://fred.stlouisfed.org/graph/fredgraph.csv?id=ICSA
+[fetch-macro] FRED graph CSV error (SP500): HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=30)
+[fetch-macro] FRED graph CSV error (M2SL): 404 Client Error: Not Found for url: https://fred.stlouisfed.org/graph/fredgraph.csv?id=M2SL
+[fetch-macro] FRED graph CSV error (T10Y3M): HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=30)
+[fetch-macro] FRED graph CSV error (BAMLH0A0HYM2): 404 Client Error: Not Found for url: https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2
+[fetch-macro] FRED graph CSV error (UNRATE): 404 Client Error: Not Found for url: https://fred.stlouisfed.org/graph/fredgraph.csv?id=UNRATE
+[fetch-macro] FRED graph CSV error (CPIAUCSL): HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=30)
+[fetch-macro] FRED graph CSV error (INDPRO): HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=30)
+Traceback (most recent call last):
+  File "C:\Users\nicho\Nostradamus_remote_audit\scripts\fetch-macro.py", line 526, in <module>
+    main()
+  File "C:\Users\nicho\Nostradamus_remote_audit\scripts\fetch-macro.py", line 488, in main
+    series, sources = backfill_public_macro_snapshots()
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicho\Nostradamus_remote_audit\scripts\fetch-macro.py", line 172, in backfill_public_macro_snapshots
+    raise RuntimeError("No public macro histories could be loaded from FRED graph CSV endpoints.")
+RuntimeError: No public macro histories could be loaded from FRED graph CSV endpoints.
+
+# 2026-05-29T01:06:26.824556+00:00 scripts/fetch-regime-data.py
+[fetch-regime] Fetching GDELT daily tone…
+[fetch-regime] GDELT 2025-05-28 -> 2025-06-26
+[fetch-regime] GDELT 2025-06-27 -> 2025-07-26
+[fetch-regime] GDELT 2025-07-27 -> 2025-08-25
+[fetch-regime] GDELT 2025-08-26 -> 2025-09-24
+[fetch-regime] GDELT 2025-09-25 -> 2025-10-24
+[fetch-regime] GDELT 2025-10-25 -> 2025-11-23
+[fetch-regime] GDELT 2025-11-24 -> 2025-12-23
+[fetch-regime] GDELT 2025-12-24 -> 2026-01-22
+[fetch-regime] GDELT 2026-01-23 -> 2026-02-21
+[fetch-regime] GDELT 2026-02-22 -> 2026-03-23
+[fetch-regime] GDELT 2026-03-24 -> 2026-04-22
+[fetch-regime] GDELT 2026-04-23 -> 2026-05-22
+[fetch-regime] GDELT 2026-05-23 -> 2026-05-28
+[fetch-regime] Wrote C:\Users\nicho\Nostradamus_remote_audit\data\regime\gdelt_timeline.json (139 rows)
+[fetch-regime] Merged timeline -> C:\Users\nicho\Nostradamus_remote_audit\data\regime\timeline.json
+[fetch-regime] Feature columns: ['gdelt_tone_norm', 'gdelt_tone_delta_5d', 'gdelt_article_z', 'macro_t10y3m_norm', 'macro_hy_oas_norm', 'macro_unrate_norm', 'macro_cpi_norm', 'macro_indpro_norm', 'macro_sp500_norm', 'macro_m2_norm', 'regime_bull', 'regime_bear', 'regime_high_vol', 'regime_sideways']
+
+# 2026-05-29T01:12:42.556962+00:00 scripts/fetch-congress-trades.py
+[fetch-congress] pulling trades from all configured sources…
+[congress] kadoa normalized 3,858 equity trades
+[fetch-congress] wrote C:\Users\nicho\Nostradamus_remote_audit\data\congress\trades_normalized.json
+[fetch-congress] total=3,457 recent(90d)=348 symbols=205 watchlist_365d=114 pelosi_365d=16
+  · Markwayne Mullin: 11 buys / 7 sells
+  · Suzan K. DelBene: 3 buys / 1 sells
+  · Josh Gottheimer: 1 buys / 8 sells
+  · Donald J Trump: 68 buys / 0 sells
+  · Maria Elvira Salazar: 13 buys / 1 sells
+
+# 2026-05-29T01:12:44.905515+00:00 scripts/fetch-insider-trades.py
+[fetch-insider] 15 tickers, lookback=90d
+[fetch-insider] done trades=0
+
+# 2026-05-29T01:14:33.840787+00:00 scripts/fetch-history.py
+$ADACW: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+
+1 Failed download:
+['ADACW']: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+$ALOVW: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+
+1 Failed download:
+['ALOVW']: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+$APLS: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+
+1 Failed download:
+['APLS']: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+$CAEP: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+$CAPNR: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+
+2 Failed downloads:
+['CAEP', 'CAPNR']: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+$CCLDO: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+
+1 Failed download:
+['CCLDO']: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+$CSGS: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+
+1 Failed download:
+['CSGS']: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+$CTBB: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+$CTDD: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+$CTLP: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+
+3 Failed downloads:
+['CTBB', 'CTDD', 'CTLP']: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+$EHAB: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+
+1 Failed download:
+['EHAB']: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+$EWCZ: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+
+1 Failed download:
+['EWCZ']: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+$FCRX: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+$FCO: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+
+2 Failed downloads:
+['FCRX', 'FCO']: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+$FORA: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+
+1 Failed download:
+['FORA']: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+$GIGGW: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+$GIGGU: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+
+2 Failed downloads:
+['GIGGW', 'GIGGU']: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+$HCICR: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+
+1 Failed download:
+['HCICR']: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+$ITHAW: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+
+1 Failed download:
+['ITHAW']: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+$KZR: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+
+1 Failed download:
+['KZR']: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+$LFACW: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+
+1 Failed download:
+['LFACW']: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+$MCW: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+
+1 Failed download:
+['MCW']: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+$MESHW: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+
+1 Failed download:
+['MESHW']: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+$MPX: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+
+1 Failed download:
+['MPX']: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+$NE-WT: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+
+1 Failed download:
+['NE-WT']: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+$NIXXW: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+
+1 Failed download:
+['NIXXW']: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+$PCG-PI: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+
+1 Failed download:
+['PCG-PI']: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+$SLNO: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+
+1 Failed download:
+['SLNO']: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+$SNCY: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+
+1 Failed download:
+['SNCY']: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+$SSEAR: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+
+1 Failed download:
+['SSEAR']: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+$TGE-WT: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+
+1 Failed download:
+['TGE-WT']: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+$TPH: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+
+1 Failed download:
+['TPH']: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+$TYG-RW: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+$UCFIW: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+$UDMY: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+$UAC-WT: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+
+4 Failed downloads:
+['TYG-RW', 'UCFIW', 'UDMY', 'UAC-WT']: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+$WLACW: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+$WLAC: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+$WHLRL: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+$WLACU: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+
+4 Failed downloads:
+['WLACW', 'WLAC', 'WHLRL', 'WLACU']: possibly delisted; no price data found  (1d 2026-05-24 -> 2026-05-29)
+[fetch-history] Loaded 7,146 tickers from registry
+[fetch-history] Mode: INCREMENTAL (last 5 days)
+[fetch-history] Processing 143 batches of up to 50 tickers each
+[fetch-history] Batch 1/143 complete — 50/7,146 tickers processed
+[fetch-history] Batch 2/143 complete — 100/7,146 tickers processed
+[fetch-history] Batch 3/143 complete — 150/7,146 tickers processed
+[fetch-history] Batch 4/143 complete — 200/7,146 tickers processed
+[fetch-history] Batch 5/143 complete — 250/7,146 tickers processed
+[fetch-history] Batch 6/143 complete — 300/7,146 tickers processed
+[fetch-history] Batch 7/143 complete — 350/7,146 tickers processed
+[fetch-history] Batch 8/143 complete — 400/7,146 tickers processed
+[fetch-history] Batch 9/143 complete — 450/7,146 tickers processed
+[fetch-history] Batch 10/143 complete — 500/7,146 tickers processed
+[fetch-history] Batch 11/143 complete — 550/7,146 tickers processed
+[fetch-history] Batch 12/143 complete — 600/7,146 tickers processed
+[fetch-history] Batch 13/143 complete — 650/7,146 tickers processed
+[fetch-history] Batch 14/143 complete — 700/7,146 tickers processed
+[fetch-history] Batch 15/143 complete — 750/7,146 tickers processed
+[fetch-history] Batch 16/143 complete — 800/7,146 tickers processed
+[fetch-history] Batch 17/143 complete — 850/7,146 tickers processed
+[fetch-history] Batch 18/143 complete — 900/7,146 tickers processed
+[fetch-history] Batch 19/143 complete — 950/7,146 tickers processed
+[fetch-history] Batch 20/143 complete — 1,000/7,146 tickers processed
+[fetch-history] Batch 21/143 complete — 1,050/7,146 tickers processed
+[fetch-history] Batch 22/143 complete — 1,100/7,146 tickers processed
+[fetch-history] Batch 23/143 complete — 1,150/7,146 tickers processed
+[fetch-history] Batch 24/143 complete — 1,200/7,146 tickers processed
+[fetch-history] Batch 25/143 complete — 1,250/7,146 tickers processed
+[fetch-history] Batch 26/143 complete — 1,300/7,146 tickers processed
+[fetch-history] Batch 27/143 complete — 1,350/7,146 tickers processed
+[fetch-history] Batch 28/143 complete — 1,400/7,146 tickers processed
+[fetch-history] Batch 29/143 complete — 1,450/7,146 tickers processed
+[fetch-history] Batch 30/143 complete — 1,500/7,146 tickers processed
+[fetch-history] Batch 31/143 complete — 1,550/7,146 tickers processed
+[fetch-history] Batch 32/143 complete — 1,600/7,146 tickers processed
+[fetch-history] Batch 33/143 complete — 1,650/7,146 tickers processed
+[fetch-history] Batch 34/143 complete — 1,700/7,146 tickers processed
+[fetch-history] Batch 35/143 complete — 1,750/7,146 tickers processed
+[fetch-history] Batch 36/143 complete — 1,800/7,146 tickers processed
+[fetch-history] Batch 37/143 complete — 1,850/7,146 tickers processed
+[fetch-history] Batch 38/143 complete — 1,900/7,146 tickers processed
+[fetch-history] Batch 39/143 complete — 1,950/7,146 tickers processed
+[fetch-history] Batch 40/143 complete — 2,000/7,146 tickers processed
+[fetch-history] Batch 41/143 complete — 2,050/7,146 tickers processed
+[fetch-history] Batch 42/143 complete — 2,100/7,146 tickers processed
+[fetch-history] Batch 43/143 complete — 2,150/7,146 tickers processed
+[fetch-history] Batch 44/143 complete — 2,200/7,146 tickers processed
+[fetch-history] Batch 45/143 complete — 2,250/7,146 tickers processed
+[fetch-history] Batch 46/143 complete — 2,300/7,146 tickers processed
+[fetch-history] Batch 47/143 complete — 2,350/7,146 tickers processed
+[fetch-history] Batch 48/143 complete — 2,400/7,146 tickers processed
+[fetch-history] Batch 49/143 complete — 2,450/7,146 tickers processed
+[fetch-history] Batch 50/143 complete — 2,500/7,146 tickers processed
+[fetch-history] Batch 51/143 complete — 2,550/7,146 tickers processed
+[fetch-history] Batch 52/143 complete — 2,600/7,146 tickers processed
+[fetch-history] Batch 53/143 complete — 2,650/7,146 tickers processed
+[fetch-history] Batch 54/143 complete — 2,700/7,146 tickers processed
+[fetch-history] Batch 55/143 complete — 2,750/7,146 tickers processed
+[fetch-history] Batch 56/143 complete — 2,800/7,146 tickers processed
+[fetch-history] Batch 57/143 complete — 2,850/7,146 tickers processed
+[fetch-history] Batch 58/143 complete — 2,900/7,146 tickers processed
+[fetch-history] Batch 59/143 complete — 2,950/7,146 tickers processed
+[fetch-history] Batch 60/143 complete — 3,000/7,146 tickers processed
+[fetch-history] Batch 61/143 complete — 3,050/7,146 tickers processed
+[fetch-history] Batch 62/143 complete — 3,100/7,146 tickers processed
+[fetch-history] Batch 63/143 complete — 3,150/7,146 tickers processed
+[fetch-history] Batch 64/143 complete — 3,200/7,146 tickers processed
+[fetch-history] Batch 65/143 complete — 3,250/7,146 tickers processed
+[fetch-history] Batch 66/143 complete — 3,300/7,146 tickers processed
+[fetch-history] Batch 67/143 complete — 3,350/7,146 tickers processed
+[fetch-history] Batch 68/143 complete — 3,400/7,146 tickers processed
+[fetch-history] Batch 69/143 complete — 3,450/7,146 tickers processed
+[fetch-history] Batch 70/143 complete — 3,500/7,146 tickers processed
+[fetch-history] Batch 71/143 complete — 3,550/7,146 tickers processed
+[fetch-history] Batch 72/143 complete — 3,600/7,146 tickers processed
+[fetch-history] Batch 73/143 complete — 3,650/7,146 tickers processed
+[fetch-history] Batch 74/143 complete — 3,700/7,146 tickers processed
+[fetch-history] Batch 75/143 complete — 3,750/7,146 tickers processed
+[fetch-history] Batch 76/143 complete — 3,800/7,146 tickers processed
+[fetch-history] Batch 77/143 complete — 3,850/7,146 tickers processed
+[fetch-history] Batch 78/143 complete — 3,900/7,146 tickers processed
+[fetch-history] Batch 79/143 complete — 3,950/7,146 tickers processed
+[fetch-history] Batch 80/143 complete — 4,000/7,146 tickers processed
+[fetch-history] Batch 81/143 complete — 4,050/7,146 tickers processed
+[fetch-history] Batch 82/143 complete — 4,100/7,146 tickers processed
+[fetch-history] Batch 83/143 complete — 4,150/7,146 tickers processed
+[fetch-history] Batch 84/143 complete — 4,200/7,146 tickers processed
+[fetch-history] Batch 85/143 complete — 4,250/7,146 tickers processed
+[fetch-history] Batch 86/143 complete — 4,300/7,146 tickers processed
+[fetch-history] Batch 87/143 complete — 4,350/7,146 tickers processed
+[fetch-history] Batch 88/143 complete — 4,400/7,146 tickers processed
+[fetch-history] Batch 89/143 complete — 4,450/7,146 tickers processed
+[fetch-history] Batch 90/143 complete — 4,500/7,146 tickers processed
+[fetch-history] Batch 91/143 complete — 4,550/7,146 tickers processed
+[fetch-history] Batch 92/143 complete — 4,600/7,146 tickers processed
+[fetch-history] Batch 93/143 complete — 4,650/7,146 tickers processed
+[fetch-history] Batch 94/143 complete — 4,700/7,146 tickers processed
+[fetch-history] Batch 95/143 complete — 4,750/7,146 tickers processed
+[fetch-history] Batch 96/143 complete — 4,800/7,146 tickers processed
+[fetch-history] Batch 97/143 complete — 4,850/7,146 tickers processed
+[fetch-history] Batch 98/143 complete — 4,900/7,146 tickers processed
+[fetch-history] Batch 99/143 complete — 4,950/7,146 tickers processed
+[fetch-history] Batch 100/143 complete — 5,000/7,146 tickers processed
+[fetch-history] Batch 101/143 complete — 5,050/7,146 tickers processed
+[fetch-history] Batch 102/143 complete — 5,100/7,146 tickers processed
+[fetch-history] Batch 103/143 complete — 5,150/7,146 tickers processed
+[fetch-history] Batch 104/143 complete — 5,200/7,146 tickers processed
+[fetch-history] Batch 105/143 complete — 5,250/7,146 tickers processed
+[fetch-history] Batch 106/143 complete — 5,300/7,146 tickers processed
+[fetch-history] Batch 107/143 complete — 5,350/7,146 tickers processed
+[fetch-history] Batch 108/143 complete — 5,400/7,146 tickers processed
+[fetch-history] Batch 109/143 complete — 5,450/7,146 tickers processed
+[fetch-history] Batch 110/143 complete — 5,500/7,146 tickers processed
+[fetch-history] Batch 111/143 complete — 5,550/7,146 tickers processed
+[fetch-history] Batch 112/143 complete — 5,600/7,146 tickers processed
+[fetch-history] Batch 113/143 complete — 5,650/7,146 tickers processed
+[fetch-history] Batch 114/143 complete — 5,700/7,146 tickers processed
+[fetch-history] Batch 115/143 complete — 5,750/7,146 tickers processed
+[fetch-history] Batch 116/143 complete — 5,800/7,146 tickers processed
+[fetch-history] Batch 117/143 complete — 5,850/7,146 tickers processed
+[fetch-history] Batch 118/143 complete — 5,900/7,146 tickers processed
+[fetch-history] Batch 119/143 complete — 5,950/7,146 tickers processed
+[fetch-history] Batch 120/143 complete — 6,000/7,146 tickers processed
+[fetch-history] Batch 121/143 complete — 6,050/7,146 tickers processed
+[fetch-history] Batch 122/143 complete — 6,100/7,146 tickers processed
+[fetch-history] Batch 123/143 complete — 6,150/7,146 tickers processed
+[fetch-history] Batch 124/143 complete — 6,200/7,146 tickers processed
+[fetch-history] Batch 125/143 complete — 6,250/7,146 tickers processed
+[fetch-history] Batch 126/143 complete — 6,300/7,146 tickers processed
+[fetch-history] Batch 127/143 complete — 6,350/7,146 tickers processed
+[fetch-history] Batch 128/143 complete — 6,400/7,146 tickers processed
+[fetch-history] Batch 129/143 complete — 6,450/7,146 tickers processed
+[fetch-history] Batch 130/143 complete — 6,500/7,146 tickers processed
+[fetch-history] Batch 131/143 complete — 6,550/7,146 tickers processed
+[fetch-history] Batch 132/143 complete — 6,600/7,146 tickers processed
+[fetch-history] Batch 133/143 complete — 6,650/7,146 tickers processed
+[fetch-history] Batch 134/143 complete — 6,700/7,146 tickers processed
+[fetch-history] Batch 135/143 complete — 6,750/7,146 tickers processed
+[fetch-history] Batch 136/143 complete — 6,800/7,146 tickers processed
+[fetch-history] Batch 137/143 complete — 6,850/7,146 tickers processed
+[fetch-history] Batch 138/143 complete — 6,900/7,146 tickers processed
+[fetch-history] Batch 139/143 complete — 6,950/7,146 tickers processed
+[fetch-history] Batch 140/143 complete — 7,000/7,146 tickers processed
+[fetch-history] Batch 141/143 complete — 7,050/7,146 tickers processed
+[fetch-history] Batch 142/143 complete — 7,100/7,146 tickers processed
+[fetch-history] Batch 143/143 complete — 7,146/7,146 tickers processed
+
+============================================================
+Traceback (most recent call last):
+  File "C:\Users\nicho\Nostradamus_remote_audit\scripts\fetch-history.py", line 415, in <module>
+    main()
+  File "C:\Users\nicho\Nostradamus_remote_audit\scripts\fetch-history.py", line 393, in main
+    print(f"[fetch-history] \u2705  Historical data pipeline complete")
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python311-arm64\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 16: character maps to <undefined>
+
+# 2026-05-29T01:25:14.602153+00:00 scripts/promotion_gate_v3.py
+Traceback (most recent call last):
+  File "C:\Users\nicho\Nostradamus_remote_audit\scripts\promotion_gate_v3.py", line 17, in <module>
+    _spec.loader.exec_module(_mpg)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\nicho\Nostradamus_remote_audit\scripts\model-promotion-gate.py", line 32, in <module>
+    @dataclass
+     ^^^^^^^^^
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python311-arm64\Lib\dataclasses.py", line 1232, in dataclass
+    return wrap(cls)
+           ^^^^^^^^^
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python311-arm64\Lib\dataclasses.py", line 1222, in wrap
+    return _process_class(cls, init, repr, eq, order, unsafe_hash,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python311-arm64\Lib\dataclasses.py", line 947, in _process_class
+    and _is_type(type, cls, dataclasses, dataclasses.KW_ONLY,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python311-arm64\Lib\dataclasses.py", line 712, in _is_type
+    ns = sys.modules.get(cls.__module__).__dict__
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute '__dict__'. Did you mean: '__dir__'?
+
+# 2026-05-29T01:25:14.764615+00:00 scripts/train-investor-v3.py --top-k 5 --max-position-frac 0.20 --max-gross-exposure 0.90 --kelly-scale 0.5 --cost-bps 5 --slippage-bps 10 --min-proba 0.60 --min-pred-ret 0.020 --min-price 5 --min-adv 1000000 --min-vol-20 0.01 --max-daily-ret 0.20 --policy-mode edge
+[load] val=2,161,880 test=3,274,998 test_dates=347 symbols=9827
+[liquidity] kept 7,612,475 (date,symbol) bars across 8232 symbols
+[liquidity-filter] val 2,161,880 -> 861  test 3,274,998 -> 1,720
+[congress] boosted policy_score for 0 Pelosi-flagged rows
+[policy] mode=edge iters=43 val_mae=0.11277
+[policy] ONNX export skipped: 'charmap' codec can't encode character '\u2192' in position 23: character maps to <undefined>
+[backtest] 341 trading days, $10000.00 start
+[bt] 2025-01-02 equity=$10,000.00 cash=$10,000.00 positions=0
+[bt] 2025-03-18 equity=$11,089.38 cash=$11,089.38 positions=0
+[bt] 2025-05-29 equity=$10,159.49 cash=$10,159.49 positions=0
+[bt] 2025-08-11 equity=$11,529.61 cash=$11,529.61 positions=0
+[bt] 2025-10-22 equity=$11,571.79 cash=$11,571.79 positions=0
+[bt] 2026-01-05 equity=$11,225.03 cash=$11,225.03 positions=0
+[bt] 2026-03-19 equity=$12,297.87 cash=$12,297.87 positions=0
+[bt] 2026-05-19 equity=$12,047.45 cash=$12,047.45 positions=0
+[price-history] loaded 10,358 symbols
+[decisions] wrote C:\Users\nicho\Nostradamus_remote_audit\data\investor_v3\decisions.json (341 days, 83 unique symbols)
+
+=== INVESTOR SUMMARY ===
+{
+  "starting_cash": 10000.0,
+  "ending_cash": 12047.453519752577,
+  "total_return_pct": 20.474535197525757,
+  "annualized_sharpe": 0.8489843017985562,
+  "max_drawdown_pct": -15.812849379129416,
+  "trading_days": 341,
+  "trades": 88,
+  "wins": 55,
+  "losses": 33,
+  "win_rate_pct": 62.5,
+  "config": {
+    "top_k": 5,
+    "max_position_frac": 0.2,
+    "max_gross_exposure": 0.9,
+    "kelly_scale": 0.5,
+    "cost_bps": 5.0,
+    "min_proba": 0.6
+  }
+}
+
+# 2026-05-29T01:27:14.251992+00:00 scripts/enrich_decisions.py --last-days 10
+[enrich] loading data\investor_v3\decisions.json
+[enrich] 16 unique symbols across 10 days
+[enrich] fetched 65 headlines for 14/16 symbols in 695 ms
+[enrich] scoring 65 headlines via FinBERT...
+[sentiment] ready - providers=['CPUExecutionProvider']  labels=['positive', 'negative', 'neutral']
+[enrich] scored in 2223 ms (34.2 ms/headline, provider=CPUExecutionProvider)
+[enrich] wrote data\sentiment\per_symbol.json
+[enrich] attached sentiment to 16 picks
+[enrich] updated data\investor_v3\decisions.json (3054 KiB)
+
+# 2026-05-29T01:27:17.541327+00:00 scripts/enrich_congress_decisions.py --last-days 30
+[enrich-congress] attached to 0 picks across 30 days
+
+# 2026-05-29T01:27:17.749593+00:00 scripts/generate_trade_signals.py
+[signals] trade_date=2026-05-18 orders=1 manifest=C:\Users\nicho\Nostradamus_remote_audit\data\trading\robinhood_manifest.json

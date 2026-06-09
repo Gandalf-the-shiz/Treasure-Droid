@@ -1,0 +1,32 @@
+{
+  "generatedAt": "2026-06-09T21:20:08Z",
+  "synced": true,
+  "trialId": "5307ec0649",
+  "horizon": 20,
+  "features": [
+    "dist_252_high",
+    "dist_252_low",
+    "downside_vol_20",
+    "hl_range",
+    "idio_vol_60",
+    "intraday_20",
+    "log_dollar_vol",
+    "macd_norm",
+    "max_ret_20",
+    "min_ret_20",
+    "mom_120",
+    "mom_252_21",
+    "mom_60",
+    "peer_rel_20",
+    "ret_60",
+    "sector_ret_20",
+    "sma10_ratio",
+    "sma50_ratio",
+    "vol_60"
+  ],
+  "meanIc": 0.0507868633921634,
+  "quintileSpread": 0.027166757662762636,
+  "objective": 0.4133,
+  "source": "C:\\Users\\nicho\\nostradamus-live\\reports\\auto_search\\champion.json",
+  "useForManifestBoost": true
+}

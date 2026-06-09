@@ -1,0 +1,26 @@
+{
+  "generatedAt": "2026-05-25T15:26:03Z",
+  "model": "paper-agent-sgd-logistic-v1",
+  "source": "data/accuracy/YYYY-MM-DD.json detail rows",
+  "daysProcessed": 9,
+  "startingCash": 10000.0,
+  "finalEquity": 9897.81,
+  "totalReturnPct": -1.0219,
+  "maxDrawdownPct": 1.8416,
+  "tradeCount": 58,
+  "avgDailyPnl": -11.3541,
+  "preUpdateHitRateEarly5": 0.552,
+  "preUpdateHitRateLate5": 0.443,
+  "onlineLearningDelta": -0.109,
+  "config": {
+    "PAPER_AGENT_STARTING_CASH": 10000.0,
+    "PAPER_AGENT_MAX_POSITIONS": 12,
+    "PAPER_AGENT_MIN_BUY_SCORE": 0.5,
+    "PAPER_AGENT_TRADE_FEE_BPS": 1.0,
+    "PAPER_AGENT_LOOKBACK_DAYS": 252,
+    "PAPER_AGENT_ENABLE_SHORTS": false,
+    "PAPER_AGENT_SHORT_ALLOC_PCT": 0.0,
+    "PAPER_AGENT_MAX_DAILY_EXPOSURE_PCT": 0.85,
+    "PAPER_AGENT_MAX_POSITION_PCT": 0.22
+  }
+}

@@ -1,0 +1,400 @@
+{
+  "generated_at": "2026-06-05T22:05:25Z",
+  "source": "yahoo_finance_rss",
+  "encoder": "FinBERT-ONNX",
+  "provider": "QNNExecutionProvider",
+  "symbols": {
+    "JDST": {
+      "score": 0.0,
+      "label": "neutral",
+      "n_headlines": 0,
+      "distribution": {
+        "positive": 0.0,
+        "negative": 0.0,
+        "neutral": 1.0
+      },
+      "headlines": []
+    },
+    "HIMZ": {
+      "score": 0.5377,
+      "label": "positive",
+      "n_headlines": 1,
+      "distribution": {
+        "positive": 1.0,
+        "negative": 0.0,
+        "neutral": 0.0
+      },
+      "headlines": [
+        {
+          "title": "Defiance ETFs Surpass $8 Billion in Assets Under Management",
+          "label": "positive",
+          "score": 0.538
+        }
+      ]
+    },
+    "DXST": {
+      "score": 0.1434,
+      "label": "neutral",
+      "n_headlines": 6,
+      "distribution": {
+        "positive": 0.167,
+        "negative": 0.167,
+        "neutral": 0.667
+      },
+      "headlines": [
+        {
+          "title": "Decent Holding Reports Preliminary Unaudited RMB 55.1 Million Revenue and 387 New Community Locations Through May 2026; Advances an AI-Powered AgeTech Ecosystem",
+          "label": "neutral",
+          "score": 0.334
+        },
+        {
+          "title": "BC-Most Active Stocks",
+          "label": "neutral",
+          "score": 0.086
+        },
+        {
+          "title": "Wall Street Set to Open Lower Thursday as Investors Parse Lower-Than-Expected Jobless Claims, Oil Prices Approach $100 per Barrel",
+          "label": "negative",
+          "score": -0.886
+        },
+        {
+          "title": "Decent Holding Inc. Announces 1-for-25 Reverse Share Split Effective March 16, 2026",
+          "label": "neutral",
+          "score": -0.017
+        },
+        {
+          "title": "Decent Holding Inc. Announces Strategic Cooperation to Expand AI-Enabled Community Healthcare Network in China",
+          "label": "positive",
+          "score": 0.902
+        },
+        {
+          "title": "Decent Holding Inc. Launches AI-Powered Senior Care Platform, Targeting the Estimated $4 Trillion Silver Economy in China",
+          "label": "neutral",
+          "score": 0.442
+        }
+      ]
+    },
+    "VEEE": {
+      "score": 0.5372,
+      "label": "positive",
+      "n_headlines": 6,
+      "distribution": {
+        "positive": 0.667,
+        "negative": 0.0,
+        "neutral": 0.333
+      },
+      "headlines": [
+        {
+          "title": "Twin Vee PowerCats Reports Continued Revenue Growth in the First Quarter",
+          "label": "positive",
+          "score": 0.935
+        },
+        {
+          "title": "Twin Vee PowerCats Announces Repeat Order of Custom 400 GFX2 from Exuma Water Sports",
+          "label": "neutral",
+          "score": 0.41
+        },
+        {
+          "title": "Twin Vee PowerCats Co. Announces Reverse Stock Split to Regain Compliance with Nasdaq's Bid Price Requirement",
+          "label": "positive",
+          "score": 0.163
+        },
+        {
+          "title": "Twin Vee PowerCats Co. Announces Reincorporation to Nevada to Enhance Corporate Flexibility and Drive Long-Term Cost Savings",
+          "label": "positive",
+          "score": 0.914
+        },
+        {
+          "title": "Twin Vee PowerCats Co. Announces Nautical Ventures as Broward County Florida Dealer",
+          "label": "neutral",
+          "score": 0.027
+        },
+        {
+          "title": "Vision Marine Technologies and Nautical Ventures Secure Exclusive Twin Vee Territory in Broward County and Introduce Signature Adventure V Edition",
+          "label": "positive",
+          "score": 0.774
+        }
+      ]
+    },
+    "AMN": {
+      "score": 0.0822,
+      "label": "neutral",
+      "n_headlines": 6,
+      "distribution": {
+        "positive": 0.0,
+        "negative": 0.0,
+        "neutral": 1.0
+      },
+      "headlines": [
+        {
+          "title": "Why AMN Healthcare Services (AMN) is a Top Momentum Stock for the Long-Term",
+          "label": "neutral",
+          "score": 0.129
+        },
+        {
+          "title": "Does AMN Healthcare (AMN) Earnings Momentum and Conference Spotlight Reveal a Shift in Its Core Narrative?",
+          "label": "neutral",
+          "score": 0.233
+        },
+        {
+          "title": "Dassault Aviation: Total number of shares and voting rights - 31 05 26",
+          "label": "neutral",
+          "score": 0.01
+        },
+        {
+          "title": "Here's Why You Should Retain AMN Stock in Your Portfolio for Now",
+          "label": "neutral",
+          "score": 0.036
+        },
+        {
+          "title": "Q1 Earnings Roundup: AMN Healthcare Services (NYSE:AMN) And The Rest Of The Healthcare Providers & Services Segment",
+          "label": "neutral",
+          "score": 0.031
+        },
+        {
+          "title": "AMN Healthcare Services (AMN) is a Top-Ranked Value Stock: Should You Buy?",
+          "label": "neutral",
+          "score": 0.054
+        }
+      ]
+    },
+    "FGL": {
+      "score": 0.9086,
+      "label": "positive",
+      "n_headlines": 6,
+      "distribution": {
+        "positive": 1.0,
+        "negative": 0.0,
+        "neutral": 0.0
+      },
+      "headlines": [
+        {
+          "title": "Founder Group Limited Regains Compliance with Nasdaq\u2019s Minimum Publicly Held Shares Requirement",
+          "label": "positive",
+          "score": 0.926
+        },
+        {
+          "title": "Energy Transition Update - Malaysia Accelerates Solar Growth with LSS5 Program Expansion",
+          "label": "positive",
+          "score": 0.929
+        },
+        {
+          "title": "Founder Group Limited Announces Additional US$8.6 Million Contract Under Malaysia\u2019s Large Scale Solar Programme",
+          "label": "positive",
+          "score": 0.885
+        },
+        {
+          "title": "Founder Group Limited Secures US$5 Million EPC Contract for a 5.5MW Solar Plant under Malaysia\u2019s LSS5 PETRA Programme",
+          "label": "positive",
+          "score": 0.894
+        },
+        {
+          "title": "Founder Group Limited Secures US$4 million 25.4MW Utility-Scale Solar Contract under Malaysia\u2019s CGPP Programme",
+          "label": "positive",
+          "score": 0.884
+        },
+        {
+          "title": "Founder Group Limited Regains Compliance with Nasdaq\u2019s Minimum Bid Price Requirement",
+          "label": "positive",
+          "score": 0.934
+        }
+      ]
+    },
+    "CMCT": {
+      "score": -0.2089,
+      "label": "negative",
+      "n_headlines": 6,
+      "distribution": {
+        "positive": 0.0,
+        "negative": 0.167,
+        "neutral": 0.833
+      },
+      "headlines": [
+        {
+          "title": "Stonegate Initiates Coverage on Creative Media & Trust Corp. (CMCT)",
+          "label": "neutral",
+          "score": 0.003
+        },
+        {
+          "title": "Creative Media & Community Trust (CMCT): Worst Performing NASDAQ Stocks So Far in 2026",
+          "label": "negative",
+          "score": -0.962
+        },
+        {
+          "title": "Creative Media & Community Trust Corporation Q1 2026 Earnings Call Summary",
+          "label": "neutral",
+          "score": -0.12
+        },
+        {
+          "title": "CMCT Q1 2026 Earnings Call Transcript",
+          "label": "neutral",
+          "score": -0.065
+        },
+        {
+          "title": "Creative Media & Community Trust Corporation Reports 2026 First Quarter Results",
+          "label": "neutral",
+          "score": -0.085
+        },
+        {
+          "title": "Creative Media & Community Trust Announces Date for Its First Quarter 2026 Earnings Release and Conference Call",
+          "label": "neutral",
+          "score": -0.024
+        }
+      ]
+    },
+    "BATL": {
+      "score": -0.3244,
+      "label": "negative",
+      "n_headlines": 6,
+      "distribution": {
+        "positive": 0.167,
+        "negative": 0.5,
+        "neutral": 0.333
+      },
+      "headlines": [
+        {
+          "title": "BATL, USO, UCO Edge Higher As Oil Gains: Exxon Executive Warns Shrinking Inventories Could Send Crude To $160",
+          "label": "negative",
+          "score": -0.9
+        },
+        {
+          "title": "Battalion Oil Announces Updated Drilling Program",
+          "label": "neutral",
+          "score": 0.13
+        },
+        {
+          "title": "Nasdaq, S&P 500 Futures Dip As Markets Brace For Inflation Data, More Hormuz Tensions: SNOW, DELL, ONDS, NBIS, SIDU Are In Focus",
+          "label": "negative",
+          "score": -0.859
+        },
+        {
+          "title": "BATL, TPET, SKYQ, INDO Stocks Surge Premarket: Oil Prices Spike On Renewed US-Iran Hostilities",
+          "label": "positive",
+          "score": 0.154
+        },
+        {
+          "title": "USO, UCO, BATL, XOM Slip: Oil Dips Below $100 After Trump Says Iran Talks \u2018Proceeding Nicely\u2019",
+          "label": "negative",
+          "score": -0.53
+        },
+        {
+          "title": "Battalion Oil Corporation Announces First Quarter 2026 Financial and Operating Results",
+          "label": "neutral",
+          "score": 0.059
+        }
+      ]
+    },
+    "JNUG": {
+      "score": 0.514,
+      "label": "positive",
+      "n_headlines": 2,
+      "distribution": {
+        "positive": 0.5,
+        "negative": 0.0,
+        "neutral": 0.5
+      },
+      "headlines": [
+        {
+          "title": "3 Leveraged Gold Picks That Can Turn Small Moves Into Big Ones",
+          "label": "neutral",
+          "score": 0.095
+        },
+        {
+          "title": "Leveraged ETF Areas of Last Week That Are Up At least 15%",
+          "label": "positive",
+          "score": 0.933
+        }
+      ]
+    },
+    "UP": {
+      "score": 0.4603,
+      "label": "positive",
+      "n_headlines": 6,
+      "distribution": {
+        "positive": 0.333,
+        "negative": 0.0,
+        "neutral": 0.667
+      },
+      "headlines": [
+        {
+          "title": "Delta (DAL) Stock Is Up, What You Need To Know",
+          "label": "neutral",
+          "score": 0.063
+        },
+        {
+          "title": "Wheels Up Completes Brand Transition, Unifying Global Operations Under a Single Brand",
+          "label": "neutral",
+          "score": 0.238
+        },
+        {
+          "title": "Wheels Up Lead Strategic Investor Delta Air Lines Agrees to Extend Lock-Up",
+          "label": "positive",
+          "score": 0.838
+        },
+        {
+          "title": "Wheels Up Achieves Record Operational Milestone of Zero Cancellation Days",
+          "label": "positive",
+          "score": 0.912
+        },
+        {
+          "title": "Sankaty Jet Capital Provides $68 Million Debt Facility to Wheels Up",
+          "label": "neutral",
+          "score": 0.381
+        },
+        {
+          "title": "Wheels Up Announces First Quarter Results and New Delta-Led Financing",
+          "label": "neutral",
+          "score": 0.331
+        }
+      ]
+    },
+    "ONEG": {
+      "score": -0.0117,
+      "label": "neutral",
+      "n_headlines": 5,
+      "distribution": {
+        "positive": 0.0,
+        "negative": 0.0,
+        "neutral": 1.0
+      },
+      "headlines": [
+        {
+          "title": "OneConstruction Group Limited Announces Interim Results For the Six Months Ended September 30, 2025",
+          "label": "neutral",
+          "score": -0.117
+        },
+        {
+          "title": "Here's What's Concerning About OneConstruction Group's (NASDAQ:ONEG) Returns On Capital",
+          "label": "neutral",
+          "score": -0.024
+        },
+        {
+          "title": "Owning 69% in OneConstruction Group Limited (NASDAQ:ONEG) means that insiders are heavily invested in the company's future",
+          "label": "neutral",
+          "score": 0.051
+        },
+        {
+          "title": "OneConstruction Group Limited Announces Annual Financial Results for the Fiscal Year Ended March 31, 2025",
+          "label": "neutral",
+          "score": -0.029
+        },
+        {
+          "title": "A Closer Look At OneConstruction Group Limited's (NASDAQ:ONEG) Impressive ROE",
+          "label": "neutral",
+          "score": 0.061
+        }
+      ]
+    },
+    "MUD": {
+      "score": 0.0,
+      "label": "neutral",
+      "n_headlines": 0,
+      "distribution": {
+        "positive": 0.0,
+        "negative": 0.0,
+        "neutral": 1.0
+      },
+      "headlines": []
+    }
+  }
+}

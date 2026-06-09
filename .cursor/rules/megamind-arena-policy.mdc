@@ -1,0 +1,24 @@
+---
+description: Megamind must not mutate frozen Investor Arenas v1/v2
+alwaysApply: true
+---
+
+# Investor Arena policy (Megamind)
+
+## North star
+Build the **most profitable** research system. Arena sim is fast feedback; forward paper is the scoreboard.
+
+## Frozen baselines (v1, v2)
+- **Never** delete, respawn, or rewrite genomes/ledgers.
+- **Do** daily pulse + dated snapshots under `data/trader_arena/snapshots/`.
+
+## Operating model (v3+)
+- **Champion** (v3): evolve in place via `harvest.py` + `real_agents.py` (cross-pool learnings).
+- **Challenger**: at most one extra arm when testing a **new feed**; replace/archive old challenger.
+- **Archived** forks (v4+): harvest-only — do not pulse or respawn.
+- **Pulse** `--version active` only (v1, v2, champion, challenger).
+- Megamind **update** champion by default; **spawn** only for new-feed hypotheses (`decision.py`).
+
+## APIs
+- `GET /api/arena/operating` — champion/challenger/pulse list
+- `GET /api/real-agents` — predictor + policy registry (≤5 agents)

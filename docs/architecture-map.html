@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nostradamus — Architecture Eye Chart</title>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <style>
+    :root {
+      --bg: #0a0d0a;
+      --panel: #11161a;
+      --panel2: #161c22;
+      --border: #232b33;
+      --text: #e8efe8;
+      --muted: #8a98a5;
+      --green: #00c805;
+      --blue: #61afff;
+      --purple: #b078ff;
+      --orange: #ff7a45;
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    .wrap { max-width: 1280px; margin: 0 auto; padding: 28px 22px 80px; }
+    header h1 { font-size: 26px; margin: 0 0 4px; letter-spacing: -0.5px; }
+    header p { color: var(--muted); margin: 0 0 22px; max-width: 760px; line-height: 1.5; }
+    .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 26px; }
+    .stat { background: var(--panel); border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; }
+    .stat .v { font-size: 24px; font-weight: 700; }
+    .stat .l { color: var(--muted); font-size: 12px; margin-top: 2px; }
+    .stat.green .v { color: var(--green); }
+    .stat.blue .v { color: var(--blue); }
+    h2 { font-size: 17px; margin: 30px 0 12px; }
+    .diagram {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 16px;
+      overflow-x: auto;
+    }
+    .legend { display: flex; flex-wrap: wrap; gap: 14px; margin: 12px 2px 0; font-size: 12px; color: var(--muted); }
+    .legend span { display: inline-flex; align-items: center; gap: 6px; }
+    .dot { width: 11px; height: 11px; border-radius: 3px; display: inline-block; }
+    table { width: 100%; border-collapse: collapse; background: var(--panel); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; font-size: 13.5px; }
+    th, td { text-align: left; padding: 10px 14px; border-bottom: 1px solid var(--border); }
+    th { color: var(--muted); font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.4px; }
+    tr:last-child td { border-bottom: none; }
+    td code { background: var(--panel2); padding: 2px 6px; border-radius: 5px; color: var(--blue); font-size: 12px; }
+    .tone-green td:nth-child(3) { color: var(--green); }
+    .tone-orange td:nth-child(3) { color: var(--orange); }
+    .grid3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+    .cad { background: var(--panel); border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; }
+    .cad h3 { margin: 0 0 6px; font-size: 14px; display: flex; justify-content: space-between; align-items: center; }
+    .cad h3 .tag { font-size: 11px; color: var(--green); background: rgba(0,200,5,0.12); padding: 2px 8px; border-radius: 20px; }
+    .cad p { margin: 0; color: var(--muted); font-size: 12.5px; line-height: 1.5; }
+    .note { background: rgba(97,175,255,0.08); border: 1px solid rgba(97,175,255,0.3); border-radius: 12px; padding: 14px 16px; margin-top: 20px; color: var(--text); font-size: 13.5px; line-height: 1.55; }
+    .note b { color: var(--blue); }
+    .mermaid { font-size: 14px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Nostradamus — Architecture Eye Chart</h1>
+      <p>End-to-end map of how data flows from raw feeds, through the ingest canals and feature store, into the ML models, and out to the Robinhood handoff. The control plane (scheduler + harness + server) drives the whole loop on a market-aware schedule.</p>
+    </header>
+
+    <div class="stats">
+      <div class="stat"><div class="v">6</div><div class="l">External data sources</div></div>
+      <div class="stat blue"><div class="v">6</div><div class="l">ML models</div></div>
+      <div class="stat"><div class="v">8</div><div class="l">Pipeline layers</div></div>
+      <div class="stat green"><div class="v">3</div><div class="l">Order paths</div></div>
+    </div>
+
+    <h2>Data flow &amp; logic</h2>
+    <div class="diagram">
+      <pre class="mermaid">
+flowchart LR
+  classDef src fill:#13251a,stroke:#2f7d4f,color:#cfe9d6,rx:8,ry:8;
+  classDef canal fill:#161c22,stroke:#3a4651,color:#cdd8e2,rx:8,ry:8;
+  classDef feat fill:#1a1f2e,stroke:#4a5878,color:#dbe3f5,rx:8,ry:8;
+  classDef model fill:#0d3b14,stroke:#00c805,color:#dfffe0,stroke-width:2px,rx:8,ry:8;
+  classDef derived fill:#1a2230,stroke:#61afff,color:#dbe8ff,rx:8,ry:8;
+  classDef agent fill:#241a2e,stroke:#b078ff,color:#eaddff,rx:8,ry:8;
+  classDef exec fill:#2a1a16,stroke:#ff7a45,color:#ffe0d6,rx:8,ry:8;
+  classDef ctrl fill:#1d1d22,stroke:#6b7280,color:#c8cdd4,stroke-dasharray:4 3,rx:8,ry:8;
+
+  subgraph SRC[" Data sources "]
+    direction TB
+    YF["Yahoo / yfinance<br/><small>OHLCV · ~7k tickers</small>"]:::src
+    FRED["FRED<br/><small>macro series</small>"]:::src
+    GDELT["GDELT<br/><small>news tone</small>"]:::src
+    CONG["Congress feeds<br/><small>Pelosi tracker</small>"]:::src
+    SEC["SEC EDGAR<br/><small>Form 4 insider</small>"]:::src
+    RSS["Yahoo RSS<br/><small>headlines</small>"]:::src
+  end
+
+  subgraph CANAL[" Ingest canals "]
+    direction TB
+    FH["fetch-history"]:::canal
+    FM["fetch-macro"]:::canal
+    FR["fetch-regime"]:::canal
+    FC["fetch-congress"]:::canal
+    FI["fetch-insider"]:::canal
+  end
+
+  subgraph FEAT[" Feature store "]
+    direction TB
+    HIST["historical/*.json<br/><small>candle store</small>"]:::feat
+    OVL["overlay_features<br/><small>regime+congress+insider</small>"]:::feat
+  end
+
+  subgraph MODELS[" Models "]
+    direction TB
+    P3["Predictor v3<br/><small>HGB x5 + isotonic</small>"]:::model
+    V2["V2 Predictor<br/><small>HGB dual-head</small>"]:::model
+    FB["FinBERT<br/><small>ONNX sentiment</small>"]:::model
+  end
+
+  subgraph DERIVED[" Live inference "]
+    direction TB
+    LIVE["live.csv<br/><small>ranked edge</small>"]:::derived
+    INV["Investor v3<br/><small>HGBR + Kelly</small>"]:::derived
+    PAPER["Paper agent<br/><small>online SGD</small>"]:::derived
+  end
+
+  subgraph AGENTS[" Agents "]
+    direction TB
+    DEC["decisions.json<br/><small>daily picks</small>"]:::agent
+    REASON["Reasoning agent<br/><small>NPU LLM journal</small>"]:::agent
+    DAY["daytrader_engine<br/><small>intraday ranker</small>"]:::agent
+  end
+
+  subgraph EXEC[" Execution handoff "]
+    direction TB
+    SWING["swing manifest"]:::exec
+    DAYMAN["daytrade manifest"]:::exec
+    RH["Robinhood Agents<br/><small>external executor</small>"]:::exec
+  end
+
+  YF --> FH
+  FRED --> FM
+  GDELT --> FR
+  FM --> FR
+  CONG --> FC
+  SEC --> FI
+
+  FH --> HIST
+  FR --> OVL
+  FC --> OVL
+  FI --> OVL
+
+  HIST --> P3
+  OVL --> P3
+  HIST --> V2
+  RSS --> FB
+
+  P3 --> LIVE
+  P3 --> INV
+  OVL --> INV
+  FB --> INV
+  V2 --> PAPER
+
+  INV --> DEC
+  LIVE --> REASON
+  LIVE --> DAY
+
+  DEC --> SWING
+  DAY --> DAYMAN
+  SWING --> RH
+  DAYMAN --> RH
+
+  SCHED["learning_scheduler<br/><small>market-aware cadence</small>"]:::ctrl
+  HARNESS["learning_harness<br/><small>train + promote</small>"]:::ctrl
+  SERVE["serve.py<br/><small>FastAPI + dashboard</small>"]:::ctrl
+
+  SCHED -.-> HARNESS
+  HARNESS -.-> P3
+  HARNESS -.-> INV
+  HARNESS -.-> REASON
+  SERVE -.-> LIVE
+      </pre>
+    </div>
+    <div class="legend">
+      <span><i class="dot" style="background:#2f7d4f"></i>Sources</span>
+      <span><i class="dot" style="background:#3a4651"></i>Canals</span>
+      <span><i class="dot" style="background:#4a5878"></i>Feature store</span>
+      <span><i class="dot" style="background:#00c805"></i>Models</span>
+      <span><i class="dot" style="background:#61afff"></i>Live inference</span>
+      <span><i class="dot" style="background:#b078ff"></i>Agents</span>
+      <span><i class="dot" style="background:#ff7a45"></i>Execution</span>
+      <span><i class="dot" style="background:#6b7280"></i>Control plane (dashed)</span>
+    </div>
+
+    <h2>Models feeding predictions</h2>
+    <table>
+      <thead><tr><th>Model</th><th>Predicts</th><th>Latest metrics</th><th>Retrain</th></tr></thead>
+      <tbody>
+        <tr class="tone-green"><td>Predictor v3</td><td>Next-day direction + return</td><td>52.9% acc · 0.544 AUC · 50 feat</td><td>Weekly</td></tr>
+        <tr class="tone-orange"><td>Investor v3</td><td>Kelly-sized portfolio</td><td>-2.38% ret · Sharpe -0.03 · 56.6% win</td><td>Daily</td></tr>
+        <tr><td>V2 Predictor</td><td>Daily CI ensemble</td><td>63.7% acc · 0.714 AUC (looser split)</td><td>Weekly + auto</td></tr>
+        <tr><td>Paper agent</td><td>Online trade-taker</td><td>-1.02% ret · 58 trades · SGD</td><td>Daily online</td></tr>
+        <tr><td>FinBERT</td><td>Headline sentiment</td><td>ONNX, NPU when available</td><td>On enrich</td></tr>
+        <tr><td>Reasoning agent</td><td>Strategy narrative + paper book</td><td>NPU LLM · 12-symbol watchlist</td><td>Every 15m</td></tr>
+      </tbody>
+    </table>
+
+    <h2>Data feeds</h2>
+    <table>
+      <thead><tr><th>Source</th><th>What it provides</th><th>Ingest script</th><th>Refresh</th></tr></thead>
+      <tbody>
+        <tr><td>Yahoo / yfinance</td><td>Daily OHLCV for ~7,000 tickers</td><td><code>fetch-history.py</code></td><td>Intraday + daily</td></tr>
+        <tr><td>FRED</td><td>Fed funds, yield curve, VIX, CPI, M2</td><td><code>fetch-macro.py</code></td><td>Daily</td></tr>
+        <tr><td>GDELT</td><td>Global news tone + article volume</td><td><code>fetch-regime-data.py</code></td><td>Intraday</td></tr>
+        <tr><td>Congress feeds</td><td>House/Senate disclosures</td><td><code>fetch-congress-trades.py</code></td><td>Intraday</td></tr>
+        <tr><td>SEC EDGAR</td><td>Form 4 insider buys/sells</td><td><code>fetch-insider-trades.py</code></td><td>Daily</td></tr>
+        <tr><td>Yahoo RSS</td><td>Per-symbol headlines for FinBERT</td><td><code>serve.py /api/news</code></td><td>On demand</td></tr>
+      </tbody>
+    </table>
+
+    <h2>Learning cadence</h2>
+    <div class="grid3">
+      <div class="cad"><h3>Intraday pulse <span class="tag">15 min</span></h3><p>Live inference, reasoning agent, daytrade manifest. Runs every 15 minutes during regular trading hours.</p></div>
+      <div class="cad"><h3>Daily close <span class="tag">after close</span></h3><p>Investor v3 retrain, swing manifest, sentiment + congress enrichment.</p></div>
+      <div class="cad"><h3>Weekly deep <span class="tag">Sunday</span></h3><p>Full Predictor v3 retrain (~2.5h) plus champion/challenger promotion gates for both brains.</p></div>
+    </div>
+
+    <div class="note">
+      <b>Execution is prep-only.</b> Nostradamus never places live trades. It writes JSON manifests that external Robinhood Agents poll via <code>/api/trading/manifest</code> and <code>/api/daytrade/manifest</code>. Full runbook in <code>docs/GLORIOUS_STACK.md</code>.
+      &nbsp;·&nbsp; <b>Two accuracy numbers?</b> V2 (63.7%) uses a looser split; Predictor v3 (52.9%) uses a strict walk-forward holdout (train ≤2023, test ≥2025).
+    </div>
+  </div>
+
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: "dark",
+      flowchart: { curve: "basis", nodeSpacing: 30, rankSpacing: 60, htmlLabels: true },
+      themeVariables: { fontSize: "13px", fontFamily: "-apple-system, Segoe UI, Roboto, sans-serif" }
+    });
+  </script>
+</body>
+</html>

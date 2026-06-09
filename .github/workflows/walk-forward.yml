@@ -1,0 +1,59 @@
+name: Walk-Forward Validation
+
+on:
+  schedule:
+    # First Sunday of each month at 06:00 UTC
+    - cron: '0 6 1-7 * 0'
+  workflow_dispatch:
+    inputs:
+      max_tickers:
+        description: "Optional ticker cap (faster manual runs)"
+        required: false
+        default: "50"
+
+permissions:
+  contents: write
+
+jobs:
+  walk-forward:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Configure Git LFS
+        run: git lfs install
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Run walk-forward diagnostics
+        run: |
+          MAX="${{ github.event.inputs.max_tickers }}"
+          if [ -n "$MAX" ]; then
+            python scripts/walk-forward.py --max-tickers "$MAX"
+          else
+            python scripts/walk-forward.py
+          fi
+
+      - name: Commit report
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/accuracy/walk-forward-*.json || true
+          if git diff --cached --quiet; then
+            echo "No walk-forward report changes."
+          else
+            git commit -m "chore: update walk-forward diagnostics $(date -u +%Y-%m)"
+            git pull --rebase --autostash origin main
+            git push
+          fi

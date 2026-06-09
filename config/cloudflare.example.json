@@ -1,0 +1,8 @@
+{
+  "_comment": "Copy to config/cloudflare.json (gitignored). Run scripts/setup_cloudflare_tunnel.ps1 once.",
+  "mode": "named",
+  "tunnelName": "nostradamus",
+  "hostname": "nostradamus.YOUR_DOMAIN.com",
+  "localPort": 8000,
+  "configPath": "data/cloudflare/config.yml"
+}

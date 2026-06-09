@@ -1,0 +1,78 @@
+{
+  "updatedAt": "2026-06-07T14:33:41Z",
+  "entries": [
+    {
+      "id": "895af516-3a6",
+      "at": "2026-06-07T14:33:41Z",
+      "author": "Cursor agent",
+      "title": "Brain logs and app insights section",
+      "summary": "New Stack and Edge > Brain logs tab: last 30 backtest runs with plain-English insights, dev changelog for Cursor agent sessions, auto-hooks on harness/lab/investor runs.",
+      "areas": [
+        "scripts/intelligence/brain/journal.py",
+        "scripts/serve.py",
+        "js/rh-pages/brain-logs.js"
+      ],
+      "tags": [
+        "brain",
+        "logging",
+        "ui"
+      ]
+    },
+    {
+      "id": "brain-logs-v1",
+      "at": "2026-06-06T12:00:00Z",
+      "author": "Cursor agent",
+      "title": "Brain logs and app insights section",
+      "summary": "Added Treasure Droid brain journal: automatic logging of the last 30 backtest runs (Mad Scientist lab, fleet walk-forward, Investor v3, harness cycles) plus a dev changelog for Cursor agent work sessions. New Stack and Edge sub-tab with live API.",
+      "areas": [
+        "scripts/intelligence/brain/journal.py",
+        "scripts/serve.py",
+        "js/rh-pages/brain-logs.js",
+        "js/rh-pages/architecture.js",
+        "css/architecture.css"
+      ],
+      "tags": [
+        "brain",
+        "logging",
+        "ui"
+      ]
+    },
+    {
+      "id": "schematics-hero-v2",
+      "at": "2026-06-06T10:30:00Z",
+      "author": "Cursor agent",
+      "title": "Schematics mega chart hero layout and color story",
+      "summary": "Mega pipeline map moved to top of Schematics page. Color story: grey data, green pipelines, epic purple ML, legendary orange Treasure Droid. Animated starfield canvas with twinkling and shooting stars.",
+      "areas": [
+        "js/rh-arch-mega.js",
+        "js/rh-arch-data.js",
+        "js/rh-pages/architecture.js",
+        "js/rh-starfield.js",
+        "css/architecture.css"
+      ],
+      "tags": [
+        "schematics",
+        "ui",
+        "visual"
+      ]
+    },
+    {
+      "id": "ux-bridge-fleet",
+      "at": "2026-06-06T08:00:00Z",
+      "author": "Cursor agent",
+      "title": "Bridge and Fleet UX redesign",
+      "summary": "Greedy-robot branding across Bridge and Fleet: tabbed Bridge, per-spawn equity charts, shared Chart.js helpers, chat removed and redirected to Captain.",
+      "areas": [
+        "js/rh-pages/home.js",
+        "js/rh-pages/fleet.js",
+        "css/treasure-droid.css",
+        "scripts/serve.py"
+      ],
+      "tags": [
+        "ux",
+        "bridge",
+        "fleet"
+      ]
+    }
+  ]
+}

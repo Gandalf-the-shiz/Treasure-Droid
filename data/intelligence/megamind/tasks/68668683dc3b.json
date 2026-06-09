@@ -1,0 +1,29 @@
+{
+  "id": "68668683dc3b",
+  "status": "approved_pending_implementation",
+  "approvedAt": "2026-06-04T00:39:01Z",
+  "source": "test",
+  "recommendation": {
+    "priority": "medium",
+    "area": "arena_selection",
+    "finding": "Arena v1 still ahead on cumulative mean \u2014 threshold gate may be filtering noise.",
+    "action": "Keep v1 for production hints; use v2 for diversification research only.",
+    "id": "68668683dc3b",
+    "status": "proposed",
+    "approveToken": "f4b596cedf63a60fe774",
+    "approveUrl": "http://127.0.0.1:8000/api/megamind/approve/68668683dc3b?token=f4b596cedf63a60fe774",
+    "reviewUrl": "http://127.0.0.1:8000/#/megamind?highlight=68668683dc3b"
+  },
+  "briefPath": "data\\intelligence\\megamind\\LATEST_APPROVED.md",
+  "cursorPromptPath": "data\\intelligence\\megamind\\CURRENT_AGENT_PROMPT.md",
+  "cursorLaunch": {
+    "promptPath": "data\\intelligence\\megamind\\CURRENT_AGENT_PROMPT.md",
+    "rulePath": ".cursor\\rules\\megamind-active-task.mdc",
+    "autoLaunch": "ide",
+    "ide": {
+      "opened": true,
+      "cursor": "C:\\Users\\nicho\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin\\cursor.cmd"
+    },
+    "composerHint": "In Cursor Agent, send: Implement the Megamind active task in .cursor/rules/megamind-active-task.mdc (or @CURRENT_AGENT_PROMPT.md)"
+  }
+}

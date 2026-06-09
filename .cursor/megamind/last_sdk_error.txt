@@ -1,0 +1,1 @@
+cursor-sdk requires a binary wheel; pip resolved the source distribution instead. Re-run with --only-binary=cursor-sdk (or remove --no-binary :all:) and ensure your platform has a matching wheel on PyPI. Supported platforms: macOS arm64/x64, Linux arm64/x64, Windows x64.

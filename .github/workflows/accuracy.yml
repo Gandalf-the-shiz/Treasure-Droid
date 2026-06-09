@@ -1,0 +1,100 @@
+name: Log Daily Accuracy Metrics
+
+on:
+  schedule:
+    # Run every day at 23:55 UTC (after US market close + fetch-history)
+    - cron: '55 23 * * *'
+  workflow_dispatch:   # allow manual trigger
+
+concurrency:
+  group: main-branch-writer
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  actions: write    # required to trigger auto-retrain.yml via the API
+
+jobs:
+  score-accuracy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Configure Git LFS
+        run: git lfs install
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Run accuracy scoring
+        run: python scripts/score-accuracy.py
+        continue-on-error: true   # don't fail the workflow if no predictions exist yet
+
+      - name: Commit accuracy reports
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add data/accuracy/ || true
+
+          if git diff --cached --quiet; then
+            echo "No changes to accuracy data."
+          else
+            git commit -m "chore: update accuracy metrics $(date -u +%Y-%m-%d)"
+            git pull --rebase --autostash origin main
+            git push
+          fi
+
+      - name: Check rolling accuracy and trigger retraining if needed
+        id: set_flag
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          flag=$(python - <<'EOF'
+          import json, sys
+          from datetime import datetime, timedelta, timezone
+
+          log_path  = "data/accuracy/accuracy-log.json"
+          threshold = 0.53   # below this → trigger auto-retrain
+          try:
+              with open(log_path) as f:
+                  data = json.load(f)
+              entries = data.get("entries", [])
+              if not entries:
+                  print("true"); sys.exit(0)
+              cutoff = datetime.now(timezone.utc) - timedelta(days=30)
+              recent = [
+                  e for e in entries
+                  if datetime.fromisoformat(e["date"].replace("Z", "+00:00")) >= cutoff
+              ]
+              if not recent:
+                  print("true"); sys.exit(0)
+              sample_size = sum(int(e.get("total", 0) or 0) for e in recent if e.get("hitRate") is not None)
+              correct = sum(int(e.get("correct", 0) or 0) for e in recent if e.get("hitRate") is not None)
+              hit_rate = (correct / sample_size) if sample_size > 0 else 0.0
+              import sys as _sys
+              print(f"Rolling 30-day accuracy: {hit_rate:.4f} ({correct}/{sample_size})", file=_sys.stderr)
+              print("true" if hit_rate < threshold else "false")
+          except Exception as exc:
+              import sys as _sys
+              print(f"Error reading accuracy log ({exc}); defaulting to false", file=_sys.stderr)
+              print("false")
+          EOF
+          )
+          echo "needs_retrain=$flag" >> "$GITHUB_OUTPUT"
+          if [ "$flag" = "true" ]; then
+            echo "Rolling accuracy is below threshold — triggering auto-retrain workflow."
+            gh workflow run auto-retrain.yml --repo "$GITHUB_REPOSITORY"
+          else
+            echo "Model accuracy is acceptable. No retraining needed."
+          fi

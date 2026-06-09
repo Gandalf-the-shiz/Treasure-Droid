@@ -1,0 +1,13 @@
+---
+description: Python script conventions — PYTHONPATH, arena safety, readiness gates
+globs:
+  - scripts/**/*.py
+---
+
+# Scripts conventions
+
+- Run from repo root with `PYTHONPATH=scripts` (see `scripts/daily_market_close.ps1`).
+- Arena CLI: pulse with `--version active`; **never** `--respawn` on v1/v2 (`is_frozen` blocks it).
+- Do not weaken `readiness` or live-trading gates in broker, paper-agent, or Robinhood bridge code.
+- Megamind/arena mutations: champion update in place; spawn challenger only for new feeds.
+- Prefer minimal diffs; match patterns in `scripts/intelligence/`.

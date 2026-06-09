@@ -1,0 +1,3596 @@
+{
+  "generatedAt": "2026-06-09T22:58:48Z",
+  "arenaVersion": "v1",
+  "nTraders": 100,
+  "panelSymbols": 1258,
+  "baselineSingleTrader": {
+    "traderId": -1,
+    "seed": 0,
+    "family": "single_champion",
+    "arenaVersion": "v1",
+    "selectionMode": "threshold_v1",
+    "returnPct": 0.0,
+    "nTrades": 0,
+    "nLong": 0,
+    "nShort": 0,
+    "shortEnabled": false,
+    "trades": [],
+    "portfolio": [],
+    "reasoning": "Arena V1 (threshold_v1): single_champion genome. Rules: top_k=5 kelly=0.5 shorts=off alt_scale=1.0. Threshold gate: proba>=0.6 pred_ret>=0.02."
+  },
+  "top10": [
+    {
+      "traderId": 7,
+      "family": "long_short_neutral",
+      "cumulativeReturnPct": 25.3484,
+      "equityUsd": 62674.2,
+      "nDays": 7,
+      "daily": [
+        {
+          "date": "2026-06-03",
+          "returnPct": 11.2231,
+          "nTrades": 3,
+          "nLong": 2,
+          "nShort": 1,
+          "trades": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0960266390587027,
+              "rationale": "ML +0.78",
+              "score": 0.7823
+            },
+            {
+              "symbol": "AREN",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0217558880582555,
+              "rationale": "ML +0.32",
+              "score": 0.3209
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.3623491467989561,
+              "rationale": "ML +1.96"
+            }
+          ],
+          "reasoning": "Arena V1 (v1): long_short_neutral genome. Rules: top_k=5 kelly=0.739 shorts=on alt_scale=0.612. Threshold gate: proba>=0.546 pred_ret>=0.014.   SDAWW long: model pred_ret +9.60%   AREN long: model pred_ret +2.18%   KWMWW short: model pred_ret -36.23%",
+          "portfolio": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "notionalUsd": 10608.34,
+              "weightPct": 21.22,
+              "modelPredRetPct": 9.603,
+              "unifiedRationale": "ML +0.78"
+            },
+            {
+              "symbol": "AREN",
+              "side": "long",
+              "notionalUsd": 10608.34,
+              "weightPct": 21.22,
+              "modelPredRetPct": 2.176,
+              "unifiedRationale": "ML +0.32"
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "notionalUsd": 12038.31,
+              "weightPct": 24.08,
+              "modelPredRetPct": -36.235,
+              "unifiedRationale": "ML +1.96"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-04",
+          "returnPct": 10.788,
+          "nTrades": 5,
+          "nLong": 4,
+          "nShort": 1,
+          "trades": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0960266390587027,
+              "rationale": "ML +0.78",
+              "score": 0.7823
+            },
+            {
+              "symbol": "MPU",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.053104028063432,
+              "rationale": "ML +0.57",
+              "score": 0.5677
+            },
+            {
+              "symbol": "KMRK",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0208106642226036,
+              "rationale": "ML +0.32",
+              "score": 0.3162
+            },
+            {
+              "symbol": "XXII",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0246086432874607,
+              "rationale": "ML +0.29",
+              "score": 0.2873
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.3623491467989561,
+              "rationale": "ML +1.96"
+            }
+          ],
+          "reasoning": "Arena V1 (v1): long_short_neutral genome. Rules: top_k=5 kelly=0.739 shorts=on alt_scale=0.612. Threshold gate: proba>=0.546 pred_ret>=0.014.   SDAWW long: model pred_ret +9.60%   MPU long: model pred_ret +5.31%   KMRK long: model pred_ret +2.08%   XXII long: model pred_ret +2.46%   KWMWW short: model pred_ret -36.23%",
+          "portfolio": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "notionalUsd": 5304.17,
+              "weightPct": 10.61,
+              "modelPredRetPct": 9.603,
+              "unifiedRationale": "ML +0.78"
+            },
+            {
+              "symbol": "MPU",
+              "side": "long",
+              "notionalUsd": 5304.17,
+              "weightPct": 10.61,
+              "modelPredRetPct": 5.31,
+              "unifiedRationale": "ML +0.57"
+            },
+            {
+              "symbol": "KMRK",
+              "side": "long",
+              "notionalUsd": 5304.17,
+              "weightPct": 10.61,
+              "modelPredRetPct": 2.081,
+              "unifiedRationale": "ML +0.32"
+            },
+            {
+              "symbol": "XXII",
+              "side": "long",
+              "notionalUsd": 5304.17,
+              "weightPct": 10.61,
+              "modelPredRetPct": 2.461,
+              "unifiedRationale": "ML +0.29"
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "notionalUsd": 12038.31,
+              "weightPct": 24.08,
+              "modelPredRetPct": -36.235,
+              "unifiedRationale": "ML +1.96"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-05",
+          "returnPct": 0.3428,
+          "nTrades": 1,
+          "nLong": 0,
+          "nShort": 1,
+          "trades": [
+            {
+              "symbol": "SDOT",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.0142365787009306,
+              "rationale": "ML +0.43"
+            }
+          ],
+          "reasoning": "Arena V1 (v1): long_short_neutral genome. Rules: top_k=5 kelly=0.739 shorts=on alt_scale=0.612. Threshold gate: proba>=0.546 pred_ret>=0.014.   SDOT short: model pred_ret -1.42%",
+          "portfolio": [
+            {
+              "symbol": "SDOT",
+              "side": "short",
+              "notionalUsd": 12038.31,
+              "weightPct": 24.08,
+              "modelPredRetPct": -1.424,
+              "unifiedRationale": "ML +0.43"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-06",
+          "returnPct": 0.3428,
+          "nTrades": 1,
+          "nLong": 0,
+          "nShort": 1,
+          "trades": [
+            {
+              "symbol": "SDOT",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.0142365787009306,
+              "rationale": "ML +0.43"
+            }
+          ],
+          "reasoning": "Arena V1 (v1): long_short_neutral genome. Rules: top_k=5 kelly=0.739 shorts=on alt_scale=0.612. Threshold gate: proba>=0.546 pred_ret>=0.014.   SDOT short: model pred_ret -1.42%",
+          "portfolio": [
+            {
+              "symbol": "SDOT",
+              "side": "short",
+              "notionalUsd": 12038.31,
+              "weightPct": 24.08,
+              "modelPredRetPct": -1.424,
+              "unifiedRationale": "ML +0.43"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-07",
+          "returnPct": 0.3428,
+          "nTrades": 1,
+          "nLong": 0,
+          "nShort": 1,
+          "trades": [
+            {
+              "symbol": "SDOT",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.0142365787009306,
+              "rationale": "ML +0.43"
+            }
+          ],
+          "reasoning": "Arena V1 (v1): long_short_neutral genome. Rules: top_k=5 kelly=0.739 shorts=on alt_scale=0.612. Threshold gate: proba>=0.546 pred_ret>=0.014.   SDOT short: model pred_ret -1.42%",
+          "portfolio": [
+            {
+              "symbol": "SDOT",
+              "side": "short",
+              "notionalUsd": 12038.31,
+              "weightPct": 24.08,
+              "modelPredRetPct": -1.424,
+              "unifiedRationale": "ML +0.43"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-08",
+          "returnPct": 0.3428,
+          "nTrades": 1,
+          "nLong": 0,
+          "nShort": 1,
+          "trades": [
+            {
+              "symbol": "SDOT",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.0142365787009306,
+              "rationale": "ML +0.43"
+            }
+          ],
+          "reasoning": "Arena V1 (v1): long_short_neutral genome. Rules: top_k=5 kelly=0.739 shorts=on alt_scale=0.612. Threshold gate: proba>=0.546 pred_ret>=0.014.   SDOT short: model pred_ret -1.42%",
+          "portfolio": [
+            {
+              "symbol": "SDOT",
+              "side": "short",
+              "notionalUsd": 12038.31,
+              "weightPct": 24.08,
+              "modelPredRetPct": -1.424,
+              "unifiedRationale": "ML +0.43"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-09",
+          "returnPct": 0.3428,
+          "nTrades": 1,
+          "nLong": 0,
+          "nShort": 1,
+          "trades": [
+            {
+              "symbol": "SDOT",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.0142365787009306,
+              "rationale": "ML +0.43"
+            }
+          ],
+          "reasoning": "Arena V1 (v1): long_short_neutral genome. Rules: top_k=5 kelly=0.739 shorts=on alt_scale=0.612. Threshold gate: proba>=0.546 pred_ret>=0.014.   SDOT short: model pred_ret -1.42%",
+          "portfolio": [
+            {
+              "symbol": "SDOT",
+              "side": "short",
+              "notionalUsd": 12038.31,
+              "weightPct": 24.08,
+              "modelPredRetPct": -1.424,
+              "unifiedRationale": "ML +0.43"
+            }
+          ]
+        }
+      ],
+      "genome": {
+        "family": "long_short_neutral",
+        "min_proba": 0.546,
+        "min_pred_ret": 0.014,
+        "short_enabled": true,
+        "short_frac": 0.362,
+        "top_k": 5,
+        "kelly": 0.739,
+        "alt_scale": 0.612,
+        "selection_mode": null,
+        "contrarian": false
+      },
+      "rank": 1,
+      "returnPct": 25.3484,
+      "dailyReturnPct": 0.3428
+    },
+    {
+      "traderId": 61,
+      "family": "low_vol",
+      "cumulativeReturnPct": 18.9098,
+      "equityUsd": 59454.89,
+      "nDays": 7,
+      "daily": [
+        {
+          "date": "2026-06-03",
+          "returnPct": 8.5164,
+          "nTrades": 3,
+          "nLong": 2,
+          "nShort": 1,
+          "trades": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0960266390587027,
+              "rationale": "ML +0.78",
+              "score": 0.7823
+            },
+            {
+              "symbol": "AREN",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0217558880582555,
+              "rationale": "ML +0.32",
+              "score": 0.3209
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.3623491467989561,
+              "rationale": "ML +1.96"
+            }
+          ],
+          "reasoning": "Arena V1 (v1): low_vol genome. Rules: top_k=5 kelly=0.57 shorts=on alt_scale=0.627. Threshold gate: proba>=0.524 pred_ret>=0.0111.   SDAWW long: model pred_ret +9.60%   AREN long: model pred_ret +2.18%   KWMWW short: model pred_ret -36.23%",
+          "portfolio": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "notionalUsd": 8297.77,
+              "weightPct": 16.6,
+              "modelPredRetPct": 9.603,
+              "unifiedRationale": "ML +0.78"
+            },
+            {
+              "symbol": "AREN",
+              "side": "long",
+              "notionalUsd": 8297.77,
+              "weightPct": 16.6,
+              "modelPredRetPct": 2.176,
+              "unifiedRationale": "ML +0.32"
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "notionalUsd": 9054.45,
+              "weightPct": 18.11,
+              "modelPredRetPct": -36.235,
+              "unifiedRationale": "ML +1.96"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-04",
+          "returnPct": 8.1761,
+          "nTrades": 5,
+          "nLong": 4,
+          "nShort": 1,
+          "trades": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0960266390587027,
+              "rationale": "ML +0.78",
+              "score": 0.7823
+            },
+            {
+              "symbol": "MPU",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.053104028063432,
+              "rationale": "ML +0.57",
+              "score": 0.5677
+            },
+            {
+              "symbol": "KMRK",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0208106642226036,
+              "rationale": "ML +0.32",
+              "score": 0.3162
+            },
+            {
+              "symbol": "XXII",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0246086432874607,
+              "rationale": "ML +0.29",
+              "score": 0.2873
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.3623491467989561,
+              "rationale": "ML +1.96"
+            }
+          ],
+          "reasoning": "Arena V1 (v1): low_vol genome. Rules: top_k=5 kelly=0.57 shorts=on alt_scale=0.627. Threshold gate: proba>=0.524 pred_ret>=0.0111.   SDAWW long: model pred_ret +9.60%   MPU long: model pred_ret +5.31%   KMRK long: model pred_ret +2.08%   XXII long: model pred_ret +2.46%   KWMWW short: model pred_ret -36.23%",
+          "portfolio": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "notionalUsd": 4148.89,
+              "weightPct": 8.3,
+              "modelPredRetPct": 9.603,
+              "unifiedRationale": "ML +0.78"
+            },
+            {
+              "symbol": "MPU",
+              "side": "long",
+              "notionalUsd": 4148.89,
+              "weightPct": 8.3,
+              "modelPredRetPct": 5.31,
+              "unifiedRationale": "ML +0.57"
+            },
+            {
+              "symbol": "KMRK",
+              "side": "long",
+              "notionalUsd": 4148.89,
+              "weightPct": 8.3,
+              "modelPredRetPct": 2.081,
+              "unifiedRationale": "ML +0.32"
+            },
+            {
+              "symbol": "XXII",
+              "side": "long",
+              "notionalUsd": 4148.89,
+              "weightPct": 8.3,
+              "modelPredRetPct": 2.461,
+              "unifiedRationale": "ML +0.29"
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "notionalUsd": 9054.45,
+              "weightPct": 18.11,
+              "modelPredRetPct": -36.235,
+              "unifiedRationale": "ML +1.96"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-05",
+          "returnPct": 0.2578,
+          "nTrades": 1,
+          "nLong": 0,
+          "nShort": 1,
+          "trades": [
+            {
+              "symbol": "SDOT",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.0142365787009306,
+              "rationale": "ML +0.43"
+            }
+          ],
+          "reasoning": "Arena V1 (v1): low_vol genome. Rules: top_k=5 kelly=0.57 shorts=on alt_scale=0.627. Threshold gate: proba>=0.524 pred_ret>=0.0111.   SDOT short: model pred_ret -1.42%",
+          "portfolio": [
+            {
+              "symbol": "SDOT",
+              "side": "short",
+              "notionalUsd": 9054.45,
+              "weightPct": 18.11,
+              "modelPredRetPct": -1.424,
+              "unifiedRationale": "ML +0.43"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-06",
+          "returnPct": 0.2578,
+          "nTrades": 1,
+          "nLong": 0,
+          "nShort": 1,
+          "trades": [
+            {
+              "symbol": "SDOT",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.0142365787009306,
+              "rationale": "ML +0.43"
+            }
+          ],
+          "reasoning": "Arena V1 (v1): low_vol genome. Rules: top_k=5 kelly=0.57 shorts=on alt_scale=0.627. Threshold gate: proba>=0.524 pred_ret>=0.0111.   SDOT short: model pred_ret -1.42%",
+          "portfolio": [
+            {
+              "symbol": "SDOT",
+              "side": "short",
+              "notionalUsd": 9054.45,
+              "weightPct": 18.11,
+              "modelPredRetPct": -1.424,
+              "unifiedRationale": "ML +0.43"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-07",
+          "returnPct": 0.2578,
+          "nTrades": 1,
+          "nLong": 0,
+          "nShort": 1,
+          "trades": [
+            {
+              "symbol": "SDOT",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.0142365787009306,
+              "rationale": "ML +0.43"
+            }
+          ],
+          "reasoning": "Arena V1 (v1): low_vol genome. Rules: top_k=5 kelly=0.57 shorts=on alt_scale=0.627. Threshold gate: proba>=0.524 pred_ret>=0.0111.   SDOT short: model pred_ret -1.42%",
+          "portfolio": [
+            {
+              "symbol": "SDOT",
+              "side": "short",
+              "notionalUsd": 9054.45,
+              "weightPct": 18.11,
+              "modelPredRetPct": -1.424,
+              "unifiedRationale": "ML +0.43"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-08",
+          "returnPct": 0.2578,
+          "nTrades": 1,
+          "nLong": 0,
+          "nShort": 1,
+          "trades": [
+            {
+              "symbol": "SDOT",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.0142365787009306,
+              "rationale": "ML +0.43"
+            }
+          ],
+          "reasoning": "Arena V1 (v1): low_vol genome. Rules: top_k=5 kelly=0.57 shorts=on alt_scale=0.627. Threshold gate: proba>=0.524 pred_ret>=0.0111.   SDOT short: model pred_ret -1.42%",
+          "portfolio": [
+            {
+              "symbol": "SDOT",
+              "side": "short",
+              "notionalUsd": 9054.45,
+              "weightPct": 18.11,
+              "modelPredRetPct": -1.424,
+              "unifiedRationale": "ML +0.43"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-09",
+          "returnPct": 0.2578,
+          "nTrades": 1,
+          "nLong": 0,
+          "nShort": 1,
+          "trades": [
+            {
+              "symbol": "SDOT",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.0142365787009306,
+              "rationale": "ML +0.43"
+            }
+          ],
+          "reasoning": "Arena V1 (v1): low_vol genome. Rules: top_k=5 kelly=0.57 shorts=on alt_scale=0.627. Threshold gate: proba>=0.524 pred_ret>=0.0111.   SDOT short: model pred_ret -1.42%",
+          "portfolio": [
+            {
+              "symbol": "SDOT",
+              "side": "short",
+              "notionalUsd": 9054.45,
+              "weightPct": 18.11,
+              "modelPredRetPct": -1.424,
+              "unifiedRationale": "ML +0.43"
+            }
+          ]
+        }
+      ],
+      "genome": {
+        "family": "low_vol",
+        "min_proba": 0.524,
+        "min_pred_ret": 0.0111,
+        "short_enabled": true,
+        "short_frac": 0.353,
+        "top_k": 5,
+        "kelly": 0.57,
+        "alt_scale": 0.627,
+        "selection_mode": null,
+        "contrarian": false
+      },
+      "rank": 2,
+      "returnPct": 18.9098,
+      "dailyReturnPct": 0.2578
+    },
+    {
+      "traderId": 2,
+      "family": "low_vol",
+      "cumulativeReturnPct": 16.8628,
+      "equityUsd": 58431.42,
+      "nDays": 7,
+      "daily": [
+        {
+          "date": "2026-06-03",
+          "returnPct": 8.4888,
+          "nTrades": 3,
+          "nLong": 1,
+          "nShort": 2,
+          "trades": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0960266390587027,
+              "rationale": "ML +0.78",
+              "score": 0.7823
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.3623491467989561,
+              "rationale": "ML +1.96"
+            },
+            {
+              "symbol": "LOTWW",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.0388738296317602,
+              "rationale": "ML +0.60"
+            }
+          ],
+          "reasoning": "Arena V1 (v1): low_vol genome. Rules: top_k=14 kelly=0.678 shorts=on alt_scale=1.062. Threshold gate: proba>=0.571 pred_ret>=0.0296.   SDAWW long: model pred_ret +9.60%   KWMWW short: model pred_ret -36.23%   LOTWW short: model pred_ret -3.89%",
+          "portfolio": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "notionalUsd": 17939.88,
+              "weightPct": 35.88,
+              "modelPredRetPct": 9.603,
+              "unifiedRationale": "ML +0.78"
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "notionalUsd": 6285.06,
+              "weightPct": 12.57,
+              "modelPredRetPct": -36.235,
+              "unifiedRationale": "ML +1.96"
+            },
+            {
+              "symbol": "LOTWW",
+              "side": "short",
+              "notionalUsd": 6285.06,
+              "weightPct": 12.57,
+              "modelPredRetPct": -3.887,
+              "unifiedRationale": "ML +0.60"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-04",
+          "returnPct": 7.7188,
+          "nTrades": 4,
+          "nLong": 2,
+          "nShort": 2,
+          "trades": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0960266390587027,
+              "rationale": "ML +0.78",
+              "score": 0.7823
+            },
+            {
+              "symbol": "MPU",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.053104028063432,
+              "rationale": "ML +0.57",
+              "score": 0.5677
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.3623491467989561,
+              "rationale": "ML +1.96"
+            },
+            {
+              "symbol": "LOTWW",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.0388738296317602,
+              "rationale": "ML +0.60"
+            }
+          ],
+          "reasoning": "Arena V1 (v1): low_vol genome. Rules: top_k=14 kelly=0.678 shorts=on alt_scale=1.062. Threshold gate: proba>=0.571 pred_ret>=0.0296.   SDAWW long: model pred_ret +9.60%   MPU long: model pred_ret +5.31%   KWMWW short: model pred_ret -36.23%   LOTWW short: model pred_ret -3.89%",
+          "portfolio": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "notionalUsd": 8969.94,
+              "weightPct": 17.94,
+              "modelPredRetPct": 9.603,
+              "unifiedRationale": "ML +0.78"
+            },
+            {
+              "symbol": "MPU",
+              "side": "long",
+              "notionalUsd": 8969.94,
+              "weightPct": 17.94,
+              "modelPredRetPct": 5.31,
+              "unifiedRationale": "ML +0.57"
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "notionalUsd": 6285.06,
+              "weightPct": 12.57,
+              "modelPredRetPct": -36.235,
+              "unifiedRationale": "ML +1.96"
+            },
+            {
+              "symbol": "LOTWW",
+              "side": "short",
+              "notionalUsd": 6285.06,
+              "weightPct": 12.57,
+              "modelPredRetPct": -3.887,
+              "unifiedRationale": "ML +0.60"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-05",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): low_vol genome. Rules: top_k=14 kelly=0.678 shorts=on alt_scale=1.062. Threshold gate: proba>=0.571 pred_ret>=0.0296.",
+          "portfolio": []
+        },
+        {
+          "date": "2026-06-06",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): low_vol genome. Rules: top_k=14 kelly=0.678 shorts=on alt_scale=1.062. Threshold gate: proba>=0.571 pred_ret>=0.0296.",
+          "portfolio": []
+        },
+        {
+          "date": "2026-06-07",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): low_vol genome. Rules: top_k=14 kelly=0.678 shorts=on alt_scale=1.062. Threshold gate: proba>=0.571 pred_ret>=0.0296.",
+          "portfolio": []
+        },
+        {
+          "date": "2026-06-08",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): low_vol genome. Rules: top_k=14 kelly=0.678 shorts=on alt_scale=1.062. Threshold gate: proba>=0.571 pred_ret>=0.0296.",
+          "portfolio": []
+        },
+        {
+          "date": "2026-06-09",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): low_vol genome. Rules: top_k=14 kelly=0.678 shorts=on alt_scale=1.062. Threshold gate: proba>=0.571 pred_ret>=0.0296.",
+          "portfolio": []
+        }
+      ],
+      "genome": {
+        "family": "low_vol",
+        "min_proba": 0.571,
+        "min_pred_ret": 0.0296,
+        "short_enabled": true,
+        "short_frac": 0.412,
+        "top_k": 14,
+        "kelly": 0.678,
+        "alt_scale": 1.062,
+        "selection_mode": null,
+        "contrarian": false
+      },
+      "rank": 3,
+      "returnPct": 16.8628,
+      "dailyReturnPct": 0.0
+    },
+    {
+      "traderId": 58,
+      "family": "long_short_neutral",
+      "cumulativeReturnPct": 16.5562,
+      "equityUsd": 58278.09,
+      "nDays": 7,
+      "daily": [
+        {
+          "date": "2026-06-03",
+          "returnPct": 7.7748,
+          "nTrades": 3,
+          "nLong": 2,
+          "nShort": 1,
+          "trades": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0960266390587027,
+              "rationale": "ML +0.78",
+              "score": 0.7823
+            },
+            {
+              "symbol": "AREN",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0217558880582555,
+              "rationale": "ML +0.32",
+              "score": 0.3209
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.3623491467989561,
+              "rationale": "ML +1.96"
+            }
+          ],
+          "reasoning": "Arena V1 (v1): long_short_neutral genome. Rules: top_k=5 kelly=0.759 shorts=on alt_scale=0.686. Threshold gate: proba>=0.52 pred_ret>=0.0078.   SDAWW long: model pred_ret +9.60%   AREN long: model pred_ret +2.18%   KWMWW short: model pred_ret -36.23%",
+          "portfolio": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "notionalUsd": 13986.47,
+              "weightPct": 27.97,
+              "modelPredRetPct": 9.603,
+              "unifiedRationale": "ML +0.78"
+            },
+            {
+              "symbol": "AREN",
+              "side": "long",
+              "notionalUsd": 13986.47,
+              "weightPct": 27.97,
+              "modelPredRetPct": 2.176,
+              "unifiedRationale": "ML +0.32"
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "notionalUsd": 6182.05,
+              "weightPct": 12.36,
+              "modelPredRetPct": -36.235,
+              "unifiedRationale": "ML +1.96"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-04",
+          "returnPct": 7.2012,
+          "nTrades": 5,
+          "nLong": 4,
+          "nShort": 1,
+          "trades": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0960266390587027,
+              "rationale": "ML +0.78",
+              "score": 0.7823
+            },
+            {
+              "symbol": "MPU",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.053104028063432,
+              "rationale": "ML +0.57",
+              "score": 0.5677
+            },
+            {
+              "symbol": "KMRK",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0208106642226036,
+              "rationale": "ML +0.32",
+              "score": 0.3162
+            },
+            {
+              "symbol": "XXII",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0246086432874607,
+              "rationale": "ML +0.29",
+              "score": 0.2873
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.3623491467989561,
+              "rationale": "ML +1.96"
+            }
+          ],
+          "reasoning": "Arena V1 (v1): long_short_neutral genome. Rules: top_k=5 kelly=0.759 shorts=on alt_scale=0.686. Threshold gate: proba>=0.52 pred_ret>=0.0078.   SDAWW long: model pred_ret +9.60%   MPU long: model pred_ret +5.31%   KMRK long: model pred_ret +2.08%   XXII long: model pred_ret +2.46%   KWMWW short: model pred_ret -36.23%",
+          "portfolio": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "notionalUsd": 6993.24,
+              "weightPct": 13.99,
+              "modelPredRetPct": 9.603,
+              "unifiedRationale": "ML +0.78"
+            },
+            {
+              "symbol": "MPU",
+              "side": "long",
+              "notionalUsd": 6993.24,
+              "weightPct": 13.99,
+              "modelPredRetPct": 5.31,
+              "unifiedRationale": "ML +0.57"
+            },
+            {
+              "symbol": "KMRK",
+              "side": "long",
+              "notionalUsd": 6993.24,
+              "weightPct": 13.99,
+              "modelPredRetPct": 2.081,
+              "unifiedRationale": "ML +0.32"
+            },
+            {
+              "symbol": "XXII",
+              "side": "long",
+              "notionalUsd": 6993.24,
+              "weightPct": 13.99,
+              "modelPredRetPct": 2.461,
+              "unifiedRationale": "ML +0.29"
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "notionalUsd": 6182.05,
+              "weightPct": 12.36,
+              "modelPredRetPct": -36.235,
+              "unifiedRationale": "ML +1.96"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-05",
+          "returnPct": 0.176,
+          "nTrades": 1,
+          "nLong": 0,
+          "nShort": 1,
+          "trades": [
+            {
+              "symbol": "SDOT",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.0142365787009306,
+              "rationale": "ML +0.43"
+            }
+          ],
+          "reasoning": "Arena V1 (v1): long_short_neutral genome. Rules: top_k=5 kelly=0.759 shorts=on alt_scale=0.686. Threshold gate: proba>=0.52 pred_ret>=0.0078.   SDOT short: model pred_ret -1.42%",
+          "portfolio": [
+            {
+              "symbol": "SDOT",
+              "side": "short",
+              "notionalUsd": 6182.05,
+              "weightPct": 12.36,
+              "modelPredRetPct": -1.424,
+              "unifiedRationale": "ML +0.43"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-06",
+          "returnPct": 0.176,
+          "nTrades": 1,
+          "nLong": 0,
+          "nShort": 1,
+          "trades": [
+            {
+              "symbol": "SDOT",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.0142365787009306,
+              "rationale": "ML +0.43"
+            }
+          ],
+          "reasoning": "Arena V1 (v1): long_short_neutral genome. Rules: top_k=5 kelly=0.759 shorts=on alt_scale=0.686. Threshold gate: proba>=0.52 pred_ret>=0.0078.   SDOT short: model pred_ret -1.42%",
+          "portfolio": [
+            {
+              "symbol": "SDOT",
+              "side": "short",
+              "notionalUsd": 6182.05,
+              "weightPct": 12.36,
+              "modelPredRetPct": -1.424,
+              "unifiedRationale": "ML +0.43"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-07",
+          "returnPct": 0.176,
+          "nTrades": 1,
+          "nLong": 0,
+          "nShort": 1,
+          "trades": [
+            {
+              "symbol": "SDOT",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.0142365787009306,
+              "rationale": "ML +0.43"
+            }
+          ],
+          "reasoning": "Arena V1 (v1): long_short_neutral genome. Rules: top_k=5 kelly=0.759 shorts=on alt_scale=0.686. Threshold gate: proba>=0.52 pred_ret>=0.0078.   SDOT short: model pred_ret -1.42%",
+          "portfolio": [
+            {
+              "symbol": "SDOT",
+              "side": "short",
+              "notionalUsd": 6182.05,
+              "weightPct": 12.36,
+              "modelPredRetPct": -1.424,
+              "unifiedRationale": "ML +0.43"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-08",
+          "returnPct": 0.176,
+          "nTrades": 1,
+          "nLong": 0,
+          "nShort": 1,
+          "trades": [
+            {
+              "symbol": "SDOT",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.0142365787009306,
+              "rationale": "ML +0.43"
+            }
+          ],
+          "reasoning": "Arena V1 (v1): long_short_neutral genome. Rules: top_k=5 kelly=0.759 shorts=on alt_scale=0.686. Threshold gate: proba>=0.52 pred_ret>=0.0078.   SDOT short: model pred_ret -1.42%",
+          "portfolio": [
+            {
+              "symbol": "SDOT",
+              "side": "short",
+              "notionalUsd": 6182.05,
+              "weightPct": 12.36,
+              "modelPredRetPct": -1.424,
+              "unifiedRationale": "ML +0.43"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-09",
+          "returnPct": 0.176,
+          "nTrades": 1,
+          "nLong": 0,
+          "nShort": 1,
+          "trades": [
+            {
+              "symbol": "SDOT",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.0142365787009306,
+              "rationale": "ML +0.43"
+            }
+          ],
+          "reasoning": "Arena V1 (v1): long_short_neutral genome. Rules: top_k=5 kelly=0.759 shorts=on alt_scale=0.686. Threshold gate: proba>=0.52 pred_ret>=0.0078.   SDOT short: model pred_ret -1.42%",
+          "portfolio": [
+            {
+              "symbol": "SDOT",
+              "side": "short",
+              "notionalUsd": 6182.05,
+              "weightPct": 12.36,
+              "modelPredRetPct": -1.424,
+              "unifiedRationale": "ML +0.43"
+            }
+          ]
+        }
+      ],
+      "genome": {
+        "family": "long_short_neutral",
+        "min_proba": 0.52,
+        "min_pred_ret": 0.0078,
+        "short_enabled": true,
+        "short_frac": 0.181,
+        "top_k": 5,
+        "kelly": 0.759,
+        "alt_scale": 0.686,
+        "selection_mode": null,
+        "contrarian": false
+      },
+      "rank": 4,
+      "returnPct": 16.5562,
+      "dailyReturnPct": 0.176
+    },
+    {
+      "traderId": 34,
+      "family": "short_bias",
+      "cumulativeReturnPct": 14.9888,
+      "equityUsd": 57494.4,
+      "nDays": 7,
+      "daily": [
+        {
+          "date": "2026-06-03",
+          "returnPct": 7.9007,
+          "nTrades": 3,
+          "nLong": 1,
+          "nShort": 2,
+          "trades": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0960266390587027,
+              "rationale": "ML +0.78",
+              "score": 0.7823
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.3623491467989561,
+              "rationale": "ML +1.96"
+            },
+            {
+              "symbol": "LOTWW",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.0388738296317602,
+              "rationale": "ML +0.60"
+            }
+          ],
+          "reasoning": "Arena V1 (v1): short_bias genome. Rules: top_k=15 kelly=0.797 shorts=on alt_scale=1.088. Threshold gate: proba>=0.545 pred_ret>=0.0303.   SDAWW long: model pred_ret +9.60%   KWMWW short: model pred_ret -36.23%   LOTWW short: model pred_ret -3.89%",
+          "portfolio": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "notionalUsd": 31023.22,
+              "weightPct": 62.05,
+              "modelPredRetPct": 9.603,
+              "unifiedRationale": "ML +0.78"
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "notionalUsd": 2420.89,
+              "weightPct": 4.84,
+              "modelPredRetPct": -36.235,
+              "unifiedRationale": "ML +1.96"
+            },
+            {
+              "symbol": "LOTWW",
+              "side": "short",
+              "notionalUsd": 2420.89,
+              "weightPct": 4.84,
+              "modelPredRetPct": -3.887,
+              "unifiedRationale": "ML +0.60"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-04",
+          "returnPct": 6.5691,
+          "nTrades": 4,
+          "nLong": 2,
+          "nShort": 2,
+          "trades": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0960266390587027,
+              "rationale": "ML +0.78",
+              "score": 0.7823
+            },
+            {
+              "symbol": "MPU",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.053104028063432,
+              "rationale": "ML +0.57",
+              "score": 0.5677
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.3623491467989561,
+              "rationale": "ML +1.96"
+            },
+            {
+              "symbol": "LOTWW",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.0388738296317602,
+              "rationale": "ML +0.60"
+            }
+          ],
+          "reasoning": "Arena V1 (v1): short_bias genome. Rules: top_k=15 kelly=0.797 shorts=on alt_scale=1.088. Threshold gate: proba>=0.545 pred_ret>=0.0303.   SDAWW long: model pred_ret +9.60%   MPU long: model pred_ret +5.31%   KWMWW short: model pred_ret -36.23%   LOTWW short: model pred_ret -3.89%",
+          "portfolio": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "notionalUsd": 15511.61,
+              "weightPct": 31.02,
+              "modelPredRetPct": 9.603,
+              "unifiedRationale": "ML +0.78"
+            },
+            {
+              "symbol": "MPU",
+              "side": "long",
+              "notionalUsd": 15511.61,
+              "weightPct": 31.02,
+              "modelPredRetPct": 5.31,
+              "unifiedRationale": "ML +0.57"
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "notionalUsd": 2420.89,
+              "weightPct": 4.84,
+              "modelPredRetPct": -36.235,
+              "unifiedRationale": "ML +1.96"
+            },
+            {
+              "symbol": "LOTWW",
+              "side": "short",
+              "notionalUsd": 2420.89,
+              "weightPct": 4.84,
+              "modelPredRetPct": -3.887,
+              "unifiedRationale": "ML +0.60"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-05",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): short_bias genome. Rules: top_k=15 kelly=0.797 shorts=on alt_scale=1.088. Threshold gate: proba>=0.545 pred_ret>=0.0303.",
+          "portfolio": []
+        },
+        {
+          "date": "2026-06-06",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): short_bias genome. Rules: top_k=15 kelly=0.797 shorts=on alt_scale=1.088. Threshold gate: proba>=0.545 pred_ret>=0.0303.",
+          "portfolio": []
+        },
+        {
+          "date": "2026-06-07",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): short_bias genome. Rules: top_k=15 kelly=0.797 shorts=on alt_scale=1.088. Threshold gate: proba>=0.545 pred_ret>=0.0303.",
+          "portfolio": []
+        },
+        {
+          "date": "2026-06-08",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): short_bias genome. Rules: top_k=15 kelly=0.797 shorts=on alt_scale=1.088. Threshold gate: proba>=0.545 pred_ret>=0.0303.",
+          "portfolio": []
+        },
+        {
+          "date": "2026-06-09",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): short_bias genome. Rules: top_k=15 kelly=0.797 shorts=on alt_scale=1.088. Threshold gate: proba>=0.545 pred_ret>=0.0303.",
+          "portfolio": []
+        }
+      ],
+      "genome": {
+        "family": "short_bias",
+        "min_proba": 0.545,
+        "min_pred_ret": 0.0303,
+        "short_enabled": true,
+        "short_frac": 0.135,
+        "top_k": 15,
+        "kelly": 0.797,
+        "alt_scale": 1.088,
+        "selection_mode": null,
+        "contrarian": false
+      },
+      "rank": 5,
+      "returnPct": 14.9888,
+      "dailyReturnPct": 0.0
+    },
+    {
+      "traderId": 87,
+      "family": "long_short_neutral",
+      "cumulativeReturnPct": 14.5483,
+      "equityUsd": 57274.17,
+      "nDays": 7,
+      "daily": [
+        {
+          "date": "2026-06-03",
+          "returnPct": 6.9679,
+          "nTrades": 3,
+          "nLong": 2,
+          "nShort": 1,
+          "trades": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0960266390587027,
+              "rationale": "ML +0.78",
+              "score": 0.7823
+            },
+            {
+              "symbol": "AREN",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0217558880582555,
+              "rationale": "ML +0.32",
+              "score": 0.3209
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.3623491467989561,
+              "rationale": "ML +1.96"
+            }
+          ],
+          "reasoning": "Arena V1 (v1): long_short_neutral genome. Rules: top_k=13 kelly=0.766 shorts=on alt_scale=1.039. Threshold gate: proba>=0.523 pred_ret>=0.0088.   SDAWW long: model pred_ret +9.60%   AREN long: model pred_ret +2.18%   KWMWW short: model pred_ret -36.23%",
+          "portfolio": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "notionalUsd": 14839.33,
+              "weightPct": 29.68,
+              "modelPredRetPct": 9.603,
+              "unifiedRationale": "ML +0.78"
+            },
+            {
+              "symbol": "AREN",
+              "side": "long",
+              "notionalUsd": 14839.33,
+              "weightPct": 29.68,
+              "modelPredRetPct": 2.176,
+              "unifiedRationale": "ML +0.32"
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "notionalUsd": 4791.33,
+              "weightPct": 9.58,
+              "modelPredRetPct": -36.235,
+              "unifiedRationale": "ML +1.96"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-04",
+          "returnPct": 6.3593,
+          "nTrades": 5,
+          "nLong": 4,
+          "nShort": 1,
+          "trades": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0960266390587027,
+              "rationale": "ML +0.78",
+              "score": 0.7823
+            },
+            {
+              "symbol": "MPU",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.053104028063432,
+              "rationale": "ML +0.57",
+              "score": 0.5677
+            },
+            {
+              "symbol": "KMRK",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0208106642226036,
+              "rationale": "ML +0.32",
+              "score": 0.3162
+            },
+            {
+              "symbol": "XXII",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0246086432874607,
+              "rationale": "ML +0.29",
+              "score": 0.2873
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.3623491467989561,
+              "rationale": "ML +1.96"
+            }
+          ],
+          "reasoning": "Arena V1 (v1): long_short_neutral genome. Rules: top_k=13 kelly=0.766 shorts=on alt_scale=1.039. Threshold gate: proba>=0.523 pred_ret>=0.0088.   SDAWW long: model pred_ret +9.60%   MPU long: model pred_ret +5.31%   KMRK long: model pred_ret +2.08%   XXII long: model pred_ret +2.46%   KWMWW short: model pred_ret -36.23%",
+          "portfolio": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "notionalUsd": 7419.67,
+              "weightPct": 14.84,
+              "modelPredRetPct": 9.603,
+              "unifiedRationale": "ML +0.78"
+            },
+            {
+              "symbol": "MPU",
+              "side": "long",
+              "notionalUsd": 7419.67,
+              "weightPct": 14.84,
+              "modelPredRetPct": 5.31,
+              "unifiedRationale": "ML +0.57"
+            },
+            {
+              "symbol": "KMRK",
+              "side": "long",
+              "notionalUsd": 7419.67,
+              "weightPct": 14.84,
+              "modelPredRetPct": 2.081,
+              "unifiedRationale": "ML +0.32"
+            },
+            {
+              "symbol": "XXII",
+              "side": "long",
+              "notionalUsd": 7419.67,
+              "weightPct": 14.84,
+              "modelPredRetPct": 2.461,
+              "unifiedRationale": "ML +0.29"
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "notionalUsd": 4791.33,
+              "weightPct": 9.58,
+              "modelPredRetPct": -36.235,
+              "unifiedRationale": "ML +1.96"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-05",
+          "returnPct": 0.1364,
+          "nTrades": 1,
+          "nLong": 0,
+          "nShort": 1,
+          "trades": [
+            {
+              "symbol": "SDOT",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.0142365787009306,
+              "rationale": "ML +0.43"
+            }
+          ],
+          "reasoning": "Arena V1 (v1): long_short_neutral genome. Rules: top_k=13 kelly=0.766 shorts=on alt_scale=1.039. Threshold gate: proba>=0.523 pred_ret>=0.0088.   SDOT short: model pred_ret -1.42%",
+          "portfolio": [
+            {
+              "symbol": "SDOT",
+              "side": "short",
+              "notionalUsd": 4791.33,
+              "weightPct": 9.58,
+              "modelPredRetPct": -1.424,
+              "unifiedRationale": "ML +0.43"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-06",
+          "returnPct": 0.1364,
+          "nTrades": 1,
+          "nLong": 0,
+          "nShort": 1,
+          "trades": [
+            {
+              "symbol": "SDOT",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.0142365787009306,
+              "rationale": "ML +0.43"
+            }
+          ],
+          "reasoning": "Arena V1 (v1): long_short_neutral genome. Rules: top_k=13 kelly=0.766 shorts=on alt_scale=1.039. Threshold gate: proba>=0.523 pred_ret>=0.0088.   SDOT short: model pred_ret -1.42%",
+          "portfolio": [
+            {
+              "symbol": "SDOT",
+              "side": "short",
+              "notionalUsd": 4791.33,
+              "weightPct": 9.58,
+              "modelPredRetPct": -1.424,
+              "unifiedRationale": "ML +0.43"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-07",
+          "returnPct": 0.1364,
+          "nTrades": 1,
+          "nLong": 0,
+          "nShort": 1,
+          "trades": [
+            {
+              "symbol": "SDOT",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.0142365787009306,
+              "rationale": "ML +0.43"
+            }
+          ],
+          "reasoning": "Arena V1 (v1): long_short_neutral genome. Rules: top_k=13 kelly=0.766 shorts=on alt_scale=1.039. Threshold gate: proba>=0.523 pred_ret>=0.0088.   SDOT short: model pred_ret -1.42%",
+          "portfolio": [
+            {
+              "symbol": "SDOT",
+              "side": "short",
+              "notionalUsd": 4791.33,
+              "weightPct": 9.58,
+              "modelPredRetPct": -1.424,
+              "unifiedRationale": "ML +0.43"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-08",
+          "returnPct": 0.1364,
+          "nTrades": 1,
+          "nLong": 0,
+          "nShort": 1,
+          "trades": [
+            {
+              "symbol": "SDOT",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.0142365787009306,
+              "rationale": "ML +0.43"
+            }
+          ],
+          "reasoning": "Arena V1 (v1): long_short_neutral genome. Rules: top_k=13 kelly=0.766 shorts=on alt_scale=1.039. Threshold gate: proba>=0.523 pred_ret>=0.0088.   SDOT short: model pred_ret -1.42%",
+          "portfolio": [
+            {
+              "symbol": "SDOT",
+              "side": "short",
+              "notionalUsd": 4791.33,
+              "weightPct": 9.58,
+              "modelPredRetPct": -1.424,
+              "unifiedRationale": "ML +0.43"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-09",
+          "returnPct": 0.1364,
+          "nTrades": 1,
+          "nLong": 0,
+          "nShort": 1,
+          "trades": [
+            {
+              "symbol": "SDOT",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.0142365787009306,
+              "rationale": "ML +0.43"
+            }
+          ],
+          "reasoning": "Arena V1 (v1): long_short_neutral genome. Rules: top_k=13 kelly=0.766 shorts=on alt_scale=1.039. Threshold gate: proba>=0.523 pred_ret>=0.0088.   SDOT short: model pred_ret -1.42%",
+          "portfolio": [
+            {
+              "symbol": "SDOT",
+              "side": "short",
+              "notionalUsd": 4791.33,
+              "weightPct": 9.58,
+              "modelPredRetPct": -1.424,
+              "unifiedRationale": "ML +0.43"
+            }
+          ]
+        }
+      ],
+      "genome": {
+        "family": "long_short_neutral",
+        "min_proba": 0.523,
+        "min_pred_ret": 0.0088,
+        "short_enabled": true,
+        "short_frac": 0.139,
+        "top_k": 13,
+        "kelly": 0.766,
+        "alt_scale": 1.039,
+        "selection_mode": null,
+        "contrarian": false
+      },
+      "rank": 6,
+      "returnPct": 14.5483,
+      "dailyReturnPct": 0.1364
+    },
+    {
+      "traderId": 53,
+      "family": "momentum_long",
+      "cumulativeReturnPct": 12.936,
+      "equityUsd": 56468.0,
+      "nDays": 7,
+      "daily": [
+        {
+          "date": "2026-06-03",
+          "returnPct": 6.2902,
+          "nTrades": 4,
+          "nLong": 2,
+          "nShort": 2,
+          "trades": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0960266390587027,
+              "rationale": "ML +0.78",
+              "score": 0.7823
+            },
+            {
+              "symbol": "AREN",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0217558880582555,
+              "rationale": "ML +0.32",
+              "score": 0.3209
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.3623491467989561,
+              "rationale": "ML +1.96"
+            },
+            {
+              "symbol": "LOTWW",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.0388738296317602,
+              "rationale": "ML +0.60"
+            }
+          ],
+          "reasoning": "Arena V1 (v1): momentum_long genome. Rules: top_k=8 kelly=0.651 shorts=on alt_scale=0.709. Threshold gate: proba>=0.569 pred_ret>=0.0213.   SDAWW long: model pred_ret +9.60%   AREN long: model pred_ret +2.18%   KWMWW short: model pred_ret -36.23%   LOTWW short: model pred_ret -3.89%",
+          "portfolio": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "notionalUsd": 9638.05,
+              "weightPct": 19.28,
+              "modelPredRetPct": 9.603,
+              "unifiedRationale": "ML +0.78"
+            },
+            {
+              "symbol": "AREN",
+              "side": "long",
+              "notionalUsd": 9638.05,
+              "weightPct": 19.28,
+              "modelPredRetPct": 2.176,
+              "unifiedRationale": "ML +0.32"
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "notionalUsd": 5009.45,
+              "weightPct": 10.02,
+              "modelPredRetPct": -36.235,
+              "unifiedRationale": "ML +1.96"
+            },
+            {
+              "symbol": "LOTWW",
+              "side": "short",
+              "notionalUsd": 5009.45,
+              "weightPct": 10.02,
+              "modelPredRetPct": -3.887,
+              "unifiedRationale": "ML +0.60"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-04",
+          "returnPct": 6.2525,
+          "nTrades": 5,
+          "nLong": 3,
+          "nShort": 2,
+          "trades": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0960266390587027,
+              "rationale": "ML +0.78",
+              "score": 0.7823
+            },
+            {
+              "symbol": "MPU",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.053104028063432,
+              "rationale": "ML +0.57",
+              "score": 0.5677
+            },
+            {
+              "symbol": "XXII",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0246086432874607,
+              "rationale": "ML +0.29",
+              "score": 0.2873
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.3623491467989561,
+              "rationale": "ML +1.96"
+            },
+            {
+              "symbol": "LOTWW",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.0388738296317602,
+              "rationale": "ML +0.60"
+            }
+          ],
+          "reasoning": "Arena V1 (v1): momentum_long genome. Rules: top_k=8 kelly=0.651 shorts=on alt_scale=0.709. Threshold gate: proba>=0.569 pred_ret>=0.0213.   SDAWW long: model pred_ret +9.60%   MPU long: model pred_ret +5.31%   XXII long: model pred_ret +2.46%   KWMWW short: model pred_ret -36.23%   LOTWW short: model pred_ret -3.89%",
+          "portfolio": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "notionalUsd": 6425.37,
+              "weightPct": 12.85,
+              "modelPredRetPct": 9.603,
+              "unifiedRationale": "ML +0.78"
+            },
+            {
+              "symbol": "MPU",
+              "side": "long",
+              "notionalUsd": 6425.37,
+              "weightPct": 12.85,
+              "modelPredRetPct": 5.31,
+              "unifiedRationale": "ML +0.57"
+            },
+            {
+              "symbol": "XXII",
+              "side": "long",
+              "notionalUsd": 6425.37,
+              "weightPct": 12.85,
+              "modelPredRetPct": 2.461,
+              "unifiedRationale": "ML +0.29"
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "notionalUsd": 5009.45,
+              "weightPct": 10.02,
+              "modelPredRetPct": -36.235,
+              "unifiedRationale": "ML +1.96"
+            },
+            {
+              "symbol": "LOTWW",
+              "side": "short",
+              "notionalUsd": 5009.45,
+              "weightPct": 10.02,
+              "modelPredRetPct": -3.887,
+              "unifiedRationale": "ML +0.60"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-05",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): momentum_long genome. Rules: top_k=8 kelly=0.651 shorts=on alt_scale=0.709. Threshold gate: proba>=0.569 pred_ret>=0.0213.",
+          "portfolio": []
+        },
+        {
+          "date": "2026-06-06",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): momentum_long genome. Rules: top_k=8 kelly=0.651 shorts=on alt_scale=0.709. Threshold gate: proba>=0.569 pred_ret>=0.0213.",
+          "portfolio": []
+        },
+        {
+          "date": "2026-06-07",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): momentum_long genome. Rules: top_k=8 kelly=0.651 shorts=on alt_scale=0.709. Threshold gate: proba>=0.569 pred_ret>=0.0213.",
+          "portfolio": []
+        },
+        {
+          "date": "2026-06-08",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): momentum_long genome. Rules: top_k=8 kelly=0.651 shorts=on alt_scale=0.709. Threshold gate: proba>=0.569 pred_ret>=0.0213.",
+          "portfolio": []
+        },
+        {
+          "date": "2026-06-09",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): momentum_long genome. Rules: top_k=8 kelly=0.651 shorts=on alt_scale=0.709. Threshold gate: proba>=0.569 pred_ret>=0.0213.",
+          "portfolio": []
+        }
+      ],
+      "genome": {
+        "family": "momentum_long",
+        "min_proba": 0.569,
+        "min_pred_ret": 0.0213,
+        "short_enabled": true,
+        "short_frac": 0.342,
+        "top_k": 8,
+        "kelly": 0.651,
+        "alt_scale": 0.709,
+        "selection_mode": null,
+        "contrarian": false
+      },
+      "rank": 7,
+      "returnPct": 12.936,
+      "dailyReturnPct": 0.0
+    },
+    {
+      "traderId": 64,
+      "family": "long_short_neutral",
+      "cumulativeReturnPct": 12.659,
+      "equityUsd": 56329.52,
+      "nDays": 7,
+      "daily": [
+        {
+          "date": "2026-06-03",
+          "returnPct": 5.9417,
+          "nTrades": 3,
+          "nLong": 2,
+          "nShort": 1,
+          "trades": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0960266390587027,
+              "rationale": "ML +0.78",
+              "score": 0.7823
+            },
+            {
+              "symbol": "AREN",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0217558880582555,
+              "rationale": "ML +0.32",
+              "score": 0.3209
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.3623491467989561,
+              "rationale": "ML +1.96"
+            }
+          ],
+          "reasoning": "Arena V1 (v1): long_short_neutral genome. Rules: top_k=8 kelly=0.611 shorts=on alt_scale=1.025. Threshold gate: proba>=0.521 pred_ret>=0.0181.   SDAWW long: model pred_ret +9.60%   AREN long: model pred_ret +2.18%   KWMWW short: model pred_ret -36.23%",
+          "portfolio": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "notionalUsd": 11520.4,
+              "weightPct": 23.04,
+              "modelPredRetPct": 9.603,
+              "unifiedRationale": "ML +0.78"
+            },
+            {
+              "symbol": "AREN",
+              "side": "long",
+              "notionalUsd": 11520.4,
+              "weightPct": 23.04,
+              "modelPredRetPct": 2.176,
+              "unifiedRationale": "ML +0.32"
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "notionalUsd": 4454.19,
+              "weightPct": 8.91,
+              "modelPredRetPct": -36.235,
+              "unifiedRationale": "ML +1.96"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-04",
+          "returnPct": 5.4692,
+          "nTrades": 5,
+          "nLong": 4,
+          "nShort": 1,
+          "trades": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0960266390587027,
+              "rationale": "ML +0.78",
+              "score": 0.7823
+            },
+            {
+              "symbol": "MPU",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.053104028063432,
+              "rationale": "ML +0.57",
+              "score": 0.5677
+            },
+            {
+              "symbol": "KMRK",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0208106642226036,
+              "rationale": "ML +0.32",
+              "score": 0.3162
+            },
+            {
+              "symbol": "XXII",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0246086432874607,
+              "rationale": "ML +0.29",
+              "score": 0.2873
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.3623491467989561,
+              "rationale": "ML +1.96"
+            }
+          ],
+          "reasoning": "Arena V1 (v1): long_short_neutral genome. Rules: top_k=8 kelly=0.611 shorts=on alt_scale=1.025. Threshold gate: proba>=0.521 pred_ret>=0.0181.   SDAWW long: model pred_ret +9.60%   MPU long: model pred_ret +5.31%   KMRK long: model pred_ret +2.08%   XXII long: model pred_ret +2.46%   KWMWW short: model pred_ret -36.23%",
+          "portfolio": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "notionalUsd": 5760.2,
+              "weightPct": 11.52,
+              "modelPredRetPct": 9.603,
+              "unifiedRationale": "ML +0.78"
+            },
+            {
+              "symbol": "MPU",
+              "side": "long",
+              "notionalUsd": 5760.2,
+              "weightPct": 11.52,
+              "modelPredRetPct": 5.31,
+              "unifiedRationale": "ML +0.57"
+            },
+            {
+              "symbol": "KMRK",
+              "side": "long",
+              "notionalUsd": 5760.2,
+              "weightPct": 11.52,
+              "modelPredRetPct": 2.081,
+              "unifiedRationale": "ML +0.32"
+            },
+            {
+              "symbol": "XXII",
+              "side": "long",
+              "notionalUsd": 5760.2,
+              "weightPct": 11.52,
+              "modelPredRetPct": 2.461,
+              "unifiedRationale": "ML +0.29"
+            },
+            {
+              "symbol": "KWMWW",
+              "side": "short",
+              "notionalUsd": 4454.19,
+              "weightPct": 8.91,
+              "modelPredRetPct": -36.235,
+              "unifiedRationale": "ML +1.96"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-05",
+          "returnPct": 0.1647,
+          "nTrades": 1,
+          "nLong": 0,
+          "nShort": 1,
+          "trades": [
+            {
+              "symbol": "JDZG",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.0184877585232524,
+              "rationale": "ML +0.43"
+            }
+          ],
+          "reasoning": "Arena V1 (v1): long_short_neutral genome. Rules: top_k=8 kelly=0.611 shorts=on alt_scale=1.025. Threshold gate: proba>=0.521 pred_ret>=0.0181.   JDZG short: model pred_ret -1.85%",
+          "portfolio": [
+            {
+              "symbol": "JDZG",
+              "side": "short",
+              "notionalUsd": 4454.19,
+              "weightPct": 8.91,
+              "modelPredRetPct": -1.849,
+              "unifiedRationale": "ML +0.43"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-06",
+          "returnPct": 0.1647,
+          "nTrades": 1,
+          "nLong": 0,
+          "nShort": 1,
+          "trades": [
+            {
+              "symbol": "JDZG",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.0184877585232524,
+              "rationale": "ML +0.43"
+            }
+          ],
+          "reasoning": "Arena V1 (v1): long_short_neutral genome. Rules: top_k=8 kelly=0.611 shorts=on alt_scale=1.025. Threshold gate: proba>=0.521 pred_ret>=0.0181.   JDZG short: model pred_ret -1.85%",
+          "portfolio": [
+            {
+              "symbol": "JDZG",
+              "side": "short",
+              "notionalUsd": 4454.19,
+              "weightPct": 8.91,
+              "modelPredRetPct": -1.849,
+              "unifiedRationale": "ML +0.43"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-07",
+          "returnPct": 0.1647,
+          "nTrades": 1,
+          "nLong": 0,
+          "nShort": 1,
+          "trades": [
+            {
+              "symbol": "JDZG",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.0184877585232524,
+              "rationale": "ML +0.43"
+            }
+          ],
+          "reasoning": "Arena V1 (v1): long_short_neutral genome. Rules: top_k=8 kelly=0.611 shorts=on alt_scale=1.025. Threshold gate: proba>=0.521 pred_ret>=0.0181.   JDZG short: model pred_ret -1.85%",
+          "portfolio": [
+            {
+              "symbol": "JDZG",
+              "side": "short",
+              "notionalUsd": 4454.19,
+              "weightPct": 8.91,
+              "modelPredRetPct": -1.849,
+              "unifiedRationale": "ML +0.43"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-08",
+          "returnPct": 0.1647,
+          "nTrades": 1,
+          "nLong": 0,
+          "nShort": 1,
+          "trades": [
+            {
+              "symbol": "JDZG",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.0184877585232524,
+              "rationale": "ML +0.43"
+            }
+          ],
+          "reasoning": "Arena V1 (v1): long_short_neutral genome. Rules: top_k=8 kelly=0.611 shorts=on alt_scale=1.025. Threshold gate: proba>=0.521 pred_ret>=0.0181.   JDZG short: model pred_ret -1.85%",
+          "portfolio": [
+            {
+              "symbol": "JDZG",
+              "side": "short",
+              "notionalUsd": 4454.19,
+              "weightPct": 8.91,
+              "modelPredRetPct": -1.849,
+              "unifiedRationale": "ML +0.43"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-09",
+          "returnPct": 0.1647,
+          "nTrades": 1,
+          "nLong": 0,
+          "nShort": 1,
+          "trades": [
+            {
+              "symbol": "JDZG",
+              "side": "short",
+              "position_effect": "open",
+              "ret": -0.0184877585232524,
+              "rationale": "ML +0.43"
+            }
+          ],
+          "reasoning": "Arena V1 (v1): long_short_neutral genome. Rules: top_k=8 kelly=0.611 shorts=on alt_scale=1.025. Threshold gate: proba>=0.521 pred_ret>=0.0181.   JDZG short: model pred_ret -1.85%",
+          "portfolio": [
+            {
+              "symbol": "JDZG",
+              "side": "short",
+              "notionalUsd": 4454.19,
+              "weightPct": 8.91,
+              "modelPredRetPct": -1.849,
+              "unifiedRationale": "ML +0.43"
+            }
+          ]
+        }
+      ],
+      "genome": {
+        "family": "long_short_neutral",
+        "min_proba": 0.521,
+        "min_pred_ret": 0.0181,
+        "short_enabled": true,
+        "short_frac": 0.162,
+        "top_k": 8,
+        "kelly": 0.611,
+        "alt_scale": 1.025,
+        "selection_mode": null,
+        "contrarian": false
+      },
+      "rank": 8,
+      "returnPct": 12.659,
+      "dailyReturnPct": 0.1647
+    },
+    {
+      "traderId": 93,
+      "family": "contrarian",
+      "cumulativeReturnPct": 12.6376,
+      "equityUsd": 56318.78,
+      "nDays": 7,
+      "daily": [
+        {
+          "date": "2026-06-03",
+          "returnPct": 6.9053,
+          "nTrades": 1,
+          "nLong": 1,
+          "nShort": 0,
+          "trades": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0960266390587027,
+              "rationale": "ML +0.78",
+              "score": -0.7823
+            }
+          ],
+          "reasoning": "Arena V1 (v1): contrarian genome. Rules: top_k=11 kelly=0.799 shorts=off alt_scale=0.827. Threshold gate: proba>=0.538 pred_ret>=0.0289. Contrarian: inverted unified score.   SDAWW long: model pred_ret +9.60%",
+          "portfolio": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "notionalUsd": 35955.0,
+              "weightPct": 71.91,
+              "modelPredRetPct": 9.603,
+              "unifiedRationale": "ML +0.78"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-04",
+          "returnPct": 5.362,
+          "nTrades": 2,
+          "nLong": 2,
+          "nShort": 0,
+          "trades": [
+            {
+              "symbol": "MPU",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.053104028063432,
+              "rationale": "ML +0.57",
+              "score": -0.5677
+            },
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0960266390587027,
+              "rationale": "ML +0.78",
+              "score": -0.7823
+            }
+          ],
+          "reasoning": "Arena V1 (v1): contrarian genome. Rules: top_k=11 kelly=0.799 shorts=off alt_scale=0.827. Threshold gate: proba>=0.538 pred_ret>=0.0289. Contrarian: inverted unified score.   MPU long: model pred_ret +5.31%   SDAWW long: model pred_ret +9.60%",
+          "portfolio": [
+            {
+              "symbol": "MPU",
+              "side": "long",
+              "notionalUsd": 17977.5,
+              "weightPct": 35.95,
+              "modelPredRetPct": 5.31,
+              "unifiedRationale": "ML +0.57"
+            },
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "notionalUsd": 17977.5,
+              "weightPct": 35.95,
+              "modelPredRetPct": 9.603,
+              "unifiedRationale": "ML +0.78"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-05",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): contrarian genome. Rules: top_k=11 kelly=0.799 shorts=off alt_scale=0.827. Threshold gate: proba>=0.538 pred_ret>=0.0289. Contrarian: inverted unified score.",
+          "portfolio": []
+        },
+        {
+          "date": "2026-06-06",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): contrarian genome. Rules: top_k=11 kelly=0.799 shorts=off alt_scale=0.827. Threshold gate: proba>=0.538 pred_ret>=0.0289. Contrarian: inverted unified score.",
+          "portfolio": []
+        },
+        {
+          "date": "2026-06-07",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): contrarian genome. Rules: top_k=11 kelly=0.799 shorts=off alt_scale=0.827. Threshold gate: proba>=0.538 pred_ret>=0.0289. Contrarian: inverted unified score.",
+          "portfolio": []
+        },
+        {
+          "date": "2026-06-08",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): contrarian genome. Rules: top_k=11 kelly=0.799 shorts=off alt_scale=0.827. Threshold gate: proba>=0.538 pred_ret>=0.0289. Contrarian: inverted unified score.",
+          "portfolio": []
+        },
+        {
+          "date": "2026-06-09",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): contrarian genome. Rules: top_k=11 kelly=0.799 shorts=off alt_scale=0.827. Threshold gate: proba>=0.538 pred_ret>=0.0289. Contrarian: inverted unified score.",
+          "portfolio": []
+        }
+      ],
+      "genome": {
+        "family": "contrarian",
+        "min_proba": 0.538,
+        "min_pred_ret": 0.0289,
+        "short_enabled": false,
+        "short_frac": 0.0,
+        "top_k": 11,
+        "kelly": 0.799,
+        "alt_scale": 0.827,
+        "selection_mode": null,
+        "contrarian": true
+      },
+      "rank": 9,
+      "returnPct": 12.6376,
+      "dailyReturnPct": 0.0
+    },
+    {
+      "traderId": 76,
+      "family": "ml_edge",
+      "cumulativeReturnPct": 12.1497,
+      "equityUsd": 56074.84,
+      "nDays": 7,
+      "daily": [
+        {
+          "date": "2026-06-03",
+          "returnPct": 6.646,
+          "nTrades": 1,
+          "nLong": 1,
+          "nShort": 0,
+          "trades": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0960266390587027,
+              "rationale": "ML +0.78",
+              "score": 0.7823
+            }
+          ],
+          "reasoning": "Arena V1 (v1): ml_edge genome. Rules: top_k=7 kelly=0.769 shorts=off alt_scale=1.175. Threshold gate: proba>=0.617 pred_ret>=0.0251.   SDAWW long: model pred_ret +9.60%",
+          "portfolio": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "notionalUsd": 34605.0,
+              "weightPct": 69.21,
+              "modelPredRetPct": 9.603,
+              "unifiedRationale": "ML +0.78"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-04",
+          "returnPct": 5.1607,
+          "nTrades": 2,
+          "nLong": 2,
+          "nShort": 0,
+          "trades": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.0960266390587027,
+              "rationale": "ML +0.78",
+              "score": 0.7823
+            },
+            {
+              "symbol": "MPU",
+              "side": "long",
+              "position_effect": "open",
+              "ret": 0.053104028063432,
+              "rationale": "ML +0.57",
+              "score": 0.5677
+            }
+          ],
+          "reasoning": "Arena V1 (v1): ml_edge genome. Rules: top_k=7 kelly=0.769 shorts=off alt_scale=1.175. Threshold gate: proba>=0.617 pred_ret>=0.0251.   SDAWW long: model pred_ret +9.60%   MPU long: model pred_ret +5.31%",
+          "portfolio": [
+            {
+              "symbol": "SDAWW",
+              "side": "long",
+              "notionalUsd": 17302.5,
+              "weightPct": 34.61,
+              "modelPredRetPct": 9.603,
+              "unifiedRationale": "ML +0.78"
+            },
+            {
+              "symbol": "MPU",
+              "side": "long",
+              "notionalUsd": 17302.5,
+              "weightPct": 34.61,
+              "modelPredRetPct": 5.31,
+              "unifiedRationale": "ML +0.57"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-05",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): ml_edge genome. Rules: top_k=7 kelly=0.769 shorts=off alt_scale=1.175. Threshold gate: proba>=0.617 pred_ret>=0.0251.",
+          "portfolio": []
+        },
+        {
+          "date": "2026-06-06",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): ml_edge genome. Rules: top_k=7 kelly=0.769 shorts=off alt_scale=1.175. Threshold gate: proba>=0.617 pred_ret>=0.0251.",
+          "portfolio": []
+        },
+        {
+          "date": "2026-06-07",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): ml_edge genome. Rules: top_k=7 kelly=0.769 shorts=off alt_scale=1.175. Threshold gate: proba>=0.617 pred_ret>=0.0251.",
+          "portfolio": []
+        },
+        {
+          "date": "2026-06-08",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): ml_edge genome. Rules: top_k=7 kelly=0.769 shorts=off alt_scale=1.175. Threshold gate: proba>=0.617 pred_ret>=0.0251.",
+          "portfolio": []
+        },
+        {
+          "date": "2026-06-09",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): ml_edge genome. Rules: top_k=7 kelly=0.769 shorts=off alt_scale=1.175. Threshold gate: proba>=0.617 pred_ret>=0.0251.",
+          "portfolio": []
+        }
+      ],
+      "genome": {
+        "family": "ml_edge",
+        "min_proba": 0.617,
+        "min_pred_ret": 0.0251,
+        "short_enabled": false,
+        "short_frac": 0.0,
+        "top_k": 7,
+        "kelly": 0.769,
+        "alt_scale": 1.175,
+        "selection_mode": null,
+        "contrarian": false
+      },
+      "rank": 10,
+      "returnPct": 12.1497,
+      "dailyReturnPct": 0.0
+    }
+  ],
+  "bottom5": [
+    {
+      "traderId": 78,
+      "family": "crowd_follow",
+      "cumulativeReturnPct": 0.0,
+      "equityUsd": 50000.0,
+      "nDays": 7,
+      "daily": [
+        {
+          "date": "2026-06-03",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): crowd_follow genome. Rules: top_k=5 kelly=0.401 shorts=off alt_scale=0.918. Threshold gate: proba>=0.656 pred_ret>=0.0162.",
+          "portfolio": []
+        },
+        {
+          "date": "2026-06-04",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): crowd_follow genome. Rules: top_k=5 kelly=0.401 shorts=off alt_scale=0.918. Threshold gate: proba>=0.656 pred_ret>=0.0162.",
+          "portfolio": []
+        },
+        {
+          "date": "2026-06-05",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): crowd_follow genome. Rules: top_k=5 kelly=0.401 shorts=off alt_scale=0.918. Threshold gate: proba>=0.656 pred_ret>=0.0162.",
+          "portfolio": []
+        },
+        {
+          "date": "2026-06-06",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): crowd_follow genome. Rules: top_k=5 kelly=0.401 shorts=off alt_scale=0.918. Threshold gate: proba>=0.656 pred_ret>=0.0162.",
+          "portfolio": []
+        },
+        {
+          "date": "2026-06-07",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): crowd_follow genome. Rules: top_k=5 kelly=0.401 shorts=off alt_scale=0.918. Threshold gate: proba>=0.656 pred_ret>=0.0162.",
+          "portfolio": []
+        },
+        {
+          "date": "2026-06-08",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): crowd_follow genome. Rules: top_k=5 kelly=0.401 shorts=off alt_scale=0.918. Threshold gate: proba>=0.656 pred_ret>=0.0162.",
+          "portfolio": []
+        },
+        {
+          "date": "2026-06-09",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): crowd_follow genome. Rules: top_k=5 kelly=0.401 shorts=off alt_scale=0.918. Threshold gate: proba>=0.656 pred_ret>=0.0162.",
+          "portfolio": []
+        }
+      ],
+      "genome": {
+        "family": "crowd_follow",
+        "min_proba": 0.656,
+        "min_pred_ret": 0.0162,
+        "short_enabled": false,
+        "short_frac": 0.0,
+        "top_k": 5,
+        "kelly": 0.401,
+        "alt_scale": 0.918,
+        "selection_mode": null,
+        "contrarian": false
+      },
+      "rank": 96
+    },
+    {
+      "traderId": 10,
+      "family": "contrarian",
+      "cumulativeReturnPct": 0.0,
+      "equityUsd": 50000.0,
+      "nDays": 7,
+      "daily": [
+        {
+          "date": "2026-06-03",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): contrarian genome. Rules: top_k=8 kelly=0.336 shorts=off alt_scale=0.682. Threshold gate: proba>=0.68 pred_ret>=0.0061. Contrarian: inverted unified score.",
+          "portfolio": []
+        },
+        {
+          "date": "2026-06-04",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): contrarian genome. Rules: top_k=8 kelly=0.336 shorts=off alt_scale=0.682. Threshold gate: proba>=0.68 pred_ret>=0.0061. Contrarian: inverted unified score.",
+          "portfolio": []
+        },
+        {
+          "date": "2026-06-05",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): contrarian genome. Rules: top_k=8 kelly=0.336 shorts=off alt_scale=0.682. Threshold gate: proba>=0.68 pred_ret>=0.0061. Contrarian: inverted unified score.",
+          "portfolio": []
+        },
+        {
+          "date": "2026-06-06",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): contrarian genome. Rules: top_k=8 kelly=0.336 shorts=off alt_scale=0.682. Threshold gate: proba>=0.68 pred_ret>=0.0061. Contrarian: inverted unified score.",
+          "portfolio": []
+        },
+        {
+          "date": "2026-06-07",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): contrarian genome. Rules: top_k=8 kelly=0.336 shorts=off alt_scale=0.682. Threshold gate: proba>=0.68 pred_ret>=0.0061. Contrarian: inverted unified score.",
+          "portfolio": []
+        },
+        {
+          "date": "2026-06-08",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): contrarian genome. Rules: top_k=8 kelly=0.336 shorts=off alt_scale=0.682. Threshold gate: proba>=0.68 pred_ret>=0.0061. Contrarian: inverted unified score.",
+          "portfolio": []
+        },
+        {
+          "date": "2026-06-09",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): contrarian genome. Rules: top_k=8 kelly=0.336 shorts=off alt_scale=0.682. Threshold gate: proba>=0.68 pred_ret>=0.0061. Contrarian: inverted unified score.",
+          "portfolio": []
+        }
+      ],
+      "genome": {
+        "family": "contrarian",
+        "min_proba": 0.68,
+        "min_pred_ret": 0.0061,
+        "short_enabled": false,
+        "short_frac": 0.0,
+        "top_k": 8,
+        "kelly": 0.336,
+        "alt_scale": 0.682,
+        "selection_mode": null,
+        "contrarian": true
+      },
+      "rank": 97
+    },
+    {
+      "traderId": 19,
+      "family": "high_conviction",
+      "cumulativeReturnPct": 0.0,
+      "equityUsd": 50000.0,
+      "nDays": 7,
+      "daily": [
+        {
+          "date": "2026-06-03",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): high_conviction genome. Rules: top_k=15 kelly=0.471 shorts=off alt_scale=1.081. Threshold gate: proba>=0.667 pred_ret>=0.0161.",
+          "portfolio": []
+        },
+        {
+          "date": "2026-06-04",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): high_conviction genome. Rules: top_k=15 kelly=0.471 shorts=off alt_scale=1.081. Threshold gate: proba>=0.667 pred_ret>=0.0161.",
+          "portfolio": []
+        },
+        {
+          "date": "2026-06-05",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): high_conviction genome. Rules: top_k=15 kelly=0.471 shorts=off alt_scale=1.081. Threshold gate: proba>=0.667 pred_ret>=0.0161.",
+          "portfolio": []
+        },
+        {
+          "date": "2026-06-06",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): high_conviction genome. Rules: top_k=15 kelly=0.471 shorts=off alt_scale=1.081. Threshold gate: proba>=0.667 pred_ret>=0.0161.",
+          "portfolio": []
+        },
+        {
+          "date": "2026-06-07",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): high_conviction genome. Rules: top_k=15 kelly=0.471 shorts=off alt_scale=1.081. Threshold gate: proba>=0.667 pred_ret>=0.0161.",
+          "portfolio": []
+        },
+        {
+          "date": "2026-06-08",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): high_conviction genome. Rules: top_k=15 kelly=0.471 shorts=off alt_scale=1.081. Threshold gate: proba>=0.667 pred_ret>=0.0161.",
+          "portfolio": []
+        },
+        {
+          "date": "2026-06-09",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): high_conviction genome. Rules: top_k=15 kelly=0.471 shorts=off alt_scale=1.081. Threshold gate: proba>=0.667 pred_ret>=0.0161.",
+          "portfolio": []
+        }
+      ],
+      "genome": {
+        "family": "high_conviction",
+        "min_proba": 0.667,
+        "min_pred_ret": 0.0161,
+        "short_enabled": false,
+        "short_frac": 0.0,
+        "top_k": 15,
+        "kelly": 0.471,
+        "alt_scale": 1.081,
+        "selection_mode": null,
+        "contrarian": false
+      },
+      "rank": 98
+    },
+    {
+      "traderId": 20,
+      "family": "contrarian",
+      "cumulativeReturnPct": 0.0,
+      "equityUsd": 50000.0,
+      "nDays": 7,
+      "daily": [
+        {
+          "date": "2026-06-03",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): contrarian genome. Rules: top_k=15 kelly=0.634 shorts=off alt_scale=1.06. Threshold gate: proba>=0.675 pred_ret>=0.0205. Contrarian: inverted unified score.",
+          "portfolio": []
+        },
+        {
+          "date": "2026-06-04",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): contrarian genome. Rules: top_k=15 kelly=0.634 shorts=off alt_scale=1.06. Threshold gate: proba>=0.675 pred_ret>=0.0205. Contrarian: inverted unified score.",
+          "portfolio": []
+        },
+        {
+          "date": "2026-06-05",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): contrarian genome. Rules: top_k=15 kelly=0.634 shorts=off alt_scale=1.06. Threshold gate: proba>=0.675 pred_ret>=0.0205. Contrarian: inverted unified score.",
+          "portfolio": []
+        },
+        {
+          "date": "2026-06-06",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): contrarian genome. Rules: top_k=15 kelly=0.634 shorts=off alt_scale=1.06. Threshold gate: proba>=0.675 pred_ret>=0.0205. Contrarian: inverted unified score.",
+          "portfolio": []
+        },
+        {
+          "date": "2026-06-07",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): contrarian genome. Rules: top_k=15 kelly=0.634 shorts=off alt_scale=1.06. Threshold gate: proba>=0.675 pred_ret>=0.0205. Contrarian: inverted unified score.",
+          "portfolio": []
+        },
+        {
+          "date": "2026-06-08",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): contrarian genome. Rules: top_k=15 kelly=0.634 shorts=off alt_scale=1.06. Threshold gate: proba>=0.675 pred_ret>=0.0205. Contrarian: inverted unified score.",
+          "portfolio": []
+        },
+        {
+          "date": "2026-06-09",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): contrarian genome. Rules: top_k=15 kelly=0.634 shorts=off alt_scale=1.06. Threshold gate: proba>=0.675 pred_ret>=0.0205. Contrarian: inverted unified score.",
+          "portfolio": []
+        }
+      ],
+      "genome": {
+        "family": "contrarian",
+        "min_proba": 0.675,
+        "min_pred_ret": 0.0205,
+        "short_enabled": false,
+        "short_frac": 0.0,
+        "top_k": 15,
+        "kelly": 0.634,
+        "alt_scale": 1.06,
+        "selection_mode": null,
+        "contrarian": true
+      },
+      "rank": 99
+    },
+    {
+      "traderId": 22,
+      "family": "high_conviction",
+      "cumulativeReturnPct": 0.0,
+      "equityUsd": 50000.0,
+      "nDays": 7,
+      "daily": [
+        {
+          "date": "2026-06-03",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): high_conviction genome. Rules: top_k=3 kelly=0.732 shorts=off alt_scale=0.948. Threshold gate: proba>=0.668 pred_ret>=0.0091.",
+          "portfolio": []
+        },
+        {
+          "date": "2026-06-04",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): high_conviction genome. Rules: top_k=3 kelly=0.732 shorts=off alt_scale=0.948. Threshold gate: proba>=0.668 pred_ret>=0.0091.",
+          "portfolio": []
+        },
+        {
+          "date": "2026-06-05",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): high_conviction genome. Rules: top_k=3 kelly=0.732 shorts=off alt_scale=0.948. Threshold gate: proba>=0.668 pred_ret>=0.0091.",
+          "portfolio": []
+        },
+        {
+          "date": "2026-06-06",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): high_conviction genome. Rules: top_k=3 kelly=0.732 shorts=off alt_scale=0.948. Threshold gate: proba>=0.668 pred_ret>=0.0091.",
+          "portfolio": []
+        },
+        {
+          "date": "2026-06-07",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): high_conviction genome. Rules: top_k=3 kelly=0.732 shorts=off alt_scale=0.948. Threshold gate: proba>=0.668 pred_ret>=0.0091.",
+          "portfolio": []
+        },
+        {
+          "date": "2026-06-08",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): high_conviction genome. Rules: top_k=3 kelly=0.732 shorts=off alt_scale=0.948. Threshold gate: proba>=0.668 pred_ret>=0.0091.",
+          "portfolio": []
+        },
+        {
+          "date": "2026-06-09",
+          "returnPct": 0.0,
+          "nTrades": 0,
+          "nLong": 0,
+          "nShort": 0,
+          "trades": [],
+          "reasoning": "Arena V1 (v1): high_conviction genome. Rules: top_k=3 kelly=0.732 shorts=off alt_scale=0.948. Threshold gate: proba>=0.668 pred_ret>=0.0091.",
+          "portfolio": []
+        }
+      ],
+      "genome": {
+        "family": "high_conviction",
+        "min_proba": 0.668,
+        "min_pred_ret": 0.0091,
+        "short_enabled": false,
+        "short_frac": 0.0,
+        "top_k": 3,
+        "kelly": 0.732,
+        "alt_scale": 0.948,
+        "selection_mode": null,
+        "contrarian": false
+      },
+      "rank": 100
+    }
+  ],
+  "best": {
+    "traderId": 7,
+    "family": "long_short_neutral",
+    "cumulativeReturnPct": 25.3484,
+    "equityUsd": 62674.2,
+    "nDays": 7,
+    "daily": [
+      {
+        "date": "2026-06-03",
+        "returnPct": 11.2231,
+        "nTrades": 3,
+        "nLong": 2,
+        "nShort": 1,
+        "trades": [
+          {
+            "symbol": "SDAWW",
+            "side": "long",
+            "position_effect": "open",
+            "ret": 0.0960266390587027,
+            "rationale": "ML +0.78",
+            "score": 0.7823
+          },
+          {
+            "symbol": "AREN",
+            "side": "long",
+            "position_effect": "open",
+            "ret": 0.0217558880582555,
+            "rationale": "ML +0.32",
+            "score": 0.3209
+          },
+          {
+            "symbol": "KWMWW",
+            "side": "short",
+            "position_effect": "open",
+            "ret": -0.3623491467989561,
+            "rationale": "ML +1.96"
+          }
+        ],
+        "reasoning": "Arena V1 (v1): long_short_neutral genome. Rules: top_k=5 kelly=0.739 shorts=on alt_scale=0.612. Threshold gate: proba>=0.546 pred_ret>=0.014.   SDAWW long: model pred_ret +9.60%   AREN long: model pred_ret +2.18%   KWMWW short: model pred_ret -36.23%",
+        "portfolio": [
+          {
+            "symbol": "SDAWW",
+            "side": "long",
+            "notionalUsd": 10608.34,
+            "weightPct": 21.22,
+            "modelPredRetPct": 9.603,
+            "unifiedRationale": "ML +0.78"
+          },
+          {
+            "symbol": "AREN",
+            "side": "long",
+            "notionalUsd": 10608.34,
+            "weightPct": 21.22,
+            "modelPredRetPct": 2.176,
+            "unifiedRationale": "ML +0.32"
+          },
+          {
+            "symbol": "KWMWW",
+            "side": "short",
+            "notionalUsd": 12038.31,
+            "weightPct": 24.08,
+            "modelPredRetPct": -36.235,
+            "unifiedRationale": "ML +1.96"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-04",
+        "returnPct": 10.788,
+        "nTrades": 5,
+        "nLong": 4,
+        "nShort": 1,
+        "trades": [
+          {
+            "symbol": "SDAWW",
+            "side": "long",
+            "position_effect": "open",
+            "ret": 0.0960266390587027,
+            "rationale": "ML +0.78",
+            "score": 0.7823
+          },
+          {
+            "symbol": "MPU",
+            "side": "long",
+            "position_effect": "open",
+            "ret": 0.053104028063432,
+            "rationale": "ML +0.57",
+            "score": 0.5677
+          },
+          {
+            "symbol": "KMRK",
+            "side": "long",
+            "position_effect": "open",
+            "ret": 0.0208106642226036,
+            "rationale": "ML +0.32",
+            "score": 0.3162
+          },
+          {
+            "symbol": "XXII",
+            "side": "long",
+            "position_effect": "open",
+            "ret": 0.0246086432874607,
+            "rationale": "ML +0.29",
+            "score": 0.2873
+          },
+          {
+            "symbol": "KWMWW",
+            "side": "short",
+            "position_effect": "open",
+            "ret": -0.3623491467989561,
+            "rationale": "ML +1.96"
+          }
+        ],
+        "reasoning": "Arena V1 (v1): long_short_neutral genome. Rules: top_k=5 kelly=0.739 shorts=on alt_scale=0.612. Threshold gate: proba>=0.546 pred_ret>=0.014.   SDAWW long: model pred_ret +9.60%   MPU long: model pred_ret +5.31%   KMRK long: model pred_ret +2.08%   XXII long: model pred_ret +2.46%   KWMWW short: model pred_ret -36.23%",
+        "portfolio": [
+          {
+            "symbol": "SDAWW",
+            "side": "long",
+            "notionalUsd": 5304.17,
+            "weightPct": 10.61,
+            "modelPredRetPct": 9.603,
+            "unifiedRationale": "ML +0.78"
+          },
+          {
+            "symbol": "MPU",
+            "side": "long",
+            "notionalUsd": 5304.17,
+            "weightPct": 10.61,
+            "modelPredRetPct": 5.31,
+            "unifiedRationale": "ML +0.57"
+          },
+          {
+            "symbol": "KMRK",
+            "side": "long",
+            "notionalUsd": 5304.17,
+            "weightPct": 10.61,
+            "modelPredRetPct": 2.081,
+            "unifiedRationale": "ML +0.32"
+          },
+          {
+            "symbol": "XXII",
+            "side": "long",
+            "notionalUsd": 5304.17,
+            "weightPct": 10.61,
+            "modelPredRetPct": 2.461,
+            "unifiedRationale": "ML +0.29"
+          },
+          {
+            "symbol": "KWMWW",
+            "side": "short",
+            "notionalUsd": 12038.31,
+            "weightPct": 24.08,
+            "modelPredRetPct": -36.235,
+            "unifiedRationale": "ML +1.96"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-05",
+        "returnPct": 0.3428,
+        "nTrades": 1,
+        "nLong": 0,
+        "nShort": 1,
+        "trades": [
+          {
+            "symbol": "SDOT",
+            "side": "short",
+            "position_effect": "open",
+            "ret": -0.0142365787009306,
+            "rationale": "ML +0.43"
+          }
+        ],
+        "reasoning": "Arena V1 (v1): long_short_neutral genome. Rules: top_k=5 kelly=0.739 shorts=on alt_scale=0.612. Threshold gate: proba>=0.546 pred_ret>=0.014.   SDOT short: model pred_ret -1.42%",
+        "portfolio": [
+          {
+            "symbol": "SDOT",
+            "side": "short",
+            "notionalUsd": 12038.31,
+            "weightPct": 24.08,
+            "modelPredRetPct": -1.424,
+            "unifiedRationale": "ML +0.43"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-06",
+        "returnPct": 0.3428,
+        "nTrades": 1,
+        "nLong": 0,
+        "nShort": 1,
+        "trades": [
+          {
+            "symbol": "SDOT",
+            "side": "short",
+            "position_effect": "open",
+            "ret": -0.0142365787009306,
+            "rationale": "ML +0.43"
+          }
+        ],
+        "reasoning": "Arena V1 (v1): long_short_neutral genome. Rules: top_k=5 kelly=0.739 shorts=on alt_scale=0.612. Threshold gate: proba>=0.546 pred_ret>=0.014.   SDOT short: model pred_ret -1.42%",
+        "portfolio": [
+          {
+            "symbol": "SDOT",
+            "side": "short",
+            "notionalUsd": 12038.31,
+            "weightPct": 24.08,
+            "modelPredRetPct": -1.424,
+            "unifiedRationale": "ML +0.43"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-07",
+        "returnPct": 0.3428,
+        "nTrades": 1,
+        "nLong": 0,
+        "nShort": 1,
+        "trades": [
+          {
+            "symbol": "SDOT",
+            "side": "short",
+            "position_effect": "open",
+            "ret": -0.0142365787009306,
+            "rationale": "ML +0.43"
+          }
+        ],
+        "reasoning": "Arena V1 (v1): long_short_neutral genome. Rules: top_k=5 kelly=0.739 shorts=on alt_scale=0.612. Threshold gate: proba>=0.546 pred_ret>=0.014.   SDOT short: model pred_ret -1.42%",
+        "portfolio": [
+          {
+            "symbol": "SDOT",
+            "side": "short",
+            "notionalUsd": 12038.31,
+            "weightPct": 24.08,
+            "modelPredRetPct": -1.424,
+            "unifiedRationale": "ML +0.43"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-08",
+        "returnPct": 0.3428,
+        "nTrades": 1,
+        "nLong": 0,
+        "nShort": 1,
+        "trades": [
+          {
+            "symbol": "SDOT",
+            "side": "short",
+            "position_effect": "open",
+            "ret": -0.0142365787009306,
+            "rationale": "ML +0.43"
+          }
+        ],
+        "reasoning": "Arena V1 (v1): long_short_neutral genome. Rules: top_k=5 kelly=0.739 shorts=on alt_scale=0.612. Threshold gate: proba>=0.546 pred_ret>=0.014.   SDOT short: model pred_ret -1.42%",
+        "portfolio": [
+          {
+            "symbol": "SDOT",
+            "side": "short",
+            "notionalUsd": 12038.31,
+            "weightPct": 24.08,
+            "modelPredRetPct": -1.424,
+            "unifiedRationale": "ML +0.43"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-09",
+        "returnPct": 0.3428,
+        "nTrades": 1,
+        "nLong": 0,
+        "nShort": 1,
+        "trades": [
+          {
+            "symbol": "SDOT",
+            "side": "short",
+            "position_effect": "open",
+            "ret": -0.0142365787009306,
+            "rationale": "ML +0.43"
+          }
+        ],
+        "reasoning": "Arena V1 (v1): long_short_neutral genome. Rules: top_k=5 kelly=0.739 shorts=on alt_scale=0.612. Threshold gate: proba>=0.546 pred_ret>=0.014.   SDOT short: model pred_ret -1.42%",
+        "portfolio": [
+          {
+            "symbol": "SDOT",
+            "side": "short",
+            "notionalUsd": 12038.31,
+            "weightPct": 24.08,
+            "modelPredRetPct": -1.424,
+            "unifiedRationale": "ML +0.43"
+          }
+        ]
+      }
+    ],
+    "genome": {
+      "family": "long_short_neutral",
+      "min_proba": 0.546,
+      "min_pred_ret": 0.014,
+      "short_enabled": true,
+      "short_frac": 0.362,
+      "top_k": 5,
+      "kelly": 0.739,
+      "alt_scale": 0.612,
+      "selection_mode": null,
+      "contrarian": false
+    },
+    "rank": 1
+  },
+  "medianCumulativePct": 6.2715,
+  "pctBeatingBaseline": 91.0,
+  "promotionHint": {
+    "traderId": 7,
+    "family": "long_short_neutral",
+    "cumulativeReturnPct": 25.3484,
+    "equityUsd": 62674.2,
+    "nDays": 7,
+    "daily": [
+      {
+        "date": "2026-06-03",
+        "returnPct": 11.2231,
+        "nTrades": 3,
+        "nLong": 2,
+        "nShort": 1,
+        "trades": [
+          {
+            "symbol": "SDAWW",
+            "side": "long",
+            "position_effect": "open",
+            "ret": 0.0960266390587027,
+            "rationale": "ML +0.78",
+            "score": 0.7823
+          },
+          {
+            "symbol": "AREN",
+            "side": "long",
+            "position_effect": "open",
+            "ret": 0.0217558880582555,
+            "rationale": "ML +0.32",
+            "score": 0.3209
+          },
+          {
+            "symbol": "KWMWW",
+            "side": "short",
+            "position_effect": "open",
+            "ret": -0.3623491467989561,
+            "rationale": "ML +1.96"
+          }
+        ],
+        "reasoning": "Arena V1 (v1): long_short_neutral genome. Rules: top_k=5 kelly=0.739 shorts=on alt_scale=0.612. Threshold gate: proba>=0.546 pred_ret>=0.014.   SDAWW long: model pred_ret +9.60%   AREN long: model pred_ret +2.18%   KWMWW short: model pred_ret -36.23%",
+        "portfolio": [
+          {
+            "symbol": "SDAWW",
+            "side": "long",
+            "notionalUsd": 10608.34,
+            "weightPct": 21.22,
+            "modelPredRetPct": 9.603,
+            "unifiedRationale": "ML +0.78"
+          },
+          {
+            "symbol": "AREN",
+            "side": "long",
+            "notionalUsd": 10608.34,
+            "weightPct": 21.22,
+            "modelPredRetPct": 2.176,
+            "unifiedRationale": "ML +0.32"
+          },
+          {
+            "symbol": "KWMWW",
+            "side": "short",
+            "notionalUsd": 12038.31,
+            "weightPct": 24.08,
+            "modelPredRetPct": -36.235,
+            "unifiedRationale": "ML +1.96"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-04",
+        "returnPct": 10.788,
+        "nTrades": 5,
+        "nLong": 4,
+        "nShort": 1,
+        "trades": [
+          {
+            "symbol": "SDAWW",
+            "side": "long",
+            "position_effect": "open",
+            "ret": 0.0960266390587027,
+            "rationale": "ML +0.78",
+            "score": 0.7823
+          },
+          {
+            "symbol": "MPU",
+            "side": "long",
+            "position_effect": "open",
+            "ret": 0.053104028063432,
+            "rationale": "ML +0.57",
+            "score": 0.5677
+          },
+          {
+            "symbol": "KMRK",
+            "side": "long",
+            "position_effect": "open",
+            "ret": 0.0208106642226036,
+            "rationale": "ML +0.32",
+            "score": 0.3162
+          },
+          {
+            "symbol": "XXII",
+            "side": "long",
+            "position_effect": "open",
+            "ret": 0.0246086432874607,
+            "rationale": "ML +0.29",
+            "score": 0.2873
+          },
+          {
+            "symbol": "KWMWW",
+            "side": "short",
+            "position_effect": "open",
+            "ret": -0.3623491467989561,
+            "rationale": "ML +1.96"
+          }
+        ],
+        "reasoning": "Arena V1 (v1): long_short_neutral genome. Rules: top_k=5 kelly=0.739 shorts=on alt_scale=0.612. Threshold gate: proba>=0.546 pred_ret>=0.014.   SDAWW long: model pred_ret +9.60%   MPU long: model pred_ret +5.31%   KMRK long: model pred_ret +2.08%   XXII long: model pred_ret +2.46%   KWMWW short: model pred_ret -36.23%",
+        "portfolio": [
+          {
+            "symbol": "SDAWW",
+            "side": "long",
+            "notionalUsd": 5304.17,
+            "weightPct": 10.61,
+            "modelPredRetPct": 9.603,
+            "unifiedRationale": "ML +0.78"
+          },
+          {
+            "symbol": "MPU",
+            "side": "long",
+            "notionalUsd": 5304.17,
+            "weightPct": 10.61,
+            "modelPredRetPct": 5.31,
+            "unifiedRationale": "ML +0.57"
+          },
+          {
+            "symbol": "KMRK",
+            "side": "long",
+            "notionalUsd": 5304.17,
+            "weightPct": 10.61,
+            "modelPredRetPct": 2.081,
+            "unifiedRationale": "ML +0.32"
+          },
+          {
+            "symbol": "XXII",
+            "side": "long",
+            "notionalUsd": 5304.17,
+            "weightPct": 10.61,
+            "modelPredRetPct": 2.461,
+            "unifiedRationale": "ML +0.29"
+          },
+          {
+            "symbol": "KWMWW",
+            "side": "short",
+            "notionalUsd": 12038.31,
+            "weightPct": 24.08,
+            "modelPredRetPct": -36.235,
+            "unifiedRationale": "ML +1.96"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-05",
+        "returnPct": 0.3428,
+        "nTrades": 1,
+        "nLong": 0,
+        "nShort": 1,
+        "trades": [
+          {
+            "symbol": "SDOT",
+            "side": "short",
+            "position_effect": "open",
+            "ret": -0.0142365787009306,
+            "rationale": "ML +0.43"
+          }
+        ],
+        "reasoning": "Arena V1 (v1): long_short_neutral genome. Rules: top_k=5 kelly=0.739 shorts=on alt_scale=0.612. Threshold gate: proba>=0.546 pred_ret>=0.014.   SDOT short: model pred_ret -1.42%",
+        "portfolio": [
+          {
+            "symbol": "SDOT",
+            "side": "short",
+            "notionalUsd": 12038.31,
+            "weightPct": 24.08,
+            "modelPredRetPct": -1.424,
+            "unifiedRationale": "ML +0.43"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-06",
+        "returnPct": 0.3428,
+        "nTrades": 1,
+        "nLong": 0,
+        "nShort": 1,
+        "trades": [
+          {
+            "symbol": "SDOT",
+            "side": "short",
+            "position_effect": "open",
+            "ret": -0.0142365787009306,
+            "rationale": "ML +0.43"
+          }
+        ],
+        "reasoning": "Arena V1 (v1): long_short_neutral genome. Rules: top_k=5 kelly=0.739 shorts=on alt_scale=0.612. Threshold gate: proba>=0.546 pred_ret>=0.014.   SDOT short: model pred_ret -1.42%",
+        "portfolio": [
+          {
+            "symbol": "SDOT",
+            "side": "short",
+            "notionalUsd": 12038.31,
+            "weightPct": 24.08,
+            "modelPredRetPct": -1.424,
+            "unifiedRationale": "ML +0.43"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-07",
+        "returnPct": 0.3428,
+        "nTrades": 1,
+        "nLong": 0,
+        "nShort": 1,
+        "trades": [
+          {
+            "symbol": "SDOT",
+            "side": "short",
+            "position_effect": "open",
+            "ret": -0.0142365787009306,
+            "rationale": "ML +0.43"
+          }
+        ],
+        "reasoning": "Arena V1 (v1): long_short_neutral genome. Rules: top_k=5 kelly=0.739 shorts=on alt_scale=0.612. Threshold gate: proba>=0.546 pred_ret>=0.014.   SDOT short: model pred_ret -1.42%",
+        "portfolio": [
+          {
+            "symbol": "SDOT",
+            "side": "short",
+            "notionalUsd": 12038.31,
+            "weightPct": 24.08,
+            "modelPredRetPct": -1.424,
+            "unifiedRationale": "ML +0.43"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-08",
+        "returnPct": 0.3428,
+        "nTrades": 1,
+        "nLong": 0,
+        "nShort": 1,
+        "trades": [
+          {
+            "symbol": "SDOT",
+            "side": "short",
+            "position_effect": "open",
+            "ret": -0.0142365787009306,
+            "rationale": "ML +0.43"
+          }
+        ],
+        "reasoning": "Arena V1 (v1): long_short_neutral genome. Rules: top_k=5 kelly=0.739 shorts=on alt_scale=0.612. Threshold gate: proba>=0.546 pred_ret>=0.014.   SDOT short: model pred_ret -1.42%",
+        "portfolio": [
+          {
+            "symbol": "SDOT",
+            "side": "short",
+            "notionalUsd": 12038.31,
+            "weightPct": 24.08,
+            "modelPredRetPct": -1.424,
+            "unifiedRationale": "ML +0.43"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-09",
+        "returnPct": 0.3428,
+        "nTrades": 1,
+        "nLong": 0,
+        "nShort": 1,
+        "trades": [
+          {
+            "symbol": "SDOT",
+            "side": "short",
+            "position_effect": "open",
+            "ret": -0.0142365787009306,
+            "rationale": "ML +0.43"
+          }
+        ],
+        "reasoning": "Arena V1 (v1): long_short_neutral genome. Rules: top_k=5 kelly=0.739 shorts=on alt_scale=0.612. Threshold gate: proba>=0.546 pred_ret>=0.014.   SDOT short: model pred_ret -1.42%",
+        "portfolio": [
+          {
+            "symbol": "SDOT",
+            "side": "short",
+            "notionalUsd": 12038.31,
+            "weightPct": 24.08,
+            "modelPredRetPct": -1.424,
+            "unifiedRationale": "ML +0.43"
+          }
+        ]
+      }
+    ],
+    "genome": {
+      "family": "long_short_neutral",
+      "min_proba": 0.546,
+      "min_pred_ret": 0.014,
+      "short_enabled": true,
+      "short_frac": 0.362,
+      "top_k": 5,
+      "kelly": 0.739,
+      "alt_scale": 0.612,
+      "selection_mode": null,
+      "contrarian": false
+    },
+    "rank": 1
+  },
+  "summary": {
+    "version": "v1",
+    "nTraders": 100,
+    "bestCumulativePct": 25.3484,
+    "medianCumulativePct": 6.2715,
+    "meanCumulativePct": 6.8434,
+    "topTraderId": 7
+  }
+}

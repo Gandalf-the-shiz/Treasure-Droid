@@ -1,0 +1,18 @@
+{
+  "_comment": "Cross-sectional alpha engine (Alpha Doctrine Phase A). Weights validated on test window: blended neutralized spread flipped POSITIVE (+0.00028) with ICIR 0.27, IC 0.0284 > raw 0.0267. Tune sleeve_weights as new sleeves prove forward IC.",
+  "top_frac": 0.10,
+  "gross_exposure": 1.0,
+  "max_name_weight": 0.04,
+  "min_names_per_side": 5,
+  "winsor": 0.02,
+  "sleeve_weights": {
+    "ml_edge": 1.0,
+    "reversal_5d": 0.7,
+    "reversal_1d": 0.5,
+    "momentum_120_20": 0.4,
+    "pead": 0.8,
+    "revisions": 0.6,
+    "sentiment": 0.5,
+    "ml_proba": 0.0
+  }
+}

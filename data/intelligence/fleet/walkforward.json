@@ -1,0 +1,2004 @@
+{
+  "generatedAt": "2026-06-06T12:26:55Z",
+  "ok": true,
+  "window": {
+    "start": "2025-01-02",
+    "end": "2026-05-28",
+    "nDays": 351,
+    "selectionDays": 210,
+    "holdoutDays": 141
+  },
+  "nGenomes": 600,
+  "nScored": 457,
+  "costBps": 7.0,
+  "method": "Select on first 60% of the OOS year; judge on the held-out 40%. Returns clipped \u00b115%/day.",
+  "caveat": "All genomes consume the SAME predictor signal on the SAME test window, so they are highly correlated \u2014 'survivors' ride one persisting predictor edge, not independent skill. This window is also the predictor's own test set. Treat holdout Sharpe as an UPPER BOUND. The only real proof is forward paper on unseen future data: promote survivors to the live fleet and let them earn it.",
+  "topSelectionHeldUp": "63/68",
+  "leaderboard": [
+    {
+      "rank": 1,
+      "id": "wf_0150",
+      "family": "breakout",
+      "selSharpe": 5.412,
+      "holdSharpe": 1.097,
+      "holdReturnPct": 33.32,
+      "holdHitRate": 0.504,
+      "holdMaxDdPct": -27.79,
+      "holdDays": 125,
+      "top_k": 10,
+      "kelly": 0.28,
+      "short_enabled": true
+    },
+    {
+      "rank": 2,
+      "id": "wf_0403",
+      "family": "short_bias",
+      "selSharpe": 5.196,
+      "holdSharpe": 0.857,
+      "holdReturnPct": 22.32,
+      "holdHitRate": 0.493,
+      "holdMaxDdPct": -30.61,
+      "holdDays": 136,
+      "top_k": 15,
+      "kelly": 0.309,
+      "short_enabled": true
+    },
+    {
+      "rank": 3,
+      "id": "wf_0200",
+      "family": "short_bias",
+      "selSharpe": 5.065,
+      "holdSharpe": 1.513,
+      "holdReturnPct": 51.56,
+      "holdHitRate": 0.493,
+      "holdMaxDdPct": -21.42,
+      "holdDays": 134,
+      "top_k": 22,
+      "kelly": 0.696,
+      "short_enabled": true
+    },
+    {
+      "rank": 4,
+      "id": "wf_0016",
+      "family": "long_short_neutral",
+      "selSharpe": 4.85,
+      "holdSharpe": 1.767,
+      "holdReturnPct": 64.22,
+      "holdHitRate": 0.527,
+      "holdMaxDdPct": -21.67,
+      "holdDays": 129,
+      "top_k": 15,
+      "kelly": 0.929,
+      "short_enabled": true
+    },
+    {
+      "rank": 5,
+      "id": "wf_0564",
+      "family": "mean_reverter",
+      "selSharpe": 4.845,
+      "holdSharpe": 0.99,
+      "holdReturnPct": 26.49,
+      "holdHitRate": 0.473,
+      "holdMaxDdPct": -26.09,
+      "holdDays": 131,
+      "top_k": 20,
+      "kelly": 0.184,
+      "short_enabled": true
+    },
+    {
+      "rank": 6,
+      "id": "wf_0003",
+      "family": "mean_reverter",
+      "selSharpe": 4.788,
+      "holdSharpe": 0.56,
+      "holdReturnPct": 9.05,
+      "holdHitRate": 0.538,
+      "holdMaxDdPct": -30.83,
+      "holdDays": 130,
+      "top_k": 21,
+      "kelly": 0.487,
+      "short_enabled": true
+    },
+    {
+      "rank": 7,
+      "id": "wf_0069",
+      "family": "sentiment_rider",
+      "selSharpe": 4.664,
+      "holdSharpe": 1.976,
+      "holdReturnPct": 80.09,
+      "holdHitRate": 0.54,
+      "holdMaxDdPct": -25.4,
+      "holdDays": 124,
+      "top_k": 9,
+      "kelly": 0.857,
+      "short_enabled": true
+    },
+    {
+      "rank": 8,
+      "id": "wf_0225",
+      "family": "ml_edge",
+      "selSharpe": 4.664,
+      "holdSharpe": 0.831,
+      "holdReturnPct": 16.42,
+      "holdHitRate": 0.519,
+      "holdMaxDdPct": -22.88,
+      "holdDays": 129,
+      "top_k": 28,
+      "kelly": 0.992,
+      "short_enabled": true
+    },
+    {
+      "rank": 9,
+      "id": "wf_0550",
+      "family": "low_vol",
+      "selSharpe": 4.606,
+      "holdSharpe": 2.099,
+      "holdReturnPct": 83.62,
+      "holdHitRate": 0.558,
+      "holdMaxDdPct": -21.39,
+      "holdDays": 129,
+      "top_k": 6,
+      "kelly": 0.46,
+      "short_enabled": true
+    },
+    {
+      "rank": 10,
+      "id": "wf_0572",
+      "family": "short_bias",
+      "selSharpe": 4.573,
+      "holdSharpe": 1.539,
+      "holdReturnPct": 52.16,
+      "holdHitRate": 0.511,
+      "holdMaxDdPct": -21.74,
+      "holdDays": 133,
+      "top_k": 23,
+      "kelly": 0.468,
+      "short_enabled": true
+    },
+    {
+      "rank": 11,
+      "id": "wf_0275",
+      "family": "high_conviction",
+      "selSharpe": 4.568,
+      "holdSharpe": 0.559,
+      "holdReturnPct": 8.86,
+      "holdHitRate": 0.51,
+      "holdMaxDdPct": -38.92,
+      "holdDays": 104,
+      "top_k": 23,
+      "kelly": 0.224,
+      "short_enabled": true
+    },
+    {
+      "rank": 12,
+      "id": "wf_0529",
+      "family": "momentum_long",
+      "selSharpe": 4.491,
+      "holdSharpe": 1.801,
+      "holdReturnPct": 63.37,
+      "holdHitRate": 0.55,
+      "holdMaxDdPct": -26.35,
+      "holdDays": 109,
+      "top_k": 16,
+      "kelly": 0.744,
+      "short_enabled": true
+    },
+    {
+      "rank": 13,
+      "id": "wf_0042",
+      "family": "short_bias",
+      "selSharpe": 4.49,
+      "holdSharpe": 2.138,
+      "holdReturnPct": 95.62,
+      "holdHitRate": 0.56,
+      "holdMaxDdPct": -28.86,
+      "holdDays": 134,
+      "top_k": 19,
+      "kelly": 0.354,
+      "short_enabled": true
+    },
+    {
+      "rank": 14,
+      "id": "wf_0389",
+      "family": "short_bias",
+      "selSharpe": 4.457,
+      "holdSharpe": 0.902,
+      "holdReturnPct": 21.07,
+      "holdHitRate": 0.508,
+      "holdMaxDdPct": -29.42,
+      "holdDays": 122,
+      "top_k": 8,
+      "kelly": 0.201,
+      "short_enabled": true
+    },
+    {
+      "rank": 15,
+      "id": "wf_0452",
+      "family": "short_bias",
+      "selSharpe": 4.432,
+      "holdSharpe": 1.188,
+      "holdReturnPct": 28.64,
+      "holdHitRate": 0.523,
+      "holdMaxDdPct": -18.27,
+      "holdDays": 128,
+      "top_k": 29,
+      "kelly": 0.669,
+      "short_enabled": true
+    },
+    {
+      "rank": 16,
+      "id": "wf_0499",
+      "family": "earnings_drift",
+      "selSharpe": 4.412,
+      "holdSharpe": -0.012,
+      "holdReturnPct": -11.49,
+      "holdHitRate": 0.519,
+      "holdMaxDdPct": -41.44,
+      "holdDays": 135,
+      "top_k": 10,
+      "kelly": 0.774,
+      "short_enabled": true
+    },
+    {
+      "rank": 17,
+      "id": "wf_0227",
+      "family": "breakout",
+      "selSharpe": 4.401,
+      "holdSharpe": 1.187,
+      "holdReturnPct": 22.36,
+      "holdHitRate": 0.549,
+      "holdMaxDdPct": -18.81,
+      "holdDays": 91,
+      "top_k": 9,
+      "kelly": 0.408,
+      "short_enabled": true
+    },
+    {
+      "rank": 18,
+      "id": "wf_0040",
+      "family": "high_conviction",
+      "selSharpe": 4.39,
+      "holdSharpe": 2.235,
+      "holdReturnPct": 65.66,
+      "holdHitRate": 0.566,
+      "holdMaxDdPct": -22.93,
+      "holdDays": 136,
+      "top_k": 28,
+      "kelly": 0.975,
+      "short_enabled": true
+    },
+    {
+      "rank": 19,
+      "id": "wf_0023",
+      "family": "low_vol",
+      "selSharpe": 4.384,
+      "holdSharpe": 1.536,
+      "holdReturnPct": 57.33,
+      "holdHitRate": 0.526,
+      "holdMaxDdPct": -30.72,
+      "holdDays": 135,
+      "top_k": 8,
+      "kelly": 0.243,
+      "short_enabled": true
+    },
+    {
+      "rank": 20,
+      "id": "wf_0118",
+      "family": "diversified",
+      "selSharpe": 4.327,
+      "holdSharpe": 1.476,
+      "holdReturnPct": 44.06,
+      "holdHitRate": 0.543,
+      "holdMaxDdPct": -26.27,
+      "holdDays": 127,
+      "top_k": 7,
+      "kelly": 0.348,
+      "short_enabled": true
+    },
+    {
+      "rank": 21,
+      "id": "wf_0323",
+      "family": "short_bias",
+      "selSharpe": 4.221,
+      "holdSharpe": 1.607,
+      "holdReturnPct": 53.76,
+      "holdHitRate": 0.534,
+      "holdMaxDdPct": -21.79,
+      "holdDays": 88,
+      "top_k": 29,
+      "kelly": 0.337,
+      "short_enabled": true
+    },
+    {
+      "rank": 22,
+      "id": "wf_0094",
+      "family": "short_bias",
+      "selSharpe": 4.218,
+      "holdSharpe": -0.296,
+      "holdReturnPct": -18.61,
+      "holdHitRate": 0.5,
+      "holdMaxDdPct": -34.46,
+      "holdDays": 140,
+      "top_k": 26,
+      "kelly": 0.595,
+      "short_enabled": true
+    },
+    {
+      "rank": 23,
+      "id": "wf_0037",
+      "family": "ml_edge",
+      "selSharpe": 4.204,
+      "holdSharpe": 1.016,
+      "holdReturnPct": 19.83,
+      "holdHitRate": 0.5,
+      "holdMaxDdPct": -20.37,
+      "holdDays": 128,
+      "top_k": 26,
+      "kelly": 0.486,
+      "short_enabled": true
+    },
+    {
+      "rank": 24,
+      "id": "wf_0280",
+      "family": "mean_reverter",
+      "selSharpe": 4.186,
+      "holdSharpe": 0.536,
+      "holdReturnPct": 7.63,
+      "holdHitRate": 0.524,
+      "holdMaxDdPct": -22.52,
+      "holdDays": 105,
+      "top_k": 8,
+      "kelly": 0.889,
+      "short_enabled": true
+    },
+    {
+      "rank": 25,
+      "id": "wf_0549",
+      "family": "mean_reverter",
+      "selSharpe": 4.17,
+      "holdSharpe": 0.54,
+      "holdReturnPct": 8.43,
+      "holdHitRate": 0.506,
+      "holdMaxDdPct": -29.59,
+      "holdDays": 87,
+      "top_k": 15,
+      "kelly": 0.457,
+      "short_enabled": true
+    }
+  ],
+  "survivors": [
+    {
+      "id": "wf_0150",
+      "family": "breakout",
+      "min_proba": 0.588,
+      "min_pred_ret": 0.0091,
+      "top_k": 10,
+      "kelly": 0.28,
+      "short_enabled": true,
+      "short_frac": 0.536,
+      "selection": {
+        "sharpe": 5.412,
+        "totalReturnPct": 1152.51,
+        "hitRate": 0.692,
+        "maxDrawdownPct": -21.35,
+        "nDays": 169
+      },
+      "holdout": {
+        "sharpe": 1.097,
+        "totalReturnPct": 33.32,
+        "hitRate": 0.504,
+        "maxDrawdownPct": -27.79,
+        "nDays": 125
+      }
+    },
+    {
+      "id": "wf_0403",
+      "family": "short_bias",
+      "min_proba": 0.517,
+      "min_pred_ret": 0.0085,
+      "top_k": 15,
+      "kelly": 0.309,
+      "short_enabled": true,
+      "short_frac": 0.584,
+      "selection": {
+        "sharpe": 5.196,
+        "totalReturnPct": 1600.71,
+        "hitRate": 0.635,
+        "maxDrawdownPct": -22.63,
+        "nDays": 197
+      },
+      "holdout": {
+        "sharpe": 0.857,
+        "totalReturnPct": 22.32,
+        "hitRate": 0.493,
+        "maxDrawdownPct": -30.61,
+        "nDays": 136
+      }
+    },
+    {
+      "id": "wf_0200",
+      "family": "short_bias",
+      "min_proba": 0.528,
+      "min_pred_ret": 0.0096,
+      "top_k": 22,
+      "kelly": 0.696,
+      "short_enabled": true,
+      "short_frac": 0.406,
+      "selection": {
+        "sharpe": 5.065,
+        "totalReturnPct": 987.76,
+        "hitRate": 0.624,
+        "maxDrawdownPct": -13.1,
+        "nDays": 189
+      },
+      "holdout": {
+        "sharpe": 1.513,
+        "totalReturnPct": 51.56,
+        "hitRate": 0.493,
+        "maxDrawdownPct": -21.42,
+        "nDays": 134
+      }
+    },
+    {
+      "id": "wf_0016",
+      "family": "long_short_neutral",
+      "min_proba": 0.526,
+      "min_pred_ret": 0.0114,
+      "top_k": 15,
+      "kelly": 0.929,
+      "short_enabled": true,
+      "short_frac": 0.323,
+      "selection": {
+        "sharpe": 4.85,
+        "totalReturnPct": 863.03,
+        "hitRate": 0.617,
+        "maxDrawdownPct": -15.24,
+        "nDays": 180
+      },
+      "holdout": {
+        "sharpe": 1.767,
+        "totalReturnPct": 64.22,
+        "hitRate": 0.527,
+        "maxDrawdownPct": -21.67,
+        "nDays": 129
+      }
+    },
+    {
+      "id": "wf_0564",
+      "family": "mean_reverter",
+      "min_proba": 0.546,
+      "min_pred_ret": 0.0096,
+      "top_k": 20,
+      "kelly": 0.184,
+      "short_enabled": true,
+      "short_frac": 0.424,
+      "selection": {
+        "sharpe": 4.845,
+        "totalReturnPct": 807.49,
+        "hitRate": 0.623,
+        "maxDrawdownPct": -18.62,
+        "nDays": 183
+      },
+      "holdout": {
+        "sharpe": 0.99,
+        "totalReturnPct": 26.49,
+        "hitRate": 0.473,
+        "maxDrawdownPct": -26.09,
+        "nDays": 131
+      }
+    },
+    {
+      "id": "wf_0003",
+      "family": "mean_reverter",
+      "min_proba": 0.617,
+      "min_pred_ret": 0.0044,
+      "top_k": 21,
+      "kelly": 0.487,
+      "short_enabled": true,
+      "short_frac": 0.587,
+      "selection": {
+        "sharpe": 4.788,
+        "totalReturnPct": 739.46,
+        "hitRate": 0.673,
+        "maxDrawdownPct": -22.2,
+        "nDays": 196
+      },
+      "holdout": {
+        "sharpe": 0.56,
+        "totalReturnPct": 9.05,
+        "hitRate": 0.538,
+        "maxDrawdownPct": -30.83,
+        "nDays": 130
+      }
+    },
+    {
+      "id": "wf_0069",
+      "family": "sentiment_rider",
+      "min_proba": 0.543,
+      "min_pred_ret": 0.0107,
+      "top_k": 9,
+      "kelly": 0.857,
+      "short_enabled": true,
+      "short_frac": 0.439,
+      "selection": {
+        "sharpe": 4.664,
+        "totalReturnPct": 768.5,
+        "hitRate": 0.599,
+        "maxDrawdownPct": -15.2,
+        "nDays": 182
+      },
+      "holdout": {
+        "sharpe": 1.976,
+        "totalReturnPct": 80.09,
+        "hitRate": 0.54,
+        "maxDrawdownPct": -25.4,
+        "nDays": 124
+      }
+    },
+    {
+      "id": "wf_0225",
+      "family": "ml_edge",
+      "min_proba": 0.627,
+      "min_pred_ret": 0.0051,
+      "top_k": 28,
+      "kelly": 0.992,
+      "short_enabled": true,
+      "short_frac": 0.359,
+      "selection": {
+        "sharpe": 4.664,
+        "totalReturnPct": 298.99,
+        "hitRate": 0.667,
+        "maxDrawdownPct": -16.44,
+        "nDays": 186
+      },
+      "holdout": {
+        "sharpe": 0.831,
+        "totalReturnPct": 16.42,
+        "hitRate": 0.519,
+        "maxDrawdownPct": -22.88,
+        "nDays": 129
+      }
+    },
+    {
+      "id": "wf_0550",
+      "family": "low_vol",
+      "min_proba": 0.531,
+      "min_pred_ret": 0.0116,
+      "top_k": 6,
+      "kelly": 0.46,
+      "short_enabled": true,
+      "short_frac": 0.415,
+      "selection": {
+        "sharpe": 4.606,
+        "totalReturnPct": 845.21,
+        "hitRate": 0.573,
+        "maxDrawdownPct": -16.09,
+        "nDays": 178
+      },
+      "holdout": {
+        "sharpe": 2.099,
+        "totalReturnPct": 83.62,
+        "hitRate": 0.558,
+        "maxDrawdownPct": -21.39,
+        "nDays": 129
+      }
+    },
+    {
+      "id": "wf_0572",
+      "family": "short_bias",
+      "min_proba": 0.526,
+      "min_pred_ret": 0.0099,
+      "top_k": 23,
+      "kelly": 0.468,
+      "short_enabled": true,
+      "short_frac": 0.305,
+      "selection": {
+        "sharpe": 4.573,
+        "totalReturnPct": 702.42,
+        "hitRate": 0.593,
+        "maxDrawdownPct": -16.19,
+        "nDays": 189
+      },
+      "holdout": {
+        "sharpe": 1.539,
+        "totalReturnPct": 52.16,
+        "hitRate": 0.511,
+        "maxDrawdownPct": -21.74,
+        "nDays": 133
+      }
+    },
+    {
+      "id": "wf_0275",
+      "family": "high_conviction",
+      "min_proba": 0.643,
+      "min_pred_ret": 0.0068,
+      "top_k": 23,
+      "kelly": 0.224,
+      "short_enabled": true,
+      "short_frac": 0.598,
+      "selection": {
+        "sharpe": 4.568,
+        "totalReturnPct": 940.41,
+        "hitRate": 0.711,
+        "maxDrawdownPct": -20.53,
+        "nDays": 149
+      },
+      "holdout": {
+        "sharpe": 0.559,
+        "totalReturnPct": 8.86,
+        "hitRate": 0.51,
+        "maxDrawdownPct": -38.92,
+        "nDays": 104
+      }
+    },
+    {
+      "id": "wf_0529",
+      "family": "momentum_long",
+      "min_proba": 0.601,
+      "min_pred_ret": 0.0108,
+      "top_k": 16,
+      "kelly": 0.744,
+      "short_enabled": true,
+      "short_frac": 0.451,
+      "selection": {
+        "sharpe": 4.491,
+        "totalReturnPct": 564.3,
+        "hitRate": 0.667,
+        "maxDrawdownPct": -19.02,
+        "nDays": 156
+      },
+      "holdout": {
+        "sharpe": 1.801,
+        "totalReturnPct": 63.37,
+        "hitRate": 0.55,
+        "maxDrawdownPct": -26.35,
+        "nDays": 109
+      }
+    },
+    {
+      "id": "wf_0042",
+      "family": "short_bias",
+      "min_proba": 0.506,
+      "min_pred_ret": 0.0101,
+      "top_k": 19,
+      "kelly": 0.354,
+      "short_enabled": true,
+      "short_frac": 0.373,
+      "selection": {
+        "sharpe": 4.49,
+        "totalReturnPct": 847.12,
+        "hitRate": 0.595,
+        "maxDrawdownPct": -16.56,
+        "nDays": 195
+      },
+      "holdout": {
+        "sharpe": 2.138,
+        "totalReturnPct": 95.62,
+        "hitRate": 0.56,
+        "maxDrawdownPct": -28.86,
+        "nDays": 134
+      }
+    },
+    {
+      "id": "wf_0389",
+      "family": "short_bias",
+      "min_proba": 0.601,
+      "min_pred_ret": 0.0091,
+      "top_k": 8,
+      "kelly": 0.201,
+      "short_enabled": true,
+      "short_frac": 0.361,
+      "selection": {
+        "sharpe": 4.457,
+        "totalReturnPct": 447.63,
+        "hitRate": 0.679,
+        "maxDrawdownPct": -20.93,
+        "nDays": 165
+      },
+      "holdout": {
+        "sharpe": 0.902,
+        "totalReturnPct": 21.07,
+        "hitRate": 0.508,
+        "maxDrawdownPct": -29.42,
+        "nDays": 122
+      }
+    },
+    {
+      "id": "wf_0452",
+      "family": "short_bias",
+      "min_proba": 0.645,
+      "min_pred_ret": 0.0021,
+      "top_k": 29,
+      "kelly": 0.669,
+      "short_enabled": true,
+      "short_frac": 0.508,
+      "selection": {
+        "sharpe": 4.432,
+        "totalReturnPct": 369.41,
+        "hitRate": 0.649,
+        "maxDrawdownPct": -17.33,
+        "nDays": 194
+      },
+      "holdout": {
+        "sharpe": 1.188,
+        "totalReturnPct": 28.64,
+        "hitRate": 0.523,
+        "maxDrawdownPct": -18.27,
+        "nDays": 128
+      }
+    },
+    {
+      "id": "wf_0227",
+      "family": "breakout",
+      "min_proba": 0.678,
+      "min_pred_ret": 0.003,
+      "top_k": 9,
+      "kelly": 0.408,
+      "short_enabled": true,
+      "short_frac": 0.285,
+      "selection": {
+        "sharpe": 4.401,
+        "totalReturnPct": 190.12,
+        "hitRate": 0.693,
+        "maxDrawdownPct": -14.19,
+        "nDays": 127
+      },
+      "holdout": {
+        "sharpe": 1.187,
+        "totalReturnPct": 22.36,
+        "hitRate": 0.549,
+        "maxDrawdownPct": -18.81,
+        "nDays": 91
+      }
+    },
+    {
+      "id": "wf_0040",
+      "family": "high_conviction",
+      "min_proba": 0.61,
+      "min_pred_ret": 0.0028,
+      "top_k": 28,
+      "kelly": 0.975,
+      "short_enabled": true,
+      "short_frac": 0.407,
+      "selection": {
+        "sharpe": 4.39,
+        "totalReturnPct": 330.28,
+        "hitRate": 0.701,
+        "maxDrawdownPct": -17.33,
+        "nDays": 204
+      },
+      "holdout": {
+        "sharpe": 2.235,
+        "totalReturnPct": 65.66,
+        "hitRate": 0.566,
+        "maxDrawdownPct": -22.93,
+        "nDays": 136
+      }
+    },
+    {
+      "id": "wf_0023",
+      "family": "low_vol",
+      "min_proba": 0.513,
+      "min_pred_ret": 0.0099,
+      "top_k": 8,
+      "kelly": 0.243,
+      "short_enabled": true,
+      "short_frac": 0.38,
+      "selection": {
+        "sharpe": 4.384,
+        "totalReturnPct": 791.46,
+        "hitRate": 0.593,
+        "maxDrawdownPct": -18.05,
+        "nDays": 194
+      },
+      "holdout": {
+        "sharpe": 1.536,
+        "totalReturnPct": 57.33,
+        "hitRate": 0.526,
+        "maxDrawdownPct": -30.72,
+        "nDays": 135
+      }
+    },
+    {
+      "id": "wf_0118",
+      "family": "diversified",
+      "min_proba": 0.655,
+      "min_pred_ret": 0.0021,
+      "top_k": 7,
+      "kelly": 0.348,
+      "short_enabled": true,
+      "short_frac": 0.556,
+      "selection": {
+        "sharpe": 4.327,
+        "totalReturnPct": 426.3,
+        "hitRate": 0.649,
+        "maxDrawdownPct": -23.55,
+        "nDays": 191
+      },
+      "holdout": {
+        "sharpe": 1.476,
+        "totalReturnPct": 44.06,
+        "hitRate": 0.543,
+        "maxDrawdownPct": -26.27,
+        "nDays": 127
+      }
+    },
+    {
+      "id": "wf_0323",
+      "family": "short_bias",
+      "min_proba": 0.66,
+      "min_pred_ret": 0.008,
+      "top_k": 29,
+      "kelly": 0.337,
+      "short_enabled": true,
+      "short_frac": 0.564,
+      "selection": {
+        "sharpe": 4.221,
+        "totalReturnPct": 600.87,
+        "hitRate": 0.714,
+        "maxDrawdownPct": -18.91,
+        "nDays": 126
+      },
+      "holdout": {
+        "sharpe": 1.607,
+        "totalReturnPct": 53.76,
+        "hitRate": 0.534,
+        "maxDrawdownPct": -21.79,
+        "nDays": 88
+      }
+    },
+    {
+      "id": "wf_0037",
+      "family": "ml_edge",
+      "min_proba": 0.627,
+      "min_pred_ret": 0.0053,
+      "top_k": 26,
+      "kelly": 0.486,
+      "short_enabled": true,
+      "short_frac": 0.271,
+      "selection": {
+        "sharpe": 4.204,
+        "totalReturnPct": 181.63,
+        "hitRate": 0.667,
+        "maxDrawdownPct": -12.61,
+        "nDays": 186
+      },
+      "holdout": {
+        "sharpe": 1.016,
+        "totalReturnPct": 19.83,
+        "hitRate": 0.5,
+        "maxDrawdownPct": -20.37,
+        "nDays": 128
+      }
+    },
+    {
+      "id": "wf_0280",
+      "family": "mean_reverter",
+      "min_proba": 0.653,
+      "min_pred_ret": 0.0059,
+      "top_k": 8,
+      "kelly": 0.889,
+      "short_enabled": true,
+      "short_frac": 0.282,
+      "selection": {
+        "sharpe": 4.186,
+        "totalReturnPct": 205.4,
+        "hitRate": 0.682,
+        "maxDrawdownPct": -10.98,
+        "nDays": 151
+      },
+      "holdout": {
+        "sharpe": 0.536,
+        "totalReturnPct": 7.63,
+        "hitRate": 0.524,
+        "maxDrawdownPct": -22.52,
+        "nDays": 105
+      }
+    },
+    {
+      "id": "wf_0549",
+      "family": "mean_reverter",
+      "min_proba": 0.674,
+      "min_pred_ret": 0.0036,
+      "top_k": 15,
+      "kelly": 0.457,
+      "short_enabled": true,
+      "short_frac": 0.525,
+      "selection": {
+        "sharpe": 4.17,
+        "totalReturnPct": 464.41,
+        "hitRate": 0.692,
+        "maxDrawdownPct": -22.66,
+        "nDays": 120
+      },
+      "holdout": {
+        "sharpe": 0.54,
+        "totalReturnPct": 8.43,
+        "hitRate": 0.506,
+        "maxDrawdownPct": -29.59,
+        "nDays": 87
+      }
+    },
+    {
+      "id": "wf_0328",
+      "family": "low_vol",
+      "min_proba": 0.531,
+      "min_pred_ret": 0.0123,
+      "top_k": 29,
+      "kelly": 0.402,
+      "short_enabled": true,
+      "short_frac": 0.492,
+      "selection": {
+        "sharpe": 4.11,
+        "totalReturnPct": 641.66,
+        "hitRate": 0.6,
+        "maxDrawdownPct": -16.91,
+        "nDays": 170
+      },
+      "holdout": {
+        "sharpe": 1.753,
+        "totalReturnPct": 63.17,
+        "hitRate": 0.528,
+        "maxDrawdownPct": -19.41,
+        "nDays": 123
+      }
+    },
+    {
+      "id": "wf_0300",
+      "family": "diversified",
+      "min_proba": 0.5,
+      "min_pred_ret": 0.012,
+      "top_k": 16,
+      "kelly": 0.284,
+      "short_enabled": true,
+      "short_frac": 0.556,
+      "selection": {
+        "sharpe": 4.106,
+        "totalReturnPct": 774.1,
+        "hitRate": 0.597,
+        "maxDrawdownPct": -18.97,
+        "nDays": 186
+      },
+      "holdout": {
+        "sharpe": 2.775,
+        "totalReturnPct": 146.65,
+        "hitRate": 0.571,
+        "maxDrawdownPct": -20.06,
+        "nDays": 133
+      }
+    },
+    {
+      "id": "wf_0322",
+      "family": "low_vol",
+      "min_proba": 0.548,
+      "min_pred_ret": 0.0074,
+      "top_k": 24,
+      "kelly": 0.908,
+      "short_enabled": true,
+      "short_frac": 0.307,
+      "selection": {
+        "sharpe": 4.103,
+        "totalReturnPct": 465.78,
+        "hitRate": 0.607,
+        "maxDrawdownPct": -22.72,
+        "nDays": 196
+      },
+      "holdout": {
+        "sharpe": 0.997,
+        "totalReturnPct": 24.84,
+        "hitRate": 0.511,
+        "maxDrawdownPct": -30.36,
+        "nDays": 135
+      }
+    },
+    {
+      "id": "wf_0519",
+      "family": "momentum_long",
+      "min_proba": 0.587,
+      "min_pred_ret": 0.0108,
+      "top_k": 9,
+      "kelly": 0.427,
+      "short_enabled": true,
+      "short_frac": 0.284,
+      "selection": {
+        "sharpe": 4.063,
+        "totalReturnPct": 343.89,
+        "hitRate": 0.656,
+        "maxDrawdownPct": -18.24,
+        "nDays": 160
+      },
+      "holdout": {
+        "sharpe": 1.695,
+        "totalReturnPct": 50.87,
+        "hitRate": 0.558,
+        "maxDrawdownPct": -19.61,
+        "nDays": 113
+      }
+    },
+    {
+      "id": "wf_0426",
+      "family": "short_bias",
+      "min_proba": 0.636,
+      "min_pred_ret": 0.0034,
+      "top_k": 13,
+      "kelly": 0.329,
+      "short_enabled": true,
+      "short_frac": 0.553,
+      "selection": {
+        "sharpe": 4.053,
+        "totalReturnPct": 422.37,
+        "hitRate": 0.663,
+        "maxDrawdownPct": -17.84,
+        "nDays": 193
+      },
+      "holdout": {
+        "sharpe": 1.669,
+        "totalReturnPct": 57.53,
+        "hitRate": 0.538,
+        "maxDrawdownPct": -19.09,
+        "nDays": 130
+      }
+    },
+    {
+      "id": "wf_0025",
+      "family": "short_bias",
+      "min_proba": 0.623,
+      "min_pred_ret": 0.0076,
+      "top_k": 11,
+      "kelly": 0.962,
+      "short_enabled": true,
+      "short_frac": 0.381,
+      "selection": {
+        "sharpe": 4.043,
+        "totalReturnPct": 289.87,
+        "hitRate": 0.669,
+        "maxDrawdownPct": -12.33,
+        "nDays": 169
+      },
+      "holdout": {
+        "sharpe": 1.403,
+        "totalReturnPct": 36.58,
+        "hitRate": 0.512,
+        "maxDrawdownPct": -20.97,
+        "nDays": 121
+      }
+    },
+    {
+      "id": "wf_0315",
+      "family": "mean_reverter",
+      "min_proba": 0.579,
+      "min_pred_ret": 0.0066,
+      "top_k": 5,
+      "kelly": 0.369,
+      "short_enabled": true,
+      "short_frac": 0.36,
+      "selection": {
+        "sharpe": 3.965,
+        "totalReturnPct": 432.57,
+        "hitRate": 0.617,
+        "maxDrawdownPct": -25.31,
+        "nDays": 193
+      },
+      "holdout": {
+        "sharpe": 0.798,
+        "totalReturnPct": 17.57,
+        "hitRate": 0.556,
+        "maxDrawdownPct": -35.17,
+        "nDays": 135
+      }
+    },
+    {
+      "id": "wf_0416",
+      "family": "long_short_neutral",
+      "min_proba": 0.518,
+      "min_pred_ret": 0.013,
+      "top_k": 29,
+      "kelly": 0.759,
+      "short_enabled": true,
+      "short_frac": 0.205,
+      "selection": {
+        "sharpe": 3.958,
+        "totalReturnPct": 529.43,
+        "hitRate": 0.576,
+        "maxDrawdownPct": -17.41,
+        "nDays": 170
+      },
+      "holdout": {
+        "sharpe": 1.135,
+        "totalReturnPct": 33.64,
+        "hitRate": 0.548,
+        "maxDrawdownPct": -37.87,
+        "nDays": 124
+      }
+    },
+    {
+      "id": "wf_0029",
+      "family": "sentiment_rider",
+      "min_proba": 0.629,
+      "min_pred_ret": 0.0055,
+      "top_k": 30,
+      "kelly": 0.372,
+      "short_enabled": true,
+      "short_frac": 0.252,
+      "selection": {
+        "sharpe": 3.943,
+        "totalReturnPct": 163.04,
+        "hitRate": 0.667,
+        "maxDrawdownPct": -13.65,
+        "nDays": 180
+      },
+      "holdout": {
+        "sharpe": 1.322,
+        "totalReturnPct": 27.92,
+        "hitRate": 0.536,
+        "maxDrawdownPct": -17.95,
+        "nDays": 125
+      }
+    },
+    {
+      "id": "wf_0232",
+      "family": "breakout",
+      "min_proba": 0.538,
+      "min_pred_ret": 0.0135,
+      "top_k": 25,
+      "kelly": 0.853,
+      "short_enabled": true,
+      "short_frac": 0.39,
+      "selection": {
+        "sharpe": 3.94,
+        "totalReturnPct": 461.99,
+        "hitRate": 0.595,
+        "maxDrawdownPct": -14.73,
+        "nDays": 163
+      },
+      "holdout": {
+        "sharpe": 1.835,
+        "totalReturnPct": 62.23,
+        "hitRate": 0.543,
+        "maxDrawdownPct": -15.91,
+        "nDays": 116
+      }
+    },
+    {
+      "id": "wf_0321",
+      "family": "mean_reverter",
+      "min_proba": 0.521,
+      "min_pred_ret": 0.0143,
+      "top_k": 11,
+      "kelly": 0.482,
+      "short_enabled": true,
+      "short_frac": 0.256,
+      "selection": {
+        "sharpe": 3.921,
+        "totalReturnPct": 495.9,
+        "hitRate": 0.59,
+        "maxDrawdownPct": -18.74,
+        "nDays": 161
+      },
+      "holdout": {
+        "sharpe": 0.602,
+        "totalReturnPct": 10.68,
+        "hitRate": 0.545,
+        "maxDrawdownPct": -33.8,
+        "nDays": 110
+      }
+    },
+    {
+      "id": "wf_0488",
+      "family": "mean_reverter",
+      "min_proba": 0.614,
+      "min_pred_ret": 0.0058,
+      "top_k": 28,
+      "kelly": 0.389,
+      "short_enabled": true,
+      "short_frac": 0.487,
+      "selection": {
+        "sharpe": 3.907,
+        "totalReturnPct": 367.89,
+        "hitRate": 0.665,
+        "maxDrawdownPct": -19.58,
+        "nDays": 179
+      },
+      "holdout": {
+        "sharpe": 0.224,
+        "totalReturnPct": -1.47,
+        "hitRate": 0.484,
+        "maxDrawdownPct": -26.34,
+        "nDays": 128
+      }
+    },
+    {
+      "id": "wf_0463",
+      "family": "long_short_neutral",
+      "min_proba": 0.63,
+      "min_pred_ret": 0.0091,
+      "top_k": 24,
+      "kelly": 0.364,
+      "short_enabled": true,
+      "short_frac": 0.319,
+      "selection": {
+        "sharpe": 3.881,
+        "totalReturnPct": 207.97,
+        "hitRate": 0.691,
+        "maxDrawdownPct": -12.95,
+        "nDays": 136
+      },
+      "holdout": {
+        "sharpe": 1.429,
+        "totalReturnPct": 33.22,
+        "hitRate": 0.525,
+        "maxDrawdownPct": -22.27,
+        "nDays": 101
+      }
+    },
+    {
+      "id": "wf_0420",
+      "family": "low_vol",
+      "min_proba": 0.626,
+      "min_pred_ret": 0.0089,
+      "top_k": 6,
+      "kelly": 0.38,
+      "short_enabled": true,
+      "short_frac": 0.385,
+      "selection": {
+        "sharpe": 3.832,
+        "totalReturnPct": 274.46,
+        "hitRate": 0.678,
+        "maxDrawdownPct": -16.18,
+        "nDays": 149
+      },
+      "holdout": {
+        "sharpe": 1.048,
+        "totalReturnPct": 25.74,
+        "hitRate": 0.523,
+        "maxDrawdownPct": -25.33,
+        "nDays": 109
+      }
+    },
+    {
+      "id": "wf_0366",
+      "family": "long_short_neutral",
+      "min_proba": 0.506,
+      "min_pred_ret": 0.0147,
+      "top_k": 9,
+      "kelly": 0.586,
+      "short_enabled": true,
+      "short_frac": 0.261,
+      "selection": {
+        "sharpe": 3.828,
+        "totalReturnPct": 542.72,
+        "hitRate": 0.564,
+        "maxDrawdownPct": -19.31,
+        "nDays": 163
+      },
+      "holdout": {
+        "sharpe": 1.509,
+        "totalReturnPct": 57.26,
+        "hitRate": 0.561,
+        "maxDrawdownPct": -34.9,
+        "nDays": 114
+      }
+    },
+    {
+      "id": "wf_0125",
+      "family": "high_conviction",
+      "min_proba": 0.507,
+      "min_pred_ret": 0.0148,
+      "top_k": 16,
+      "kelly": 0.458,
+      "short_enabled": true,
+      "short_frac": 0.268,
+      "selection": {
+        "sharpe": 3.827,
+        "totalReturnPct": 538.93,
+        "hitRate": 0.584,
+        "maxDrawdownPct": -18.89,
+        "nDays": 161
+      },
+      "holdout": {
+        "sharpe": 1.47,
+        "totalReturnPct": 54.41,
+        "hitRate": 0.561,
+        "maxDrawdownPct": -33.8,
+        "nDays": 114
+      }
+    },
+    {
+      "id": "wf_0027",
+      "family": "ml_edge",
+      "min_proba": 0.569,
+      "min_pred_ret": 0.0121,
+      "top_k": 29,
+      "kelly": 0.738,
+      "short_enabled": true,
+      "short_frac": 0.334,
+      "selection": {
+        "sharpe": 3.807,
+        "totalReturnPct": 369.68,
+        "hitRate": 0.633,
+        "maxDrawdownPct": -16.99,
+        "nDays": 158
+      },
+      "holdout": {
+        "sharpe": 1.89,
+        "totalReturnPct": 62.81,
+        "hitRate": 0.536,
+        "maxDrawdownPct": -21.18,
+        "nDays": 110
+      }
+    },
+    {
+      "id": "wf_0079",
+      "family": "ml_edge",
+      "min_proba": 0.624,
+      "min_pred_ret": 0.0075,
+      "top_k": 29,
+      "kelly": 0.86,
+      "short_enabled": true,
+      "short_frac": 0.541,
+      "selection": {
+        "sharpe": 3.791,
+        "totalReturnPct": 463.75,
+        "hitRate": 0.673,
+        "maxDrawdownPct": -18.09,
+        "nDays": 171
+      },
+      "holdout": {
+        "sharpe": 1.272,
+        "totalReturnPct": 39.78,
+        "hitRate": 0.516,
+        "maxDrawdownPct": -24.51,
+        "nDays": 122
+      }
+    },
+    {
+      "id": "wf_0056",
+      "family": "high_conviction",
+      "min_proba": 0.571,
+      "min_pred_ret": 0.0055,
+      "top_k": 14,
+      "kelly": 0.167,
+      "short_enabled": true,
+      "short_frac": 0.355,
+      "selection": {
+        "sharpe": 3.782,
+        "totalReturnPct": 365.92,
+        "hitRate": 0.626,
+        "maxDrawdownPct": -15.38,
+        "nDays": 203
+      },
+      "holdout": {
+        "sharpe": 0.272,
+        "totalReturnPct": 0.28,
+        "hitRate": 0.54,
+        "maxDrawdownPct": -31.17,
+        "nDays": 137
+      }
+    },
+    {
+      "id": "wf_0475",
+      "family": "mean_reverter",
+      "min_proba": 0.548,
+      "min_pred_ret": 0.0155,
+      "top_k": 25,
+      "kelly": 0.53,
+      "short_enabled": true,
+      "short_frac": 0.511,
+      "selection": {
+        "sharpe": 3.751,
+        "totalReturnPct": 400.06,
+        "hitRate": 0.583,
+        "maxDrawdownPct": -19.32,
+        "nDays": 139
+      },
+      "holdout": {
+        "sharpe": 0.518,
+        "totalReturnPct": 7.71,
+        "hitRate": 0.5,
+        "maxDrawdownPct": -29.67,
+        "nDays": 98
+      }
+    },
+    {
+      "id": "wf_0036",
+      "family": "mean_reverter",
+      "min_proba": 0.524,
+      "min_pred_ret": 0.0168,
+      "top_k": 25,
+      "kelly": 0.788,
+      "short_enabled": true,
+      "short_frac": 0.313,
+      "selection": {
+        "sharpe": 3.711,
+        "totalReturnPct": 394.16,
+        "hitRate": 0.576,
+        "maxDrawdownPct": -20.47,
+        "nDays": 144
+      },
+      "holdout": {
+        "sharpe": 1.114,
+        "totalReturnPct": 30.94,
+        "hitRate": 0.542,
+        "maxDrawdownPct": -21.89,
+        "nDays": 107
+      }
+    },
+    {
+      "id": "wf_0474",
+      "family": "earnings_drift",
+      "min_proba": 0.571,
+      "min_pred_ret": 0.0144,
+      "top_k": 22,
+      "kelly": 0.246,
+      "short_enabled": true,
+      "short_frac": 0.559,
+      "selection": {
+        "sharpe": 3.67,
+        "totalReturnPct": 457.55,
+        "hitRate": 0.625,
+        "maxDrawdownPct": -24.29,
+        "nDays": 144
+      },
+      "holdout": {
+        "sharpe": 0.172,
+        "totalReturnPct": -4.66,
+        "hitRate": 0.505,
+        "maxDrawdownPct": -32.84,
+        "nDays": 91
+      }
+    },
+    {
+      "id": "wf_0217",
+      "family": "mean_reverter",
+      "min_proba": 0.541,
+      "min_pred_ret": 0.0141,
+      "top_k": 16,
+      "kelly": 0.372,
+      "short_enabled": true,
+      "short_frac": 0.243,
+      "selection": {
+        "sharpe": 3.654,
+        "totalReturnPct": 389.29,
+        "hitRate": 0.583,
+        "maxDrawdownPct": -14.52,
+        "nDays": 163
+      },
+      "holdout": {
+        "sharpe": 1.417,
+        "totalReturnPct": 44.88,
+        "hitRate": 0.559,
+        "maxDrawdownPct": -20.09,
+        "nDays": 111
+      }
+    },
+    {
+      "id": "wf_0059",
+      "family": "ml_edge",
+      "min_proba": 0.526,
+      "min_pred_ret": 0.018,
+      "top_k": 24,
+      "kelly": 0.846,
+      "short_enabled": true,
+      "short_frac": 0.192,
+      "selection": {
+        "sharpe": 3.653,
+        "totalReturnPct": 403.47,
+        "hitRate": 0.602,
+        "maxDrawdownPct": -16.88,
+        "nDays": 128
+      },
+      "holdout": {
+        "sharpe": 1.155,
+        "totalReturnPct": 35.31,
+        "hitRate": 0.547,
+        "maxDrawdownPct": -35.23,
+        "nDays": 95
+      }
+    },
+    {
+      "id": "wf_0019",
+      "family": "short_bias",
+      "min_proba": 0.632,
+      "min_pred_ret": 0.0025,
+      "top_k": 29,
+      "kelly": 0.651,
+      "short_enabled": true,
+      "short_frac": 0.195,
+      "selection": {
+        "sharpe": 3.628,
+        "totalReturnPct": 84.01,
+        "hitRate": 0.649,
+        "maxDrawdownPct": -7.01,
+        "nDays": 202
+      },
+      "holdout": {
+        "sharpe": 1.509,
+        "totalReturnPct": 22.85,
+        "hitRate": 0.522,
+        "maxDrawdownPct": -12.39,
+        "nDays": 134
+      }
+    },
+    {
+      "id": "wf_0151",
+      "family": "earnings_drift",
+      "min_proba": 0.513,
+      "min_pred_ret": 0.0116,
+      "top_k": 10,
+      "kelly": 0.581,
+      "short_enabled": true,
+      "short_frac": 0.177,
+      "selection": {
+        "sharpe": 3.587,
+        "totalReturnPct": 513.16,
+        "hitRate": 0.576,
+        "maxDrawdownPct": -22.44,
+        "nDays": 184
+      },
+      "holdout": {
+        "sharpe": 1.587,
+        "totalReturnPct": 68.22,
+        "hitRate": 0.542,
+        "maxDrawdownPct": -27.66,
+        "nDays": 131
+      }
+    },
+    {
+      "id": "wf_0055",
+      "family": "diversified",
+      "min_proba": 0.634,
+      "min_pred_ret": 0.0105,
+      "top_k": 25,
+      "kelly": 0.517,
+      "short_enabled": true,
+      "short_frac": 0.334,
+      "selection": {
+        "sharpe": 3.58,
+        "totalReturnPct": 191.28,
+        "hitRate": 0.661,
+        "maxDrawdownPct": -13.53,
+        "nDays": 127
+      },
+      "holdout": {
+        "sharpe": 2.058,
+        "totalReturnPct": 53.92,
+        "hitRate": 0.589,
+        "maxDrawdownPct": -18.04,
+        "nDays": 90
+      }
+    },
+    {
+      "id": "wf_0384",
+      "family": "short_bias",
+      "min_proba": 0.52,
+      "min_pred_ret": 0.0162,
+      "top_k": 15,
+      "kelly": 0.701,
+      "short_enabled": true,
+      "short_frac": 0.561,
+      "selection": {
+        "sharpe": 3.574,
+        "totalReturnPct": 421.92,
+        "hitRate": 0.589,
+        "maxDrawdownPct": -19.94,
+        "nDays": 146
+      },
+      "holdout": {
+        "sharpe": 0.87,
+        "totalReturnPct": 21.29,
+        "hitRate": 0.537,
+        "maxDrawdownPct": -31.18,
+        "nDays": 108
+      }
+    },
+    {
+      "id": "wf_0371",
+      "family": "ml_edge",
+      "min_proba": 0.634,
+      "min_pred_ret": 0.0073,
+      "top_k": 9,
+      "kelly": 0.674,
+      "short_enabled": true,
+      "short_frac": 0.517,
+      "selection": {
+        "sharpe": 3.564,
+        "totalReturnPct": 412.67,
+        "hitRate": 0.669,
+        "maxDrawdownPct": -20.61,
+        "nDays": 166
+      },
+      "holdout": {
+        "sharpe": 1.478,
+        "totalReturnPct": 48.93,
+        "hitRate": 0.529,
+        "maxDrawdownPct": -25.11,
+        "nDays": 119
+      }
+    },
+    {
+      "id": "wf_0071",
+      "family": "mean_reverter",
+      "min_proba": 0.648,
+      "min_pred_ret": 0.0117,
+      "top_k": 8,
+      "kelly": 0.197,
+      "short_enabled": true,
+      "short_frac": 0.416,
+      "selection": {
+        "sharpe": 3.555,
+        "totalReturnPct": 218.7,
+        "hitRate": 0.68,
+        "maxDrawdownPct": -9.32,
+        "nDays": 100
+      },
+      "holdout": {
+        "sharpe": 2.985,
+        "totalReturnPct": 96.97,
+        "hitRate": 0.606,
+        "maxDrawdownPct": -18.04,
+        "nDays": 66
+      }
+    },
+    {
+      "id": "wf_0568",
+      "family": "earnings_drift",
+      "min_proba": 0.581,
+      "min_pred_ret": 0.0039,
+      "top_k": 23,
+      "kelly": 0.274,
+      "short_enabled": true,
+      "short_frac": 0.234,
+      "selection": {
+        "sharpe": 3.52,
+        "totalReturnPct": 246.91,
+        "hitRate": 0.652,
+        "maxDrawdownPct": -15.28,
+        "nDays": 204
+      },
+      "holdout": {
+        "sharpe": 0.613,
+        "totalReturnPct": 10.68,
+        "hitRate": 0.532,
+        "maxDrawdownPct": -28.24,
+        "nDays": 139
+      }
+    },
+    {
+      "id": "wf_0203",
+      "family": "diversified",
+      "min_proba": 0.631,
+      "min_pred_ret": 0.0087,
+      "top_k": 6,
+      "kelly": 0.372,
+      "short_enabled": true,
+      "short_frac": 0.404,
+      "selection": {
+        "sharpe": 3.478,
+        "totalReturnPct": 257.35,
+        "hitRate": 0.66,
+        "maxDrawdownPct": -18.58,
+        "nDays": 147
+      },
+      "holdout": {
+        "sharpe": 0.642,
+        "totalReturnPct": 11.85,
+        "hitRate": 0.519,
+        "maxDrawdownPct": -32.79,
+        "nDays": 108
+      }
+    },
+    {
+      "id": "wf_0425",
+      "family": "mean_reverter",
+      "min_proba": 0.557,
+      "min_pred_ret": 0.0036,
+      "top_k": 30,
+      "kelly": 0.647,
+      "short_enabled": true,
+      "short_frac": 0.433,
+      "selection": {
+        "sharpe": 3.471,
+        "totalReturnPct": 263.27,
+        "hitRate": 0.63,
+        "maxDrawdownPct": -19.27,
+        "nDays": 208
+      },
+      "holdout": {
+        "sharpe": 0.656,
+        "totalReturnPct": 11.85,
+        "hitRate": 0.529,
+        "maxDrawdownPct": -28.24,
+        "nDays": 140
+      }
+    },
+    {
+      "id": "wf_0494",
+      "family": "earnings_drift",
+      "min_proba": 0.56,
+      "min_pred_ret": 0.0137,
+      "top_k": 26,
+      "kelly": 0.636,
+      "short_enabled": true,
+      "short_frac": 0.412,
+      "selection": {
+        "sharpe": 3.465,
+        "totalReturnPct": 323.4,
+        "hitRate": 0.607,
+        "maxDrawdownPct": -16.03,
+        "nDays": 150
+      },
+      "holdout": {
+        "sharpe": 1.607,
+        "totalReturnPct": 51.71,
+        "hitRate": 0.551,
+        "maxDrawdownPct": -20.52,
+        "nDays": 107
+      }
+    },
+    {
+      "id": "wf_0414",
+      "family": "momentum_long",
+      "min_proba": 0.517,
+      "min_pred_ret": 0.0087,
+      "top_k": 30,
+      "kelly": 0.347,
+      "short_enabled": true,
+      "short_frac": 0.154,
+      "selection": {
+        "sharpe": 3.448,
+        "totalReturnPct": 417.08,
+        "hitRate": 0.563,
+        "maxDrawdownPct": -29.73,
+        "nDays": 197
+      },
+      "holdout": {
+        "sharpe": 0.636,
+        "totalReturnPct": 11.6,
+        "hitRate": 0.478,
+        "maxDrawdownPct": -43.08,
+        "nDays": 136
+      }
+    },
+    {
+      "id": "wf_0143",
+      "family": "breakout",
+      "min_proba": 0.638,
+      "min_pred_ret": 0.0077,
+      "top_k": 10,
+      "kelly": 0.429,
+      "short_enabled": true,
+      "short_frac": 0.226,
+      "selection": {
+        "sharpe": 3.44,
+        "totalReturnPct": 118.57,
+        "hitRate": 0.634,
+        "maxDrawdownPct": -10.74,
+        "nDays": 161
+      },
+      "holdout": {
+        "sharpe": 0.607,
+        "totalReturnPct": 8.83,
+        "hitRate": 0.5,
+        "maxDrawdownPct": -15.25,
+        "nDays": 118
+      }
+    },
+    {
+      "id": "wf_0062",
+      "family": "mean_reverter",
+      "min_proba": 0.518,
+      "min_pred_ret": 0.0119,
+      "top_k": 22,
+      "kelly": 0.878,
+      "short_enabled": true,
+      "short_frac": 0.087,
+      "selection": {
+        "sharpe": 3.437,
+        "totalReturnPct": 451.64,
+        "hitRate": 0.545,
+        "maxDrawdownPct": -25.43,
+        "nDays": 176
+      },
+      "holdout": {
+        "sharpe": 0.711,
+        "totalReturnPct": 15.08,
+        "hitRate": 0.519,
+        "maxDrawdownPct": -44.42,
+        "nDays": 129
+      }
+    },
+    {
+      "id": "wf_0407",
+      "family": "ml_edge",
+      "min_proba": 0.526,
+      "min_pred_ret": 0.0095,
+      "top_k": 20,
+      "kelly": 0.86,
+      "short_enabled": true,
+      "short_frac": 0.12,
+      "selection": {
+        "sharpe": 3.432,
+        "totalReturnPct": 398.54,
+        "hitRate": 0.534,
+        "maxDrawdownPct": -16.8,
+        "nDays": 189
+      },
+      "holdout": {
+        "sharpe": 1.248,
+        "totalReturnPct": 41.31,
+        "hitRate": 0.493,
+        "maxDrawdownPct": -32.67,
+        "nDays": 134
+      }
+    },
+    {
+      "id": "wf_0563",
+      "family": "diversified",
+      "min_proba": 0.513,
+      "min_pred_ret": 0.0171,
+      "top_k": 7,
+      "kelly": 0.585,
+      "short_enabled": true,
+      "short_frac": 0.504,
+      "selection": {
+        "sharpe": 3.412,
+        "totalReturnPct": 353.33,
+        "hitRate": 0.579,
+        "maxDrawdownPct": -23.74,
+        "nDays": 145
+      },
+      "holdout": {
+        "sharpe": 1.427,
+        "totalReturnPct": 47.23,
+        "hitRate": 0.559,
+        "maxDrawdownPct": -23.16,
+        "nDays": 111
+      }
+    },
+    {
+      "id": "wf_0249",
+      "family": "long_short_neutral",
+      "min_proba": 0.576,
+      "min_pred_ret": 0.0043,
+      "top_k": 5,
+      "kelly": 0.506,
+      "short_enabled": true,
+      "short_frac": 0.281,
+      "selection": {
+        "sharpe": 3.385,
+        "totalReturnPct": 299.61,
+        "hitRate": 0.569,
+        "maxDrawdownPct": -27.51,
+        "nDays": 204
+      },
+      "holdout": {
+        "sharpe": 0.646,
+        "totalReturnPct": 12.05,
+        "hitRate": 0.543,
+        "maxDrawdownPct": -30.7,
+        "nDays": 138
+      }
+    },
+    {
+      "id": "wf_0507",
+      "family": "contrarian",
+      "min_proba": 0.572,
+      "min_pred_ret": 0.0151,
+      "top_k": 24,
+      "kelly": 0.65,
+      "short_enabled": true,
+      "short_frac": 0.355,
+      "selection": {
+        "sharpe": 3.375,
+        "totalReturnPct": 273.42,
+        "hitRate": 0.624,
+        "maxDrawdownPct": -19.18,
+        "nDays": 141
+      },
+      "holdout": {
+        "sharpe": 0.558,
+        "totalReturnPct": 9.14,
+        "hitRate": 0.522,
+        "maxDrawdownPct": -26.64,
+        "nDays": 90
+      }
+    },
+    {
+      "id": "wf_0373",
+      "family": "mean_reverter",
+      "min_proba": 0.683,
+      "min_pred_ret": 0.0068,
+      "top_k": 30,
+      "kelly": 0.238,
+      "short_enabled": true,
+      "short_frac": 0.276,
+      "selection": {
+        "sharpe": 3.363,
+        "totalReturnPct": 101.96,
+        "hitRate": 0.675,
+        "maxDrawdownPct": -10.6,
+        "nDays": 83
+      },
+      "holdout": {
+        "sharpe": 1.235,
+        "totalReturnPct": 18.83,
+        "hitRate": 0.522,
+        "maxDrawdownPct": -11.56,
+        "nDays": 69
+      }
+    },
+    {
+      "id": "wf_0363",
+      "family": "sentiment_rider",
+      "min_proba": 0.559,
+      "min_pred_ret": 0.0174,
+      "top_k": 12,
+      "kelly": 0.383,
+      "short_enabled": true,
+      "short_frac": 0.455,
+      "selection": {
+        "sharpe": 3.361,
+        "totalReturnPct": 278.71,
+        "hitRate": 0.607,
+        "maxDrawdownPct": -24.32,
+        "nDays": 122
+      },
+      "holdout": {
+        "sharpe": 0.469,
+        "totalReturnPct": 6.09,
+        "hitRate": 0.563,
+        "maxDrawdownPct": -28.04,
+        "nDays": 87
+      }
+    },
+    {
+      "id": "wf_0034",
+      "family": "high_conviction",
+      "min_proba": 0.52,
+      "min_pred_ret": 0.0199,
+      "top_k": 13,
+      "kelly": 0.324,
+      "short_enabled": true,
+      "short_frac": 0.393,
+      "selection": {
+        "sharpe": 3.324,
+        "totalReturnPct": 266.62,
+        "hitRate": 0.637,
+        "maxDrawdownPct": -18.89,
+        "nDays": 102
+      },
+      "holdout": {
+        "sharpe": 1.201,
+        "totalReturnPct": 34.46,
+        "hitRate": 0.551,
+        "maxDrawdownPct": -28.68,
+        "nDays": 89
+      }
+    },
+    {
+      "id": "wf_0065",
+      "family": "ml_edge",
+      "min_proba": 0.562,
+      "min_pred_ret": 0.0136,
+      "top_k": 27,
+      "kelly": 0.325,
+      "short_enabled": true,
+      "short_frac": 0.295,
+      "selection": {
+        "sharpe": 3.296,
+        "totalReturnPct": 262.25,
+        "hitRate": 0.607,
+        "maxDrawdownPct": -16.01,
+        "nDays": 150
+      },
+      "holdout": {
+        "sharpe": 1.527,
+        "totalReturnPct": 47.14,
+        "hitRate": 0.552,
+        "maxDrawdownPct": -21.2,
+        "nDays": 105
+      }
+    }
+  ],
+  "verdict": "Of the top 68 genomes picked on selection, 63 stayed positive on the unseen holdout. Best holdout: Sharpe 3.084, 45.58% over 19d."
+}

@@ -1,0 +1,99 @@
+name: Generate Daily Predictions
+
+on:
+  schedule:
+    # Run after the feature build has incorporated the latest daily signals.
+    - cron: '0 23 * * 1-5'
+  workflow_dispatch:   # allow manual trigger
+
+concurrency:
+  group: main-branch-writer
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  generate-predictions:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Configure Git LFS
+        run: git lfs install
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Generate predictions
+        run: python scripts/generate-predictions.py
+
+      - name: Prune old prediction files (90 days)
+        run: |
+          python - <<'EOF'
+          import json
+          from datetime import date, datetime, timedelta
+          from pathlib import Path
+
+          pred_dir = Path("data/predictions")
+          log_path = Path("data/accuracy/accuracy-log.json")
+          cutoff = date.today() - timedelta(days=90)
+
+          keep = set()
+          if log_path.exists():
+              try:
+                  log = json.loads(log_path.read_text())
+                  for e in log.get("entries", []):
+                      if e.get("hitRate") is None or int(e.get("total", 0) or 0) == 0:
+                          d = e.get("date")
+                          if d:
+                              keep.add(d)
+                              try:
+                                  dt = date.fromisoformat(d)
+                                  prev = dt - timedelta(days=1)
+                                  while prev.weekday() >= 5:
+                                      prev -= timedelta(days=1)
+                                  keep.add(prev.isoformat())
+                              except Exception:
+                                  pass
+              except Exception as ex:
+                  print(f"Could not parse accuracy log for keep-set: {ex}")
+
+          removed = 0
+          for path in pred_dir.glob("*.json"):
+              try:
+                  file_date = datetime.strptime(path.stem, "%Y-%m-%d").date()
+              except ValueError:
+                  continue
+              if path.stem in keep:
+                  continue
+              if file_date < cutoff:
+                  path.unlink()
+                  removed += 1
+          print(f"Pruned {removed} old prediction files older than 90 days.")
+          EOF
+
+      - name: Commit prediction file
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add data/predictions/ || true
+
+          if git diff --cached --quiet; then
+            echo "No new predictions to commit."
+          else
+            git commit -m "chore: generate daily predictions $(date -u +%Y-%m-%d)"
+            git pull --rebase --autostash origin main
+            git push
+          fi

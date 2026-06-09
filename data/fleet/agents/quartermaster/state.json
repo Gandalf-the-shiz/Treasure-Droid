@@ -1,0 +1,55 @@
+{
+  "positions": {
+    "EWCZ": {
+      "qty": 2304,
+      "entryPrice": 5.82,
+      "side": "long",
+      "openedAt": "2026-05-22"
+    },
+    "IHS": {
+      "qty": 1334,
+      "entryPrice": 8.3,
+      "side": "long",
+      "openedAt": "2026-05-22"
+    },
+    "ATHS": {
+      "qty": 524,
+      "entryPrice": 25.01,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "DRDB": {
+      "qty": 1246,
+      "entryPrice": 10.52,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "CRCL": {
+      "qty": 105,
+      "entryPrice": 90.54,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "ATLC": {
+      "qty": 120,
+      "entryPrice": 82.22,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "BAP": {
+      "qty": 27,
+      "entryPrice": 326.53,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "JHG": {
+      "qty": 206,
+      "entryPrice": 51.78,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    }
+  },
+  "cash": 10339.041315,
+  "startingCash": 100000.0,
+  "lastDate": "2026-06-03"
+}

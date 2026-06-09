@@ -1,0 +1,84 @@
+{
+  "generatedAt": "2026-06-06T14:28:29Z",
+  "ok": true,
+  "research": {
+    "ok": true,
+    "kind": "research",
+    "window": {
+      "start": "2025-01-02",
+      "end": "2026-05-28"
+    },
+    "by_sleeve": {
+      "ml_edge": {
+        "mean_ic": 0.02266,
+        "icir": 0.2556,
+        "ic_hit_rate": 0.6182,
+        "n_days": 351,
+        "label": "ML edge",
+        "decayed": false
+      },
+      "reversal_1d": {
+        "mean_ic": 0.02031,
+        "icir": 0.1493,
+        "ic_hit_rate": 0.5556,
+        "n_days": 351,
+        "label": "1-day reversal",
+        "decayed": false
+      },
+      "reversal_5d": {
+        "mean_ic": 0.00785,
+        "icir": 0.0564,
+        "ic_hit_rate": 0.5185,
+        "n_days": 351,
+        "label": "5-day reversal",
+        "decayed": false
+      },
+      "momentum_120_20": {
+        "mean_ic": 0.01573,
+        "icir": 0.0969,
+        "ic_hit_rate": 0.5755,
+        "n_days": 351,
+        "label": "Residual momentum",
+        "decayed": false
+      }
+    },
+    "n_days": 351
+  },
+  "forward": {
+    "ok": false,
+    "kind": "forward",
+    "horizonDays": 1,
+    "window": {
+      "start": null,
+      "end": null
+    },
+    "by_sleeve": {},
+    "n_days": 0
+  },
+  "config_weights": {
+    "ml_edge": 1.0,
+    "reversal_5d": 0.7,
+    "reversal_1d": 0.5,
+    "momentum_120_20": 0.4,
+    "pead": 0.8,
+    "revisions": 0.6,
+    "sentiment": 0.5,
+    "ml_proba": 0.0
+  },
+  "effective_weights": {
+    "ml_edge": 1.0,
+    "reversal_5d": 0.7,
+    "reversal_1d": 0.5,
+    "momentum_120_20": 0.4,
+    "pead": 0.8,
+    "revisions": 0.6,
+    "sentiment": 0.5,
+    "ml_proba": 0.0
+  },
+  "weight_mode": "static_config",
+  "weight_notes": [
+    "forward days 0/5 \u2014 using config weights until enough live proof"
+  ],
+  "min_forward_days": 5,
+  "decay_window": 10
+}

@@ -1,0 +1,105 @@
+{
+  "startedAt": "2026-06-03T23:27:43Z",
+  "label": "Investor Arena A/B \u2014 v1 threshold vs v2 rank-unified",
+  "initialEquityUsd": 50000,
+  "versions": {
+    "v1": {
+      "startedAt": "2026-06-03T23:27:43Z",
+      "nTraders": 100,
+      "frozen": true,
+      "selectionMode": "threshold_v1"
+    },
+    "v2": {
+      "startedAt": "2026-06-03T23:27:43Z",
+      "nTraders": 100,
+      "frozen": true,
+      "selectionMode": "rank_v2"
+    },
+    "v3": {
+      "startedAt": "2026-06-04T01:37:37Z",
+      "nTraders": 100,
+      "label": "Megamind v3 \u2014 liquidity-aware rank panel",
+      "selectionMode": "rank_v2",
+      "panelPath": "data/arena_feeds/arena-v3-liquidity-panel.csv",
+      "megamindSpawned": true,
+      "sourceRecommendation": "dbff372c7c0b",
+      "frozen": false,
+      "role": "champion",
+      "archived": false,
+      "lastUpdatedAt": "2026-06-08T18:18:16Z",
+      "lastPulseAt": "2026-06-08T18:18:16Z"
+    },
+    "v4": {
+      "startedAt": "2026-06-04T01:43:27Z",
+      "nTraders": 100,
+      "label": "Megamind v3 \u2014 liquidity-aware rank panel",
+      "selectionMode": "rank_v2",
+      "panelPath": "data/arena_feeds/arena-v3-liquidity-panel.csv",
+      "megamindSpawned": true,
+      "sourceRecommendation": "cd7bbe3afe4c",
+      "frozen": false,
+      "archived": true,
+      "archivedAt": "2026-06-05T21:24:44Z",
+      "archiveReason": "Duplicate mutable fork \u2014 harvest-only per operating model (v1/v2 untouched).",
+      "role": "archived",
+      "pulsed": false
+    },
+    "v5": {
+      "startedAt": "2026-06-04T01:43:38Z",
+      "nTraders": 100,
+      "label": "Megamind v3 \u2014 liquidity-aware rank panel",
+      "selectionMode": "rank_v2",
+      "panelPath": "data/arena_feeds/arena-v3-liquidity-panel.csv",
+      "megamindSpawned": true,
+      "sourceRecommendation": "cd7bbe3afe4c",
+      "frozen": false,
+      "archived": true,
+      "archivedAt": "2026-06-05T21:24:44Z",
+      "archiveReason": "Duplicate mutable fork \u2014 harvest-only per operating model (v1/v2 untouched).",
+      "role": "archived",
+      "pulsed": false
+    },
+    "v6": {
+      "startedAt": "2026-06-04T01:43:47Z",
+      "nTraders": 100,
+      "label": "Megamind v3 \u2014 liquidity-aware rank panel",
+      "selectionMode": "rank_v2",
+      "panelPath": "data/arena_feeds/arena-v3-liquidity-panel.csv",
+      "megamindSpawned": true,
+      "sourceRecommendation": "cd7bbe3afe4c",
+      "frozen": false,
+      "archived": true,
+      "archivedAt": "2026-06-05T21:24:44Z",
+      "archiveReason": "Duplicate mutable fork \u2014 harvest-only per operating model (v1/v2 untouched).",
+      "role": "archived",
+      "pulsed": false
+    }
+  },
+  "versionList": [
+    "v1",
+    "v2",
+    "v3",
+    "v4",
+    "v5",
+    "v6"
+  ],
+  "operatingModel": {
+    "consolidated": true,
+    "consolidatedAt": "2026-06-05T21:24:44Z",
+    "champion": "v3",
+    "challenger": null,
+    "archived": [
+      "v4",
+      "v5",
+      "v6"
+    ],
+    "pulseVersions": [
+      "v1",
+      "v2",
+      "v3"
+    ],
+    "championPopulation": 112,
+    "maxActiveMutablePulsed": 2,
+    "policy": "Pulse v1+v2+champion(+optional challenger). Harvest all ledgers. Evolve champion population. Distill \u22645 real ML agents."
+  }
+}

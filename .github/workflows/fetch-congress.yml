@@ -1,0 +1,43 @@
+name: Fetch Congressional Trades
+
+on:
+  schedule:
+    - cron: '0 10 * * 1-5'   # 10:00 UTC weekdays
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-congress:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - run: pip install -r scripts/requirements.txt
+
+      - name: Fetch congressional trades
+        env:
+          QUIVER_API_KEY: ${{ secrets.QUIVER_API_KEY }}
+          CAPITOL_API_URL: ${{ secrets.CAPITOL_API_URL }}
+        run: python scripts/fetch-congress-trades.py
+
+      - name: Commit congress data
+        run: |
+          git config user.name "Nostradamus Bot"
+          git config user.email "bot@nostradamus.app"
+          git add data/congress/
+          if git diff --cached --quiet; then
+            echo "No congress changes."
+          else
+            git commit -m "🏛️ Congressional trades [$(date -u +%Y-%m-%d)]"
+            git pull --rebase --autostash origin main || true
+            git push || true
+          fi

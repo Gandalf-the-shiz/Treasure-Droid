@@ -1,0 +1,19 @@
+{
+  "approveSecret": "6e065c1fac69e6b5fccc25463e62cd19",
+  "dashboardBaseUrl": "http://127.0.0.1:8000",
+  "autoLaunch": "none",
+  "autoApproveEnabled": true,
+  "autoApprovePriorities": [
+    "critical",
+    "high"
+  ],
+  "cursorModel": "composer-2.5",
+  "sdkBlocking": false,
+  "remoteApproveEnabled": true,
+  "publicDashboardUrl": "https://treasure-droid.com",
+  "postCompletionEnabled": true,
+  "followupEmailEnabled": true,
+  "debugAgentEnabled": true,
+  "tunnelEnabled": true,
+  "autoBuildMode": "ide"
+}

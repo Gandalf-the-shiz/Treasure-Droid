@@ -1,0 +1,149 @@
+{
+  "entries": [
+    {
+      "date": "2026-04-13",
+      "recordedAt": "2026-04-14T01:19:42Z",
+      "modelVersion": "2.0.0",
+      "hitRate": 0.5902,
+      "total": 1508,
+      "correct": 890,
+      "rolling7day": null,
+      "rolling30day": null
+    },
+    {
+      "date": "2026-04-14",
+      "recordedAt": "2026-04-15T01:10:29Z",
+      "modelVersion": "2.0.0",
+      "hitRate": null,
+      "total": 0,
+      "correct": 0,
+      "rolling7day": null,
+      "rolling30day": null
+    },
+    {
+      "date": "2026-04-15",
+      "recordedAt": "2026-04-16T01:11:02Z",
+      "modelVersion": "2.0.0",
+      "hitRate": 0.4637,
+      "total": 1337,
+      "correct": 620,
+      "rolling7day": null,
+      "rolling30day": null
+    },
+    {
+      "date": "2026-04-16",
+      "recordedAt": "2026-04-17T02:02:17Z",
+      "modelVersion": "2.0.0",
+      "hitRate": null,
+      "total": 0,
+      "correct": 0,
+      "rolling7day": null,
+      "rolling30day": null
+    },
+    {
+      "date": "2026-04-17",
+      "recordedAt": "2026-04-20T01:14:53Z",
+      "modelVersion": "2.0.0",
+      "hitRate": 0.6811,
+      "regressionMAE": 0.033614,
+      "total": 1521,
+      "correct": 1036,
+      "rolling7day": null,
+      "rolling30day": null
+    },
+    {
+      "date": "2026-04-20",
+      "recordedAt": "2026-04-21T03:17:23Z",
+      "modelVersion": "2.0.0",
+      "hitRate": 0.5096,
+      "regressionMAE": 0.02358,
+      "total": 1560,
+      "correct": 795,
+      "rolling7day": null,
+      "rolling30day": null
+    },
+    {
+      "date": "2026-04-22",
+      "recordedAt": "2026-04-23T03:34:04Z",
+      "modelVersion": "2.0.0",
+      "hitRate": 0.5652,
+      "regressionMAE": 0.025016,
+      "total": 1373,
+      "correct": 776,
+      "rolling7day": null,
+      "rolling30day": null
+    },
+    {
+      "date": "2026-04-24",
+      "recordedAt": "2026-04-27T01:52:37Z",
+      "modelVersion": "2.0.0",
+      "hitRate": 0.4718,
+      "regressionMAE": 0.049438,
+      "total": 2696,
+      "correct": 1272,
+      "rolling7day": null,
+      "rolling30day": null
+    },
+    {
+      "date": "2026-04-29",
+      "recordedAt": "2026-04-30T02:42:09Z",
+      "modelVersion": "2.0.0",
+      "hitRate": 0.3555,
+      "regressionMAE": 0.032754,
+      "total": 1519,
+      "correct": 540,
+      "rolling7day": null,
+      "rolling30day": null
+    },
+    {
+      "date": "2026-05-05",
+      "recordedAt": "2026-05-06T01:20:24Z",
+      "modelVersion": "2.0.0",
+      "hitRate": null,
+      "regressionMAE": null,
+      "total": 0,
+      "correct": 0,
+      "rolling7day": null,
+      "rolling30day": null
+    },
+    {
+      "date": "2026-05-06",
+      "recordedAt": "2026-05-07T01:23:17Z",
+      "modelVersion": "2.0.0",
+      "hitRate": 0.6104,
+      "regressionMAE": 0.033583,
+      "total": 1481,
+      "correct": 904,
+      "rolling7day": null,
+      "rolling30day": null
+    },
+    {
+      "date": "2026-05-07",
+      "recordedAt": "2026-05-08T01:17:41Z",
+      "modelVersion": "2.0.0",
+      "hitRate": null,
+      "regressionMAE": null,
+      "total": 0,
+      "correct": 0,
+      "rolling7day": null,
+      "rolling30day": null
+    },
+    {
+      "date": "2026-05-08",
+      "recordedAt": "2026-05-10T01:10:16Z",
+      "modelVersion": "2.0.0",
+      "hitRate": 0.5284,
+      "regressionMAE": 0.030188,
+      "total": 1355,
+      "correct": 716,
+      "rolling7day": null,
+      "rolling30day": null
+    }
+  ],
+  "rolling": {
+    "7day": 0.5694,
+    "30day": 0.5307,
+    "90day": 0.5307
+  },
+  "updatedAt": "2026-05-10T01:10:16Z"
+}

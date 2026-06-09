@@ -1,0 +1,47 @@
+name: Build Feature Matrix
+
+on:
+  schedule:
+    # Run after history and sentiment so the latest nightly signals are included.
+    - cron: '15 22 * * *'
+  workflow_dispatch:
+
+jobs:
+  build-features:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Configure Git LFS
+        run: git lfs install
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Build feature matrix
+        run: python scripts/build-features.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "Nostradamus Bot"
+          git config user.email "bot@nostradamus.app"
+          git add data/features/
+          git diff --cached --quiet && echo "No changes to commit" && exit 0
+          TICKER_COUNT=$(python -c "import json; d=json.load(open('data/features/scaling_params.json')); print(d['globalStats']['tickersProcessed'])")
+          FEATURE_COUNT=$(python -c "import json; d=json.load(open('data/features/scaling_params.json')); print(d['featureCount'])")
+          TODAY=$(date -u +%Y-%m-%d)
+          git commit -m "🧮 Feature engineering update [${TODAY}] — ${TICKER_COUNT} tickers, ${FEATURE_COUNT} features"
+          git pull --rebase --autostash origin main
+          git push

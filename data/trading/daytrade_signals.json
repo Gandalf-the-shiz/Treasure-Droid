@@ -1,0 +1,16 @@
+{
+  "generatedAt": "2026-06-09T20:39:47Z",
+  "picks": [
+    {
+      "symbol": "CRCL",
+      "proba_up": 0.5789916909948348,
+      "pred_ret": 0.0069109894948349,
+      "edge": 0.0010918214932890962,
+      "momentum_intraday": 0.0,
+      "day_score": 0.1925,
+      "hold_minutes": 240,
+      "unified_score": 0.1925,
+      "rationale": "Daytrade score 0.193 \u2014 unified intel + intraday mom +0.00%"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "generatedAt": "2026-06-05T21:37:45Z",
+  "probeSymbol": "AAPL",
+  "providers": {
+    "yfinance": {
+      "ok": true,
+      "rows": 10,
+      "latencyMs": 460.94,
+      "error": ""
+    },
+    "stooq": {
+      "ok": false,
+      "rows": 0,
+      "latencyMs": 0.0,
+      "error": "skipped: programmatic access captcha-walled; use import-stooq-bulk-zip.py instead",
+      "skipped": true
+    },
+    "fred": {
+      "ok": false,
+      "rows": 0,
+      "latencyMs": 30336.97,
+      "error": ""
+    },
+    "gdelt": {
+      "ok": false,
+      "rows": 0,
+      "latencyMs": 22549.67,
+      "error": ""
+    },
+    "tiingo": {
+      "ok": false,
+      "rows": 0,
+      "latencyMs": 0.0,
+      "error": "skipped: set TIINGO_API_TOKEN",
+      "skipped": true
+    },
+    "alphavantage": {
+      "ok": false,
+      "rows": 0,
+      "latencyMs": 0.0,
+      "error": "skipped: set ALPHAVANTAGE_API_KEY",
+      "skipped": true
+    }
+  },
+  "summary": {
+    "okCount": 1,
+    "totalProviders": 3,
+    "skippedProviders": 3
+  },
+  "criticalReady": true,
+  "criteria": {
+    "minRequiredEquityProvider": "yfinance",
+    "altEquityProvider": "stooq"
+  }
+}

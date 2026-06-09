@@ -1,0 +1,56 @@
+{
+  "id": "dd42fb386603",
+  "status": "approved_pending_implementation",
+  "approvedAt": "2026-06-04T01:37:37Z",
+  "source": "auto",
+  "recommendation": {
+    "id": "dd42fb386603",
+    "area": "concentration_risk",
+    "priority": "high",
+    "finding": "Winners cluster in ['SDAWW', 'LOTWW', 'KWMWW'] (often warrants).",
+    "action": "Spawn new Investor Arena (v3+) with liquidity-aware feed \u2014 do not modify v1/v2.",
+    "status": "proposed",
+    "firstSeenAt": "2026-06-04T01:37:37Z",
+    "lastSeenAt": "2026-06-04T01:37:37Z"
+  },
+  "briefPath": "data\\intelligence\\megamind\\LATEST_APPROVED.md",
+  "cursorPromptPath": "data\\intelligence\\megamind\\CURRENT_AGENT_PROMPT.md",
+  "cursorLaunch": {
+    "promptPath": "data\\intelligence\\megamind\\CURRENT_AGENT_PROMPT.md",
+    "rulePath": ".cursor\\rules\\megamind-active-task.mdc",
+    "autoLaunch": "both",
+    "sdk": {
+      "sdk": true,
+      "mode": "background",
+      "model": "composer-2.5"
+    },
+    "ide": {
+      "opened": true,
+      "cursor": "C:\\Users\\nicho\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin\\cursor.cmd"
+    },
+    "composerHint": "In Cursor Agent, send: Implement the Megamind active task in .cursor/rules/megamind-active-task.mdc (or @CURRENT_AGENT_PROMPT.md)",
+    "arenaSpawn": {
+      "version": "v3",
+      "meta": {
+        "startedAt": "2026-06-04T01:37:37Z",
+        "nTraders": 100,
+        "label": "Megamind v3 \u2014 liquidity-aware rank panel",
+        "selectionMode": "rank_v2",
+        "panelPath": "data/arena_feeds/arena-v3-liquidity-panel.csv",
+        "megamindSpawned": true,
+        "sourceRecommendation": "dd42fb386603",
+        "frozen": false
+      },
+      "summary": {
+        "version": "v3",
+        "nTraders": 100,
+        "bestCumulativePct": 6.4921,
+        "medianCumulativePct": 1.1347,
+        "meanCumulativePct": 1.419,
+        "topTraderId": 8
+      },
+      "spawned": true
+    },
+    "sdkWorker": "started"
+  }
+}

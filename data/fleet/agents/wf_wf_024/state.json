@@ -1,0 +1,37 @@
+{
+  "positions": {
+    "XOS": {
+      "qty": -1404,
+      "entryPrice": 5.28,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "SDOT": {
+      "qty": -701,
+      "entryPrice": 11.37,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "JDZG": {
+      "qty": -148,
+      "entryPrice": 50.0,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "VSA": {
+      "qty": -1088,
+      "entryPrice": 6.45,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "LESL": {
+      "qty": -1191,
+      "entryPrice": 5.33,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    }
+  },
+  "cash": 136131.04544000002,
+  "startingCash": 100000.0,
+  "lastDate": "2026-06-03"
+}

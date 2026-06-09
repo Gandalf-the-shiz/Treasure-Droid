@@ -1,0 +1,15 @@
+{
+  "generatedAt": "2026-06-05T23:22:57Z",
+  "ok": true,
+  "mode": "executed_paper",
+  "accountEquity": 100000.0,
+  "placed": 64,
+  "failed": 0,
+  "nOrders": 64,
+  "nLong": 40,
+  "nShort": 24,
+  "grossLong": 48174.49,
+  "grossShort": 49040.71,
+  "netExposure": -866.22,
+  "errors": []
+}

@@ -1,0 +1,12 @@
+{
+  "_comment": "Single tradeable universe for train eval, live panel, arena, manifests, paper. Mega Yacht plan.",
+  "min_price_usd": 5.0,
+  "min_adv_usd": 1000000.0,
+  "min_vol_20": 0.01,
+  "max_spread_bps": 50,
+  "exclude_suffixes": ["W", "WW", "WS", "WI", "WT", "RT", "U", "R"],
+  "exclude_symbols": ["ZVZZT", "ZVZZT", "ZWZZT", "ZXIET", "ZXZZT", "NTEST"],
+  "exclude_pattern": "^(BIL|TBIL|TBLL|BILS|BILZ|GBIL|SGOV|USFR|VUSB|XHLF|CLIP|GSY)$",
+  "require_liquidity_profile": false,
+  "yacht_tier_min_market_cap_usd": 300000000
+}

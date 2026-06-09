@@ -1,0 +1,1664 @@
+{
+  "agents": [
+    {
+      "id": "navigator",
+      "name": "The Navigator",
+      "kind": "alpha_blended",
+      "status": "shadow",
+      "capital": 100000.0,
+      "blurb": "Market-neutral long/short from the blended, neutralized alpha.",
+      "params": {},
+      "createdAt": "2026-06-06T02:14:31Z"
+    },
+    {
+      "id": "quartermaster",
+      "name": "The Quartermaster",
+      "kind": "investor_v3",
+      "status": "shadow",
+      "capital": 100000.0,
+      "blurb": "Long-only conviction book, half-Kelly by win probability.",
+      "params": {
+        "top_k": 8,
+        "min_proba": 0.55,
+        "gross": 0.9
+      },
+      "createdAt": "2026-06-06T02:14:31Z"
+    },
+    {
+      "id": "genome_v3_225",
+      "name": "Goldtooth",
+      "kind": "genome",
+      "status": "shadow",
+      "capital": 100000.0,
+      "blurb": "Arena v3 genome #225 (high_conviction) walking forward.",
+      "params": {
+        "trader_id": 225,
+        "family": "high_conviction",
+        "min_proba": 0.541,
+        "min_pred_ret": 0.0104,
+        "top_k": 7,
+        "kelly": 0.733,
+        "short_enabled": true,
+        "short_frac": 0.23
+      },
+      "createdAt": "2026-06-06T02:14:31Z"
+    },
+    {
+      "id": "genome_v3_760",
+      "name": "Sparks",
+      "kind": "genome",
+      "status": "shadow",
+      "capital": 100000.0,
+      "blurb": "Arena v3 genome #760 (long_short_neutral) walking forward.",
+      "params": {
+        "trader_id": 760,
+        "family": "long_short_neutral",
+        "min_proba": 0.651,
+        "min_pred_ret": 0.01,
+        "top_k": 6,
+        "kelly": 0.766,
+        "short_enabled": true,
+        "short_frac": 0.218
+      },
+      "createdAt": "2026-06-06T02:14:31Z"
+    },
+    {
+      "id": "genome_v3_546",
+      "name": "Rusty-Pete",
+      "kind": "genome",
+      "status": "shadow",
+      "capital": 100000.0,
+      "blurb": "Arena v3 genome #546 (high_conviction) walking forward.",
+      "params": {
+        "trader_id": 546,
+        "family": "high_conviction",
+        "min_proba": 0.538,
+        "min_pred_ret": 0.0089,
+        "top_k": 7,
+        "kelly": 0.799,
+        "short_enabled": true,
+        "short_frac": 0.384
+      },
+      "createdAt": "2026-06-06T02:14:31Z"
+    },
+    {
+      "id": "wf_wf_024",
+      "name": "WF-Blackfin",
+      "kind": "genome",
+      "status": "shadow",
+      "capital": 100000.0,
+      "blurb": "Walk-forward survivor (high_conviction): held up out-of-sample (holdout Sharpe 0.028, -5.65% over 136d).",
+      "params": {
+        "family": "high_conviction",
+        "min_proba": 0.596,
+        "min_pred_ret": 0.0047,
+        "top_k": 14,
+        "kelly": 0.886,
+        "short_enabled": true,
+        "short_frac": 0.402
+      },
+      "createdAt": "2026-06-06T03:28:09Z",
+      "origin": "walkforward"
+    },
+    {
+      "id": "wf_wf_135",
+      "name": "WF-Hex",
+      "kind": "genome",
+      "status": "shadow",
+      "capital": 100000.0,
+      "blurb": "Walk-forward survivor (short_bias): held up out-of-sample (holdout Sharpe 0.761, 16.63% over 117d).",
+      "params": {
+        "family": "short_bias",
+        "min_proba": 0.591,
+        "min_pred_ret": 0.01,
+        "top_k": 8,
+        "kelly": 0.675,
+        "short_enabled": true,
+        "short_frac": 0.447
+      },
+      "createdAt": "2026-06-06T03:28:09Z",
+      "origin": "walkforward"
+    },
+    {
+      "id": "wf_wf_176",
+      "name": "WF-Cog",
+      "kind": "genome",
+      "status": "shadow",
+      "capital": 100000.0,
+      "blurb": "Walk-forward survivor (long_short_neutral): held up out-of-sample (holdout Sharpe 1.048, 19.39% over 102d).",
+      "params": {
+        "family": "long_short_neutral",
+        "min_proba": 0.655,
+        "min_pred_ret": 0.0055,
+        "top_k": 16,
+        "kelly": 0.637,
+        "short_enabled": true,
+        "short_frac": 0.302
+      },
+      "createdAt": "2026-06-06T03:28:09Z",
+      "origin": "walkforward"
+    },
+    {
+      "id": "wf_wf_0016",
+      "name": "WF-Bolt",
+      "kind": "genome",
+      "status": "shadow",
+      "capital": 100000.0,
+      "blurb": "Walk-forward survivor (long_short_neutral): held up out-of-sample (holdout Sharpe 1.767, 64.22% over 129d).",
+      "params": {
+        "family": "long_short_neutral",
+        "min_proba": 0.526,
+        "min_pred_ret": 0.0114,
+        "top_k": 15,
+        "kelly": 0.929,
+        "short_enabled": true,
+        "short_frac": 0.323
+      },
+      "createdAt": "2026-06-06T12:26:55Z",
+      "origin": "walkforward"
+    },
+    {
+      "id": "ms_bdc5f483",
+      "name": "MS-ml_edge-bdc5f483",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "ml_edge",
+        "signal": "edge",
+        "min_proba": 0.571,
+        "min_pred_ret": 0.0023,
+        "top_k": 32,
+        "kelly": 0.749,
+        "short_enabled": true,
+        "short_frac": 0.486
+      },
+      "labHoldoutSharpe": 2.766,
+      "labHoldoutReturnPct": 124.65
+    },
+    {
+      "id": "ms_598355b1",
+      "name": "MS-alpha_ne-598355b1",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "alpha_neutral",
+        "signal": "alpha",
+        "min_proba": 0.541,
+        "min_pred_ret": 0.0031,
+        "top_k": 15,
+        "kelly": 0.521,
+        "short_enabled": true,
+        "short_frac": 0.317
+      },
+      "labHoldoutSharpe": 1.955,
+      "labHoldoutReturnPct": 102.89
+    },
+    {
+      "id": "ms_f62d37b8",
+      "name": "MS-short_bi-f62d37b8",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "short_bias",
+        "signal": "edge",
+        "min_proba": 0.577,
+        "min_pred_ret": 0.0023,
+        "top_k": 13,
+        "kelly": 0.378,
+        "short_enabled": true,
+        "short_frac": 0.487
+      },
+      "labHoldoutSharpe": 3.875,
+      "labHoldoutReturnPct": 220.76
+    },
+    {
+      "id": "ms_3cddc295",
+      "name": "MS-alpha_ne-3cddc295",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "alpha_neutral",
+        "signal": "alpha",
+        "min_proba": 0.628,
+        "min_pred_ret": 0.0021,
+        "top_k": 34,
+        "kelly": 0.845,
+        "short_enabled": true,
+        "short_frac": 0.472
+      },
+      "labHoldoutSharpe": 2.806,
+      "labHoldoutReturnPct": 104.71
+    },
+    {
+      "id": "ms_f2dae967",
+      "name": "MS-high_con-f2dae967",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "high_conviction",
+        "signal": "edge",
+        "min_proba": 0.574,
+        "min_pred_ret": 0.0026,
+        "top_k": 28,
+        "kelly": 0.42,
+        "short_enabled": true,
+        "short_frac": 0.544
+      },
+      "labHoldoutSharpe": 3.479,
+      "labHoldoutReturnPct": 228.21
+    },
+    {
+      "id": "ms_6e1e876b",
+      "name": "MS-alpha_ne-6e1e876b",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "alpha_neutral",
+        "signal": "alpha",
+        "min_proba": 0.534,
+        "min_pred_ret": 0.003,
+        "top_k": 27,
+        "kelly": 0.461,
+        "short_enabled": true,
+        "short_frac": 0.424
+      },
+      "labHoldoutSharpe": 2.237,
+      "labHoldoutReturnPct": 109.16
+    },
+    {
+      "id": "ms_9f87fb13",
+      "name": "MS-ml_edge-9f87fb13",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "ml_edge",
+        "signal": "edge",
+        "min_proba": 0.556,
+        "min_pred_ret": 0.0024,
+        "top_k": 16,
+        "kelly": 0.226,
+        "short_enabled": true,
+        "short_frac": 0.318
+      },
+      "labHoldoutSharpe": 2.591,
+      "labHoldoutReturnPct": 148.36
+    },
+    {
+      "id": "ms_968a8a2c",
+      "name": "MS-mean_rev-968a8a2c",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "mean_reverter",
+        "signal": "edge",
+        "min_proba": 0.539,
+        "min_pred_ret": 0.0021,
+        "top_k": 21,
+        "kelly": 0.268,
+        "short_enabled": true,
+        "short_frac": 0.537
+      },
+      "labHoldoutSharpe": 2.92,
+      "labHoldoutReturnPct": 124.06
+    },
+    {
+      "id": "ms_9dc29ded",
+      "name": "MS-long_sho-9dc29ded",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "long_short_neutral",
+        "signal": "alpha",
+        "min_proba": 0.559,
+        "min_pred_ret": 0.0026,
+        "top_k": 25,
+        "kelly": 0.308,
+        "short_enabled": true,
+        "short_frac": 0.424
+      },
+      "labHoldoutSharpe": 2.919,
+      "labHoldoutReturnPct": 167.12
+    },
+    {
+      "id": "ms_17f47c40",
+      "name": "MS-ml_edge-17f47c40",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "ml_edge",
+        "signal": "alpha",
+        "min_proba": 0.555,
+        "min_pred_ret": 0.0027,
+        "top_k": 20,
+        "kelly": 0.209,
+        "short_enabled": true,
+        "short_frac": 0.371
+      },
+      "labHoldoutSharpe": 2.954,
+      "labHoldoutReturnPct": 178.87
+    },
+    {
+      "id": "ms_c78f7f77",
+      "name": "MS-long_sho-c78f7f77",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "long_short_neutral",
+        "signal": "alpha",
+        "min_proba": 0.556,
+        "min_pred_ret": 0.0029,
+        "top_k": 18,
+        "kelly": 0.423,
+        "short_enabled": true,
+        "short_frac": 0.306
+      },
+      "labHoldoutSharpe": 2.707,
+      "labHoldoutReturnPct": 167.52
+    },
+    {
+      "id": "ms_3a2ab9c1",
+      "name": "MS-short_bi-3a2ab9c1",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "short_bias",
+        "signal": "alpha",
+        "min_proba": 0.563,
+        "min_pred_ret": 0.0029,
+        "top_k": 29,
+        "kelly": 0.381,
+        "short_enabled": true,
+        "short_frac": 0.423
+      },
+      "labHoldoutSharpe": 3.041,
+      "labHoldoutReturnPct": 185.42
+    },
+    {
+      "id": "ms_e4c7df98",
+      "name": "MS-breakout-e4c7df98",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "breakout",
+        "signal": "edge",
+        "min_proba": 0.551,
+        "min_pred_ret": 0.0036,
+        "top_k": 20,
+        "kelly": 0.731,
+        "short_enabled": true,
+        "short_frac": 0.388
+      },
+      "labHoldoutSharpe": 2.303,
+      "labHoldoutReturnPct": 126.58
+    },
+    {
+      "id": "ms_4689b204",
+      "name": "MS-ml_edge-4689b204",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "ml_edge",
+        "signal": "alpha",
+        "min_proba": 0.536,
+        "min_pred_ret": 0.0031,
+        "top_k": 22,
+        "kelly": 0.739,
+        "short_enabled": true,
+        "short_frac": 0.484
+      },
+      "labHoldoutSharpe": 2.37,
+      "labHoldoutReturnPct": 122.07
+    },
+    {
+      "id": "ms_b54754d1",
+      "name": "MS-ml_edge-b54754d1",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "ml_edge",
+        "signal": "edge",
+        "min_proba": 0.522,
+        "min_pred_ret": 0.0031,
+        "top_k": 24,
+        "kelly": 0.916,
+        "short_enabled": true,
+        "short_frac": 0.537
+      },
+      "labHoldoutSharpe": 2.1,
+      "labHoldoutReturnPct": 97.82
+    },
+    {
+      "id": "ms_ffa2df6a",
+      "name": "MS-alpha_ne-ffa2df6a",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "alpha_neutral",
+        "signal": "alpha",
+        "min_proba": 0.5,
+        "min_pred_ret": 0.0027,
+        "top_k": 25,
+        "kelly": 0.868,
+        "short_enabled": true,
+        "short_frac": 0.367
+      },
+      "labHoldoutSharpe": 2.488,
+      "labHoldoutReturnPct": 115.0
+    },
+    {
+      "id": "ms_c041fa59",
+      "name": "MS-long_sho-c041fa59",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "long_short_neutral",
+        "signal": "alpha",
+        "min_proba": 0.527,
+        "min_pred_ret": 0.0025,
+        "top_k": 35,
+        "kelly": 0.407,
+        "short_enabled": true,
+        "short_frac": 0.41
+      },
+      "labHoldoutSharpe": 1.613,
+      "labHoldoutReturnPct": 62.33
+    },
+    {
+      "id": "ms_2518d0e9",
+      "name": "MS-ml_edge-2518d0e9",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "ml_edge",
+        "signal": "edge",
+        "min_proba": 0.552,
+        "min_pred_ret": 0.0038,
+        "top_k": 27,
+        "kelly": 0.226,
+        "short_enabled": true,
+        "short_frac": 0.33
+      },
+      "labHoldoutSharpe": 2.131,
+      "labHoldoutReturnPct": 116.09
+    },
+    {
+      "id": "ms_0d001c8e",
+      "name": "MS-ml_edge-0d001c8e",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "ml_edge",
+        "signal": "alpha",
+        "min_proba": 0.537,
+        "min_pred_ret": 0.003,
+        "top_k": 29,
+        "kelly": 0.797,
+        "short_enabled": true,
+        "short_frac": 0.352
+      },
+      "labHoldoutSharpe": 1.935,
+      "labHoldoutReturnPct": 90.89
+    },
+    {
+      "id": "ms_81618749",
+      "name": "MS-alpha_ne-81618749",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "alpha_neutral",
+        "signal": "alpha",
+        "min_proba": 0.571,
+        "min_pred_ret": 0.0022,
+        "top_k": 28,
+        "kelly": 0.276,
+        "short_enabled": true,
+        "short_frac": 0.435
+      },
+      "labHoldoutSharpe": 2.683,
+      "labHoldoutReturnPct": 124.18
+    },
+    {
+      "id": "ms_1b17a008",
+      "name": "MS-long_sho-1b17a008",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "long_short_neutral",
+        "signal": "alpha",
+        "min_proba": 0.503,
+        "min_pred_ret": 0.0026,
+        "top_k": 29,
+        "kelly": 0.423,
+        "short_enabled": true,
+        "short_frac": 0.473
+      },
+      "labHoldoutSharpe": 2.845,
+      "labHoldoutReturnPct": 132.46
+    },
+    {
+      "id": "ms_1e22fd1f",
+      "name": "MS-long_sho-1e22fd1f",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "long_short_neutral",
+        "signal": "alpha",
+        "min_proba": 0.503,
+        "min_pred_ret": 0.0028,
+        "top_k": 18,
+        "kelly": 0.788,
+        "short_enabled": true,
+        "short_frac": 0.496
+      },
+      "labHoldoutSharpe": 3.032,
+      "labHoldoutReturnPct": 158.4
+    },
+    {
+      "id": "ms_7281509c",
+      "name": "MS-alpha_ne-7281509c",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "alpha_neutral",
+        "signal": "alpha",
+        "min_proba": 0.551,
+        "min_pred_ret": 0.0025,
+        "top_k": 27,
+        "kelly": 0.661,
+        "short_enabled": true,
+        "short_frac": 0.539
+      },
+      "labHoldoutSharpe": 2.632,
+      "labHoldoutReturnPct": 133.57
+    },
+    {
+      "id": "ms_7e5d029a",
+      "name": "MS-ml_edge-7e5d029a",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "ml_edge",
+        "signal": "edge",
+        "min_proba": 0.531,
+        "min_pred_ret": 0.0026,
+        "top_k": 23,
+        "kelly": 0.472,
+        "short_enabled": true,
+        "short_frac": 0.425
+      },
+      "labHoldoutSharpe": 2.094,
+      "labHoldoutReturnPct": 92.25
+    },
+    {
+      "id": "ms_f740b546",
+      "name": "MS-ml_edge-f740b546",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "ml_edge",
+        "signal": "edge",
+        "min_proba": 0.56,
+        "min_pred_ret": 0.0031,
+        "top_k": 28,
+        "kelly": 0.346,
+        "short_enabled": true,
+        "short_frac": 0.474
+      },
+      "labHoldoutSharpe": 2.721,
+      "labHoldoutReturnPct": 159.0
+    },
+    {
+      "id": "ms_27fc21d3",
+      "name": "MS-mean_rev-27fc21d3",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "mean_reverter",
+        "signal": "edge",
+        "min_proba": 0.56,
+        "min_pred_ret": 0.0028,
+        "top_k": 26,
+        "kelly": 0.473,
+        "short_enabled": true,
+        "short_frac": 0.437
+      },
+      "labHoldoutSharpe": 3.053,
+      "labHoldoutReturnPct": 182.78
+    },
+    {
+      "id": "ms_7fbe847f",
+      "name": "MS-long_sho-7fbe847f",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "long_short_neutral",
+        "signal": "alpha",
+        "min_proba": 0.538,
+        "min_pred_ret": 0.0028,
+        "top_k": 23,
+        "kelly": 0.603,
+        "short_enabled": true,
+        "short_frac": 0.413
+      },
+      "labHoldoutSharpe": 2.36,
+      "labHoldoutReturnPct": 117.91
+    },
+    {
+      "id": "ms_643ce9b1",
+      "name": "MS-mean_rev-643ce9b1",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "mean_reverter",
+        "signal": "edge",
+        "min_proba": 0.58,
+        "min_pred_ret": 0.0022,
+        "top_k": 18,
+        "kelly": 0.574,
+        "short_enabled": true,
+        "short_frac": 0.537
+      },
+      "labHoldoutSharpe": 3.95,
+      "labHoldoutReturnPct": 217.57
+    },
+    {
+      "id": "ms_1f6298dd",
+      "name": "MS-ml_edge-1f6298dd",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "ml_edge",
+        "signal": "edge",
+        "min_proba": 0.507,
+        "min_pred_ret": 0.0021,
+        "top_k": 9,
+        "kelly": 0.475,
+        "short_enabled": true,
+        "short_frac": 0.492
+      },
+      "labHoldoutSharpe": 3.597,
+      "labHoldoutReturnPct": 220.35
+    },
+    {
+      "id": "ms_8c420d0f",
+      "name": "MS-ml_edge-8c420d0f",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "ml_edge",
+        "signal": "edge",
+        "min_proba": 0.554,
+        "min_pred_ret": 0.0022,
+        "top_k": 23,
+        "kelly": 0.666,
+        "short_enabled": true,
+        "short_frac": 0.421
+      },
+      "labHoldoutSharpe": 3.093,
+      "labHoldoutReturnPct": 160.71
+    },
+    {
+      "id": "ms_b3e1bd43",
+      "name": "MS-high_con-b3e1bd43",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "high_conviction",
+        "signal": "edge",
+        "min_proba": 0.558,
+        "min_pred_ret": 0.0031,
+        "top_k": 30,
+        "kelly": 0.506,
+        "short_enabled": true,
+        "short_frac": 0.483
+      },
+      "labHoldoutSharpe": 2.731,
+      "labHoldoutReturnPct": 160.72
+    },
+    {
+      "id": "ms_0291286b",
+      "name": "MS-alpha_ne-0291286b",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "alpha_neutral",
+        "signal": "alpha",
+        "min_proba": 0.566,
+        "min_pred_ret": 0.003,
+        "top_k": 34,
+        "kelly": 0.264,
+        "short_enabled": true,
+        "short_frac": 0.499
+      },
+      "labHoldoutSharpe": 3.16,
+      "labHoldoutReturnPct": 206.01
+    },
+    {
+      "id": "ms_06413610",
+      "name": "MS-long_sho-06413610",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "long_short_neutral",
+        "signal": "alpha",
+        "min_proba": 0.622,
+        "min_pred_ret": 0.0022,
+        "top_k": 20,
+        "kelly": 0.467,
+        "short_enabled": true,
+        "short_frac": 0.45
+      },
+      "labHoldoutSharpe": 3.794,
+      "labHoldoutReturnPct": 132.08
+    },
+    {
+      "id": "ms_81e16124",
+      "name": "MS-breakout-81e16124",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "breakout",
+        "signal": "edge",
+        "min_proba": 0.561,
+        "min_pred_ret": 0.003,
+        "top_k": 30,
+        "kelly": 0.941,
+        "short_enabled": true,
+        "short_frac": 0.461
+      },
+      "labHoldoutSharpe": 3.009,
+      "labHoldoutReturnPct": 185.25
+    },
+    {
+      "id": "ms_77d759c3",
+      "name": "MS-momentum-77d759c3",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "momentum_long",
+        "signal": "edge",
+        "min_proba": 0.571,
+        "min_pred_ret": 0.0021,
+        "top_k": 19,
+        "kelly": 0.685,
+        "short_enabled": true,
+        "short_frac": 0.515
+      },
+      "labHoldoutSharpe": 3.324,
+      "labHoldoutReturnPct": 166.72
+    },
+    {
+      "id": "ms_43cadde9",
+      "name": "MS-ml_edge-43cadde9",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "ml_edge",
+        "signal": "alpha",
+        "min_proba": 0.561,
+        "min_pred_ret": 0.0031,
+        "top_k": 31,
+        "kelly": 0.264,
+        "short_enabled": true,
+        "short_frac": 0.377
+      },
+      "labHoldoutSharpe": 2.481,
+      "labHoldoutReturnPct": 138.29
+    },
+    {
+      "id": "ms_1298e059",
+      "name": "MS-ml_edge-1298e059",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "ml_edge",
+        "signal": "alpha",
+        "min_proba": 0.537,
+        "min_pred_ret": 0.0024,
+        "top_k": 10,
+        "kelly": 0.91,
+        "short_enabled": true,
+        "short_frac": 0.338
+      },
+      "labHoldoutSharpe": 2.098,
+      "labHoldoutReturnPct": 112.41
+    },
+    {
+      "id": "ms_7212075c",
+      "name": "MS-alpha_ne-7212075c",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "alpha_neutral",
+        "signal": "alpha",
+        "min_proba": 0.531,
+        "min_pred_ret": 0.0022,
+        "top_k": 22,
+        "kelly": 0.923,
+        "short_enabled": true,
+        "short_frac": 0.478
+      },
+      "labHoldoutSharpe": 2.259,
+      "labHoldoutReturnPct": 89.49
+    },
+    {
+      "id": "ms_22d4f50a",
+      "name": "MS-alpha_ne-22d4f50a",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "alpha_neutral",
+        "signal": "alpha",
+        "min_proba": 0.537,
+        "min_pred_ret": 0.0031,
+        "top_k": 22,
+        "kelly": 0.67,
+        "short_enabled": true,
+        "short_frac": 0.496
+      },
+      "labHoldoutSharpe": 2.411,
+      "labHoldoutReturnPct": 125.5
+    },
+    {
+      "id": "ms_9401e52a",
+      "name": "MS-long_sho-9401e52a",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "long_short_neutral",
+        "signal": "alpha",
+        "min_proba": 0.504,
+        "min_pred_ret": 0.0029,
+        "top_k": 22,
+        "kelly": 0.474,
+        "short_enabled": true,
+        "short_frac": 0.452
+      },
+      "labHoldoutSharpe": 2.716,
+      "labHoldoutReturnPct": 135.56
+    },
+    {
+      "id": "ms_0bad3f86",
+      "name": "MS-contrari-0bad3f86",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "contrarian",
+        "signal": "edge",
+        "min_proba": 0.556,
+        "min_pred_ret": 0.0021,
+        "top_k": 27,
+        "kelly": 0.834,
+        "short_enabled": true,
+        "short_frac": 0.523
+      },
+      "labHoldoutSharpe": 3.133,
+      "labHoldoutReturnPct": 146.92
+    },
+    {
+      "id": "ms_4a3e1c86",
+      "name": "MS-short_bi-4a3e1c86",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "short_bias",
+        "signal": "edge",
+        "min_proba": 0.564,
+        "min_pred_ret": 0.0035,
+        "top_k": 14,
+        "kelly": 0.468,
+        "short_enabled": true,
+        "short_frac": 0.323
+      },
+      "labHoldoutSharpe": 2.751,
+      "labHoldoutReturnPct": 173.97
+    },
+    {
+      "id": "ms_73e9d599",
+      "name": "MS-alpha_ne-73e9d599",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "alpha_neutral",
+        "signal": "alpha",
+        "min_proba": 0.548,
+        "min_pred_ret": 0.0024,
+        "top_k": 9,
+        "kelly": 0.654,
+        "short_enabled": true,
+        "short_frac": 0.436
+      },
+      "labHoldoutSharpe": 2.568,
+      "labHoldoutReturnPct": 164.44
+    },
+    {
+      "id": "ms_7ea560ac",
+      "name": "MS-high_con-7ea560ac",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "high_conviction",
+        "signal": "edge",
+        "min_proba": 0.63,
+        "min_pred_ret": 0.0023,
+        "top_k": 18,
+        "kelly": 0.978,
+        "short_enabled": true,
+        "short_frac": 0.359
+      },
+      "labHoldoutSharpe": 2.998,
+      "labHoldoutReturnPct": 85.05
+    },
+    {
+      "id": "ms_fcf07403",
+      "name": "MS-long_sho-fcf07403",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "long_short_neutral",
+        "signal": "alpha",
+        "min_proba": 0.532,
+        "min_pred_ret": 0.0022,
+        "top_k": 23,
+        "kelly": 0.374,
+        "short_enabled": true,
+        "short_frac": 0.488
+      },
+      "labHoldoutSharpe": 2.623,
+      "labHoldoutReturnPct": 112.28
+    },
+    {
+      "id": "ms_0145dc5b",
+      "name": "MS-short_bi-0145dc5b",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "short_bias",
+        "signal": "alpha",
+        "min_proba": 0.555,
+        "min_pred_ret": 0.0031,
+        "top_k": 23,
+        "kelly": 0.648,
+        "short_enabled": true,
+        "short_frac": 0.412
+      },
+      "labHoldoutSharpe": 2.497,
+      "labHoldoutReturnPct": 136.55
+    },
+    {
+      "id": "ms_fe264eb3",
+      "name": "MS-alpha_ne-fe264eb3",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "alpha_neutral",
+        "signal": "alpha",
+        "min_proba": 0.558,
+        "min_pred_ret": 0.0021,
+        "top_k": 24,
+        "kelly": 0.645,
+        "short_enabled": true,
+        "short_frac": 0.372
+      },
+      "labHoldoutSharpe": 2.594,
+      "labHoldoutReturnPct": 134.02
+    },
+    {
+      "id": "ms_e783faee",
+      "name": "MS-breakout-e783faee",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "breakout",
+        "signal": "edge",
+        "min_proba": 0.566,
+        "min_pred_ret": 0.0032,
+        "top_k": 7,
+        "kelly": 0.219,
+        "short_enabled": true,
+        "short_frac": 0.301
+      },
+      "labHoldoutSharpe": 3.202,
+      "labHoldoutReturnPct": 259.61
+    },
+    {
+      "id": "ms_3945e08b",
+      "name": "MS-alpha_ne-3945e08b",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "alpha_neutral",
+        "signal": "alpha",
+        "min_proba": 0.5,
+        "min_pred_ret": 0.0033,
+        "top_k": 12,
+        "kelly": 0.499,
+        "short_enabled": true,
+        "short_frac": 0.514
+      },
+      "labHoldoutSharpe": 3.454,
+      "labHoldoutReturnPct": 235.04
+    },
+    {
+      "id": "ms_80eee074",
+      "name": "MS-short_bi-80eee074",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "short_bias",
+        "signal": "edge",
+        "min_proba": 0.559,
+        "min_pred_ret": 0.0023,
+        "top_k": 19,
+        "kelly": 0.422,
+        "short_enabled": true,
+        "short_frac": 0.532
+      },
+      "labHoldoutSharpe": 3.198,
+      "labHoldoutReturnPct": 157.22
+    },
+    {
+      "id": "ms_d4190b74",
+      "name": "MS-ml_edge-d4190b74",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "ml_edge",
+        "signal": "alpha",
+        "min_proba": 0.575,
+        "min_pred_ret": 0.0024,
+        "top_k": 11,
+        "kelly": 0.794,
+        "short_enabled": true,
+        "short_frac": 0.478
+      },
+      "labHoldoutSharpe": 3.626,
+      "labHoldoutReturnPct": 257.87
+    },
+    {
+      "id": "ms_18cdf6d6",
+      "name": "MS-ml_edge-18cdf6d6",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "ml_edge",
+        "signal": "edge",
+        "min_proba": 0.558,
+        "min_pred_ret": 0.0023,
+        "top_k": 14,
+        "kelly": 0.704,
+        "short_enabled": true,
+        "short_frac": 0.458
+      },
+      "labHoldoutSharpe": 3.249,
+      "labHoldoutReturnPct": 181.92
+    },
+    {
+      "id": "ms_b4064c3d",
+      "name": "MS-alpha_ne-b4064c3d",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "alpha_neutral",
+        "signal": "alpha",
+        "min_proba": 0.567,
+        "min_pred_ret": 0.003,
+        "top_k": 17,
+        "kelly": 0.245,
+        "short_enabled": true,
+        "short_frac": 0.477
+      },
+      "labHoldoutSharpe": 3.087,
+      "labHoldoutReturnPct": 199.06
+    },
+    {
+      "id": "ms_aad696dc",
+      "name": "MS-short_bi-aad696dc",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "short_bias",
+        "signal": "edge",
+        "min_proba": 0.551,
+        "min_pred_ret": 0.0027,
+        "top_k": 15,
+        "kelly": 0.909,
+        "short_enabled": true,
+        "short_frac": 0.388
+      },
+      "labHoldoutSharpe": 2.586,
+      "labHoldoutReturnPct": 144.91
+    },
+    {
+      "id": "ms_923fb2c9",
+      "name": "MS-contrari-923fb2c9",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "contrarian",
+        "signal": "edge",
+        "min_proba": 0.543,
+        "min_pred_ret": 0.0031,
+        "top_k": 26,
+        "kelly": 0.451,
+        "short_enabled": true,
+        "short_frac": 0.534
+      },
+      "labHoldoutSharpe": 2.638,
+      "labHoldoutReturnPct": 145.44
+    },
+    {
+      "id": "ms_996a74b7",
+      "name": "MS-long_sho-996a74b7",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "long_short_neutral",
+        "signal": "alpha",
+        "min_proba": 0.534,
+        "min_pred_ret": 0.0024,
+        "top_k": 29,
+        "kelly": 0.216,
+        "short_enabled": true,
+        "short_frac": 0.394
+      },
+      "labHoldoutSharpe": 1.99,
+      "labHoldoutReturnPct": 85.94
+    },
+    {
+      "id": "ms_6caae171",
+      "name": "MS-breakout-6caae171",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "breakout",
+        "signal": "edge",
+        "min_proba": 0.564,
+        "min_pred_ret": 0.0033,
+        "top_k": 30,
+        "kelly": 0.902,
+        "short_enabled": true,
+        "short_frac": 0.479
+      },
+      "labHoldoutSharpe": 2.865,
+      "labHoldoutReturnPct": 179.2
+    },
+    {
+      "id": "ms_50e5391f",
+      "name": "MS-mean_rev-50e5391f",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "mean_reverter",
+        "signal": "alpha",
+        "min_proba": 0.547,
+        "min_pred_ret": 0.0031,
+        "top_k": 13,
+        "kelly": 0.969,
+        "short_enabled": true,
+        "short_frac": 0.439
+      },
+      "labHoldoutSharpe": 2.453,
+      "labHoldoutReturnPct": 140.85
+    },
+    {
+      "id": "ms_07ed7def",
+      "name": "MS-mean_rev-07ed7def",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "mean_reverter",
+        "signal": "edge",
+        "min_proba": 0.65,
+        "min_pred_ret": 0.0023,
+        "top_k": 13,
+        "kelly": 0.76,
+        "short_enabled": true,
+        "short_frac": 0.314
+      },
+      "labHoldoutSharpe": 3.58,
+      "labHoldoutReturnPct": 129.67
+    },
+    {
+      "id": "ms_a823958a",
+      "name": "MS-contrari-a823958a",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "contrarian",
+        "signal": "edge",
+        "min_proba": 0.538,
+        "min_pred_ret": 0.0034,
+        "top_k": 19,
+        "kelly": 0.953,
+        "short_enabled": true,
+        "short_frac": 0.392
+      },
+      "labHoldoutSharpe": 2.262,
+      "labHoldoutReturnPct": 116.13
+    },
+    {
+      "id": "ms_0f3e359f",
+      "name": "MS-long_sho-0f3e359f",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "long_short_neutral",
+        "signal": "alpha",
+        "min_proba": 0.552,
+        "min_pred_ret": 0.0027,
+        "top_k": 29,
+        "kelly": 0.868,
+        "short_enabled": true,
+        "short_frac": 0.537
+      },
+      "labHoldoutSharpe": 2.839,
+      "labHoldoutReturnPct": 158.02
+    },
+    {
+      "id": "ms_dcdf6cde",
+      "name": "MS-breakout-dcdf6cde",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "breakout",
+        "signal": "edge",
+        "min_proba": 0.532,
+        "min_pred_ret": 0.0033,
+        "top_k": 21,
+        "kelly": 0.783,
+        "short_enabled": true,
+        "short_frac": 0.528
+      },
+      "labHoldoutSharpe": 2.508,
+      "labHoldoutReturnPct": 134.53
+    },
+    {
+      "id": "ms_17a8eecb",
+      "name": "MS-long_sho-17a8eecb",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "long_short_neutral",
+        "signal": "alpha",
+        "min_proba": 0.549,
+        "min_pred_ret": 0.0033,
+        "top_k": 27,
+        "kelly": 0.779,
+        "short_enabled": true,
+        "short_frac": 0.457
+      },
+      "labHoldoutSharpe": 2.227,
+      "labHoldoutReturnPct": 115.78
+    },
+    {
+      "id": "ms_9c39c9ce",
+      "name": "MS-long_sho-9c39c9ce",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "long_short_neutral",
+        "signal": "alpha",
+        "min_proba": 0.54,
+        "min_pred_ret": 0.0023,
+        "top_k": 13,
+        "kelly": 0.769,
+        "short_enabled": true,
+        "short_frac": 0.429
+      },
+      "labHoldoutSharpe": 2.577,
+      "labHoldoutReturnPct": 134.25
+    },
+    {
+      "id": "ms_78e2387c",
+      "name": "MS-alpha_ne-78e2387c",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "alpha_neutral",
+        "signal": "alpha",
+        "min_proba": 0.508,
+        "min_pred_ret": 0.0031,
+        "top_k": 35,
+        "kelly": 0.872,
+        "short_enabled": true,
+        "short_frac": 0.502
+      },
+      "labHoldoutSharpe": 2.595,
+      "labHoldoutReturnPct": 134.31
+    },
+    {
+      "id": "ms_633dd7fd",
+      "name": "MS-long_sho-633dd7fd",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "long_short_neutral",
+        "signal": "alpha",
+        "min_proba": 0.508,
+        "min_pred_ret": 0.0025,
+        "top_k": 21,
+        "kelly": 0.665,
+        "short_enabled": true,
+        "short_frac": 0.428
+      },
+      "labHoldoutSharpe": 2.62,
+      "labHoldoutReturnPct": 121.56
+    },
+    {
+      "id": "ms_d1010b1d",
+      "name": "MS-alpha_ne-d1010b1d",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "alpha_neutral",
+        "signal": "alpha",
+        "min_proba": 0.555,
+        "min_pred_ret": 0.0027,
+        "top_k": 15,
+        "kelly": 0.828,
+        "short_enabled": true,
+        "short_frac": 0.507
+      },
+      "labHoldoutSharpe": 3.551,
+      "labHoldoutReturnPct": 239.41
+    },
+    {
+      "id": "ms_63d08381",
+      "name": "MS-mean_rev-63d08381",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "mean_reverter",
+        "signal": "edge",
+        "min_proba": 0.542,
+        "min_pred_ret": 0.0031,
+        "top_k": 20,
+        "kelly": 0.533,
+        "short_enabled": true,
+        "short_frac": 0.423
+      },
+      "labHoldoutSharpe": 2.192,
+      "labHoldoutReturnPct": 107.19
+    },
+    {
+      "id": "ms_fd0a955f",
+      "name": "MS-mean_rev-fd0a955f",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "mean_reverter",
+        "signal": "alpha",
+        "min_proba": 0.567,
+        "min_pred_ret": 0.0033,
+        "top_k": 35,
+        "kelly": 0.227,
+        "short_enabled": true,
+        "short_frac": 0.435
+      },
+      "labHoldoutSharpe": 2.698,
+      "labHoldoutReturnPct": 160.47
+    },
+    {
+      "id": "ms_c81e2e95",
+      "name": "MS-mean_rev-c81e2e95",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "mean_reverter",
+        "signal": "edge",
+        "min_proba": 0.539,
+        "min_pred_ret": 0.0024,
+        "top_k": 14,
+        "kelly": 0.318,
+        "short_enabled": true,
+        "short_frac": 0.449
+      },
+      "labHoldoutSharpe": 2.69,
+      "labHoldoutReturnPct": 136.96
+    },
+    {
+      "id": "ms_8a352bc4",
+      "name": "MS-breakout-8a352bc4",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "breakout",
+        "signal": "edge",
+        "min_proba": 0.55,
+        "min_pred_ret": 0.0033,
+        "top_k": 27,
+        "kelly": 0.394,
+        "short_enabled": true,
+        "short_frac": 0.515
+      },
+      "labHoldoutSharpe": 2.466,
+      "labHoldoutReturnPct": 136.37
+    },
+    {
+      "id": "ms_f2e312f3",
+      "name": "MS-long_sho-f2e312f3",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "long_short_neutral",
+        "signal": "alpha",
+        "min_proba": 0.55,
+        "min_pred_ret": 0.0024,
+        "top_k": 16,
+        "kelly": 0.352,
+        "short_enabled": true,
+        "short_frac": 0.352
+      },
+      "labHoldoutSharpe": 2.372,
+      "labHoldoutReturnPct": 136.34
+    },
+    {
+      "id": "ms_b2142e66",
+      "name": "MS-contrari-b2142e66",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "contrarian",
+        "signal": "edge",
+        "min_proba": 0.537,
+        "min_pred_ret": 0.0033,
+        "top_k": 29,
+        "kelly": 0.287,
+        "short_enabled": true,
+        "short_frac": 0.437
+      },
+      "labHoldoutSharpe": 2.18,
+      "labHoldoutReturnPct": 107.81
+    },
+    {
+      "id": "ms_4cd66038",
+      "name": "MS-mean_rev-4cd66038",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "mean_reverter",
+        "signal": "edge",
+        "min_proba": 0.538,
+        "min_pred_ret": 0.0028,
+        "top_k": 8,
+        "kelly": 0.565,
+        "short_enabled": true,
+        "short_frac": 0.484
+      },
+      "labHoldoutSharpe": 3.447,
+      "labHoldoutReturnPct": 276.88
+    },
+    {
+      "id": "ms_0afa6003",
+      "name": "MS-short_bi-0afa6003",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "short_bias",
+        "signal": "edge",
+        "min_proba": 0.548,
+        "min_pred_ret": 0.0025,
+        "top_k": 19,
+        "kelly": 0.771,
+        "short_enabled": true,
+        "short_frac": 0.309
+      },
+      "labHoldoutSharpe": 1.907,
+      "labHoldoutReturnPct": 90.73
+    },
+    {
+      "id": "ms_bf1ee75f",
+      "name": "MS-short_bi-bf1ee75f",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "short_bias",
+        "signal": "edge",
+        "min_proba": 0.526,
+        "min_pred_ret": 0.0027,
+        "top_k": 28,
+        "kelly": 0.37,
+        "short_enabled": true,
+        "short_frac": 0.492
+      },
+      "labHoldoutSharpe": 2.307,
+      "labHoldoutReturnPct": 106.25
+    },
+    {
+      "id": "ms_1d826177",
+      "name": "MS-ml_edge-1d826177",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "ml_edge",
+        "signal": "alpha",
+        "min_proba": 0.519,
+        "min_pred_ret": 0.002,
+        "top_k": 24,
+        "kelly": 0.337,
+        "short_enabled": true,
+        "short_frac": 0.532
+      },
+      "labHoldoutSharpe": 2.296,
+      "labHoldoutReturnPct": 81.8
+    },
+    {
+      "id": "ms_cbcd9017",
+      "name": "MS-long_sho-cbcd9017",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "long_short_neutral",
+        "signal": "alpha",
+        "min_proba": 0.537,
+        "min_pred_ret": 0.0022,
+        "top_k": 32,
+        "kelly": 0.391,
+        "short_enabled": true,
+        "short_frac": 0.437
+      },
+      "labHoldoutSharpe": 2.255,
+      "labHoldoutReturnPct": 92.5
+    },
+    {
+      "id": "ms_36f5d328",
+      "name": "MS-contrari-36f5d328",
+      "strategy": "genome",
+      "status": "shadow",
+      "spawnedBy": "mad_scientist_lab",
+      "params": {
+        "family": "contrarian",
+        "signal": "edge",
+        "min_proba": 0.558,
+        "min_pred_ret": 0.0031,
+        "top_k": 18,
+        "kelly": 0.46,
+        "short_enabled": true,
+        "short_frac": 0.495
+      },
+      "labHoldoutSharpe": 2.896,
+      "labHoldoutReturnPct": 178.72
+    }
+  ],
+  "updatedAt": "2026-06-09T20:58:26Z",
+  "championVersion": "v3"
+}

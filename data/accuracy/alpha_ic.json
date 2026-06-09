@@ -1,0 +1,44 @@
+{
+  "generatedAt": "2026-06-05T22:00:27Z",
+  "ok": true,
+  "universe": "tradeable",
+  "window": {
+    "start": "2025-01-02",
+    "end": "2026-05-28"
+  },
+  "raw_edge": {
+    "mean_ic": 0.02667,
+    "icir": 0.2259,
+    "ic_hit_rate": 0.6154,
+    "mean_quintile_spread": -0.000521,
+    "spread_positive_days": 0.4957,
+    "n_days": 351,
+    "mean_breadth": 4596
+  },
+  "neutralized_edge": {
+    "mean_ic": 0.02266,
+    "icir": 0.2556,
+    "ic_hit_rate": 0.6182,
+    "mean_quintile_spread": -0.000184,
+    "spread_positive_days": 0.4729,
+    "n_days": 351,
+    "mean_breadth": 4596
+  },
+  "blended_neutralized": {
+    "mean_ic": 0.02838,
+    "icir": 0.271,
+    "ic_hit_rate": 0.6211,
+    "mean_quintile_spread": 0.000277,
+    "spread_positive_days": 0.5214,
+    "n_days": 351,
+    "mean_breadth": 4596
+  },
+  "blend_weights": {
+    "edge": 1.0,
+    "rev_5": 0.7,
+    "rev_1": 0.5,
+    "mom_120_20": 0.4
+  },
+  "spread_positive": true,
+  "verdict": "TRADEABLE: blended neutralized alpha has positive quintile spread"
+}

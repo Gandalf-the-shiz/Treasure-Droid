@@ -1,0 +1,402 @@
+{
+  "generatedAt": "2026-06-03T22:50:13Z",
+  "nTraders": 100,
+  "panelSymbols": 800,
+  "baselineSingleTrader": {
+    "traderId": -1,
+    "seed": 0,
+    "family": "single_champion",
+    "returnPct": 2.6501,
+    "nTrades": 2,
+    "nLong": 2,
+    "nShort": 0,
+    "shortEnabled": false,
+    "trades": [
+      {
+        "symbol": "SDAWW",
+        "side": "long",
+        "position_effect": "open",
+        "ret": 0.0960266390587027
+      },
+      {
+        "symbol": "AREN",
+        "side": "long",
+        "position_effect": "open",
+        "ret": 0.0217558880582555
+      }
+    ]
+  },
+  "top10": [
+    {
+      "traderId": 7,
+      "seed": 20260609,
+      "family": "long_short_neutral",
+      "returnPct": 11.2231,
+      "nTrades": 3,
+      "nLong": 2,
+      "nShort": 1,
+      "shortEnabled": true,
+      "trades": [
+        {
+          "symbol": "SDAWW",
+          "side": "long",
+          "position_effect": "open",
+          "ret": 0.0960266390587027
+        },
+        {
+          "symbol": "AREN",
+          "side": "long",
+          "position_effect": "open",
+          "ret": 0.0217558880582555
+        },
+        {
+          "symbol": "KWMWW",
+          "side": "short",
+          "position_effect": "open",
+          "ret": 0.3623491467989561
+        }
+      ]
+    },
+    {
+      "traderId": 61,
+      "seed": 20260663,
+      "family": "low_vol",
+      "returnPct": 8.5164,
+      "nTrades": 3,
+      "nLong": 2,
+      "nShort": 1,
+      "shortEnabled": true,
+      "trades": [
+        {
+          "symbol": "SDAWW",
+          "side": "long",
+          "position_effect": "open",
+          "ret": 0.0960266390587027
+        },
+        {
+          "symbol": "AREN",
+          "side": "long",
+          "position_effect": "open",
+          "ret": 0.0217558880582555
+        },
+        {
+          "symbol": "KWMWW",
+          "side": "short",
+          "position_effect": "open",
+          "ret": 0.3623491467989561
+        }
+      ]
+    },
+    {
+      "traderId": 2,
+      "seed": 20260604,
+      "family": "low_vol",
+      "returnPct": 8.4888,
+      "nTrades": 3,
+      "nLong": 1,
+      "nShort": 2,
+      "shortEnabled": true,
+      "trades": [
+        {
+          "symbol": "SDAWW",
+          "side": "long",
+          "position_effect": "open",
+          "ret": 0.0960266390587027
+        },
+        {
+          "symbol": "KWMWW",
+          "side": "short",
+          "position_effect": "open",
+          "ret": 0.3623491467989561
+        },
+        {
+          "symbol": "LOTWW",
+          "side": "short",
+          "position_effect": "open",
+          "ret": 0.0388738296317602
+        }
+      ]
+    },
+    {
+      "traderId": 34,
+      "seed": 20260636,
+      "family": "short_bias",
+      "returnPct": 7.9007,
+      "nTrades": 3,
+      "nLong": 1,
+      "nShort": 2,
+      "shortEnabled": true,
+      "trades": [
+        {
+          "symbol": "SDAWW",
+          "side": "long",
+          "position_effect": "open",
+          "ret": 0.0960266390587027
+        },
+        {
+          "symbol": "KWMWW",
+          "side": "short",
+          "position_effect": "open",
+          "ret": 0.3623491467989561
+        },
+        {
+          "symbol": "LOTWW",
+          "side": "short",
+          "position_effect": "open",
+          "ret": 0.0388738296317602
+        }
+      ]
+    },
+    {
+      "traderId": 58,
+      "seed": 20260660,
+      "family": "long_short_neutral",
+      "returnPct": 7.7748,
+      "nTrades": 3,
+      "nLong": 2,
+      "nShort": 1,
+      "shortEnabled": true,
+      "trades": [
+        {
+          "symbol": "SDAWW",
+          "side": "long",
+          "position_effect": "open",
+          "ret": 0.0960266390587027
+        },
+        {
+          "symbol": "AREN",
+          "side": "long",
+          "position_effect": "open",
+          "ret": 0.0217558880582555
+        },
+        {
+          "symbol": "KWMWW",
+          "side": "short",
+          "position_effect": "open",
+          "ret": 0.3623491467989561
+        }
+      ]
+    },
+    {
+      "traderId": 87,
+      "seed": 20260689,
+      "family": "long_short_neutral",
+      "returnPct": 6.9679,
+      "nTrades": 3,
+      "nLong": 2,
+      "nShort": 1,
+      "shortEnabled": true,
+      "trades": [
+        {
+          "symbol": "SDAWW",
+          "side": "long",
+          "position_effect": "open",
+          "ret": 0.0960266390587027
+        },
+        {
+          "symbol": "AREN",
+          "side": "long",
+          "position_effect": "open",
+          "ret": 0.0217558880582555
+        },
+        {
+          "symbol": "KWMWW",
+          "side": "short",
+          "position_effect": "open",
+          "ret": 0.3623491467989561
+        }
+      ]
+    },
+    {
+      "traderId": 93,
+      "seed": 20260695,
+      "family": "contrarian",
+      "returnPct": 6.9053,
+      "nTrades": 1,
+      "nLong": 1,
+      "nShort": 0,
+      "shortEnabled": false,
+      "trades": [
+        {
+          "symbol": "SDAWW",
+          "side": "long",
+          "position_effect": "open",
+          "ret": 0.0960266390587027
+        }
+      ]
+    },
+    {
+      "traderId": 76,
+      "seed": 20260678,
+      "family": "ml_edge",
+      "returnPct": 6.646,
+      "nTrades": 1,
+      "nLong": 1,
+      "nShort": 0,
+      "shortEnabled": false,
+      "trades": [
+        {
+          "symbol": "SDAWW",
+          "side": "long",
+          "position_effect": "open",
+          "ret": 0.0960266390587027
+        }
+      ]
+    },
+    {
+      "traderId": 88,
+      "seed": 20260690,
+      "family": "high_conviction",
+      "returnPct": 6.6287,
+      "nTrades": 1,
+      "nLong": 1,
+      "nShort": 0,
+      "shortEnabled": false,
+      "trades": [
+        {
+          "symbol": "SDAWW",
+          "side": "long",
+          "position_effect": "open",
+          "ret": 0.0960266390587027
+        }
+      ]
+    },
+    {
+      "traderId": 50,
+      "seed": 20260652,
+      "family": "low_vol",
+      "returnPct": 6.5941,
+      "nTrades": 1,
+      "nLong": 1,
+      "nShort": 0,
+      "shortEnabled": false,
+      "trades": [
+        {
+          "symbol": "SDAWW",
+          "side": "long",
+          "position_effect": "open",
+          "ret": 0.0960266390587027
+        }
+      ]
+    }
+  ],
+  "bottom5": [
+    {
+      "traderId": 28,
+      "seed": 20260630,
+      "family": "crowd_follow",
+      "returnPct": 0.0,
+      "nTrades": 0,
+      "nLong": 0,
+      "nShort": 0,
+      "shortEnabled": false,
+      "trades": []
+    },
+    {
+      "traderId": 44,
+      "seed": 20260646,
+      "family": "crowd_follow",
+      "returnPct": 0.0,
+      "nTrades": 0,
+      "nLong": 0,
+      "nShort": 0,
+      "shortEnabled": false,
+      "trades": []
+    },
+    {
+      "traderId": 55,
+      "seed": 20260657,
+      "family": "ml_edge",
+      "returnPct": 0.0,
+      "nTrades": 0,
+      "nLong": 0,
+      "nShort": 0,
+      "shortEnabled": false,
+      "trades": []
+    },
+    {
+      "traderId": 69,
+      "seed": 20260671,
+      "family": "ml_edge",
+      "returnPct": 0.0,
+      "nTrades": 0,
+      "nLong": 0,
+      "nShort": 0,
+      "shortEnabled": false,
+      "trades": []
+    },
+    {
+      "traderId": 78,
+      "seed": 20260680,
+      "family": "crowd_follow",
+      "returnPct": 0.0,
+      "nTrades": 0,
+      "nLong": 0,
+      "nShort": 0,
+      "shortEnabled": false,
+      "trades": []
+    }
+  ],
+  "best": {
+    "traderId": 7,
+    "seed": 20260609,
+    "family": "long_short_neutral",
+    "returnPct": 11.2231,
+    "nTrades": 3,
+    "nLong": 2,
+    "nShort": 1,
+    "shortEnabled": true,
+    "trades": [
+      {
+        "symbol": "SDAWW",
+        "side": "long",
+        "position_effect": "open",
+        "ret": 0.0960266390587027
+      },
+      {
+        "symbol": "AREN",
+        "side": "long",
+        "position_effect": "open",
+        "ret": 0.0217558880582555
+      },
+      {
+        "symbol": "KWMWW",
+        "side": "short",
+        "position_effect": "open",
+        "ret": 0.3623491467989561
+      }
+    ]
+  },
+  "medianReturnPct": 3.1374,
+  "pctBeatingBaseline": 64.0,
+  "promotionHint": {
+    "traderId": 7,
+    "seed": 20260609,
+    "family": "long_short_neutral",
+    "returnPct": 11.2231,
+    "nTrades": 3,
+    "nLong": 2,
+    "nShort": 1,
+    "shortEnabled": true,
+    "trades": [
+      {
+        "symbol": "SDAWW",
+        "side": "long",
+        "position_effect": "open",
+        "ret": 0.0960266390587027
+      },
+      {
+        "symbol": "AREN",
+        "side": "long",
+        "position_effect": "open",
+        "ret": 0.0217558880582555
+      },
+      {
+        "symbol": "KWMWW",
+        "side": "short",
+        "position_effect": "open",
+        "ret": 0.3623491467989561
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "generatedAt": "2026-06-09T19:48:43Z",
+  "tradeDate": "2026-05-08",
+  "intents": [
+    {
+      "symbol": "MUD",
+      "side": "buy",
+      "notional_usd": 1789.71,
+      "proba_up": 0.60607476635514,
+      "pred_ret": 0.0239306333334548,
+      "edge": 0.005076872679153487,
+      "rationale": "['Calibrated up-day probability 60.6% (threshold 60%) \u2014 model is confident this name rises tomorrow.', 'Predicted next-day return +2.39% (floor 2.0%) \u2014 expected magnitude clears the 30 bps cost+slippage drag.', \"Edge score +0.508% ranks #2 across today's eligible universe after liquidity, vol and exclusion filters.\", 'Sector: Other. 20d realised daily vol 5.14% (floor 1.0%) \u2014 enough movement for the predicted edge to materialise.'] | Unified: ML +0.33",
+      "trade_date": "2026-05-08",
+      "agent": "investor_v3"
+    }
+  ],
+  "manifestPath": "data\\trading\\robinhood_manifest.json"
+}

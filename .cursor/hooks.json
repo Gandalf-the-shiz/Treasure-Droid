@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "hooks": {
+    "sessionStart": [
+      {
+        "command": "powershell -NoProfile -ExecutionPolicy Bypass -File .cursor/hooks/megamind-session.ps1"
+      }
+    ],
+    "afterFileEdit": [
+      {
+        "command": "powershell -NoProfile -ExecutionPolicy Bypass -File .cursor/hooks/format-python.ps1",
+        "matcher": "Write|Edit"
+      }
+    ],
+    "beforeShellExecution": [
+      {
+        "command": "powershell -NoProfile -ExecutionPolicy Bypass -File .cursor/hooks/trading-safety.ps1",
+        "matcher": "git\\s+push|curl|wget|Invoke-WebRequest|Invoke-RestMethod"
+      }
+    ],
+    "beforeSubmitPrompt": [
+      {
+        "command": "powershell -NoProfile -ExecutionPolicy Bypass -File .cursor/hooks/secret-scan.ps1",
+        "matcher": "UserPromptSubmit"
+      }
+    ]
+  }
+}

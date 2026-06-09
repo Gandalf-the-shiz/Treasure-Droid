@@ -1,0 +1,13 @@
+{
+  "positions": {
+    "JDZG": {
+      "qty": -392,
+      "entryPrice": 50.0,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    }
+  },
+  "cash": 119590.2,
+  "startingCash": 100000.0,
+  "lastDate": "2026-06-03"
+}

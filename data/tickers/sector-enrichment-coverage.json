@@ -1,0 +1,20 @@
+{
+  "generatedAt": "2026-05-25T17:13:07Z",
+  "candidates": 707,
+  "completed": 707,
+  "failures": 0,
+  "sectorCounts": {
+    "Other": 496,
+    "Financials": 63,
+    "Healthcare": 27,
+    "Technology": 27,
+    "Industrials": 26,
+    "Consumer Discretionary": 17,
+    "Real Estate": 16,
+    "Materials": 11,
+    "Consumer Staples": 8,
+    "Communication Services": 7,
+    "Energy": 6,
+    "Utilities": 3
+  }
+}

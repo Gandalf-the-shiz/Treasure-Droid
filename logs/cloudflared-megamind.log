@@ -1,0 +1,105 @@
+2026-06-06T14:52:19Z INF Starting tunnel tunnelID=f96b8b42-bae0-4ccd-9344-4e21abc80698
+2026-06-06T14:52:19Z INF Version 2026.5.2 (Checksum 20b9638f685333d623798e733effbad2487093f15ba592f6c7752360ff3b7ab7)
+2026-06-06T14:52:19Z INF GOOS: windows, GOVersion: go1.26.3, GoArch: amd64
+2026-06-06T14:52:19Z INF Settings: map[config:C:\Users\nicho\Nostradamus_remote_audit\data\cloudflare\config.yml cred-file:C:/Users/nicho/.cloudflared/f96b8b42-bae0-4ccd-9344-4e21abc80698.json credentials-file:C:/Users/nicho/.cloudflared/f96b8b42-bae0-4ccd-9344-4e21abc80698.json no-autoupdate:true]
+2026-06-06T14:52:19Z INF cloudflared will not automatically update on Windows systems.
+2026-06-06T14:52:19Z INF Generated Connector ID: d2aec963-5aeb-4d50-a2a4-15b096e3fe79
+2026-06-06T14:52:19Z INF Initial protocol quic
+2026-06-06T14:52:19Z INF ICMP proxy will use 10.0.0.246 as source for IPv4
+2026-06-06T14:52:19Z INF ICMP proxy will use 2601:403:c403:d740::5aaf in zone Wi-Fi as source for IPv6
+2026-06-06T14:52:19Z INF cloudflared does not support loading the system root certificate pool on Windows. Please use --origin-ca-pool <PATH> to specify the path to the certificate pool
+2026-06-06T14:52:19Z INF cloudflared does not support loading the system root certificate pool on Windows. Please use --origin-ca-pool <PATH> to specify the path to the certificate pool
+2026-06-06T14:52:19Z INF ICMP proxy will use 10.0.0.246 as source for IPv4
+2026-06-06T14:52:19Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a0::6
+2026-06-06T14:52:19Z INF ICMP proxy will use 2601:403:c403:d740::5aaf in zone Wi-Fi as source for IPv6
+2026-06-06T14:52:19Z INF Starting metrics server on 127.0.0.1:20243/metrics
+2026-06-06T14:52:19Z INF Registered tunnel connection connIndex=0 connection=946c834e-288a-4af4-9cd8-76e40dbdb065 event=0 ip=2606:4700:a0::6 location=ord14 protocol=quic
+2026-06-06T14:52:19Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=1 event=0 ip=2606:4700:a8::3
+2026-06-06T14:52:19Z INF +-------------------------------------------------------------------------------------+
+2026-06-06T14:52:19Z INF |                               CONNECTIVITY PRE-CHECKS                               |
+2026-06-06T14:52:19Z INF +-------------------------------------------------------------------------------------+
+2026-06-06T14:52:19Z INF |  COMPONENT         TARGET                     STATUS  DETAILS                       |
+2026-06-06T14:52:19Z INF |  DNS Resolution    region1.v2.argotunnel.com  PASS    DNS Resolved successfully     |
+2026-06-06T14:52:19Z INF |  DNS Resolution    region2.v2.argotunnel.com  PASS    DNS Resolved successfully     |
+2026-06-06T14:52:19Z INF |  UDP Connectivity  region1.v2.argotunnel.com  PASS    QUIC connection successful    |
+2026-06-06T14:52:19Z INF |  UDP Connectivity  region2.v2.argotunnel.com  PASS    QUIC connection successful    |
+2026-06-06T14:52:19Z INF |  TCP Connectivity  region1.v2.argotunnel.com  PASS    HTTP/2 connection successful  |
+2026-06-06T14:52:19Z INF |  TCP Connectivity  region2.v2.argotunnel.com  PASS    HTTP/2 connection successful  |
+2026-06-06T14:52:19Z INF |  Cloudflare API    api.cloudflare.com:443     PASS    API is reachable              |
+2026-06-06T14:52:19Z INF |                                                                                     |
+2026-06-06T14:52:19Z INF |  SUMMARY: Environment is healthy. cloudflared will use 'quic' as primary protocol.  |
+2026-06-06T14:52:19Z INF +-------------------------------------------------------------------------------------+
+2026-06-06T14:52:19Z INF precheck component="DNS Resolution" details="DNS Resolved successfully" run_id=41f2f8d7-29ad-4719-a1f7-886e16a3568b status=pass target=region1.v2.argotunnel.com
+2026-06-06T14:52:19Z INF precheck component="DNS Resolution" details="DNS Resolved successfully" run_id=41f2f8d7-29ad-4719-a1f7-886e16a3568b status=pass target=region2.v2.argotunnel.com
+2026-06-06T14:52:19Z INF precheck component="UDP Connectivity" details="QUIC connection successful" run_id=41f2f8d7-29ad-4719-a1f7-886e16a3568b status=pass target=region1.v2.argotunnel.com
+2026-06-06T14:52:19Z INF precheck component="UDP Connectivity" details="QUIC connection successful" run_id=41f2f8d7-29ad-4719-a1f7-886e16a3568b status=pass target=region2.v2.argotunnel.com
+2026-06-06T14:52:19Z INF precheck component="TCP Connectivity" details="HTTP/2 connection successful" run_id=41f2f8d7-29ad-4719-a1f7-886e16a3568b status=pass target=region1.v2.argotunnel.com
+2026-06-06T14:52:19Z INF precheck component="TCP Connectivity" details="HTTP/2 connection successful" run_id=41f2f8d7-29ad-4719-a1f7-886e16a3568b status=pass target=region2.v2.argotunnel.com
+2026-06-06T14:52:19Z INF precheck component="Cloudflare API" details="API is reachable" run_id=41f2f8d7-29ad-4719-a1f7-886e16a3568b status=pass target=api.cloudflare.com:443
+2026-06-06T14:52:19Z INF precheck complete hard_fail=false run_id=41f2f8d7-29ad-4719-a1f7-886e16a3568b suggested_protocol=quic
+2026-06-06T14:52:19Z INF Registered tunnel connection connIndex=1 connection=a33fd849-4e42-408e-8184-086699ca002c event=0 ip=2606:4700:a8::3 location=dtw01 protocol=quic
+2026-06-06T14:52:20Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=2 event=0 ip=2606:4700:a8::1
+2026-06-06T14:52:20Z INF Registered tunnel connection connIndex=2 connection=4f8b454c-ed85-4198-a97d-14f2c410c456 event=0 ip=2606:4700:a8::1 location=dtw01 protocol=quic
+2026-06-06T14:52:21Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=3 event=0 ip=2606:4700:a0::3
+2026-06-06T14:52:21Z INF Registered tunnel connection connIndex=3 connection=81746d26-10f2-40f2-b055-d8f2e29a50ab event=0 ip=2606:4700:a0::3 location=ord06 protocol=quic
+2026-06-06T19:21:39Z ERR  error="Incoming request ended abruptly: context canceled" connIndex=2 event=1 ingressRule=2026-06-07T00:59:23Z ERR  error="Incoming request ended abruptly: context canceled" connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:4174
+2026-06-07T00:59:23Z ERR Request failed error="Incoming request ended abruptly: co2026-06-07T11:32:32Z ERR Failed to refresh DNS local resolver error="lookup region1.v2.argotunnel.com: i/o timeout"
+2026-06-09T00:26:47Z ERR failed to accept incoming stream requests error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=2606:4700:a0::6
+2026-06-09T00:26:47Z ERR failed to run the datagram handler error="timeout: no recent network activity" connIndex=0 event=0 ip=2606:4700:a0::6
+2026-06-09T00:26:47Z WRN failed to serve tunnel connection error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=2606:4700:a0::6
+2026-06-09T00:26:47Z WRN Serve tunnel error error="accept stream listener enc2026-06-09T06:13:34Z ERR failed to accept incoming stream requests error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=2606:4700:a0::6
+2026-06-09T06:13:34Z ERR failed to run the datagram handler error="timeout: no recent network activity" connIndex=0 event=0 ip=2606:4700:a0::6
+2026-06-09T06:13:34Z WRN failed to serve tunnel connection error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=2606:4700:a0::6
+2026-06-09T06:13:34Z WRN Serve tunnel error error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=2606:4700:a0::6
+2026-06-09T06:13:34Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=2606:4700:a0::6
+2026-06-09T06:13:36Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a0::6
+2026-06-09T06:13:37Z INF Registered tunnel connection connIndex=0 connection=b9d65e13-0e49-4eec-a264-a86266847248 event=0 ip=2606:4700:a0::6 location=ord14 protocol=quic
+2026-06-09T09:15:03Z ERR failed to run the datagram handler error="timeout: no recent network activity" connIndex=2 event=0 ip=2606:4700:a8::1
+2026-06-09T09:15:03Z ERR failed to accept incoming stream requests error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=2 event=0 ip=2606:4700:a8::1
+2026-06-09T09:15:03Z WRN failed to serve tunnel connection error="datagram manager encountered a failure while serving" connIndex=2 event=0 ip=2606:4700:a8::1
+2026-06-09T09:15:03Z WRN Serve tunnel error error="datagram manager encountered a failure while serving" connIndex=2 event=0 ip=2606:4700:a8::1
+2026-06-09T09:15:03Z INF Retrying connection in up to 1s connIndex=2 event=0 ip=2606:4700:a8::1
+2026-06-09T09:15:04Z WRN Connection terminated error="datagram manager encountered a failure while serving" connIndex=2
+2026-06-09T09:15:19Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=2 event=0 ip=2606:4700:a8::1
+2026-06-09T09:15:20Z INF Registered tunnel connection connIndex=2 connection=9775b0eb-48c9-4414-898f-af0065109dcb event=0 ip=2606:4700:a8::1 location=dtw01 protocol=quic
+2026-06-09T12:58:08Z ERR Failed to refresh DNS local resolver error="lookup region1.v2.argotunnel.com: i/o timeout"
+2026-06-09T14:15:53Z ERR failed to run the datagram handler error="timeout: no recent network activity" connIndex=0 event=0 ip=2606:4700:a0::6
+2026-06-09T14:15:53Z ERR failed to accept incoming stream requests error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=2606:4700:a0::6
+2026-06-09T14:15:53Z WRN failed to serve tunnel connection error="datagram manager encountered a failure while serving" connIndex=0 event=0 ip=2606:4700:a0::6
+2026-06-09T14:15:53Z WRN Serve tunnel error error="datagram manager encountered a failure while serving" connIndex=0 event=0 ip=2606:4700:a0::6
+2026-06-09T14:15:53Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=2606:4700:a0::6
+2026-06-09T14:15:55Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a0::6
+2026-06-09T14:15:56Z INF Registered tunnel connection connIndex=0 connection=21c23e03-6641-4eb7-96c3-7ab585332f0b event=0 ip=2606:4700:a0::6 location=ord14 protocol=quic
+2026-06-09T14:52:11Z WRN Your version 2026.5.2 is outdated. We recommend upgrading it to 2026.6.0
+r encountered a failure while serving" connIndex=3 event=0 ip=2606:4700:a8::7
+2026-06-09T09:03:56Z WRN Serve tunnel error error="datagram manager encountered a failure while serving" connIndex=3 event=0 ip=2606:4700:a8::7
+2026-06-09T09:03:56Z INF Retrying connection in up to 1s connIndex=3 event=0 ip=2606:4700:a8::7
+2026-06-09T09:03:58Z WRN Connection terminated error="datagram manager encountered a failure while serving" connIndex=3
+2026-06-09T09:04:02Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=3 event=0 ip=2606:4700:a8::7
+2026-06-09T09:04:02Z INF Registered tunnel connection connIndex=3 connection=2fac0091-6f28-41a3-aa3e-2ce72543aebd event=0 ip=2606:4700:a8::7 location=dtw01 protocol=quic
+2026-06-09T09:45:43Z ERR failed to run the datagram handler error="timeout: no recent network activity" connIndex=3 event=0 ip=2606:4700:a8::7
+2026-06-09T09:45:43Z ERR failed to accept incoming stream requests error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=3 event=0 ip=2606:4700:a8::7
+2026-06-09T09:45:43Z WRN failed to serve tunnel connection error="datagram manager encountered a failure while serving" connIndex=3 event=0 ip=2606:4700:a8::7
+2026-06-09T09:45:43Z WRN Serve tunnel error error="datagram manager encountered a failure while serving" connIndex=3 event=0 ip=2606:4700:a8::7
+2026-06-09T09:45:43Z INF Retrying connection in up to 1s connIndex=3 event=0 ip=2606:4700:a8::7
+2026-06-09T09:45:45Z WRN Connection terminated error="datagram manager encountered a failure while serving" connIndex=3
+2026-06-09T09:45:59Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=3 event=0 ip=2606:4700:a8::7
+2026-06-09T09:45:59Z INF Registered tunnel connection connIndex=3 connection=c260fdd5-0fc5-4b18-9eb1-91f7a5ecb0bc event=0 ip=2606:4700:a8::7 location=dtw01 protocol=quic
+2026-06-09T14:51:45Z WRN Your version 2026.5.2 is outdated. We recommend upgrading it to 2026.6.0
+:27Z WRN failed to serve tunnel connection error="accept stream listener encountered a failure while serving" connIndex=1 event=0 ip=2606:4700:a8::9
+2026-06-09T09:15:27Z WRN Serve tunnel error error="accept stream listener encountered a failure while serving" connIndex=1 event=0 ip=2606:4700:a8::9
+2026-06-09T09:15:27Z INF Retrying connection in up to 1s connIndex=1 event=0 ip=2606:4700:a8::9
+2026-06-09T09:15:27Z WRN Connection terminated error="accept stream listener encountered a failure while serving" connIndex=1
+2026-06-09T09:15:37Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=1 event=0 ip=2606:4700:a8::9
+2026-06-09T09:15:38Z INF Registered tunnel connection connIndex=1 connection=083cb567-7102-4e11-8b55-cb6d7ae512b4 event=0 ip=2606:4700:a8::9 location=dtw01 protocol=quic
+2026-06-09T09:45:44Z ERR failed to accept incoming stream requests error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=3 event=0 ip=2606:4700:a8::7
+2026-06-09T09:45:44Z ERR failed to run the datagram handler error="timeout: no recent network activity" connIndex=3 event=0 ip=2606:4700:a8::7
+2026-06-09T09:45:44Z WRN failed to serve tunnel connection error="accept stream listener encountered a failure while serving" connIndex=3 event=0 ip=2606:4700:a8::7
+2026-06-09T09:45:44Z WRN Serve tunnel error error="accept stream listener encountered a failure while serving" connIndex=3 event=0 ip=2606:4700:a8::7
+2026-06-09T09:45:44Z INF Retrying connection in up to 1s connIndex=3 event=0 ip=2606:4700:a8::7
+2026-06-09T09:45:45Z WRN Connection terminated error="accept stream listener encountered a failure while serving" connIndex=3
+2026-06-09T09:45:55Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=3 event=0 ip=2606:4700:a8::7
+2026-06-09T09:45:55Z INF Registered tunnel connection connIndex=3 connection=a609f447-f9c2-4d5c-a118-b4e984333be2 event=0 ip=2606:4700:a8::7 location=dtw01 protocol=quic
+2026-06-09T11:50:49Z ERR Failed to refresh DNS local resolver error="lookup region1.v2.argotunnel.com: i/o timeout"
+2026-06-09T14:49:46Z WRN Your version 2026.5.2 is outdated. We recommend upgrading it to 2026.6.0
+2026-06-09T23:01:04Z ERR Failed to refresh DNS local resolver error="lookup region1.v2.argotunnel.com: i/o timeout"

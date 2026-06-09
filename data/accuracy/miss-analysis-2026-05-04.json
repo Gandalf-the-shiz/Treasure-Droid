@@ -1,0 +1,46 @@
+{
+  "analysisDate": "2026-05-04",
+  "generatedAt": "2026-05-04T07:59:11Z",
+  "windowDays": 7,
+  "overallHitRate": 0.3555,
+  "totalPredictions": 1519,
+  "totalCorrect": 540,
+  "dailyRates": [
+    {
+      "date": "2026-04-29",
+      "hitRate": 0.3555,
+      "total": 1519
+    }
+  ],
+  "sectorMisses": {},
+  "confidenceBucketAnalysis": [
+    {
+      "bucket": "low (<0.3)",
+      "hitRate": 0.4658,
+      "total": 73,
+      "correct": 34
+    },
+    {
+      "bucket": "medium (0.3-0.5)",
+      "hitRate": 0.2667,
+      "total": 60,
+      "correct": 16
+    },
+    {
+      "bucket": "high (>0.5)",
+      "hitRate": 0.2388,
+      "total": 67,
+      "correct": 16
+    }
+  ],
+  "evTopN": {
+    "n": 20,
+    "hitRate": 0.4,
+    "total": 20,
+    "correct": 8
+  },
+  "topMissPatterns": [
+    "High-confidence predictions (high (>0.5)) not outperforming base rate (24% vs 36% overall). Platt calibration or threshold tuning recommended.",
+    "Top-20 EV predictions (40%) not beating overall (36%). EV scoring needs review."
+  ]
+}

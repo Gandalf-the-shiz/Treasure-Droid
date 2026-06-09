@@ -1,0 +1,16 @@
+{
+  "date": "2026-06-03",
+  "agentId": "ms_633dd7fd",
+  "name": "MS-long_sho-633dd7fd",
+  "kind": null,
+  "equity": 100000.0,
+  "cash": 100000.0,
+  "dayPnl": 0.0,
+  "returnPct": 0.0,
+  "nLong": 0,
+  "nShort": 0,
+  "grossExposure": 0,
+  "netExposure": 0,
+  "nTrades": 0,
+  "picks": []
+}

@@ -1,0 +1,56 @@
+name: Fetch Upcoming IPOs
+
+on:
+  schedule:
+    # Weekdays at 12:20 UTC
+    - cron: '20 12 * * 1-5'
+  workflow_dispatch:
+
+concurrency:
+  group: main-branch-writer
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-ipos:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Configure Git LFS
+        run: git lfs install
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Fetch IPO calendar
+        env:
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
+        run: python scripts/fetch-ipos.py
+
+      - name: Commit IPO dataset
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add data/ipos/upcoming.json || true
+
+          if git diff --cached --quiet; then
+            echo "No IPO updates to commit."
+          else
+            git commit -m "chore: refresh IPO calendar $(date -u +%Y-%m-%d)"
+            git pull --rebase --autostash origin main
+            git push
+          fi

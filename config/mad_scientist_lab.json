@@ -1,0 +1,23 @@
+{
+  "_comment": "Mad Scientist Lab — 8yr train (predictor v3 <=2023) + 2yr historical walk-forward (2024-2025). Panel must match live Treasure Droid outputs.",
+  "train_end": "2023-12-31",
+  "walkforward_start": "2024-01-01",
+  "walkforward_end": "2025-12-31",
+  "panel_sources": ["val.csv", "test.csv"],
+  "max_symbols_per_day": 0,
+  "genomes": 500,
+  "promote_top": 5,
+  "selection_frac": 0.6,
+  "cost_bps": 7.0,
+  "return_clip": 0.15,
+  "min_selection_days": 20,
+  "min_holdout_days": 15,
+  "min_promote_holdout_sharpe": 0.5,
+  "loop_sleep_minutes": 180,
+  "experiment_profiles": [
+    {"name": "alpha_neutral_wide", "genomes": 400, "signal_bias": "alpha", "promote": 3},
+    {"name": "edge_hunter", "genomes": 300, "signal_bias": "edge", "promote": 2},
+    {"name": "deep_search", "genomes": 600, "signal_bias": "mixed", "promote": 4},
+    {"name": "tight_holdout", "genomes": 350, "selection_frac": 0.5, "promote": 2}
+  ]
+}

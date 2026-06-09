@@ -1,0 +1,949 @@
+{
+  "weekNumber": "2026-W21",
+  "generatedAt": "2026-05-23T00:50:19.832233Z",
+  "topBullish": [
+    {
+      "symbol": "NGD",
+      "probability": 0.9595,
+      "confidence": 0.919
+    },
+    {
+      "symbol": "TBHC",
+      "probability": 0.8781,
+      "confidence": 0.7563
+    },
+    {
+      "symbol": "CIGL",
+      "probability": 0.8013,
+      "confidence": 0.6026
+    },
+    {
+      "symbol": "JFBR",
+      "probability": 0.7694,
+      "confidence": 0.5388
+    },
+    {
+      "symbol": "OS",
+      "probability": 0.7648,
+      "confidence": 0.5296
+    },
+    {
+      "symbol": "TGNA",
+      "probability": 0.7562,
+      "confidence": 0.5125
+    },
+    {
+      "symbol": "RSG",
+      "probability": 0.7279,
+      "confidence": 0.4559
+    },
+    {
+      "symbol": "MOS",
+      "probability": 0.7223,
+      "confidence": 0.4446
+    },
+    {
+      "symbol": "WIT",
+      "probability": 0.7217,
+      "confidence": 0.4435
+    },
+    {
+      "symbol": "TXRH",
+      "probability": 0.7208,
+      "confidence": 0.4416
+    }
+  ],
+  "topBearish": [
+    {
+      "symbol": "KVACU",
+      "probability": 0.0123,
+      "confidence": 0.9754
+    },
+    {
+      "symbol": "TBMCR",
+      "probability": 0.022,
+      "confidence": 0.956
+    },
+    {
+      "symbol": "OAKUR",
+      "probability": 0.0546,
+      "confidence": 0.8907
+    },
+    {
+      "symbol": "PELIU",
+      "probability": 0.0676,
+      "confidence": 0.8648
+    },
+    {
+      "symbol": "OAKU",
+      "probability": 0.0709,
+      "confidence": 0.8581
+    },
+    {
+      "symbol": "RILYK",
+      "probability": 0.0766,
+      "confidence": 0.8469
+    },
+    {
+      "symbol": "VCICU",
+      "probability": 0.0966,
+      "confidence": 0.8068
+    },
+    {
+      "symbol": "EXAS",
+      "probability": 0.1577,
+      "confidence": 0.6846
+    },
+    {
+      "symbol": "CHACU",
+      "probability": 0.2369,
+      "confidence": 0.5262
+    },
+    {
+      "symbol": "ONTF",
+      "probability": 0.2897,
+      "confidence": 0.4205
+    }
+  ],
+  "sectorRotation": {
+    "Communication Services": {
+      "avgProbability": 0.6391,
+      "sentiment": "bullish",
+      "tickerCount": 2
+    },
+    "Consumer Discretionary": {
+      "avgProbability": 0.5511,
+      "sentiment": "bullish",
+      "tickerCount": 2
+    },
+    "Consumer Staples": {
+      "avgProbability": 0.5908,
+      "sentiment": "bullish",
+      "tickerCount": 2
+    },
+    "Energy": {
+      "avgProbability": 0.6241,
+      "sentiment": "bullish",
+      "tickerCount": 2
+    },
+    "Financials": {
+      "avgProbability": 0.5679,
+      "sentiment": "bullish",
+      "tickerCount": 4
+    },
+    "Healthcare": {
+      "avgProbability": 0.6027,
+      "sentiment": "bullish",
+      "tickerCount": 2
+    },
+    "Industrials": {
+      "avgProbability": 0.5565,
+      "sentiment": "bullish",
+      "tickerCount": 1
+    },
+    "Other": {
+      "avgProbability": 0.6058,
+      "sentiment": "bullish",
+      "tickerCount": 6431
+    },
+    "Technology": {
+      "avgProbability": 0.5864,
+      "sentiment": "bullish",
+      "tickerCount": 5
+    }
+  },
+  "modelPerformance": {
+    "rolling7d": {
+      "hitRate": null,
+      "totalPredictions": 0
+    },
+    "rolling30d": {
+      "hitRate": 0.4867,
+      "totalPredictions": 7051
+    },
+    "rolling90d": {
+      "hitRate": 0.5261,
+      "totalPredictions": 14350
+    }
+  },
+  "calibration": {
+    "sampleSize": 600,
+    "brier": 0.296698,
+    "logLoss": 0.809208,
+    "ece": 0.167968,
+    "bins": [
+      {
+        "range": "0-10",
+        "count": 1,
+        "avgProbability": 0.0375,
+        "hitRate": 1.0,
+        "gap": 0.9625
+      },
+      {
+        "range": "10-20",
+        "count": 8,
+        "avgProbability": 0.162,
+        "hitRate": 0.625,
+        "gap": 0.463
+      },
+      {
+        "range": "20-30",
+        "count": 10,
+        "avgProbability": 0.2541,
+        "hitRate": 0.5,
+        "gap": 0.2459
+      },
+      {
+        "range": "30-40",
+        "count": 14,
+        "avgProbability": 0.3507,
+        "hitRate": 0.5714,
+        "gap": 0.2208
+      },
+      {
+        "range": "40-50",
+        "count": 21,
+        "avgProbability": 0.4468,
+        "hitRate": 0.7619,
+        "gap": 0.3151
+      },
+      {
+        "range": "50-60",
+        "count": 151,
+        "avgProbability": 0.5603,
+        "hitRate": 0.543,
+        "gap": 0.0173
+      },
+      {
+        "range": "60-70",
+        "count": 289,
+        "avgProbability": 0.6455,
+        "hitRate": 0.526,
+        "gap": 0.1195
+      },
+      {
+        "range": "70-80",
+        "count": 71,
+        "avgProbability": 0.7305,
+        "hitRate": 0.3944,
+        "gap": 0.3361
+      },
+      {
+        "range": "80-90",
+        "count": 32,
+        "avgProbability": 0.8471,
+        "hitRate": 0.1875,
+        "gap": 0.6596
+      },
+      {
+        "range": "90-100",
+        "count": 3,
+        "avgProbability": 0.9431,
+        "hitRate": 0.3333,
+        "gap": 0.6097
+      }
+    ]
+  },
+  "decisionQuality": {
+    "windowDays": 7,
+    "ev": {
+      "sampleSize": 400,
+      "positiveEv": {
+        "count": 400,
+        "avgEv": 0.002235,
+        "hitRate": 0.595
+      },
+      "topN": {
+        "n": 50,
+        "avgEv": 0.008399,
+        "hitRate": 0.74
+      }
+    },
+    "portfolioProxy": {
+      "sampleSize": 600,
+      "avgReturn": -0.001945,
+      "volatility": 0.048344,
+      "sharpeLike": -0.040222,
+      "winRate": 0.5017,
+      "maxDrawdown": 0.960154
+    }
+  },
+  "macroRegime": "SIDEWAYS",
+  "regimeThresholds": {
+    "minHitRate30d": 0.52,
+    "maxEce": 0.12
+  },
+  "championChallenger": {
+    "available": true,
+    "champion": {
+      "version": "2.0.0",
+      "trainedAt": "2026-05-02T02:01:01+00:00",
+      "testMetrics": {
+        "accuracy": 0.6666,
+        "auc": 0.7332,
+        "f1": 0.6506,
+        "reg_mae": 0.023801
+      }
+    },
+    "challenger": {
+      "version": "2.0.0",
+      "trainedAt": "2026-04-11T03:23:19+00:00",
+      "testMetrics": {
+        "accuracy": 0.666,
+        "auc": 0.731,
+        "f1": 0.6453,
+        "reg_mae": 0.023161
+      }
+    },
+    "delta": {
+      "accuracy": 0.0006,
+      "auc": 0.0022
+    },
+    "verdict": "champion_better"
+  },
+  "marketActivitySignals": {
+    "method": "heuristic_flow_scan_v1",
+    "disclaimer": "Statistical screening only. Not evidence of unlawful insider trading.",
+    "thresholds": {
+      "unusualHighScore": 0.55,
+      "forwardHighScore": 0.6,
+      "minDisplayScore": 0.28
+    },
+    "sampleSize": 76,
+    "topSignals": [
+      {
+        "ticker": "ATEC",
+        "score": 0.4722,
+        "scoreRaw": 0.4722,
+        "novelty": 1.0,
+        "cooldown": false,
+        "pattern": "unusual_flow",
+        "sector": "Other",
+        "actualReturn": -0.316716,
+        "regressionDislocation": 0.312916,
+        "returnZTicker": 0.0,
+        "returnZSector": 7.2945,
+        "dislocationZTicker": 0.0,
+        "dislocationZSector": 7.1746,
+        "ev": 0.002874,
+        "confidence": 0.3337,
+        "volumeSpikeRatio": 1.0,
+        "insiderBuyRatio30d": 0.5,
+        "putCallRatio": 1.0,
+        "earningsDaysTo": 60,
+        "reasons": [
+          "return anomaly vs ticker/sector baseline",
+          "model-vs-market dislocation spike"
+        ]
+      },
+      {
+        "ticker": "ALEC",
+        "score": 0.4699,
+        "scoreRaw": 0.4699,
+        "novelty": 1.0,
+        "cooldown": false,
+        "pattern": "unusual_flow",
+        "sector": "Other",
+        "actualReturn": -0.139344,
+        "regressionDislocation": 0.140844,
+        "returnZTicker": 1.3651,
+        "returnZSector": 2.8125,
+        "dislocationZTicker": 1.3318,
+        "dislocationZSector": 2.7768,
+        "ev": 0.001055,
+        "confidence": 0.2827,
+        "volumeSpikeRatio": 1.0,
+        "insiderBuyRatio30d": 0.5,
+        "putCallRatio": 1.0,
+        "earningsDaysTo": 60,
+        "reasons": [
+          "return anomaly vs ticker/sector baseline",
+          "model-vs-market dislocation spike"
+        ]
+      },
+      {
+        "ticker": "ASIX",
+        "score": 0.4622,
+        "scoreRaw": 0.4622,
+        "novelty": 1.0,
+        "cooldown": false,
+        "pattern": "unusual_flow",
+        "sector": "Other",
+        "actualReturn": -0.151211,
+        "regressionDislocation": 0.135111,
+        "returnZTicker": 0.0,
+        "returnZSector": 3.1124,
+        "dislocationZTicker": 0.0,
+        "dislocationZSector": 2.6303,
+        "ev": 0.003046,
+        "confidence": 0.3388,
+        "volumeSpikeRatio": 1.0,
+        "insiderBuyRatio30d": 0.5,
+        "putCallRatio": 1.0,
+        "earningsDaysTo": 60,
+        "reasons": [
+          "return anomaly vs ticker/sector baseline",
+          "model-vs-market dislocation spike"
+        ]
+      },
+      {
+        "ticker": "ANTA",
+        "score": 0.4593,
+        "scoreRaw": 0.4593,
+        "novelty": 1.0,
+        "cooldown": false,
+        "pattern": "unusual_flow",
+        "sector": "Other",
+        "actualReturn": -0.185832,
+        "regressionDislocation": 0.192032,
+        "returnZTicker": 1.0,
+        "returnZSector": 3.9872,
+        "dislocationZTicker": 1.0,
+        "dislocationZSector": 4.0851,
+        "ev": 0.000711,
+        "confidence": 0.2141,
+        "volumeSpikeRatio": 1.0,
+        "insiderBuyRatio30d": 0.5,
+        "putCallRatio": 1.0,
+        "earningsDaysTo": 60,
+        "reasons": [
+          "return anomaly vs ticker/sector baseline",
+          "model-vs-market dislocation spike"
+        ]
+      },
+      {
+        "ticker": "ADV",
+        "score": 0.4555,
+        "scoreRaw": 0.4555,
+        "novelty": 1.0,
+        "cooldown": false,
+        "pattern": "unusual_flow",
+        "sector": "Other",
+        "actualReturn": 0.152991,
+        "regressionDislocation": 0.143691,
+        "returnZTicker": 0.0,
+        "returnZSector": 3.1574,
+        "dislocationZTicker": 0.0,
+        "dislocationZSector": 2.8496,
+        "ev": 0.00219,
+        "confidence": 0.3213,
+        "volumeSpikeRatio": 1.0,
+        "insiderBuyRatio30d": 0.5,
+        "putCallRatio": 1.0,
+        "earningsDaysTo": 60,
+        "reasons": [
+          "return anomaly vs ticker/sector baseline",
+          "model-vs-market dislocation spike"
+        ]
+      },
+      {
+        "ticker": "AIRE",
+        "score": 0.4555,
+        "scoreRaw": 0.4555,
+        "novelty": 1.0,
+        "cooldown": false,
+        "pattern": "unusual_flow",
+        "sector": "Other",
+        "actualReturn": -0.137864,
+        "regressionDislocation": 0.135764,
+        "returnZTicker": 0.0,
+        "returnZSector": 2.7751,
+        "dislocationZTicker": 0.0,
+        "dislocationZSector": 2.647,
+        "ev": 0.00288,
+        "confidence": 0.3302,
+        "volumeSpikeRatio": 1.0,
+        "insiderBuyRatio30d": 0.5,
+        "putCallRatio": 1.0,
+        "earningsDaysTo": 60,
+        "reasons": [
+          "return anomaly vs ticker/sector baseline",
+          "model-vs-market dislocation spike"
+        ]
+      },
+      {
+        "ticker": "AIRJ",
+        "score": 0.4546,
+        "scoreRaw": 0.4546,
+        "novelty": 1.0,
+        "cooldown": false,
+        "pattern": "unusual_flow",
+        "sector": "Other",
+        "actualReturn": 0.136364,
+        "regressionDislocation": 0.117464,
+        "returnZTicker": 1.0,
+        "returnZSector": 2.7372,
+        "dislocationZTicker": 1.0,
+        "dislocationZSector": 2.1793,
+        "ev": 0.001858,
+        "confidence": 0.3083,
+        "volumeSpikeRatio": 1.0,
+        "insiderBuyRatio30d": 0.5,
+        "putCallRatio": 1.0,
+        "earningsDaysTo": 60,
+        "reasons": [
+          "return anomaly vs ticker/sector baseline",
+          "model-vs-market dislocation spike"
+        ]
+      },
+      {
+        "ticker": "BBOT",
+        "score": 0.4424,
+        "scoreRaw": 0.4424,
+        "novelty": 1.0,
+        "cooldown": false,
+        "pattern": "unusual_flow",
+        "sector": "Other",
+        "actualReturn": -0.084091,
+        "regressionDislocation": 0.094491,
+        "returnZTicker": 0.0,
+        "returnZSector": 1.4163,
+        "dislocationZTicker": 0.0,
+        "dislocationZSector": 1.5921,
+        "ev": 0.007882,
+        "confidence": 0.4078,
+        "volumeSpikeRatio": 1.0,
+        "insiderBuyRatio30d": 0.5,
+        "putCallRatio": 1.0,
+        "earningsDaysTo": 60,
+        "reasons": [
+          "model-vs-market dislocation spike",
+          "high expected-value conviction"
+        ]
+      }
+    ],
+    "summary": {
+      "highIntensityCount": 0,
+      "avgScore": 0.3515,
+      "volumeCoverage": 0,
+      "sectorPicked": {
+        "Other": 8
+      }
+    },
+    "forwardWatchlist": {
+      "method": "heuristic_forward_watchlist_v1",
+      "thresholds": {
+        "unusualHighScore": 0.55,
+        "forwardHighScore": 0.6,
+        "minDisplayScore": 0.28
+      },
+      "sampleSize": 66,
+      "highConvictionCount": 0,
+      "topWatchlist": [
+        {
+          "ticker": "RSG",
+          "score": 0.4168,
+          "scoreRaw": 0.4168,
+          "novelty": 1.0,
+          "cooldown": false,
+          "expectedWindow": "next_3_5_sessions",
+          "predictedDirection": "UP",
+          "pattern": "watch_unusual_flow",
+          "probability": 0.7279,
+          "confidence": 0.4559,
+          "ev": 0.019516,
+          "ensembleStd": 0.0,
+          "insiderBuyRatio30d": 0.5,
+          "putCallRatio": 1.0,
+          "volumeSpikeRatio": 1.0,
+          "earningsDaysTo": 60
+        },
+        {
+          "ticker": "MOS",
+          "score": 0.4134,
+          "scoreRaw": 0.4134,
+          "novelty": 1.0,
+          "cooldown": false,
+          "expectedWindow": "next_3_5_sessions",
+          "predictedDirection": "UP",
+          "pattern": "watch_unusual_flow",
+          "probability": 0.7223,
+          "confidence": 0.4446,
+          "ev": 0.013932,
+          "ensembleStd": 0.0,
+          "insiderBuyRatio30d": 0.5,
+          "putCallRatio": 1.0,
+          "volumeSpikeRatio": 1.0,
+          "earningsDaysTo": 60
+        },
+        {
+          "ticker": "WIT",
+          "score": 0.4131,
+          "scoreRaw": 0.4131,
+          "novelty": 1.0,
+          "cooldown": false,
+          "expectedWindow": "next_3_5_sessions",
+          "predictedDirection": "UP",
+          "pattern": "watch_unusual_flow",
+          "probability": 0.7217,
+          "confidence": 0.4435,
+          "ev": 0.01366,
+          "ensembleStd": 0.0,
+          "insiderBuyRatio30d": 0.5,
+          "putCallRatio": 1.0,
+          "volumeSpikeRatio": 1.0,
+          "earningsDaysTo": 60
+        },
+        {
+          "ticker": "TXRH",
+          "score": 0.4125,
+          "scoreRaw": 0.4125,
+          "novelty": 1.0,
+          "cooldown": false,
+          "expectedWindow": "next_3_5_sessions",
+          "predictedDirection": "UP",
+          "pattern": "watch_unusual_flow",
+          "probability": 0.7208,
+          "confidence": 0.4416,
+          "ev": 0.01316,
+          "ensembleStd": 0.0,
+          "insiderBuyRatio30d": 0.5,
+          "putCallRatio": 1.0,
+          "volumeSpikeRatio": 1.0,
+          "earningsDaysTo": 60
+        },
+        {
+          "ticker": "OLLI",
+          "score": 0.4119,
+          "scoreRaw": 0.4119,
+          "novelty": 1.0,
+          "cooldown": false,
+          "expectedWindow": "next_3_5_sessions",
+          "predictedDirection": "UP",
+          "pattern": "watch_unusual_flow",
+          "probability": 0.7199,
+          "confidence": 0.4397,
+          "ev": 0.012678,
+          "ensembleStd": 0.0,
+          "insiderBuyRatio30d": 0.5,
+          "putCallRatio": 1.0,
+          "volumeSpikeRatio": 1.0,
+          "earningsDaysTo": 60
+        },
+        {
+          "ticker": "TAGS",
+          "score": 0.4116,
+          "scoreRaw": 0.4116,
+          "novelty": 1.0,
+          "cooldown": false,
+          "expectedWindow": "next_3_5_sessions",
+          "predictedDirection": "UP",
+          "pattern": "watch_unusual_flow",
+          "probability": 0.7193,
+          "confidence": 0.4386,
+          "ev": 0.012489,
+          "ensembleStd": 0.0,
+          "insiderBuyRatio30d": 0.5,
+          "putCallRatio": 1.0,
+          "volumeSpikeRatio": 1.0,
+          "earningsDaysTo": 60
+        },
+        {
+          "ticker": "SONY",
+          "score": 0.4113,
+          "scoreRaw": 0.4113,
+          "novelty": 1.0,
+          "cooldown": false,
+          "expectedWindow": "next_3_5_sessions",
+          "predictedDirection": "UP",
+          "pattern": "watch_unusual_flow",
+          "probability": 0.7188,
+          "confidence": 0.4376,
+          "ev": 0.012243,
+          "ensembleStd": 0.0,
+          "insiderBuyRatio30d": 0.5,
+          "putCallRatio": 1.0,
+          "volumeSpikeRatio": 1.0,
+          "earningsDaysTo": 60
+        },
+        {
+          "ticker": "KNSL",
+          "score": 0.4112,
+          "scoreRaw": 0.4112,
+          "novelty": 1.0,
+          "cooldown": false,
+          "expectedWindow": "next_3_5_sessions",
+          "predictedDirection": "UP",
+          "pattern": "watch_unusual_flow",
+          "probability": 0.7186,
+          "confidence": 0.4373,
+          "ev": 0.012241,
+          "ensembleStd": 0.0,
+          "insiderBuyRatio30d": 0.5,
+          "putCallRatio": 1.0,
+          "volumeSpikeRatio": 1.0,
+          "earningsDaysTo": 60
+        },
+        {
+          "ticker": "SYK",
+          "score": 0.411,
+          "scoreRaw": 0.411,
+          "novelty": 1.0,
+          "cooldown": false,
+          "expectedWindow": "next_3_5_sessions",
+          "predictedDirection": "UP",
+          "pattern": "watch_unusual_flow",
+          "probability": 0.7184,
+          "confidence": 0.4367,
+          "ev": 0.012195,
+          "ensembleStd": 0.0,
+          "insiderBuyRatio30d": 0.5,
+          "putCallRatio": 1.0,
+          "volumeSpikeRatio": 1.0,
+          "earningsDaysTo": 60
+        },
+        {
+          "ticker": "BLW",
+          "score": 0.4108,
+          "scoreRaw": 0.4108,
+          "novelty": 1.0,
+          "cooldown": false,
+          "expectedWindow": "next_3_5_sessions",
+          "predictedDirection": "UP",
+          "pattern": "watch_unusual_flow",
+          "probability": 0.718,
+          "confidence": 0.436,
+          "ev": 0.011746,
+          "ensembleStd": 0.0,
+          "insiderBuyRatio30d": 0.5,
+          "putCallRatio": 1.0,
+          "volumeSpikeRatio": 1.0,
+          "earningsDaysTo": 60
+        },
+        {
+          "ticker": "G",
+          "score": 0.4107,
+          "scoreRaw": 0.4107,
+          "novelty": 1.0,
+          "cooldown": false,
+          "expectedWindow": "next_3_5_sessions",
+          "predictedDirection": "UP",
+          "pattern": "watch_unusual_flow",
+          "probability": 0.7178,
+          "confidence": 0.4355,
+          "ev": 0.011698,
+          "ensembleStd": 0.0,
+          "insiderBuyRatio30d": 0.5,
+          "putCallRatio": 1.0,
+          "volumeSpikeRatio": 1.0,
+          "earningsDaysTo": 60
+        },
+        {
+          "ticker": "ITRI",
+          "score": 0.4105,
+          "scoreRaw": 0.4105,
+          "novelty": 1.0,
+          "cooldown": false,
+          "expectedWindow": "next_3_5_sessions",
+          "predictedDirection": "UP",
+          "pattern": "watch_unusual_flow",
+          "probability": 0.7175,
+          "confidence": 0.435,
+          "ev": 0.011613,
+          "ensembleStd": 0.0,
+          "insiderBuyRatio30d": 0.5,
+          "putCallRatio": 1.0,
+          "volumeSpikeRatio": 1.0,
+          "earningsDaysTo": 60
+        },
+        {
+          "ticker": "PODD",
+          "score": 0.4101,
+          "scoreRaw": 0.4101,
+          "novelty": 1.0,
+          "cooldown": false,
+          "expectedWindow": "next_3_5_sessions",
+          "predictedDirection": "UP",
+          "pattern": "watch_unusual_flow",
+          "probability": 0.7169,
+          "confidence": 0.4338,
+          "ev": 0.0117,
+          "ensembleStd": 0.0,
+          "insiderBuyRatio30d": 0.5,
+          "putCallRatio": 1.0,
+          "volumeSpikeRatio": 1.0,
+          "earningsDaysTo": 60
+        },
+        {
+          "ticker": "PPC",
+          "score": 0.4101,
+          "scoreRaw": 0.4101,
+          "novelty": 1.0,
+          "cooldown": false,
+          "expectedWindow": "next_3_5_sessions",
+          "predictedDirection": "UP",
+          "pattern": "watch_unusual_flow",
+          "probability": 0.7168,
+          "confidence": 0.4337,
+          "ev": 0.011505,
+          "ensembleStd": 0.0,
+          "insiderBuyRatio30d": 0.5,
+          "putCallRatio": 1.0,
+          "volumeSpikeRatio": 1.0,
+          "earningsDaysTo": 60
+        },
+        {
+          "ticker": "POOL",
+          "score": 0.4094,
+          "scoreRaw": 0.4094,
+          "novelty": 1.0,
+          "cooldown": false,
+          "expectedWindow": "next_3_5_sessions",
+          "predictedDirection": "UP",
+          "pattern": "watch_unusual_flow",
+          "probability": 0.7158,
+          "confidence": 0.4315,
+          "ev": 0.010861,
+          "ensembleStd": 0.0,
+          "insiderBuyRatio30d": 0.5,
+          "putCallRatio": 1.0,
+          "volumeSpikeRatio": 1.0,
+          "earningsDaysTo": 60
+        },
+        {
+          "ticker": "LWLG",
+          "score": 0.4089,
+          "scoreRaw": 0.4089,
+          "novelty": 1.0,
+          "cooldown": false,
+          "expectedWindow": "next_3_5_sessions",
+          "predictedDirection": "UP",
+          "pattern": "watch_unusual_flow",
+          "probability": 0.7149,
+          "confidence": 0.4298,
+          "ev": 0.01072,
+          "ensembleStd": 0.0,
+          "insiderBuyRatio30d": 0.5,
+          "putCallRatio": 1.0,
+          "volumeSpikeRatio": 1.0,
+          "earningsDaysTo": 60
+        },
+        {
+          "ticker": "ROCK",
+          "score": 0.4086,
+          "scoreRaw": 0.4086,
+          "novelty": 1.0,
+          "cooldown": false,
+          "expectedWindow": "next_3_5_sessions",
+          "predictedDirection": "UP",
+          "pattern": "watch_unusual_flow",
+          "probability": 0.7144,
+          "confidence": 0.4288,
+          "ev": 0.010403,
+          "ensembleStd": 0.0,
+          "insiderBuyRatio30d": 0.5,
+          "putCallRatio": 1.0,
+          "volumeSpikeRatio": 1.0,
+          "earningsDaysTo": 60
+        },
+        {
+          "ticker": "XYL",
+          "score": 0.4068,
+          "scoreRaw": 0.4068,
+          "novelty": 1.0,
+          "cooldown": false,
+          "expectedWindow": "next_3_5_sessions",
+          "predictedDirection": "UP",
+          "pattern": "watch_unusual_flow",
+          "probability": 0.7124,
+          "confidence": 0.4248,
+          "ev": 0.009978,
+          "ensembleStd": 0.0,
+          "insiderBuyRatio30d": 0.5,
+          "putCallRatio": 1.0,
+          "volumeSpikeRatio": 1.0,
+          "earningsDaysTo": 60
+        },
+        {
+          "ticker": "TSCO",
+          "score": 0.3955,
+          "scoreRaw": 0.3955,
+          "novelty": 1.0,
+          "cooldown": false,
+          "expectedWindow": "next_3_5_sessions",
+          "predictedDirection": "UP",
+          "pattern": "watch_unusual_flow",
+          "probability": 0.7105,
+          "confidence": 0.421,
+          "ev": 0.009613,
+          "ensembleStd": 0.0,
+          "insiderBuyRatio30d": 0.5,
+          "putCallRatio": 1.0,
+          "volumeSpikeRatio": 1.0,
+          "earningsDaysTo": 60
+        },
+        {
+          "ticker": "EXPO",
+          "score": 0.3933,
+          "scoreRaw": 0.3933,
+          "novelty": 1.0,
+          "cooldown": false,
+          "expectedWindow": "next_3_5_sessions",
+          "predictedDirection": "UP",
+          "pattern": "watch_unusual_flow",
+          "probability": 0.7115,
+          "confidence": 0.4231,
+          "ev": 0.009513,
+          "ensembleStd": 0.0,
+          "insiderBuyRatio30d": 0.5,
+          "putCallRatio": 1.0,
+          "volumeSpikeRatio": 1.0,
+          "earningsDaysTo": 60
+        }
+      ]
+    },
+    "tracking": {
+      "historyWeeks": 0,
+      "topSignalsOverlapAvg": null,
+      "forwardWatchlistOverlapAvg": null,
+      "signalPersistence": {},
+      "trend": "insufficient_history",
+      "forwardWatchlistPrecisionProxy": {
+        "evaluated": false,
+        "reason": "Insufficient prior reports or scored outcomes.",
+        "sampleSize": 0,
+        "hitRate": null
+      }
+    },
+    "narratives": [
+      "ATEC: unusual_flow score=0.4722 | return anomaly vs ticker/sector baseline; model-vs-market dislocation spike.",
+      "ALEC: unusual_flow score=0.4699 | return anomaly vs ticker/sector baseline; model-vs-market dislocation spike.",
+      "ASIX: unusual_flow score=0.4622 | return anomaly vs ticker/sector baseline; model-vs-market dislocation spike.",
+      "ANTA: unusual_flow score=0.4593 | return anomaly vs ticker/sector baseline; model-vs-market dislocation spike.",
+      "ADV: unusual_flow score=0.4555 | return anomaly vs ticker/sector baseline; model-vs-market dislocation spike.",
+      "AIRE: unusual_flow score=0.4555 | return anomaly vs ticker/sector baseline; model-vs-market dislocation spike.",
+      "AIRJ: unusual_flow score=0.4546 | return anomaly vs ticker/sector baseline; model-vs-market dislocation spike.",
+      "BBOT: unusual_flow score=0.4424 | model-vs-market dislocation spike; high expected-value conviction.",
+      "RSG: forward watch_unusual_flow signal for next_3_5_sessions (score=0.4168, dir=UP).",
+      "MOS: forward watch_unusual_flow signal for next_3_5_sessions (score=0.4134, dir=UP).",
+      "WIT: forward watch_unusual_flow signal for next_3_5_sessions (score=0.4131, dir=UP).",
+      "TXRH: forward watch_unusual_flow signal for next_3_5_sessions (score=0.4125, dir=UP).",
+      "OLLI: forward watch_unusual_flow signal for next_3_5_sessions (score=0.4119, dir=UP)."
+    ]
+  },
+  "alerts": [
+    {
+      "severity": "high",
+      "code": "LOW_30D_HIT_RATE",
+      "message": "30-day hit rate is weak (48.67%) for regime SIDEWAYS (threshold 52.00%)."
+    },
+    {
+      "severity": "medium",
+      "code": "CALIBRATION_DRIFT",
+      "message": "Expected calibration error is elevated (0.168) for regime SIDEWAYS (threshold 0.120)."
+    }
+  ],
+  "confidenceDistribution": {
+    "50-60": 6440,
+    "60-70": 2,
+    "70-80": 1,
+    "80-90": 5,
+    "90+": 3
+  },
+  "modelMetadata": {
+    "version": "2.0.0",
+    "trainedAt": "2026-05-02T02:01:01+00:00",
+    "testAccuracy": 0.6666,
+    "features": 33
+  }
+}

@@ -1,0 +1,1459 @@
+{
+  "positions": {
+    "LAD": {
+      "qty": 1,
+      "entryPrice": 290.6,
+      "side": "long",
+      "openedAt": "2026-05-22"
+    },
+    "ULTA": {
+      "qty": 1,
+      "entryPrice": 462.52,
+      "side": "long",
+      "openedAt": "2026-05-22"
+    },
+    "WH": {
+      "qty": 4,
+      "entryPrice": 79.69,
+      "side": "long",
+      "openedAt": "2026-05-22"
+    },
+    "WMS": {
+      "qty": 4,
+      "entryPrice": 131.2,
+      "side": "long",
+      "openedAt": "2026-05-22"
+    },
+    "VSAT": {
+      "qty": 3,
+      "entryPrice": 72.93,
+      "side": "long",
+      "openedAt": "2026-05-22"
+    },
+    "ARCO": {
+      "qty": 38,
+      "entryPrice": 8.26,
+      "side": "long",
+      "openedAt": "2026-05-22"
+    },
+    "KVHI": {
+      "qty": 80,
+      "entryPrice": 8.41,
+      "side": "long",
+      "openedAt": "2026-05-22"
+    },
+    "TGT": {
+      "qty": 3,
+      "entryPrice": 123.85,
+      "side": "long",
+      "openedAt": "2026-05-22"
+    },
+    "BKE": {
+      "qty": 7,
+      "entryPrice": 43.56,
+      "side": "long",
+      "openedAt": "2026-05-22"
+    },
+    "FCFS": {
+      "qty": 1,
+      "entryPrice": 222.44,
+      "side": "long",
+      "openedAt": "2026-05-22"
+    },
+    "M": {
+      "qty": -14,
+      "entryPrice": 23.03,
+      "side": "short",
+      "openedAt": "2026-05-22"
+    },
+    "ATNI": {
+      "qty": 20,
+      "entryPrice": 25.89,
+      "side": "long",
+      "openedAt": "2026-05-22"
+    },
+    "RIVN": {
+      "qty": -23,
+      "entryPrice": 18.12,
+      "side": "short",
+      "openedAt": "2026-05-22"
+    },
+    "IHS": {
+      "qty": 49,
+      "entryPrice": 8.3,
+      "side": "long",
+      "openedAt": "2026-05-22"
+    },
+    "CPNG": {
+      "qty": -27,
+      "entryPrice": 16.53,
+      "side": "short",
+      "openedAt": "2026-05-22"
+    },
+    "CRMT": {
+      "qty": -58,
+      "entryPrice": 7.85,
+      "side": "short",
+      "openedAt": "2026-05-22"
+    },
+    "WEST": {
+      "qty": 48,
+      "entryPrice": 7.51,
+      "side": "long",
+      "openedAt": "2026-05-22"
+    },
+    "CSV": {
+      "qty": 10,
+      "entryPrice": 37.55,
+      "side": "long",
+      "openedAt": "2026-05-22"
+    },
+    "PPC": {
+      "qty": -11,
+      "entryPrice": 28.97,
+      "side": "short",
+      "openedAt": "2026-05-22"
+    },
+    "CPB": {
+      "qty": -23,
+      "entryPrice": 21.55,
+      "side": "short",
+      "openedAt": "2026-05-22"
+    },
+    "VITL": {
+      "qty": -56,
+      "entryPrice": 9.83,
+      "side": "short",
+      "openedAt": "2026-05-22"
+    },
+    "LUXE": {
+      "qty": -58,
+      "entryPrice": 7.6,
+      "side": "short",
+      "openedAt": "2026-05-22"
+    },
+    "NMAX": {
+      "qty": -62,
+      "entryPrice": 9.57,
+      "side": "short",
+      "openedAt": "2026-05-22"
+    },
+    "SG": {
+      "qty": 78,
+      "entryPrice": 7.37,
+      "side": "long",
+      "openedAt": "2026-05-22"
+    },
+    "NCI": {
+      "qty": -59,
+      "entryPrice": 10.51,
+      "side": "short",
+      "openedAt": "2026-05-22"
+    },
+    "TILE": {
+      "qty": 11,
+      "entryPrice": 29.75,
+      "side": "long",
+      "openedAt": "2026-05-22"
+    },
+    "EVC": {
+      "qty": -33,
+      "entryPrice": 9.07,
+      "side": "short",
+      "openedAt": "2026-05-22"
+    },
+    "TSCO": {
+      "qty": -7,
+      "entryPrice": 29.37,
+      "side": "short",
+      "openedAt": "2026-05-22"
+    },
+    "XOS": {
+      "qty": -106,
+      "entryPrice": 5.28,
+      "side": "short",
+      "openedAt": "2026-05-22"
+    },
+    "PVH": {
+      "qty": 4,
+      "entryPrice": 78.16,
+      "side": "long",
+      "openedAt": "2026-05-22"
+    },
+    "GENI": {
+      "qty": -94,
+      "entryPrice": 6.36,
+      "side": "short",
+      "openedAt": "2026-05-22"
+    },
+    "LCII": {
+      "qty": 3,
+      "entryPrice": 96.04,
+      "side": "long",
+      "openedAt": "2026-05-22"
+    },
+    "TH": {
+      "qty": -13,
+      "entryPrice": 16.81,
+      "side": "short",
+      "openedAt": "2026-05-22"
+    },
+    "FABC": {
+      "qty": -99,
+      "entryPrice": 5.7,
+      "side": "short",
+      "openedAt": "2026-05-22"
+    },
+    "VSA": {
+      "qty": -140,
+      "entryPrice": 6.45,
+      "side": "short",
+      "openedAt": "2026-05-22"
+    },
+    "SDOT": {
+      "qty": -111,
+      "entryPrice": 11.37,
+      "side": "short",
+      "openedAt": "2026-05-22"
+    },
+    "JDZG": {
+      "qty": -13,
+      "entryPrice": 50.0,
+      "side": "short",
+      "openedAt": "2026-05-22"
+    },
+    "LESL": {
+      "qty": -189,
+      "entryPrice": 5.33,
+      "side": "short",
+      "openedAt": "2026-05-22"
+    },
+    "AMCI": {
+      "qty": -82,
+      "entryPrice": 5.21,
+      "side": "short",
+      "openedAt": "2026-05-22"
+    },
+    "PRKS": {
+      "qty": -9,
+      "entryPrice": 40.78,
+      "side": "short",
+      "openedAt": "2026-05-22"
+    },
+    "CVGI": {
+      "qty": 49,
+      "entryPrice": 5.52,
+      "side": "long",
+      "openedAt": "2026-05-22"
+    },
+    "DBI": {
+      "qty": -49,
+      "entryPrice": 9.11,
+      "side": "short",
+      "openedAt": "2026-05-22"
+    },
+    "FSS": {
+      "qty": 3,
+      "entryPrice": 107.91,
+      "side": "long",
+      "openedAt": "2026-05-22"
+    },
+    "IMKTA": {
+      "qty": 5,
+      "entryPrice": 87.14,
+      "side": "long",
+      "openedAt": "2026-05-22"
+    },
+    "EWCZ": {
+      "qty": 80,
+      "entryPrice": 5.82,
+      "side": "long",
+      "openedAt": "2026-05-22"
+    },
+    "BF-B": {
+      "qty": -16,
+      "entryPrice": 25.46,
+      "side": "short",
+      "openedAt": "2026-05-22"
+    },
+    "LCID": {
+      "qty": -60,
+      "entryPrice": 5.68,
+      "side": "short",
+      "openedAt": "2026-05-22"
+    },
+    "NEGG": {
+      "qty": -23,
+      "entryPrice": 18.45,
+      "side": "short",
+      "openedAt": "2026-05-22"
+    },
+    "CTAS": {
+      "qty": -1,
+      "entryPrice": 179.96,
+      "side": "short",
+      "openedAt": "2026-05-22"
+    },
+    "CXDO": {
+      "qty": 35,
+      "entryPrice": 8.925,
+      "side": "long",
+      "openedAt": "2026-05-22"
+    },
+    "BLMN": {
+      "qty": 67,
+      "entryPrice": 7.14,
+      "side": "long",
+      "openedAt": "2026-05-22"
+    },
+    "AGRO": {
+      "qty": 38,
+      "entryPrice": 12.11,
+      "side": "long",
+      "openedAt": "2026-05-22"
+    },
+    "YELP": {
+      "qty": -12,
+      "entryPrice": 23.63,
+      "side": "short",
+      "openedAt": "2026-05-22"
+    },
+    "MGM": {
+      "qty": -7,
+      "entryPrice": 47.94,
+      "side": "short",
+      "openedAt": "2026-05-22"
+    },
+    "FAST": {
+      "qty": -7,
+      "entryPrice": 47.16,
+      "side": "short",
+      "openedAt": "2026-05-22"
+    },
+    "AEVA": {
+      "qty": 22,
+      "entryPrice": 24.4,
+      "side": "long",
+      "openedAt": "2026-05-22"
+    },
+    "GSAT": {
+      "qty": 4,
+      "entryPrice": 82.65,
+      "side": "long",
+      "openedAt": "2026-05-22"
+    },
+    "RUSHA": {
+      "qty": 7,
+      "entryPrice": 66.12,
+      "side": "long",
+      "openedAt": "2026-05-22"
+    },
+    "CVSA": {
+      "qty": 3,
+      "entryPrice": 124.45,
+      "side": "long",
+      "openedAt": "2026-05-22"
+    },
+    "CODI": {
+      "qty": 35,
+      "entryPrice": 10.67,
+      "side": "long",
+      "openedAt": "2026-05-22"
+    },
+    "VSCO": {
+      "qty": -5,
+      "entryPrice": 73.08,
+      "side": "short",
+      "openedAt": "2026-05-22"
+    },
+    "GOLF": {
+      "qty": -4,
+      "entryPrice": 88.99,
+      "side": "short",
+      "openedAt": "2026-05-22"
+    },
+    "KSS": {
+      "qty": -24,
+      "entryPrice": 15.96,
+      "side": "short",
+      "openedAt": "2026-05-22"
+    },
+    "PUSA": {
+      "qty": -102,
+      "entryPrice": 5.9,
+      "side": "short",
+      "openedAt": "2026-05-22"
+    },
+    "WEN": {
+      "qty": 106,
+      "entryPrice": 6.75,
+      "side": "long",
+      "openedAt": "2026-05-22"
+    },
+    "VZ": {
+      "qty": 9,
+      "entryPrice": 44.87,
+      "side": "long",
+      "openedAt": "2026-05-22"
+    },
+    "SBUX": {
+      "qty": 4,
+      "entryPrice": 94.14,
+      "side": "long",
+      "openedAt": "2026-05-22"
+    },
+    "TLYS": {
+      "qty": -140,
+      "entryPrice": 5.27,
+      "side": "short",
+      "openedAt": "2026-05-22"
+    },
+    "MLEC": {
+      "qty": -59,
+      "entryPrice": 8.04,
+      "side": "short",
+      "openedAt": "2026-05-22"
+    },
+    "GTX": {
+      "qty": 14,
+      "entryPrice": 32.86,
+      "side": "long",
+      "openedAt": "2026-05-22"
+    },
+    "FIVE": {
+      "qty": 2,
+      "entryPrice": 192.17,
+      "side": "long",
+      "openedAt": "2026-05-22"
+    },
+    "LEG": {
+      "qty": -48,
+      "entryPrice": 10.2,
+      "side": "short",
+      "openedAt": "2026-05-22"
+    },
+    "LLYVA": {
+      "qty": 5,
+      "entryPrice": 88.64,
+      "side": "long",
+      "openedAt": "2026-05-22"
+    },
+    "LLYVK": {
+      "qty": 4,
+      "entryPrice": 91.53,
+      "side": "long",
+      "openedAt": "2026-05-22"
+    },
+    "OPLN": {
+      "qty": 10,
+      "entryPrice": 36.51,
+      "side": "long",
+      "openedAt": "2026-05-22"
+    },
+    "GIL": {
+      "qty": 6,
+      "entryPrice": 57.87,
+      "side": "long",
+      "openedAt": "2026-05-22"
+    },
+    "CABO": {
+      "qty": -7,
+      "entryPrice": 46.51,
+      "side": "short",
+      "openedAt": "2026-05-22"
+    },
+    "BUD": {
+      "qty": 8,
+      "entryPrice": 77.92,
+      "side": "long",
+      "openedAt": "2026-05-22"
+    },
+    "BITB": {
+      "qty": 10,
+      "entryPrice": 34.51,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "XPRO": {
+      "qty": -22,
+      "entryPrice": 16.59,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "ENTG": {
+      "qty": 2,
+      "entryPrice": 139.88,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "ARDX": {
+      "qty": 92,
+      "entryPrice": 5.4,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "ENTA": {
+      "qty": 28,
+      "entryPrice": 11.73,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "FDMT": {
+      "qty": -61,
+      "entryPrice": 10.01,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "TTI": {
+      "qty": 40,
+      "entryPrice": 9.93,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "TD": {
+      "qty": 3,
+      "entryPrice": 113.75,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "CPRX": {
+      "qty": 9,
+      "entryPrice": 31.29,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "HTZ": {
+      "qty": -47,
+      "entryPrice": 5.1,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "APLS": {
+      "qty": 14,
+      "entryPrice": 41.03,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "CTBB": {
+      "qty": -12,
+      "entryPrice": 19.4,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "AKTX": {
+      "qty": -18,
+      "entryPrice": 15.84,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "MOH": {
+      "qty": -1,
+      "entryPrice": 192.81,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "BOIL": {
+      "qty": -25,
+      "entryPrice": 30.92,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "TPG": {
+      "qty": -5,
+      "entryPrice": 42.15,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "NIC": {
+      "qty": 2,
+      "entryPrice": 136.23,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "TJX": {
+      "qty": 2,
+      "entryPrice": 158.63,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "PWP": {
+      "qty": 30,
+      "entryPrice": 15.52,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "BJDX": {
+      "qty": -167,
+      "entryPrice": 5.3,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "BAP": {
+      "qty": 1,
+      "entryPrice": 326.53,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "APGE": {
+      "qty": -4,
+      "entryPrice": 90.9,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "AVBP": {
+      "qty": -12,
+      "entryPrice": 33.09,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "WBS": {
+      "qty": 4,
+      "entryPrice": 72.9,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "HPK": {
+      "qty": -41,
+      "entryPrice": 8.3,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "RHLD": {
+      "qty": -3,
+      "entryPrice": 116.97,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "SLDE": {
+      "qty": 20,
+      "entryPrice": 16.03,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "WYFI": {
+      "qty": 12,
+      "entryPrice": 27.46,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "DRUG": {
+      "qty": 7,
+      "entryPrice": 74.5,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "SDRL": {
+      "qty": 6,
+      "entryPrice": 45.67,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "HUT": {
+      "qty": -2,
+      "entryPrice": 127.76,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "USCI": {
+      "qty": 4,
+      "entryPrice": 98.11,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "GPGI": {
+      "qty": -20,
+      "entryPrice": 11.97,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "CUE": {
+      "qty": -15,
+      "entryPrice": 29.64,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "CODX": {
+      "qty": -71,
+      "entryPrice": 5.76,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "F": {
+      "qty": 20,
+      "entryPrice": 15.34,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "STRF": {
+      "qty": 4,
+      "entryPrice": 95.29,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "PUK": {
+      "qty": 19,
+      "entryPrice": 26.11,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "GRAL": {
+      "qty": -4,
+      "entryPrice": 66.55,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "CYTK": {
+      "qty": 4,
+      "entryPrice": 72.29,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "FNGD": {
+      "qty": -13,
+      "entryPrice": 32.89,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "NWG": {
+      "qty": 16,
+      "entryPrice": 16.19,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "MAMA": {
+      "qty": -15,
+      "entryPrice": 15.27,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "BBNX": {
+      "qty": -34,
+      "entryPrice": 13.89,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "BTSG": {
+      "qty": 8,
+      "entryPrice": 57.4,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "ELMD": {
+      "qty": 10,
+      "entryPrice": 36.72,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "NSIT": {
+      "qty": -2,
+      "entryPrice": 118.83,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "SSL": {
+      "qty": 23,
+      "entryPrice": 13.29,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "NFJ": {
+      "qty": 19,
+      "entryPrice": 15.08,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "BULZ": {
+      "qty": 5,
+      "entryPrice": 49.89,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "ONIT": {
+      "qty": -8,
+      "entryPrice": 37.0,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "ELTX": {
+      "qty": -24,
+      "entryPrice": 13.93,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "CVRX": {
+      "qty": -68,
+      "entryPrice": 5.88,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "SOFI": {
+      "qty": -13,
+      "entryPrice": 17.15,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "CLYM": {
+      "qty": 39,
+      "entryPrice": 10.91,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "LC": {
+      "qty": -13,
+      "entryPrice": 17.57,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "BWET": {
+      "qty": -3,
+      "entryPrice": 210.01,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "ACDC": {
+      "qty": -84,
+      "entryPrice": 8.06,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "ASND": {
+      "qty": 1,
+      "entryPrice": 218.84,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "MH": {
+      "qty": -19,
+      "entryPrice": 12.02,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "CRK": {
+      "qty": -22,
+      "entryPrice": 13.83,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "KHC": {
+      "qty": 12,
+      "entryPrice": 22.47,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "FGMC": {
+      "qty": 39,
+      "entryPrice": 10.36,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "WBD": {
+      "qty": -7,
+      "entryPrice": 27.0,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "ARTV": {
+      "qty": -41,
+      "entryPrice": 7.68,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "FUN": {
+      "qty": -11,
+      "entryPrice": 21.21,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "DIS": {
+      "qty": 3,
+      "entryPrice": 99.34,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "ELVN": {
+      "qty": 15,
+      "entryPrice": 35.49,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "APPS": {
+      "qty": -55,
+      "entryPrice": 9.32,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "LPLA": {
+      "qty": -1,
+      "entryPrice": 291.84,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "FRHC": {
+      "qty": -1,
+      "entryPrice": 159.22,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "RILY": {
+      "qty": 71,
+      "entryPrice": 9.15,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "CV": {
+      "qty": -96,
+      "entryPrice": 7.54,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "CGON": {
+      "qty": 5,
+      "entryPrice": 56.09,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "PBA": {
+      "qty": 6,
+      "entryPrice": 49.25,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "TPB": {
+      "qty": -6,
+      "entryPrice": 87.66,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "PRAA": {
+      "qty": -17,
+      "entryPrice": 15.04,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "CMG": {
+      "qty": 14,
+      "entryPrice": 28.18,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "DRDB": {
+      "qty": 39,
+      "entryPrice": 10.52,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "AURA": {
+      "qty": 70,
+      "entryPrice": 6.8,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "GBTC": {
+      "qty": 6,
+      "entryPrice": 49.34,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "LEVI": {
+      "qty": 12,
+      "entryPrice": 22.53,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "DJP": {
+      "qty": 8,
+      "entryPrice": 48.54,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "BKKT": {
+      "qty": 44,
+      "entryPrice": 9.18,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "CNTA": {
+      "qty": 14,
+      "entryPrice": 39.8,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "BBY": {
+      "qty": 4,
+      "entryPrice": 70.99,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "ABCL": {
+      "qty": -55,
+      "entryPrice": 6.37,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "ADPT": {
+      "qty": -15,
+      "entryPrice": 18.08,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "ESTA": {
+      "qty": -5,
+      "entryPrice": 76.49,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "CSTL": {
+      "qty": -17,
+      "entryPrice": 21.6,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "PGY": {
+      "qty": -28,
+      "entryPrice": 15.46,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "ALMS": {
+      "qty": 20,
+      "entryPrice": 20.39,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "NUAI": {
+      "qty": -57,
+      "entryPrice": 6.02,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "ARES": {
+      "qty": -2,
+      "entryPrice": 130.5,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "HYLN": {
+      "qty": -36,
+      "entryPrice": 7.62,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "UGA": {
+      "qty": 3,
+      "entryPrice": 105.37,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "SCO": {
+      "qty": -23,
+      "entryPrice": 25.69,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "DBB": {
+      "qty": 15,
+      "entryPrice": 26.22,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "BJRI": {
+      "qty": 6,
+      "entryPrice": 42.9,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "ATLC": {
+      "qty": 3,
+      "entryPrice": 82.22,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "LOVE": {
+      "qty": -15,
+      "entryPrice": 16.35,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "PK": {
+      "qty": -23,
+      "entryPrice": 14.04,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "AHCO": {
+      "qty": 40,
+      "entryPrice": 9.73,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "ANAB": {
+      "qty": 11,
+      "entryPrice": 51.67,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "SLNG": {
+      "qty": -154,
+      "entryPrice": 5.09,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "INV": {
+      "qty": -52,
+      "entryPrice": 6.69,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "AMRN": {
+      "qty": 29,
+      "entryPrice": 13.8,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "CLPT": {
+      "qty": -27,
+      "entryPrice": 14.32,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "WLAC": {
+      "qty": -31,
+      "entryPrice": 18.83,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "DGXX": {
+      "qty": 54,
+      "entryPrice": 7.48,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "CRBP": {
+      "qty": -56,
+      "entryPrice": 8.01,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "OSG": {
+      "qty": -53,
+      "entryPrice": 5.41,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "FENC": {
+      "qty": 31,
+      "entryPrice": 9.16,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "AMZN": {
+      "qty": 1,
+      "entryPrice": 253.79,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "MNSO": {
+      "qty": -17,
+      "entryPrice": 13.31,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "ASST": {
+      "qty": 36,
+      "entryPrice": 15.02,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "CHYM": {
+      "qty": -13,
+      "entryPrice": 18.16,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "OBT": {
+      "qty": 9,
+      "entryPrice": 34.06,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "OPY": {
+      "qty": -3,
+      "entryPrice": 100.44,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "RH": {
+      "qty": -2,
+      "entryPrice": 153.25,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "ARVN": {
+      "qty": 40,
+      "entryPrice": 7.74,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "TBBB": {
+      "qty": -9,
+      "entryPrice": 38.2,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "CHEF": {
+      "qty": 3,
+      "entryPrice": 77.54,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "BYD": {
+      "qty": -2,
+      "entryPrice": 88.38,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "HOOD": {
+      "qty": -4,
+      "entryPrice": 88.33,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "GSG": {
+      "qty": 9,
+      "entryPrice": 32.39,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "KRNY": {
+      "qty": 39,
+      "entryPrice": 8.23,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "DKNG": {
+      "qty": -9,
+      "entryPrice": 25.37,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "CRCL": {
+      "qty": 8,
+      "entryPrice": 90.54,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "PRMB": {
+      "qty": 11,
+      "entryPrice": 23.02,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "ZD": {
+      "qty": -6,
+      "entryPrice": 47.95,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "ABSI": {
+      "qty": -53,
+      "entryPrice": 7.34,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "ANSC": {
+      "qty": 36,
+      "entryPrice": 11.37,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "UPST": {
+      "qty": -10,
+      "entryPrice": 32.27,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "BTC": {
+      "qty": 12,
+      "entryPrice": 28.1,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "KMX": {
+      "qty": -5,
+      "entryPrice": 46.92,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "SLF": {
+      "qty": 4,
+      "entryPrice": 72.96,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "LOB": {
+      "qty": 7,
+      "entryPrice": 37.58,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "EPRX": {
+      "qty": 129,
+      "entryPrice": 6.45,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "FTRE": {
+      "qty": -20,
+      "entryPrice": 17.25,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "PSKY": {
+      "qty": -21,
+      "entryPrice": 10.68,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "PBR-A": {
+      "qty": 24,
+      "entryPrice": 16.16,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "ACHV": {
+      "qty": -54,
+      "entryPrice": 5.29,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "JHG": {
+      "qty": 8,
+      "entryPrice": 51.78,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "GME": {
+      "qty": -10,
+      "entryPrice": 22.27,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "FBRX": {
+      "qty": 19,
+      "entryPrice": 16.69,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "STRK": {
+      "qty": 4,
+      "entryPrice": 68.25,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "TM": {
+      "qty": 1,
+      "entryPrice": 179.5,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "ASTC": {
+      "qty": -13,
+      "entryPrice": 38.45,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "GILD": {
+      "qty": 2,
+      "entryPrice": 129.18,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "AMCX": {
+      "qty": 31,
+      "entryPrice": 9.75,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "NCSM": {
+      "qty": -7,
+      "entryPrice": 56.01,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "ROST": {
+      "qty": 1,
+      "entryPrice": 233.06,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "ATHS": {
+      "qty": 16,
+      "entryPrice": 25.01,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "GSHD": {
+      "qty": -8,
+      "entryPrice": 35.82,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "WD": {
+      "qty": -4,
+      "entryPrice": 51.69,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "DSGN": {
+      "qty": -25,
+      "entryPrice": 10.76,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "DBC": {
+      "qty": 13,
+      "entryPrice": 29.88,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "ESQ": {
+      "qty": 3,
+      "entryPrice": 108.62,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "AIN": {
+      "qty": -3,
+      "entryPrice": 68.69,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "UTI": {
+      "qty": -4,
+      "entryPrice": 44.9,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    },
+    "NFBK": {
+      "qty": 28,
+      "entryPrice": 14.26,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "HGV": {
+      "qty": 6,
+      "entryPrice": 49.01,
+      "side": "long",
+      "openedAt": "2026-06-03"
+    },
+    "GCO": {
+      "qty": -5,
+      "entryPrice": 39.91,
+      "side": "short",
+      "openedAt": "2026-06-03"
+    }
+  },
+  "cash": 100061.57664749994,
+  "startingCash": 100000.0,
+  "lastDate": "2026-06-03"
+}

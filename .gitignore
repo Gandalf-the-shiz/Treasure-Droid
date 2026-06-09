@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local cache & logs (not part of the app)
+.cache/
+logs/
+_qnn.log
+
+# Megamind / runtime secrets
+config/megamind.json
+config/megamind.secrets.json
+config/secrets.json
+config/cloudflare.json
+data/cloudflare/*.json
+!data/cloudflare/.gitkeep
+tools/python311-amd64/
+tools/python311-amd64-full/
+data/trader_arena/snapshots/
+
+# Editor / IDE (local only)
+.vscode/
+.idea/
+*.swp
+*.swo
+.cursor/
+
