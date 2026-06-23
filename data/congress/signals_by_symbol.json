@@ -1,9 +1,376 @@
 {
-  "generatedAt": "2026-06-09T20:34:50Z",
+  "generatedAt": "2026-06-23T11:11:00Z",
   "windowDays": 90,
-  "tradeCount": 248,
-  "symbolCount": 187,
+  "tradeCount": 245,
+  "symbolCount": 188,
   "bySymbol": {
+    "TPR": {
+      "symbol": "TPR",
+      "buy_count": 0,
+      "sell_count": 2,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 65001.0,
+      "politicians": [
+        "Matthew Robert Van Epps",
+        "Terri A. Sewell"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-06-17",
+      "net_flow_score": -1.0,
+      "congress_score": -0.13,
+      "congress_boost": 0.9805
+    },
+    "XFIV": {
+      "symbol": "XFIV",
+      "buy_count": 1,
+      "sell_count": 0,
+      "buy_notional_est": 75000.5,
+      "sell_notional_est": 0.0,
+      "politicians": [
+        "John Boozman"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [
+        {
+          "politician": "John Boozman",
+          "date": "2026-05-13",
+          "filing_date": "2026-06-16",
+          "amount_label": "$50,001 - $100,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-06-16",
+      "net_flow_score": 1.0,
+      "congress_score": 0.15,
+      "congress_boost": 1.0225
+    },
+    "IEI": {
+      "symbol": "IEI",
+      "buy_count": 1,
+      "sell_count": 1,
+      "buy_notional_est": 32500.5,
+      "sell_notional_est": 75000.5,
+      "politicians": [
+        "John Boozman"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [
+        {
+          "politician": "John Boozman",
+          "date": "2025-09-16",
+          "filing_date": "2026-05-11",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-06-16",
+      "net_flow_score": 0.0,
+      "congress_score": -0.085,
+      "congress_boost": 0.9872
+    },
+    "MSFT": {
+      "symbol": "MSFT",
+      "buy_count": 8,
+      "sell_count": 5,
+      "buy_notional_est": 6215004.300000001,
+      "sell_notional_est": 1108252.7000000002,
+      "politicians": [
+        "Jonathan Jackson",
+        "Gilbert Cisneros",
+        "Josh Gottheimer",
+        "Donald J Trump",
+        "Rohit Khanna",
+        "Maria Elvira Salazar",
+        "Arjun Mody",
+        "Markwayne Mullin"
+      ],
+      "notable_politicians": [
+        "Josh Gottheimer",
+        "Rohit Khanna",
+        "Markwayne Mullin"
+      ],
+      "recent_buys": [
+        {
+          "politician": "Gilbert Cisneros",
+          "date": "2026-05-15",
+          "filing_date": "2026-06-08",
+          "amount_label": "$50,001 - $100,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Josh Gottheimer",
+          "date": "2026-05-19",
+          "filing_date": "2026-06-03",
+          "amount_label": "$500,001 - $1,000,000",
+          "weight": 1.3
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-03-19",
+          "filing_date": "2026-05-14",
+          "amount_label": "$1,000,001 - $5,000,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-03-18",
+          "filing_date": "2026-05-14",
+          "amount_label": "$250,001 - $500,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-01-06",
+          "filing_date": "2026-05-14",
+          "amount_label": "$500,001 - $1,000,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-06-16",
+      "net_flow_score": 0.2308,
+      "congress_score": 1.0,
+      "congress_boost": 1.15
+    },
+    "ACN": {
+      "symbol": "ACN",
+      "buy_count": 1,
+      "sell_count": 2,
+      "buy_notional_est": 750000.5,
+      "sell_notional_est": 407501.0,
+      "politicians": [
+        "Richard W. Allen",
+        "Donald J Trump",
+        "Kevin Hern"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-02-10",
+          "filing_date": "2026-05-14",
+          "amount_label": "$500,001 - $1,000,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-06-16",
+      "net_flow_score": -0.3333,
+      "congress_score": 0.685,
+      "congress_boost": 1.1027
+    },
+    "BMY": {
+      "symbol": "BMY",
+      "buy_count": 0,
+      "sell_count": 1,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 32500.5,
+      "politicians": [
+        "Mike Kelly"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-06-11",
+      "net_flow_score": -1.0,
+      "congress_score": -0.065,
+      "congress_boost": 0.9902
+    },
+    "AESI": {
+      "symbol": "AESI",
+      "buy_count": 2,
+      "sell_count": 1,
+      "buy_notional_est": 15175001.0,
+      "sell_notional_est": 175000.5,
+      "politicians": [
+        "Chip Roy"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [
+        {
+          "politician": "Chip Roy",
+          "date": "2026-03-30",
+          "filing_date": "2026-05-11",
+          "amount_label": "$100,001 - $250,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Chip Roy",
+          "date": "2026-04-30",
+          "filing_date": "2026-05-09",
+          "amount_label": "$5,000,001 - $25,000,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-06-10",
+      "net_flow_score": 0.3333,
+      "congress_score": 1.0,
+      "congress_boost": 1.15
+    },
+    "WDAY": {
+      "symbol": "WDAY",
+      "buy_count": 0,
+      "sell_count": 1,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 32500.5,
+      "politicians": [
+        "Gilbert Cisneros"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-06-08",
+      "net_flow_score": -1.0,
+      "congress_score": -0.065,
+      "congress_boost": 0.9902
+    },
+    "IBM": {
+      "symbol": "IBM",
+      "buy_count": 2,
+      "sell_count": 2,
+      "buy_notional_est": 65001.0,
+      "sell_notional_est": 65001.0,
+      "politicians": [
+        "Maria Elvira Salazar",
+        "Gilbert Cisneros"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [
+        {
+          "politician": "Maria Elvira Salazar",
+          "date": "2026-05-21",
+          "filing_date": "2026-06-08",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Gilbert Cisneros",
+          "date": "2026-04-14",
+          "filing_date": "2026-05-08",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-06-08",
+      "net_flow_score": 0.0,
+      "congress_score": 0.0,
+      "congress_boost": 1.0
+    },
+    "DDOG": {
+      "symbol": "DDOG",
+      "buy_count": 1,
+      "sell_count": 0,
+      "buy_notional_est": 32500.5,
+      "sell_notional_est": 0.0,
+      "politicians": [
+        "Maria Elvira Salazar"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [
+        {
+          "politician": "Maria Elvira Salazar",
+          "date": "2026-05-19",
+          "filing_date": "2026-06-08",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-06-08",
+      "net_flow_score": 1.0,
+      "congress_score": 0.065,
+      "congress_boost": 1.0097
+    },
+    "STRL": {
+      "symbol": "STRL",
+      "buy_count": 0,
+      "sell_count": 1,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 32500.5,
+      "politicians": [
+        "Gilbert Cisneros"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-06-08",
+      "net_flow_score": -1.0,
+      "congress_score": -0.065,
+      "congress_boost": 0.9902
+    },
+    "FLEX": {
+      "symbol": "FLEX",
+      "buy_count": 0,
+      "sell_count": 3,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 140001.5,
+      "politicians": [
+        "Gilbert Cisneros"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-06-08",
+      "net_flow_score": -1.0,
+      "congress_score": -0.28,
+      "congress_boost": 0.958
+    },
+    "BIIB": {
+      "symbol": "BIIB",
+      "buy_count": 1,
+      "sell_count": 0,
+      "buy_notional_est": 75000.5,
+      "sell_notional_est": 0.0,
+      "politicians": [
+        "Maria Elvira Salazar"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [
+        {
+          "politician": "Maria Elvira Salazar",
+          "date": "2026-05-11",
+          "filing_date": "2026-06-08",
+          "amount_label": "$50,001 - $100,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-06-08",
+      "net_flow_score": 1.0,
+      "congress_score": 0.15,
+      "congress_boost": 1.0225
+    },
+    "RVTY": {
+      "symbol": "RVTY",
+      "buy_count": 1,
+      "sell_count": 0,
+      "buy_notional_est": 32500.5,
+      "sell_notional_est": 0.0,
+      "politicians": [
+        "Gilbert Cisneros"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [
+        {
+          "politician": "Gilbert Cisneros",
+          "date": "2026-05-04",
+          "filing_date": "2026-06-08",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-06-08",
+      "net_flow_score": 1.0,
+      "congress_score": 0.065,
+      "congress_boost": 1.0097
+    },
     "T": {
       "symbol": "T",
       "buy_count": 2,
@@ -224,9 +591,9 @@
     "INTU": {
       "symbol": "INTU",
       "buy_count": 0,
-      "sell_count": 2,
+      "sell_count": 1,
       "buy_notional_est": 0.0,
-      "sell_notional_est": 65001.0,
+      "sell_notional_est": 32500.5,
       "politicians": [
         "Richard W. Allen",
         "Markwayne Mullin"
@@ -238,8 +605,8 @@
       "pelosi_buy": false,
       "last_filing_date": "2026-06-05",
       "net_flow_score": -1.0,
-      "congress_score": 0.37,
-      "congress_boost": 1.0555
+      "congress_score": 0.435,
+      "congress_boost": 1.0653
     },
     "ABT": {
       "symbol": "ABT",
@@ -296,69 +663,6 @@
       "net_flow_score": -1.0,
       "congress_score": -0.065,
       "congress_boost": 0.9902
-    },
-    "MSFT": {
-      "symbol": "MSFT",
-      "buy_count": 7,
-      "sell_count": 4,
-      "buy_notional_est": 6140003.800000001,
-      "sell_notional_est": 1075752.2000000002,
-      "politicians": [
-        "Josh Gottheimer",
-        "Donald J Trump",
-        "Rohit Khanna",
-        "Maria Elvira Salazar",
-        "Gilbert Cisneros",
-        "Arjun Mody",
-        "Markwayne Mullin"
-      ],
-      "notable_politicians": [
-        "Josh Gottheimer",
-        "Rohit Khanna",
-        "Markwayne Mullin"
-      ],
-      "recent_buys": [
-        {
-          "politician": "Josh Gottheimer",
-          "date": "2026-05-19",
-          "filing_date": "2026-06-03",
-          "amount_label": "$500,001 - $1,000,000",
-          "weight": 1.3
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-03-19",
-          "filing_date": "2026-05-14",
-          "amount_label": "$1,000,001 - $5,000,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-03-18",
-          "filing_date": "2026-05-14",
-          "amount_label": "$250,001 - $500,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-01-06",
-          "filing_date": "2026-05-14",
-          "amount_label": "$500,001 - $1,000,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Maria Elvira Salazar",
-          "date": "2026-04-17",
-          "filing_date": "2026-05-08",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-06-03",
-      "net_flow_score": 0.2727,
-      "congress_score": 1.0,
-      "congress_boost": 1.15
     },
     "WFC": {
       "symbol": "WFC",
@@ -620,14 +924,13 @@
     "AAPL": {
       "symbol": "AAPL",
       "buy_count": 2,
-      "sell_count": 2,
+      "sell_count": 1,
       "buy_notional_est": 3032501.0,
-      "sell_notional_est": 68251.05,
+      "sell_notional_est": 35750.55,
       "politicians": [
         "Tim Walberg",
         "Donald J Trump",
         "Rohit Khanna",
-        "Thomas Suozzi",
         "Nancy Pelosi",
         "Markwayne Mullin",
         "Thomas H Tuberville"
@@ -656,7 +959,7 @@
       ],
       "pelosi_buy": true,
       "last_filing_date": "2026-06-03",
-      "net_flow_score": 0.0,
+      "net_flow_score": 0.3333,
       "congress_score": 1.0,
       "congress_boost": 1.23
     },
@@ -1339,12 +1642,11 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "buy_count": 2,
-      "sell_count": 1,
+      "sell_count": 0,
       "buy_notional_est": 1500001.0,
-      "sell_notional_est": 32500.5,
+      "sell_notional_est": 0.0,
       "politicians": [
         "Donald J Trump",
-        "Thomas H. Kean Jr",
         "Michael T. McCaul",
         "Nancy Pelosi",
         "Markwayne Mullin"
@@ -1372,7 +1674,7 @@
       ],
       "pelosi_buy": true,
       "last_filing_date": "2026-05-14",
-      "net_flow_score": 0.3333,
+      "net_flow_score": 1.0,
       "congress_score": 1.0,
       "congress_boost": 1.23
     },
@@ -1433,40 +1735,6 @@
       "net_flow_score": 1.0,
       "congress_score": 1.0,
       "congress_boost": 1.15
-    },
-    "ACN": {
-      "symbol": "ACN",
-      "buy_count": 2,
-      "sell_count": 1,
-      "buy_notional_est": 782501.0,
-      "sell_notional_est": 375000.5,
-      "politicians": [
-        "Donald J Trump",
-        "Kevin Hern",
-        "Charles J. \"Chuck\" Fleischmann"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-02-10",
-          "filing_date": "2026-05-14",
-          "amount_label": "$500,001 - $1,000,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Charles J. \"Chuck\" Fleischmann",
-          "date": "2026-02-23",
-          "filing_date": "2026-03-20",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-05-14",
-      "net_flow_score": 0.3333,
-      "congress_score": 0.815,
-      "congress_boost": 1.1222
     },
     "COST": {
       "symbol": "COST",
@@ -1750,13 +2018,12 @@
     "PLTR": {
       "symbol": "PLTR",
       "buy_count": 1,
-      "sell_count": 3,
+      "sell_count": 2,
       "buy_notional_est": 32500.5,
-      "sell_notional_est": 100751.55,
+      "sell_notional_est": 68251.05,
       "politicians": [
         "Rohit Khanna",
-        "Gilbert Cisneros",
-        "Thomas Suozzi"
+        "Gilbert Cisneros"
       ],
       "notable_politicians": [
         "Rohit Khanna"
@@ -1772,9 +2039,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-05-11",
-      "net_flow_score": -0.5,
-      "congress_score": 0.3635,
-      "congress_boost": 1.0545
+      "net_flow_score": -0.3333,
+      "congress_score": 0.4285,
+      "congress_boost": 1.0643
     },
     "MA": {
       "symbol": "MA",
@@ -1861,63 +2128,6 @@
       "net_flow_score": 1.0,
       "congress_score": 0.5715,
       "congress_boost": 1.0857
-    },
-    "AESI": {
-      "symbol": "AESI",
-      "buy_count": 2,
-      "sell_count": 0,
-      "buy_notional_est": 15175001.0,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Chip Roy"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Chip Roy",
-          "date": "2026-03-30",
-          "filing_date": "2026-05-11",
-          "amount_label": "$100,001 - $250,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Chip Roy",
-          "date": "2026-04-30",
-          "filing_date": "2026-05-09",
-          "amount_label": "$5,000,001 - $25,000,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-05-11",
-      "net_flow_score": 1.0,
-      "congress_score": 1.0,
-      "congress_boost": 1.15
-    },
-    "IEI": {
-      "symbol": "IEI",
-      "buy_count": 1,
-      "sell_count": 0,
-      "buy_notional_est": 32500.5,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "John Boozman"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "John Boozman",
-          "date": "2025-09-16",
-          "filing_date": "2026-05-11",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-05-11",
-      "net_flow_score": 1.0,
-      "congress_score": 0.065,
-      "congress_boost": 1.0097
     },
     "IEF": {
       "symbol": "IEF",
@@ -2028,31 +2238,6 @@
       "congress_score": 0.0,
       "congress_boost": 1.0
     },
-    "IBM": {
-      "symbol": "IBM",
-      "buy_count": 1,
-      "sell_count": 1,
-      "buy_notional_est": 32500.5,
-      "sell_notional_est": 32500.5,
-      "politicians": [
-        "Gilbert Cisneros"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Gilbert Cisneros",
-          "date": "2026-04-14",
-          "filing_date": "2026-05-08",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-05-08",
-      "net_flow_score": 0.0,
-      "congress_score": 0.0,
-      "congress_boost": 1.0
-    },
     "CMCSA": {
       "symbol": "CMCSA",
       "buy_count": 0,
@@ -2070,23 +2255,6 @@
       "net_flow_score": -1.0,
       "congress_score": -0.13,
       "congress_boost": 0.9805
-    },
-    "FLEX": {
-      "symbol": "FLEX",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 32500.5,
-      "politicians": [
-        "Gilbert Cisneros"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-05-08",
-      "net_flow_score": -1.0,
-      "congress_score": -0.065,
-      "congress_boost": 0.9902
     },
     "CRM": {
       "symbol": "CRM",
@@ -2254,9 +2422,9 @@
     "ABNB": {
       "symbol": "ABNB",
       "buy_count": 0,
-      "sell_count": 2,
+      "sell_count": 1,
       "buy_notional_est": 0.0,
-      "sell_notional_est": 550001.0,
+      "sell_notional_est": 175000.5,
       "politicians": [
         "Scott A Kupor"
       ],
@@ -2265,8 +2433,8 @@
       "pelosi_buy": false,
       "last_filing_date": "2026-05-01",
       "net_flow_score": -1.0,
-      "congress_score": -1.1,
-      "congress_boost": 0.835
+      "congress_score": -0.35,
+      "congress_boost": 0.9475
     },
     "FULT": {
       "symbol": "FULT",
@@ -2287,116 +2455,54 @@
     },
     "HOG": {
       "symbol": "HOG",
-      "buy_count": 1,
+      "buy_count": 0,
       "sell_count": 1,
-      "buy_notional_est": 32500.5,
+      "buy_notional_est": 0.0,
       "sell_notional_est": 75000.5,
       "politicians": [
         "Tim Moore"
       ],
       "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Tim Moore",
-          "date": "2026-03-12",
-          "filing_date": "2026-03-24",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
+      "recent_buys": [],
       "pelosi_buy": false,
       "last_filing_date": "2026-04-28",
-      "net_flow_score": 0.0,
-      "congress_score": -0.085,
-      "congress_boost": 0.9872
+      "net_flow_score": -1.0,
+      "congress_score": -0.15,
+      "congress_boost": 0.9775
     },
     "CBRL": {
       "symbol": "CBRL",
-      "buy_count": 1,
-      "sell_count": 1,
-      "buy_notional_est": 32500.5,
-      "sell_notional_est": 32500.5,
-      "politicians": [
-        "Tim Moore"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Tim Moore",
-          "date": "2026-03-23",
-          "filing_date": "2026-03-24",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-04-28",
-      "net_flow_score": 0.0,
-      "congress_score": 0.0,
-      "congress_boost": 1.0
-    },
-    "LGIH": {
-      "symbol": "LGIH",
-      "buy_count": 4,
-      "sell_count": 1,
-      "buy_notional_est": 172502.0,
-      "sell_notional_est": 175000.5,
-      "politicians": [
-        "Tim Moore"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Tim Moore",
-          "date": "2026-03-20",
-          "filing_date": "2026-03-24",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Tim Moore",
-          "date": "2026-03-19",
-          "filing_date": "2026-03-24",
-          "amount_label": "$50,001 - $100,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Tim Moore",
-          "date": "2026-03-18",
-          "filing_date": "2026-03-24",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Tim Moore",
-          "date": "2026-03-12",
-          "filing_date": "2026-03-24",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-04-28",
-      "net_flow_score": 0.6,
-      "congress_score": -0.005,
-      "congress_boost": 0.9992
-    },
-    "TPR": {
-      "symbol": "TPR",
       "buy_count": 0,
       "sell_count": 1,
       "buy_notional_est": 0.0,
       "sell_notional_est": 32500.5,
       "politicians": [
-        "Terri A. Sewell"
+        "Tim Moore"
       ],
       "notable_politicians": [],
       "recent_buys": [],
       "pelosi_buy": false,
-      "last_filing_date": "2026-04-21",
+      "last_filing_date": "2026-04-28",
       "net_flow_score": -1.0,
       "congress_score": -0.065,
       "congress_boost": 0.9902
+    },
+    "LGIH": {
+      "symbol": "LGIH",
+      "buy_count": 0,
+      "sell_count": 1,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 175000.5,
+      "politicians": [
+        "Tim Moore"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-04-28",
+      "net_flow_score": -1.0,
+      "congress_score": -0.35,
+      "congress_boost": 0.9475
     },
     "HON": {
       "symbol": "HON",
@@ -3471,169 +3577,27 @@
       "congress_score": -0.35,
       "congress_boost": 0.9475
     },
-    "DNUT": {
-      "symbol": "DNUT",
+    "AZO": {
+      "symbol": "AZO",
       "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 32500.5,
-      "politicians": [
-        "Tim Moore"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-03-24",
-      "net_flow_score": -1.0,
-      "congress_score": -0.065,
-      "congress_boost": 0.9902
-    },
-    "UNH": {
-      "symbol": "UNH",
-      "buy_count": 1,
       "sell_count": 0,
-      "buy_notional_est": 32500.5,
+      "buy_notional_est": 0.0,
       "sell_notional_est": 0.0,
       "politicians": [
-        "Charles J. \"Chuck\" Fleischmann",
         "Markwayne Mullin"
       ],
       "notable_politicians": [
         "Markwayne Mullin"
       ],
-      "recent_buys": [
-        {
-          "politician": "Charles J. \"Chuck\" Fleischmann",
-          "date": "2026-02-20",
-          "filing_date": "2026-03-20",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-03-20",
-      "net_flow_score": 1.0,
-      "congress_score": 0.565,
-      "congress_boost": 1.0848
-    },
-    "URI": {
-      "symbol": "URI",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 32500.5,
-      "politicians": [
-        "Thomas Suozzi"
-      ],
-      "notable_politicians": [],
       "recent_buys": [],
       "pelosi_buy": false,
-      "last_filing_date": "2026-03-17",
-      "net_flow_score": -1.0,
-      "congress_score": -0.065,
-      "congress_boost": 0.9902
+      "last_filing_date": "",
+      "net_flow_score": 0.0,
+      "congress_score": 0.5,
+      "congress_boost": 1.075
     },
-    "OSS": {
-      "symbol": "OSS",
-      "buy_count": 1,
-      "sell_count": 0,
-      "buy_notional_est": 32500.5,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Sean McMaster"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Sean McMaster",
-          "date": "2026-01-13",
-          "filing_date": "2026-03-13",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-03-13",
-      "net_flow_score": 1.0,
-      "congress_score": 0.065,
-      "congress_boost": 1.0097
-    },
-    "GRAB": {
-      "symbol": "GRAB",
-      "buy_count": 2,
-      "sell_count": 0,
-      "buy_notional_est": 65001.0,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Sean McMaster"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Sean McMaster",
-          "date": "2026-01-09",
-          "filing_date": "2026-03-13",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Sean McMaster",
-          "date": "2025-12-18",
-          "filing_date": "2026-03-13",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-03-13",
-      "net_flow_score": 1.0,
-      "congress_score": 0.13,
-      "congress_boost": 1.0195
-    },
-    "BK": {
-      "symbol": "BK",
-      "buy_count": 1,
-      "sell_count": 0,
-      "buy_notional_est": 75000.5,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Jonathan Jackson"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Jonathan Jackson",
-          "date": "2026-02-17",
-          "filing_date": "2026-03-12",
-          "amount_label": "$50,001 - $100,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-03-12",
-      "net_flow_score": 1.0,
-      "congress_score": 0.15,
-      "congress_boost": 1.0225
-    },
-    "PANW": {
-      "symbol": "PANW",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 75000.5,
-      "politicians": [
-        "Jonathan Jackson"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-03-12",
-      "net_flow_score": -1.0,
-      "congress_score": -0.15,
-      "congress_boost": 0.9775
-    },
-    "AZO": {
-      "symbol": "AZO",
+    "UNH": {
+      "symbol": "UNH",
       "buy_count": 0,
       "sell_count": 0,
       "buy_notional_est": 0.0,
@@ -4411,9 +4375,9 @@
     },
     {
       "politician": "Maria Elvira Salazar",
-      "buys": 12,
+      "buys": 15,
       "sells": 1,
-      "unique_symbols": 12,
+      "unique_symbols": 15,
       "weight": 1.0,
       "notable": false
     },
@@ -4426,10 +4390,10 @@
       "notable": false
     },
     {
-      "politician": "Tim Moore",
+      "politician": "Gilbert Cisneros",
       "buys": 8,
-      "sells": 6,
-      "unique_symbols": 6,
+      "sells": 15,
+      "unique_symbols": 16,
       "weight": 1.0,
       "notable": false
     },
@@ -4437,14 +4401,6 @@
       "politician": "Arjun Mody",
       "buys": 7,
       "sells": 8,
-      "unique_symbols": 13,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "Gilbert Cisneros",
-      "buys": 6,
-      "sells": 10,
       "unique_symbols": 13,
       "weight": 1.0,
       "notable": false
@@ -4474,42 +4430,34 @@
       "notable": false
     },
     {
+      "politician": "John Boozman",
+      "buys": 3,
+      "sells": 2,
+      "unique_symbols": 4,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
       "politician": "Jonathan Jackson",
-      "buys": 3,
-      "sells": 4,
-      "unique_symbols": 7,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "Sean McMaster",
-      "buys": 3,
-      "sells": 0,
-      "unique_symbols": 2,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "Charles J. \"Chuck\" Fleischmann",
       "buys": 2,
-      "sells": 1,
-      "unique_symbols": 3,
+      "sells": 4,
+      "unique_symbols": 6,
       "weight": 1.0,
       "notable": false
     },
     {
       "politician": "Chip Roy",
       "buys": 2,
-      "sells": 0,
+      "sells": 1,
       "unique_symbols": 1,
       "weight": 1.0,
       "notable": false
     },
     {
-      "politician": "John Boozman",
+      "politician": "Tim Moore",
       "buys": 2,
-      "sells": 1,
-      "unique_symbols": 3,
+      "sells": 5,
+      "unique_symbols": 5,
       "weight": 1.0,
       "notable": false
     },
@@ -4546,10 +4494,26 @@
       "notable": false
     },
     {
+      "politician": "Matthew Robert Van Epps",
+      "buys": 0,
+      "sells": 1,
+      "unique_symbols": 1,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
       "politician": "Richard W. Allen",
       "buys": 0,
       "sells": 6,
-      "unique_symbols": 5,
+      "unique_symbols": 6,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
+      "politician": "Mike Kelly",
+      "buys": 0,
+      "sells": 1,
+      "unique_symbols": 1,
       "weight": 1.0,
       "notable": false
     },
@@ -4626,6 +4590,14 @@
       "notable": false
     },
     {
+      "politician": "Charles J. \"Chuck\" Fleischmann",
+      "buys": 0,
+      "sells": 1,
+      "unique_symbols": 1,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
       "politician": "Tina Smith",
       "buys": 0,
       "sells": 5,
@@ -4660,7 +4632,7 @@
     {
       "politician": "Scott A Kupor",
       "buys": 0,
-      "sells": 3,
+      "sells": 2,
       "unique_symbols": 2,
       "weight": 1.0,
       "notable": false
@@ -4708,8 +4680,8 @@
     {
       "politician": "Thomas H. Kean Jr",
       "buys": 0,
-      "sells": 4,
-      "unique_symbols": 4,
+      "sells": 3,
+      "unique_symbols": 3,
       "weight": 1.0,
       "notable": false
     },
@@ -4726,14 +4698,6 @@
       "buys": 0,
       "sells": 1,
       "unique_symbols": 1,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "Thomas Suozzi",
-      "buys": 0,
-      "sells": 3,
-      "unique_symbols": 3,
       "weight": 1.0,
       "notable": false
     }

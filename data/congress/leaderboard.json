@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-09T20:34:50Z",
+  "generatedAt": "2026-06-23T11:11:00Z",
   "leaderboard": [
     {
       "politician": "Michael T. McCaul",
@@ -35,9 +35,9 @@
     },
     {
       "politician": "Maria Elvira Salazar",
-      "buys": 12,
+      "buys": 15,
       "sells": 1,
-      "unique_symbols": 12,
+      "unique_symbols": 15,
       "weight": 1.0,
       "notable": false
     },
@@ -50,10 +50,10 @@
       "notable": false
     },
     {
-      "politician": "Tim Moore",
+      "politician": "Gilbert Cisneros",
       "buys": 8,
-      "sells": 6,
-      "unique_symbols": 6,
+      "sells": 15,
+      "unique_symbols": 16,
       "weight": 1.0,
       "notable": false
     },
@@ -61,14 +61,6 @@
       "politician": "Arjun Mody",
       "buys": 7,
       "sells": 8,
-      "unique_symbols": 13,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "Gilbert Cisneros",
-      "buys": 6,
-      "sells": 10,
       "unique_symbols": 13,
       "weight": 1.0,
       "notable": false
@@ -98,42 +90,34 @@
       "notable": false
     },
     {
+      "politician": "John Boozman",
+      "buys": 3,
+      "sells": 2,
+      "unique_symbols": 4,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
       "politician": "Jonathan Jackson",
-      "buys": 3,
-      "sells": 4,
-      "unique_symbols": 7,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "Sean McMaster",
-      "buys": 3,
-      "sells": 0,
-      "unique_symbols": 2,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "Charles J. \"Chuck\" Fleischmann",
       "buys": 2,
-      "sells": 1,
-      "unique_symbols": 3,
+      "sells": 4,
+      "unique_symbols": 6,
       "weight": 1.0,
       "notable": false
     },
     {
       "politician": "Chip Roy",
       "buys": 2,
-      "sells": 0,
+      "sells": 1,
       "unique_symbols": 1,
       "weight": 1.0,
       "notable": false
     },
     {
-      "politician": "John Boozman",
+      "politician": "Tim Moore",
       "buys": 2,
-      "sells": 1,
-      "unique_symbols": 3,
+      "sells": 5,
+      "unique_symbols": 5,
       "weight": 1.0,
       "notable": false
     },
@@ -170,10 +154,26 @@
       "notable": false
     },
     {
+      "politician": "Matthew Robert Van Epps",
+      "buys": 0,
+      "sells": 1,
+      "unique_symbols": 1,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
       "politician": "Richard W. Allen",
       "buys": 0,
       "sells": 6,
-      "unique_symbols": 5,
+      "unique_symbols": 6,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
+      "politician": "Mike Kelly",
+      "buys": 0,
+      "sells": 1,
+      "unique_symbols": 1,
       "weight": 1.0,
       "notable": false
     },
@@ -250,6 +250,14 @@
       "notable": false
     },
     {
+      "politician": "Charles J. \"Chuck\" Fleischmann",
+      "buys": 0,
+      "sells": 1,
+      "unique_symbols": 1,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
       "politician": "Tina Smith",
       "buys": 0,
       "sells": 5,
@@ -284,7 +292,7 @@
     {
       "politician": "Scott A Kupor",
       "buys": 0,
-      "sells": 3,
+      "sells": 2,
       "unique_symbols": 2,
       "weight": 1.0,
       "notable": false
@@ -332,8 +340,8 @@
     {
       "politician": "Thomas H. Kean Jr",
       "buys": 0,
-      "sells": 4,
-      "unique_symbols": 4,
+      "sells": 3,
+      "unique_symbols": 3,
       "weight": 1.0,
       "notable": false
     },
@@ -350,14 +358,6 @@
       "buys": 0,
       "sells": 1,
       "unique_symbols": 1,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "Thomas Suozzi",
-      "buys": 0,
-      "sells": 3,
-      "unique_symbols": 3,
       "weight": 1.0,
       "notable": false
     }
