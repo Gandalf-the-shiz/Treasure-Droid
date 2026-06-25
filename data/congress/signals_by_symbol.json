@@ -1,9 +1,63 @@
 {
-  "generatedAt": "2026-06-24T11:09:29Z",
+  "generatedAt": "2026-06-25T11:05:36Z",
   "windowDays": 90,
-  "tradeCount": 245,
-  "symbolCount": 188,
+  "tradeCount": 247,
+  "symbolCount": 190,
   "bySymbol": {
+    "UBER": {
+      "symbol": "UBER",
+      "buy_count": 1,
+      "sell_count": 0,
+      "buy_notional_est": 1500001.0,
+      "sell_notional_est": 0.0,
+      "politicians": [
+        "Nancy Pelosi"
+      ],
+      "notable_politicians": [
+        "Nancy Pelosi"
+      ],
+      "recent_buys": [
+        {
+          "politician": "Nancy Pelosi",
+          "date": "2026-05-29",
+          "filing_date": "2026-06-23",
+          "amount_label": "$500,001 - $1,000,000",
+          "weight": 2.0
+        }
+      ],
+      "pelosi_buy": true,
+      "last_filing_date": "2026-06-23",
+      "net_flow_score": 1.0,
+      "congress_score": 1.0,
+      "congress_boost": 1.23
+    },
+    "INTC": {
+      "symbol": "INTC",
+      "buy_count": 1,
+      "sell_count": 0,
+      "buy_notional_est": 6000001.0,
+      "sell_notional_est": 0.0,
+      "politicians": [
+        "Nancy Pelosi"
+      ],
+      "notable_politicians": [
+        "Nancy Pelosi"
+      ],
+      "recent_buys": [
+        {
+          "politician": "Nancy Pelosi",
+          "date": "2026-05-29",
+          "filing_date": "2026-06-23",
+          "amount_label": "$1,000,001 - $5,000,000",
+          "weight": 2.0
+        }
+      ],
+      "pelosi_buy": true,
+      "last_filing_date": "2026-06-23",
+      "net_flow_score": 1.0,
+      "congress_score": 1.0,
+      "congress_boost": 1.23
+    },
     "TPR": {
       "symbol": "TPR",
       "buy_count": 0,
@@ -4358,6 +4412,14 @@
       "notable": true
     },
     {
+      "politician": "Nancy Pelosi",
+      "buys": 2,
+      "sells": 0,
+      "unique_symbols": 2,
+      "weight": 2.0,
+      "notable": true
+    },
+    {
       "politician": "Josh Gottheimer",
       "buys": 2,
       "sells": 9,
@@ -4703,6 +4765,34 @@
     }
   ],
   "notableTrades": [
+    {
+      "id": "house_20034836_g1",
+      "symbol": "UBER",
+      "politician": "Nancy Pelosi",
+      "chamber": "house",
+      "party": "D",
+      "side": "buy",
+      "transaction_date": "2026-05-29",
+      "filing_date": "2026-06-23",
+      "amount_mid_usd": 750000.5,
+      "amount_label": "$500,001 - $1,000,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_20034836_g0",
+      "symbol": "INTC",
+      "politician": "Nancy Pelosi",
+      "chamber": "house",
+      "party": "D",
+      "side": "buy",
+      "transaction_date": "2026-05-29",
+      "filing_date": "2026-06-23",
+      "amount_mid_usd": 3000000.5,
+      "amount_label": "$1,000,001 - $5,000,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
     {
       "id": "house_20034693_g12",
       "symbol": "MSFT",
@@ -5251,6 +5341,34 @@
     }
   ],
   "watchlistHistory": [
+    {
+      "id": "house_20034836_g1",
+      "symbol": "UBER",
+      "politician": "Nancy Pelosi",
+      "chamber": "house",
+      "party": "D",
+      "side": "buy",
+      "transaction_date": "2026-05-29",
+      "filing_date": "2026-06-23",
+      "amount_mid_usd": 750000.5,
+      "amount_label": "$500,001 - $1,000,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_20034836_g0",
+      "symbol": "INTC",
+      "politician": "Nancy Pelosi",
+      "chamber": "house",
+      "party": "D",
+      "side": "buy",
+      "transaction_date": "2026-05-29",
+      "filing_date": "2026-06-23",
+      "amount_mid_usd": 3000000.5,
+      "amount_label": "$1,000,001 - $5,000,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
     {
       "id": "house_20034693_g12",
       "symbol": "MSFT",

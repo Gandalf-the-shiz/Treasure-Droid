@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T11:09:29Z",
+  "generatedAt": "2026-06-25T11:05:36Z",
   "leaderboard": [
     {
       "politician": "Michael T. McCaul",
@@ -15,6 +15,14 @@
       "sells": 5,
       "unique_symbols": 10,
       "weight": 1.1,
+      "notable": true
+    },
+    {
+      "politician": "Nancy Pelosi",
+      "buys": 2,
+      "sells": 0,
+      "unique_symbols": 2,
+      "weight": 2.0,
       "notable": true
     },
     {
