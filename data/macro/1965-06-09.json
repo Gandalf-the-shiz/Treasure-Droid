@@ -1,9 +1,9 @@
 {
   "date": "1965-06-09",
-  "generatedAt": "2026-06-05T21:41:53Z",
+  "generatedAt": "2026-06-28T06:33:59Z",
   "fredApiAvailable": false,
   "series": {
-    "DFF": 5.0,
+    "DFF": 4.13,
     "T10Y2Y": 0.0,
     "VIXCLS": 20.0,
     "UMCSENT": 105.4,
@@ -34,7 +34,7 @@
   "normalisedFeatures": {
     "macro_vix_norm": 0.1429,
     "macro_spread_norm": 0.5,
-    "macro_fed_norm": 0.5,
+    "macro_fed_norm": 0.413,
     "macro_sentiment_norm": 0.9233,
     "macro_claims_norm": 0.8222,
     "macro_t10y3m_norm": 0.5,

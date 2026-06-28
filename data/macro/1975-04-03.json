@@ -1,13 +1,13 @@
 {
   "date": "1975-04-03",
-  "generatedAt": "2026-06-05T21:41:55Z",
+  "generatedAt": "2026-06-28T06:34:07Z",
   "fredApiAvailable": false,
   "series": {
-    "DFF": 5.0,
+    "DFF": 5.41,
     "T10Y2Y": 0.0,
     "VIXCLS": 20.0,
     "UMCSENT": 57.6,
-    "ICSA": 230000.0,
+    "ICSA": 555000.0,
     "SP500": 4500.0,
     "M2SL": 935.1,
     "T10Y3M": 0.0,
@@ -34,9 +34,9 @@
   "normalisedFeatures": {
     "macro_vix_norm": 0.1429,
     "macro_spread_norm": 0.5,
-    "macro_fed_norm": 0.5,
+    "macro_fed_norm": 0.541,
     "macro_sentiment_norm": 0.1267,
-    "macro_claims_norm": 0.8222,
+    "macro_claims_norm": 0.1,
     "macro_t10y3m_norm": 0.5,
     "macro_hy_oas_norm": 0.25,
     "macro_unrate_norm": 0.1714,
