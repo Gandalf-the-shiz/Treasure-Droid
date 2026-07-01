@@ -1,486 +1,486 @@
 {
-  "generatedAt": "2026-06-09T20:34:47Z",
-  "lookbackDays": 365,
+  "generatedAt": "2026-07-01T10:50:52Z",
+  "lookbackDays": 90,
   "rowCount": 60,
   "rows": [
     {
-      "date": "2026-01-05",
-      "avgTone": 0.5168,
+      "date": "2026-05-02",
+      "avgTone": 0.1079,
       "articleCount": 0,
-      "gdelt_tone_norm": 0.7484,
+      "gdelt_tone_norm": 0.2883,
       "gdelt_tone_delta_5d": 0.0,
       "gdelt_article_z": 0.0
     },
     {
-      "date": "2026-01-06",
-      "avgTone": 0.5639,
+      "date": "2026-05-03",
+      "avgTone": 0.2811,
       "articleCount": 0,
-      "gdelt_tone_norm": 0.7729,
-      "gdelt_tone_delta_5d": 0.0246,
+      "gdelt_tone_norm": 0.4599,
+      "gdelt_tone_delta_5d": 0.1716,
       "gdelt_article_z": 0.0
     },
     {
-      "date": "2026-01-07",
-      "avgTone": 0.4696,
+      "date": "2026-05-04",
+      "avgTone": 0.1754,
       "articleCount": 0,
-      "gdelt_tone_norm": 0.7238,
-      "gdelt_tone_delta_5d": -0.0369,
+      "gdelt_tone_norm": 0.3552,
+      "gdelt_tone_delta_5d": -0.0189,
       "gdelt_article_z": 0.0
     },
     {
-      "date": "2026-01-08",
-      "avgTone": 0.6417,
+      "date": "2026-05-05",
+      "avgTone": 0.2951,
       "articleCount": 0,
-      "gdelt_tone_norm": 0.8135,
-      "gdelt_tone_delta_5d": 0.0651,
+      "gdelt_tone_norm": 0.4738,
+      "gdelt_tone_delta_5d": 0.106,
       "gdelt_article_z": 0.0
     },
     {
-      "date": "2026-01-09",
-      "avgTone": 0.5906,
+      "date": "2026-05-06",
+      "avgTone": 0.5681,
       "articleCount": 0,
-      "gdelt_tone_norm": 0.7868,
-      "gdelt_tone_delta_5d": 0.0222,
+      "gdelt_tone_norm": 0.7443,
+      "gdelt_tone_delta_5d": 0.35,
       "gdelt_article_z": 0.0
     },
     {
-      "date": "2026-01-10",
-      "avgTone": 0.9823,
+      "date": "2026-05-07",
+      "avgTone": 0.5724,
       "articleCount": 0,
-      "gdelt_tone_norm": 0.991,
-      "gdelt_tone_delta_5d": 0.2168,
+      "gdelt_tone_norm": 0.7485,
+      "gdelt_tone_delta_5d": 0.2402,
       "gdelt_article_z": 0.0
     },
     {
-      "date": "2026-01-11",
-      "avgTone": 0.9995,
+      "date": "2026-05-08",
+      "avgTone": 0.2781,
       "articleCount": 0,
-      "gdelt_tone_norm": 1.0,
-      "gdelt_tone_delta_5d": 0.1712,
+      "gdelt_tone_norm": 0.457,
+      "gdelt_tone_delta_5d": -0.1235,
       "gdelt_article_z": 0.0
     },
     {
-      "date": "2026-01-12",
-      "avgTone": 0.4271,
+      "date": "2026-05-09",
+      "avgTone": 0.5653,
       "articleCount": 0,
-      "gdelt_tone_norm": 0.7016,
-      "gdelt_tone_delta_5d": -0.1962,
+      "gdelt_tone_norm": 0.7415,
+      "gdelt_tone_delta_5d": 0.1356,
       "gdelt_article_z": 0.0
     },
     {
-      "date": "2026-01-13",
-      "avgTone": 0.7143,
+      "date": "2026-05-10",
+      "avgTone": 0.4871,
       "articleCount": 0,
-      "gdelt_tone_norm": 0.8513,
-      "gdelt_tone_delta_5d": -0.0185,
+      "gdelt_tone_norm": 0.664,
+      "gdelt_tone_delta_5d": -0.0088,
       "gdelt_article_z": 0.0
     },
     {
-      "date": "2026-01-14",
-      "avgTone": 0.6304,
+      "date": "2026-05-11",
+      "avgTone": 0.0859,
       "articleCount": 0,
-      "gdelt_tone_norm": 0.8076,
-      "gdelt_tone_delta_5d": -0.0784,
+      "gdelt_tone_norm": 0.2665,
+      "gdelt_tone_delta_5d": -0.3862,
       "gdelt_article_z": 0.0
     },
     {
-      "date": "2026-01-15",
-      "avgTone": 0.7201,
+      "date": "2026-05-12",
+      "avgTone": 0.199,
       "articleCount": 0,
-      "gdelt_tone_norm": 0.8544,
-      "gdelt_tone_delta_5d": 0.0142,
+      "gdelt_tone_norm": 0.3786,
+      "gdelt_tone_delta_5d": -0.1537,
       "gdelt_article_z": 0.0
     },
     {
-      "date": "2026-01-16",
-      "avgTone": 0.7713,
+      "date": "2026-05-13",
+      "avgTone": 0.2271,
       "articleCount": 0,
-      "gdelt_tone_norm": 0.881,
-      "gdelt_tone_delta_5d": 0.0773,
+      "gdelt_tone_norm": 0.4064,
+      "gdelt_tone_delta_5d": -0.1062,
       "gdelt_article_z": 0.0
     },
     {
-      "date": "2026-01-17",
-      "avgTone": 0.8941,
+      "date": "2026-05-14",
+      "avgTone": 0.4625,
       "articleCount": 0,
-      "gdelt_tone_norm": 0.9451,
-      "gdelt_tone_delta_5d": 0.0965,
+      "gdelt_tone_norm": 0.6397,
+      "gdelt_tone_delta_5d": 0.2108,
       "gdelt_article_z": 0.0
     },
     {
-      "date": "2026-01-18",
-      "avgTone": 0.8954,
+      "date": "2026-05-15",
+      "avgTone": 0.2156,
       "articleCount": 0,
-      "gdelt_tone_norm": 0.9457,
-      "gdelt_tone_delta_5d": 0.0737,
+      "gdelt_tone_norm": 0.395,
+      "gdelt_tone_delta_5d": -0.0278,
       "gdelt_article_z": 0.0
     },
     {
-      "date": "2026-01-19",
-      "avgTone": 0.562,
+      "date": "2026-05-16",
+      "avgTone": 0.1612,
       "articleCount": 0,
-      "gdelt_tone_norm": 0.7719,
-      "gdelt_tone_delta_5d": -0.1346,
+      "gdelt_tone_norm": 0.3411,
+      "gdelt_tone_delta_5d": -0.1138,
       "gdelt_article_z": 0.0
     },
     {
-      "date": "2026-01-20",
-      "avgTone": 0.2572,
+      "date": "2026-05-17",
+      "avgTone": 0.0484,
       "articleCount": 0,
-      "gdelt_tone_norm": 0.613,
-      "gdelt_tone_delta_5d": -0.2729,
+      "gdelt_tone_norm": 0.2294,
+      "gdelt_tone_delta_5d": -0.2162,
       "gdelt_article_z": 0.0
     },
     {
-      "date": "2026-01-21",
-      "avgTone": 0.3578,
-      "articleCount": 0,
-      "gdelt_tone_norm": 0.6655,
-      "gdelt_tone_delta_5d": -0.1535,
-      "gdelt_article_z": 0.0
-    },
-    {
-      "date": "2026-01-22",
-      "avgTone": 0.5989,
-      "articleCount": 0,
-      "gdelt_tone_norm": 0.7912,
-      "gdelt_tone_delta_5d": 0.0421,
-      "gdelt_article_z": 0.0
-    },
-    {
-      "date": "2026-01-23",
-      "avgTone": 0.6775,
-      "articleCount": 0,
-      "gdelt_tone_norm": 0.8321,
-      "gdelt_tone_delta_5d": 0.1217,
-      "gdelt_article_z": 0.0
-    },
-    {
-      "date": "2026-01-24",
-      "avgTone": 0.8236,
-      "articleCount": 0,
-      "gdelt_tone_norm": 0.9083,
-      "gdelt_tone_delta_5d": 0.1828,
-      "gdelt_article_z": 0.0
-    },
-    {
-      "date": "2026-01-25",
-      "avgTone": 0.8328,
-      "articleCount": 0,
-      "gdelt_tone_norm": 0.9131,
-      "gdelt_tone_delta_5d": 0.1138,
-      "gdelt_article_z": 0.0
-    },
-    {
-      "date": "2026-01-26",
-      "avgTone": 0.6331,
-      "articleCount": 0,
-      "gdelt_tone_norm": 0.809,
-      "gdelt_tone_delta_5d": -0.0522,
-      "gdelt_article_z": 0.0
-    },
-    {
-      "date": "2026-01-27",
-      "avgTone": 0.6955,
-      "articleCount": 0,
-      "gdelt_tone_norm": 0.8415,
-      "gdelt_tone_delta_5d": -0.0241,
-      "gdelt_article_z": 0.0
-    },
-    {
-      "date": "2026-01-28",
-      "avgTone": 0.5511,
-      "articleCount": 0,
-      "gdelt_tone_norm": 0.7663,
-      "gdelt_tone_delta_5d": -0.1017,
-      "gdelt_article_z": 0.0
-    },
-    {
-      "date": "2026-01-29",
-      "avgTone": 0.5877,
-      "articleCount": 0,
-      "gdelt_tone_norm": 0.7853,
-      "gdelt_tone_delta_5d": -0.0471,
-      "gdelt_article_z": 0.0
-    },
-    {
-      "date": "2026-01-30",
-      "avgTone": 0.4679,
-      "articleCount": 0,
-      "gdelt_tone_norm": 0.7229,
-      "gdelt_tone_delta_5d": -0.0776,
-      "gdelt_article_z": 0.0
-    },
-    {
-      "date": "2026-01-31",
-      "avgTone": 0.7262,
-      "articleCount": 0,
-      "gdelt_tone_norm": 0.8575,
-      "gdelt_tone_delta_5d": 0.0785,
-      "gdelt_article_z": 0.0
-    },
-    {
-      "date": "2026-02-01",
-      "avgTone": 0.6231,
-      "articleCount": 0,
-      "gdelt_tone_norm": 0.8038,
-      "gdelt_tone_delta_5d": 0.0208,
-      "gdelt_article_z": 0.0
-    },
-    {
-      "date": "2026-02-02",
-      "avgTone": 0.3635,
-      "articleCount": 0,
-      "gdelt_tone_norm": 0.6685,
-      "gdelt_tone_delta_5d": -0.1239,
-      "gdelt_article_z": 0.0
-    },
-    {
-      "date": "2026-02-03",
-      "avgTone": 0.8393,
-      "articleCount": 0,
-      "gdelt_tone_norm": 0.9165,
-      "gdelt_tone_delta_5d": 0.1533,
-      "gdelt_article_z": 0.0
-    },
-    {
-      "date": "2026-02-04",
-      "avgTone": 0.5195,
-      "articleCount": 0,
-      "gdelt_tone_norm": 0.7498,
-      "gdelt_tone_delta_5d": -0.0618,
-      "gdelt_article_z": 0.0
-    },
-    {
-      "date": "2026-02-05",
-      "avgTone": 0.3638,
-      "articleCount": 0,
-      "gdelt_tone_norm": 0.6686,
-      "gdelt_tone_delta_5d": -0.116,
-      "gdelt_article_z": 0.0
-    },
-    {
-      "date": "2026-02-06",
-      "avgTone": 0.3508,
-      "articleCount": 0,
-      "gdelt_tone_norm": 0.6618,
-      "gdelt_tone_delta_5d": -0.089,
-      "gdelt_article_z": 0.0
-    },
-    {
-      "date": "2026-02-07",
-      "avgTone": 0.8028,
-      "articleCount": 0,
-      "gdelt_tone_norm": 0.8975,
-      "gdelt_tone_delta_5d": 0.1483,
-      "gdelt_article_z": 0.0
-    },
-    {
-      "date": "2026-02-08",
-      "avgTone": 0.4917,
-      "articleCount": 0,
-      "gdelt_tone_norm": 0.7353,
-      "gdelt_tone_delta_5d": -0.0091,
-      "gdelt_article_z": 0.0
-    },
-    {
-      "date": "2026-02-09",
-      "avgTone": 0.7243,
-      "articleCount": 0,
-      "gdelt_tone_norm": 0.8565,
-      "gdelt_tone_delta_5d": 0.1157,
-      "gdelt_article_z": 0.0
-    },
-    {
-      "date": "2026-02-10",
-      "avgTone": 0.7097,
-      "articleCount": 0,
-      "gdelt_tone_norm": 0.8489,
-      "gdelt_tone_delta_5d": 0.0611,
-      "gdelt_article_z": 0.0
-    },
-    {
-      "date": "2026-02-11",
-      "avgTone": 0.6305,
-      "articleCount": 0,
-      "gdelt_tone_norm": 0.8076,
-      "gdelt_tone_delta_5d": -0.0269,
-      "gdelt_article_z": 0.0
-    },
-    {
-      "date": "2026-02-12",
-      "avgTone": 0.6237,
-      "articleCount": 0,
-      "gdelt_tone_norm": 0.8041,
-      "gdelt_tone_delta_5d": -0.008,
-      "gdelt_article_z": 0.0
-    },
-    {
-      "date": "2026-02-13",
-      "avgTone": 0.6109,
-      "articleCount": 0,
-      "gdelt_tone_norm": 0.7974,
-      "gdelt_tone_delta_5d": -0.0319,
-      "gdelt_article_z": 0.0
-    },
-    {
-      "date": "2026-02-14",
-      "avgTone": 0.8262,
-      "articleCount": 0,
-      "gdelt_tone_norm": 0.9097,
-      "gdelt_tone_delta_5d": 0.0951,
-      "gdelt_article_z": 0.0
-    },
-    {
-      "date": "2026-02-15",
-      "avgTone": 0.879,
-      "articleCount": 0,
-      "gdelt_tone_norm": 0.9372,
-      "gdelt_tone_delta_5d": 0.1075,
-      "gdelt_article_z": 0.0
-    },
-    {
-      "date": "2026-02-16",
-      "avgTone": 0.6235,
-      "articleCount": 0,
-      "gdelt_tone_norm": 0.804,
-      "gdelt_tone_delta_5d": -0.0581,
-      "gdelt_article_z": 0.0
-    },
-    {
-      "date": "2026-02-17",
-      "avgTone": 0.6941,
-      "articleCount": 0,
-      "gdelt_tone_norm": 0.8408,
-      "gdelt_tone_delta_5d": -0.0213,
-      "gdelt_article_z": 0.0
-    },
-    {
-      "date": "2026-02-18",
-      "avgTone": 0.8746,
-      "articleCount": 0,
-      "gdelt_tone_norm": 0.9349,
-      "gdelt_tone_delta_5d": 0.062,
-      "gdelt_article_z": 0.0
-    },
-    {
-      "date": "2026-02-19",
-      "avgTone": 0.6529,
-      "articleCount": 0,
-      "gdelt_tone_norm": 0.8193,
-      "gdelt_tone_delta_5d": -0.0599,
-      "gdelt_article_z": 0.0
-    },
-    {
-      "date": "2026-02-20",
-      "avgTone": 0.471,
-      "articleCount": 0,
-      "gdelt_tone_norm": 0.7245,
-      "gdelt_tone_delta_5d": -0.1253,
-      "gdelt_article_z": 0.0
-    },
-    {
-      "date": "2026-02-21",
-      "avgTone": 0.6613,
-      "articleCount": 0,
-      "gdelt_tone_norm": 0.8237,
-      "gdelt_tone_delta_5d": -0.0062,
-      "gdelt_article_z": 0.0
-    },
-    {
-      "date": "2026-02-22",
-      "avgTone": 0.8056,
-      "articleCount": 0,
-      "gdelt_tone_norm": 0.8989,
-      "gdelt_tone_delta_5d": 0.0733,
-      "gdelt_article_z": 0.0
-    },
-    {
-      "date": "2026-02-23",
-      "avgTone": 0.2994,
-      "articleCount": 0,
-      "gdelt_tone_norm": 0.635,
-      "gdelt_tone_delta_5d": -0.1816,
-      "gdelt_article_z": 0.0
-    },
-    {
-      "date": "2026-02-24",
-      "avgTone": 0.3069,
-      "articleCount": 0,
-      "gdelt_tone_norm": 0.639,
-      "gdelt_tone_delta_5d": -0.1316,
-      "gdelt_article_z": 0.0
-    },
-    {
-      "date": "2026-02-25",
-      "avgTone": 0.427,
-      "articleCount": 0,
-      "gdelt_tone_norm": 0.7016,
-      "gdelt_tone_delta_5d": -0.0476,
-      "gdelt_article_z": 0.0
-    },
-    {
-      "date": "2026-02-26",
-      "avgTone": 0.6271,
-      "articleCount": 0,
-      "gdelt_tone_norm": 0.8059,
-      "gdelt_tone_delta_5d": 0.0873,
-      "gdelt_article_z": 0.0
-    },
-    {
-      "date": "2026-02-27",
-      "avgTone": 0.5259,
-      "articleCount": 0,
-      "gdelt_tone_norm": 0.7531,
-      "gdelt_tone_delta_5d": 0.0578,
-      "gdelt_article_z": 0.0
-    },
-    {
-      "date": "2026-02-28",
-      "avgTone": -0.1202,
-      "articleCount": 0,
-      "gdelt_tone_norm": 0.4163,
-      "gdelt_tone_delta_5d": -0.3086,
-      "gdelt_article_z": 0.0
-    },
-    {
-      "date": "2026-03-01",
-      "avgTone": -0.045,
-      "articleCount": 0,
-      "gdelt_tone_norm": 0.4555,
-      "gdelt_tone_delta_5d": -0.2137,
-      "gdelt_article_z": 0.0
-    },
-    {
-      "date": "2026-03-02",
-      "avgTone": -0.8411,
-      "articleCount": 0,
-      "gdelt_tone_norm": 0.0405,
-      "gdelt_tone_delta_5d": -0.5672,
-      "gdelt_article_z": 0.0
-    },
-    {
-      "date": "2026-03-03",
-      "avgTone": -0.9188,
+      "date": "2026-05-18",
+      "avgTone": -0.1831,
       "articleCount": 0,
       "gdelt_tone_norm": 0.0,
-      "gdelt_tone_delta_5d": -0.4164,
+      "gdelt_tone_delta_5d": -0.4013,
       "gdelt_article_z": 0.0
     },
     {
-      "date": "2026-03-04",
-      "avgTone": -0.6208,
+      "date": "2026-05-19",
+      "avgTone": 0.1537,
       "articleCount": 0,
-      "gdelt_tone_norm": 0.1553,
-      "gdelt_tone_delta_5d": -0.0727,
+      "gdelt_tone_norm": 0.3337,
+      "gdelt_tone_delta_5d": 0.0923,
       "gdelt_article_z": 0.0
     },
     {
-      "date": "2026-03-05",
-      "avgTone": -0.0413,
+      "date": "2026-05-20",
+      "avgTone": 0.1562,
       "articleCount": 0,
-      "gdelt_tone_norm": 0.4574,
-      "gdelt_tone_delta_5d": 0.2946,
+      "gdelt_tone_norm": 0.3362,
+      "gdelt_tone_delta_5d": 0.1101,
+      "gdelt_article_z": 0.0
+    },
+    {
+      "date": "2026-05-21",
+      "avgTone": 0.4598,
+      "articleCount": 0,
+      "gdelt_tone_norm": 0.637,
+      "gdelt_tone_delta_5d": 0.4122,
+      "gdelt_article_z": 0.0
+    },
+    {
+      "date": "2026-05-22",
+      "avgTone": 0.2992,
+      "articleCount": 0,
+      "gdelt_tone_norm": 0.4779,
+      "gdelt_tone_delta_5d": 0.1511,
+      "gdelt_article_z": 0.0
+    },
+    {
+      "date": "2026-05-23",
+      "avgTone": 0.3698,
+      "articleCount": 0,
+      "gdelt_tone_norm": 0.5478,
+      "gdelt_tone_delta_5d": 0.1016,
+      "gdelt_article_z": 0.0
+    },
+    {
+      "date": "2026-05-24",
+      "avgTone": -0.0609,
+      "articleCount": 0,
+      "gdelt_tone_norm": 0.1211,
+      "gdelt_tone_delta_5d": -0.3786,
+      "gdelt_article_z": 0.0
+    },
+    {
+      "date": "2026-05-25",
+      "avgTone": 0.2832,
+      "articleCount": 0,
+      "gdelt_tone_norm": 0.462,
+      "gdelt_tone_delta_5d": 0.0161,
+      "gdelt_article_z": 0.0
+    },
+    {
+      "date": "2026-05-26",
+      "avgTone": 0.217,
+      "articleCount": 0,
+      "gdelt_tone_norm": 0.3964,
+      "gdelt_tone_delta_5d": -0.0058,
+      "gdelt_article_z": 0.0
+    },
+    {
+      "date": "2026-05-27",
+      "avgTone": 0.3504,
+      "articleCount": 0,
+      "gdelt_tone_norm": 0.5286,
+      "gdelt_tone_delta_5d": 0.1468,
+      "gdelt_article_z": 0.0
+    },
+    {
+      "date": "2026-05-28",
+      "avgTone": 0.3577,
+      "articleCount": 0,
+      "gdelt_tone_norm": 0.5358,
+      "gdelt_tone_delta_5d": 0.1588,
+      "gdelt_article_z": 0.0
+    },
+    {
+      "date": "2026-05-29",
+      "avgTone": 0.6336,
+      "articleCount": 0,
+      "gdelt_tone_norm": 0.8092,
+      "gdelt_tone_delta_5d": 0.3285,
+      "gdelt_article_z": 0.0
+    },
+    {
+      "date": "2026-05-30",
+      "avgTone": 0.7795,
+      "articleCount": 0,
+      "gdelt_tone_norm": 0.9537,
+      "gdelt_tone_delta_5d": 0.3862,
+      "gdelt_article_z": 0.0
+    },
+    {
+      "date": "2026-05-31",
+      "avgTone": 0.3494,
+      "articleCount": 0,
+      "gdelt_tone_norm": 0.5276,
+      "gdelt_tone_delta_5d": -0.1792,
+      "gdelt_article_z": 0.0
+    },
+    {
+      "date": "2026-06-01",
+      "avgTone": 0.178,
+      "articleCount": 0,
+      "gdelt_tone_norm": 0.3578,
+      "gdelt_tone_delta_5d": -0.3488,
+      "gdelt_article_z": 0.0
+    },
+    {
+      "date": "2026-06-02",
+      "avgTone": 0.3645,
+      "articleCount": 0,
+      "gdelt_tone_norm": 0.5426,
+      "gdelt_tone_delta_5d": -0.1195,
+      "gdelt_article_z": 0.0
+    },
+    {
+      "date": "2026-06-03",
+      "avgTone": 0.2614,
+      "articleCount": 0,
+      "gdelt_tone_norm": 0.4404,
+      "gdelt_tone_delta_5d": -0.155,
+      "gdelt_article_z": 0.0
+    },
+    {
+      "date": "2026-06-04",
+      "avgTone": 0.2365,
+      "articleCount": 0,
+      "gdelt_tone_norm": 0.4157,
+      "gdelt_tone_delta_5d": -0.0513,
+      "gdelt_article_z": 0.0
+    },
+    {
+      "date": "2026-06-05",
+      "avgTone": 0.2368,
+      "articleCount": 0,
+      "gdelt_tone_norm": 0.416,
+      "gdelt_tone_delta_5d": -0.0231,
+      "gdelt_article_z": 0.0
+    },
+    {
+      "date": "2026-06-06",
+      "avgTone": 0.5966,
+      "articleCount": 0,
+      "gdelt_tone_norm": 0.7725,
+      "gdelt_tone_delta_5d": 0.3188,
+      "gdelt_article_z": 0.0
+    },
+    {
+      "date": "2026-06-07",
+      "avgTone": 0.122,
+      "articleCount": 0,
+      "gdelt_tone_norm": 0.3023,
+      "gdelt_tone_delta_5d": -0.2089,
+      "gdelt_article_z": 0.0
+    },
+    {
+      "date": "2026-06-08",
+      "avgTone": -0.1407,
+      "articleCount": 0,
+      "gdelt_tone_norm": 0.042,
+      "gdelt_tone_delta_5d": -0.4346,
+      "gdelt_article_z": 0.0
+    },
+    {
+      "date": "2026-06-09",
+      "avgTone": 0.1481,
+      "articleCount": 0,
+      "gdelt_tone_norm": 0.3281,
+      "gdelt_tone_delta_5d": -0.0551,
+      "gdelt_article_z": 0.0
+    },
+    {
+      "date": "2026-06-10",
+      "avgTone": 0.1355,
+      "articleCount": 0,
+      "gdelt_tone_norm": 0.3157,
+      "gdelt_tone_delta_5d": -0.0456,
+      "gdelt_article_z": 0.0
+    },
+    {
+      "date": "2026-06-11",
+      "avgTone": 0.182,
+      "articleCount": 0,
+      "gdelt_tone_norm": 0.3617,
+      "gdelt_tone_delta_5d": 0.1147,
+      "gdelt_article_z": 0.0
+    },
+    {
+      "date": "2026-06-12",
+      "avgTone": 0.5428,
+      "articleCount": 0,
+      "gdelt_tone_norm": 0.7192,
+      "gdelt_tone_delta_5d": 0.4573,
+      "gdelt_article_z": 0.0
+    },
+    {
+      "date": "2026-06-13",
+      "avgTone": 0.8262,
+      "articleCount": 0,
+      "gdelt_tone_norm": 1.0,
+      "gdelt_tone_delta_5d": 0.5688,
+      "gdelt_article_z": 0.0
+    },
+    {
+      "date": "2026-06-14",
+      "avgTone": 0.3831,
+      "articleCount": 0,
+      "gdelt_tone_norm": 0.561,
+      "gdelt_tone_delta_5d": -0.0382,
+      "gdelt_article_z": 0.0
+    },
+    {
+      "date": "2026-06-15",
+      "avgTone": 0.5373,
+      "articleCount": 0,
+      "gdelt_tone_norm": 0.7138,
+      "gdelt_tone_delta_5d": 0.0533,
+      "gdelt_article_z": 0.0
+    },
+    {
+      "date": "2026-06-16",
+      "avgTone": 0.4986,
+      "articleCount": 0,
+      "gdelt_tone_norm": 0.6754,
+      "gdelt_tone_delta_5d": -0.0731,
+      "gdelt_article_z": 0.0
+    },
+    {
+      "date": "2026-06-17",
+      "avgTone": 0.4891,
+      "articleCount": 0,
+      "gdelt_tone_norm": 0.666,
+      "gdelt_tone_delta_5d": -0.0715,
+      "gdelt_article_z": 0.0
+    },
+    {
+      "date": "2026-06-18",
+      "avgTone": 0.3731,
+      "articleCount": 0,
+      "gdelt_tone_norm": 0.5511,
+      "gdelt_tone_delta_5d": -0.103,
+      "gdelt_article_z": 0.0
+    },
+    {
+      "date": "2026-06-19",
+      "avgTone": 0.2972,
+      "articleCount": 0,
+      "gdelt_tone_norm": 0.4759,
+      "gdelt_tone_delta_5d": -0.1757,
+      "gdelt_article_z": 0.0
+    },
+    {
+      "date": "2026-06-20",
+      "avgTone": 0.4402,
+      "articleCount": 0,
+      "gdelt_tone_norm": 0.6176,
+      "gdelt_tone_delta_5d": 0.0255,
+      "gdelt_article_z": 0.0
+    },
+    {
+      "date": "2026-06-21",
+      "avgTone": 0.2014,
+      "articleCount": 0,
+      "gdelt_tone_norm": 0.381,
+      "gdelt_tone_delta_5d": -0.1967,
+      "gdelt_article_z": 0.0
+    },
+    {
+      "date": "2026-06-22",
+      "avgTone": 0.026,
+      "articleCount": 0,
+      "gdelt_tone_norm": 0.2072,
+      "gdelt_tone_delta_5d": -0.2992,
+      "gdelt_article_z": 0.0
+    },
+    {
+      "date": "2026-06-23",
+      "avgTone": -0.0057,
+      "articleCount": 0,
+      "gdelt_tone_norm": 0.1758,
+      "gdelt_tone_delta_5d": -0.2446,
+      "gdelt_article_z": 0.0
+    },
+    {
+      "date": "2026-06-24",
+      "avgTone": 0.2401,
+      "articleCount": 0,
+      "gdelt_tone_norm": 0.4193,
+      "gdelt_tone_delta_5d": 0.0739,
+      "gdelt_article_z": 0.0
+    },
+    {
+      "date": "2026-06-25",
+      "avgTone": 0.404,
+      "articleCount": 0,
+      "gdelt_tone_norm": 0.5817,
+      "gdelt_tone_delta_5d": 0.2859,
+      "gdelt_article_z": 0.0
+    },
+    {
+      "date": "2026-06-26",
+      "avgTone": 0.2557,
+      "articleCount": 0,
+      "gdelt_tone_norm": 0.4348,
+      "gdelt_tone_delta_5d": 0.0888,
+      "gdelt_article_z": 0.0
+    },
+    {
+      "date": "2026-06-27",
+      "avgTone": 0.4391,
+      "articleCount": 0,
+      "gdelt_tone_norm": 0.6165,
+      "gdelt_tone_delta_5d": 0.2136,
+      "gdelt_article_z": 0.0
+    },
+    {
+      "date": "2026-06-28",
+      "avgTone": 0.3023,
+      "articleCount": 0,
+      "gdelt_tone_norm": 0.4809,
+      "gdelt_tone_delta_5d": -0.0321,
+      "gdelt_article_z": 0.0
+    },
+    {
+      "date": "2026-06-29",
+      "avgTone": 0.2486,
+      "articleCount": 0,
+      "gdelt_tone_norm": 0.4277,
+      "gdelt_tone_delta_5d": -0.1007,
+      "gdelt_article_z": 0.0
+    },
+    {
+      "date": "2026-06-30",
+      "avgTone": 0.3813,
+      "articleCount": 0,
+      "gdelt_tone_norm": 0.5592,
+      "gdelt_tone_delta_5d": 0.0692,
       "gdelt_article_z": 0.0
     }
   ]
