@@ -1,7 +1,21 @@
 {
-  "generatedAt": "2026-06-30T11:10:30Z",
-  "count": 247,
+  "generatedAt": "2026-07-01T11:14:51Z",
+  "count": 246,
   "trades": [
+    {
+      "id": "house_20034717_g0",
+      "symbol": "TCNNF",
+      "politician": "Greg Stanton",
+      "chamber": "house",
+      "party": "D",
+      "side": "sell",
+      "transaction_date": "2026-05-28",
+      "filing_date": "2026-06-26",
+      "amount_mid_usd": 175000.5,
+      "amount_label": "$100,001 - $250,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
     {
       "id": "house_20034836_g1",
       "symbol": "UBER",
@@ -3429,34 +3443,6 @@
       "filing_date": "2026-04-02",
       "amount_mid_usd": 75000.5,
       "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Eric-Scott-Turner-01_16_2026-278T_pdf_t0",
-      "symbol": "BMNR",
-      "politician": "Eric Scott Turner",
-      "chamber": "executive",
-      "party": "",
-      "side": "buy",
-      "transaction_date": "2025-11-19",
-      "filing_date": "2026-04-01",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Linda-McMahon-07_02_2025-278T_pdf_t0",
-      "symbol": "DJT",
-      "politician": "Linda E McMahon",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2025-06-12",
-      "filing_date": "2026-04-01",
-      "amount_mid_usd": 175000.5,
-      "amount_label": "$100,001 - $250,000",
       "is_late": false,
       "source": "kadoa_congress_monitor"
     }

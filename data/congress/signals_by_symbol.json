@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2026-06-30T11:10:30Z",
+  "generatedAt": "2026-07-01T11:14:51Z",
   "windowDays": 90,
-  "tradeCount": 247,
-  "symbolCount": 190,
+  "tradeCount": 246,
+  "symbolCount": 188,
   "bySymbol": {
+    "TCNNF": {
+      "symbol": "TCNNF",
+      "buy_count": 0,
+      "sell_count": 2,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 207501.0,
+      "politicians": [
+        "Greg Stanton"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-06-26",
+      "net_flow_score": -1.0,
+      "congress_score": -0.415,
+      "congress_boost": 0.9377
+    },
     "UBER": {
       "symbol": "UBER",
       "buy_count": 1,
@@ -2380,23 +2397,6 @@
       "congress_score": -0.065,
       "congress_boost": 0.9902
     },
-    "TCNNF": {
-      "symbol": "TCNNF",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 32500.5,
-      "politicians": [
-        "Greg Stanton"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-05-07",
-      "net_flow_score": -1.0,
-      "congress_score": -0.065,
-      "congress_boost": 0.9902
-    },
     "CHRW": {
       "symbol": "CHRW",
       "buy_count": 0,
@@ -3589,48 +3589,6 @@
       "congress_score": -0.15,
       "congress_boost": 0.9775
     },
-    "BMNR": {
-      "symbol": "BMNR",
-      "buy_count": 1,
-      "sell_count": 0,
-      "buy_notional_est": 32500.5,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Eric Scott Turner"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Eric Scott Turner",
-          "date": "2025-11-19",
-          "filing_date": "2026-04-01",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-04-01",
-      "net_flow_score": 1.0,
-      "congress_score": 0.065,
-      "congress_boost": 1.0097
-    },
-    "DJT": {
-      "symbol": "DJT",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 175000.5,
-      "politicians": [
-        "Linda E McMahon"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-04-01",
-      "net_flow_score": -1.0,
-      "congress_score": -0.35,
-      "congress_boost": 0.9475
-    },
     "AZO": {
       "symbol": "AZO",
       "buy_count": 0,
@@ -4548,9 +4506,9 @@
       "notable": false
     },
     {
-      "politician": "Eric Scott Turner",
-      "buys": 1,
-      "sells": 0,
+      "politician": "Greg Stanton",
+      "buys": 0,
+      "sells": 2,
       "unique_symbols": 1,
       "weight": 1.0,
       "notable": false
@@ -4668,14 +4626,6 @@
       "notable": false
     },
     {
-      "politician": "Greg Stanton",
-      "buys": 0,
-      "sells": 1,
-      "unique_symbols": 1,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
       "politician": "Kevin Hern",
       "buys": 0,
       "sells": 16,
@@ -4751,14 +4701,6 @@
       "politician": "Bryan Bedford",
       "buys": 0,
       "sells": 4,
-      "unique_symbols": 1,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "Linda E McMahon",
-      "buys": 0,
-      "sells": 1,
       "unique_symbols": 1,
       "weight": 1.0,
       "notable": false
