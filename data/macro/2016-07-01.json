@@ -1,6 +1,6 @@
 {
   "date": "2016-07-01",
-  "generatedAt": "2026-07-01T10:48:38Z",
+  "generatedAt": "2026-07-02T10:25:27Z",
   "fredApiAvailable": false,
   "series": {
     "DFF": 0.41,
@@ -8,7 +8,7 @@
     "VIXCLS": 14.77,
     "UMCSENT": 90.0,
     "ICSA": 262000.0,
-    "SP500": 2102.95,
+    "SP500": 4500.0,
     "M2SL": 12911.9,
     "T10Y3M": 1.18,
     "BAMLH0A0HYM2": 4.0,
@@ -42,7 +42,7 @@
     "macro_unrate_norm": 0.7429,
     "macro_cpi_norm": 0.0,
     "macro_indpro_norm": 0.45,
-    "macro_sp500_norm": 0.0,
+    "macro_sp500_norm": 0.5,
     "macro_m2_norm": 0.0
   }
 }
