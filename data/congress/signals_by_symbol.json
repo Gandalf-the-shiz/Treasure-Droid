@@ -1,9 +1,47 @@
 {
-  "generatedAt": "2026-07-01T11:14:51Z",
+  "generatedAt": "2026-07-02T11:01:48Z",
   "windowDays": 90,
   "tradeCount": 246,
-  "symbolCount": 188,
+  "symbolCount": 187,
   "bySymbol": {
+    "JPM": {
+      "symbol": "JPM",
+      "buy_count": 2,
+      "sell_count": 1,
+      "buy_notional_est": 210751.05,
+      "sell_notional_est": 32500.5,
+      "politicians": [
+        "John R Curtis",
+        "Rohit Khanna",
+        "Sheldon Whitehouse",
+        "Markwayne Mullin"
+      ],
+      "notable_politicians": [
+        "Rohit Khanna",
+        "Markwayne Mullin"
+      ],
+      "recent_buys": [
+        {
+          "politician": "John R Curtis",
+          "date": "2026-06-02",
+          "filing_date": "2026-06-30",
+          "amount_label": "$100,001 - $250,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Rohit Khanna",
+          "date": "2026-04-21",
+          "filing_date": "2026-05-11",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.1
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-06-30",
+      "net_flow_score": 0.3333,
+      "congress_score": 1.0,
+      "congress_boost": 1.15
+    },
     "TCNNF": {
       "symbol": "TCNNF",
       "buy_count": 0,
@@ -2037,36 +2075,6 @@
       "congress_score": -0.065,
       "congress_boost": 0.9902
     },
-    "JPM": {
-      "symbol": "JPM",
-      "buy_count": 1,
-      "sell_count": 1,
-      "buy_notional_est": 35750.55,
-      "sell_notional_est": 32500.5,
-      "politicians": [
-        "Rohit Khanna",
-        "Sheldon Whitehouse",
-        "Markwayne Mullin"
-      ],
-      "notable_politicians": [
-        "Rohit Khanna",
-        "Markwayne Mullin"
-      ],
-      "recent_buys": [
-        {
-          "politician": "Rohit Khanna",
-          "date": "2026-04-21",
-          "filing_date": "2026-05-11",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.1
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-05-11",
-      "net_flow_score": 0.0,
-      "congress_score": 1.0,
-      "congress_boost": 1.15
-    },
     "ABBV": {
       "symbol": "ABBV",
       "buy_count": 0,
@@ -3572,23 +3580,6 @@
       "congress_score": -0.35,
       "congress_boost": 0.9475
     },
-    "MMM": {
-      "symbol": "MMM",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 75000.5,
-      "politicians": [
-        "Tina Smith"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-04-02",
-      "net_flow_score": -1.0,
-      "congress_score": -0.15,
-      "congress_boost": 0.9775
-    },
     "AZO": {
       "symbol": "AZO",
       "buy_count": 0,
@@ -4482,6 +4473,14 @@
       "notable": false
     },
     {
+      "politician": "John R Curtis",
+      "buys": 1,
+      "sells": 0,
+      "unique_symbols": 1,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
       "politician": "Robert E. Latta",
       "buys": 1,
       "sells": 0,
@@ -4620,8 +4619,8 @@
     {
       "politician": "Tina Smith",
       "buys": 0,
-      "sells": 5,
-      "unique_symbols": 3,
+      "sells": 4,
+      "unique_symbols": 2,
       "weight": 1.0,
       "notable": false
     },

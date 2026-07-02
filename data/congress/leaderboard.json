@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T11:14:51Z",
+  "generatedAt": "2026-07-02T11:01:48Z",
   "leaderboard": [
     {
       "politician": "Michael T. McCaul",
@@ -126,6 +126,14 @@
       "buys": 2,
       "sells": 5,
       "unique_symbols": 5,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
+      "politician": "John R Curtis",
+      "buys": 1,
+      "sells": 0,
+      "unique_symbols": 1,
       "weight": 1.0,
       "notable": false
     },
@@ -268,8 +276,8 @@
     {
       "politician": "Tina Smith",
       "buys": 0,
-      "sells": 5,
-      "unique_symbols": 3,
+      "sells": 4,
+      "unique_symbols": 2,
       "weight": 1.0,
       "notable": false
     },

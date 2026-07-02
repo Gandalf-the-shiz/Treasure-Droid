@@ -1,7 +1,21 @@
 {
-  "generatedAt": "2026-07-01T11:14:51Z",
+  "generatedAt": "2026-07-02T11:01:48Z",
   "count": 246,
   "trades": [
+    {
+      "id": "senate_96d0794e-fb53-495f-9137-fff88d0885e6_t1",
+      "symbol": "JPM",
+      "politician": "John R Curtis",
+      "chamber": "senate",
+      "party": "R",
+      "side": "buy",
+      "transaction_date": "2026-06-02",
+      "filing_date": "2026-06-30",
+      "amount_mid_usd": 175000.5,
+      "amount_label": "$100,001 - $250,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
     {
       "id": "house_20034717_g0",
       "symbol": "TCNNF",
@@ -3429,20 +3443,6 @@
       "filing_date": "2026-04-03",
       "amount_mid_usd": 175000.5,
       "amount_label": "$100,001 - $250,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "senate_5a00d807-84f1-409b-9cb0-566e59553e38_t0",
-      "symbol": "MMM",
-      "politician": "Tina Smith",
-      "chamber": "senate",
-      "party": "D",
-      "side": "sell",
-      "transaction_date": "2026-03-31",
-      "filing_date": "2026-04-02",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
       "is_late": false,
       "source": "kadoa_congress_monitor"
     }
