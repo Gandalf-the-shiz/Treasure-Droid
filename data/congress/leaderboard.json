@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T11:01:48Z",
+  "generatedAt": "2026-07-03T11:00:37Z",
   "leaderboard": [
     {
       "politician": "Michael T. McCaul",
@@ -284,8 +284,8 @@
     {
       "politician": "Kevin Hern",
       "buys": 0,
-      "sells": 16,
-      "unique_symbols": 16,
+      "sells": 1,
+      "unique_symbols": 1,
       "weight": 1.0,
       "notable": false
     },

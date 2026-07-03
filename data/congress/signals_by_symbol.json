@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-02T11:01:48Z",
+  "generatedAt": "2026-07-03T11:00:37Z",
   "windowDays": 90,
-  "tradeCount": 246,
-  "symbolCount": 187,
+  "tradeCount": 231,
+  "symbolCount": 175,
   "bySymbol": {
     "JPM": {
       "symbol": "JPM",
@@ -248,13 +248,12 @@
     "ACN": {
       "symbol": "ACN",
       "buy_count": 1,
-      "sell_count": 2,
+      "sell_count": 1,
       "buy_notional_est": 750000.5,
-      "sell_notional_est": 407501.0,
+      "sell_notional_est": 32500.5,
       "politicians": [
         "Richard W. Allen",
-        "Donald J Trump",
-        "Kevin Hern"
+        "Donald J Trump"
       ],
       "notable_politicians": [],
       "recent_buys": [
@@ -268,9 +267,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-06-16",
-      "net_flow_score": -0.3333,
-      "congress_score": 0.685,
-      "congress_boost": 1.1027
+      "net_flow_score": 0.0,
+      "congress_score": 1.0,
+      "congress_boost": 1.15
     },
     "BMY": {
       "symbol": "BMY",
@@ -2320,20 +2319,19 @@
     "CMCSA": {
       "symbol": "CMCSA",
       "buy_count": 0,
-      "sell_count": 2,
+      "sell_count": 1,
       "buy_notional_est": 0.0,
-      "sell_notional_est": 65001.0,
+      "sell_notional_est": 32500.5,
       "politicians": [
-        "Gilbert Cisneros",
-        "Kevin Hern"
+        "Gilbert Cisneros"
       ],
       "notable_politicians": [],
       "recent_buys": [],
       "pelosi_buy": false,
       "last_filing_date": "2026-05-08",
       "net_flow_score": -1.0,
-      "congress_score": -0.13,
-      "congress_boost": 0.9805
+      "congress_score": -0.065,
+      "congress_boost": 0.9902
     },
     "CRM": {
       "symbol": "CRM",
@@ -3356,230 +3354,6 @@
       "congress_score": -0.15,
       "congress_boost": 0.9775
     },
-    "TROW": {
-      "symbol": "TROW",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 32500.5,
-      "politicians": [
-        "Kevin Hern"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-04-03",
-      "net_flow_score": -1.0,
-      "congress_score": -0.065,
-      "congress_boost": 0.9902
-    },
-    "PLD": {
-      "symbol": "PLD",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 75000.5,
-      "politicians": [
-        "Kevin Hern"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-04-03",
-      "net_flow_score": -1.0,
-      "congress_score": -0.15,
-      "congress_boost": 0.9775
-    },
-    "MDT": {
-      "symbol": "MDT",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 32500.5,
-      "politicians": [
-        "Kevin Hern"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-04-03",
-      "net_flow_score": -1.0,
-      "congress_score": -0.065,
-      "congress_boost": 0.9902
-    },
-    "TXN": {
-      "symbol": "TXN",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 750000.5,
-      "politicians": [
-        "Kevin Hern"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-04-03",
-      "net_flow_score": -1.0,
-      "congress_score": -1.5,
-      "congress_boost": 0.775
-    },
-    "SMA": {
-      "symbol": "SMA",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 750000.5,
-      "politicians": [
-        "Kevin Hern"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-04-03",
-      "net_flow_score": -1.0,
-      "congress_score": -1.5,
-      "congress_boost": 0.775
-    },
-    "KVUE": {
-      "symbol": "KVUE",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 32500.5,
-      "politicians": [
-        "Kevin Hern"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-04-03",
-      "net_flow_score": -1.0,
-      "congress_score": -0.065,
-      "congress_boost": 0.9902
-    },
-    "IVZ": {
-      "symbol": "IVZ",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 32500.5,
-      "politicians": [
-        "Kevin Hern"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-04-03",
-      "net_flow_score": -1.0,
-      "congress_score": -0.065,
-      "congress_boost": 0.9902
-    },
-    "CTSH": {
-      "symbol": "CTSH",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 32500.5,
-      "politicians": [
-        "Kevin Hern"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-04-03",
-      "net_flow_score": -1.0,
-      "congress_score": -0.065,
-      "congress_boost": 0.9902
-    },
-    "MUA": {
-      "symbol": "MUA",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 75000.5,
-      "politicians": [
-        "Kevin Hern"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-04-03",
-      "net_flow_score": -1.0,
-      "congress_score": -0.15,
-      "congress_boost": 0.9775
-    },
-    "BDX": {
-      "symbol": "BDX",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 32500.5,
-      "politicians": [
-        "Kevin Hern"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-04-03",
-      "net_flow_score": -1.0,
-      "congress_score": -0.065,
-      "congress_boost": 0.9902
-    },
-    "PRGS": {
-      "symbol": "PRGS",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 75000.5,
-      "politicians": [
-        "Kevin Hern"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-04-03",
-      "net_flow_score": -1.0,
-      "congress_score": -0.15,
-      "congress_boost": 0.9775
-    },
-    "IQV": {
-      "symbol": "IQV",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 75000.5,
-      "politicians": [
-        "Kevin Hern",
-        "Markwayne Mullin"
-      ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-04-03",
-      "net_flow_score": -1.0,
-      "congress_score": 0.35,
-      "congress_boost": 1.0525
-    },
-    "ICLR": {
-      "symbol": "ICLR",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 175000.5,
-      "politicians": [
-        "Kevin Hern"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-04-03",
-      "net_flow_score": -1.0,
-      "congress_score": -0.35,
-      "congress_boost": 0.9475
-    },
     "AZO": {
       "symbol": "AZO",
       "buy_count": 0,
@@ -4059,6 +3833,25 @@
     },
     "ELV": {
       "symbol": "ELV",
+      "buy_count": 0,
+      "sell_count": 0,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 0.0,
+      "politicians": [
+        "Markwayne Mullin"
+      ],
+      "notable_politicians": [
+        "Markwayne Mullin"
+      ],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "",
+      "net_flow_score": 0.0,
+      "congress_score": 0.5,
+      "congress_boost": 1.075
+    },
+    "IQV": {
+      "symbol": "IQV",
       "buy_count": 0,
       "sell_count": 0,
       "buy_notional_est": 0.0,
@@ -4627,8 +4420,8 @@
     {
       "politician": "Kevin Hern",
       "buys": 0,
-      "sells": 16,
-      "unique_symbols": 16,
+      "sells": 1,
+      "unique_symbols": 1,
       "weight": 1.0,
       "notable": false
     },
