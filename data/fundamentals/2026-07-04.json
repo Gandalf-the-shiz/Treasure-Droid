@@ -1,0 +1,3006 @@
+{
+  "date": "2026-07-04",
+  "generatedAt": "2026-07-04T07:05:12Z",
+  "tickers": {
+    "AAPL": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.1012,
+      "put_call_ratio": 0.8723
+    },
+    "MSFT": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0809,
+      "put_call_ratio": 0.2126
+    },
+    "GOOGL": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0567,
+      "put_call_ratio": 0.5014
+    },
+    "AMZN": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.2613,
+      "put_call_ratio": 0.492
+    },
+    "NVDA": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.041,
+      "put_call_ratio": 0.5383
+    },
+    "META": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.2096,
+      "put_call_ratio": 0.618
+    },
+    "TSLA": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.0111,
+      "put_call_ratio": 0.746
+    },
+    "JPM": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.1062,
+      "put_call_ratio": 0.3763
+    },
+    "AVGO": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.016,
+      "put_call_ratio": 0.6746
+    },
+    "LLY": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.1289,
+      "put_call_ratio": 1.3549
+    },
+    "UNH": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.0823,
+      "put_call_ratio": 0.8319
+    },
+    "V": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0468,
+      "put_call_ratio": 0.2231
+    },
+    "XOM": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0493,
+      "put_call_ratio": 0.2133
+    },
+    "MA": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0312,
+      "put_call_ratio": 0.5696
+    },
+    "A": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0017,
+      "put_call_ratio": 1.2906
+    },
+    "AA": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.011,
+      "put_call_ratio": 0.601
+    },
+    "AACB": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AACBR": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AACBU": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AACG": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AACI": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AACIU": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AACIW": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AACO": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AACOU": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AACOW": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AACP": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AACPR": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AACPU": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AACPW": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AADX": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 0.3889
+    },
+    "AAL": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.227,
+      "put_call_ratio": 2.0295
+    },
+    "AAME": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AAMI": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.2075,
+      "put_call_ratio": 2.0833
+    },
+    "AAOI": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.5,
+      "put_call_ratio": 2.8627
+    },
+    "AAON": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.3252,
+      "put_call_ratio": 0.3702
+    },
+    "AAP": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.183,
+      "put_call_ratio": 0.1463
+    },
+    "AAPG": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.5,
+      "put_call_ratio": 1.0
+    },
+    "AARD": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.0939,
+      "put_call_ratio": 0.4
+    },
+    "AAT": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.1,
+      "put_call_ratio": 5.0
+    },
+    "AAUC": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AB": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.0177,
+      "put_call_ratio": 5.0
+    },
+    "ABAT": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.25,
+      "put_call_ratio": 0.1815
+    },
+    "ABBV": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0214,
+      "put_call_ratio": 0.4028
+    },
+    "ABCB": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.1925,
+      "put_call_ratio": 0.0
+    },
+    "ABCL": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.2653,
+      "put_call_ratio": 0.0402
+    },
+    "ABEO": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.1896,
+      "put_call_ratio": 0.4088
+    },
+    "ABEV": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.1174,
+      "put_call_ratio": 1.125
+    },
+    "ABG": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0826,
+      "put_call_ratio": 0.4725
+    },
+    "ABLV": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ABLVW": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ABM": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.1355,
+      "put_call_ratio": 0.1765
+    },
+    "ABNB": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0941,
+      "put_call_ratio": 1.1297
+    },
+    "ABOS": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.3113,
+      "put_call_ratio": 4.0
+    },
+    "ABR": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.0741,
+      "put_call_ratio": 1.6549
+    },
+    "ABSI": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.1507,
+      "put_call_ratio": 0.0614
+    },
+    "ABT": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0028,
+      "put_call_ratio": 0.493
+    },
+    "ABTC": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.5,
+      "put_call_ratio": 0.8462
+    },
+    "ABTS": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ABUS": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.5,
+      "put_call_ratio": 0.0032
+    },
+    "ABVC": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.5,
+      "put_call_ratio": 0.0
+    },
+    "ABVX": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.061,
+      "put_call_ratio": 0.9038
+    },
+    "ABX": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.347,
+      "put_call_ratio": 0.0102
+    },
+    "ABXL": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ACA": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.2147,
+      "put_call_ratio": 0.0
+    },
+    "ACAA": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ACAAU": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ACAAW": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ACAD": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.1527,
+      "put_call_ratio": 0.6667
+    },
+    "ACB": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.5,
+      "put_call_ratio": 0.1087
+    },
+    "ACCL": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ACCO": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.0345,
+      "put_call_ratio": 0.6667
+    },
+    "ACCS": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.5,
+      "put_call_ratio": 1.0
+    },
+    "ACDC": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.5,
+      "put_call_ratio": 1.0
+    },
+    "ACEL": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.152,
+      "put_call_ratio": 0.1875
+    },
+    "ACET": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.1461,
+      "put_call_ratio": 0.0367
+    },
+    "ACFN": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.4655,
+      "put_call_ratio": 1.0
+    },
+    "ACGC": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ACGCU": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ACGCW": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ACGL": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.1221,
+      "put_call_ratio": 0.1932
+    },
+    "ACGLN": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ACGLO": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ACH": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.0573,
+      "put_call_ratio": 1.5
+    },
+    "ACHC": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.1736,
+      "put_call_ratio": 1.0909
+    },
+    "ACHR": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.4428,
+      "put_call_ratio": 0.4043
+    },
+    "ACHV": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.0452,
+      "put_call_ratio": 1.3333
+    },
+    "ACI": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0173,
+      "put_call_ratio": 0.0273
+    },
+    "ACIC": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.4211,
+      "put_call_ratio": 2.25
+    },
+    "ACIU": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.2923,
+      "put_call_ratio": 5.0
+    },
+    "ACIW": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.3158,
+      "put_call_ratio": 0.0328
+    },
+    "ACLS": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.5,
+      "put_call_ratio": 0.7368
+    },
+    "ACM": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0624,
+      "put_call_ratio": 2.1773
+    },
+    "ACMR": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0746,
+      "put_call_ratio": 0.0313
+    },
+    "ACN": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0197,
+      "put_call_ratio": 0.2598
+    },
+    "ACNB": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0876,
+      "put_call_ratio": 5.0
+    },
+    "ACNT": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0769,
+      "put_call_ratio": 0.0
+    },
+    "ACOG": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.413,
+      "put_call_ratio": 1.0
+    },
+    "ACON": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.2163,
+      "put_call_ratio": 1.0
+    },
+    "ACONW": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ACP": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ACR": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.5,
+      "put_call_ratio": 1.0
+    },
+    "ACRE": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.5,
+      "put_call_ratio": 1.25
+    },
+    "ACRS": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.013,
+      "put_call_ratio": 0.2931
+    },
+    "ACRV": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0571,
+      "put_call_ratio": 1.0
+    },
+    "ACT": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0387,
+      "put_call_ratio": 0.3333
+    },
+    "ACTG": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.2,
+      "put_call_ratio": 0.0
+    },
+    "ACTU": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0476,
+      "put_call_ratio": 1.0
+    },
+    "ACU": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.5,
+      "put_call_ratio": 1.0
+    },
+    "ACV": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ACVA": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.0417,
+      "put_call_ratio": 0.0
+    },
+    "ACXP": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.1,
+      "put_call_ratio": 1.0
+    },
+    "AD": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0767,
+      "put_call_ratio": 1.5753
+    },
+    "ADAC": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ADACU": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ADACW": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ADAG": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.5,
+      "put_call_ratio": 1.0
+    },
+    "ADAM": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0494,
+      "put_call_ratio": 0.1087
+    },
+    "ADAMG": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ADAMH": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ADAMI": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ADAML": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ADAMM": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ADAMN": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ADAMO": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ADAMZ": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ADBE": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0248,
+      "put_call_ratio": 0.2311
+    },
+    "ADC": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.0008,
+      "put_call_ratio": 0.6667
+    },
+    "ADCT": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.0489,
+      "put_call_ratio": 2.2857
+    },
+    "ADEA": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0267,
+      "put_call_ratio": 0.2957
+    },
+    "ADGM": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.4839,
+      "put_call_ratio": 1.0
+    },
+    "ADI": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0533,
+      "put_call_ratio": 3.7574
+    },
+    "ADIL": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.1818,
+      "put_call_ratio": 1.0
+    },
+    "ADM": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.1682,
+      "put_call_ratio": 1.8923
+    },
+    "ADMA": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0741,
+      "put_call_ratio": 0.75
+    },
+    "ADNT": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.0688,
+      "put_call_ratio": 2.0
+    },
+    "ADP": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.015,
+      "put_call_ratio": 1.2405
+    },
+    "ADPT": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.2857,
+      "put_call_ratio": 0.24
+    },
+    "ADSE": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ADSEW": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ADSK": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0701,
+      "put_call_ratio": 0.0732
+    },
+    "ADT": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.1498,
+      "put_call_ratio": 0.8723
+    },
+    "ADTN": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.5,
+      "put_call_ratio": 0.4358
+    },
+    "ADTX": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.5,
+      "put_call_ratio": 1.0
+    },
+    "ADUR": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.28,
+      "put_call_ratio": 0.6953
+    },
+    "ADUS": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0185,
+      "put_call_ratio": 0.1935
+    },
+    "ADV": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.5,
+      "put_call_ratio": 0.0
+    },
+    "ADVB": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ADX": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ADXN": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AEAQ": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AEAQU": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AEAQW": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AEBI": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.1821,
+      "put_call_ratio": 1.0
+    },
+    "AEC": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AEE": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0171,
+      "put_call_ratio": 1.2817
+    },
+    "AEF": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AEFC": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AEG": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 0.0474
+    },
+    "AEHL": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AEHR": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.3333,
+      "put_call_ratio": 1.8581
+    },
+    "AEI": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AEIS": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.1472,
+      "put_call_ratio": 0.8713
+    },
+    "AEM": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0752,
+      "put_call_ratio": 0.4735
+    },
+    "AEMD": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.1644,
+      "put_call_ratio": 1.0
+    },
+    "AENT": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.3833,
+      "put_call_ratio": 1.0
+    },
+    "AENTW": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AEO": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.5,
+      "put_call_ratio": 1.2463
+    },
+    "AEON": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.5,
+      "put_call_ratio": 1.0
+    },
+    "AEP": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.1283,
+      "put_call_ratio": 0.3968
+    },
+    "AER": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0558,
+      "put_call_ratio": 2.0485
+    },
+    "AERO": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.5,
+      "put_call_ratio": 0.1818
+    },
+    "AERT": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AERTW": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AES": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.2896,
+      "put_call_ratio": 0.2
+    },
+    "AESI": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.5,
+      "put_call_ratio": 2.6807
+    },
+    "AESPU": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AEVA": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0638,
+      "put_call_ratio": 3.0498
+    },
+    "AEXA": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 0.0167
+    },
+    "AEYE": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 0.1429
+    },
+    "AFB": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AFBI": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AFCG": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.5,
+      "put_call_ratio": 0.4545
+    },
+    "AFG": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0171,
+      "put_call_ratio": 3.5
+    },
+    "AFGB": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AFGC": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AFGD": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AFGE": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AFJK": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AFJKR": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AFJKU": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AFL": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0435,
+      "put_call_ratio": 0.1481
+    },
+    "AFRI": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AFRIW": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AFRM": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.2249,
+      "put_call_ratio": 0.2341
+    },
+    "AFYA": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.1247,
+      "put_call_ratio": 1.0
+    },
+    "AG": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.2,
+      "put_call_ratio": 1.1228
+    },
+    "AGBK": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0015,
+      "put_call_ratio": 1.0
+    },
+    "AGCC": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AGCO": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.2517,
+      "put_call_ratio": 0.8182
+    },
+    "AGD": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AGEN": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.5,
+      "put_call_ratio": 0.1389
+    },
+    "AGI": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0329,
+      "put_call_ratio": 0.9542
+    },
+    "AGIG": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AGIO": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.1003,
+      "put_call_ratio": 1.807
+    },
+    "AGL": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.5,
+      "put_call_ratio": 0.6679
+    },
+    "AGM": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.007,
+      "put_call_ratio": 0.1429
+    },
+    "AGM-A": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AGM-PI": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AGMB": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.5,
+      "put_call_ratio": 1.0
+    },
+    "AGMH": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AGNC": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.0743,
+      "put_call_ratio": 0.4286
+    },
+    "AGNCL": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AGNCM": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AGNCN": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AGNCO": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AGNCP": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AGNCZ": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AGNT": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.5,
+      "put_call_ratio": 3.8462
+    },
+    "AGO": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.3663,
+      "put_call_ratio": 0.9643
+    },
+    "AGPU": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.5,
+      "put_call_ratio": 1.0
+    },
+    "AGQ": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 0.3068
+    },
+    "AGRO": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.5,
+      "put_call_ratio": 0.1934
+    },
+    "AGRZ": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AGX": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.5,
+      "put_call_ratio": 1.3598
+    },
+    "AGYS": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.0876,
+      "put_call_ratio": 0.2782
+    },
+    "AHCO": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.5,
+      "put_call_ratio": 0.0233
+    },
+    "AHG": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.5,
+      "put_call_ratio": 1.0
+    },
+    "AHMA": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AHR": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.308,
+      "put_call_ratio": 0.1939
+    },
+    "AHRT": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.2,
+      "put_call_ratio": 0.1176
+    },
+    "AHT": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0652,
+      "put_call_ratio": 1.0
+    },
+    "AHT-PI": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AI": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.5,
+      "put_call_ratio": 0.016
+    },
+    "AIAI": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AIB": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AIBZ": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AIDX": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.5,
+      "put_call_ratio": 1.0
+    },
+    "AIFA": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0988,
+      "put_call_ratio": 1.0
+    },
+    "AIFC": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 0.0
+    },
+    "AIFF": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AIFU": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 3.2
+    },
+    "AIG": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.1325,
+      "put_call_ratio": 0.0286
+    },
+    "AIHS": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AII": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0931,
+      "put_call_ratio": 1.0
+    },
+    "AIIA": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AIIO": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AIIOW": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AIIR": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AIM": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.5,
+      "put_call_ratio": 1.0
+    },
+    "AIMD": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AIMDW": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AIN": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.2239,
+      "put_call_ratio": 0.0968
+    },
+    "AIO": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AIOS": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AIOT": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.5,
+      "put_call_ratio": 0.0968
+    },
+    "AIP": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.1282,
+      "put_call_ratio": 0.5644
+    },
+    "AIQD": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AIQU": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AIR": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.1599,
+      "put_call_ratio": 0.127
+    },
+    "AIRE": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.5,
+      "put_call_ratio": 1.0
+    },
+    "AIRG": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.3333,
+      "put_call_ratio": 0.0
+    },
+    "AIRI": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.5,
+      "put_call_ratio": 1.0
+    },
+    "AIRJ": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.025,
+      "put_call_ratio": 0.0604
+    },
+    "AIRJW": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AIRO": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.5,
+      "put_call_ratio": 0.4857
+    },
+    "AIRS": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.3333,
+      "put_call_ratio": 0.7793
+    },
+    "AIRT": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AIRTP": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AISP": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 0.5
+    },
+    "AISPW": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AIT": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0667,
+      "put_call_ratio": 1.3333
+    },
+    "AIV": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 0.0
+    },
+    "AIXC": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.4,
+      "put_call_ratio": 1.0
+    },
+    "AIXI": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.5,
+      "put_call_ratio": 1.0
+    },
+    "AIZ": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.1451,
+      "put_call_ratio": 0.5714
+    },
+    "AIZN": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AJG": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.0121,
+      "put_call_ratio": 0.3119
+    },
+    "AKA": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.5,
+      "put_call_ratio": 1.0
+    },
+    "AKAM": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.1318,
+      "put_call_ratio": 0.8869
+    },
+    "AKAN": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AKBA": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.5,
+      "put_call_ratio": 0.0531
+    },
+    "AKO-A": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AKO-B": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.0259,
+      "put_call_ratio": 1.0
+    },
+    "AKR": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.28,
+      "put_call_ratio": 0.0323
+    },
+    "AKTS": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.5,
+      "put_call_ratio": 1.0
+    },
+    "AKTX": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.1833,
+      "put_call_ratio": 1.0
+    },
+    "ALAB": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.3574,
+      "put_call_ratio": 0.9314
+    },
+    "ALAR": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.5,
+      "put_call_ratio": 1.0
+    },
+    "ALB": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.5,
+      "put_call_ratio": 0.537
+    },
+    "ALBT": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ALC": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.1244,
+      "put_call_ratio": 3.1117
+    },
+    "ALCO": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.5,
+      "put_call_ratio": 1.0
+    },
+    "ALDF": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ALDFU": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ALDFW": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ALDX": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.1467,
+      "put_call_ratio": 0.0897
+    },
+    "ALEC": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.3617,
+      "put_call_ratio": 1.8
+    },
+    "ALF": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ALFUU": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ALFUW": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ALG": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.0517,
+      "put_call_ratio": 0.2
+    },
+    "ALGM": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.065,
+      "put_call_ratio": 0.958
+    },
+    "ALGN": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.0326,
+      "put_call_ratio": 5.0
+    },
+    "ALGS": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.3964,
+      "put_call_ratio": 1.0
+    },
+    "ALGT": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.4515,
+      "put_call_ratio": 1.0594
+    },
+    "ALH": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.2471,
+      "put_call_ratio": 0.5556
+    },
+    "ALHC": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.5,
+      "put_call_ratio": 0.3148
+    },
+    "ALIS": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ALISR": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ALISU": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ALIT": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.0429,
+      "put_call_ratio": 0.2391
+    },
+    "ALK": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.1569,
+      "put_call_ratio": 0.719
+    },
+    "ALKS": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.5,
+      "put_call_ratio": 0.6364
+    },
+    "ALKT": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.0986,
+      "put_call_ratio": 0.2222
+    },
+    "ALL": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.5,
+      "put_call_ratio": 5.0
+    },
+    "ALL-PI": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ALLE": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0267,
+      "put_call_ratio": 0.5254
+    },
+    "ALLO": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.1723,
+      "put_call_ratio": 0.0206
+    },
+    "ALLR": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.2857,
+      "put_call_ratio": 1.0
+    },
+    "ALLT": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 0.1507
+    },
+    "ALLY": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.2215,
+      "put_call_ratio": 0.685
+    },
+    "ALM": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.5,
+      "put_call_ratio": 0.1313
+    },
+    "ALMR": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ALMS": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.061,
+      "put_call_ratio": 2.7407
+    },
+    "ALMU": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.3333,
+      "put_call_ratio": 0.6627
+    },
+    "ALNT": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.2042,
+      "put_call_ratio": 0.5455
+    },
+    "ALNY": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.5,
+      "put_call_ratio": 0.3326
+    },
+    "ALOT": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ALOV": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ALOVU": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ALOVW": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ALOY": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 0.3861
+    },
+    "ALP": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ALPS": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ALRM": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.1806,
+      "put_call_ratio": 0.2105
+    },
+    "ALRS": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.3139,
+      "put_call_ratio": 0.0278
+    },
+    "ALSN": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0137,
+      "put_call_ratio": 0.4688
+    },
+    "ALT": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.1577,
+      "put_call_ratio": 0.7686
+    },
+    "ALTG": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.5,
+      "put_call_ratio": 3.2
+    },
+    "ALTI": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 0.6667
+    },
+    "ALTO": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.2324,
+      "put_call_ratio": 0.4232
+    },
+    "ALUB": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ALV": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0567,
+      "put_call_ratio": 4.9375
+    },
+    "ALVO": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.5,
+      "put_call_ratio": 1.0
+    },
+    "ALVOW": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ALX": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ALXO": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.431,
+      "put_call_ratio": 0.0435
+    },
+    "ALZN": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.5,
+      "put_call_ratio": 1.0
+    },
+    "AM": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0122,
+      "put_call_ratio": 2.3235
+    },
+    "AMAL": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0115,
+      "put_call_ratio": 0.5
+    },
+    "AMAN": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AMAT": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0513,
+      "put_call_ratio": 1.3302
+    },
+    "AMBA": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.5,
+      "put_call_ratio": 0.7562
+    },
+    "AMBO": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0347,
+      "put_call_ratio": 1.0
+    },
+    "AMBP": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.1876,
+      "put_call_ratio": 5.0
+    },
+    "AMBQ": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.5,
+      "put_call_ratio": 0.1923
+    },
+    "AMBR": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 0.0
+    },
+    "AMC": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.5,
+      "put_call_ratio": 0.102
+    },
+    "AMCI": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AMCR": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.0721,
+      "put_call_ratio": 0.3167
+    },
+    "AMCX": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.1297,
+      "put_call_ratio": 0.0667
+    },
+    "AMD": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.0055,
+      "put_call_ratio": 0.88
+    },
+    "AME": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0554,
+      "put_call_ratio": 0.7
+    },
+    "AMG": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0196,
+      "put_call_ratio": 0.2353
+    },
+    "AMGN": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.1408,
+      "put_call_ratio": 0.5146
+    },
+    "AMH": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.5,
+      "put_call_ratio": 0.4737
+    },
+    "AMIX": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.0918,
+      "put_call_ratio": 1.0
+    },
+    "AMJB": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AMKR": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.3962,
+      "put_call_ratio": 1.7259
+    },
+    "AMLX": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.0123,
+      "put_call_ratio": 0.2667
+    },
+    "AMN": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.5,
+      "put_call_ratio": 2.2626
+    },
+    "AMOD": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.5,
+      "put_call_ratio": 1.0
+    },
+    "AMODW": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AMP": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0117,
+      "put_call_ratio": 0.7742
+    },
+    "AMPG": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.5,
+      "put_call_ratio": 0.0875
+    },
+    "AMPGR": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AMPGZ": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AMPH": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.1462,
+      "put_call_ratio": 2.2258
+    },
+    "AMPL": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.261,
+      "put_call_ratio": 0.1944
+    },
+    "AMPX": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.375,
+      "put_call_ratio": 0.4417
+    },
+    "AMPY": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.5,
+      "put_call_ratio": 0.2895
+    },
+    "AMR": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.5,
+      "put_call_ratio": 0.871
+    },
+    "AMRC": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.5,
+      "put_call_ratio": 1.6429
+    },
+    "AMRN": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.5,
+      "put_call_ratio": 3.2222
+    },
+    "AMRX": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.4295,
+      "put_call_ratio": 0.4286
+    },
+    "AMRZ": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.3104,
+      "put_call_ratio": 0.0425
+    },
+    "AMS": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.4286,
+      "put_call_ratio": 1.0
+    },
+    "AMSC": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.5,
+      "put_call_ratio": 0.3753
+    },
+    "AMSF": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.0124,
+      "put_call_ratio": 0.7692
+    },
+    "AMSS": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AMST": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AMT": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.5,
+      "put_call_ratio": 1.7956
+    },
+    "AMTB": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.4467,
+      "put_call_ratio": 0.1333
+    },
+    "AMTD": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.5,
+      "put_call_ratio": 1.0
+    },
+    "AMTM": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0509,
+      "put_call_ratio": 0.1329
+    },
+    "AMTX": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.2879,
+      "put_call_ratio": 0.2556
+    },
+    "AMUB": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AMWL": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.3489,
+      "put_call_ratio": 2.2
+    },
+    "AMX": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.1721,
+      "put_call_ratio": 0.8431
+    },
+    "AMZE": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.5,
+      "put_call_ratio": 1.0
+    },
+    "AN": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.1607,
+      "put_call_ratio": 1.2
+    },
+    "ANAB": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.1527,
+      "put_call_ratio": 5.0
+    },
+    "ANDE": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.5,
+      "put_call_ratio": 1.7143
+    },
+    "ANDG": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.5,
+      "put_call_ratio": 1.0
+    },
+    "ANET": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.1238,
+      "put_call_ratio": 0.7979
+    },
+    "ANF": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.2659,
+      "put_call_ratio": 0.1781
+    },
+    "ANGH": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ANGHW": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ANGI": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.1245,
+      "put_call_ratio": 2.0
+    },
+    "ANGO": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.5,
+      "put_call_ratio": 1.5
+    },
+    "ANGX": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0573,
+      "put_call_ratio": 2.5357
+    },
+    "ANIK": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ANIP": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.2677,
+      "put_call_ratio": 2.6364
+    },
+    "ANIX": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.3,
+      "put_call_ratio": 0.4048
+    },
+    "ANL": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ANNA": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ANNAW": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ANNX": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0596,
+      "put_call_ratio": 3.8571
+    },
+    "ANPA": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ANRO": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.0856,
+      "put_call_ratio": 3.8868
+    },
+    "ANSC": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ANSCU": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ANSCW": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ANTA": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.4989,
+      "put_call_ratio": 1.0
+    },
+    "ANTX": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.3226,
+      "put_call_ratio": 1.0
+    },
+    "ANVS": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.1795,
+      "put_call_ratio": 0.1067
+    },
+    "ANY": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.1277,
+      "put_call_ratio": 0.0
+    },
+    "AOD": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AOMD": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AOMN": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AOMR": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.5,
+      "put_call_ratio": 1.0
+    },
+    "AON": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0247,
+      "put_call_ratio": 0.9663
+    },
+    "AORT": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.5,
+      "put_call_ratio": 0.02
+    },
+    "AOS": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0793,
+      "put_call_ratio": 0.5862
+    },
+    "AOSL": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.5,
+      "put_call_ratio": 0.194
+    },
+    "AOUT": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.04,
+      "put_call_ratio": 2.5714
+    },
+    "AP": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.5,
+      "put_call_ratio": 0.0454
+    },
+    "APA": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.5,
+      "put_call_ratio": 1.104
+    },
+    "APAC": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "APACR": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "APACU": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "APAM": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0081,
+      "put_call_ratio": 0.5263
+    },
+    "APC": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.3606,
+      "put_call_ratio": 1.0
+    },
+    "APD": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0323,
+      "put_call_ratio": 5.0
+    },
+    "APEI": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.5,
+      "put_call_ratio": 0.0139
+    },
+    "APG": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0423,
+      "put_call_ratio": 1.1707
+    },
+    "APGE": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.0793,
+      "put_call_ratio": 1.5495
+    },
+    "APH": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.2166,
+      "put_call_ratio": 2.37
+    },
+    "API": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 0.2857
+    },
+    "APLD": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.5,
+      "put_call_ratio": 0.5449
+    },
+    "APLE": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0385,
+      "put_call_ratio": 1.1429
+    },
+    "APLM": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.5,
+      "put_call_ratio": 1.0
+    },
+    "APLMW": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "APM": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "APMCU": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "APO": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0416,
+      "put_call_ratio": 3.6533
+    },
+    "APOG": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.1621,
+      "put_call_ratio": 5.0
+    },
+    "APOS": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "APP": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.2042,
+      "put_call_ratio": 0.7977
+    },
+    "APPF": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0835,
+      "put_call_ratio": 0.8701
+    },
+    "APPN": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.5,
+      "put_call_ratio": 0.0225
+    },
+    "APPS": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.375,
+      "put_call_ratio": 0.1516
+    },
+    "APRE": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.2535,
+      "put_call_ratio": 1.0
+    },
+    "APT": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.5,
+      "put_call_ratio": 1.0
+    },
+    "APTV": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.1578,
+      "put_call_ratio": 0.378
+    },
+    "APUR": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "APURR": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "APURU": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "APUS": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "APVO": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.5,
+      "put_call_ratio": 1.0
+    },
+    "APWC": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "APXT": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "APXTU": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "APXTW": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "APYX": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0357,
+      "put_call_ratio": 0.0086
+    },
+    "AQB": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.4314,
+      "put_call_ratio": 1.0
+    },
+    "AQMS": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.071,
+      "put_call_ratio": 1.0
+    },
+    "AQN": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0086,
+      "put_call_ratio": 0.2195
+    },
+    "AQNB": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "AQST": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.3227,
+      "put_call_ratio": 0.1805
+    },
+    "AR": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.1644,
+      "put_call_ratio": 0.9583
+    },
+    "ARAI": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.4615,
+      "put_call_ratio": 1.0
+    },
+    "ARAY": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.5,
+      "put_call_ratio": 0.6875
+    },
+    "ARBB": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ARBE": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.25,
+      "put_call_ratio": 0.3527
+    },
+    "ARBEW": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ARBK": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.5,
+      "put_call_ratio": 0.0
+    },
+    "ARCB": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.0711,
+      "put_call_ratio": 0.9062
+    },
+    "ARCC": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": -0.0111,
+      "put_call_ratio": 0.4074
+    },
+    "ARCI": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ARCIU": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ARCIW": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ARCL": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ARCLR": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ARCLU": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ARCLW": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    },
+    "ARCO": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.5,
+      "put_call_ratio": 1.0
+    },
+    "ARCT": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.5,
+      "put_call_ratio": 0.3865
+    },
+    "ARDC": {
+      "insider_buy_ratio_30d": 0.5,
+      "earnings_days_to": 60,
+      "earnings_surprise_prev": 0.0,
+      "put_call_ratio": 1.0
+    }
+  }
+}
