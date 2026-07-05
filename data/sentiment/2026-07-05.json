@@ -1,0 +1,711 @@
+{
+  "date": "2026-07-05",
+  "generatedAt": "2026-07-05T22:21:59Z",
+  "sources": {
+    "newsapi": false,
+    "reddit": true,
+    "sec_edgar": true
+  },
+  "tickers": {
+    "AAPL": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "MSFT": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "GOOGL": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "AMZN": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "NVDA": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 2
+    },
+    "META": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "TSLA": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 1
+    },
+    "JPM": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "AVGO": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "LLY": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "UNH": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "V": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "XOM": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 1
+    },
+    "MA": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "A": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "AA": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 2
+    },
+    "AACB": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "AACBR": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "AACBU": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "AACG": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "AACI": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "AACIU": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "AACIW": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "AACO": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "AACOU": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "AACOW": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "AACP": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "AACPR": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "AACPU": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "AACPW": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "AADX": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "AAL": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "AAME": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "AAMI": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "AAOI": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 1
+    },
+    "AAON": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "AAP": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "AAPG": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "AARD": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "AAT": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "AAUC": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "AB": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "ABAT": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "ABBV": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "ABCB": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "ABCL": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "ABEO": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "ABEV": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "ABG": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "ABLV": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "ABLVW": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "ABM": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "ABNB": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "ABOS": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "ABR": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 1
+    },
+    "ABSI": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "ABT": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "ABTC": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "ABTS": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "ABUS": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "ABVC": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 1
+    },
+    "ABVX": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "ABX": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 1
+    },
+    "ABXL": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 1
+    },
+    "ACA": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "ACAA": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "ACAAU": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "ACAAW": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "ACAD": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "ACB": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "ACCL": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "ACCO": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "ACCS": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 1
+    },
+    "ACDC": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "ACEL": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "ACET": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "ACFN": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "ACGC": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "ACGCU": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "ACGCW": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "ACGL": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "ACGLN": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "ACGLO": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "ACH": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "ACHC": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "ACHR": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 1
+    },
+    "ACHV": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "ACI": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "ACIC": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "ACIU": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "ACIW": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "ACLS": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "ACM": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "ACMR": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "ACN": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "ACNB": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "ACNT": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 1
+    },
+    "ACOG": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "ACON": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    },
+    "ACONW": {
+      "news_sentiment": 0.0,
+      "news_count": 0,
+      "reddit_mentions": 0,
+      "reddit_sentiment": 0.0,
+      "sec_filings_7d": 0
+    }
+  }
+}
