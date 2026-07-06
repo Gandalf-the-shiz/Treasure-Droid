@@ -1,0 +1,90 @@
+{
+  "analysisDate": "2026-07-06",
+  "generatedAt": "2026-07-06T08:33:32Z",
+  "windowDays": 7,
+  "overallHitRate": 0.5239,
+  "totalPredictions": 836,
+  "totalCorrect": 438,
+  "dailyRates": [
+    {
+      "date": "2026-07-02",
+      "hitRate": 0.5152,
+      "total": 66
+    },
+    {
+      "date": "2026-07-03",
+      "hitRate": 0.5247,
+      "total": 770
+    }
+  ],
+  "sectorMisses": {
+    "Communication Services": {
+      "hitRate": 0.4091,
+      "total": 22,
+      "correct": 9,
+      "flag": "UNDERPERFORMING"
+    },
+    "Financials": {
+      "hitRate": 0.471,
+      "total": 138,
+      "correct": 65,
+      "flag": "UNDERPERFORMING"
+    },
+    "Other": {
+      "hitRate": 0.5307,
+      "total": 537,
+      "correct": 285,
+      "flag": "OK"
+    },
+    "Technology": {
+      "hitRate": 0.5556,
+      "total": 72,
+      "correct": 40,
+      "flag": "OK"
+    },
+    "Materials": {
+      "hitRate": 0.5714,
+      "total": 49,
+      "correct": 28,
+      "flag": "OK"
+    },
+    "Consumer Staples": {
+      "hitRate": 0.6111,
+      "total": 18,
+      "correct": 11,
+      "flag": "OUTPERFORMING"
+    }
+  },
+  "confidenceBucketAnalysis": [
+    {
+      "bucket": "low (<0.3)",
+      "hitRate": 0.5271,
+      "total": 442,
+      "correct": 233
+    },
+    {
+      "bucket": "medium (0.3-0.5)",
+      "hitRate": 0.5047,
+      "total": 214,
+      "correct": 108
+    },
+    {
+      "bucket": "high (>0.5)",
+      "hitRate": 0.5389,
+      "total": 180,
+      "correct": 97
+    }
+  ],
+  "evTopN": {
+    "n": 20,
+    "hitRate": 0.5,
+    "total": 40,
+    "correct": 20
+  },
+  "topMissPatterns": [
+    "Communication Services sector significantly underperforming (41% vs 52% overall) \u2014 n=22. Consider regime-conditional filtering.",
+    "Financials sector significantly underperforming (47% vs 52% overall) \u2014 n=138. Consider regime-conditional filtering.",
+    "High-confidence predictions (high (>0.5)) not outperforming base rate (54% vs 52% overall). Platt calibration or threshold tuning recommended.",
+    "Top-20 EV predictions (50%) not beating overall (52%). EV scoring needs review."
+  ]
+}
