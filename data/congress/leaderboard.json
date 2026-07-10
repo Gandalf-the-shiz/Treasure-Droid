@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-07-09T11:12:51Z",
+  "generatedAt": "2026-07-10T11:08:05Z",
   "leaderboard": [
+    {
+      "politician": "Rohit Khanna",
+      "buys": 3,
+      "sells": 0,
+      "unique_symbols": 3,
+      "weight": 1.1,
+      "notable": true
+    },
     {
       "politician": "Nancy Pelosi",
       "buys": 2,
@@ -19,9 +27,9 @@
     },
     {
       "politician": "Donald J Trump",
-      "buys": 218,
+      "buys": 188,
       "sells": 147,
-      "unique_symbols": 55,
+      "unique_symbols": 54,
       "weight": 1.0,
       "notable": false
     },
@@ -43,9 +51,9 @@
     },
     {
       "politician": "Maria Elvira Salazar",
-      "buys": 3,
-      "sells": 0,
-      "unique_symbols": 3,
+      "buys": 6,
+      "sells": 1,
+      "unique_symbols": 6,
       "weight": 1.0,
       "notable": false
     },
@@ -70,6 +78,14 @@
       "buys": 2,
       "sells": 1,
       "unique_symbols": 1,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
+      "politician": "Sheldon Whitehouse",
+      "buys": 1,
+      "sells": 4,
+      "unique_symbols": 4,
       "weight": 1.0,
       "notable": false
     },
@@ -166,14 +182,6 @@
       "buys": 0,
       "sells": 1,
       "unique_symbols": 1,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "Sheldon Whitehouse",
-      "buys": 0,
-      "sells": 2,
-      "unique_symbols": 2,
       "weight": 1.0,
       "notable": false
     },
