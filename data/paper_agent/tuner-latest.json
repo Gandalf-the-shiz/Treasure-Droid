@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-09T01:31:08Z",
-  "daysUsed": 13,
+  "generatedAt": "2026-07-10T01:31:59Z",
+  "daysUsed": 14,
   "searchSpace": {
     "minBuyScore": [
       0.5,
@@ -48,11 +48,11 @@
       "finalEquity": 9852.85,
       "returnPct": -1.4715,
       "tradeCount": 82,
-      "avgHitRate": 0.509,
+      "avgHitRate": 0.4974,
       "maxDrawdownPct": 2.3745,
-      "sharpeLike": -0.177352,
-      "objectiveScore": -3.654663,
-      "days": 13
+      "sharpeLike": -0.170709,
+      "objectiveScore": -3.638047,
+      "days": 14
     }
   },
   "top5": [
@@ -70,11 +70,11 @@
         "finalEquity": 9852.85,
         "returnPct": -1.4715,
         "tradeCount": 82,
-        "avgHitRate": 0.509,
+        "avgHitRate": 0.4974,
         "maxDrawdownPct": 2.3745,
-        "sharpeLike": -0.177352,
-        "objectiveScore": -3.654663,
-        "days": 13
+        "sharpeLike": -0.170709,
+        "objectiveScore": -3.638047,
+        "days": 14
       }
     },
     {
@@ -91,11 +91,11 @@
         "finalEquity": 9852.85,
         "returnPct": -1.4715,
         "tradeCount": 82,
-        "avgHitRate": 0.509,
+        "avgHitRate": 0.4974,
         "maxDrawdownPct": 2.3745,
-        "sharpeLike": -0.177352,
-        "objectiveScore": -3.654663,
-        "days": 13
+        "sharpeLike": -0.170709,
+        "objectiveScore": -3.638047,
+        "days": 14
       }
     },
     {
@@ -112,11 +112,11 @@
         "finalEquity": 9852.85,
         "returnPct": -1.4715,
         "tradeCount": 82,
-        "avgHitRate": 0.509,
+        "avgHitRate": 0.4974,
         "maxDrawdownPct": 2.3745,
-        "sharpeLike": -0.177352,
-        "objectiveScore": -3.654663,
-        "days": 13
+        "sharpeLike": -0.170709,
+        "objectiveScore": -3.638047,
+        "days": 14
       }
     },
     {
@@ -133,11 +133,11 @@
         "finalEquity": 9852.85,
         "returnPct": -1.4715,
         "tradeCount": 82,
-        "avgHitRate": 0.509,
+        "avgHitRate": 0.4974,
         "maxDrawdownPct": 2.3745,
-        "sharpeLike": -0.177352,
-        "objectiveScore": -3.654663,
-        "days": 13
+        "sharpeLike": -0.170709,
+        "objectiveScore": -3.638047,
+        "days": 14
       }
     },
     {
@@ -154,11 +154,11 @@
         "finalEquity": 9852.85,
         "returnPct": -1.4715,
         "tradeCount": 82,
-        "avgHitRate": 0.509,
+        "avgHitRate": 0.4974,
         "maxDrawdownPct": 2.3745,
-        "sharpeLike": -0.177352,
-        "objectiveScore": -3.654663,
-        "days": 13
+        "sharpeLike": -0.170709,
+        "objectiveScore": -3.638047,
+        "days": 14
       }
     }
   ]
