@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-10T11:08:05Z",
-  "count": 435,
+  "generatedAt": "2026-07-13T11:08:46Z",
+  "count": 433,
   "trades": [
     {
       "id": "senate_5d9b1b8e-2ae1-442b-860c-e79b8a701dc6_t3",
@@ -6061,34 +6061,6 @@
       "filing_date": "2026-05-14",
       "amount_mid_usd": 75000.5,
       "amount_label": "$50,001 - $100,000",
-      "is_late": true,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Trump_2C_20Donald_20J_-05_08_2026-278T_2__pdf_g1032",
-      "symbol": "INTC",
-      "politician": "Donald J Trump",
-      "chamber": "executive",
-      "party": "",
-      "side": "buy",
-      "transaction_date": "2026-03-13",
-      "filing_date": "2026-05-14",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": true,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Trump_2C_20Donald_20J_-05_08_2026-278T_2__pdf_g1092",
-      "symbol": "NEW",
-      "politician": "Donald J Trump",
-      "chamber": "executive",
-      "party": "",
-      "side": "buy",
-      "transaction_date": "2026-03-12",
-      "filing_date": "2026-05-14",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
       "is_late": true,
       "source": "kadoa_congress_monitor"
     }

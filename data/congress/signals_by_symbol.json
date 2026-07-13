@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-10T11:08:05Z",
+  "generatedAt": "2026-07-13T11:08:46Z",
   "windowDays": 90,
-  "tradeCount": 435,
+  "tradeCount": 433,
   "symbolCount": 107,
   "bySymbol": {
     "NVDA": {
@@ -1501,9 +1501,9 @@
     },
     "INTC": {
       "symbol": "INTC",
-      "buy_count": 4,
+      "buy_count": 3,
       "sell_count": 2,
-      "buy_notional_est": 6097502.5,
+      "buy_notional_est": 6065002.0,
       "sell_notional_est": 107501.0,
       "politicians": [
         "Donald J Trump",
@@ -1533,18 +1533,11 @@
           "filing_date": "2026-05-14",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-03-13",
-          "filing_date": "2026-05-14",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
         }
       ],
       "pelosi_buy": true,
       "last_filing_date": "2026-07-01",
-      "net_flow_score": 0.3333,
+      "net_flow_score": 0.2,
       "congress_score": 1.0,
       "congress_boost": 1.23
     },
@@ -3315,9 +3308,9 @@
     },
     "NEW": {
       "symbol": "NEW",
-      "buy_count": 2,
+      "buy_count": 1,
       "sell_count": 0,
-      "buy_notional_est": 65001.0,
+      "buy_notional_est": 32500.5,
       "sell_notional_est": 0.0,
       "politicians": [
         "Donald J Trump"
@@ -3330,20 +3323,13 @@
           "filing_date": "2026-05-14",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-03-12",
-          "filing_date": "2026-05-14",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
         }
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-05-14",
       "net_flow_score": 1.0,
-      "congress_score": 0.13,
-      "congress_boost": 1.0195
+      "congress_score": 0.065,
+      "congress_boost": 1.0097
     }
   },
   "leaderboard": [
@@ -3373,7 +3359,7 @@
     },
     {
       "politician": "Donald J Trump",
-      "buys": 188,
+      "buys": 186,
       "sells": 147,
       "unique_symbols": 54,
       "weight": 1.0,
