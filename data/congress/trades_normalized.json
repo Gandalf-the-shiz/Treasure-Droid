@@ -1,7 +1,21 @@
 {
-  "generatedAt": "2026-07-13T11:08:46Z",
-  "count": 1051,
+  "generatedAt": "2026-07-14T10:38:56Z",
+  "count": 1052,
   "trades": [
+    {
+      "id": "oge_Michael-Kratsios-06_10_2026-278T_pdf_g0",
+      "symbol": "LQD",
+      "politician": "Michael J Kratsios",
+      "chamber": "executive",
+      "party": "",
+      "side": "buy",
+      "transaction_date": "2026-05-14",
+      "filing_date": "2026-07-11",
+      "amount_mid_usd": 8000.5,
+      "amount_label": "$1,001 - $15,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
     {
       "id": "house_20034916_g0",
       "symbol": "CCI",
