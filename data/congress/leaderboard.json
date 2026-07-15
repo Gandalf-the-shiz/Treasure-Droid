@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T10:38:56Z",
+  "generatedAt": "2026-07-15T10:40:02Z",
   "leaderboard": [
     {
       "politician": "Rohit Khanna",
@@ -7,6 +7,14 @@
       "sells": 0,
       "unique_symbols": 3,
       "weight": 1.1,
+      "notable": true
+    },
+    {
+      "politician": "Michael T. McCaul",
+      "buys": 2,
+      "sells": 3,
+      "unique_symbols": 5,
+      "weight": 1.2,
       "notable": true
     },
     {
@@ -27,7 +35,7 @@
     },
     {
       "politician": "Donald J Trump",
-      "buys": 186,
+      "buys": 178,
       "sells": 147,
       "unique_symbols": 54,
       "weight": 1.0,
@@ -77,6 +85,14 @@
       "politician": "Tim Moore",
       "buys": 2,
       "sells": 1,
+      "unique_symbols": 1,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
+      "politician": "John James",
+      "buys": 1,
+      "sells": 0,
       "unique_symbols": 1,
       "weight": 1.0,
       "notable": false
@@ -134,6 +150,14 @@
       "buys": 1,
       "sells": 3,
       "unique_symbols": 2,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
+      "politician": "Virginia Foxx",
+      "buys": 0,
+      "sells": 1,
+      "unique_symbols": 1,
       "weight": 1.0,
       "notable": false
     },
