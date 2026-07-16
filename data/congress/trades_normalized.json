@@ -1,7 +1,21 @@
 {
-  "generatedAt": "2026-07-15T10:40:02Z",
-  "count": 1049,
+  "generatedAt": "2026-07-16T10:45:25Z",
+  "count": 1047,
   "trades": [
+    {
+      "id": "house_20034999_g0",
+      "symbol": "ICHR",
+      "politician": "Debbie Wasserman Schultz",
+      "chamber": "house",
+      "party": "D",
+      "side": "sell",
+      "transaction_date": "2026-06-17",
+      "filing_date": "2026-07-14",
+      "amount_mid_usd": 8000.5,
+      "amount_label": "$1,001 - $15,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
     {
       "id": "senate_c52854ed-a778-483a-883c-0ba2bba17877_t1",
       "symbol": "FTGC",
@@ -14635,48 +14649,6 @@
     {
       "id": "oge_Trump_2C_20Donald_20J_-05_08_2026-278T_2__pdf_g2042",
       "symbol": "BA",
-      "politician": "Donald J Trump",
-      "chamber": "executive",
-      "party": "",
-      "side": "buy",
-      "transaction_date": "2026-03-17",
-      "filing_date": "2026-05-14",
-      "amount_mid_usd": 8000.5,
-      "amount_label": "$1,001 - $15,000",
-      "is_late": true,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Trump_2C_20Donald_20J_-05_08_2026-278T_2__pdf_g1955",
-      "symbol": "MCD",
-      "politician": "Donald J Trump",
-      "chamber": "executive",
-      "party": "",
-      "side": "buy",
-      "transaction_date": "2026-03-17",
-      "filing_date": "2026-05-14",
-      "amount_mid_usd": 8000.5,
-      "amount_label": "$1,001 - $15,000",
-      "is_late": true,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Trump_2C_20Donald_20J_-05_08_2026-278T_2__pdf_g1937",
-      "symbol": "KO",
-      "politician": "Donald J Trump",
-      "chamber": "executive",
-      "party": "",
-      "side": "buy",
-      "transaction_date": "2026-03-17",
-      "filing_date": "2026-05-14",
-      "amount_mid_usd": 8000.5,
-      "amount_label": "$1,001 - $15,000",
-      "is_late": true,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Trump_2C_20Donald_20J_-05_08_2026-278T_2__pdf_g1935",
-      "symbol": "JNJ",
       "politician": "Donald J Trump",
       "chamber": "executive",
       "party": "",
