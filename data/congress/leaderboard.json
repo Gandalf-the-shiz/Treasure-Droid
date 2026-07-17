@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T10:45:25Z",
+  "generatedAt": "2026-07-17T10:39:00Z",
   "leaderboard": [
     {
       "politician": "Rohit Khanna",
@@ -31,6 +31,14 @@
       "sells": 9,
       "unique_symbols": 9,
       "weight": 1.3,
+      "notable": true
+    },
+    {
+      "politician": "Thomas H Tuberville",
+      "buys": 0,
+      "sells": 8,
+      "unique_symbols": 8,
+      "weight": 1.4,
       "notable": true
     },
     {
@@ -85,6 +93,14 @@
       "politician": "Tim Moore",
       "buys": 2,
       "sells": 1,
+      "unique_symbols": 1,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
+      "politician": "Sean McMaster",
+      "buys": 1,
+      "sells": 0,
       "unique_symbols": 1,
       "weight": 1.0,
       "notable": false
@@ -154,6 +170,22 @@
       "notable": false
     },
     {
+      "politician": "Thomas H. Kean Jr",
+      "buys": 0,
+      "sells": 1,
+      "unique_symbols": 1,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
+      "politician": "Richard W. Allen",
+      "buys": 0,
+      "sells": 7,
+      "unique_symbols": 6,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
       "politician": "Virginia Foxx",
       "buys": 0,
       "sells": 1,
@@ -182,14 +214,6 @@
       "buys": 0,
       "sells": 1,
       "unique_symbols": 1,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "Richard W. Allen",
-      "buys": 0,
-      "sells": 6,
-      "unique_symbols": 6,
       "weight": 1.0,
       "notable": false
     },
