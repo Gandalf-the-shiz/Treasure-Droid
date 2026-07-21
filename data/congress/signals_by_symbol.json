@@ -1,9 +1,67 @@
 {
-  "generatedAt": "2026-07-20T11:07:26Z",
+  "generatedAt": "2026-07-21T10:48:12Z",
   "windowDays": 90,
-  "tradeCount": 443,
-  "symbolCount": 116,
+  "tradeCount": 445,
+  "symbolCount": 117,
   "bySymbol": {
+    "SPCX": {
+      "symbol": "SPCX",
+      "buy_count": 3,
+      "sell_count": 0,
+      "buy_notional_est": 140001.5,
+      "sell_notional_est": 0.0,
+      "politicians": [
+        "William R. Timmons IV",
+        "John James",
+        "Daniel Meuser"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [
+        {
+          "politician": "William R. Timmons IV",
+          "date": "2026-06-15",
+          "filing_date": "2026-07-19",
+          "amount_label": "$50,001 - $100,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "John James",
+          "date": "2026-06-12",
+          "filing_date": "2026-07-12",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Daniel Meuser",
+          "date": "2026-06-15",
+          "filing_date": "2026-07-02",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-07-19",
+      "net_flow_score": 1.0,
+      "congress_score": 0.28,
+      "congress_boost": 1.042
+    },
+    "NOK": {
+      "symbol": "NOK",
+      "buy_count": 0,
+      "sell_count": 1,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 32500.5,
+      "politicians": [
+        "Laurel Lee"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-07-19",
+      "net_flow_score": -1.0,
+      "congress_score": -0.065,
+      "congress_boost": 0.9902
+    },
     "PG": {
       "symbol": "PG",
       "buy_count": 4,
@@ -314,39 +372,6 @@
       "net_flow_score": 1.0,
       "congress_score": 0.065,
       "congress_boost": 1.0097
-    },
-    "SPCX": {
-      "symbol": "SPCX",
-      "buy_count": 2,
-      "sell_count": 0,
-      "buy_notional_est": 65001.0,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "John James",
-        "Daniel Meuser"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "John James",
-          "date": "2026-06-12",
-          "filing_date": "2026-07-12",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Daniel Meuser",
-          "date": "2026-06-15",
-          "filing_date": "2026-07-02",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-12",
-      "net_flow_score": 1.0,
-      "congress_score": 0.13,
-      "congress_boost": 1.0195
     },
     "ARLP": {
       "symbol": "ARLP",
@@ -3646,6 +3671,14 @@
       "notable": false
     },
     {
+      "politician": "William R. Timmons IV",
+      "buys": 1,
+      "sells": 0,
+      "unique_symbols": 1,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
       "politician": "Sean McMaster",
       "buys": 1,
       "sells": 0,
@@ -3714,6 +3747,14 @@
       "buys": 1,
       "sells": 3,
       "unique_symbols": 2,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
+      "politician": "Laurel Lee",
+      "buys": 0,
+      "sells": 1,
+      "unique_symbols": 1,
       "weight": 1.0,
       "notable": false
     },

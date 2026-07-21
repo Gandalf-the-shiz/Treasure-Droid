@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-07-20T11:07:26Z",
-  "count": 443,
+  "generatedAt": "2026-07-21T10:48:12Z",
+  "count": 445,
   "trades": [
+    {
+      "id": "house_20022577_g0",
+      "symbol": "SPCX",
+      "politician": "William R. Timmons IV",
+      "chamber": "house",
+      "party": "R",
+      "side": "buy",
+      "transaction_date": "2026-06-15",
+      "filing_date": "2026-07-19",
+      "amount_mid_usd": 75000.5,
+      "amount_label": "$50,001 - $100,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_20034694_g3",
+      "symbol": "NOK",
+      "politician": "Laurel Lee",
+      "chamber": "house",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2026-05-11",
+      "filing_date": "2026-07-19",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
     {
       "id": "senate_392ac3e5-07f6-4f8c-840f-84e9066ffb29_t9",
       "symbol": "PG",
