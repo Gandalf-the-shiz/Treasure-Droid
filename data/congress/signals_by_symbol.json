@@ -1,9 +1,123 @@
 {
-  "generatedAt": "2026-07-21T10:48:12Z",
+  "generatedAt": "2026-07-22T10:49:10Z",
   "windowDays": 90,
-  "tradeCount": 445,
+  "tradeCount": 447,
   "symbolCount": 117,
   "bySymbol": {
+    "HD": {
+      "symbol": "HD",
+      "buy_count": 5,
+      "sell_count": 11,
+      "buy_notional_est": 693252.55,
+      "sell_notional_est": 6972255.65,
+      "politicians": [
+        "James A. Himes",
+        "Rohit Khanna",
+        "Donald J Trump",
+        "Josh Gottheimer"
+      ],
+      "notable_politicians": [
+        "Rohit Khanna",
+        "Josh Gottheimer"
+      ],
+      "recent_buys": [
+        {
+          "politician": "Rohit Khanna",
+          "date": "2026-06-02",
+          "filing_date": "2026-07-06",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.1
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-05-15",
+          "filing_date": "2026-07-01",
+          "amount_label": "$100,001 - $250,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-04-27",
+          "filing_date": "2026-07-01",
+          "amount_label": "$50,001 - $100,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-04-20",
+          "filing_date": "2026-07-01",
+          "amount_label": "$250,001 - $500,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-03-25",
+          "filing_date": "2026-05-14",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-07-20",
+      "net_flow_score": -0.375,
+      "congress_score": -11.558,
+      "congress_boost": -0.7337
+    },
+    "XOM": {
+      "symbol": "XOM",
+      "buy_count": 7,
+      "sell_count": 4,
+      "buy_notional_est": 412503.5,
+      "sell_notional_est": 1032502.0,
+      "politicians": [
+        "James A. Himes",
+        "Donald J Trump",
+        "Tim Walberg"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-05-18",
+          "filing_date": "2026-07-01",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-05-15",
+          "filing_date": "2026-07-01",
+          "amount_label": "$50,001 - $100,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-05-11",
+          "filing_date": "2026-07-01",
+          "amount_label": "$100,001 - $250,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-04-27",
+          "filing_date": "2026-07-01",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-04-15",
+          "filing_date": "2026-07-01",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-07-20",
+      "net_flow_score": 0.2727,
+      "congress_score": -1.24,
+      "congress_boost": 0.814
+    },
     "SPCX": {
       "symbol": "SPCX",
       "buy_count": 3,
@@ -916,64 +1030,6 @@
       "net_flow_score": 0.2727,
       "congress_score": 0.2165,
       "congress_boost": 1.0325
-    },
-    "HD": {
-      "symbol": "HD",
-      "buy_count": 5,
-      "sell_count": 10,
-      "buy_notional_est": 693252.55,
-      "sell_notional_est": 6939755.15,
-      "politicians": [
-        "Rohit Khanna",
-        "Donald J Trump",
-        "Josh Gottheimer"
-      ],
-      "notable_politicians": [
-        "Rohit Khanna",
-        "Josh Gottheimer"
-      ],
-      "recent_buys": [
-        {
-          "politician": "Rohit Khanna",
-          "date": "2026-06-02",
-          "filing_date": "2026-07-06",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.1
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-05-15",
-          "filing_date": "2026-07-01",
-          "amount_label": "$100,001 - $250,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-04-27",
-          "filing_date": "2026-07-01",
-          "amount_label": "$50,001 - $100,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-04-20",
-          "filing_date": "2026-07-01",
-          "amount_label": "$250,001 - $500,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-03-25",
-          "filing_date": "2026-05-14",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-06",
-      "net_flow_score": -0.3333,
-      "congress_score": -11.493,
-      "congress_boost": -0.724
     },
     "AGX": {
       "symbol": "AGX",
@@ -1969,60 +2025,6 @@
       "net_flow_score": 0.2,
       "congress_score": 1.0,
       "congress_boost": 1.23
-    },
-    "XOM": {
-      "symbol": "XOM",
-      "buy_count": 7,
-      "sell_count": 3,
-      "buy_notional_est": 412503.5,
-      "sell_notional_est": 1000001.5,
-      "politicians": [
-        "Donald J Trump",
-        "Tim Walberg"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-05-18",
-          "filing_date": "2026-07-01",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-05-15",
-          "filing_date": "2026-07-01",
-          "amount_label": "$50,001 - $100,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-05-11",
-          "filing_date": "2026-07-01",
-          "amount_label": "$100,001 - $250,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-04-27",
-          "filing_date": "2026-07-01",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-04-15",
-          "filing_date": "2026-07-01",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-01",
-      "net_flow_score": 0.4,
-      "congress_score": -1.175,
-      "congress_boost": 0.8237
     },
     "CAT": {
       "symbol": "CAT",
@@ -3746,6 +3748,14 @@
       "politician": "John Phelan",
       "buys": 1,
       "sells": 3,
+      "unique_symbols": 2,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
+      "politician": "James A. Himes",
+      "buys": 0,
+      "sells": 2,
       "unique_symbols": 2,
       "weight": 1.0,
       "notable": false

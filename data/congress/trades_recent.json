@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-07-21T10:48:12Z",
-  "count": 445,
+  "generatedAt": "2026-07-22T10:49:10Z",
+  "count": 447,
   "trades": [
+    {
+      "id": "house_20035047_t2",
+      "symbol": "HD",
+      "politician": "James A. Himes",
+      "chamber": "house",
+      "party": "D",
+      "side": "sell",
+      "transaction_date": "2026-07-20",
+      "filing_date": "2026-07-20",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_20035047_t1",
+      "symbol": "XOM",
+      "politician": "James A. Himes",
+      "chamber": "house",
+      "party": "D",
+      "side": "sell",
+      "transaction_date": "2026-07-20",
+      "filing_date": "2026-07-20",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
     {
       "id": "house_20022577_g0",
       "symbol": "SPCX",

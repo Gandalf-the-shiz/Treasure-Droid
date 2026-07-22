@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T10:48:12Z",
+  "generatedAt": "2026-07-22T10:49:10Z",
   "leaderboard": [
     {
       "politician": "Rohit Khanna",
@@ -173,6 +173,14 @@
       "politician": "John Phelan",
       "buys": 1,
       "sells": 3,
+      "unique_symbols": 2,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
+      "politician": "James A. Himes",
+      "buys": 0,
+      "sells": 2,
       "unique_symbols": 2,
       "weight": 1.0,
       "notable": false
