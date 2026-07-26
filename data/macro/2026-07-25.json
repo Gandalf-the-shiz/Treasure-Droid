@@ -1,0 +1,48 @@
+{
+  "date": "2026-07-25",
+  "generatedAt": "2026-07-26T06:06:49Z",
+  "fredApiAvailable": false,
+  "series": {
+    "DFF": 3.63,
+    "T10Y2Y": 0.36,
+    "VIXCLS": 18.7,
+    "UMCSENT": 44.8,
+    "ICSA": 187000.0,
+    "SP500": 7411.98,
+    "M2SL": 23052.3,
+    "T10Y3M": 0.73,
+    "BAMLH0A0HYM2": 2.77,
+    "UNRATE": 4.2,
+    "CPIAUCSL": 332.568,
+    "INDPRO": 102.6395
+  },
+  "seriesSource": {
+    "DFF": "fred-graph",
+    "T10Y2Y": "fred-graph",
+    "VIXCLS": "fred-graph",
+    "UMCSENT": "fred-graph",
+    "ICSA": "fred-graph",
+    "SP500": "fred-graph",
+    "M2SL": "fred-graph",
+    "T10Y3M": "fred-graph",
+    "BAMLH0A0HYM2": "fred-graph",
+    "UNRATE": "fred-graph",
+    "CPIAUCSL": "fred-graph",
+    "INDPRO": "fred-graph"
+  },
+  "regime": "SIDEWAYS",
+  "normalisedFeatures": {
+    "macro_vix_norm": 0.1243,
+    "macro_spread_norm": 0.59,
+    "macro_fed_norm": 0.363,
+    "macro_sentiment_norm": 0.0,
+    "macro_claims_norm": 0.9178,
+    "macro_t10y3m_norm": 0.6825,
+    "macro_hy_oas_norm": 0.0963,
+    "macro_unrate_norm": 0.8286,
+    "macro_cpi_norm": 0.8257,
+    "macro_indpro_norm": 0.632,
+    "macro_sp500_norm": 1.0,
+    "macro_m2_norm": 0.842
+  }
+}
