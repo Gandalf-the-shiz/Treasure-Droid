@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T10:47:10Z",
+  "generatedAt": "2026-07-27T11:09:34Z",
   "leaderboard": [
     {
       "politician": "Rohit Khanna",
@@ -34,6 +34,14 @@
       "notable": true
     },
     {
+      "politician": "Markwayne Mullin",
+      "buys": 0,
+      "sells": 70,
+      "unique_symbols": 60,
+      "weight": 1.2,
+      "notable": true
+    },
+    {
       "politician": "Thomas H Tuberville",
       "buys": 0,
       "sells": 8,
@@ -43,8 +51,8 @@
     },
     {
       "politician": "Donald J Trump",
-      "buys": 121,
-      "sells": 123,
+      "buys": 119,
+      "sells": 122,
       "unique_symbols": 53,
       "weight": 1.0,
       "notable": false
@@ -101,6 +109,14 @@
       "politician": "Tim Moore",
       "buys": 2,
       "sells": 1,
+      "unique_symbols": 1,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
+      "politician": "Debbie Dingell",
+      "buys": 1,
+      "sells": 0,
       "unique_symbols": 1,
       "weight": 1.0,
       "notable": false
@@ -181,6 +197,14 @@
       "politician": "John Phelan",
       "buys": 1,
       "sells": 3,
+      "unique_symbols": 2,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
+      "politician": "Scott A Kupor",
+      "buys": 0,
+      "sells": 2,
       "unique_symbols": 2,
       "weight": 1.0,
       "notable": false
