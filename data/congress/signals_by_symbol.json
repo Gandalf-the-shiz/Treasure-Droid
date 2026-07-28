@@ -1,9 +1,68 @@
 {
-  "generatedAt": "2026-07-27T11:09:34Z",
+  "generatedAt": "2026-07-28T10:55:34Z",
   "windowDays": 90,
-  "tradeCount": 551,
+  "tradeCount": 552,
   "symbolCount": 234,
   "bySymbol": {
+    "NVDA": {
+      "symbol": "NVDA",
+      "buy_count": 7,
+      "sell_count": 6,
+      "buy_notional_est": 3665003.5,
+      "sell_notional_est": 4890003.1,
+      "politicians": [
+        "Sam T. Liccardo",
+        "Markwayne Mullin",
+        "Alan Armstrong",
+        "Sheldon Whitehouse",
+        "Donald J Trump"
+      ],
+      "notable_politicians": [
+        "Markwayne Mullin"
+      ],
+      "recent_buys": [
+        {
+          "politician": "Alan Armstrong",
+          "date": "2026-03-27",
+          "filing_date": "2026-07-21",
+          "amount_label": "$50,001 - $100,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-05-21",
+          "filing_date": "2026-07-01",
+          "amount_label": "$100,001 - $250,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-05-15",
+          "filing_date": "2026-07-01",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-04-27",
+          "filing_date": "2026-07-01",
+          "amount_label": "$100,001 - $250,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-04-15",
+          "filing_date": "2026-07-01",
+          "amount_label": "$100,001 - $250,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-07-27",
+      "net_flow_score": 0.0769,
+      "congress_score": -1.95,
+      "congress_boost": 0.7075
+    },
     "HOOD": {
       "symbol": "HOOD",
       "buy_count": 0,
@@ -336,64 +395,6 @@
       "net_flow_score": -1.0,
       "congress_score": 0.422,
       "congress_boost": 1.0633
-    },
-    "NVDA": {
-      "symbol": "NVDA",
-      "buy_count": 7,
-      "sell_count": 5,
-      "buy_notional_est": 3665003.5,
-      "sell_notional_est": 4857502.6,
-      "politicians": [
-        "Markwayne Mullin",
-        "Alan Armstrong",
-        "Sheldon Whitehouse",
-        "Donald J Trump"
-      ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
-      "recent_buys": [
-        {
-          "politician": "Alan Armstrong",
-          "date": "2026-03-27",
-          "filing_date": "2026-07-21",
-          "amount_label": "$50,001 - $100,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-05-21",
-          "filing_date": "2026-07-01",
-          "amount_label": "$100,001 - $250,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-05-15",
-          "filing_date": "2026-07-01",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-04-27",
-          "filing_date": "2026-07-01",
-          "amount_label": "$100,001 - $250,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-04-15",
-          "filing_date": "2026-07-01",
-          "amount_label": "$100,001 - $250,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-25",
-      "net_flow_score": 0.1667,
-      "congress_score": -1.885,
-      "congress_boost": 0.7172
     },
     "META": {
       "symbol": "META",
@@ -6204,6 +6205,14 @@
       "buys": 1,
       "sells": 3,
       "unique_symbols": 2,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
+      "politician": "Sam T. Liccardo",
+      "buys": 0,
+      "sells": 1,
+      "unique_symbols": 1,
       "weight": 1.0,
       "notable": false
     },

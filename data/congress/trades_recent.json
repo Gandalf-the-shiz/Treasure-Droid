@@ -1,7 +1,21 @@
 {
-  "generatedAt": "2026-07-27T11:09:34Z",
-  "count": 551,
+  "generatedAt": "2026-07-28T10:55:34Z",
+  "count": 552,
   "trades": [
+    {
+      "id": "house_20034736_g0",
+      "symbol": "NVDA",
+      "politician": "Sam T. Liccardo",
+      "chamber": "house",
+      "party": "D",
+      "side": "sell",
+      "transaction_date": "2026-07-21",
+      "filing_date": "2026-07-27",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
     {
       "id": "oge_Scott-A-Kupor-06_22_2026-278T_1__pdf_t3",
       "symbol": "HOOD",
