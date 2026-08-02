@@ -1,6 +1,6 @@
 {
   "date": "2012-03-07",
-  "generatedAt": "2026-07-26T06:06:31Z",
+  "generatedAt": "2026-08-02T06:06:06Z",
   "fredApiAvailable": false,
   "series": {
     "DFF": 0.11,
@@ -9,7 +9,7 @@
     "UMCSENT": 76.2,
     "ICSA": 375000.0,
     "SP500": 4500.0,
-    "M2SL": 9853.9,
+    "M2SL": 9849.3,
     "T10Y3M": 1.9,
     "BAMLH0A0HYM2": 4.0,
     "UNRATE": 8.2,
