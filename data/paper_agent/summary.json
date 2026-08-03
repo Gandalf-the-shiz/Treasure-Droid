@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T01:32:01Z",
+  "generatedAt": "2026-08-03T01:01:43Z",
   "model": "paper-agent-sgd-logistic-v1",
   "source": "data/accuracy/YYYY-MM-DD.json detail rows",
   "daysProcessed": 14,
@@ -10,8 +10,8 @@
   "tradeCount": 82,
   "avgDailyPnl": -8.2072,
   "preUpdateHitRateEarly5": 0.552,
-  "preUpdateHitRateLate5": 0.5157,
-  "onlineLearningDelta": -0.0363,
+  "preUpdateHitRateLate5": 0.5182,
+  "onlineLearningDelta": -0.0338,
   "config": {
     "PAPER_AGENT_STARTING_CASH": 10000.0,
     "PAPER_AGENT_MAX_POSITIONS": 12,

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T01:31:59Z",
+  "generatedAt": "2026-08-03T01:01:42Z",
   "daysUsed": 14,
   "searchSpace": {
     "minBuyScore": [
@@ -48,10 +48,10 @@
       "finalEquity": 9852.85,
       "returnPct": -1.4715,
       "tradeCount": 82,
-      "avgHitRate": 0.4974,
+      "avgHitRate": 0.4983,
       "maxDrawdownPct": 2.3745,
       "sharpeLike": -0.170709,
-      "objectiveScore": -3.638047,
+      "objectiveScore": -3.636247,
       "days": 14
     }
   },
@@ -70,10 +70,10 @@
         "finalEquity": 9852.85,
         "returnPct": -1.4715,
         "tradeCount": 82,
-        "avgHitRate": 0.4974,
+        "avgHitRate": 0.4983,
         "maxDrawdownPct": 2.3745,
         "sharpeLike": -0.170709,
-        "objectiveScore": -3.638047,
+        "objectiveScore": -3.636247,
         "days": 14
       }
     },
@@ -91,10 +91,10 @@
         "finalEquity": 9852.85,
         "returnPct": -1.4715,
         "tradeCount": 82,
-        "avgHitRate": 0.4974,
+        "avgHitRate": 0.4983,
         "maxDrawdownPct": 2.3745,
         "sharpeLike": -0.170709,
-        "objectiveScore": -3.638047,
+        "objectiveScore": -3.636247,
         "days": 14
       }
     },
@@ -112,10 +112,10 @@
         "finalEquity": 9852.85,
         "returnPct": -1.4715,
         "tradeCount": 82,
-        "avgHitRate": 0.4974,
+        "avgHitRate": 0.4983,
         "maxDrawdownPct": 2.3745,
         "sharpeLike": -0.170709,
-        "objectiveScore": -3.638047,
+        "objectiveScore": -3.636247,
         "days": 14
       }
     },
@@ -133,10 +133,10 @@
         "finalEquity": 9852.85,
         "returnPct": -1.4715,
         "tradeCount": 82,
-        "avgHitRate": 0.4974,
+        "avgHitRate": 0.4983,
         "maxDrawdownPct": 2.3745,
         "sharpeLike": -0.170709,
-        "objectiveScore": -3.638047,
+        "objectiveScore": -3.636247,
         "days": 14
       }
     },
@@ -154,10 +154,10 @@
         "finalEquity": 9852.85,
         "returnPct": -1.4715,
         "tradeCount": 82,
-        "avgHitRate": 0.4974,
+        "avgHitRate": 0.4983,
         "maxDrawdownPct": 2.3745,
         "sharpeLike": -0.170709,
-        "objectiveScore": -3.638047,
+        "objectiveScore": -3.636247,
         "days": 14
       }
     }
