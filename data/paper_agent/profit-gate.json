@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-08-04T01:00:21Z",
+  "generatedAt": "2026-08-05T01:19:55Z",
   "status": "warmup",
   "reasons": [
     "insufficient_days_or_trades_for_hard_gate"
   ],
   "metrics": {
-    "daysProcessed": 14,
-    "tradeCount": 82,
-    "totalReturnPct": -1.149,
-    "maxDrawdownPct": 1.9677,
-    "onlineLearningDelta": -0.0338,
+    "daysProcessed": 15,
+    "tradeCount": 24,
+    "totalReturnPct": 3.374,
+    "maxDrawdownPct": 5.197,
+    "onlineLearningDelta": -0.0061,
     "recentWindow": {
-      "windowDays": 14,
-      "returnPct": -1.2716,
-      "maxDrawdownPct": 1.9677,
-      "avgDailyPnl": -8.2072
+      "windowDays": 15,
+      "returnPct": 4.1094,
+      "maxDrawdownPct": 1.6715,
+      "avgDailyPnl": 22.4937
     }
   },
   "thresholds": {
