@@ -1,7 +1,21 @@
 {
-  "generatedAt": "2026-08-04T10:58:06Z",
-  "count": 1754,
+  "generatedAt": "2026-08-05T10:55:59Z",
+  "count": 1755,
   "trades": [
+    {
+      "id": "senate_96db6e64-f7c3-4483-b0aa-af10ba2bdbbd_t0",
+      "symbol": "LOW",
+      "politician": "Sheldon Whitehouse",
+      "chamber": "senate",
+      "party": "D",
+      "side": "sell",
+      "transaction_date": "2026-07-20",
+      "filing_date": "2026-08-03",
+      "amount_mid_usd": 8000.5,
+      "amount_label": "$1,001 - $15,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
     {
       "id": "house_20035023_g0",
       "symbol": "TSM",
