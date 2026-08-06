@@ -1,9 +1,344 @@
 {
-  "generatedAt": "2026-08-05T10:55:59Z",
+  "generatedAt": "2026-08-06T10:57:43Z",
   "windowDays": 90,
-  "tradeCount": 552,
-  "symbolCount": 234,
+  "tradeCount": 563,
+  "symbolCount": 239,
   "bySymbol": {
+    "MSFT": {
+      "symbol": "MSFT",
+      "buy_count": 8,
+      "sell_count": 11,
+      "buy_notional_est": 2015004.15,
+      "sell_notional_est": 6169005.850000001,
+      "politicians": [
+        "Shelley M Capito",
+        "Markwayne Mullin",
+        "Alan Armstrong",
+        "Michael T. McCaul",
+        "Gilbert Cisneros",
+        "Donald J Trump",
+        "Jonathan Jackson",
+        "Josh Gottheimer"
+      ],
+      "notable_politicians": [
+        "Markwayne Mullin",
+        "Michael T. McCaul",
+        "Josh Gottheimer"
+      ],
+      "recent_buys": [
+        {
+          "politician": "Alan Armstrong",
+          "date": "2026-03-27",
+          "filing_date": "2026-07-21",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-05-21",
+          "filing_date": "2026-07-01",
+          "amount_label": "$100,001 - $250,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-05-18",
+          "filing_date": "2026-07-01",
+          "amount_label": "$100,001 - $250,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-04-27",
+          "filing_date": "2026-07-01",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-04-17",
+          "filing_date": "2026-07-01",
+          "amount_label": "$250,001 - $500,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-04",
+      "net_flow_score": -0.1579,
+      "congress_score": -6.808,
+      "congress_boost": -0.0212
+    },
+    "LTH": {
+      "symbol": "LTH",
+      "buy_count": 2,
+      "sell_count": 0,
+      "buy_notional_est": 65001.0,
+      "sell_notional_est": 0.0,
+      "politicians": [
+        "April McClain Delaney"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [
+        {
+          "politician": "April McClain Delaney",
+          "date": "2026-07-31",
+          "filing_date": "2026-08-03",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "April McClain Delaney",
+          "date": "2026-07-24",
+          "filing_date": "2026-08-03",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-03",
+      "net_flow_score": 1.0,
+      "congress_score": 0.13,
+      "congress_boost": 1.0195
+    },
+    "FWONK": {
+      "symbol": "FWONK",
+      "buy_count": 4,
+      "sell_count": 0,
+      "buy_notional_est": 130002.0,
+      "sell_notional_est": 0.0,
+      "politicians": [
+        "April McClain Delaney"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [
+        {
+          "politician": "April McClain Delaney",
+          "date": "2026-07-31",
+          "filing_date": "2026-08-03",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "April McClain Delaney",
+          "date": "2026-07-28",
+          "filing_date": "2026-08-03",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "April McClain Delaney",
+          "date": "2026-07-24",
+          "filing_date": "2026-08-03",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "April McClain Delaney",
+          "date": "2026-07-23",
+          "filing_date": "2026-08-03",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-03",
+      "net_flow_score": 1.0,
+      "congress_score": 0.26,
+      "congress_boost": 1.039
+    },
+    "CHRW": {
+      "symbol": "CHRW",
+      "buy_count": 2,
+      "sell_count": 0,
+      "buy_notional_est": 65001.0,
+      "sell_notional_est": 0.0,
+      "politicians": [
+        "April McClain Delaney"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [
+        {
+          "politician": "April McClain Delaney",
+          "date": "2026-07-31",
+          "filing_date": "2026-08-03",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "April McClain Delaney",
+          "date": "2026-07-27",
+          "filing_date": "2026-08-03",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-03",
+      "net_flow_score": 1.0,
+      "congress_score": 0.13,
+      "congress_boost": 1.0195
+    },
+    "SGI": {
+      "symbol": "SGI",
+      "buy_count": 1,
+      "sell_count": 0,
+      "buy_notional_est": 32500.5,
+      "sell_notional_est": 0.0,
+      "politicians": [
+        "April McClain Delaney"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [
+        {
+          "politician": "April McClain Delaney",
+          "date": "2026-07-30",
+          "filing_date": "2026-08-03",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-03",
+      "net_flow_score": 1.0,
+      "congress_score": 0.065,
+      "congress_boost": 1.0097
+    },
+    "TSCO": {
+      "symbol": "TSCO",
+      "buy_count": 0,
+      "sell_count": 2,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 74751.15,
+      "politicians": [
+        "April McClain Delaney",
+        "Josh Gottheimer"
+      ],
+      "notable_politicians": [
+        "Josh Gottheimer"
+      ],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-03",
+      "net_flow_score": -1.0,
+      "congress_score": 0.3505,
+      "congress_boost": 1.0526
+    },
+    "MLM": {
+      "symbol": "MLM",
+      "buy_count": 1,
+      "sell_count": 1,
+      "buy_notional_est": 32500.5,
+      "sell_notional_est": 42250.65,
+      "politicians": [
+        "April McClain Delaney",
+        "Josh Gottheimer"
+      ],
+      "notable_politicians": [
+        "Josh Gottheimer"
+      ],
+      "recent_buys": [
+        {
+          "politician": "April McClain Delaney",
+          "date": "2026-07-24",
+          "filing_date": "2026-08-03",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-03",
+      "net_flow_score": 0.0,
+      "congress_score": 0.4805,
+      "congress_boost": 1.0721
+    },
+    "BWXT": {
+      "symbol": "BWXT",
+      "buy_count": 3,
+      "sell_count": 0,
+      "buy_notional_est": 97501.5,
+      "sell_notional_est": 0.0,
+      "politicians": [
+        "April McClain Delaney"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [
+        {
+          "politician": "April McClain Delaney",
+          "date": "2026-07-24",
+          "filing_date": "2026-08-03",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "April McClain Delaney",
+          "date": "2026-05-15",
+          "filing_date": "2026-06-05",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "April McClain Delaney",
+          "date": "2026-05-08",
+          "filing_date": "2026-06-05",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-03",
+      "net_flow_score": 1.0,
+      "congress_score": 0.195,
+      "congress_boost": 1.0292
+    },
+    "WAB": {
+      "symbol": "WAB",
+      "buy_count": 0,
+      "sell_count": 1,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 32500.5,
+      "politicians": [
+        "April McClain Delaney"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-03",
+      "net_flow_score": -1.0,
+      "congress_score": -0.065,
+      "congress_boost": 0.9902
+    },
+    "HUBB": {
+      "symbol": "HUBB",
+      "buy_count": 2,
+      "sell_count": 0,
+      "buy_notional_est": 65001.0,
+      "sell_notional_est": 0.0,
+      "politicians": [
+        "April McClain Delaney"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [
+        {
+          "politician": "April McClain Delaney",
+          "date": "2026-07-23",
+          "filing_date": "2026-08-03",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "April McClain Delaney",
+          "date": "2026-05-14",
+          "filing_date": "2026-06-05",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-03",
+      "net_flow_score": 1.0,
+      "congress_score": 0.13,
+      "congress_boost": 1.0195
+    },
     "NVDA": {
       "symbol": "NVDA",
       "buy_count": 7,
@@ -1246,9 +1581,9 @@
     "PG": {
       "symbol": "PG",
       "buy_count": 4,
-      "sell_count": 8,
+      "sell_count": 7,
       "buy_notional_est": 172502.0,
-      "sell_notional_est": 3289504.3,
+      "sell_notional_est": 3257003.8,
       "politicians": [
         "Markwayne Mullin",
         "Alan Armstrong",
@@ -1292,9 +1627,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-07-25",
-      "net_flow_score": -0.3333,
-      "congress_score": -5.234,
-      "congress_boost": 0.2149
+      "net_flow_score": -0.2727,
+      "congress_score": -5.169,
+      "congress_boost": 0.2247
     },
     "PNR": {
       "symbol": "PNR",
@@ -1314,69 +1649,6 @@
       "net_flow_score": -1.0,
       "congress_score": 0.422,
       "congress_boost": 1.0633
-    },
-    "MSFT": {
-      "symbol": "MSFT",
-      "buy_count": 8,
-      "sell_count": 10,
-      "buy_notional_est": 2015004.15,
-      "sell_notional_est": 6136505.350000001,
-      "politicians": [
-        "Markwayne Mullin",
-        "Alan Armstrong",
-        "Michael T. McCaul",
-        "Gilbert Cisneros",
-        "Donald J Trump",
-        "Jonathan Jackson",
-        "Josh Gottheimer"
-      ],
-      "notable_politicians": [
-        "Markwayne Mullin",
-        "Michael T. McCaul",
-        "Josh Gottheimer"
-      ],
-      "recent_buys": [
-        {
-          "politician": "Alan Armstrong",
-          "date": "2026-03-27",
-          "filing_date": "2026-07-21",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-05-21",
-          "filing_date": "2026-07-01",
-          "amount_label": "$100,001 - $250,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-05-18",
-          "filing_date": "2026-07-01",
-          "amount_label": "$100,001 - $250,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-04-27",
-          "filing_date": "2026-07-01",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-04-17",
-          "filing_date": "2026-07-01",
-          "amount_label": "$250,001 - $500,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-25",
-      "net_flow_score": -0.1111,
-      "congress_score": -6.743,
-      "congress_boost": -0.0114
     },
     "MA": {
       "symbol": "MA",
@@ -1478,9 +1750,9 @@
     "HD": {
       "symbol": "HD",
       "buy_count": 4,
-      "sell_count": 13,
+      "sell_count": 12,
       "buy_notional_est": 660752.05,
-      "sell_notional_est": 6794756.75,
+      "sell_notional_est": 6762256.25,
       "politicians": [
         "Markwayne Mullin",
         "Alan Armstrong",
@@ -1526,9 +1798,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-07-25",
-      "net_flow_score": -0.5294,
-      "congress_score": -10.768,
-      "congress_boost": -0.6152
+      "net_flow_score": -0.5,
+      "congress_score": -10.703,
+      "congress_boost": -0.6054
     },
     "ELV": {
       "symbol": "ELV",
@@ -5052,9 +5324,9 @@
     "BA": {
       "symbol": "BA",
       "buy_count": 4,
-      "sell_count": 1,
+      "sell_count": 0,
       "buy_notional_est": 315002.0,
-      "sell_notional_est": 32500.5,
+      "sell_notional_est": 0.0,
       "politicians": [
         "Donald J Trump",
         "Tim Walberg"
@@ -5092,9 +5364,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-07-01",
-      "net_flow_score": 0.6,
-      "congress_score": 0.565,
-      "congress_boost": 1.0848
+      "net_flow_score": 1.0,
+      "congress_score": 0.63,
+      "congress_boost": 1.0945
     },
     "VZ": {
       "symbol": "VZ",
@@ -5214,9 +5486,9 @@
     "DIS": {
       "symbol": "DIS",
       "buy_count": 1,
-      "sell_count": 1,
+      "sell_count": 0,
       "buy_notional_est": 32500.5,
-      "sell_notional_est": 32500.5,
+      "sell_notional_est": 0.0,
       "politicians": [
         "Donald J Trump"
       ],
@@ -5232,9 +5504,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-07-01",
-      "net_flow_score": 0.0,
-      "congress_score": 0.0,
-      "congress_boost": 1.0
+      "net_flow_score": 1.0,
+      "congress_score": 0.065,
+      "congress_boost": 1.0097
     },
     "SBUX": {
       "symbol": "SBUX",
@@ -5514,38 +5786,6 @@
       "congress_score": 0.065,
       "congress_boost": 1.0097
     },
-    "BWXT": {
-      "symbol": "BWXT",
-      "buy_count": 2,
-      "sell_count": 0,
-      "buy_notional_est": 65001.0,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "April McClain Delaney"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "April McClain Delaney",
-          "date": "2026-05-15",
-          "filing_date": "2026-06-05",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "April McClain Delaney",
-          "date": "2026-05-08",
-          "filing_date": "2026-06-05",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-06-05",
-      "net_flow_score": 1.0,
-      "congress_score": 0.13,
-      "congress_boost": 1.0195
-    },
     "PWR": {
       "symbol": "PWR",
       "buy_count": 0,
@@ -5562,31 +5802,6 @@
       "net_flow_score": -1.0,
       "congress_score": -0.065,
       "congress_boost": 0.9902
-    },
-    "HUBB": {
-      "symbol": "HUBB",
-      "buy_count": 1,
-      "sell_count": 0,
-      "buy_notional_est": 32500.5,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "April McClain Delaney"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "April McClain Delaney",
-          "date": "2026-05-14",
-          "filing_date": "2026-06-05",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-06-05",
-      "net_flow_score": 1.0,
-      "congress_score": 0.065,
-      "congress_boost": 1.0097
     },
     "AMP": {
       "symbol": "AMP",
@@ -5841,25 +6056,6 @@
       "congress_score": -3.0,
       "congress_boost": 0.55
     },
-    "TSCO": {
-      "symbol": "TSCO",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 42250.65,
-      "politicians": [
-        "Josh Gottheimer"
-      ],
-      "notable_politicians": [
-        "Josh Gottheimer"
-      ],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-05-19",
-      "net_flow_score": -1.0,
-      "congress_score": 0.4155,
-      "congress_boost": 1.0623
-    },
     "SYF": {
       "symbol": "SYF",
       "buy_count": 0,
@@ -5881,25 +6077,6 @@
     },
     "PFGC": {
       "symbol": "PFGC",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 42250.65,
-      "politicians": [
-        "Josh Gottheimer"
-      ],
-      "notable_politicians": [
-        "Josh Gottheimer"
-      ],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-05-19",
-      "net_flow_score": -1.0,
-      "congress_score": 0.4155,
-      "congress_boost": 1.0623
-    },
-    "MLM": {
-      "symbol": "MLM",
       "buy_count": 0,
       "sell_count": 1,
       "buy_notional_est": 0.0,
@@ -6059,7 +6236,7 @@
     {
       "politician": "Donald J Trump",
       "buys": 119,
-      "sells": 122,
+      "sells": 118,
       "unique_symbols": 53,
       "weight": 1.0,
       "notable": false
@@ -6069,6 +6246,14 @@
       "buys": 77,
       "sells": 38,
       "unique_symbols": 113,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
+      "politician": "April McClain Delaney",
+      "buys": 15,
+      "sells": 3,
+      "unique_symbols": 10,
       "weight": 1.0,
       "notable": false
     },
@@ -6093,14 +6278,6 @@
       "buys": 6,
       "sells": 1,
       "unique_symbols": 6,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "April McClain Delaney",
-      "buys": 3,
-      "sells": 1,
-      "unique_symbols": 3,
       "weight": 1.0,
       "notable": false
     },
@@ -6205,6 +6382,14 @@
       "buys": 1,
       "sells": 3,
       "unique_symbols": 2,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
+      "politician": "Shelley M Capito",
+      "buys": 0,
+      "sells": 1,
+      "unique_symbols": 1,
       "weight": 1.0,
       "notable": false
     },

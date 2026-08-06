@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T10:55:59Z",
+  "generatedAt": "2026-08-06T10:57:43Z",
   "leaderboard": [
     {
       "politician": "Rohit Khanna",
@@ -52,7 +52,7 @@
     {
       "politician": "Donald J Trump",
       "buys": 119,
-      "sells": 122,
+      "sells": 118,
       "unique_symbols": 53,
       "weight": 1.0,
       "notable": false
@@ -62,6 +62,14 @@
       "buys": 77,
       "sells": 38,
       "unique_symbols": 113,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
+      "politician": "April McClain Delaney",
+      "buys": 15,
+      "sells": 3,
+      "unique_symbols": 10,
       "weight": 1.0,
       "notable": false
     },
@@ -86,14 +94,6 @@
       "buys": 6,
       "sells": 1,
       "unique_symbols": 6,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "April McClain Delaney",
-      "buys": 3,
-      "sells": 1,
-      "unique_symbols": 3,
       "weight": 1.0,
       "notable": false
     },
@@ -198,6 +198,14 @@
       "buys": 1,
       "sells": 3,
       "unique_symbols": 2,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
+      "politician": "Shelley M Capito",
+      "buys": 0,
+      "sells": 1,
+      "unique_symbols": 1,
       "weight": 1.0,
       "notable": false
     },
