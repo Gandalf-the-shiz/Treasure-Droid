@@ -1,16 +1,246 @@
 {
-  "generatedAt": "2026-08-06T10:57:43Z",
+  "generatedAt": "2026-08-07T10:24:03Z",
   "windowDays": 90,
-  "tradeCount": 563,
-  "symbolCount": 239,
+  "tradeCount": 608,
+  "symbolCount": 260,
   "bySymbol": {
+    "AAPL": {
+      "symbol": "AAPL",
+      "buy_count": 8,
+      "sell_count": 10,
+      "buy_notional_est": 4915004.0,
+      "sell_notional_est": 1235506.4,
+      "politicians": [
+        "Thomas H Tuberville",
+        "Alan Armstrong",
+        "Sheldon Whitehouse",
+        "Donald J Trump",
+        "Tim Walberg"
+      ],
+      "notable_politicians": [
+        "Thomas H Tuberville"
+      ],
+      "recent_buys": [
+        {
+          "politician": "Alan Armstrong",
+          "date": "2026-03-27",
+          "filing_date": "2026-07-21",
+          "amount_label": "$250,001 - $500,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-05-21",
+          "filing_date": "2026-07-01",
+          "amount_label": "$100,001 - $250,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-05-15",
+          "filing_date": "2026-07-01",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-05-05",
+          "filing_date": "2026-07-01",
+          "amount_label": "$1,000,001 - $5,000,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-04-27",
+          "filing_date": "2026-07-01",
+          "amount_label": "$500,001 - $1,000,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-05",
+      "net_flow_score": -0.1111,
+      "congress_score": 1.0,
+      "congress_boost": 1.15
+    },
+    "XLV": {
+      "symbol": "XLV",
+      "buy_count": 1,
+      "sell_count": 0,
+      "buy_notional_est": 45500.7,
+      "sell_notional_est": 0.0,
+      "politicians": [
+        "Thomas H Tuberville"
+      ],
+      "notable_politicians": [
+        "Thomas H Tuberville"
+      ],
+      "recent_buys": [
+        {
+          "politician": "Thomas H Tuberville",
+          "date": "2025-12-17",
+          "filing_date": "2026-08-05",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.4
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-05",
+      "net_flow_score": 1.0,
+      "congress_score": 0.591,
+      "congress_boost": 1.0886
+    },
+    "XLP": {
+      "symbol": "XLP",
+      "buy_count": 1,
+      "sell_count": 0,
+      "buy_notional_est": 45500.7,
+      "sell_notional_est": 0.0,
+      "politicians": [
+        "Thomas H Tuberville"
+      ],
+      "notable_politicians": [
+        "Thomas H Tuberville"
+      ],
+      "recent_buys": [
+        {
+          "politician": "Thomas H Tuberville",
+          "date": "2025-12-17",
+          "filing_date": "2026-08-05",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.4
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-05",
+      "net_flow_score": 1.0,
+      "congress_score": 0.591,
+      "congress_boost": 1.0886
+    },
+    "XLU": {
+      "symbol": "XLU",
+      "buy_count": 1,
+      "sell_count": 0,
+      "buy_notional_est": 45500.7,
+      "sell_notional_est": 0.0,
+      "politicians": [
+        "Thomas H Tuberville"
+      ],
+      "notable_politicians": [
+        "Thomas H Tuberville"
+      ],
+      "recent_buys": [
+        {
+          "politician": "Thomas H Tuberville",
+          "date": "2025-12-17",
+          "filing_date": "2026-08-05",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.4
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-05",
+      "net_flow_score": 1.0,
+      "congress_score": 0.591,
+      "congress_boost": 1.0886
+    },
+    "ORCL": {
+      "symbol": "ORCL",
+      "buy_count": 2,
+      "sell_count": 3,
+      "buy_notional_est": 407501.0,
+      "sell_notional_est": 110501.7,
+      "politicians": [
+        "Thomas H Tuberville",
+        "Alan Armstrong",
+        "Donald J Trump",
+        "Sheldon Whitehouse"
+      ],
+      "notable_politicians": [
+        "Thomas H Tuberville"
+      ],
+      "recent_buys": [
+        {
+          "politician": "Alan Armstrong",
+          "date": "2026-03-27",
+          "filing_date": "2026-07-21",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-04-27",
+          "filing_date": "2026-07-01",
+          "amount_label": "$250,001 - $500,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-05",
+      "net_flow_score": -0.2,
+      "congress_score": 1.0,
+      "congress_boost": 1.15
+    },
+    "GOOGL": {
+      "symbol": "GOOGL",
+      "buy_count": 4,
+      "sell_count": 7,
+      "buy_notional_est": 1375002.0,
+      "sell_notional_est": 1531004.0,
+      "politicians": [
+        "Thomas H Tuberville",
+        "Markwayne Mullin",
+        "Thomas H. Kean Jr",
+        "Donald J Trump"
+      ],
+      "notable_politicians": [
+        "Thomas H Tuberville",
+        "Markwayne Mullin"
+      ],
+      "recent_buys": [
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-05-05",
+          "filing_date": "2026-07-01",
+          "amount_label": "$500,001 - $1,000,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-04-27",
+          "filing_date": "2026-07-01",
+          "amount_label": "$100,001 - $250,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-04-17",
+          "filing_date": "2026-07-01",
+          "amount_label": "$250,001 - $500,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-04-15",
+          "filing_date": "2026-07-01",
+          "amount_label": "$50,001 - $100,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-05",
+      "net_flow_score": -0.2727,
+      "congress_score": 0.688,
+      "congress_boost": 1.1032
+    },
     "MSFT": {
       "symbol": "MSFT",
       "buy_count": 8,
-      "sell_count": 11,
+      "sell_count": 14,
       "buy_notional_est": 2015004.15,
-      "sell_notional_est": 6169005.850000001,
+      "sell_notional_est": 5976008.15,
       "politicians": [
+        "Thomas H Tuberville",
         "Shelley M Capito",
         "Markwayne Mullin",
         "Alan Armstrong",
@@ -21,6 +251,7 @@
         "Josh Gottheimer"
       ],
       "notable_politicians": [
+        "Thomas H Tuberville",
         "Markwayne Mullin",
         "Michael T. McCaul",
         "Josh Gottheimer"
@@ -63,10 +294,988 @@
         }
       ],
       "pelosi_buy": false,
-      "last_filing_date": "2026-08-04",
-      "net_flow_score": -0.1579,
-      "congress_score": -6.808,
-      "congress_boost": -0.0212
+      "last_filing_date": "2026-08-05",
+      "net_flow_score": -0.2727,
+      "congress_score": -5.922,
+      "congress_boost": 0.1117
+    },
+    "OC": {
+      "symbol": "OC",
+      "buy_count": 0,
+      "sell_count": 2,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 91001.4,
+      "politicians": [
+        "Thomas H Tuberville"
+      ],
+      "notable_politicians": [
+        "Thomas H Tuberville"
+      ],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-05",
+      "net_flow_score": -1.0,
+      "congress_score": 0.318,
+      "congress_boost": 1.0477
+    },
+    "PEP": {
+      "symbol": "PEP",
+      "buy_count": 0,
+      "sell_count": 2,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 78001.2,
+      "politicians": [
+        "Thomas H Tuberville",
+        "Donald J Trump"
+      ],
+      "notable_politicians": [
+        "Thomas H Tuberville"
+      ],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-05",
+      "net_flow_score": -1.0,
+      "congress_score": 0.344,
+      "congress_boost": 1.0516
+    },
+    "MA": {
+      "symbol": "MA",
+      "buy_count": 2,
+      "sell_count": 8,
+      "buy_notional_est": 407501.0,
+      "sell_notional_est": 3922504.6,
+      "politicians": [
+        "Thomas H Tuberville",
+        "Markwayne Mullin",
+        "Alan Armstrong",
+        "Michael T. McCaul",
+        "Donald J Trump"
+      ],
+      "notable_politicians": [
+        "Thomas H Tuberville",
+        "Markwayne Mullin",
+        "Michael T. McCaul"
+      ],
+      "recent_buys": [
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-04-27",
+          "filing_date": "2026-07-01",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-04-20",
+          "filing_date": "2026-07-01",
+          "amount_label": "$250,001 - $500,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-05",
+      "net_flow_score": -0.6,
+      "congress_score": -5.53,
+      "congress_boost": 0.1705
+    },
+    "LLY": {
+      "symbol": "LLY",
+      "buy_count": 2,
+      "sell_count": 3,
+      "buy_notional_est": 150001.0,
+      "sell_notional_est": 630501.8,
+      "politicians": [
+        "Thomas H Tuberville",
+        "Markwayne Mullin",
+        "Gilbert Cisneros",
+        "Donald J Trump"
+      ],
+      "notable_politicians": [
+        "Thomas H Tuberville",
+        "Markwayne Mullin"
+      ],
+      "recent_buys": [
+        {
+          "politician": "Gilbert Cisneros",
+          "date": "2026-06-10",
+          "filing_date": "2026-07-02",
+          "amount_label": "$50,001 - $100,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-05-18",
+          "filing_date": "2026-07-01",
+          "amount_label": "$50,001 - $100,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-05",
+      "net_flow_score": -0.2,
+      "congress_score": 0.039,
+      "congress_boost": 1.0058
+    },
+    "GS": {
+      "symbol": "GS",
+      "buy_count": 6,
+      "sell_count": 4,
+      "buy_notional_est": 1065003.0,
+      "sell_notional_est": 3297752.4499999997,
+      "politicians": [
+        "Thomas H Tuberville",
+        "Markwayne Mullin",
+        "Debbie Dingell",
+        "Alan Armstrong",
+        "Donald J Trump",
+        "Josh Gottheimer"
+      ],
+      "notable_politicians": [
+        "Thomas H Tuberville",
+        "Markwayne Mullin",
+        "Josh Gottheimer"
+      ],
+      "recent_buys": [
+        {
+          "politician": "Debbie Dingell",
+          "date": "2026-07-14",
+          "filing_date": "2026-07-22",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Alan Armstrong",
+          "date": "2026-03-27",
+          "filing_date": "2026-07-21",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-05-05",
+          "filing_date": "2026-07-01",
+          "amount_label": "$100,001 - $250,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-04-27",
+          "filing_date": "2026-07-01",
+          "amount_label": "$50,001 - $100,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-04-17",
+          "filing_date": "2026-07-01",
+          "amount_label": "$250,001 - $500,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-05",
+      "net_flow_score": 0.2,
+      "congress_score": -2.9655,
+      "congress_boost": 0.5552
+    },
+    "DUK": {
+      "symbol": "DUK",
+      "buy_count": 0,
+      "sell_count": 2,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 91001.4,
+      "politicians": [
+        "Thomas H Tuberville"
+      ],
+      "notable_politicians": [
+        "Thomas H Tuberville"
+      ],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-05",
+      "net_flow_score": -1.0,
+      "congress_score": 0.318,
+      "congress_boost": 1.0477
+    },
+    "STZ": {
+      "symbol": "STZ",
+      "buy_count": 0,
+      "sell_count": 1,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 45500.7,
+      "politicians": [
+        "Thomas H Tuberville"
+      ],
+      "notable_politicians": [
+        "Thomas H Tuberville"
+      ],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-05",
+      "net_flow_score": -1.0,
+      "congress_score": 0.409,
+      "congress_boost": 1.0614
+    },
+    "CSX": {
+      "symbol": "CSX",
+      "buy_count": 0,
+      "sell_count": 3,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 136502.09999999998,
+      "politicians": [
+        "Thomas H Tuberville"
+      ],
+      "notable_politicians": [
+        "Thomas H Tuberville"
+      ],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-05",
+      "net_flow_score": -1.0,
+      "congress_score": 0.227,
+      "congress_boost": 1.034
+    },
+    "ADM": {
+      "symbol": "ADM",
+      "buy_count": 0,
+      "sell_count": 1,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 45500.7,
+      "politicians": [
+        "Thomas H Tuberville"
+      ],
+      "notable_politicians": [
+        "Thomas H Tuberville"
+      ],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-05",
+      "net_flow_score": -1.0,
+      "congress_score": 0.409,
+      "congress_boost": 1.0614
+    },
+    "AMGN": {
+      "symbol": "AMGN",
+      "buy_count": 0,
+      "sell_count": 2,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 78001.2,
+      "politicians": [
+        "Thomas H Tuberville",
+        "Alan Armstrong"
+      ],
+      "notable_politicians": [
+        "Thomas H Tuberville"
+      ],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-05",
+      "net_flow_score": -1.0,
+      "congress_score": 0.344,
+      "congress_boost": 1.0516
+    },
+    "JPM": {
+      "symbol": "JPM",
+      "buy_count": 3,
+      "sell_count": 6,
+      "buy_notional_est": 525001.5,
+      "sell_notional_est": 728003.3,
+      "politicians": [
+        "Thomas H Tuberville",
+        "Markwayne Mullin",
+        "Alan Armstrong",
+        "Donald J Trump",
+        "John R Curtis"
+      ],
+      "notable_politicians": [
+        "Thomas H Tuberville",
+        "Markwayne Mullin"
+      ],
+      "recent_buys": [
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-05-29",
+          "filing_date": "2026-07-01",
+          "amount_label": "$100,001 - $250,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-04-27",
+          "filing_date": "2026-07-01",
+          "amount_label": "$100,001 - $250,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "John R Curtis",
+          "date": "2026-06-02",
+          "filing_date": "2026-06-30",
+          "amount_label": "$100,001 - $250,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-05",
+      "net_flow_score": -0.3333,
+      "congress_score": 0.594,
+      "congress_boost": 1.0891
+    },
+    "USIG": {
+      "symbol": "USIG",
+      "buy_count": 1,
+      "sell_count": 0,
+      "buy_notional_est": 105000.7,
+      "sell_notional_est": 0.0,
+      "politicians": [
+        "Thomas H Tuberville"
+      ],
+      "notable_politicians": [
+        "Thomas H Tuberville"
+      ],
+      "recent_buys": [
+        {
+          "politician": "Thomas H Tuberville",
+          "date": "2025-04-15",
+          "filing_date": "2026-08-05",
+          "amount_label": "$50,001 - $100,000",
+          "weight": 1.4
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-05",
+      "net_flow_score": 1.0,
+      "congress_score": 0.71,
+      "congress_boost": 1.1065
+    },
+    "PYPL": {
+      "symbol": "PYPL",
+      "buy_count": 1,
+      "sell_count": 3,
+      "buy_notional_est": 75000.5,
+      "sell_notional_est": 323001.89999999997,
+      "politicians": [
+        "Thomas H Tuberville",
+        "Donald J Trump"
+      ],
+      "notable_politicians": [
+        "Thomas H Tuberville"
+      ],
+      "recent_buys": [
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-04-27",
+          "filing_date": "2026-07-01",
+          "amount_label": "$50,001 - $100,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-05",
+      "net_flow_score": -0.5,
+      "congress_score": 0.004,
+      "congress_boost": 1.0006
+    },
+    "DEO": {
+      "symbol": "DEO",
+      "buy_count": 0,
+      "sell_count": 1,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 45500.7,
+      "politicians": [
+        "Thomas H Tuberville"
+      ],
+      "notable_politicians": [
+        "Thomas H Tuberville"
+      ],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-05",
+      "net_flow_score": -1.0,
+      "congress_score": 0.409,
+      "congress_boost": 1.0614
+    },
+    "TXN": {
+      "symbol": "TXN",
+      "buy_count": 0,
+      "sell_count": 1,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 45500.7,
+      "politicians": [
+        "Thomas H Tuberville"
+      ],
+      "notable_politicians": [
+        "Thomas H Tuberville"
+      ],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-05",
+      "net_flow_score": -1.0,
+      "congress_score": 0.409,
+      "congress_boost": 1.0614
+    },
+    "TSCO": {
+      "symbol": "TSCO",
+      "buy_count": 0,
+      "sell_count": 3,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 120251.85,
+      "politicians": [
+        "Thomas H Tuberville",
+        "April McClain Delaney",
+        "Josh Gottheimer"
+      ],
+      "notable_politicians": [
+        "Thomas H Tuberville",
+        "Josh Gottheimer"
+      ],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-05",
+      "net_flow_score": -1.0,
+      "congress_score": 0.7595,
+      "congress_boost": 1.1139
+    },
+    "TRV": {
+      "symbol": "TRV",
+      "buy_count": 0,
+      "sell_count": 1,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 45500.7,
+      "politicians": [
+        "Thomas H Tuberville"
+      ],
+      "notable_politicians": [
+        "Thomas H Tuberville"
+      ],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-05",
+      "net_flow_score": -1.0,
+      "congress_score": 0.409,
+      "congress_boost": 1.0614
+    },
+    "MCD": {
+      "symbol": "MCD",
+      "buy_count": 5,
+      "sell_count": 4,
+      "buy_notional_est": 332502.5,
+      "sell_notional_est": 328002.2,
+      "politicians": [
+        "Thomas H Tuberville",
+        "Donald J Trump"
+      ],
+      "notable_politicians": [
+        "Thomas H Tuberville"
+      ],
+      "recent_buys": [
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-05-20",
+          "filing_date": "2026-07-01",
+          "amount_label": "$50,001 - $100,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-05-19",
+          "filing_date": "2026-07-01",
+          "amount_label": "$50,001 - $100,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-05-18",
+          "filing_date": "2026-07-01",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-05-15",
+          "filing_date": "2026-07-01",
+          "amount_label": "$50,001 - $100,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-04-17",
+          "filing_date": "2026-07-01",
+          "amount_label": "$50,001 - $100,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-05",
+      "net_flow_score": 0.1111,
+      "congress_score": 0.509,
+      "congress_boost": 1.0763
+    },
+    "KMB": {
+      "symbol": "KMB",
+      "buy_count": 0,
+      "sell_count": 1,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 45500.7,
+      "politicians": [
+        "Thomas H Tuberville"
+      ],
+      "notable_politicians": [
+        "Thomas H Tuberville"
+      ],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-05",
+      "net_flow_score": -1.0,
+      "congress_score": 0.409,
+      "congress_boost": 1.0614
+    },
+    "JNJ": {
+      "symbol": "JNJ",
+      "buy_count": 4,
+      "sell_count": 3,
+      "buy_notional_est": 172502.0,
+      "sell_notional_est": 970501.7,
+      "politicians": [
+        "Thomas H Tuberville",
+        "Alan Armstrong",
+        "Donald J Trump"
+      ],
+      "notable_politicians": [
+        "Thomas H Tuberville"
+      ],
+      "recent_buys": [
+        {
+          "politician": "Alan Armstrong",
+          "date": "2026-03-27",
+          "filing_date": "2026-07-21",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-05-18",
+          "filing_date": "2026-07-01",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-05-15",
+          "filing_date": "2026-07-01",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-04-27",
+          "filing_date": "2026-07-01",
+          "amount_label": "$50,001 - $100,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-05",
+      "net_flow_score": 0.1429,
+      "congress_score": -1.096,
+      "congress_boost": 0.8356
+    },
+    "HON": {
+      "symbol": "HON",
+      "buy_count": 0,
+      "sell_count": 2,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 120501.2,
+      "politicians": [
+        "Thomas H Tuberville",
+        "Alan Armstrong"
+      ],
+      "notable_politicians": [
+        "Thomas H Tuberville"
+      ],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-05",
+      "net_flow_score": -1.0,
+      "congress_score": 0.259,
+      "congress_boost": 1.0389
+    },
+    "ADBE": {
+      "symbol": "ADBE",
+      "buy_count": 1,
+      "sell_count": 5,
+      "buy_notional_est": 45500.7,
+      "sell_notional_est": 3198502.9,
+      "politicians": [
+        "Thomas H Tuberville",
+        "Markwayne Mullin",
+        "Donald J Trump"
+      ],
+      "notable_politicians": [
+        "Thomas H Tuberville",
+        "Markwayne Mullin"
+      ],
+      "recent_buys": [
+        {
+          "politician": "Thomas H Tuberville",
+          "date": "2024-05-08",
+          "filing_date": "2026-08-05",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.4
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-05",
+      "net_flow_score": -0.6667,
+      "congress_score": -5.306,
+      "congress_boost": 0.2041
+    },
+    "ABNFX": {
+      "symbol": "ABNFX",
+      "buy_count": 1,
+      "sell_count": 0,
+      "buy_notional_est": 105000.7,
+      "sell_notional_est": 0.0,
+      "politicians": [
+        "Thomas H Tuberville"
+      ],
+      "notable_politicians": [
+        "Thomas H Tuberville"
+      ],
+      "recent_buys": [
+        {
+          "politician": "Thomas H Tuberville",
+          "date": "2024-08-26",
+          "filing_date": "2026-08-05",
+          "amount_label": "$50,001 - $100,000",
+          "weight": 1.4
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-05",
+      "net_flow_score": 1.0,
+      "congress_score": 0.71,
+      "congress_boost": 1.1065
+    },
+    "EIBLX": {
+      "symbol": "EIBLX",
+      "buy_count": 0,
+      "sell_count": 1,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 105000.7,
+      "politicians": [
+        "Thomas H Tuberville"
+      ],
+      "notable_politicians": [
+        "Thomas H Tuberville"
+      ],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-05",
+      "net_flow_score": -1.0,
+      "congress_score": 0.29,
+      "congress_boost": 1.0435
+    },
+    "UPS": {
+      "symbol": "UPS",
+      "buy_count": 0,
+      "sell_count": 1,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 45500.7,
+      "politicians": [
+        "Thomas H Tuberville"
+      ],
+      "notable_politicians": [
+        "Thomas H Tuberville"
+      ],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-05",
+      "net_flow_score": -1.0,
+      "congress_score": 0.409,
+      "congress_boost": 1.0614
+    },
+    "MDT": {
+      "symbol": "MDT",
+      "buy_count": 0,
+      "sell_count": 1,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 45500.7,
+      "politicians": [
+        "Thomas H Tuberville"
+      ],
+      "notable_politicians": [
+        "Thomas H Tuberville"
+      ],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-05",
+      "net_flow_score": -1.0,
+      "congress_score": 0.409,
+      "congress_boost": 1.0614
+    },
+    "CLF": {
+      "symbol": "CLF",
+      "buy_count": 0,
+      "sell_count": 2,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 490001.39999999997,
+      "politicians": [
+        "Thomas H Tuberville"
+      ],
+      "notable_politicians": [
+        "Thomas H Tuberville"
+      ],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-05",
+      "net_flow_score": -1.0,
+      "congress_score": -0.48,
+      "congress_boost": 0.928
+    },
+    "INTC": {
+      "symbol": "INTC",
+      "buy_count": 5,
+      "sell_count": 4,
+      "buy_notional_est": 6627503.6,
+      "sell_notional_est": 597502.3999999999,
+      "politicians": [
+        "Thomas H Tuberville",
+        "Donald J Trump",
+        "Nancy Pelosi"
+      ],
+      "notable_politicians": [
+        "Thomas H Tuberville",
+        "Nancy Pelosi"
+      ],
+      "recent_buys": [
+        {
+          "politician": "Thomas H Tuberville",
+          "date": "2024-05-09",
+          "filing_date": "2026-08-05",
+          "amount_label": "$50,001 - $100,000",
+          "weight": 1.4
+        },
+        {
+          "politician": "Thomas H Tuberville",
+          "date": "2024-05-08",
+          "filing_date": "2026-08-05",
+          "amount_label": "$100,001 - $250,000",
+          "weight": 1.4
+        },
+        {
+          "politician": "Thomas H Tuberville",
+          "date": "2024-05-07",
+          "filing_date": "2026-08-05",
+          "amount_label": "$100,001 - $250,000",
+          "weight": 1.4
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-04-15",
+          "filing_date": "2026-07-01",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Nancy Pelosi",
+          "date": "2026-05-29",
+          "filing_date": "2026-06-23",
+          "amount_label": "$1,000,001 - $5,000,000",
+          "weight": 2.0
+        }
+      ],
+      "pelosi_buy": true,
+      "last_filing_date": "2026-08-05",
+      "net_flow_score": 0.1111,
+      "congress_score": 1.0,
+      "congress_boost": 1.23
+    },
+    "PARA": {
+      "symbol": "PARA",
+      "buy_count": 1,
+      "sell_count": 1,
+      "buy_notional_est": 45500.7,
+      "sell_notional_est": 245000.69999999998,
+      "politicians": [
+        "Thomas H Tuberville"
+      ],
+      "notable_politicians": [
+        "Thomas H Tuberville"
+      ],
+      "recent_buys": [
+        {
+          "politician": "Thomas H Tuberville",
+          "date": "2024-03-21",
+          "filing_date": "2026-08-05",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.4
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-05",
+      "net_flow_score": 0.0,
+      "congress_score": 0.101,
+      "congress_boost": 1.0151
+    },
+    "GOLD": {
+      "symbol": "GOLD",
+      "buy_count": 0,
+      "sell_count": 1,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 245000.69999999998,
+      "politicians": [
+        "Thomas H Tuberville"
+      ],
+      "notable_politicians": [
+        "Thomas H Tuberville"
+      ],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-05",
+      "net_flow_score": -1.0,
+      "congress_score": 0.01,
+      "congress_boost": 1.0015
+    },
+    "FITB": {
+      "symbol": "FITB",
+      "buy_count": 0,
+      "sell_count": 1,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 45500.7,
+      "politicians": [
+        "Thomas H Tuberville"
+      ],
+      "notable_politicians": [
+        "Thomas H Tuberville"
+      ],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-05",
+      "net_flow_score": -1.0,
+      "congress_score": 0.409,
+      "congress_boost": 1.0614
+    },
+    "ASML": {
+      "symbol": "ASML",
+      "buy_count": 1,
+      "sell_count": 1,
+      "buy_notional_est": 75000.5,
+      "sell_notional_est": 45500.7,
+      "politicians": [
+        "Thomas H Tuberville",
+        "Alan Armstrong"
+      ],
+      "notable_politicians": [
+        "Thomas H Tuberville"
+      ],
+      "recent_buys": [
+        {
+          "politician": "Alan Armstrong",
+          "date": "2026-03-30",
+          "filing_date": "2026-07-21",
+          "amount_label": "$50,001 - $100,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-05",
+      "net_flow_score": 0.0,
+      "congress_score": 0.559,
+      "congress_boost": 1.0838
+    },
+    "HUMA": {
+      "symbol": "HUMA",
+      "buy_count": 1,
+      "sell_count": 1,
+      "buy_notional_est": 45500.7,
+      "sell_notional_est": 45500.7,
+      "politicians": [
+        "Thomas H Tuberville"
+      ],
+      "notable_politicians": [
+        "Thomas H Tuberville"
+      ],
+      "recent_buys": [
+        {
+          "politician": "Thomas H Tuberville",
+          "date": "2024-03-21",
+          "filing_date": "2026-08-05",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.4
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-05",
+      "net_flow_score": 0.0,
+      "congress_score": 0.5,
+      "congress_boost": 1.075
+    },
+    "PFE": {
+      "symbol": "PFE",
+      "buy_count": 0,
+      "sell_count": 3,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 166001.9,
+      "politicians": [
+        "Thomas H Tuberville",
+        "Alan Armstrong"
+      ],
+      "notable_politicians": [
+        "Thomas H Tuberville"
+      ],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-05",
+      "net_flow_score": -1.0,
+      "congress_score": 0.168,
+      "congress_boost": 1.0252
+    },
+    "WBA": {
+      "symbol": "WBA",
+      "buy_count": 1,
+      "sell_count": 0,
+      "buy_notional_est": 45500.7,
+      "sell_notional_est": 0.0,
+      "politicians": [
+        "Thomas H Tuberville"
+      ],
+      "notable_politicians": [
+        "Thomas H Tuberville"
+      ],
+      "recent_buys": [
+        {
+          "politician": "Thomas H Tuberville",
+          "date": "2024-03-21",
+          "filing_date": "2026-08-05",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.4
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-05",
+      "net_flow_score": 1.0,
+      "congress_score": 0.591,
+      "congress_boost": 1.0886
+    },
+    "QCOM": {
+      "symbol": "QCOM",
+      "buy_count": 0,
+      "sell_count": 3,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 1545501.7,
+      "politicians": [
+        "Thomas H Tuberville",
+        "Sara Jacobs"
+      ],
+      "notable_politicians": [
+        "Thomas H Tuberville"
+      ],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-05",
+      "net_flow_score": -1.0,
+      "congress_score": -2.591,
+      "congress_boost": 0.6114
     },
     "LTH": {
       "symbol": "LTH",
@@ -202,26 +1411,6 @@
       "net_flow_score": 1.0,
       "congress_score": 0.065,
       "congress_boost": 1.0097
-    },
-    "TSCO": {
-      "symbol": "TSCO",
-      "buy_count": 0,
-      "sell_count": 2,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 74751.15,
-      "politicians": [
-        "April McClain Delaney",
-        "Josh Gottheimer"
-      ],
-      "notable_politicians": [
-        "Josh Gottheimer"
-      ],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-08-03",
-      "net_flow_score": -1.0,
-      "congress_score": 0.3505,
-      "congress_boost": 1.0526
     },
     "MLM": {
       "symbol": "MLM",
@@ -435,9 +1624,9 @@
     "V": {
       "symbol": "V",
       "buy_count": 4,
-      "sell_count": 6,
+      "sell_count": 5,
       "buy_notional_est": 515002.0,
-      "sell_notional_est": 3690003.1,
+      "sell_notional_est": 3615002.6,
       "politicians": [
         "Markwayne Mullin",
         "Alan Armstrong",
@@ -479,9 +1668,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-07-25",
-      "net_flow_score": -0.2,
-      "congress_score": -5.85,
-      "congress_boost": 0.1225
+      "net_flow_score": -0.1111,
+      "congress_score": -5.7,
+      "congress_boost": 0.145
     },
     "VPU": {
       "symbol": "VPU",
@@ -734,9 +1923,9 @@
     "META": {
       "symbol": "META",
       "buy_count": 6,
-      "sell_count": 6,
+      "sell_count": 5,
       "buy_notional_est": 18457503.0,
-      "sell_notional_est": 4150003.1,
+      "sell_notional_est": 3975002.6,
       "politicians": [
         "Markwayne Mullin",
         "Alan Armstrong",
@@ -784,45 +1973,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-07-25",
-      "net_flow_score": 0.0,
+      "net_flow_score": 0.0909,
       "congress_score": 1.0,
       "congress_boost": 1.15
-    },
-    "LLY": {
-      "symbol": "LLY",
-      "buy_count": 2,
-      "sell_count": 2,
-      "buy_notional_est": 150001.0,
-      "sell_notional_est": 585001.1,
-      "politicians": [
-        "Markwayne Mullin",
-        "Gilbert Cisneros",
-        "Donald J Trump"
-      ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
-      "recent_buys": [
-        {
-          "politician": "Gilbert Cisneros",
-          "date": "2026-06-10",
-          "filing_date": "2026-07-02",
-          "amount_label": "$50,001 - $100,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-05-18",
-          "filing_date": "2026-07-01",
-          "amount_label": "$50,001 - $100,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-25",
-      "net_flow_score": 0.0,
-      "congress_score": -0.37,
-      "congress_boost": 0.9445
     },
     "LRCX": {
       "symbol": "LRCX",
@@ -890,50 +2043,6 @@
       "congress_score": -0.4,
       "congress_boost": 0.94
     },
-    "JPM": {
-      "symbol": "JPM",
-      "buy_count": 3,
-      "sell_count": 6,
-      "buy_notional_est": 525001.5,
-      "sell_notional_est": 857503.1,
-      "politicians": [
-        "Markwayne Mullin",
-        "Alan Armstrong",
-        "Donald J Trump",
-        "John R Curtis"
-      ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
-      "recent_buys": [
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-05-29",
-          "filing_date": "2026-07-01",
-          "amount_label": "$100,001 - $250,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-04-27",
-          "filing_date": "2026-07-01",
-          "amount_label": "$100,001 - $250,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "John R Curtis",
-          "date": "2026-06-02",
-          "filing_date": "2026-06-30",
-          "amount_label": "$100,001 - $250,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-25",
-      "net_flow_score": -0.3333,
-      "congress_score": -0.165,
-      "congress_boost": 0.9752
-    },
     "ICE": {
       "symbol": "ICE",
       "buy_count": 0,
@@ -971,66 +2080,6 @@
       "net_flow_score": -1.0,
       "congress_score": 0.08,
       "congress_boost": 1.012
-    },
-    "GS": {
-      "symbol": "GS",
-      "buy_count": 6,
-      "sell_count": 4,
-      "buy_notional_est": 1065003.0,
-      "sell_notional_est": 3327252.25,
-      "politicians": [
-        "Markwayne Mullin",
-        "Debbie Dingell",
-        "Alan Armstrong",
-        "Donald J Trump",
-        "Josh Gottheimer"
-      ],
-      "notable_politicians": [
-        "Markwayne Mullin",
-        "Josh Gottheimer"
-      ],
-      "recent_buys": [
-        {
-          "politician": "Debbie Dingell",
-          "date": "2026-07-14",
-          "filing_date": "2026-07-22",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Alan Armstrong",
-          "date": "2026-03-27",
-          "filing_date": "2026-07-21",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-05-05",
-          "filing_date": "2026-07-01",
-          "amount_label": "$100,001 - $250,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-04-27",
-          "filing_date": "2026-07-01",
-          "amount_label": "$50,001 - $100,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-04-17",
-          "filing_date": "2026-07-01",
-          "amount_label": "$250,001 - $500,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-25",
-      "net_flow_score": 0.2,
-      "congress_score": -3.5245,
-      "congress_boost": 0.4713
     },
     "EMR": {
       "symbol": "EMR",
@@ -1317,9 +2366,9 @@
     "AXP": {
       "symbol": "AXP",
       "buy_count": 3,
-      "sell_count": 2,
+      "sell_count": 1,
       "buy_notional_est": 3065001.5,
-      "sell_notional_est": 242501.1,
+      "sell_notional_est": 210000.6,
       "politicians": [
         "Markwayne Mullin",
         "Donald J Trump"
@@ -1352,7 +2401,7 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-07-25",
-      "net_flow_score": 0.2,
+      "net_flow_score": 0.5,
       "congress_score": 1.0,
       "congress_boost": 1.15
     },
@@ -1406,62 +2455,12 @@
       "congress_score": 1.0,
       "congress_boost": 1.15
     },
-    "GOOGL": {
-      "symbol": "GOOGL",
-      "buy_count": 4,
-      "sell_count": 6,
-      "buy_notional_est": 1375002.0,
-      "sell_notional_est": 1615003.1,
-      "politicians": [
-        "Markwayne Mullin",
-        "Thomas H. Kean Jr",
-        "Donald J Trump"
-      ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
-      "recent_buys": [
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-05-05",
-          "filing_date": "2026-07-01",
-          "amount_label": "$500,001 - $1,000,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-04-27",
-          "filing_date": "2026-07-01",
-          "amount_label": "$100,001 - $250,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-04-17",
-          "filing_date": "2026-07-01",
-          "amount_label": "$250,001 - $500,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-04-15",
-          "filing_date": "2026-07-01",
-          "amount_label": "$50,001 - $100,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-25",
-      "net_flow_score": -0.2,
-      "congress_score": 0.02,
-      "congress_boost": 1.003
-    },
     "UNH": {
       "symbol": "UNH",
       "buy_count": 6,
-      "sell_count": 3,
+      "sell_count": 2,
       "buy_notional_est": 3305003.0,
-      "sell_notional_est": 617501.6,
+      "sell_notional_est": 585001.1,
       "politicians": [
         "Markwayne Mullin",
         "Alan Armstrong",
@@ -1509,7 +2508,7 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-07-25",
-      "net_flow_score": 0.3333,
+      "net_flow_score": 0.5,
       "congress_score": 1.0,
       "congress_boost": 1.15
     },
@@ -1650,46 +2649,6 @@
       "congress_score": 0.422,
       "congress_boost": 1.0633
     },
-    "MA": {
-      "symbol": "MA",
-      "buy_count": 2,
-      "sell_count": 8,
-      "buy_notional_est": 407501.0,
-      "sell_notional_est": 3909504.4,
-      "politicians": [
-        "Markwayne Mullin",
-        "Alan Armstrong",
-        "Thomas H Tuberville",
-        "Michael T. McCaul",
-        "Donald J Trump"
-      ],
-      "notable_politicians": [
-        "Markwayne Mullin",
-        "Thomas H Tuberville",
-        "Michael T. McCaul"
-      ],
-      "recent_buys": [
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-04-27",
-          "filing_date": "2026-07-01",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-04-20",
-          "filing_date": "2026-07-01",
-          "amount_label": "$250,001 - $500,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-25",
-      "net_flow_score": -0.6,
-      "congress_score": -5.504,
-      "congress_boost": 0.1744
-    },
     "LPLA": {
       "symbol": "LPLA",
       "buy_count": 0,
@@ -1750,9 +2709,9 @@
     "HD": {
       "symbol": "HD",
       "buy_count": 4,
-      "sell_count": 12,
+      "sell_count": 11,
       "buy_notional_est": 660752.05,
-      "sell_notional_est": 6762256.25,
+      "sell_notional_est": 6687255.75,
       "politicians": [
         "Markwayne Mullin",
         "Alan Armstrong",
@@ -1798,9 +2757,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-07-25",
-      "net_flow_score": -0.5,
-      "congress_score": -10.703,
-      "congress_boost": -0.6054
+      "net_flow_score": -0.4667,
+      "congress_score": -10.553,
+      "congress_boost": -0.583
     },
     "ELV": {
       "symbol": "ELV",
@@ -1886,26 +2845,6 @@
       "net_flow_score": -0.3333,
       "congress_score": 0.307,
       "congress_boost": 1.046
-    },
-    "ADBE": {
-      "symbol": "ADBE",
-      "buy_count": 0,
-      "sell_count": 4,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 3153002.2,
-      "politicians": [
-        "Markwayne Mullin",
-        "Donald J Trump"
-      ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-25",
-      "net_flow_score": -1.0,
-      "congress_score": -5.806,
-      "congress_boost": 0.1291
     },
     "VSEC": {
       "symbol": "VSEC",
@@ -2125,31 +3064,6 @@
       "net_flow_score": 1.0,
       "congress_score": 0.065,
       "congress_boost": 1.0097
-    },
-    "ASML": {
-      "symbol": "ASML",
-      "buy_count": 1,
-      "sell_count": 0,
-      "buy_notional_est": 75000.5,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Alan Armstrong"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Alan Armstrong",
-          "date": "2026-03-30",
-          "filing_date": "2026-07-21",
-          "amount_label": "$50,001 - $100,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-21",
-      "net_flow_score": 1.0,
-      "congress_score": 0.15,
-      "congress_boost": 1.0225
     },
     "AZN": {
       "symbol": "AZN",
@@ -3373,9 +4287,9 @@
     "ABBV": {
       "symbol": "ABBV",
       "buy_count": 4,
-      "sell_count": 2,
+      "sell_count": 1,
       "buy_notional_est": 215002.0,
-      "sell_notional_est": 250001.0,
+      "sell_notional_est": 175000.5,
       "politicians": [
         "Alan Armstrong",
         "Donald J Trump"
@@ -3413,9 +4327,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-07-21",
-      "net_flow_score": 0.3333,
-      "congress_score": -0.07,
-      "congress_boost": 0.9895
+      "net_flow_score": 0.6,
+      "congress_score": 0.08,
+      "congress_boost": 1.012
     },
     "AMD": {
       "symbol": "AMD",
@@ -3491,79 +4405,6 @@
       "net_flow_score": 1.0,
       "congress_score": 0.15,
       "congress_boost": 1.0225
-    },
-    "AMGN": {
-      "symbol": "AMGN",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 32500.5,
-      "politicians": [
-        "Alan Armstrong"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-21",
-      "net_flow_score": -1.0,
-      "congress_score": -0.065,
-      "congress_boost": 0.9902
-    },
-    "AAPL": {
-      "symbol": "AAPL",
-      "buy_count": 8,
-      "sell_count": 4,
-      "buy_notional_est": 4915004.0,
-      "sell_notional_est": 1607502.0,
-      "politicians": [
-        "Alan Armstrong",
-        "Sheldon Whitehouse",
-        "Donald J Trump",
-        "Tim Walberg"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Alan Armstrong",
-          "date": "2026-03-27",
-          "filing_date": "2026-07-21",
-          "amount_label": "$250,001 - $500,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-05-21",
-          "filing_date": "2026-07-01",
-          "amount_label": "$100,001 - $250,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-05-15",
-          "filing_date": "2026-07-01",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-05-05",
-          "filing_date": "2026-07-01",
-          "amount_label": "$1,000,001 - $5,000,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-04-27",
-          "filing_date": "2026-07-01",
-          "amount_label": "$500,001 - $1,000,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-21",
-      "net_flow_score": 0.3333,
-      "congress_score": 1.0,
-      "congress_boost": 1.15
     },
     "T": {
       "symbol": "T",
@@ -3660,9 +4501,9 @@
     "AVGO": {
       "symbol": "AVGO",
       "buy_count": 4,
-      "sell_count": 6,
+      "sell_count": 5,
       "buy_notional_est": 3185752.05,
-      "sell_notional_est": 4165003.0,
+      "sell_notional_est": 3990002.5,
       "politicians": [
         "Alan Armstrong",
         "Rohit Khanna",
@@ -3703,9 +4544,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-07-21",
-      "net_flow_score": -0.2,
-      "congress_score": -1.4585,
-      "congress_boost": 0.7812
+      "net_flow_score": -0.1111,
+      "congress_score": -1.1085,
+      "congress_boost": 0.8337
     },
     "CSCO": {
       "symbol": "CSCO",
@@ -3868,53 +4709,6 @@
       "congress_score": -0.065,
       "congress_boost": 0.9902
     },
-    "JNJ": {
-      "symbol": "JNJ",
-      "buy_count": 4,
-      "sell_count": 2,
-      "buy_notional_est": 172502.0,
-      "sell_notional_est": 925001.0,
-      "politicians": [
-        "Alan Armstrong",
-        "Donald J Trump"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Alan Armstrong",
-          "date": "2026-03-27",
-          "filing_date": "2026-07-21",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-05-18",
-          "filing_date": "2026-07-01",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-05-15",
-          "filing_date": "2026-07-01",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-04-27",
-          "filing_date": "2026-07-01",
-          "amount_label": "$50,001 - $100,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-21",
-      "net_flow_score": 0.3333,
-      "congress_score": -1.505,
-      "congress_boost": 0.7742
-    },
     "LDOS": {
       "symbol": "LDOS",
       "buy_count": 0,
@@ -4012,9 +4806,9 @@
     "NFLX": {
       "symbol": "NFLX",
       "buy_count": 4,
-      "sell_count": 4,
+      "sell_count": 3,
       "buy_notional_est": 890002.0,
-      "sell_notional_est": 400002.0,
+      "sell_notional_est": 325001.5,
       "politicians": [
         "Alan Armstrong",
         "Donald J Trump"
@@ -4052,9 +4846,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-07-21",
-      "net_flow_score": 0.0,
-      "congress_score": 0.98,
-      "congress_boost": 1.147
+      "net_flow_score": 0.1429,
+      "congress_score": 1.0,
+      "congress_boost": 1.15
     },
     "NEE": {
       "symbol": "NEE",
@@ -4076,46 +4870,12 @@
       "congress_score": 0.259,
       "congress_boost": 1.0389
     },
-    "ORCL": {
-      "symbol": "ORCL",
-      "buy_count": 2,
-      "sell_count": 3,
-      "buy_notional_est": 407501.0,
-      "sell_notional_est": 97501.5,
-      "politicians": [
-        "Alan Armstrong",
-        "Donald J Trump",
-        "Sheldon Whitehouse"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Alan Armstrong",
-          "date": "2026-03-27",
-          "filing_date": "2026-07-21",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-04-27",
-          "filing_date": "2026-07-01",
-          "amount_label": "$250,001 - $500,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-21",
-      "net_flow_score": -0.2,
-      "congress_score": 0.62,
-      "congress_boost": 1.093
-    },
     "PLTR": {
       "symbol": "PLTR",
       "buy_count": 5,
-      "sell_count": 2,
+      "sell_count": 1,
       "buy_notional_est": 3472502.5,
-      "sell_notional_est": 407501.0,
+      "sell_notional_est": 375000.5,
       "politicians": [
         "Alan Armstrong",
         "Donald J Trump"
@@ -4160,7 +4920,7 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-07-21",
-      "net_flow_score": 0.4286,
+      "net_flow_score": 0.6667,
       "congress_score": 1.0,
       "congress_boost": 1.15
     },
@@ -4269,9 +5029,9 @@
     "TSLA": {
       "symbol": "TSLA",
       "buy_count": 5,
-      "sell_count": 4,
+      "sell_count": 3,
       "buy_notional_est": 965002.5,
-      "sell_notional_est": 657502.0,
+      "sell_notional_est": 482501.5,
       "politicians": [
         "Alan Armstrong",
         "Donald J Trump"
@@ -4316,9 +5076,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-07-21",
-      "net_flow_score": 0.1111,
-      "congress_score": 0.615,
-      "congress_boost": 1.0922
+      "net_flow_score": 0.25,
+      "congress_score": 0.965,
+      "congress_boost": 1.1447
     },
     "TT": {
       "symbol": "TT",
@@ -4438,23 +5198,6 @@
       "congress_score": -0.15,
       "congress_boost": 0.9775
     },
-    "HON": {
-      "symbol": "HON",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 75000.5,
-      "politicians": [
-        "Alan Armstrong"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-21",
-      "net_flow_score": -1.0,
-      "congress_score": -0.15,
-      "congress_boost": 0.9775
-    },
     "LVMUY": {
       "symbol": "LVMUY",
       "buy_count": 0,
@@ -4471,26 +5214,6 @@
       "net_flow_score": -1.0,
       "congress_score": -0.15,
       "congress_boost": 0.9775
-    },
-    "PFE": {
-      "symbol": "PFE",
-      "buy_count": 0,
-      "sell_count": 2,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 120501.2,
-      "politicians": [
-        "Alan Armstrong",
-        "Thomas H Tuberville"
-      ],
-      "notable_politicians": [
-        "Thomas H Tuberville"
-      ],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-21",
-      "net_flow_score": -1.0,
-      "congress_score": 0.259,
-      "congress_boost": 1.0389
     },
     "XOM": {
       "symbol": "XOM",
@@ -4607,44 +5330,6 @@
     },
     "LMT": {
       "symbol": "LMT",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 45500.7,
-      "politicians": [
-        "Thomas H Tuberville"
-      ],
-      "notable_politicians": [
-        "Thomas H Tuberville"
-      ],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-16",
-      "net_flow_score": -1.0,
-      "congress_score": 0.409,
-      "congress_boost": 1.0614
-    },
-    "DUK": {
-      "symbol": "DUK",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 45500.7,
-      "politicians": [
-        "Thomas H Tuberville"
-      ],
-      "notable_politicians": [
-        "Thomas H Tuberville"
-      ],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-16",
-      "net_flow_score": -1.0,
-      "congress_score": 0.409,
-      "congress_boost": 1.0614
-    },
-    "CSX": {
-      "symbol": "CSX",
       "buy_count": 0,
       "sell_count": 1,
       "buy_notional_est": 0.0,
@@ -5099,9 +5784,9 @@
     "WFC": {
       "symbol": "WFC",
       "buy_count": 3,
-      "sell_count": 4,
+      "sell_count": 3,
       "buy_notional_est": 440001.5,
-      "sell_notional_est": 557502.0,
+      "sell_notional_est": 525001.5,
       "politicians": [
         "Donald J Trump",
         "Tim Walberg"
@@ -5132,9 +5817,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-07-01",
-      "net_flow_score": -0.1429,
-      "congress_score": -0.235,
-      "congress_boost": 0.9647
+      "net_flow_score": 0.0,
+      "congress_score": -0.17,
+      "congress_boost": 0.9745
     },
     "SNOW": {
       "symbol": "SNOW",
@@ -5161,65 +5846,12 @@
       "congress_score": 0.0,
       "congress_boost": 1.0
     },
-    "MCD": {
-      "symbol": "MCD",
-      "buy_count": 5,
-      "sell_count": 3,
-      "buy_notional_est": 332502.5,
-      "sell_notional_est": 282501.5,
-      "politicians": [
-        "Donald J Trump"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-05-20",
-          "filing_date": "2026-07-01",
-          "amount_label": "$50,001 - $100,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-05-19",
-          "filing_date": "2026-07-01",
-          "amount_label": "$50,001 - $100,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-05-18",
-          "filing_date": "2026-07-01",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-05-15",
-          "filing_date": "2026-07-01",
-          "amount_label": "$50,001 - $100,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-04-17",
-          "filing_date": "2026-07-01",
-          "amount_label": "$50,001 - $100,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-01",
-      "net_flow_score": 0.25,
-      "congress_score": 0.1,
-      "congress_boost": 1.015
-    },
     "ACN": {
       "symbol": "ACN",
       "buy_count": 3,
-      "sell_count": 5,
+      "sell_count": 4,
       "buy_notional_est": 582501.5,
-      "sell_notional_est": 1265002.5,
+      "sell_notional_est": 1232502.0,
       "politicians": [
         "Donald J Trump",
         "Richard W. Allen"
@@ -5250,9 +5882,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-07-01",
-      "net_flow_score": -0.25,
-      "congress_score": -1.365,
-      "congress_boost": 0.7953
+      "net_flow_score": -0.1429,
+      "congress_score": -1.3,
+      "congress_boost": 0.805
     },
     "NKE": {
       "symbol": "NKE",
@@ -5285,41 +5917,6 @@
       "net_flow_score": 0.3333,
       "congress_score": -0.45,
       "congress_boost": 0.9325
-    },
-    "INTC": {
-      "symbol": "INTC",
-      "buy_count": 2,
-      "sell_count": 2,
-      "buy_notional_est": 6032501.5,
-      "sell_notional_est": 107501.0,
-      "politicians": [
-        "Donald J Trump",
-        "Nancy Pelosi"
-      ],
-      "notable_politicians": [
-        "Nancy Pelosi"
-      ],
-      "recent_buys": [
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-04-15",
-          "filing_date": "2026-07-01",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Nancy Pelosi",
-          "date": "2026-05-29",
-          "filing_date": "2026-06-23",
-          "amount_label": "$1,000,001 - $5,000,000",
-          "weight": 2.0
-        }
-      ],
-      "pelosi_buy": true,
-      "last_filing_date": "2026-07-01",
-      "net_flow_score": 0.0,
-      "congress_score": 1.0,
-      "congress_boost": 1.23
     },
     "BA": {
       "symbol": "BA",
@@ -5424,31 +6021,6 @@
       "congress_score": -0.75,
       "congress_boost": 0.8875
     },
-    "PYPL": {
-      "symbol": "PYPL",
-      "buy_count": 1,
-      "sell_count": 1,
-      "buy_notional_est": 75000.5,
-      "sell_notional_est": 32500.5,
-      "politicians": [
-        "Donald J Trump"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-04-27",
-          "filing_date": "2026-07-01",
-          "amount_label": "$50,001 - $100,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-01",
-      "net_flow_score": 0.0,
-      "congress_score": 0.085,
-      "congress_boost": 1.0128
-    },
     "VOO": {
       "symbol": "VOO",
       "buy_count": 0,
@@ -5465,23 +6037,6 @@
       "net_flow_score": -1.0,
       "congress_score": -12.0,
       "congress_boost": -0.8
-    },
-    "PEP": {
-      "symbol": "PEP",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 32500.5,
-      "politicians": [
-        "Donald J Trump"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-01",
-      "net_flow_score": -1.0,
-      "congress_score": -0.065,
-      "congress_boost": 0.9902
     },
     "DIS": {
       "symbol": "DIS",
@@ -6039,23 +6594,6 @@
       "congress_score": -0.35,
       "congress_boost": 0.9475
     },
-    "QCOM": {
-      "symbol": "QCOM",
-      "buy_count": 0,
-      "sell_count": 2,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 1500001.0,
-      "politicians": [
-        "Sara Jacobs"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-05-20",
-      "net_flow_score": -1.0,
-      "congress_score": -3.0,
-      "congress_boost": 0.55
-    },
     "SYF": {
       "symbol": "SYF",
       "buy_count": 0,
@@ -6186,6 +6724,14 @@
   },
   "leaderboard": [
     {
+      "politician": "Thomas H Tuberville",
+      "buys": 12,
+      "sells": 60,
+      "unique_symbols": 47,
+      "weight": 1.4,
+      "notable": true
+    },
+    {
       "politician": "Rohit Khanna",
       "buys": 3,
       "sells": 0,
@@ -6226,17 +6772,9 @@
       "notable": true
     },
     {
-      "politician": "Thomas H Tuberville",
-      "buys": 0,
-      "sells": 8,
-      "unique_symbols": 8,
-      "weight": 1.4,
-      "notable": true
-    },
-    {
       "politician": "Donald J Trump",
       "buys": 119,
-      "sells": 118,
+      "sells": 99,
       "unique_symbols": 53,
       "weight": 1.0,
       "notable": false
@@ -6547,6 +7085,902 @@
     }
   ],
   "notableTrades": [
+    {
+      "id": "senate_57cf1745-e3dd-4afd-8685-228153848631_t3",
+      "symbol": "AAPL",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2025-12-17",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 75000.5,
+      "amount_label": "$50,001 - $100,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_57cf1745-e3dd-4afd-8685-228153848631_t2",
+      "symbol": "XLV",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "buy",
+      "transaction_date": "2025-12-17",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_57cf1745-e3dd-4afd-8685-228153848631_t1",
+      "symbol": "XLP",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "buy",
+      "transaction_date": "2025-12-17",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_57cf1745-e3dd-4afd-8685-228153848631_t0",
+      "symbol": "XLU",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "buy",
+      "transaction_date": "2025-12-17",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_1a5e6752-653a-4b11-82b6-efd51d466bb6_t5",
+      "symbol": "ORCL",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2025-10-07",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_1a5e6752-653a-4b11-82b6-efd51d466bb6_t4",
+      "symbol": "GOOGL",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2025-10-07",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_1a5e6752-653a-4b11-82b6-efd51d466bb6_t3",
+      "symbol": "AAPL",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2025-10-07",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_1a5e6752-653a-4b11-82b6-efd51d466bb6_t2",
+      "symbol": "MSFT",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2025-10-07",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_1a5e6752-653a-4b11-82b6-efd51d466bb6_t1",
+      "symbol": "OC",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2025-10-07",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_1a5e6752-653a-4b11-82b6-efd51d466bb6_t0",
+      "symbol": "PEP",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2025-10-07",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_014817f0-9809-457f-8ac5-048948608e02_t14",
+      "symbol": "MSFT",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2025-04-15",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_014817f0-9809-457f-8ac5-048948608e02_t13",
+      "symbol": "MA",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2025-04-15",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_014817f0-9809-457f-8ac5-048948608e02_t12",
+      "symbol": "LLY",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2025-04-15",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_014817f0-9809-457f-8ac5-048948608e02_t11",
+      "symbol": "GS",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2025-04-15",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_014817f0-9809-457f-8ac5-048948608e02_t10",
+      "symbol": "DUK",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2025-04-15",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_014817f0-9809-457f-8ac5-048948608e02_t9",
+      "symbol": "STZ",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2025-04-15",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_014817f0-9809-457f-8ac5-048948608e02_t8",
+      "symbol": "CSX",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2025-04-15",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_014817f0-9809-457f-8ac5-048948608e02_t7",
+      "symbol": "ADM",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2025-04-15",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_014817f0-9809-457f-8ac5-048948608e02_t6",
+      "symbol": "AAPL",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2025-04-15",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_014817f0-9809-457f-8ac5-048948608e02_t5",
+      "symbol": "AMGN",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2025-04-15",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_014817f0-9809-457f-8ac5-048948608e02_t4",
+      "symbol": "GOOGL",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2025-04-15",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_014817f0-9809-457f-8ac5-048948608e02_t3",
+      "symbol": "JPM",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2025-04-15",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_014817f0-9809-457f-8ac5-048948608e02_t2",
+      "symbol": "USIG",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "buy",
+      "transaction_date": "2025-04-15",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 75000.5,
+      "amount_label": "$50,001 - $100,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_014817f0-9809-457f-8ac5-048948608e02_t1",
+      "symbol": "PYPL",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2025-04-15",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_d1afafd0-a78f-44ef-ae47-da99dfb01317_t5",
+      "symbol": "AAPL",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2025-01-10",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_d1afafd0-a78f-44ef-ae47-da99dfb01317_t4",
+      "symbol": "MSFT",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2025-01-10",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_d1afafd0-a78f-44ef-ae47-da99dfb01317_t3",
+      "symbol": "DEO",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2025-01-10",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_d1afafd0-a78f-44ef-ae47-da99dfb01317_t2",
+      "symbol": "TXN",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2025-01-10",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_d1afafd0-a78f-44ef-ae47-da99dfb01317_t0",
+      "symbol": "TSCO",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2025-01-10",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_cce52b36-d00c-4710-a8ee-e84893fb4be1_t11",
+      "symbol": "TRV",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2024-10-29",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_cce52b36-d00c-4710-a8ee-e84893fb4be1_t10",
+      "symbol": "OC",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2024-10-29",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_cce52b36-d00c-4710-a8ee-e84893fb4be1_t7",
+      "symbol": "MSFT",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2024-10-29",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_cce52b36-d00c-4710-a8ee-e84893fb4be1_t6",
+      "symbol": "MCD",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2024-10-29",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_cce52b36-d00c-4710-a8ee-e84893fb4be1_t5",
+      "symbol": "KMB",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2024-10-29",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_cce52b36-d00c-4710-a8ee-e84893fb4be1_t4",
+      "symbol": "JNJ",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2024-10-29",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_cce52b36-d00c-4710-a8ee-e84893fb4be1_t3",
+      "symbol": "HON",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2024-10-29",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_cce52b36-d00c-4710-a8ee-e84893fb4be1_t1",
+      "symbol": "AAPL",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2024-10-29",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_cce52b36-d00c-4710-a8ee-e84893fb4be1_t0",
+      "symbol": "ADBE",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2024-10-29",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_2758f09a-fda9-4fb4-a465-270173a8125d_t5",
+      "symbol": "ABNFX",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "buy",
+      "transaction_date": "2024-08-26",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 75000.5,
+      "amount_label": "$50,001 - $100,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_2758f09a-fda9-4fb4-a465-270173a8125d_t4",
+      "symbol": "EIBLX",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2024-08-26",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 75000.5,
+      "amount_label": "$50,001 - $100,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_2758f09a-fda9-4fb4-a465-270173a8125d_t3",
+      "symbol": "UPS",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2024-08-26",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_2758f09a-fda9-4fb4-a465-270173a8125d_t1",
+      "symbol": "MDT",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2024-08-26",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_2758f09a-fda9-4fb4-a465-270173a8125d_t0",
+      "symbol": "AAPL",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2024-08-26",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_0a25588d-a3f8-4ed6-971a-706097f78e3a_t7",
+      "symbol": "CLF",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2024-05-13",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 175000.5,
+      "amount_label": "$100,001 - $250,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_0a25588d-a3f8-4ed6-971a-706097f78e3a_t5",
+      "symbol": "INTC",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2024-05-13",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 175000.5,
+      "amount_label": "$100,001 - $250,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_0a25588d-a3f8-4ed6-971a-706097f78e3a_t18",
+      "symbol": "CLF",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2024-05-10",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 175000.5,
+      "amount_label": "$100,001 - $250,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_0a25588d-a3f8-4ed6-971a-706097f78e3a_t14",
+      "symbol": "INTC",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2024-05-10",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 175000.5,
+      "amount_label": "$100,001 - $250,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_0a25588d-a3f8-4ed6-971a-706097f78e3a_t12",
+      "symbol": "PARA",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2024-05-10",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 175000.5,
+      "amount_label": "$100,001 - $250,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_0a25588d-a3f8-4ed6-971a-706097f78e3a_t20",
+      "symbol": "INTC",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "buy",
+      "transaction_date": "2024-05-09",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 75000.5,
+      "amount_label": "$50,001 - $100,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_0a25588d-a3f8-4ed6-971a-706097f78e3a_t24",
+      "symbol": "INTC",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "buy",
+      "transaction_date": "2024-05-08",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 175000.5,
+      "amount_label": "$100,001 - $250,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_0a25588d-a3f8-4ed6-971a-706097f78e3a_t22",
+      "symbol": "ADBE",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "buy",
+      "transaction_date": "2024-05-08",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_0a25588d-a3f8-4ed6-971a-706097f78e3a_t35",
+      "symbol": "GOLD",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2024-05-07",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 175000.5,
+      "amount_label": "$100,001 - $250,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_0a25588d-a3f8-4ed6-971a-706097f78e3a_t34",
+      "symbol": "FITB",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2024-05-07",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_0a25588d-a3f8-4ed6-971a-706097f78e3a_t33",
+      "symbol": "INTC",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "buy",
+      "transaction_date": "2024-05-07",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 175000.5,
+      "amount_label": "$100,001 - $250,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_0a25588d-a3f8-4ed6-971a-706097f78e3a_t84",
+      "symbol": "ASML",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2024-05-03",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_0a25588d-a3f8-4ed6-971a-706097f78e3a_t69",
+      "symbol": "HUMA",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2024-05-03",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_0a25588d-a3f8-4ed6-971a-706097f78e3a_t54",
+      "symbol": "PYPL",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2024-05-03",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 175000.5,
+      "amount_label": "$100,001 - $250,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_0a25588d-a3f8-4ed6-971a-706097f78e3a_t52",
+      "symbol": "PFE",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2024-05-03",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_548cacbf-7cf2-42cb-9f23-71250938caae_t5",
+      "symbol": "HUMA",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "buy",
+      "transaction_date": "2024-03-21",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_548cacbf-7cf2-42cb-9f23-71250938caae_t1",
+      "symbol": "PARA",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "buy",
+      "transaction_date": "2024-03-21",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_548cacbf-7cf2-42cb-9f23-71250938caae_t0",
+      "symbol": "WBA",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "buy",
+      "transaction_date": "2024-03-21",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_548cacbf-7cf2-42cb-9f23-71250938caae_t6",
+      "symbol": "QCOM",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2024-03-13",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_548cacbf-7cf2-42cb-9f23-71250938caae_t12",
+      "symbol": "CSX",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2024-03-12",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_548cacbf-7cf2-42cb-9f23-71250938caae_t10",
+      "symbol": "AAPL",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2024-03-12",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
     {
       "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t65",
       "symbol": "V",
@@ -7921,6 +9355,902 @@
     }
   ],
   "watchlistHistory": [
+    {
+      "id": "senate_57cf1745-e3dd-4afd-8685-228153848631_t3",
+      "symbol": "AAPL",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2025-12-17",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 75000.5,
+      "amount_label": "$50,001 - $100,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_57cf1745-e3dd-4afd-8685-228153848631_t2",
+      "symbol": "XLV",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "buy",
+      "transaction_date": "2025-12-17",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_57cf1745-e3dd-4afd-8685-228153848631_t1",
+      "symbol": "XLP",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "buy",
+      "transaction_date": "2025-12-17",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_57cf1745-e3dd-4afd-8685-228153848631_t0",
+      "symbol": "XLU",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "buy",
+      "transaction_date": "2025-12-17",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_1a5e6752-653a-4b11-82b6-efd51d466bb6_t5",
+      "symbol": "ORCL",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2025-10-07",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_1a5e6752-653a-4b11-82b6-efd51d466bb6_t4",
+      "symbol": "GOOGL",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2025-10-07",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_1a5e6752-653a-4b11-82b6-efd51d466bb6_t3",
+      "symbol": "AAPL",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2025-10-07",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_1a5e6752-653a-4b11-82b6-efd51d466bb6_t2",
+      "symbol": "MSFT",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2025-10-07",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_1a5e6752-653a-4b11-82b6-efd51d466bb6_t1",
+      "symbol": "OC",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2025-10-07",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_1a5e6752-653a-4b11-82b6-efd51d466bb6_t0",
+      "symbol": "PEP",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2025-10-07",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_014817f0-9809-457f-8ac5-048948608e02_t14",
+      "symbol": "MSFT",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2025-04-15",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_014817f0-9809-457f-8ac5-048948608e02_t13",
+      "symbol": "MA",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2025-04-15",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_014817f0-9809-457f-8ac5-048948608e02_t12",
+      "symbol": "LLY",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2025-04-15",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_014817f0-9809-457f-8ac5-048948608e02_t11",
+      "symbol": "GS",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2025-04-15",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_014817f0-9809-457f-8ac5-048948608e02_t10",
+      "symbol": "DUK",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2025-04-15",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_014817f0-9809-457f-8ac5-048948608e02_t9",
+      "symbol": "STZ",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2025-04-15",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_014817f0-9809-457f-8ac5-048948608e02_t8",
+      "symbol": "CSX",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2025-04-15",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_014817f0-9809-457f-8ac5-048948608e02_t7",
+      "symbol": "ADM",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2025-04-15",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_014817f0-9809-457f-8ac5-048948608e02_t6",
+      "symbol": "AAPL",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2025-04-15",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_014817f0-9809-457f-8ac5-048948608e02_t5",
+      "symbol": "AMGN",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2025-04-15",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_014817f0-9809-457f-8ac5-048948608e02_t4",
+      "symbol": "GOOGL",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2025-04-15",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_014817f0-9809-457f-8ac5-048948608e02_t3",
+      "symbol": "JPM",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2025-04-15",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_014817f0-9809-457f-8ac5-048948608e02_t2",
+      "symbol": "USIG",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "buy",
+      "transaction_date": "2025-04-15",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 75000.5,
+      "amount_label": "$50,001 - $100,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_014817f0-9809-457f-8ac5-048948608e02_t1",
+      "symbol": "PYPL",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2025-04-15",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_d1afafd0-a78f-44ef-ae47-da99dfb01317_t5",
+      "symbol": "AAPL",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2025-01-10",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_d1afafd0-a78f-44ef-ae47-da99dfb01317_t4",
+      "symbol": "MSFT",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2025-01-10",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_d1afafd0-a78f-44ef-ae47-da99dfb01317_t3",
+      "symbol": "DEO",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2025-01-10",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_d1afafd0-a78f-44ef-ae47-da99dfb01317_t2",
+      "symbol": "TXN",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2025-01-10",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_d1afafd0-a78f-44ef-ae47-da99dfb01317_t0",
+      "symbol": "TSCO",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2025-01-10",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_cce52b36-d00c-4710-a8ee-e84893fb4be1_t11",
+      "symbol": "TRV",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2024-10-29",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_cce52b36-d00c-4710-a8ee-e84893fb4be1_t10",
+      "symbol": "OC",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2024-10-29",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_cce52b36-d00c-4710-a8ee-e84893fb4be1_t7",
+      "symbol": "MSFT",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2024-10-29",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_cce52b36-d00c-4710-a8ee-e84893fb4be1_t6",
+      "symbol": "MCD",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2024-10-29",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_cce52b36-d00c-4710-a8ee-e84893fb4be1_t5",
+      "symbol": "KMB",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2024-10-29",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_cce52b36-d00c-4710-a8ee-e84893fb4be1_t4",
+      "symbol": "JNJ",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2024-10-29",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_cce52b36-d00c-4710-a8ee-e84893fb4be1_t3",
+      "symbol": "HON",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2024-10-29",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_cce52b36-d00c-4710-a8ee-e84893fb4be1_t1",
+      "symbol": "AAPL",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2024-10-29",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_cce52b36-d00c-4710-a8ee-e84893fb4be1_t0",
+      "symbol": "ADBE",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2024-10-29",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_2758f09a-fda9-4fb4-a465-270173a8125d_t5",
+      "symbol": "ABNFX",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "buy",
+      "transaction_date": "2024-08-26",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 75000.5,
+      "amount_label": "$50,001 - $100,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_2758f09a-fda9-4fb4-a465-270173a8125d_t4",
+      "symbol": "EIBLX",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2024-08-26",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 75000.5,
+      "amount_label": "$50,001 - $100,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_2758f09a-fda9-4fb4-a465-270173a8125d_t3",
+      "symbol": "UPS",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2024-08-26",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_2758f09a-fda9-4fb4-a465-270173a8125d_t1",
+      "symbol": "MDT",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2024-08-26",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_2758f09a-fda9-4fb4-a465-270173a8125d_t0",
+      "symbol": "AAPL",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2024-08-26",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_0a25588d-a3f8-4ed6-971a-706097f78e3a_t7",
+      "symbol": "CLF",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2024-05-13",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 175000.5,
+      "amount_label": "$100,001 - $250,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_0a25588d-a3f8-4ed6-971a-706097f78e3a_t5",
+      "symbol": "INTC",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2024-05-13",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 175000.5,
+      "amount_label": "$100,001 - $250,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_0a25588d-a3f8-4ed6-971a-706097f78e3a_t18",
+      "symbol": "CLF",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2024-05-10",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 175000.5,
+      "amount_label": "$100,001 - $250,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_0a25588d-a3f8-4ed6-971a-706097f78e3a_t14",
+      "symbol": "INTC",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2024-05-10",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 175000.5,
+      "amount_label": "$100,001 - $250,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_0a25588d-a3f8-4ed6-971a-706097f78e3a_t12",
+      "symbol": "PARA",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2024-05-10",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 175000.5,
+      "amount_label": "$100,001 - $250,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_0a25588d-a3f8-4ed6-971a-706097f78e3a_t20",
+      "symbol": "INTC",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "buy",
+      "transaction_date": "2024-05-09",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 75000.5,
+      "amount_label": "$50,001 - $100,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_0a25588d-a3f8-4ed6-971a-706097f78e3a_t24",
+      "symbol": "INTC",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "buy",
+      "transaction_date": "2024-05-08",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 175000.5,
+      "amount_label": "$100,001 - $250,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_0a25588d-a3f8-4ed6-971a-706097f78e3a_t22",
+      "symbol": "ADBE",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "buy",
+      "transaction_date": "2024-05-08",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_0a25588d-a3f8-4ed6-971a-706097f78e3a_t35",
+      "symbol": "GOLD",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2024-05-07",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 175000.5,
+      "amount_label": "$100,001 - $250,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_0a25588d-a3f8-4ed6-971a-706097f78e3a_t34",
+      "symbol": "FITB",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2024-05-07",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_0a25588d-a3f8-4ed6-971a-706097f78e3a_t33",
+      "symbol": "INTC",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "buy",
+      "transaction_date": "2024-05-07",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 175000.5,
+      "amount_label": "$100,001 - $250,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_0a25588d-a3f8-4ed6-971a-706097f78e3a_t84",
+      "symbol": "ASML",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2024-05-03",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_0a25588d-a3f8-4ed6-971a-706097f78e3a_t69",
+      "symbol": "HUMA",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2024-05-03",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_0a25588d-a3f8-4ed6-971a-706097f78e3a_t54",
+      "symbol": "PYPL",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2024-05-03",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 175000.5,
+      "amount_label": "$100,001 - $250,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_0a25588d-a3f8-4ed6-971a-706097f78e3a_t52",
+      "symbol": "PFE",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2024-05-03",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_548cacbf-7cf2-42cb-9f23-71250938caae_t5",
+      "symbol": "HUMA",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "buy",
+      "transaction_date": "2024-03-21",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_548cacbf-7cf2-42cb-9f23-71250938caae_t1",
+      "symbol": "PARA",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "buy",
+      "transaction_date": "2024-03-21",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_548cacbf-7cf2-42cb-9f23-71250938caae_t0",
+      "symbol": "WBA",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "buy",
+      "transaction_date": "2024-03-21",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_548cacbf-7cf2-42cb-9f23-71250938caae_t6",
+      "symbol": "QCOM",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2024-03-13",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_548cacbf-7cf2-42cb-9f23-71250938caae_t12",
+      "symbol": "CSX",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2024-03-12",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "senate_548cacbf-7cf2-42cb-9f23-71250938caae_t10",
+      "symbol": "AAPL",
+      "politician": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2024-03-12",
+      "filing_date": "2026-08-05",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
     {
       "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t65",
       "symbol": "V",

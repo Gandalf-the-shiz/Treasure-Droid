@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-08-06T10:57:43Z",
+  "generatedAt": "2026-08-07T10:24:03Z",
   "leaderboard": [
+    {
+      "politician": "Thomas H Tuberville",
+      "buys": 12,
+      "sells": 60,
+      "unique_symbols": 47,
+      "weight": 1.4,
+      "notable": true
+    },
     {
       "politician": "Rohit Khanna",
       "buys": 3,
@@ -42,17 +50,9 @@
       "notable": true
     },
     {
-      "politician": "Thomas H Tuberville",
-      "buys": 0,
-      "sells": 8,
-      "unique_symbols": 8,
-      "weight": 1.4,
-      "notable": true
-    },
-    {
       "politician": "Donald J Trump",
       "buys": 119,
-      "sells": 118,
+      "sells": 99,
       "unique_symbols": 53,
       "weight": 1.0,
       "notable": false
