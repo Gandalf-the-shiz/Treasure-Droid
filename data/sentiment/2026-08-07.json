@@ -1,6 +1,6 @@
 {
   "date": "2026-08-07",
-  "generatedAt": "2026-08-07T00:02:41Z",
+  "generatedAt": "2026-08-07T22:13:31Z",
   "sources": {
     "newsapi": false,
     "reddit": true,
@@ -327,7 +327,7 @@
       "news_count": 0,
       "reddit_mentions": 0,
       "reddit_sentiment": 0.0,
-      "sec_filings_7d": 1
+      "sec_filings_7d": 2
     },
     "ABEO": {
       "news_sentiment": 0.0,
@@ -663,7 +663,7 @@
       "news_count": 0,
       "reddit_mentions": 0,
       "reddit_sentiment": 0.0,
-      "sec_filings_7d": 0
+      "sec_filings_7d": 1
     },
     "ACN": {
       "news_sentiment": 0.0,
