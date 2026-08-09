@@ -1,6 +1,6 @@
 {
   "date": "2026-07-25",
-  "generatedAt": "2026-08-07T09:51:34Z",
+  "generatedAt": "2026-08-09T05:26:55Z",
   "fredApiAvailable": false,
   "series": {
     "DFF": 3.63,
@@ -12,7 +12,7 @@
     "M2SL": 23155.2,
     "T10Y3M": 0.73,
     "BAMLH0A0HYM2": 2.79,
-    "UNRATE": 4.2,
+    "UNRATE": 4.1,
     "CPIAUCSL": 332.568,
     "INDPRO": 102.6395
   },
@@ -39,7 +39,7 @@
     "macro_claims_norm": 0.8933,
     "macro_t10y3m_norm": 0.6825,
     "macro_hy_oas_norm": 0.0988,
-    "macro_unrate_norm": 0.8286,
+    "macro_unrate_norm": 0.8429,
     "macro_cpi_norm": 0.8257,
     "macro_indpro_norm": 0.632,
     "macro_sp500_norm": 1.0,
