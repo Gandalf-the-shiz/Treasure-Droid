@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T10:24:03Z",
+  "generatedAt": "2026-08-10T10:34:21Z",
   "leaderboard": [
     {
       "politician": "Thomas H Tuberville",
@@ -109,6 +109,14 @@
       "politician": "Tim Moore",
       "buys": 2,
       "sells": 1,
+      "unique_symbols": 1,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
+      "politician": "Frank J Bisignano",
+      "buys": 1,
+      "sells": 0,
       "unique_symbols": 1,
       "weight": 1.0,
       "notable": false

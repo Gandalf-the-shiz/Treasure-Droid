@@ -1,7 +1,21 @@
 {
-  "generatedAt": "2026-08-07T10:24:03Z",
-  "count": 608,
+  "generatedAt": "2026-08-10T10:34:21Z",
+  "count": 609,
   "trades": [
+    {
+      "id": "oge_Frank-J-Bisignano-07_07_2026-278T_pdf_g1",
+      "symbol": "SPY",
+      "politician": "Frank J Bisignano",
+      "chamber": "executive",
+      "party": "",
+      "side": "buy",
+      "transaction_date": "2026-06-16",
+      "filing_date": "2026-08-08",
+      "amount_mid_usd": 75000.5,
+      "amount_label": "$50,001 - $100,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
     {
       "id": "senate_57cf1745-e3dd-4afd-8685-228153848631_t3",
       "symbol": "AAPL",
