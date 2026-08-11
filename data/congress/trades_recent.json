@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-10T10:34:21Z",
-  "count": 609,
+  "generatedAt": "2026-08-11T10:23:29Z",
+  "count": 614,
   "trades": [
     {
       "id": "oge_Frank-J-Bisignano-07_07_2026-278T_pdf_g1",
@@ -14,6 +14,34 @@
       "amount_mid_usd": 75000.5,
       "amount_label": "$50,001 - $100,000",
       "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_20035157_g0",
+      "symbol": "PINS",
+      "politician": "Christian D. Menefee",
+      "chamber": "house",
+      "party": "D",
+      "side": "sell",
+      "transaction_date": "2026-08-07",
+      "filing_date": "2026-08-07",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_20035138_g4",
+      "symbol": "CB",
+      "politician": "Maria Elvira Salazar",
+      "chamber": "house",
+      "party": "R",
+      "side": "buy",
+      "transaction_date": "2026-07-01",
+      "filing_date": "2026-08-07",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
       "source": "kadoa_congress_monitor"
     },
     {
@@ -2141,6 +2169,48 @@
       "filing_date": "2026-07-25",
       "amount_mid_usd": 32500.5,
       "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_9116260_g5",
+      "symbol": "NOW",
+      "politician": "Tony Wied",
+      "chamber": "house",
+      "party": "R",
+      "side": "buy",
+      "transaction_date": "2026-06-09",
+      "filing_date": "2026-07-24",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_9116260_g1",
+      "symbol": "CRM",
+      "politician": "Tony Wied",
+      "chamber": "house",
+      "party": "R",
+      "side": "buy",
+      "transaction_date": "2026-06-09",
+      "filing_date": "2026-07-24",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_9116260_g0",
+      "symbol": "ADBE",
+      "politician": "Tony Wied",
+      "chamber": "house",
+      "party": "R",
+      "side": "buy",
+      "transaction_date": "2026-06-09",
+      "filing_date": "2026-07-24",
+      "amount_mid_usd": 75000.5,
+      "amount_label": "$50,001 - $100,000",
       "is_late": false,
       "source": "kadoa_congress_monitor"
     },

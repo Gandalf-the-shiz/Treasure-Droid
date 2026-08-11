@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-10T10:34:21Z",
+  "generatedAt": "2026-08-11T10:23:29Z",
   "windowDays": 90,
-  "tradeCount": 609,
-  "symbolCount": 261,
+  "tradeCount": 614,
+  "symbolCount": 262,
   "bySymbol": {
     "SPY": {
       "symbol": "SPY",
@@ -28,6 +28,48 @@
       "net_flow_score": 1.0,
       "congress_score": 0.15,
       "congress_boost": 1.0225
+    },
+    "PINS": {
+      "symbol": "PINS",
+      "buy_count": 0,
+      "sell_count": 4,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 130002.0,
+      "politicians": [
+        "Christian D. Menefee"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-07",
+      "net_flow_score": -1.0,
+      "congress_score": -0.26,
+      "congress_boost": 0.961
+    },
+    "CB": {
+      "symbol": "CB",
+      "buy_count": 1,
+      "sell_count": 0,
+      "buy_notional_est": 32500.5,
+      "sell_notional_est": 0.0,
+      "politicians": [
+        "Maria Elvira Salazar"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [
+        {
+          "politician": "Maria Elvira Salazar",
+          "date": "2026-07-01",
+          "filing_date": "2026-08-07",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-07",
+      "net_flow_score": 1.0,
+      "congress_score": 0.065,
+      "congress_boost": 1.0097
     },
     "AAPL": {
       "symbol": "AAPL",
@@ -926,13 +968,14 @@
     },
     "ADBE": {
       "symbol": "ADBE",
-      "buy_count": 1,
+      "buy_count": 2,
       "sell_count": 5,
-      "buy_notional_est": 45500.7,
+      "buy_notional_est": 120501.2,
       "sell_notional_est": 3198502.9,
       "politicians": [
         "Thomas H Tuberville",
         "Markwayne Mullin",
+        "Tony Wied",
         "Donald J Trump"
       ],
       "notable_politicians": [
@@ -946,13 +989,20 @@
           "filing_date": "2026-08-05",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.4
+        },
+        {
+          "politician": "Tony Wied",
+          "date": "2026-06-09",
+          "filing_date": "2026-07-24",
+          "amount_label": "$50,001 - $100,000",
+          "weight": 1.0
         }
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-08-05",
-      "net_flow_score": -0.6667,
-      "congress_score": -5.306,
-      "congress_boost": 0.2041
+      "net_flow_score": -0.4286,
+      "congress_score": -5.156,
+      "congress_boost": 0.2266
     },
     "ABNFX": {
       "symbol": "ABNFX",
@@ -2539,12 +2589,13 @@
     },
     "NOW": {
       "symbol": "NOW",
-      "buy_count": 2,
+      "buy_count": 3,
       "sell_count": 5,
-      "buy_notional_est": 350001.0,
+      "buy_notional_est": 382501.5,
       "sell_notional_est": 3321502.6,
       "politicians": [
         "Markwayne Mullin",
+        "Tony Wied",
         "Alan Armstrong",
         "Donald J Trump"
       ],
@@ -2552,6 +2603,13 @@
         "Markwayne Mullin"
       ],
       "recent_buys": [
+        {
+          "politician": "Tony Wied",
+          "date": "2026-06-09",
+          "filing_date": "2026-07-24",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
         {
           "politician": "Donald J Trump",
           "date": "2026-05-11",
@@ -2569,18 +2627,19 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-07-25",
-      "net_flow_score": -0.4286,
-      "congress_score": -5.443,
-      "congress_boost": 0.1836
+      "net_flow_score": -0.25,
+      "congress_score": -5.378,
+      "congress_boost": 0.1933
     },
     "CRM": {
       "symbol": "CRM",
-      "buy_count": 1,
+      "buy_count": 2,
       "sell_count": 4,
-      "buy_notional_est": 32500.5,
+      "buy_notional_est": 65001.0,
       "sell_notional_est": 372502.1,
       "politicians": [
         "Markwayne Mullin",
+        "Tony Wied",
         "Maria Elvira Salazar",
         "Donald J Trump"
       ],
@@ -2588,6 +2647,13 @@
         "Markwayne Mullin"
       ],
       "recent_buys": [
+        {
+          "politician": "Tony Wied",
+          "date": "2026-06-09",
+          "filing_date": "2026-07-24",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
         {
           "politician": "Maria Elvira Salazar",
           "date": "2026-06-02",
@@ -2598,9 +2664,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-07-25",
-      "net_flow_score": -0.6,
-      "congress_score": -0.18,
-      "congress_boost": 0.973
+      "net_flow_score": -0.3333,
+      "congress_score": -0.115,
+      "congress_boost": 0.9828
     },
     "PG": {
       "symbol": "PG",
@@ -6509,23 +6575,6 @@
       "congress_score": 0.065,
       "congress_boost": 1.0097
     },
-    "PINS": {
-      "symbol": "PINS",
-      "buy_count": 0,
-      "sell_count": 3,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 97501.5,
-      "politicians": [
-        "Christian D. Menefee"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-06-01",
-      "net_flow_score": -1.0,
-      "congress_score": -0.195,
-      "congress_boost": 0.9708
-    },
     "REXR": {
       "symbol": "REXR",
       "buy_count": 0,
@@ -6838,9 +6887,17 @@
     },
     {
       "politician": "Maria Elvira Salazar",
-      "buys": 6,
+      "buys": 7,
       "sells": 1,
-      "unique_symbols": 6,
+      "unique_symbols": 7,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
+      "politician": "Tony Wied",
+      "buys": 3,
+      "sells": 0,
+      "unique_symbols": 3,
       "weight": 1.0,
       "notable": false
     },
@@ -6957,6 +7014,14 @@
       "notable": false
     },
     {
+      "politician": "Christian D. Menefee",
+      "buys": 0,
+      "sells": 4,
+      "unique_symbols": 1,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
       "politician": "Shelley M Capito",
       "buys": 0,
       "sells": 1,
@@ -7056,14 +7121,6 @@
       "politician": "Chip Roy",
       "buys": 0,
       "sells": 1,
-      "unique_symbols": 1,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "Christian D. Menefee",
-      "buys": 0,
-      "sells": 3,
       "unique_symbols": 1,
       "weight": 1.0,
       "notable": false
