@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-12T10:28:12Z",
+  "generatedAt": "2026-08-13T10:28:57Z",
   "windowDays": 90,
-  "tradeCount": 614,
+  "tradeCount": 613,
   "symbolCount": 262,
   "bySymbol": {
     "SPY": {
@@ -4642,13 +4642,12 @@
     "CSCO": {
       "symbol": "CSCO",
       "buy_count": 2,
-      "sell_count": 2,
+      "sell_count": 1,
       "buy_notional_est": 65001.0,
-      "sell_notional_est": 825001.0,
+      "sell_notional_est": 750000.5,
       "politicians": [
         "Alan Armstrong",
-        "Donald J Trump",
-        "Scott H. Peters"
+        "Donald J Trump"
       ],
       "notable_politicians": [],
       "recent_buys": [
@@ -4669,9 +4668,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-07-21",
-      "net_flow_score": 0.0,
-      "congress_score": -1.52,
-      "congress_boost": 0.772
+      "net_flow_score": 0.3333,
+      "congress_score": -1.37,
+      "congress_boost": 0.7945
     },
     "GLW": {
       "symbol": "GLW",
@@ -7162,14 +7161,6 @@
       "buys": 0,
       "sells": 3,
       "unique_symbols": 3,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "Scott H. Peters",
-      "buys": 0,
-      "sells": 1,
-      "unique_symbols": 1,
       "weight": 1.0,
       "notable": false
     }

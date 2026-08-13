@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T10:28:12Z",
+  "generatedAt": "2026-08-13T10:28:57Z",
   "leaderboard": [
     {
       "politician": "Thomas H Tuberville",
@@ -366,14 +366,6 @@
       "buys": 0,
       "sells": 3,
       "unique_symbols": 3,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "Scott H. Peters",
-      "buys": 0,
-      "sells": 1,
-      "unique_symbols": 1,
       "weight": 1.0,
       "notable": false
     }

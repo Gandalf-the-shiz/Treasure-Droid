@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-12T10:28:12Z",
-  "count": 614,
+  "generatedAt": "2026-08-13T10:28:57Z",
+  "count": 613,
   "trades": [
     {
       "id": "oge_Frank-J-Bisignano-07_07_2026-278T_pdf_g1",
@@ -8578,20 +8578,6 @@
       "party": "R",
       "side": "sell",
       "transaction_date": "2026-05-05",
-      "filing_date": "2026-05-18",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "house_20034579_g25",
-      "symbol": "CSCO",
-      "politician": "Scott H. Peters",
-      "chamber": "house",
-      "party": "D",
-      "side": "sell",
-      "transaction_date": "2026-04-22",
       "filing_date": "2026-05-18",
       "amount_mid_usd": 75000.5,
       "amount_label": "$50,001 - $100,000",
