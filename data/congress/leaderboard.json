@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T10:28:57Z",
+  "generatedAt": "2026-08-14T10:27:34Z",
   "leaderboard": [
     {
       "politician": "Thomas H Tuberville",
@@ -11,9 +11,9 @@
     },
     {
       "politician": "Rohit Khanna",
-      "buys": 3,
-      "sells": 0,
-      "unique_symbols": 3,
+      "buys": 4,
+      "sells": 4,
+      "unique_symbols": 8,
       "weight": 1.1,
       "notable": true
     },
@@ -31,14 +31,6 @@
       "sells": 0,
       "unique_symbols": 2,
       "weight": 2.0,
-      "notable": true
-    },
-    {
-      "politician": "Josh Gottheimer",
-      "buys": 1,
-      "sells": 9,
-      "unique_symbols": 9,
-      "weight": 1.3,
       "notable": true
     },
     {
@@ -67,17 +59,9 @@
     },
     {
       "politician": "April McClain Delaney",
-      "buys": 15,
+      "buys": 14,
       "sells": 3,
       "unique_symbols": 10,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "Tim Walberg",
-      "buys": 10,
-      "sells": 1,
-      "unique_symbols": 11,
       "weight": 1.0,
       "notable": false
     },
@@ -109,14 +93,6 @@
       "politician": "Jared Isaacman",
       "buys": 2,
       "sells": 0,
-      "unique_symbols": 1,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "Tim Moore",
-      "buys": 2,
-      "sells": 1,
       "unique_symbols": 1,
       "weight": 1.0,
       "notable": false
@@ -164,8 +140,8 @@
     {
       "politician": "Sheldon Whitehouse",
       "buys": 1,
-      "sells": 4,
-      "unique_symbols": 4,
+      "sells": 2,
+      "unique_symbols": 3,
       "weight": 1.0,
       "notable": false
     },
@@ -194,10 +170,10 @@
       "notable": false
     },
     {
-      "politician": "Jonathan Jackson",
+      "politician": "Tim Moore",
       "buys": 1,
-      "sells": 3,
-      "unique_symbols": 4,
+      "sells": 1,
+      "unique_symbols": 1,
       "weight": 1.0,
       "notable": false
     },
@@ -210,9 +186,9 @@
       "notable": false
     },
     {
-      "politician": "John Phelan",
-      "buys": 1,
-      "sells": 3,
+      "politician": "Mike Kelly",
+      "buys": 0,
+      "sells": 2,
       "unique_symbols": 2,
       "weight": 1.0,
       "notable": false
@@ -220,7 +196,7 @@
     {
       "politician": "Christian D. Menefee",
       "buys": 0,
-      "sells": 4,
+      "sells": 1,
       "unique_symbols": 1,
       "weight": 1.0,
       "notable": false
@@ -276,8 +252,8 @@
     {
       "politician": "Richard W. Allen",
       "buys": 0,
-      "sells": 7,
-      "unique_symbols": 6,
+      "sells": 2,
+      "unique_symbols": 2,
       "weight": 1.0,
       "notable": false
     },
@@ -314,7 +290,7 @@
       "notable": false
     },
     {
-      "politician": "Mike Kelly",
+      "politician": "Jonathan Jackson",
       "buys": 0,
       "sells": 1,
       "unique_symbols": 1,
@@ -326,46 +302,6 @@
       "buys": 0,
       "sells": 1,
       "unique_symbols": 1,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "Daniel Webster",
-      "buys": 0,
-      "sells": 1,
-      "unique_symbols": 1,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "Jake Auchincloss",
-      "buys": 0,
-      "sells": 1,
-      "unique_symbols": 1,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "Bernie Moreno",
-      "buys": 0,
-      "sells": 1,
-      "unique_symbols": 1,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "Sara Jacobs",
-      "buys": 0,
-      "sells": 2,
-      "unique_symbols": 1,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "Brian Babin",
-      "buys": 0,
-      "sells": 3,
-      "unique_symbols": 3,
       "weight": 1.0,
       "notable": false
     }
