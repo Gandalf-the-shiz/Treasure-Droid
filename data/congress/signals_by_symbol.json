@@ -1,9 +1,166 @@
 {
-  "generatedAt": "2026-08-14T10:27:34Z",
+  "generatedAt": "2026-08-17T10:15:54Z",
   "windowDays": 90,
-  "tradeCount": 571,
+  "tradeCount": 569,
   "symbolCount": 244,
   "bySymbol": {
+    "AAPL": {
+      "symbol": "AAPL",
+      "buy_count": 7,
+      "sell_count": 11,
+      "buy_notional_est": 4882503.5,
+      "sell_notional_est": 1410506.9,
+      "politicians": [
+        "Shri Thanedar",
+        "Thomas H Tuberville",
+        "Alan Armstrong",
+        "Sheldon Whitehouse",
+        "Donald J Trump"
+      ],
+      "notable_politicians": [
+        "Thomas H Tuberville"
+      ],
+      "recent_buys": [
+        {
+          "politician": "Alan Armstrong",
+          "date": "2026-03-27",
+          "filing_date": "2026-07-21",
+          "amount_label": "$250,001 - $500,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-05-21",
+          "filing_date": "2026-07-01",
+          "amount_label": "$100,001 - $250,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-05-15",
+          "filing_date": "2026-07-01",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-05-05",
+          "filing_date": "2026-07-01",
+          "amount_label": "$1,000,001 - $5,000,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-04-27",
+          "filing_date": "2026-07-01",
+          "amount_label": "$500,001 - $1,000,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-13",
+      "net_flow_score": -0.2222,
+      "congress_score": 1.0,
+      "congress_boost": 1.15
+    },
+    "MSTR": {
+      "symbol": "MSTR",
+      "buy_count": 1,
+      "sell_count": 1,
+      "buy_notional_est": 32500.5,
+      "sell_notional_est": 32500.5,
+      "politicians": [
+        "Shri Thanedar",
+        "Gilbert Cisneros"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [
+        {
+          "politician": "Gilbert Cisneros",
+          "date": "2026-06-05",
+          "filing_date": "2026-07-02",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-13",
+      "net_flow_score": 0.0,
+      "congress_score": 0.0,
+      "congress_boost": 1.0
+    },
+    "USB": {
+      "symbol": "USB",
+      "buy_count": 0,
+      "sell_count": 1,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 32500.5,
+      "politicians": [
+        "Carol Devine Miller"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-13",
+      "net_flow_score": -1.0,
+      "congress_score": -0.065,
+      "congress_boost": 0.9902
+    },
+    "TGT": {
+      "symbol": "TGT",
+      "buy_count": 0,
+      "sell_count": 1,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 32500.5,
+      "politicians": [
+        "Carol Devine Miller"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-13",
+      "net_flow_score": -1.0,
+      "congress_score": -0.065,
+      "congress_boost": 0.9902
+    },
+    "DGX": {
+      "symbol": "DGX",
+      "buy_count": 0,
+      "sell_count": 1,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 32500.5,
+      "politicians": [
+        "Carol Devine Miller"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-13",
+      "net_flow_score": -1.0,
+      "congress_score": -0.065,
+      "congress_boost": 0.9902
+    },
+    "PFE": {
+      "symbol": "PFE",
+      "buy_count": 0,
+      "sell_count": 4,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 198502.40000000002,
+      "politicians": [
+        "Carol Devine Miller",
+        "Thomas H Tuberville",
+        "Alan Armstrong"
+      ],
+      "notable_politicians": [
+        "Thomas H Tuberville"
+      ],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-13",
+      "net_flow_score": -1.0,
+      "congress_score": 0.103,
+      "congress_boost": 1.0154
+    },
     "PEP": {
       "symbol": "PEP",
       "buy_count": 0,
@@ -331,64 +488,6 @@
       "net_flow_score": 1.0,
       "congress_score": 0.065,
       "congress_boost": 1.0097
-    },
-    "AAPL": {
-      "symbol": "AAPL",
-      "buy_count": 7,
-      "sell_count": 10,
-      "buy_notional_est": 4882503.5,
-      "sell_notional_est": 1235506.4,
-      "politicians": [
-        "Thomas H Tuberville",
-        "Alan Armstrong",
-        "Sheldon Whitehouse",
-        "Donald J Trump"
-      ],
-      "notable_politicians": [
-        "Thomas H Tuberville"
-      ],
-      "recent_buys": [
-        {
-          "politician": "Alan Armstrong",
-          "date": "2026-03-27",
-          "filing_date": "2026-07-21",
-          "amount_label": "$250,001 - $500,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-05-21",
-          "filing_date": "2026-07-01",
-          "amount_label": "$100,001 - $250,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-05-15",
-          "filing_date": "2026-07-01",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-05-05",
-          "filing_date": "2026-07-01",
-          "amount_label": "$1,000,001 - $5,000,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-04-27",
-          "filing_date": "2026-07-01",
-          "amount_label": "$500,001 - $1,000,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-08-05",
-      "net_flow_score": -0.1765,
-      "congress_score": 1.0,
-      "congress_boost": 1.15
     },
     "XLV": {
       "symbol": "XLV",
@@ -1454,26 +1553,6 @@
       "congress_score": 0.5,
       "congress_boost": 1.075
     },
-    "PFE": {
-      "symbol": "PFE",
-      "buy_count": 0,
-      "sell_count": 3,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 166001.9,
-      "politicians": [
-        "Thomas H Tuberville",
-        "Alan Armstrong"
-      ],
-      "notable_politicians": [
-        "Thomas H Tuberville"
-      ],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-08-05",
-      "net_flow_score": -1.0,
-      "congress_score": 0.168,
-      "congress_boost": 1.0252
-    },
     "WBA": {
       "symbol": "WBA",
       "buy_count": 1,
@@ -1682,9 +1761,9 @@
     },
     "BWXT": {
       "symbol": "BWXT",
-      "buy_count": 2,
+      "buy_count": 1,
       "sell_count": 0,
-      "buy_notional_est": 65001.0,
+      "buy_notional_est": 32500.5,
       "sell_notional_est": 0.0,
       "politicians": [
         "April McClain Delaney"
@@ -1697,20 +1776,13 @@
           "filing_date": "2026-08-03",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
-        },
-        {
-          "politician": "April McClain Delaney",
-          "date": "2026-05-15",
-          "filing_date": "2026-06-05",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
         }
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-08-03",
       "net_flow_score": 1.0,
-      "congress_score": 0.13,
-      "congress_boost": 1.0195
+      "congress_score": 0.065,
+      "congress_boost": 1.0097
     },
     "WAB": {
       "symbol": "WAB",
@@ -1731,9 +1803,9 @@
     },
     "HUBB": {
       "symbol": "HUBB",
-      "buy_count": 2,
+      "buy_count": 1,
       "sell_count": 0,
-      "buy_notional_est": 65001.0,
+      "buy_notional_est": 32500.5,
       "sell_notional_est": 0.0,
       "politicians": [
         "April McClain Delaney"
@@ -1746,20 +1818,13 @@
           "filing_date": "2026-08-03",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
-        },
-        {
-          "politician": "April McClain Delaney",
-          "date": "2026-05-14",
-          "filing_date": "2026-06-05",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
         }
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-08-03",
       "net_flow_score": 1.0,
-      "congress_score": 0.13,
-      "congress_boost": 1.0195
+      "congress_score": 0.065,
+      "congress_boost": 1.0097
     },
     "NVDA": {
       "symbol": "NVDA",
@@ -4540,15 +4605,14 @@
     },
     "T": {
       "symbol": "T",
-      "buy_count": 5,
-      "sell_count": 4,
-      "buy_notional_est": 208252.55,
-      "sell_notional_est": 415002.0,
+      "buy_count": 4,
+      "sell_count": 3,
+      "buy_notional_est": 133252.05,
+      "sell_notional_est": 382501.5,
       "politicians": [
         "Alan Armstrong",
         "Rohit Khanna",
-        "Donald J Trump",
-        "Tim Moore"
+        "Donald J Trump"
       ],
       "notable_politicians": [
         "Rohit Khanna"
@@ -4581,20 +4645,13 @@
           "filing_date": "2026-07-01",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
-        },
-        {
-          "politician": "Tim Moore",
-          "date": "2026-06-04",
-          "filing_date": "2026-06-05",
-          "amount_label": "$50,001 - $100,000",
-          "weight": 1.0
         }
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-07-21",
-      "net_flow_score": 0.1111,
-      "congress_score": 0.0865,
-      "congress_boost": 1.013
+      "net_flow_score": 0.1429,
+      "congress_score": 0.0015,
+      "congress_boost": 1.0002
     },
     "BAC": {
       "symbol": "BAC",
@@ -5828,31 +5885,6 @@
       "congress_score": -0.13,
       "congress_boost": 0.9805
     },
-    "MSTR": {
-      "symbol": "MSTR",
-      "buy_count": 1,
-      "sell_count": 0,
-      "buy_notional_est": 32500.5,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Gilbert Cisneros"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Gilbert Cisneros",
-          "date": "2026-06-05",
-          "filing_date": "2026-07-02",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-02",
-      "net_flow_score": 1.0,
-      "congress_score": 0.065,
-      "congress_boost": 1.0097
-    },
     "CCLFX": {
       "symbol": "CCLFX",
       "buy_count": 0,
@@ -6311,86 +6343,19 @@
     "FLEX": {
       "symbol": "FLEX",
       "buy_count": 0,
-      "sell_count": 2,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 107501.0,
-      "politicians": [
-        "Gilbert Cisneros"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-06-08",
-      "net_flow_score": -1.0,
-      "congress_score": -0.215,
-      "congress_boost": 0.9677
-    },
-    "RVTY": {
-      "symbol": "RVTY",
-      "buy_count": 1,
-      "sell_count": 0,
-      "buy_notional_est": 32500.5,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Gilbert Cisneros"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Gilbert Cisneros",
-          "date": "2026-05-04",
-          "filing_date": "2026-06-08",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-06-08",
-      "net_flow_score": 1.0,
-      "congress_score": 0.065,
-      "congress_boost": 1.0097
-    },
-    "FMAO": {
-      "symbol": "FMAO",
-      "buy_count": 1,
-      "sell_count": 0,
-      "buy_notional_est": 32500.5,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Robert E. Latta"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Robert E. Latta",
-          "date": "2026-06-04",
-          "filing_date": "2026-06-05",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-06-05",
-      "net_flow_score": 1.0,
-      "congress_score": 0.065,
-      "congress_boost": 1.0097
-    },
-    "PWR": {
-      "symbol": "PWR",
-      "buy_count": 0,
       "sell_count": 1,
       "buy_notional_est": 0.0,
-      "sell_notional_est": 32500.5,
+      "sell_notional_est": 75000.5,
       "politicians": [
-        "April McClain Delaney"
+        "Gilbert Cisneros"
       ],
       "notable_politicians": [],
       "recent_buys": [],
       "pelosi_buy": false,
-      "last_filing_date": "2026-06-05",
+      "last_filing_date": "2026-06-08",
       "net_flow_score": -1.0,
-      "congress_score": -0.065,
-      "congress_boost": 0.9902
+      "congress_score": -0.15,
+      "congress_boost": 0.9775
     }
   },
   "leaderboard": [
@@ -6452,17 +6417,9 @@
     },
     {
       "politician": "April McClain Delaney",
-      "buys": 14,
-      "sells": 3,
-      "unique_symbols": 10,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "Gilbert Cisneros",
-      "buys": 8,
-      "sells": 9,
-      "unique_symbols": 12,
+      "buys": 12,
+      "sells": 2,
+      "unique_symbols": 9,
       "weight": 1.0,
       "notable": false
     },
@@ -6471,6 +6428,14 @@
       "buys": 7,
       "sells": 1,
       "unique_symbols": 7,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
+      "politician": "Gilbert Cisneros",
+      "buys": 7,
+      "sells": 8,
+      "unique_symbols": 11,
       "weight": 1.0,
       "notable": false
     },
@@ -6563,18 +6528,18 @@
       "notable": false
     },
     {
-      "politician": "Tim Moore",
-      "buys": 1,
-      "sells": 1,
-      "unique_symbols": 1,
+      "politician": "Shri Thanedar",
+      "buys": 0,
+      "sells": 2,
+      "unique_symbols": 2,
       "weight": 1.0,
       "notable": false
     },
     {
-      "politician": "Robert E. Latta",
-      "buys": 1,
-      "sells": 0,
-      "unique_symbols": 1,
+      "politician": "Carol Devine Miller",
+      "buys": 0,
+      "sells": 4,
+      "unique_symbols": 4,
       "weight": 1.0,
       "notable": false
     },

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T10:27:34Z",
+  "generatedAt": "2026-08-17T10:15:54Z",
   "leaderboard": [
     {
       "politician": "Thomas H Tuberville",
@@ -59,17 +59,9 @@
     },
     {
       "politician": "April McClain Delaney",
-      "buys": 14,
-      "sells": 3,
-      "unique_symbols": 10,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "Gilbert Cisneros",
-      "buys": 8,
-      "sells": 9,
-      "unique_symbols": 12,
+      "buys": 12,
+      "sells": 2,
+      "unique_symbols": 9,
       "weight": 1.0,
       "notable": false
     },
@@ -78,6 +70,14 @@
       "buys": 7,
       "sells": 1,
       "unique_symbols": 7,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
+      "politician": "Gilbert Cisneros",
+      "buys": 7,
+      "sells": 8,
+      "unique_symbols": 11,
       "weight": 1.0,
       "notable": false
     },
@@ -170,18 +170,18 @@
       "notable": false
     },
     {
-      "politician": "Tim Moore",
-      "buys": 1,
-      "sells": 1,
-      "unique_symbols": 1,
+      "politician": "Shri Thanedar",
+      "buys": 0,
+      "sells": 2,
+      "unique_symbols": 2,
       "weight": 1.0,
       "notable": false
     },
     {
-      "politician": "Robert E. Latta",
-      "buys": 1,
-      "sells": 0,
-      "unique_symbols": 1,
+      "politician": "Carol Devine Miller",
+      "buys": 0,
+      "sells": 4,
+      "unique_symbols": 4,
       "weight": 1.0,
       "notable": false
     },
