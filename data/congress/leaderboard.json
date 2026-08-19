@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T10:12:07Z",
+  "generatedAt": "2026-08-19T10:13:00Z",
   "leaderboard": [
     {
       "politician": "Thomas H Tuberville",
@@ -66,18 +66,18 @@
       "notable": false
     },
     {
-      "politician": "Maria Elvira Salazar",
+      "politician": "Gilbert Cisneros",
       "buys": 7,
-      "sells": 1,
-      "unique_symbols": 7,
+      "sells": 7,
+      "unique_symbols": 10,
       "weight": 1.0,
       "notable": false
     },
     {
-      "politician": "Gilbert Cisneros",
-      "buys": 7,
-      "sells": 8,
-      "unique_symbols": 11,
+      "politician": "Maria Elvira Salazar",
+      "buys": 6,
+      "sells": 1,
+      "unique_symbols": 7,
       "weight": 1.0,
       "notable": false
     },

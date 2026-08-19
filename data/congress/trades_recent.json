@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-18T10:12:07Z",
-  "count": 569,
+  "generatedAt": "2026-08-19T10:13:00Z",
+  "count": 567,
   "trades": [
     {
       "id": "house_20033910_g0",
@@ -7937,34 +7937,6 @@
       "filing_date": "2026-06-08",
       "amount_mid_usd": 32500.5,
       "amount_label": "$15,001 - $50,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "house_20034713_g37",
-      "symbol": "FLEX",
-      "politician": "Gilbert Cisneros",
-      "chamber": "house",
-      "party": "D",
-      "side": "sell",
-      "transaction_date": "2026-05-11",
-      "filing_date": "2026-06-08",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "house_20034709_g2",
-      "symbol": "BIIB",
-      "politician": "Maria Elvira Salazar",
-      "chamber": "house",
-      "party": "R",
-      "side": "buy",
-      "transaction_date": "2026-05-11",
-      "filing_date": "2026-06-08",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
       "is_late": false,
       "source": "kadoa_congress_monitor"
     }

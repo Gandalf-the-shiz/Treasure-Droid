@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-18T10:12:07Z",
+  "generatedAt": "2026-08-19T10:13:00Z",
   "windowDays": 90,
-  "tradeCount": 569,
-  "symbolCount": 244,
+  "tradeCount": 567,
+  "symbolCount": 243,
   "bySymbol": {
     "AAPL": {
       "symbol": "AAPL",
@@ -5703,28 +5703,20 @@
     },
     "BIIB": {
       "symbol": "BIIB",
-      "buy_count": 1,
+      "buy_count": 0,
       "sell_count": 1,
-      "buy_notional_est": 75000.5,
+      "buy_notional_est": 0.0,
       "sell_notional_est": 32500.5,
       "politicians": [
         "Maria Elvira Salazar"
       ],
       "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Maria Elvira Salazar",
-          "date": "2026-05-11",
-          "filing_date": "2026-06-08",
-          "amount_label": "$50,001 - $100,000",
-          "weight": 1.0
-        }
-      ],
+      "recent_buys": [],
       "pelosi_buy": false,
       "last_filing_date": "2026-07-07",
-      "net_flow_score": 0.0,
-      "congress_score": 0.085,
-      "congress_boost": 1.0128
+      "net_flow_score": -1.0,
+      "congress_score": -0.065,
+      "congress_boost": 0.9902
     },
     "AGX": {
       "symbol": "AGX",
@@ -6339,23 +6331,6 @@
       "net_flow_score": 1.0,
       "congress_score": 0.065,
       "congress_boost": 1.0097
-    },
-    "FLEX": {
-      "symbol": "FLEX",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 75000.5,
-      "politicians": [
-        "Gilbert Cisneros"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-06-08",
-      "net_flow_score": -1.0,
-      "congress_score": -0.15,
-      "congress_boost": 0.9775
     }
   },
   "leaderboard": [
@@ -6424,18 +6399,18 @@
       "notable": false
     },
     {
-      "politician": "Maria Elvira Salazar",
+      "politician": "Gilbert Cisneros",
       "buys": 7,
-      "sells": 1,
-      "unique_symbols": 7,
+      "sells": 7,
+      "unique_symbols": 10,
       "weight": 1.0,
       "notable": false
     },
     {
-      "politician": "Gilbert Cisneros",
-      "buys": 7,
-      "sells": 8,
-      "unique_symbols": 11,
+      "politician": "Maria Elvira Salazar",
+      "buys": 6,
+      "sells": 1,
+      "unique_symbols": 7,
       "weight": 1.0,
       "notable": false
     },
