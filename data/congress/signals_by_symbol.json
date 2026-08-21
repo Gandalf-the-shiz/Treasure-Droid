@@ -1,9 +1,163 @@
 {
-  "generatedAt": "2026-08-20T10:13:18Z",
+  "generatedAt": "2026-08-21T10:12:59Z",
   "windowDays": 90,
   "tradeCount": 567,
-  "symbolCount": 243,
+  "symbolCount": 242,
   "bySymbol": {
+    "NOW": {
+      "symbol": "NOW",
+      "buy_count": 3,
+      "sell_count": 6,
+      "buy_notional_est": 382501.5,
+      "sell_notional_est": 3354003.1,
+      "politicians": [
+        "Tony Wied",
+        "Markwayne Mullin",
+        "Alan Armstrong",
+        "Donald J Trump"
+      ],
+      "notable_politicians": [
+        "Markwayne Mullin"
+      ],
+      "recent_buys": [
+        {
+          "politician": "Tony Wied",
+          "date": "2026-06-09",
+          "filing_date": "2026-07-24",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-05-11",
+          "filing_date": "2026-07-01",
+          "amount_label": "$100,001 - $250,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-04-27",
+          "filing_date": "2026-07-01",
+          "amount_label": "$100,001 - $250,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-18",
+      "net_flow_score": -0.3333,
+      "congress_score": -5.443,
+      "congress_boost": 0.1836
+    },
+    "CRM": {
+      "symbol": "CRM",
+      "buy_count": 2,
+      "sell_count": 5,
+      "buy_notional_est": 65001.0,
+      "sell_notional_est": 405002.6,
+      "politicians": [
+        "Tony Wied",
+        "Markwayne Mullin",
+        "Maria Elvira Salazar",
+        "Donald J Trump"
+      ],
+      "notable_politicians": [
+        "Markwayne Mullin"
+      ],
+      "recent_buys": [
+        {
+          "politician": "Tony Wied",
+          "date": "2026-06-09",
+          "filing_date": "2026-07-24",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Maria Elvira Salazar",
+          "date": "2026-06-02",
+          "filing_date": "2026-07-07",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-18",
+      "net_flow_score": -0.4286,
+      "congress_score": -0.18,
+      "congress_boost": 0.973
+    },
+    "ABT": {
+      "symbol": "ABT",
+      "buy_count": 0,
+      "sell_count": 4,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 315002.0,
+      "politicians": [
+        "Richard W. Allen",
+        "Alan Armstrong",
+        "Donald J Trump"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-18",
+      "net_flow_score": -1.0,
+      "congress_score": -0.63,
+      "congress_boost": 0.9055
+    },
+    "JPM": {
+      "symbol": "JPM",
+      "buy_count": 4,
+      "sell_count": 6,
+      "buy_notional_est": 700002.0,
+      "sell_notional_est": 728003.3,
+      "politicians": [
+        "Steve Cohen",
+        "Thomas H Tuberville",
+        "Markwayne Mullin",
+        "Alan Armstrong",
+        "Donald J Trump",
+        "John R Curtis"
+      ],
+      "notable_politicians": [
+        "Thomas H Tuberville",
+        "Markwayne Mullin"
+      ],
+      "recent_buys": [
+        {
+          "politician": "Steve Cohen",
+          "date": "2026-08-05",
+          "filing_date": "2026-08-17",
+          "amount_label": "$100,001 - $250,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-05-29",
+          "filing_date": "2026-07-01",
+          "amount_label": "$100,001 - $250,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-04-27",
+          "filing_date": "2026-07-01",
+          "amount_label": "$100,001 - $250,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "John R Curtis",
+          "date": "2026-06-02",
+          "filing_date": "2026-06-30",
+          "amount_label": "$100,001 - $250,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-08-17",
+      "net_flow_score": -0.2,
+      "congress_score": 0.944,
+      "congress_boost": 1.1416
+    },
     "AAPL": {
       "symbol": "AAPL",
       "buy_count": 7,
@@ -400,9 +554,9 @@
     },
     "MSFT": {
       "symbol": "MSFT",
-      "buy_count": 7,
+      "buy_count": 6,
       "sell_count": 14,
-      "buy_notional_est": 1040003.5,
+      "buy_notional_est": 965003.0,
       "sell_notional_est": 5036758.05,
       "politicians": [
         "Rohit Khanna",
@@ -460,9 +614,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-08-07",
-      "net_flow_score": -0.3333,
-      "congress_score": -5.9935,
-      "congress_boost": 0.101
+      "net_flow_score": -0.4,
+      "congress_score": -6.1435,
+      "congress_boost": 0.0785
     },
     "CB": {
       "symbol": "CB",
@@ -910,52 +1064,6 @@
       "net_flow_score": -1.0,
       "congress_score": 0.344,
       "congress_boost": 1.0516
-    },
-    "JPM": {
-      "symbol": "JPM",
-      "buy_count": 3,
-      "sell_count": 6,
-      "buy_notional_est": 525001.5,
-      "sell_notional_est": 728003.3,
-      "politicians": [
-        "Thomas H Tuberville",
-        "Markwayne Mullin",
-        "Alan Armstrong",
-        "Donald J Trump",
-        "John R Curtis"
-      ],
-      "notable_politicians": [
-        "Thomas H Tuberville",
-        "Markwayne Mullin"
-      ],
-      "recent_buys": [
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-05-29",
-          "filing_date": "2026-07-01",
-          "amount_label": "$100,001 - $250,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-04-27",
-          "filing_date": "2026-07-01",
-          "amount_label": "$100,001 - $250,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "John R Curtis",
-          "date": "2026-06-02",
-          "filing_date": "2026-06-30",
-          "amount_label": "$100,001 - $250,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-08-05",
-      "net_flow_score": -0.3333,
-      "congress_score": 0.594,
-      "congress_boost": 1.0891
     },
     "USIG": {
       "symbol": "USIG",
@@ -2697,87 +2805,6 @@
       "congress_score": 1.0,
       "congress_boost": 1.15
     },
-    "NOW": {
-      "symbol": "NOW",
-      "buy_count": 3,
-      "sell_count": 5,
-      "buy_notional_est": 382501.5,
-      "sell_notional_est": 3321502.6,
-      "politicians": [
-        "Markwayne Mullin",
-        "Tony Wied",
-        "Alan Armstrong",
-        "Donald J Trump"
-      ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
-      "recent_buys": [
-        {
-          "politician": "Tony Wied",
-          "date": "2026-06-09",
-          "filing_date": "2026-07-24",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-05-11",
-          "filing_date": "2026-07-01",
-          "amount_label": "$100,001 - $250,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-04-27",
-          "filing_date": "2026-07-01",
-          "amount_label": "$100,001 - $250,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-25",
-      "net_flow_score": -0.25,
-      "congress_score": -5.378,
-      "congress_boost": 0.1933
-    },
-    "CRM": {
-      "symbol": "CRM",
-      "buy_count": 2,
-      "sell_count": 4,
-      "buy_notional_est": 65001.0,
-      "sell_notional_est": 372502.1,
-      "politicians": [
-        "Markwayne Mullin",
-        "Tony Wied",
-        "Maria Elvira Salazar",
-        "Donald J Trump"
-      ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
-      "recent_buys": [
-        {
-          "politician": "Tony Wied",
-          "date": "2026-06-09",
-          "filing_date": "2026-07-24",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Maria Elvira Salazar",
-          "date": "2026-06-02",
-          "filing_date": "2026-07-07",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-25",
-      "net_flow_score": -0.3333,
-      "congress_score": -0.115,
-      "congress_boost": 0.9828
-    },
     "PG": {
       "symbol": "PG",
       "buy_count": 4,
@@ -4463,24 +4490,6 @@
       "congress_score": 0.065,
       "congress_boost": 1.0097
     },
-    "ABT": {
-      "symbol": "ABT",
-      "buy_count": 0,
-      "sell_count": 3,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 282501.5,
-      "politicians": [
-        "Alan Armstrong",
-        "Donald J Trump"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-21",
-      "net_flow_score": -1.0,
-      "congress_score": -0.565,
-      "congress_boost": 0.9153
-    },
     "ABBV": {
       "symbol": "ABBV",
       "buy_count": 4,
@@ -5746,9 +5755,9 @@
     "STRL": {
       "symbol": "STRL",
       "buy_count": 0,
-      "sell_count": 2,
+      "sell_count": 1,
       "buy_notional_est": 0.0,
-      "sell_notional_est": 65001.0,
+      "sell_notional_est": 32500.5,
       "politicians": [
         "Gilbert Cisneros"
       ],
@@ -5757,15 +5766,15 @@
       "pelosi_buy": false,
       "last_filing_date": "2026-07-02",
       "net_flow_score": -1.0,
-      "congress_score": -0.13,
-      "congress_boost": 0.9805
+      "congress_score": -0.065,
+      "congress_boost": 0.9902
     },
     "IBM": {
       "symbol": "IBM",
       "buy_count": 2,
-      "sell_count": 1,
+      "sell_count": 0,
       "buy_notional_est": 65001.0,
-      "sell_notional_est": 32500.5,
+      "sell_notional_est": 0.0,
       "politicians": [
         "Gilbert Cisneros",
         "Maria Elvira Salazar"
@@ -5789,9 +5798,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-07-02",
-      "net_flow_score": 0.3333,
-      "congress_score": 0.065,
-      "congress_boost": 1.0097
+      "net_flow_score": 1.0,
+      "congress_score": 0.13,
+      "congress_boost": 1.0195
     },
     "CAG": {
       "symbol": "CAG",
@@ -6306,31 +6315,6 @@
       "net_flow_score": -1.0,
       "congress_score": -0.35,
       "congress_boost": 0.9475
-    },
-    "DDOG": {
-      "symbol": "DDOG",
-      "buy_count": 1,
-      "sell_count": 0,
-      "buy_notional_est": 32500.5,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Maria Elvira Salazar"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Maria Elvira Salazar",
-          "date": "2026-05-19",
-          "filing_date": "2026-06-08",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-06-08",
-      "net_flow_score": 1.0,
-      "congress_score": 0.065,
-      "congress_boost": 1.0097
     }
   },
   "leaderboard": [
@@ -6400,24 +6384,24 @@
     },
     {
       "politician": "Gilbert Cisneros",
-      "buys": 7,
-      "sells": 7,
+      "buys": 6,
+      "sells": 5,
       "unique_symbols": 10,
       "weight": 1.0,
       "notable": false
     },
     {
       "politician": "Maria Elvira Salazar",
-      "buys": 6,
+      "buys": 5,
       "sells": 1,
-      "unique_symbols": 7,
+      "unique_symbols": 6,
       "weight": 1.0,
       "notable": false
     },
     {
       "politician": "Tony Wied",
       "buys": 3,
-      "sells": 0,
+      "sells": 2,
       "unique_symbols": 3,
       "weight": 1.0,
       "notable": false
@@ -6425,6 +6409,14 @@
     {
       "politician": "Jared Isaacman",
       "buys": 2,
+      "sells": 0,
+      "unique_symbols": 1,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
+      "politician": "Steve Cohen",
+      "buys": 1,
       "sells": 0,
       "unique_symbols": 1,
       "weight": 1.0,
@@ -6499,6 +6491,14 @@
       "buys": 1,
       "sells": 1,
       "unique_symbols": 2,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
+      "politician": "Richard W. Allen",
+      "buys": 0,
+      "sells": 3,
+      "unique_symbols": 3,
       "weight": 1.0,
       "notable": false
     },
@@ -6579,14 +6579,6 @@
       "buys": 0,
       "sells": 1,
       "unique_symbols": 1,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "Richard W. Allen",
-      "buys": 0,
-      "sells": 2,
-      "unique_symbols": 2,
       "weight": 1.0,
       "notable": false
     },
