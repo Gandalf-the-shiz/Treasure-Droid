@@ -1,6 +1,6 @@
 {
   "date": "2026-02-14",
-  "generatedAt": "2026-08-16T05:13:17Z",
+  "generatedAt": "2026-08-23T05:13:47Z",
   "fredApiAvailable": false,
   "series": {
     "DFF": 3.64,
@@ -14,7 +14,7 @@
     "BAMLH0A0HYM2": 2.95,
     "UNRATE": 4.4,
     "CPIAUCSL": 327.46,
-    "INDPRO": 101.9263
+    "INDPRO": 101.9053
   },
   "seriesSource": {
     "DFF": "fred-graph",
@@ -41,7 +41,7 @@
     "macro_hy_oas_norm": 0.1188,
     "macro_unrate_norm": 0.8,
     "macro_cpi_norm": 0.7746,
-    "macro_indpro_norm": 0.5963,
+    "macro_indpro_norm": 0.5953,
     "macro_sp500_norm": 1.0,
     "macro_m2_norm": 0.77
   }
