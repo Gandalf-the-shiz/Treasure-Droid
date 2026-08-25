@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-08-24T10:19:39Z",
+  "generatedAt": "2026-08-25T10:13:44Z",
   "leaderboard": [
     {
       "politician": "Thomas H Tuberville",
       "buys": 12,
-      "sells": 60,
+      "sells": 61,
       "unique_symbols": 47,
       "weight": 1.4,
       "notable": true
     },
     {
-      "politician": "Rohit Khanna",
-      "buys": 4,
-      "sells": 4,
-      "unique_symbols": 8,
-      "weight": 1.1,
+      "politician": "Michael T. McCaul",
+      "buys": 5,
+      "sells": 16,
+      "unique_symbols": 18,
+      "weight": 1.2,
       "notable": true
     },
     {
-      "politician": "Michael T. McCaul",
-      "buys": 2,
-      "sells": 3,
-      "unique_symbols": 5,
-      "weight": 1.2,
+      "politician": "Rohit Khanna",
+      "buys": 4,
+      "sells": 5,
+      "unique_symbols": 9,
+      "weight": 1.1,
       "notable": true
     },
     {
@@ -35,9 +35,9 @@
     },
     {
       "politician": "Donald J Trump",
-      "buys": 140,
-      "sells": 99,
-      "unique_symbols": 53,
+      "buys": 500,
+      "sells": 496,
+      "unique_symbols": 475,
       "weight": 1.0,
       "notable": false
     },
@@ -66,18 +66,18 @@
       "notable": false
     },
     {
-      "politician": "Maria Elvira Salazar",
-      "buys": 4,
-      "sells": 1,
+      "politician": "Tony Wied",
+      "buys": 5,
+      "sells": 4,
       "unique_symbols": 5,
       "weight": 1.0,
       "notable": false
     },
     {
-      "politician": "Tony Wied",
-      "buys": 3,
-      "sells": 2,
-      "unique_symbols": 3,
+      "politician": "Maria Elvira Salazar",
+      "buys": 4,
+      "sells": 1,
+      "unique_symbols": 5,
       "weight": 1.0,
       "notable": false
     },
