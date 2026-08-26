@@ -1,6 +1,48 @@
 {
-  "generatedAt": "2026-08-25T10:13:44Z",
+  "generatedAt": "2026-08-26T10:18:15Z",
   "trades90d": [
+    {
+      "id": "house_20035143_g1",
+      "symbol": "BE",
+      "politician": "Nancy Pelosi",
+      "chamber": "house",
+      "party": "D",
+      "side": "buy",
+      "transaction_date": "2026-07-28",
+      "filing_date": "2026-08-21",
+      "amount_mid_usd": 750000.5,
+      "amount_label": "$500,001 - $1,000,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_20035143_g3",
+      "symbol": "INTC",
+      "politician": "Nancy Pelosi",
+      "chamber": "house",
+      "party": "D",
+      "side": "buy",
+      "transaction_date": "2026-07-24",
+      "filing_date": "2026-08-21",
+      "amount_mid_usd": 750000.5,
+      "amount_label": "$500,001 - $1,000,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_20035143_g0",
+      "symbol": "BE",
+      "politician": "Nancy Pelosi",
+      "chamber": "house",
+      "party": "D",
+      "side": "buy",
+      "transaction_date": "2026-07-24",
+      "filing_date": "2026-08-21",
+      "amount_mid_usd": 3000000.5,
+      "amount_label": "$1,000,001 - $5,000,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
     {
       "id": "house_9116267_g181",
       "symbol": "WMT",
@@ -2425,6 +2467,48 @@
     }
   ],
   "watchlistHistory365d": [
+    {
+      "id": "house_20035143_g1",
+      "symbol": "BE",
+      "politician": "Nancy Pelosi",
+      "chamber": "house",
+      "party": "D",
+      "side": "buy",
+      "transaction_date": "2026-07-28",
+      "filing_date": "2026-08-21",
+      "amount_mid_usd": 750000.5,
+      "amount_label": "$500,001 - $1,000,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_20035143_g3",
+      "symbol": "INTC",
+      "politician": "Nancy Pelosi",
+      "chamber": "house",
+      "party": "D",
+      "side": "buy",
+      "transaction_date": "2026-07-24",
+      "filing_date": "2026-08-21",
+      "amount_mid_usd": 750000.5,
+      "amount_label": "$500,001 - $1,000,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_20035143_g0",
+      "symbol": "BE",
+      "politician": "Nancy Pelosi",
+      "chamber": "house",
+      "party": "D",
+      "side": "buy",
+      "transaction_date": "2026-07-24",
+      "filing_date": "2026-08-21",
+      "amount_mid_usd": 3000000.5,
+      "amount_label": "$1,000,001 - $5,000,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
     {
       "id": "house_9116267_g181",
       "symbol": "WMT",

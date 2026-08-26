@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T10:13:44Z",
+  "generatedAt": "2026-08-26T10:18:15Z",
   "leaderboard": [
     {
       "politician": "Thomas H Tuberville",
@@ -26,6 +26,14 @@
       "notable": true
     },
     {
+      "politician": "Nancy Pelosi",
+      "buys": 3,
+      "sells": 0,
+      "unique_symbols": 2,
+      "weight": 2.0,
+      "notable": true
+    },
+    {
       "politician": "Markwayne Mullin",
       "buys": 0,
       "sells": 70,
@@ -35,9 +43,9 @@
     },
     {
       "politician": "Donald J Trump",
-      "buys": 500,
-      "sells": 496,
-      "unique_symbols": 475,
+      "buys": 496,
+      "sells": 490,
+      "unique_symbols": 474,
       "weight": 1.0,
       "notable": false
     },
