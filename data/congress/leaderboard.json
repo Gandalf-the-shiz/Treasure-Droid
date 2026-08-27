@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T10:18:15Z",
+  "generatedAt": "2026-08-27T13:36:24Z",
   "leaderboard": [
     {
       "politician": "Thomas H Tuberville",
@@ -43,9 +43,9 @@
     },
     {
       "politician": "Donald J Trump",
-      "buys": 496,
-      "sells": 490,
-      "unique_symbols": 474,
+      "buys": 493,
+      "sells": 488,
+      "unique_symbols": 472,
       "weight": 1.0,
       "notable": false
     },
@@ -149,6 +149,22 @@
       "politician": "Daniel Meuser",
       "buys": 1,
       "sells": 0,
+      "unique_symbols": 1,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
+      "politician": "Michael Rulli",
+      "buys": 0,
+      "sells": 1,
+      "unique_symbols": 1,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
+      "politician": "Kelly Louise Morrison",
+      "buys": 0,
+      "sells": 1,
       "unique_symbols": 1,
       "weight": 1.0,
       "notable": false
