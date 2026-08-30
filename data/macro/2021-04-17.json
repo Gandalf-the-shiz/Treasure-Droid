@@ -1,6 +1,6 @@
 {
   "date": "2021-04-17",
-  "generatedAt": "2026-08-23T05:13:40Z",
+  "generatedAt": "2026-08-30T05:14:28Z",
   "fredApiAvailable": false,
   "series": {
     "DFF": 0.07,
@@ -9,7 +9,7 @@
     "UMCSENT": 88.3,
     "ICSA": 566000.0,
     "SP500": 4185.47,
-    "M2SL": 20174.1,
+    "M2SL": 20174.2,
     "T10Y3M": 1.57,
     "BAMLH0A0HYM2": 4.0,
     "UNRATE": 6.1,
@@ -43,6 +43,6 @@
     "macro_cpi_norm": 0.1661,
     "macro_indpro_norm": 0.4279,
     "macro_sp500_norm": 0.3952,
-    "macro_m2_norm": 0.3623
+    "macro_m2_norm": 0.3624
   }
 }

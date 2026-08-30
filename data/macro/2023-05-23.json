@@ -1,6 +1,6 @@
 {
   "date": "2023-05-23",
-  "generatedAt": "2026-08-23T05:13:43Z",
+  "generatedAt": "2026-08-30T05:14:31Z",
   "fredApiAvailable": false,
   "series": {
     "DFF": 5.08,
@@ -9,7 +9,7 @@
     "UMCSENT": 59.0,
     "ICSA": 227000.0,
     "SP500": 4145.58,
-    "M2SL": 20829.6,
+    "M2SL": 20829.5,
     "T10Y3M": -1.64,
     "BAMLH0A0HYM2": 4.0,
     "UNRATE": 3.6,
