@@ -2,14 +2,14 @@
   "metadata": {
     "source": "SEC EDGAR",
     "url": "https://www.sec.gov/files/company_tickers_exchange.json",
-    "fetchedAt": "2026-08-23T00:06:51Z",
-    "totalTickers": 7224,
+    "fetchedAt": "2026-08-30T00:09:07Z",
+    "totalTickers": 7221,
     "exchanges": {
-      "NYSE": 2859,
-      "NASDAQ": 4365
+      "NYSE": 2857,
+      "NASDAQ": 4364
     },
     "sectors": {
-      "Other": 7224
+      "Other": 7221
     }
   },
   "tickers": [
@@ -929,6 +929,14 @@
       "symbol": "ADBE",
       "name": "ADOBE INC.",
       "cik": "0000796343",
+      "exchange": "NASDAQ",
+      "sector": "Other",
+      "sicCode": null
+    },
+    {
+      "symbol": "ADBT",
+      "name": "Advasa Holdings, Inc.",
+      "cik": "0002084227",
       "exchange": "NASDAQ",
       "sector": "Other",
       "sicCode": null
@@ -3330,22 +3338,6 @@
       "name": "Alto Neuroscience, Inc.",
       "cik": "0001999480",
       "exchange": "NYSE",
-      "sector": "Other",
-      "sicCode": null
-    },
-    {
-      "symbol": "ANSC",
-      "name": "Agriculture & Natural Solutions Acquisition Corp",
-      "cik": "0001854149",
-      "exchange": "NASDAQ",
-      "sector": "Other",
-      "sicCode": null
-    },
-    {
-      "symbol": "ANSCW",
-      "name": "Agriculture & Natural Solutions Acquisition Corp",
-      "cik": "0001854149",
-      "exchange": "NASDAQ",
       "sector": "Other",
       "sicCode": null
     },
@@ -7942,14 +7934,6 @@
       "sicCode": null
     },
     {
-      "symbol": "BNRG",
-      "name": "BRENX LTD.",
-      "cik": "0001901215",
-      "exchange": "NASDAQ",
-      "sector": "Other",
-      "sicCode": null
-    },
-    {
       "symbol": "BNS",
       "name": "BANK OF NOVA SCOTIA",
       "cik": "0000009631",
@@ -9201,14 +9185,6 @@
       "symbol": "BWMX",
       "name": "BETTERWARE DE MEXICO, S.A.P.I. DE C.V",
       "cik": "0001788257",
-      "exchange": "NYSE",
-      "sector": "Other",
-      "sicCode": null
-    },
-    {
-      "symbol": "BWNB",
-      "name": "Babcock & Wilcox Enterprises, Inc.",
-      "cik": "0001630805",
       "exchange": "NYSE",
       "sector": "Other",
       "sicCode": null
@@ -16654,6 +16630,14 @@
       "sicCode": null
     },
     {
+      "symbol": "EDVA",
+      "name": "SPLASH BEVERAGE GROUP, INC.",
+      "cik": "0001553788",
+      "exchange": "NYSE",
+      "sector": "Other",
+      "sicCode": null
+    },
+    {
       "symbol": "EE",
       "name": "Excelerate Energy, Inc.",
       "cik": "0001888447",
@@ -17722,14 +17706,6 @@
       "name": "EquipmentShare.com Inc",
       "cik": "0001693736",
       "exchange": "NASDAQ",
-      "sector": "Other",
-      "sicCode": null
-    },
-    {
-      "symbol": "EQR",
-      "name": "ERP OPERATING LTD PARTNERSHIP",
-      "cik": "0000931182",
-      "exchange": "NYSE",
       "sector": "Other",
       "sicCode": null
     },
@@ -21895,6 +21871,14 @@
     },
     {
       "symbol": "GFR",
+      "name": "Greenfire Resources Ltd.",
+      "cik": "0001966287",
+      "exchange": "NYSE",
+      "sector": "Other",
+      "sicCode": null
+    },
+    {
+      "symbol": "GFR-RI",
       "name": "Greenfire Resources Ltd.",
       "cik": "0001966287",
       "exchange": "NYSE",
@@ -29158,6 +29142,14 @@
       "sicCode": null
     },
     {
+      "symbol": "KLXER",
+      "name": "KLX Energy Services Holdings, Inc.",
+      "cik": "0001738827",
+      "exchange": "NASDAQ",
+      "sector": "Other",
+      "sicCode": null
+    },
+    {
       "symbol": "KMB",
       "name": "KIMBERLY CLARK CORP",
       "cik": "0000055785",
@@ -30639,14 +30631,6 @@
     },
     {
       "symbol": "LIDR",
-      "name": "AEye, Inc.",
-      "cik": "0001818644",
-      "exchange": "NASDAQ",
-      "sector": "Other",
-      "sicCode": null
-    },
-    {
-      "symbol": "LIDRW",
       "name": "AEye, Inc.",
       "cik": "0001818644",
       "exchange": "NASDAQ",
@@ -32614,14 +32598,6 @@
       "sicCode": null
     },
     {
-      "symbol": "MDV",
-      "name": "MODIV INDUSTRIAL, INC.",
-      "cik": "0001645873",
-      "exchange": "NYSE",
-      "sector": "Other",
-      "sicCode": null
-    },
-    {
       "symbol": "MDWD",
       "name": "MediWound Ltd.",
       "cik": "0001593984",
@@ -33190,7 +33166,23 @@
       "sicCode": null
     },
     {
+      "symbol": "MIAC",
+      "name": "Meridian3 Industrials Acquisition Corp",
+      "cik": "0002136530",
+      "exchange": "NASDAQ",
+      "sector": "Other",
+      "sicCode": null
+    },
+    {
       "symbol": "MIACU",
+      "name": "Meridian3 Industrials Acquisition Corp",
+      "cik": "0002136530",
+      "exchange": "NASDAQ",
+      "sector": "Other",
+      "sicCode": null
+    },
+    {
+      "symbol": "MIACW",
       "name": "Meridian3 Industrials Acquisition Corp",
       "cik": "0002136530",
       "exchange": "NASDAQ",
@@ -33815,14 +33807,6 @@
     },
     {
       "symbol": "MNTS",
-      "name": "Momentus Inc.",
-      "cik": "0001781162",
-      "exchange": "NASDAQ",
-      "sector": "Other",
-      "sicCode": null
-    },
-    {
-      "symbol": "MNTSW",
       "name": "Momentus Inc.",
       "cik": "0001781162",
       "exchange": "NASDAQ",
@@ -35498,14 +35482,6 @@
       "name": "Hashdex Nasdaq CME Crypto Index ETF",
       "cik": "0002031069",
       "exchange": "NASDAQ",
-      "sector": "Other",
-      "sicCode": null
-    },
-    {
-      "symbol": "NCL",
-      "name": "Northann Corp.",
-      "cik": "0001923780",
-      "exchange": "NYSE",
       "sector": "Other",
       "sicCode": null
     },
@@ -41047,7 +41023,7 @@
     },
     {
       "symbol": "PIM",
-      "name": "PUTNAM MASTER INTERMEDIATE INCOME TRUST",
+      "name": "FRANKLIN MASTER INTERMEDIATE INCOME TRUST",
       "cik": "0000830622",
       "exchange": "NYSE",
       "sector": "Other",
@@ -53423,7 +53399,7 @@
     },
     {
       "symbol": "USB",
-      "name": "US BANCORP \\DE\\",
+      "name": "US BANCORP DE",
       "cik": "0000036104",
       "exchange": "NYSE",
       "sector": "Other",
@@ -53431,7 +53407,7 @@
     },
     {
       "symbol": "USB-PS",
-      "name": "US BANCORP \\DE\\",
+      "name": "US BANCORP DE",
       "cik": "0000036104",
       "exchange": "NYSE",
       "sector": "Other",
