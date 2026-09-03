@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-02T10:20:21Z",
+  "generatedAt": "2026-09-03T10:19:35Z",
   "windowDays": 90,
-  "tradeCount": 1324,
-  "symbolCount": 591,
+  "tradeCount": 1322,
+  "symbolCount": 590,
   "bySymbol": {
     "GOOGL": {
       "symbol": "GOOGL",
@@ -541,9 +541,9 @@
     },
     "EMR": {
       "symbol": "EMR",
-      "buy_count": 2,
+      "buy_count": 1,
       "sell_count": 2,
-      "buy_notional_est": 107501.0,
+      "buy_notional_est": 32500.5,
       "sell_notional_est": 122501.09999999999,
       "politicians": [
         "Donald J Trump",
@@ -559,20 +559,13 @@
           "filing_date": "2026-08-22",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-04-27",
-          "filing_date": "2026-07-01",
-          "amount_label": "$50,001 - $100,000",
-          "weight": 1.0
         }
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-08-22",
-      "net_flow_score": 0.0,
-      "congress_score": 0.47,
-      "congress_boost": 1.0705
+      "net_flow_score": -0.3333,
+      "congress_score": 0.32,
+      "congress_boost": 1.048
     },
     "KLAC": {
       "symbol": "KLAC",
@@ -15058,23 +15051,6 @@
       "net_flow_score": -1.0,
       "congress_score": -0.065,
       "congress_boost": 0.9902
-    },
-    "ES": {
-      "symbol": "ES",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 175000.5,
-      "politicians": [
-        "Donald J Trump"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-01",
-      "net_flow_score": -1.0,
-      "congress_score": -0.35,
-      "congress_boost": 0.9475
     }
   },
   "leaderboard": [
@@ -15120,9 +15096,9 @@
     },
     {
       "politician": "Donald J Trump",
-      "buys": 480,
-      "sells": 477,
-      "unique_symbols": 464,
+      "buys": 479,
+      "sells": 476,
+      "unique_symbols": 463,
       "weight": 1.0,
       "notable": false
     },
