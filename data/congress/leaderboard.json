@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T10:19:35Z",
+  "generatedAt": "2026-09-04T10:18:22Z",
   "leaderboard": [
     {
       "politician": "Thomas H Tuberville",
@@ -43,9 +43,9 @@
     },
     {
       "politician": "Donald J Trump",
-      "buys": 479,
-      "sells": 476,
-      "unique_symbols": 463,
+      "buys": 471,
+      "sells": 461,
+      "unique_symbols": 458,
       "weight": 1.0,
       "notable": false
     },
@@ -150,6 +150,14 @@
       "buys": 1,
       "sells": 0,
       "unique_symbols": 1,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
+      "politician": "Kevin Hern",
+      "buys": 0,
+      "sells": 9,
+      "unique_symbols": 9,
       "weight": 1.0,
       "notable": false
     },
