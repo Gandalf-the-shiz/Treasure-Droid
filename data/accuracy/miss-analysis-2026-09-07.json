@@ -1,0 +1,118 @@
+{
+  "analysisDate": "2026-09-07",
+  "generatedAt": "2026-09-07T07:17:45Z",
+  "windowDays": 7,
+  "overallHitRate": 0.534,
+  "totalPredictions": 10233,
+  "totalCorrect": 5464,
+  "dailyRates": [
+    {
+      "date": "2026-09-02",
+      "hitRate": 0.5232,
+      "total": 2548
+    },
+    {
+      "date": "2026-09-03",
+      "hitRate": 0.555,
+      "total": 1319
+    },
+    {
+      "date": "2026-09-04",
+      "hitRate": 0.5339,
+      "total": 6366
+    }
+  ],
+  "sectorMisses": {
+    "Healthcare": {
+      "hitRate": 0.4035,
+      "total": 399,
+      "correct": 161,
+      "flag": "UNDERPERFORMING"
+    },
+    "Utilities": {
+      "hitRate": 0.46,
+      "total": 50,
+      "correct": 23,
+      "flag": "UNDERPERFORMING"
+    },
+    "Technology": {
+      "hitRate": 0.4911,
+      "total": 281,
+      "correct": 138,
+      "flag": "OK"
+    },
+    "Industrials": {
+      "hitRate": 0.5093,
+      "total": 377,
+      "correct": 192,
+      "flag": "OK"
+    },
+    "Energy": {
+      "hitRate": 0.5217,
+      "total": 69,
+      "correct": 36,
+      "flag": "OK"
+    },
+    "Consumer Discretionary": {
+      "hitRate": 0.5249,
+      "total": 181,
+      "correct": 95,
+      "flag": "OK"
+    },
+    "Real Estate": {
+      "hitRate": 0.5311,
+      "total": 450,
+      "correct": 239,
+      "flag": "OK"
+    },
+    "Other": {
+      "hitRate": 0.5381,
+      "total": 7971,
+      "correct": 4289,
+      "flag": "OK"
+    },
+    "Communication Services": {
+      "hitRate": 0.5574,
+      "total": 61,
+      "correct": 34,
+      "flag": "OK"
+    },
+    "Financials": {
+      "hitRate": 0.6523,
+      "total": 394,
+      "correct": 257,
+      "flag": "OUTPERFORMING"
+    }
+  },
+  "confidenceBucketAnalysis": [
+    {
+      "bucket": "low (<0.3)",
+      "hitRate": 0.5051,
+      "total": 4409,
+      "correct": 2227
+    },
+    {
+      "bucket": "medium (0.3-0.5)",
+      "hitRate": 0.5334,
+      "total": 2709,
+      "correct": 1445
+    },
+    {
+      "bucket": "high (>0.5)",
+      "hitRate": 0.5753,
+      "total": 3115,
+      "correct": 1792
+    }
+  ],
+  "evTopN": {
+    "n": 20,
+    "hitRate": 0.5833,
+    "total": 60,
+    "correct": 35
+  },
+  "topMissPatterns": [
+    "Healthcare sector significantly underperforming (40% vs 53% overall) \u2014 n=399. Consider regime-conditional filtering.",
+    "Utilities sector significantly underperforming (46% vs 53% overall) \u2014 n=50. Consider regime-conditional filtering.",
+    "Top-20 EV predictions (58%) not beating overall (53%). EV scoring needs review."
+  ]
+}
