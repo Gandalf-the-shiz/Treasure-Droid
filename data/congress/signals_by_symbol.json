@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-04T10:18:22Z",
+  "generatedAt": "2026-09-07T10:19:36Z",
   "windowDays": 90,
-  "tradeCount": 1308,
+  "tradeCount": 1307,
   "symbolCount": 588,
   "bySymbol": {
     "PG": {
@@ -2676,9 +2676,9 @@
     },
     "ISRG": {
       "symbol": "ISRG",
-      "buy_count": 3,
+      "buy_count": 2,
       "sell_count": 5,
-      "buy_notional_est": 525001.5,
+      "buy_notional_est": 350001.0,
       "sell_notional_est": 1122502.6,
       "politicians": [
         "Donald J Trump",
@@ -2701,20 +2701,13 @@
           "filing_date": "2026-08-22",
           "amount_label": "$100,001 - $250,000",
           "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-04-27",
-          "filing_date": "2026-07-01",
-          "amount_label": "$100,001 - $250,000",
-          "weight": 1.0
         }
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-08-22",
-      "net_flow_score": -0.25,
-      "congress_score": -0.695,
-      "congress_boost": 0.8958
+      "net_flow_score": -0.4286,
+      "congress_score": -1.045,
+      "congress_boost": 0.8433
     },
     "AMCR": {
       "symbol": "AMCR",
@@ -15017,7 +15010,7 @@
     },
     {
       "politician": "Donald J Trump",
-      "buys": 471,
+      "buys": 470,
       "sells": 461,
       "unique_symbols": 458,
       "weight": 1.0,

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-04T10:18:22Z",
-  "count": 1308,
+  "generatedAt": "2026-09-07T10:19:36Z",
+  "count": 1307,
   "trades": [
     {
       "id": "house_20035326_g22",
@@ -18297,20 +18297,6 @@
       "filing_date": "2026-07-01",
       "amount_mid_usd": 32500.5,
       "amount_label": "$15,001 - $50,000",
-      "is_late": true,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Donald-J-Trump-06_25_2026-278T_pdf_g720",
-      "symbol": "ISRG",
-      "politician": "Donald J Trump",
-      "chamber": "executive",
-      "party": "",
-      "side": "buy",
-      "transaction_date": "2026-04-27",
-      "filing_date": "2026-07-01",
-      "amount_mid_usd": 175000.5,
-      "amount_label": "$100,001 - $250,000",
       "is_late": true,
       "source": "kadoa_congress_monitor"
     }
