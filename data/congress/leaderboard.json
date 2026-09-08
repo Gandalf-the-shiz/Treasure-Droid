@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T10:19:36Z",
+  "generatedAt": "2026-09-08T10:19:22Z",
   "leaderboard": [
     {
       "politician": "Thomas H Tuberville",
@@ -10,19 +10,19 @@
       "notable": true
     },
     {
+      "politician": "Rohit Khanna",
+      "buys": 10,
+      "sells": 9,
+      "unique_symbols": 15,
+      "weight": 1.1,
+      "notable": true
+    },
+    {
       "politician": "Michael T. McCaul",
       "buys": 5,
       "sells": 16,
       "unique_symbols": 18,
       "weight": 1.2,
-      "notable": true
-    },
-    {
-      "politician": "Rohit Khanna",
-      "buys": 4,
-      "sells": 5,
-      "unique_symbols": 9,
-      "weight": 1.1,
       "notable": true
     },
     {
@@ -43,9 +43,9 @@
     },
     {
       "politician": "Donald J Trump",
-      "buys": 470,
-      "sells": 461,
-      "unique_symbols": 458,
+      "buys": 418,
+      "sells": 413,
+      "unique_symbols": 432,
       "weight": 1.0,
       "notable": false
     },
@@ -67,16 +67,16 @@
     },
     {
       "politician": "Gilbert Cisneros",
-      "buys": 6,
-      "sells": 4,
-      "unique_symbols": 10,
+      "buys": 10,
+      "sells": 7,
+      "unique_symbols": 16,
       "weight": 1.0,
       "notable": false
     },
     {
       "politician": "Tony Wied",
-      "buys": 5,
-      "sells": 4,
+      "buys": 8,
+      "sells": 5,
       "unique_symbols": 5,
       "weight": 1.0,
       "notable": false
