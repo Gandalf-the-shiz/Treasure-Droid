@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2026-09-09T10:18:49Z",
+  "generatedAt": "2026-09-10T10:21:18Z",
   "windowDays": 90,
   "tradeCount": 1228,
-  "symbolCount": 572,
+  "symbolCount": 573,
   "bySymbol": {
+    "ASGN": {
+      "symbol": "ASGN",
+      "buy_count": 0,
+      "sell_count": 1,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 32500.5,
+      "politicians": [
+        "Sean McMaster"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-09-09",
+      "net_flow_score": -1.0,
+      "congress_score": -0.065,
+      "congress_boost": 0.9902
+    },
     "JPM": {
       "symbol": "JPM",
       "buy_count": 6,
@@ -6797,9 +6814,9 @@
     "BL": {
       "symbol": "BL",
       "buy_count": 1,
-      "sell_count": 1,
+      "sell_count": 0,
       "buy_notional_est": 32500.5,
-      "sell_notional_est": 32500.5,
+      "sell_notional_est": 0.0,
       "politicians": [
         "Donald J Trump"
       ],
@@ -6815,9 +6832,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-08-22",
-      "net_flow_score": 0.0,
-      "congress_score": 0.0,
-      "congress_boost": 1.0
+      "net_flow_score": 1.0,
+      "congress_score": 0.065,
+      "congress_boost": 1.0097
     },
     "EFOR": {
       "symbol": "EFOR",
@@ -14469,7 +14486,7 @@
     {
       "politician": "Donald J Trump",
       "buys": 418,
-      "sells": 413,
+      "sells": 412,
       "unique_symbols": 432,
       "weight": 1.0,
       "notable": false
@@ -14515,6 +14532,14 @@
       "notable": false
     },
     {
+      "politician": "Sean McMaster",
+      "buys": 1,
+      "sells": 1,
+      "unique_symbols": 2,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
       "politician": "Steve Cohen",
       "buys": 1,
       "sells": 0,
@@ -14540,14 +14565,6 @@
     },
     {
       "politician": "William R. Timmons IV",
-      "buys": 1,
-      "sells": 0,
-      "unique_symbols": 1,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "Sean McMaster",
       "buys": 1,
       "sells": 0,
       "unique_symbols": 1,

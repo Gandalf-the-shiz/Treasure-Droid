@@ -1,7 +1,21 @@
 {
-  "generatedAt": "2026-09-09T10:18:49Z",
+  "generatedAt": "2026-09-10T10:21:18Z",
   "count": 1228,
   "trades": [
+    {
+      "id": "oge_Sean-McMaster-06_11_2026-278T_1__pdf_g3",
+      "symbol": "ASGN",
+      "politician": "Sean McMaster",
+      "chamber": "executive",
+      "party": "",
+      "side": "sell",
+      "transaction_date": "2025-08-22",
+      "filing_date": "2026-09-09",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
     {
       "id": "house_9116328_g128",
       "symbol": "JPM",
@@ -17169,20 +17183,6 @@
     {
       "id": "oge_Donald-J-Trump-06_25_2026-278T_pdf_g280",
       "symbol": "BCC",
-      "politician": "Donald J Trump",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-04-30",
-      "filing_date": "2026-07-01",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": true,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Donald-J-Trump-06_25_2026-278T_pdf_g262",
-      "symbol": "BL",
       "politician": "Donald J Trump",
       "chamber": "executive",
       "party": "",
