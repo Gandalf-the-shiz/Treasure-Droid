@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T10:18:34Z",
+  "generatedAt": "2026-09-14T10:19:46Z",
   "leaderboard": [
     {
       "politician": "Thomas H Tuberville",
@@ -43,9 +43,9 @@
     },
     {
       "politician": "Donald J Trump",
-      "buys": 401,
-      "sells": 405,
-      "unique_symbols": 422,
+      "buys": 359,
+      "sells": 366,
+      "unique_symbols": 395,
       "weight": 1.0,
       "notable": false
     },
@@ -59,17 +59,17 @@
     },
     {
       "politician": "April McClain Delaney",
-      "buys": 12,
-      "sells": 2,
-      "unique_symbols": 9,
+      "buys": 17,
+      "sells": 38,
+      "unique_symbols": 33,
       "weight": 1.0,
       "notable": false
     },
     {
       "politician": "Gilbert Cisneros",
-      "buys": 10,
-      "sells": 7,
-      "unique_symbols": 16,
+      "buys": 14,
+      "sells": 14,
+      "unique_symbols": 22,
       "weight": 1.0,
       "notable": false
     },
@@ -83,9 +83,9 @@
     },
     {
       "politician": "Maria Elvira Salazar",
-      "buys": 4,
-      "sells": 1,
-      "unique_symbols": 5,
+      "buys": 5,
+      "sells": 2,
+      "unique_symbols": 6,
       "weight": 1.0,
       "notable": false
     },
@@ -157,6 +157,14 @@
       "politician": "Daniel Meuser",
       "buys": 1,
       "sells": 0,
+      "unique_symbols": 1,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
+      "politician": "John Boozman",
+      "buys": 0,
+      "sells": 1,
       "unique_symbols": 1,
       "weight": 1.0,
       "notable": false
