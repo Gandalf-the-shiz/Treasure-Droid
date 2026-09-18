@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T10:19:18Z",
-  "count": 1178,
+  "generatedAt": "2026-09-18T10:18:15Z",
+  "count": 1175,
   "trades": [
     {
       "id": "house_20035455_g4",
@@ -16445,48 +16445,6 @@
       "chamber": "executive",
       "party": "",
       "side": "sell",
-      "transaction_date": "2026-05-11",
-      "filing_date": "2026-07-01",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": true,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Donald-J-Trump-06_25_2026-278T_20_2__pdf_g102",
-      "symbol": "FE",
-      "politician": "Donald J Trump",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-05-11",
-      "filing_date": "2026-07-01",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": true,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Donald-J-Trump-06_25_2026-278T_20_2__pdf_g100",
-      "symbol": "XOM",
-      "politician": "Donald J Trump",
-      "chamber": "executive",
-      "party": "",
-      "side": "buy",
-      "transaction_date": "2026-05-11",
-      "filing_date": "2026-07-01",
-      "amount_mid_usd": 175000.5,
-      "amount_label": "$100,001 - $250,000",
-      "is_late": true,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Donald-J-Trump-06_25_2026-278T_20_2__pdf_g99",
-      "symbol": "EXR",
-      "politician": "Donald J Trump",
-      "chamber": "executive",
-      "party": "",
-      "side": "buy",
       "transaction_date": "2026-05-11",
       "filing_date": "2026-07-01",
       "amount_mid_usd": 32500.5,

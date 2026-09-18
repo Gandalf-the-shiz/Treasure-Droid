@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-17T10:19:18Z",
+  "generatedAt": "2026-09-18T10:18:15Z",
   "windowDays": 90,
-  "tradeCount": 1178,
+  "tradeCount": 1175,
   "symbolCount": 559,
   "bySymbol": {
     "MSFT": {
@@ -5626,9 +5626,9 @@
     "FE": {
       "symbol": "FE",
       "buy_count": 1,
-      "sell_count": 1,
+      "sell_count": 0,
       "buy_notional_est": 32500.5,
-      "sell_notional_est": 32500.5,
+      "sell_notional_est": 0.0,
       "politicians": [
         "Donald J Trump"
       ],
@@ -5644,9 +5644,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-08-22",
-      "net_flow_score": 0.0,
-      "congress_score": 0.0,
-      "congress_boost": 1.0
+      "net_flow_score": 1.0,
+      "congress_score": 0.065,
+      "congress_boost": 1.0097
     },
     "NRG": {
       "symbol": "NRG",
@@ -11029,9 +11029,9 @@
     },
     "XOM": {
       "symbol": "XOM",
-      "buy_count": 3,
+      "buy_count": 2,
       "sell_count": 2,
-      "buy_notional_est": 282501.5,
+      "buy_notional_est": 107501.0,
       "sell_notional_est": 107501.0,
       "politicians": [
         "James A. Himes",
@@ -11052,20 +11052,13 @@
           "filing_date": "2026-07-01",
           "amount_label": "$50,001 - $100,000",
           "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-05-11",
-          "filing_date": "2026-07-01",
-          "amount_label": "$100,001 - $250,000",
-          "weight": 1.0
         }
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-07-20",
-      "net_flow_score": 0.2,
-      "congress_score": 0.35,
-      "congress_boost": 1.0525
+      "net_flow_score": 0.0,
+      "congress_score": 0.0,
+      "congress_boost": 1.0
     },
     "NOK": {
       "symbol": "NOK",
@@ -12088,9 +12081,9 @@
     },
     "EXR": {
       "symbol": "EXR",
-      "buy_count": 2,
+      "buy_count": 1,
       "sell_count": 0,
-      "buy_notional_est": 107501.0,
+      "buy_notional_est": 75000.5,
       "sell_notional_est": 0.0,
       "politicians": [
         "Donald J Trump"
@@ -12103,20 +12096,13 @@
           "filing_date": "2026-07-01",
           "amount_label": "$50,001 - $100,000",
           "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-05-11",
-          "filing_date": "2026-07-01",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
         }
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-07-01",
       "net_flow_score": 1.0,
-      "congress_score": 0.215,
-      "congress_boost": 1.0322
+      "congress_score": 0.15,
+      "congress_boost": 1.0225
     },
     "EXE": {
       "symbol": "EXE",
@@ -13843,8 +13829,8 @@
     },
     {
       "politician": "Donald J Trump",
-      "buys": 353,
-      "sells": 364,
+      "buys": 351,
+      "sells": 363,
       "unique_symbols": 393,
       "weight": 1.0,
       "notable": false

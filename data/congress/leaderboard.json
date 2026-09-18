@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T10:19:18Z",
+  "generatedAt": "2026-09-18T10:18:15Z",
   "leaderboard": [
     {
       "politician": "Thomas H Tuberville",
@@ -51,8 +51,8 @@
     },
     {
       "politician": "Donald J Trump",
-      "buys": 353,
-      "sells": 364,
+      "buys": 351,
+      "sells": 363,
       "unique_symbols": 393,
       "weight": 1.0,
       "notable": false
