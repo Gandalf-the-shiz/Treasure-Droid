@@ -1,20 +1,21 @@
 {
-  "generatedAt": "2026-09-18T01:27:44Z",
-  "status": "warmup",
+  "generatedAt": "2026-09-21T01:15:08Z",
+  "status": "degraded",
   "reasons": [
-    "insufficient_days_or_trades_for_hard_gate"
+    "drawdown_above_threshold",
+    "online_learning_delta_negative"
   ],
   "metrics": {
-    "daysProcessed": 32,
-    "tradeCount": 118,
-    "totalReturnPct": 10.3277,
+    "daysProcessed": 33,
+    "tradeCount": 126,
+    "totalReturnPct": 9.9207,
     "maxDrawdownPct": 10.7281,
-    "onlineLearningDelta": -0.0119,
+    "onlineLearningDelta": -0.0383,
     "recentWindow": {
       "windowDays": 20,
-      "returnPct": 12.0173,
-      "maxDrawdownPct": 0.078,
-      "avgDailyPnl": 59.1801
+      "returnPct": 11.604,
+      "maxDrawdownPct": 0.3689,
+      "avgDailyPnl": 57.1448
     }
   },
   "thresholds": {
@@ -29,7 +30,7 @@
     "maxRecentDrawdownPct": 5.0
   },
   "actions": {
-    "softenedRiskConfig": false,
+    "softenedRiskConfig": true,
     "needsMainRetrain": false
   }
 }
