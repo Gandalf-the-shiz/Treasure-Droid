@@ -1,0 +1,80 @@
+{
+  "analysisDate": "2026-09-21",
+  "generatedAt": "2026-09-21T07:21:32Z",
+  "windowDays": 7,
+  "overallHitRate": 0.429,
+  "totalPredictions": 13157,
+  "totalCorrect": 5645,
+  "dailyRates": [
+    {
+      "date": "2026-09-14",
+      "hitRate": 0.4639,
+      "total": 1302
+    },
+    {
+      "date": "2026-09-15",
+      "hitRate": 0.3671,
+      "total": 2768
+    },
+    {
+      "date": "2026-09-16",
+      "hitRate": 0.4913,
+      "total": 1211
+    },
+    {
+      "date": "2026-09-17",
+      "hitRate": 0.4956,
+      "total": 1479
+    },
+    {
+      "date": "2026-09-18",
+      "hitRate": 0.4216,
+      "total": 6397
+    }
+  ],
+  "sectorMisses": {
+    "Real Estate": {
+      "hitRate": 0.3519,
+      "total": 574,
+      "correct": 202,
+      "flag": "UNDERPERFORMING"
+    },
+    "Other": {
+      "hitRate": 0.4326,
+      "total": 12583,
+      "correct": 5443,
+      "flag": "OK"
+    }
+  },
+  "confidenceBucketAnalysis": [
+    {
+      "bucket": "low (<0.3)",
+      "hitRate": 0.4539,
+      "total": 3928,
+      "correct": 1783
+    },
+    {
+      "bucket": "medium (0.3-0.5)",
+      "hitRate": 0.4208,
+      "total": 2873,
+      "correct": 1209
+    },
+    {
+      "bucket": "high (>0.5)",
+      "hitRate": 0.4174,
+      "total": 6356,
+      "correct": 2653
+    }
+  ],
+  "evTopN": {
+    "n": 20,
+    "hitRate": 0.38,
+    "total": 100,
+    "correct": 38
+  },
+  "topMissPatterns": [
+    "Real Estate sector significantly underperforming (35% vs 43% overall) \u2014 n=574. Consider regime-conditional filtering.",
+    "High-confidence predictions (high (>0.5)) not outperforming base rate (42% vs 43% overall). Platt calibration or threshold tuning recommended.",
+    "Top-20 EV predictions (38%) not beating overall (43%). EV scoring needs review."
+  ]
+}
