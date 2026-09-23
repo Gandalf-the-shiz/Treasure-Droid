@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-22T01:37:01Z",
-  "daysUsed": 34,
+  "generatedAt": "2026-09-23T01:36:06Z",
+  "daysUsed": 35,
   "searchSpace": {
     "minBuyScore": [
       0.5,
@@ -45,14 +45,14 @@
       "PAPER_AGENT_SHORT_ALLOC_PCT": 0.0
     },
     "outcome": {
-      "finalEquity": 11174.39,
-      "returnPct": 11.7439,
-      "tradeCount": 126,
-      "avgHitRate": 0.514,
+      "finalEquity": 11361.84,
+      "returnPct": 13.6184,
+      "tradeCount": 134,
+      "avgHitRate": 0.5152,
       "maxDrawdownPct": 2.9601,
-      "sharpeLike": 0.251605,
-      "objectiveScore": 11.617535,
-      "days": 34
+      "sharpeLike": 0.2804,
+      "objectiveScore": 13.667124,
+      "days": 35
     }
   },
   "top5": [
@@ -67,14 +67,14 @@
         "PAPER_AGENT_SHORT_ALLOC_PCT": 0.0
       },
       "outcome": {
-        "finalEquity": 11174.39,
-        "returnPct": 11.7439,
-        "tradeCount": 126,
-        "avgHitRate": 0.514,
+        "finalEquity": 11361.84,
+        "returnPct": 13.6184,
+        "tradeCount": 134,
+        "avgHitRate": 0.5152,
         "maxDrawdownPct": 2.9601,
-        "sharpeLike": 0.251605,
-        "objectiveScore": 11.617535,
-        "days": 34
+        "sharpeLike": 0.2804,
+        "objectiveScore": 13.667124,
+        "days": 35
       }
     },
     {
@@ -88,14 +88,14 @@
         "PAPER_AGENT_SHORT_ALLOC_PCT": 0.0
       },
       "outcome": {
-        "finalEquity": 11139.89,
-        "returnPct": 11.3989,
-        "tradeCount": 126,
-        "avgHitRate": 0.514,
+        "finalEquity": 11324.83,
+        "returnPct": 13.2483,
+        "tradeCount": 134,
+        "avgHitRate": 0.5152,
         "maxDrawdownPct": 3.0294,
-        "sharpeLike": 0.245141,
-        "objectiveScore": 11.171315,
-        "days": 34
+        "sharpeLike": 0.273841,
+        "objectiveScore": 13.19533,
+        "days": 35
       }
     },
     {
@@ -109,14 +109,14 @@
         "PAPER_AGENT_SHORT_ALLOC_PCT": 0.0
       },
       "outcome": {
-        "finalEquity": 11105.5,
-        "returnPct": 11.055,
-        "tradeCount": 126,
-        "avgHitRate": 0.514,
+        "finalEquity": 11287.95,
+        "returnPct": 12.8795,
+        "tradeCount": 134,
+        "avgHitRate": 0.5152,
         "maxDrawdownPct": 3.1039,
-        "sharpeLike": 0.238836,
-        "objectiveScore": 10.722622,
-        "days": 34
+        "sharpeLike": 0.267454,
+        "objectiveScore": 12.721175,
+        "days": 35
       }
     },
     {
@@ -130,14 +130,14 @@
         "PAPER_AGENT_SHORT_ALLOC_PCT": 0.0
       },
       "outcome": {
-        "finalEquity": 11098.58,
-        "returnPct": 10.9858,
-        "tradeCount": 144,
-        "avgHitRate": 0.514,
+        "finalEquity": 11285.43,
+        "returnPct": 12.8543,
+        "tradeCount": 152,
+        "avgHitRate": 0.5152,
         "maxDrawdownPct": 3.2904,
-        "sharpeLike": 0.235102,
-        "objectiveScore": 10.463185,
-        "days": 34
+        "sharpeLike": 0.264165,
+        "objectiveScore": 12.508412,
+        "days": 35
       }
     },
     {
@@ -151,14 +151,14 @@
         "PAPER_AGENT_SHORT_ALLOC_PCT": 0.0
       },
       "outcome": {
-        "finalEquity": 11058.16,
-        "returnPct": 10.5816,
-        "tradeCount": 144,
-        "avgHitRate": 0.514,
+        "finalEquity": 11242.35,
+        "returnPct": 12.4235,
+        "tradeCount": 152,
+        "avgHitRate": 0.5152,
         "maxDrawdownPct": 3.3764,
-        "sharpeLike": 0.227542,
-        "objectiveScore": 9.936203,
-        "days": 34
+        "sharpeLike": 0.256537,
+        "objectiveScore": 11.954371,
+        "days": 35
       }
     }
   ]
