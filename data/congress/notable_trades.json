@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T10:20:12Z",
+  "generatedAt": "2026-09-23T10:19:23Z",
   "trades90d": [
     {
       "id": "house_20035455_g4",
@@ -2588,48 +2588,6 @@
       "filing_date": "2026-07-08",
       "amount_mid_usd": 175000.5,
       "amount_label": "$100,001 - $250,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "house_9116206_g1",
-      "symbol": "AVGO",
-      "politician": "Rohit Khanna",
-      "chamber": "house",
-      "party": "D",
-      "side": "buy",
-      "transaction_date": "2026-06-05",
-      "filing_date": "2026-07-06",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "house_9116206_g33",
-      "symbol": "T",
-      "politician": "Rohit Khanna",
-      "chamber": "house",
-      "party": "D",
-      "side": "buy",
-      "transaction_date": "2026-06-02",
-      "filing_date": "2026-07-06",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "house_9116206_g31",
-      "symbol": "HD",
-      "politician": "Rohit Khanna",
-      "chamber": "house",
-      "party": "D",
-      "side": "buy",
-      "transaction_date": "2026-06-02",
-      "filing_date": "2026-07-06",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
       "is_late": false,
       "source": "kadoa_congress_monitor"
     }
@@ -5222,48 +5180,6 @@
       "filing_date": "2026-07-08",
       "amount_mid_usd": 175000.5,
       "amount_label": "$100,001 - $250,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "house_9116206_g1",
-      "symbol": "AVGO",
-      "politician": "Rohit Khanna",
-      "chamber": "house",
-      "party": "D",
-      "side": "buy",
-      "transaction_date": "2026-06-05",
-      "filing_date": "2026-07-06",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "house_9116206_g33",
-      "symbol": "T",
-      "politician": "Rohit Khanna",
-      "chamber": "house",
-      "party": "D",
-      "side": "buy",
-      "transaction_date": "2026-06-02",
-      "filing_date": "2026-07-06",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "house_9116206_g31",
-      "symbol": "HD",
-      "politician": "Rohit Khanna",
-      "chamber": "house",
-      "party": "D",
-      "side": "buy",
-      "transaction_date": "2026-06-02",
-      "filing_date": "2026-07-06",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
       "is_late": false,
       "source": "kadoa_congress_monitor"
     }

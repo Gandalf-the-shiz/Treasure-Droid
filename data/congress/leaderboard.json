@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T10:20:12Z",
+  "generatedAt": "2026-09-23T10:19:23Z",
   "leaderboard": [
     {
       "politician": "Thomas H Tuberville",
@@ -11,9 +11,9 @@
     },
     {
       "politician": "Rohit Khanna",
-      "buys": 10,
+      "buys": 7,
       "sells": 9,
-      "unique_symbols": 15,
+      "unique_symbols": 14,
       "weight": 1.1,
       "notable": true
     },
@@ -51,9 +51,9 @@
     },
     {
       "politician": "Donald J Trump",
-      "buys": 348,
-      "sells": 355,
-      "unique_symbols": 390,
+      "buys": 389,
+      "sells": 402,
+      "unique_symbols": 404,
       "weight": 1.0,
       "notable": false
     },
@@ -75,9 +75,9 @@
     },
     {
       "politician": "Gilbert Cisneros",
-      "buys": 14,
-      "sells": 14,
-      "unique_symbols": 22,
+      "buys": 8,
+      "sells": 10,
+      "unique_symbols": 14,
       "weight": 1.0,
       "notable": false
     },
@@ -94,6 +94,14 @@
       "buys": 5,
       "sells": 2,
       "unique_symbols": 6,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
+      "politician": "A. Mitchell",
+      "buys": 1,
+      "sells": 0,
+      "unique_symbols": 1,
       "weight": 1.0,
       "notable": false
     },
@@ -162,10 +170,18 @@
       "notable": false
     },
     {
-      "politician": "Daniel Meuser",
-      "buys": 1,
-      "sells": 0,
-      "unique_symbols": 1,
+      "politician": "Scott A Kupor",
+      "buys": 0,
+      "sells": 9,
+      "unique_symbols": 7,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
+      "politician": "Pete Sessions",
+      "buys": 0,
+      "sells": 2,
+      "unique_symbols": 2,
       "weight": 1.0,
       "notable": false
     },
@@ -222,14 +238,6 @@
       "buys": 0,
       "sells": 1,
       "unique_symbols": 1,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "Scott A Kupor",
-      "buys": 0,
-      "sells": 6,
-      "unique_symbols": 4,
       "weight": 1.0,
       "notable": false
     },
@@ -323,14 +331,6 @@
     },
     {
       "politician": "Virginia Foxx",
-      "buys": 0,
-      "sells": 1,
-      "unique_symbols": 1,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "Max Miller",
       "buys": 0,
       "sells": 1,
       "unique_symbols": 1,
