@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-09-24T01:39:09Z",
+  "generatedAt": "2026-09-25T01:34:53Z",
   "status": "degraded",
   "reasons": [
     "drawdown_above_threshold",
     "online_learning_delta_negative"
   ],
   "metrics": {
-    "daysProcessed": 36,
-    "tradeCount": 141,
-    "totalReturnPct": 10.4235,
-    "maxDrawdownPct": 11.2449,
-    "onlineLearningDelta": -0.1456,
+    "daysProcessed": 37,
+    "tradeCount": 301,
+    "totalReturnPct": 2.3941,
+    "maxDrawdownPct": 10.7158,
+    "onlineLearningDelta": -0.0875,
     "recentWindow": {
       "windowDays": 20,
-      "returnPct": 4.6969,
-      "maxDrawdownPct": 0.4926,
-      "avgDailyPnl": 24.6783
+      "returnPct": 7.7821,
+      "maxDrawdownPct": 1.1143,
+      "avgDailyPnl": 37.9416
     }
   },
   "thresholds": {
