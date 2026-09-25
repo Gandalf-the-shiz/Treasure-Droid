@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T10:20:39Z",
+  "generatedAt": "2026-09-25T10:19:05Z",
   "leaderboard": [
     {
       "politician": "Thomas H Tuberville",
@@ -91,9 +91,17 @@
     },
     {
       "politician": "Maria Elvira Salazar",
-      "buys": 5,
-      "sells": 2,
-      "unique_symbols": 6,
+      "buys": 3,
+      "sells": 1,
+      "unique_symbols": 3,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
+      "politician": "Sheri Biggs",
+      "buys": 1,
+      "sells": 1,
+      "unique_symbols": 1,
       "weight": 1.0,
       "notable": false
     },
@@ -170,18 +178,26 @@
       "notable": false
     },
     {
-      "politician": "Scott A Kupor",
+      "politician": "Pete Sessions",
       "buys": 0,
-      "sells": 9,
-      "unique_symbols": 7,
+      "sells": 3,
+      "unique_symbols": 3,
       "weight": 1.0,
       "notable": false
     },
     {
-      "politician": "Pete Sessions",
+      "politician": "Richard W. Allen",
       "buys": 0,
-      "sells": 2,
-      "unique_symbols": 2,
+      "sells": 3,
+      "unique_symbols": 3,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
+      "politician": "Scott A Kupor",
+      "buys": 0,
+      "sells": 9,
+      "unique_symbols": 7,
       "weight": 1.0,
       "notable": false
     },
@@ -254,14 +270,6 @@
       "buys": 0,
       "sells": 1,
       "unique_symbols": 1,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "Richard W. Allen",
-      "buys": 0,
-      "sells": 2,
-      "unique_symbols": 2,
       "weight": 1.0,
       "notable": false
     },

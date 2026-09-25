@@ -1,9 +1,98 @@
 {
-  "generatedAt": "2026-09-24T10:20:39Z",
+  "generatedAt": "2026-09-25T10:19:05Z",
   "windowDays": 90,
-  "tradeCount": 1244,
-  "symbolCount": 584,
+  "tradeCount": 1245,
+  "symbolCount": 583,
   "bySymbol": {
+    "AAPL": {
+      "symbol": "AAPL",
+      "buy_count": 3,
+      "sell_count": 11,
+      "buy_notional_est": 440001.5,
+      "sell_notional_est": 835506.8999999997,
+      "politicians": [
+        "Pete Sessions",
+        "Donald J Trump",
+        "Shri Thanedar",
+        "Thomas H Tuberville",
+        "Alan Armstrong",
+        "Sheldon Whitehouse"
+      ],
+      "notable_politicians": [
+        "Thomas H Tuberville"
+      ],
+      "recent_buys": [
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-06-16",
+          "filing_date": "2026-08-22",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-06-15",
+          "filing_date": "2026-08-22",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Alan Armstrong",
+          "date": "2026-03-27",
+          "filing_date": "2026-07-21",
+          "amount_label": "$250,001 - $500,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-09-22",
+      "net_flow_score": -0.5714,
+      "congress_score": -0.291,
+      "congress_boost": 0.9564
+    },
+    "BNS": {
+      "symbol": "BNS",
+      "buy_count": 1,
+      "sell_count": 1,
+      "buy_notional_est": 750000.5,
+      "sell_notional_est": 750000.5,
+      "politicians": [
+        "Sheri Biggs"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [
+        {
+          "politician": "Sheri Biggs",
+          "date": "2026-09-01",
+          "filing_date": "2026-09-22",
+          "amount_label": "$500,001 - $1,000,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-09-22",
+      "net_flow_score": 0.0,
+      "congress_score": 0.0,
+      "congress_boost": 1.0
+    },
+    "ROL": {
+      "symbol": "ROL",
+      "buy_count": 0,
+      "sell_count": 2,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 107501.0,
+      "politicians": [
+        "Richard W. Allen",
+        "April McClain Delaney"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-09-22",
+      "net_flow_score": -1.0,
+      "congress_score": -0.215,
+      "congress_boost": 0.9677
+    },
     "BKNG": {
       "symbol": "BKNG",
       "buy_count": 2,
@@ -2809,15 +2898,14 @@
     },
     "CRM": {
       "symbol": "CRM",
-      "buy_count": 7,
+      "buy_count": 6,
       "sell_count": 4,
-      "buy_notional_est": 3522503.5,
+      "buy_notional_est": 3490003.0,
       "sell_notional_est": 330002.1,
       "politicians": [
         "Donald J Trump",
         "Tony Wied",
-        "Markwayne Mullin",
-        "Maria Elvira Salazar"
+        "Markwayne Mullin"
       ],
       "notable_politicians": [
         "Markwayne Mullin"
@@ -2861,7 +2949,7 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-09-22",
-      "net_flow_score": 0.2727,
+      "net_flow_score": 0.2,
       "congress_score": 1.0,
       "congress_boost": 1.15
     },
@@ -8556,23 +8644,6 @@
       "congress_score": -0.15,
       "congress_boost": 0.9775
     },
-    "ROL": {
-      "symbol": "ROL",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 75000.5,
-      "politicians": [
-        "April McClain Delaney"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-09-09",
-      "net_flow_score": -1.0,
-      "congress_score": -0.15,
-      "congress_boost": 0.9775
-    },
     "PKG": {
       "symbol": "PKG",
       "buy_count": 0,
@@ -9324,51 +9395,6 @@
       "net_flow_score": -1.0,
       "congress_score": -0.065,
       "congress_boost": 0.9902
-    },
-    "AAPL": {
-      "symbol": "AAPL",
-      "buy_count": 3,
-      "sell_count": 10,
-      "buy_notional_est": 440001.5,
-      "sell_notional_est": 660506.3999999999,
-      "politicians": [
-        "Donald J Trump",
-        "Shri Thanedar",
-        "Thomas H Tuberville",
-        "Alan Armstrong",
-        "Sheldon Whitehouse"
-      ],
-      "notable_politicians": [
-        "Thomas H Tuberville"
-      ],
-      "recent_buys": [
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-06-16",
-          "filing_date": "2026-08-22",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-06-15",
-          "filing_date": "2026-08-22",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Alan Armstrong",
-          "date": "2026-03-27",
-          "filing_date": "2026-07-21",
-          "amount_label": "$250,001 - $500,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-08-22",
-      "net_flow_score": -0.5385,
-      "congress_score": 0.059,
-      "congress_boost": 1.0089
     },
     "PNC": {
       "symbol": "PNC",
@@ -14312,48 +14338,6 @@
       "net_flow_score": 1.0,
       "congress_score": 0.065,
       "congress_boost": 1.0097
-    },
-    "BEP": {
-      "symbol": "BEP",
-      "buy_count": 1,
-      "sell_count": 0,
-      "buy_notional_est": 32500.5,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Maria Elvira Salazar"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Maria Elvira Salazar",
-          "date": "2026-06-04",
-          "filing_date": "2026-07-07",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-07",
-      "net_flow_score": 1.0,
-      "congress_score": 0.065,
-      "congress_boost": 1.0097
-    },
-    "BIIB": {
-      "symbol": "BIIB",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 32500.5,
-      "politicians": [
-        "Maria Elvira Salazar"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-07",
-      "net_flow_score": -1.0,
-      "congress_score": -0.065,
-      "congress_boost": 0.9902
     }
   },
   "leaderboard": [
@@ -14447,9 +14431,17 @@
     },
     {
       "politician": "Maria Elvira Salazar",
-      "buys": 5,
-      "sells": 2,
-      "unique_symbols": 6,
+      "buys": 3,
+      "sells": 1,
+      "unique_symbols": 3,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
+      "politician": "Sheri Biggs",
+      "buys": 1,
+      "sells": 1,
+      "unique_symbols": 1,
       "weight": 1.0,
       "notable": false
     },
@@ -14526,18 +14518,26 @@
       "notable": false
     },
     {
-      "politician": "Scott A Kupor",
+      "politician": "Pete Sessions",
       "buys": 0,
-      "sells": 9,
-      "unique_symbols": 7,
+      "sells": 3,
+      "unique_symbols": 3,
       "weight": 1.0,
       "notable": false
     },
     {
-      "politician": "Pete Sessions",
+      "politician": "Richard W. Allen",
       "buys": 0,
-      "sells": 2,
-      "unique_symbols": 2,
+      "sells": 3,
+      "unique_symbols": 3,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
+      "politician": "Scott A Kupor",
+      "buys": 0,
+      "sells": 9,
+      "unique_symbols": 7,
       "weight": 1.0,
       "notable": false
     },
@@ -14610,14 +14610,6 @@
       "buys": 0,
       "sells": 1,
       "unique_symbols": 1,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "Richard W. Allen",
-      "buys": 0,
-      "sells": 2,
-      "unique_symbols": 2,
       "weight": 1.0,
       "notable": false
     },
