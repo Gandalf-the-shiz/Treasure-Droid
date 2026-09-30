@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T10:20:15Z",
+  "generatedAt": "2026-09-30T10:20:43Z",
   "leaderboard": [
     {
       "politician": "Thomas H Tuberville",
@@ -18,19 +18,19 @@
       "notable": true
     },
     {
-      "politician": "Michael T. McCaul",
-      "buys": 5,
-      "sells": 16,
-      "unique_symbols": 18,
-      "weight": 1.2,
-      "notable": true
-    },
-    {
       "politician": "Nancy Pelosi",
       "buys": 3,
       "sells": 0,
       "unique_symbols": 2,
       "weight": 2.0,
+      "notable": true
+    },
+    {
+      "politician": "Michael T. McCaul",
+      "buys": 2,
+      "sells": 5,
+      "unique_symbols": 7,
+      "weight": 1.2,
       "notable": true
     },
     {
@@ -91,9 +91,9 @@
     },
     {
       "politician": "Maria Elvira Salazar",
-      "buys": 3,
+      "buys": 2,
       "sells": 1,
-      "unique_symbols": 3,
+      "unique_symbols": 2,
       "weight": 1.0,
       "notable": false
     },
@@ -178,6 +178,14 @@
       "notable": false
     },
     {
+      "politician": "Kevin Hern",
+      "buys": 0,
+      "sells": 57,
+      "unique_symbols": 37,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
       "politician": "Pete Sessions",
       "buys": 0,
       "sells": 3,
@@ -230,14 +238,6 @@
       "buys": 0,
       "sells": 3,
       "unique_symbols": 3,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "Kevin Hern",
-      "buys": 0,
-      "sells": 9,
-      "unique_symbols": 9,
       "weight": 1.0,
       "notable": false
     },
