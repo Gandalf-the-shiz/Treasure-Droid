@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-30T10:20:43Z",
+  "generatedAt": "2026-10-01T10:20:24Z",
   "windowDays": 90,
-  "tradeCount": 1278,
-  "symbolCount": 587,
+  "tradeCount": 1277,
+  "symbolCount": 586,
   "bySymbol": {
     "STE": {
       "symbol": "STE",
@@ -14350,25 +14350,6 @@
       "net_flow_score": 1.0,
       "congress_score": 0.578,
       "congress_boost": 1.0867
-    },
-    "VSH": {
-      "symbol": "VSH",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 210000.6,
-      "politicians": [
-        "Michael T. McCaul"
-      ],
-      "notable_politicians": [
-        "Michael T. McCaul"
-      ],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-08",
-      "net_flow_score": -1.0,
-      "congress_score": 0.08,
-      "congress_boost": 1.012
     }
   },
   "leaderboard": [
@@ -14399,8 +14380,8 @@
     {
       "politician": "Michael T. McCaul",
       "buys": 2,
-      "sells": 5,
-      "unique_symbols": 7,
+      "sells": 4,
+      "unique_symbols": 6,
       "weight": 1.2,
       "notable": true
     },
@@ -17097,20 +17078,6 @@
       "amount_label": "$15,001 - $50,000",
       "is_late": false,
       "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "house_9116211_g112",
-      "symbol": "VSH",
-      "politician": "Michael T. McCaul",
-      "chamber": "house",
-      "party": "R",
-      "side": "sell",
-      "transaction_date": "2026-06-18",
-      "filing_date": "2026-07-08",
-      "amount_mid_usd": 175000.5,
-      "amount_label": "$100,001 - $250,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
     }
   ],
   "watchlistHistory": [
@@ -19491,20 +19458,6 @@
       "filing_date": "2026-07-08",
       "amount_mid_usd": 32500.5,
       "amount_label": "$15,001 - $50,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "house_9116211_g112",
-      "symbol": "VSH",
-      "politician": "Michael T. McCaul",
-      "chamber": "house",
-      "party": "R",
-      "side": "sell",
-      "transaction_date": "2026-06-18",
-      "filing_date": "2026-07-08",
-      "amount_mid_usd": 175000.5,
-      "amount_label": "$100,001 - $250,000",
       "is_late": false,
       "source": "kadoa_congress_monitor"
     }

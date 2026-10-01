@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T10:20:43Z",
+  "generatedAt": "2026-10-01T10:20:24Z",
   "leaderboard": [
     {
       "politician": "Thomas H Tuberville",
@@ -28,8 +28,8 @@
     {
       "politician": "Michael T. McCaul",
       "buys": 2,
-      "sells": 5,
-      "unique_symbols": 7,
+      "sells": 4,
+      "unique_symbols": 6,
       "weight": 1.2,
       "notable": true
     },

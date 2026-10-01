@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-30T10:20:43Z",
-  "count": 1278,
+  "generatedAt": "2026-10-01T10:20:24Z",
+  "count": 1277,
   "trades": [
     {
       "id": "house_20035491_g81",
@@ -17877,20 +17877,6 @@
       "filing_date": "2026-07-08",
       "amount_mid_usd": 32500.5,
       "amount_label": "$15,001 - $50,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "house_9116211_g112",
-      "symbol": "VSH",
-      "politician": "Michael T. McCaul",
-      "chamber": "house",
-      "party": "R",
-      "side": "sell",
-      "transaction_date": "2026-06-18",
-      "filing_date": "2026-07-08",
-      "amount_mid_usd": 175000.5,
-      "amount_label": "$100,001 - $250,000",
       "is_late": false,
       "source": "kadoa_congress_monitor"
     }
