@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T10:19:58Z",
+  "generatedAt": "2026-10-05T10:23:19Z",
   "trades90d": [
     {
       "id": "house_20035455_g4",
@@ -2364,20 +2364,6 @@
       "filing_date": "2026-07-08",
       "amount_mid_usd": 75000.5,
       "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "house_9116211_g125",
-      "symbol": "VEA",
-      "politician": "Michael T. McCaul",
-      "chamber": "house",
-      "party": "R",
-      "side": "buy",
-      "transaction_date": "2026-06-23",
-      "filing_date": "2026-07-08",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
       "is_late": false,
       "source": "kadoa_congress_monitor"
     }
@@ -4746,20 +4732,6 @@
       "filing_date": "2026-07-08",
       "amount_mid_usd": 75000.5,
       "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "house_9116211_g125",
-      "symbol": "VEA",
-      "politician": "Michael T. McCaul",
-      "chamber": "house",
-      "party": "R",
-      "side": "buy",
-      "transaction_date": "2026-06-23",
-      "filing_date": "2026-07-08",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
       "is_late": false,
       "source": "kadoa_congress_monitor"
     }

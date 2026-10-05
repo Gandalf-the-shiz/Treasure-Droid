@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T10:19:58Z",
+  "generatedAt": "2026-10-05T10:23:19Z",
   "leaderboard": [
     {
       "politician": "Thomas H Tuberville",
@@ -26,19 +26,19 @@
       "notable": true
     },
     {
-      "politician": "Michael T. McCaul",
-      "buys": 2,
-      "sells": 4,
-      "unique_symbols": 6,
-      "weight": 1.2,
-      "notable": true
-    },
-    {
       "politician": "Josh Gottheimer",
       "buys": 1,
       "sells": 1,
       "unique_symbols": 1,
       "weight": 1.3,
+      "notable": true
+    },
+    {
+      "politician": "Michael T. McCaul",
+      "buys": 1,
+      "sells": 4,
+      "unique_symbols": 5,
+      "weight": 1.2,
       "notable": true
     },
     {
@@ -171,9 +171,9 @@
     },
     {
       "politician": "Sheldon Whitehouse",
-      "buys": 1,
+      "buys": 0,
       "sells": 2,
-      "unique_symbols": 3,
+      "unique_symbols": 2,
       "weight": 1.0,
       "notable": false
     },
