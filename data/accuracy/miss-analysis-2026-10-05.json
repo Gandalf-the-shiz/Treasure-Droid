@@ -1,0 +1,90 @@
+{
+  "analysisDate": "2026-10-05",
+  "generatedAt": "2026-10-05T07:31:56Z",
+  "windowDays": 7,
+  "overallHitRate": 0.4876,
+  "totalPredictions": 6415,
+  "totalCorrect": 3128,
+  "dailyRates": [
+    {
+      "date": "2026-10-02",
+      "hitRate": 0.4876,
+      "total": 6415
+    }
+  ],
+  "sectorMisses": {
+    "Materials": {
+      "hitRate": 0.4132,
+      "total": 334,
+      "correct": 138,
+      "flag": "UNDERPERFORMING"
+    },
+    "Financials": {
+      "hitRate": 0.4163,
+      "total": 980,
+      "correct": 408,
+      "flag": "UNDERPERFORMING"
+    },
+    "Consumer Staples": {
+      "hitRate": 0.4638,
+      "total": 138,
+      "correct": 64,
+      "flag": "OK"
+    },
+    "Communication Services": {
+      "hitRate": 0.4767,
+      "total": 172,
+      "correct": 82,
+      "flag": "OK"
+    },
+    "Technology": {
+      "hitRate": 0.4938,
+      "total": 644,
+      "correct": 318,
+      "flag": "OK"
+    },
+    "Other": {
+      "hitRate": 0.5075,
+      "total": 3868,
+      "correct": 1963,
+      "flag": "OK"
+    },
+    "Real Estate": {
+      "hitRate": 0.5556,
+      "total": 279,
+      "correct": 155,
+      "flag": "OUTPERFORMING"
+    }
+  },
+  "confidenceBucketAnalysis": [
+    {
+      "bucket": "low (<0.3)",
+      "hitRate": 0.4885,
+      "total": 3834,
+      "correct": 1873
+    },
+    {
+      "bucket": "medium (0.3-0.5)",
+      "hitRate": 0.4418,
+      "total": 1589,
+      "correct": 702
+    },
+    {
+      "bucket": "high (>0.5)",
+      "hitRate": 0.5575,
+      "total": 992,
+      "correct": 553
+    }
+  ],
+  "evTopN": {
+    "n": 20,
+    "hitRate": 0.6,
+    "total": 20,
+    "correct": 12
+  },
+  "topMissPatterns": [
+    "Materials sector significantly underperforming (41% vs 49% overall) \u2014 n=334. Consider regime-conditional filtering.",
+    "Financials sector significantly underperforming (42% vs 49% overall) \u2014 n=980. Consider regime-conditional filtering.",
+    "Top-20 EV predictions achieve 60% hit rate (vs 49% overall). EV-filtered trading signal is working well."
+  ]
+}
