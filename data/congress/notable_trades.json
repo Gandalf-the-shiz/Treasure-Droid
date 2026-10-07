@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T10:19:18Z",
+  "generatedAt": "2026-10-07T10:19:20Z",
   "trades90d": [
     {
       "id": "house_20035455_g4",
@@ -2294,76 +2294,6 @@
       "filing_date": "2026-07-16",
       "amount_mid_usd": 32500.5,
       "amount_label": "$15,001 - $50,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "house_9116211_g124",
-      "symbol": "VTI",
-      "politician": "Michael T. McCaul",
-      "chamber": "house",
-      "party": "R",
-      "side": "buy",
-      "transaction_date": "2026-06-26",
-      "filing_date": "2026-07-08",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "house_9116211_g111",
-      "symbol": "CVX",
-      "politician": "Michael T. McCaul",
-      "chamber": "house",
-      "party": "R",
-      "side": "sell",
-      "transaction_date": "2026-06-26",
-      "filing_date": "2026-07-08",
-      "amount_mid_usd": 175000.5,
-      "amount_label": "$100,001 - $250,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "house_9116211_g108",
-      "symbol": "MUR",
-      "politician": "Michael T. McCaul",
-      "chamber": "house",
-      "party": "R",
-      "side": "sell",
-      "transaction_date": "2026-06-26",
-      "filing_date": "2026-07-08",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "house_9116211_g107",
-      "symbol": "EQH",
-      "politician": "Michael T. McCaul",
-      "chamber": "house",
-      "party": "R",
-      "side": "sell",
-      "transaction_date": "2026-06-26",
-      "filing_date": "2026-07-08",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "house_9116211_g104",
-      "symbol": "NFG",
-      "politician": "Michael T. McCaul",
-      "chamber": "house",
-      "party": "R",
-      "side": "sell",
-      "transaction_date": "2026-06-26",
-      "filing_date": "2026-07-08",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
       "is_late": false,
       "source": "kadoa_congress_monitor"
     }
@@ -4718,20 +4648,6 @@
       "filing_date": "2026-07-08",
       "amount_mid_usd": 32500.5,
       "amount_label": "$15,001 - $50,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "house_9116211_g104",
-      "symbol": "NFG",
-      "politician": "Michael T. McCaul",
-      "chamber": "house",
-      "party": "R",
-      "side": "sell",
-      "transaction_date": "2026-06-26",
-      "filing_date": "2026-07-08",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
       "is_late": false,
       "source": "kadoa_congress_monitor"
     }
