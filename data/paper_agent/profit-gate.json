@@ -1,23 +1,21 @@
 {
-  "generatedAt": "2026-10-07T01:47:30Z",
+  "generatedAt": "2026-10-08T01:54:15Z",
   "status": "degraded",
   "reasons": [
-    "return_below_threshold",
     "drawdown_above_threshold",
-    "online_learning_delta_negative",
-    "severe_loss_trigger"
+    "online_learning_delta_negative"
   ],
   "metrics": {
-    "daysProcessed": 41,
-    "tradeCount": 335,
-    "totalReturnPct": -2.074,
-    "maxDrawdownPct": 10.9543,
-    "onlineLearningDelta": -0.0446,
+    "daysProcessed": 42,
+    "tradeCount": 157,
+    "totalReturnPct": 8.9225,
+    "maxDrawdownPct": 11.2449,
+    "onlineLearningDelta": -0.0153,
     "recentWindow": {
       "windowDays": 20,
-      "returnPct": -0.4803,
-      "maxDrawdownPct": 4.6192,
-      "avgDailyPnl": 8.7045
+      "returnPct": -0.4031,
+      "maxDrawdownPct": 2.4165,
+      "avgDailyPnl": -2.2375
     }
   },
   "thresholds": {
@@ -33,6 +31,6 @@
   },
   "actions": {
     "softenedRiskConfig": true,
-    "needsMainRetrain": true
+    "needsMainRetrain": false
   }
 }
