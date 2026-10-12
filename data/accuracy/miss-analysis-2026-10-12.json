@@ -1,0 +1,110 @@
+{
+  "analysisDate": "2026-10-12",
+  "generatedAt": "2026-10-12T07:34:26Z",
+  "windowDays": 7,
+  "overallHitRate": 0.5291,
+  "totalPredictions": 13513,
+  "totalCorrect": 7150,
+  "dailyRates": [
+    {
+      "date": "2026-10-05",
+      "hitRate": 0.4734,
+      "total": 2596
+    },
+    {
+      "date": "2026-10-06",
+      "hitRate": 0.4984,
+      "total": 1884
+    },
+    {
+      "date": "2026-10-07",
+      "hitRate": 0.5814,
+      "total": 1290
+    },
+    {
+      "date": "2026-10-08",
+      "hitRate": 0.4985,
+      "total": 1324
+    },
+    {
+      "date": "2026-10-09",
+      "hitRate": 0.5565,
+      "total": 6419
+    }
+  ],
+  "sectorMisses": {
+    "Consumer Staples": {
+      "hitRate": 0.4678,
+      "total": 295,
+      "correct": 138,
+      "flag": "UNDERPERFORMING"
+    },
+    "Communication Services": {
+      "hitRate": 0.4835,
+      "total": 364,
+      "correct": 176,
+      "flag": "OK"
+    },
+    "Real Estate": {
+      "hitRate": 0.486,
+      "total": 607,
+      "correct": 295,
+      "flag": "OK"
+    },
+    "Other": {
+      "hitRate": 0.5212,
+      "total": 8145,
+      "correct": 4245,
+      "flag": "OK"
+    },
+    "Technology": {
+      "hitRate": 0.524,
+      "total": 1353,
+      "correct": 709,
+      "flag": "OK"
+    },
+    "Materials": {
+      "hitRate": 0.5369,
+      "total": 704,
+      "correct": 378,
+      "flag": "OK"
+    },
+    "Financials": {
+      "hitRate": 0.5912,
+      "total": 2045,
+      "correct": 1209,
+      "flag": "OUTPERFORMING"
+    }
+  },
+  "confidenceBucketAnalysis": [
+    {
+      "bucket": "low (<0.3)",
+      "hitRate": 0.5184,
+      "total": 5988,
+      "correct": 3104
+    },
+    {
+      "bucket": "medium (0.3-0.5)",
+      "hitRate": 0.5525,
+      "total": 3383,
+      "correct": 1869
+    },
+    {
+      "bucket": "high (>0.5)",
+      "hitRate": 0.5256,
+      "total": 4142,
+      "correct": 2177
+    }
+  ],
+  "evTopN": {
+    "n": 20,
+    "hitRate": 0.49,
+    "total": 100,
+    "correct": 49
+  },
+  "topMissPatterns": [
+    "Consumer Staples sector significantly underperforming (47% vs 53% overall) \u2014 n=295. Consider regime-conditional filtering.",
+    "High-confidence predictions (high (>0.5)) not outperforming base rate (53% vs 53% overall). Platt calibration or threshold tuning recommended.",
+    "Top-20 EV predictions (49%) not beating overall (53%). EV scoring needs review."
+  ]
+}
