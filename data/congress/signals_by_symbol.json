@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-09T10:20:05Z",
+  "generatedAt": "2026-10-12T10:24:13Z",
   "windowDays": 90,
-  "tradeCount": 1378,
-  "symbolCount": 594,
+  "tradeCount": 1268,
+  "symbolCount": 546,
   "bySymbol": {
     "AGX": {
       "symbol": "AGX",
@@ -644,18 +644,16 @@
     "HD": {
       "symbol": "HD",
       "buy_count": 9,
-      "sell_count": 9,
+      "sell_count": 10,
       "buy_notional_est": 5347504.5,
-      "sell_notional_est": 1255754.6500000001,
+      "sell_notional_est": 1237255.1500000001,
       "politicians": [
         "Donald J Trump",
-        "Kevin Hern",
         "Rohit Khanna",
-        "Markwayne Mullin"
+        "Kevin Hern"
       ],
       "notable_politicians": [
-        "Rohit Khanna",
-        "Markwayne Mullin"
+        "Rohit Khanna"
       ],
       "recent_buys": [
         {
@@ -696,23 +694,20 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-10-08",
-      "net_flow_score": 0.0,
+      "net_flow_score": -0.0526,
       "congress_score": 1.0,
       "congress_boost": 1.15
     },
     "ISRG": {
       "symbol": "ISRG",
       "buy_count": 4,
-      "sell_count": 5,
+      "sell_count": 4,
       "buy_notional_est": 1132502.0,
-      "sell_notional_est": 505002.6,
+      "sell_notional_est": 415002.0,
       "politicians": [
-        "Donald J Trump",
-        "Markwayne Mullin"
+        "Donald J Trump"
       ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
+      "notable_politicians": [],
       "recent_buys": [
         {
           "politician": "Donald J Trump",
@@ -745,7 +740,7 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-10-08",
-      "net_flow_score": -0.1111,
+      "net_flow_score": 0.0,
       "congress_score": 1.0,
       "congress_boost": 1.15
     },
@@ -808,9 +803,9 @@
     },
     "TSLA": {
       "symbol": "TSLA",
-      "buy_count": 3,
+      "buy_count": 4,
       "sell_count": 6,
-      "buy_notional_est": 382501.5,
+      "buy_notional_est": 418252.05,
       "sell_notional_est": 383253.05,
       "politicians": [
         "Donald J Trump",
@@ -820,6 +815,13 @@
         "Rohit Khanna"
       ],
       "recent_buys": [
+        {
+          "politician": "Rohit Khanna",
+          "date": "2026-09-11",
+          "filing_date": "2026-10-07",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.1
+        },
         {
           "politician": "Donald J Trump",
           "date": "2024-07-27",
@@ -844,16 +846,16 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-10-08",
-      "net_flow_score": -0.3333,
-      "congress_score": 0.4985,
-      "congress_boost": 1.0748
+      "net_flow_score": -0.2,
+      "congress_score": 0.57,
+      "congress_boost": 1.0855
     },
     "WMT": {
       "symbol": "WMT",
       "buy_count": 3,
-      "sell_count": 3,
+      "sell_count": 4,
       "buy_notional_est": 1100001.5,
-      "sell_notional_est": 285751.55,
+      "sell_notional_est": 321502.1,
       "politicians": [
         "Donald J Trump",
         "Rohit Khanna"
@@ -886,7 +888,7 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-10-08",
-      "net_flow_score": 0.0,
+      "net_flow_score": -0.1429,
       "congress_score": 1.0,
       "congress_boost": 1.15
     },
@@ -1131,16 +1133,13 @@
     "PANW": {
       "symbol": "PANW",
       "buy_count": 2,
-      "sell_count": 3,
+      "sell_count": 2,
       "buy_notional_est": 925001.0,
-      "sell_notional_est": 992501.6,
+      "sell_notional_est": 782501.0,
       "politicians": [
-        "Donald J Trump",
-        "Markwayne Mullin"
+        "Donald J Trump"
       ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
+      "notable_politicians": [],
       "recent_buys": [
         {
           "politician": "Donald J Trump",
@@ -1159,9 +1158,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-10-08",
-      "net_flow_score": -0.2,
-      "congress_score": 0.365,
-      "congress_boost": 1.0548
+      "net_flow_score": 0.0,
+      "congress_score": 0.285,
+      "congress_boost": 1.0428
     },
     "PPL": {
       "symbol": "PPL",
@@ -1258,9 +1257,9 @@
     "UPST": {
       "symbol": "UPST",
       "buy_count": 1,
-      "sell_count": 4,
+      "sell_count": 3,
       "buy_notional_est": 32500.5,
-      "sell_notional_est": 130002.0,
+      "sell_notional_est": 97501.5,
       "politicians": [
         "Donald J Trump",
         "Tony Wied"
@@ -1277,9 +1276,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-10-08",
-      "net_flow_score": -0.6,
-      "congress_score": -0.195,
-      "congress_boost": 0.9708
+      "net_flow_score": -0.5,
+      "congress_score": -0.13,
+      "congress_boost": 0.9805
     },
     "MKL": {
       "symbol": "MKL",
@@ -1636,16 +1635,13 @@
     "PNR": {
       "symbol": "PNR",
       "buy_count": 1,
-      "sell_count": 1,
+      "sell_count": 0,
       "buy_notional_est": 32500.5,
-      "sell_notional_est": 39000.6,
+      "sell_notional_est": 0.0,
       "politicians": [
-        "Donald J Trump",
-        "Markwayne Mullin"
+        "Donald J Trump"
       ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
+      "notable_politicians": [],
       "recent_buys": [
         {
           "politician": "Donald J Trump",
@@ -1657,9 +1653,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-10-08",
-      "net_flow_score": 0.0,
-      "congress_score": 0.487,
-      "congress_boost": 1.0731
+      "net_flow_score": 1.0,
+      "congress_score": 0.065,
+      "congress_boost": 1.0097
     },
     "TMUS": {
       "symbol": "TMUS",
@@ -1970,17 +1966,14 @@
     "BSX": {
       "symbol": "BSX",
       "buy_count": 5,
-      "sell_count": 7,
+      "sell_count": 6,
       "buy_notional_est": 590002.5,
-      "sell_notional_est": 555003.6,
+      "sell_notional_est": 465003.0,
       "politicians": [
         "Donald J Trump",
-        "Kevin Hern",
-        "Markwayne Mullin"
+        "Kevin Hern"
       ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
+      "notable_politicians": [],
       "recent_buys": [
         {
           "politician": "Donald J Trump",
@@ -2020,9 +2013,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-10-08",
-      "net_flow_score": -0.1667,
-      "congress_score": 0.57,
-      "congress_boost": 1.0855
+      "net_flow_score": -0.0909,
+      "congress_score": 0.25,
+      "congress_boost": 1.0375
     },
     "ALK": {
       "symbol": "ALK",
@@ -2077,17 +2070,14 @@
     "PG": {
       "symbol": "PG",
       "buy_count": 6,
-      "sell_count": 5,
+      "sell_count": 4,
       "buy_notional_est": 965003.0,
-      "sell_notional_est": 554002.6,
+      "sell_notional_est": 515002.0,
       "politicians": [
         "Donald J Trump",
-        "Kevin Hern",
-        "Markwayne Mullin"
+        "Kevin Hern"
       ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
+      "notable_politicians": [],
       "recent_buys": [
         {
           "politician": "Donald J Trump",
@@ -2127,9 +2117,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-10-08",
-      "net_flow_score": 0.0909,
-      "congress_score": 1.0,
-      "congress_boost": 1.15
+      "net_flow_score": 0.2,
+      "congress_score": 0.9,
+      "congress_boost": 1.135
     },
     "FISV": {
       "symbol": "FISV",
@@ -2277,16 +2267,13 @@
     "META": {
       "symbol": "META",
       "buy_count": 9,
-      "sell_count": 5,
+      "sell_count": 4,
       "buy_notional_est": 16015004.5,
-      "sell_notional_est": 3875002.6,
+      "sell_notional_est": 3425002.0,
       "politicians": [
-        "Donald J Trump",
-        "Markwayne Mullin"
+        "Donald J Trump"
       ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
+      "notable_politicians": [],
       "recent_buys": [
         {
           "politician": "Donald J Trump",
@@ -2326,7 +2313,7 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-10-08",
-      "net_flow_score": 0.2857,
+      "net_flow_score": 0.3846,
       "congress_score": 1.0,
       "congress_boost": 1.15
     },
@@ -2377,9 +2364,9 @@
     "MSFT": {
       "symbol": "MSFT",
       "buy_count": 15,
-      "sell_count": 16,
+      "sell_count": 15,
       "buy_notional_est": 5838257.75,
-      "sell_notional_est": 21005259.099999998,
+      "sell_notional_est": 20105258.499999996,
       "politicians": [
         "Donald J Trump",
         "Josh Gottheimer",
@@ -2389,14 +2376,12 @@
         "Kevin Hern",
         "David J. Taylor",
         "Thomas H Tuberville",
-        "Shelley M Capito",
-        "Markwayne Mullin"
+        "Shelley M Capito"
       ],
       "notable_politicians": [
         "Josh Gottheimer",
         "Rohit Khanna",
-        "Thomas H Tuberville",
-        "Markwayne Mullin"
+        "Thomas H Tuberville"
       ],
       "recent_buys": [
         {
@@ -2437,9 +2422,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-10-08",
-      "net_flow_score": -0.0323,
-      "congress_score": -28.334,
-      "congress_boost": -3.2501
+      "net_flow_score": 0.0,
+      "congress_score": -27.034,
+      "congress_boost": -3.0551
     },
     "CMCSA": {
       "symbol": "CMCSA",
@@ -2546,18 +2531,14 @@
     "NVDA": {
       "symbol": "NVDA",
       "buy_count": 5,
-      "sell_count": 8,
+      "sell_count": 6,
       "buy_notional_est": 2082502.5,
-      "sell_notional_est": 2705004.1,
+      "sell_notional_est": 1772503.0,
       "politicians": [
         "Donald J Trump",
-        "Cory A Booker",
-        "Sam T. Liccardo",
-        "Markwayne Mullin"
+        "Cory A Booker"
       ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
+      "notable_politicians": [],
       "recent_buys": [
         {
           "politician": "Donald J Trump",
@@ -2597,16 +2578,16 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-10-08",
-      "net_flow_score": -0.2308,
-      "congress_score": -0.745,
-      "congress_boost": 0.8882
+      "net_flow_score": -0.0909,
+      "congress_score": 0.62,
+      "congress_boost": 1.093
     },
     "AVGO": {
       "symbol": "AVGO",
       "buy_count": 4,
-      "sell_count": 3,
+      "sell_count": 4,
       "buy_notional_est": 475752.05,
-      "sell_notional_est": 1000001.5,
+      "sell_notional_est": 1035752.05,
       "politicians": [
         "Donald J Trump",
         "Rohit Khanna"
@@ -2646,45 +2627,39 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-10-08",
-      "net_flow_score": 0.1429,
-      "congress_score": -0.5485,
-      "congress_boost": 0.9177
+      "net_flow_score": 0.0,
+      "congress_score": -0.62,
+      "congress_boost": 0.907
     },
     "IQV": {
       "symbol": "IQV",
       "buy_count": 0,
-      "sell_count": 3,
+      "sell_count": 2,
       "buy_notional_est": 0.0,
-      "sell_notional_est": 155001.59999999998,
+      "sell_notional_est": 65001.0,
       "politicians": [
         "Donald J Trump",
-        "Kevin Hern",
-        "Markwayne Mullin"
+        "Kevin Hern"
       ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
+      "notable_politicians": [],
       "recent_buys": [],
       "pelosi_buy": false,
       "last_filing_date": "2026-10-08",
       "net_flow_score": -1.0,
-      "congress_score": 0.19,
-      "congress_boost": 1.0285
+      "congress_score": -0.13,
+      "congress_boost": 0.9805
     },
     "AMZN": {
       "symbol": "AMZN",
       "buy_count": 3,
-      "sell_count": 5,
+      "sell_count": 4,
       "buy_notional_est": 440001.5,
-      "sell_notional_est": 1350002.6,
+      "sell_notional_est": 900002.0,
       "politicians": [
         "Donald J Trump",
-        "Cory A Booker",
-        "Markwayne Mullin"
+        "Cory A Booker"
       ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
+      "notable_politicians": [],
       "recent_buys": [
         {
           "politician": "Donald J Trump",
@@ -2710,9 +2685,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-10-08",
-      "net_flow_score": -0.25,
-      "congress_score": -1.32,
-      "congress_boost": 0.802
+      "net_flow_score": -0.1429,
+      "congress_score": -0.92,
+      "congress_boost": 0.862
     },
     "RMD": {
       "symbol": "RMD",
@@ -2773,16 +2748,13 @@
     "CVX": {
       "symbol": "CVX",
       "buy_count": 3,
-      "sell_count": 2,
+      "sell_count": 1,
       "buy_notional_est": 3107501.5,
-      "sell_notional_est": 242501.1,
+      "sell_notional_est": 32500.5,
       "politicians": [
-        "Donald J Trump",
-        "Markwayne Mullin"
+        "Donald J Trump"
       ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
+      "notable_politicians": [],
       "recent_buys": [
         {
           "politician": "Donald J Trump",
@@ -2808,7 +2780,7 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-10-08",
-      "net_flow_score": 0.2,
+      "net_flow_score": 0.5,
       "congress_score": 1.0,
       "congress_boost": 1.15
     },
@@ -2832,17 +2804,14 @@
     "EMR": {
       "symbol": "EMR",
       "buy_count": 2,
-      "sell_count": 2,
+      "sell_count": 1,
       "buy_notional_est": 65001.0,
-      "sell_notional_est": 122501.09999999999,
+      "sell_notional_est": 32500.5,
       "politicians": [
         "Donald J Trump",
-        "Kevin Hern",
-        "Markwayne Mullin"
+        "Kevin Hern"
       ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
+      "notable_politicians": [],
       "recent_buys": [
         {
           "politician": "Donald J Trump",
@@ -2861,9 +2830,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-10-08",
-      "net_flow_score": 0.0,
-      "congress_score": 0.385,
-      "congress_boost": 1.0577
+      "net_flow_score": 0.3333,
+      "congress_score": 0.065,
+      "congress_boost": 1.0097
     },
     "MRNA": {
       "symbol": "MRNA",
@@ -3256,22 +3225,19 @@
     "AMAT": {
       "symbol": "AMAT",
       "buy_count": 0,
-      "sell_count": 2,
+      "sell_count": 1,
       "buy_notional_est": 0.0,
-      "sell_notional_est": 585001.1,
+      "sell_notional_est": 375000.5,
       "politicians": [
-        "Donald J Trump",
-        "Markwayne Mullin"
+        "Donald J Trump"
       ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
+      "notable_politicians": [],
       "recent_buys": [],
       "pelosi_buy": false,
       "last_filing_date": "2026-10-08",
       "net_flow_score": -1.0,
-      "congress_score": -0.67,
-      "congress_boost": 0.8995
+      "congress_score": -0.75,
+      "congress_boost": 0.8875
     },
     "SO": {
       "symbol": "SO",
@@ -3574,9 +3540,9 @@
     },
     "HUBB": {
       "symbol": "HUBB",
-      "buy_count": 2,
+      "buy_count": 1,
       "sell_count": 2,
-      "buy_notional_est": 65001.0,
+      "buy_notional_est": 32500.5,
       "sell_notional_est": 350001.0,
       "politicians": [
         "Donald J Trump",
@@ -3590,20 +3556,13 @@
           "filing_date": "2026-09-09",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
-        },
-        {
-          "politician": "April McClain Delaney",
-          "date": "2026-07-23",
-          "filing_date": "2026-08-03",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
         }
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-10-08",
-      "net_flow_score": 0.0,
-      "congress_score": -0.57,
-      "congress_boost": 0.9145
+      "net_flow_score": -0.3333,
+      "congress_score": -0.635,
+      "congress_boost": 0.9047
     },
     "CNP": {
       "symbol": "CNP",
@@ -3641,37 +3600,31 @@
     "MPWR": {
       "symbol": "MPWR",
       "buy_count": 0,
-      "sell_count": 3,
+      "sell_count": 1,
       "buy_notional_est": 0.0,
-      "sell_notional_est": 304001.7,
+      "sell_notional_est": 175000.5,
       "politicians": [
-        "Donald J Trump",
-        "Markwayne Mullin"
+        "Donald J Trump"
       ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
+      "notable_politicians": [],
       "recent_buys": [],
       "pelosi_buy": false,
       "last_filing_date": "2026-10-08",
       "net_flow_score": -1.0,
-      "congress_score": -0.108,
-      "congress_boost": 0.9838
+      "congress_score": -0.35,
+      "congress_boost": 0.9475
     },
     "UNH": {
       "symbol": "UNH",
       "buy_count": 1,
-      "sell_count": 3,
+      "sell_count": 2,
       "buy_notional_est": 175000.5,
-      "sell_notional_est": 417501.6,
+      "sell_notional_est": 207501.0,
       "politicians": [
         "Donald J Trump",
-        "Kevin Hern",
-        "Markwayne Mullin"
+        "Kevin Hern"
       ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
+      "notable_politicians": [],
       "recent_buys": [
         {
           "politician": "Donald J Trump",
@@ -3683,23 +3636,20 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-10-08",
-      "net_flow_score": -0.5,
-      "congress_score": 0.015,
-      "congress_boost": 1.0023
+      "net_flow_score": -0.3333,
+      "congress_score": -0.065,
+      "congress_boost": 0.9902
     },
     "KLAC": {
       "symbol": "KLAC",
       "buy_count": 1,
-      "sell_count": 2,
+      "sell_count": 1,
       "buy_notional_est": 75000.5,
-      "sell_notional_est": 625001.1,
+      "sell_notional_est": 175000.5,
       "politicians": [
-        "Donald J Trump",
-        "Markwayne Mullin"
+        "Donald J Trump"
       ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
+      "notable_politicians": [],
       "recent_buys": [
         {
           "politician": "Donald J Trump",
@@ -3711,9 +3661,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-10-08",
-      "net_flow_score": -0.3333,
-      "congress_score": -0.6,
-      "congress_boost": 0.91
+      "net_flow_score": 0.0,
+      "congress_score": -0.2,
+      "congress_boost": 0.97
     },
     "PEG": {
       "symbol": "PEG",
@@ -3983,17 +3933,15 @@
     "MA": {
       "symbol": "MA",
       "buy_count": 6,
-      "sell_count": 4,
+      "sell_count": 3,
       "buy_notional_est": 3732503.0,
-      "sell_notional_est": 363002.30000000005,
+      "sell_notional_est": 153001.7,
       "politicians": [
         "Donald J Trump",
-        "Thomas H Tuberville",
-        "Markwayne Mullin"
+        "Thomas H Tuberville"
       ],
       "notable_politicians": [
-        "Thomas H Tuberville",
-        "Markwayne Mullin"
+        "Thomas H Tuberville"
       ],
       "recent_buys": [
         {
@@ -4034,23 +3982,20 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-10-08",
-      "net_flow_score": 0.2,
+      "net_flow_score": 0.3333,
       "congress_score": 1.0,
       "congress_boost": 1.15
     },
     "COF": {
       "symbol": "COF",
       "buy_count": 2,
-      "sell_count": 1,
+      "sell_count": 0,
       "buy_notional_est": 250001.0,
-      "sell_notional_est": 210000.6,
+      "sell_notional_est": 0.0,
       "politicians": [
-        "Donald J Trump",
-        "Markwayne Mullin"
+        "Donald J Trump"
       ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
+      "notable_politicians": [],
       "recent_buys": [
         {
           "politician": "Donald J Trump",
@@ -4069,15 +4014,15 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-10-08",
-      "net_flow_score": 0.3333,
-      "congress_score": 0.58,
-      "congress_boost": 1.087
+      "net_flow_score": 1.0,
+      "congress_score": 0.5,
+      "congress_boost": 1.075
     },
     "VZ": {
       "symbol": "VZ",
-      "buy_count": 4,
+      "buy_count": 5,
       "sell_count": 3,
-      "buy_notional_est": 815002.0,
+      "buy_notional_est": 850752.55,
       "sell_notional_est": 243251.55,
       "politicians": [
         "Donald J Trump",
@@ -4093,6 +4038,13 @@
           "filing_date": "2026-10-08",
           "amount_label": "$250,001 - $500,000",
           "weight": 1.0
+        },
+        {
+          "politician": "Rohit Khanna",
+          "date": "2026-09-25",
+          "filing_date": "2026-10-07",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.1
         },
         {
           "politician": "Donald J Trump",
@@ -4118,7 +4070,7 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-10-08",
-      "net_flow_score": 0.1429,
+      "net_flow_score": 0.25,
       "congress_score": 1.0,
       "congress_boost": 1.15
     },
@@ -4203,16 +4155,13 @@
     "SPGI": {
       "symbol": "SPGI",
       "buy_count": 4,
-      "sell_count": 2,
+      "sell_count": 1,
       "buy_notional_est": 900002.0,
-      "sell_notional_est": 789001.1,
+      "sell_notional_est": 750000.5,
       "politicians": [
-        "Donald J Trump",
-        "Markwayne Mullin"
+        "Donald J Trump"
       ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
+      "notable_politicians": [],
       "recent_buys": [
         {
           "politician": "Donald J Trump",
@@ -4245,9 +4194,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-10-08",
-      "net_flow_score": 0.3333,
-      "congress_score": 0.722,
-      "congress_boost": 1.1083
+      "net_flow_score": 0.6,
+      "congress_score": 0.3,
+      "congress_boost": 1.045
     },
     "MDLZ": {
       "symbol": "MDLZ",
@@ -4316,17 +4265,15 @@
     "V": {
       "symbol": "V",
       "buy_count": 6,
-      "sell_count": 3,
+      "sell_count": 2,
       "buy_notional_est": 3935753.05,
-      "sell_notional_est": 540001.6,
+      "sell_notional_est": 450001.0,
       "politicians": [
         "Donald J Trump",
-        "Rohit Khanna",
-        "Markwayne Mullin"
+        "Rohit Khanna"
       ],
       "notable_politicians": [
-        "Rohit Khanna",
-        "Markwayne Mullin"
+        "Rohit Khanna"
       ],
       "recent_buys": [
         {
@@ -4367,7 +4314,7 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-10-08",
-      "net_flow_score": 0.3333,
+      "net_flow_score": 0.5,
       "congress_score": 1.0,
       "congress_boost": 1.15
     },
@@ -4528,16 +4475,13 @@
     "COP": {
       "symbol": "COP",
       "buy_count": 1,
-      "sell_count": 3,
+      "sell_count": 2,
       "buy_notional_est": 3000000.5,
-      "sell_notional_est": 155001.59999999998,
+      "sell_notional_est": 65001.0,
       "politicians": [
-        "Donald J Trump",
-        "Markwayne Mullin"
+        "Donald J Trump"
       ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
+      "notable_politicians": [],
       "recent_buys": [
         {
           "politician": "Donald J Trump",
@@ -4549,7 +4493,7 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-10-08",
-      "net_flow_score": -0.5,
+      "net_flow_score": -0.3333,
       "congress_score": 1.0,
       "congress_boost": 1.15
     },
@@ -4602,20 +4546,18 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "buy_count": 3,
-      "sell_count": 7,
+      "sell_count": 6,
       "buy_notional_est": 240001.5,
-      "sell_notional_est": 1198504.0,
+      "sell_notional_est": 748503.3999999999,
       "politicians": [
         "Donald J Trump",
         "Pete Sessions",
         "John W. Rose",
         "Michael Rulli",
-        "Thomas H Tuberville",
-        "Markwayne Mullin"
+        "Thomas H Tuberville"
       ],
       "notable_politicians": [
-        "Thomas H Tuberville",
-        "Markwayne Mullin"
+        "Thomas H Tuberville"
       ],
       "recent_buys": [
         {
@@ -4642,9 +4584,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-10-08",
-      "net_flow_score": -0.4,
-      "congress_score": -0.917,
-      "congress_boost": 0.8624
+      "net_flow_score": -0.3333,
+      "congress_score": -0.517,
+      "congress_boost": 0.9224
     },
     "PLTR": {
       "symbol": "PLTR",
@@ -4687,18 +4629,15 @@
     },
     "NOW": {
       "symbol": "NOW",
-      "buy_count": 6,
-      "sell_count": 5,
-      "buy_notional_est": 1197503.0,
-      "sell_notional_est": 211502.6,
+      "buy_count": 5,
+      "sell_count": 4,
+      "buy_notional_est": 1165002.5,
+      "sell_notional_est": 172502.0,
       "politicians": [
         "Donald J Trump",
-        "Tony Wied",
-        "Markwayne Mullin"
+        "Tony Wied"
       ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
+      "notable_politicians": [],
       "recent_buys": [
         {
           "politician": "Donald J Trump",
@@ -4738,24 +4677,21 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-10-08",
-      "net_flow_score": 0.0909,
+      "net_flow_score": 0.1111,
       "congress_score": 1.0,
       "congress_boost": 1.15
     },
     "CRM": {
       "symbol": "CRM",
-      "buy_count": 7,
-      "sell_count": 4,
-      "buy_notional_est": 3522503.5,
-      "sell_notional_est": 330002.1,
+      "buy_count": 6,
+      "sell_count": 3,
+      "buy_notional_est": 3490003.0,
+      "sell_notional_est": 240001.5,
       "politicians": [
         "Donald J Trump",
-        "Tony Wied",
-        "Markwayne Mullin"
+        "Tony Wied"
       ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
+      "notable_politicians": [],
       "recent_buys": [
         {
           "politician": "Donald J Trump",
@@ -4795,15 +4731,15 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-10-08",
-      "net_flow_score": 0.2727,
+      "net_flow_score": 0.3333,
       "congress_score": 1.0,
       "congress_boost": 1.15
     },
     "PEP": {
       "symbol": "PEP",
-      "buy_count": 3,
+      "buy_count": 5,
       "sell_count": 6,
-      "buy_notional_est": 182501.5,
+      "buy_notional_est": 254002.6,
       "sell_notional_est": 1071253.25,
       "politicians": [
         "Donald J Trump",
@@ -4824,6 +4760,20 @@
           "weight": 1.0
         },
         {
+          "politician": "Rohit Khanna",
+          "date": "2026-09-25",
+          "filing_date": "2026-10-07",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.1
+        },
+        {
+          "politician": "Rohit Khanna",
+          "date": "2026-09-11",
+          "filing_date": "2026-10-07",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.1
+        },
+        {
           "politician": "Donald J Trump",
           "date": "2026-06-15",
           "filing_date": "2026-08-22",
@@ -4840,9 +4790,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-10-08",
-      "net_flow_score": -0.3333,
-      "congress_score": -0.7775,
-      "congress_boost": 0.8834
+      "net_flow_score": -0.0909,
+      "congress_score": -0.6345,
+      "congress_boost": 0.9048
     },
     "CBRE": {
       "symbol": "CBRE",
@@ -5030,16 +4980,13 @@
     "AXP": {
       "symbol": "AXP",
       "buy_count": 2,
-      "sell_count": 2,
+      "sell_count": 1,
       "buy_notional_est": 250001.0,
-      "sell_notional_est": 585001.1,
+      "sell_notional_est": 375000.5,
       "politicians": [
-        "Donald J Trump",
-        "Markwayne Mullin"
+        "Donald J Trump"
       ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
+      "notable_politicians": [],
       "recent_buys": [
         {
           "politician": "Donald J Trump",
@@ -5058,28 +5005,146 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-10-08",
+      "net_flow_score": 0.3333,
+      "congress_score": -0.25,
+      "congress_boost": 0.9625
+    },
+    "LIN": {
+      "symbol": "LIN",
+      "buy_count": 2,
+      "sell_count": 4,
+      "buy_notional_est": 65001.0,
+      "sell_notional_est": 133252.05,
+      "politicians": [
+        "Rohit Khanna",
+        "Kevin Hern",
+        "Donald J Trump"
+      ],
+      "notable_politicians": [
+        "Rohit Khanna"
+      ],
+      "recent_buys": [
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-07-31",
+          "filing_date": "2026-09-22",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2024-07-20",
+          "filing_date": "2026-09-22",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-10-07",
+      "net_flow_score": -0.3333,
+      "congress_score": 0.3635,
+      "congress_boost": 1.0545
+    },
+    "WFC": {
+      "symbol": "WFC",
+      "buy_count": 5,
+      "sell_count": 0,
+      "buy_notional_est": 558252.6,
+      "sell_notional_est": 0.0,
+      "politicians": [
+        "Rohit Khanna",
+        "A. Mitchell",
+        "Donald J Trump"
+      ],
+      "notable_politicians": [
+        "Rohit Khanna"
+      ],
+      "recent_buys": [
+        {
+          "politician": "Rohit Khanna",
+          "date": "2026-09-17",
+          "filing_date": "2026-10-07",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.1
+        },
+        {
+          "politician": "A. Mitchell",
+          "date": "2026-09-01",
+          "filing_date": "2026-09-21",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Rohit Khanna",
+          "date": "2026-08-27",
+          "filing_date": "2026-09-04",
+          "amount_label": "$50,001 - $100,000",
+          "weight": 1.1
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-06-12",
+          "filing_date": "2026-08-22",
+          "amount_label": "$250,001 - $500,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-06-01",
+          "filing_date": "2026-08-22",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-10-07",
+      "net_flow_score": 1.0,
+      "congress_score": 1.0,
+      "congress_boost": 1.15
+    },
+    "NEW": {
+      "symbol": "NEW",
+      "buy_count": 1,
+      "sell_count": 1,
+      "buy_notional_est": 35750.55,
+      "sell_notional_est": 35750.55,
+      "politicians": [
+        "Rohit Khanna"
+      ],
+      "notable_politicians": [
+        "Rohit Khanna"
+      ],
+      "recent_buys": [
+        {
+          "politician": "Rohit Khanna",
+          "date": "2026-09-11",
+          "filing_date": "2026-10-07",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.1
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-10-07",
       "net_flow_score": 0.0,
-      "congress_score": -0.17,
-      "congress_boost": 0.9745
+      "congress_score": 0.5,
+      "congress_boost": 1.075
     },
     "JPM": {
       "symbol": "JPM",
       "buy_count": 8,
-      "sell_count": 4,
+      "sell_count": 3,
       "buy_notional_est": 562504.05,
-      "sell_notional_est": 463002.30000000005,
+      "sell_notional_est": 253001.7,
       "politicians": [
         "Sheldon Whitehouse",
         "Donald J Trump",
         "Rohit Khanna",
         "Steve Cohen",
-        "Thomas H Tuberville",
-        "Markwayne Mullin"
+        "Thomas H Tuberville"
       ],
       "notable_politicians": [
         "Rohit Khanna",
-        "Thomas H Tuberville",
-        "Markwayne Mullin"
+        "Thomas H Tuberville"
       ],
       "recent_buys": [
         {
@@ -5120,7 +5185,7 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-10-01",
-      "net_flow_score": 0.3333,
+      "net_flow_score": 0.4545,
       "congress_score": 1.0,
       "congress_boost": 1.15
     },
@@ -5301,42 +5366,36 @@
     "OKE": {
       "symbol": "OKE",
       "buy_count": 0,
-      "sell_count": 3,
+      "sell_count": 2,
       "buy_notional_est": 0.0,
-      "sell_notional_est": 146501.6,
+      "sell_notional_est": 107501.0,
       "politicians": [
-        "Kevin Hern",
-        "Markwayne Mullin"
+        "Kevin Hern"
       ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
+      "notable_politicians": [],
       "recent_buys": [],
       "pelosi_buy": false,
       "last_filing_date": "2026-09-25",
       "net_flow_score": -1.0,
-      "congress_score": 0.207,
-      "congress_boost": 1.0311
+      "congress_score": -0.215,
+      "congress_boost": 0.9677
     },
     "TJX": {
       "symbol": "TJX",
       "buy_count": 0,
-      "sell_count": 3,
+      "sell_count": 2,
       "buy_notional_est": 0.0,
-      "sell_notional_est": 155001.59999999998,
+      "sell_notional_est": 65001.0,
       "politicians": [
-        "Kevin Hern",
-        "Markwayne Mullin"
+        "Kevin Hern"
       ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
+      "notable_politicians": [],
       "recent_buys": [],
       "pelosi_buy": false,
       "last_filing_date": "2026-09-25",
       "net_flow_score": -1.0,
-      "congress_score": 0.19,
-      "congress_boost": 1.0285
+      "congress_score": -0.13,
+      "congress_boost": 0.9805
     },
     "ORLY": {
       "symbol": "ORLY",
@@ -5373,39 +5432,6 @@
       "net_flow_score": -1.0,
       "congress_score": -0.48,
       "congress_boost": 0.928
-    },
-    "LIN": {
-      "symbol": "LIN",
-      "buy_count": 2,
-      "sell_count": 3,
-      "buy_notional_est": 65001.0,
-      "sell_notional_est": 97501.5,
-      "politicians": [
-        "Kevin Hern",
-        "Donald J Trump"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-07-31",
-          "filing_date": "2026-09-22",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2024-07-20",
-          "filing_date": "2026-09-22",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-09-25",
-      "net_flow_score": -0.2,
-      "congress_score": -0.065,
-      "congress_boost": 0.9902
     },
     "PRGS": {
       "symbol": "PRGS",
@@ -5557,29 +5583,20 @@
     },
     "NVS": {
       "symbol": "NVS",
-      "buy_count": 1,
+      "buy_count": 0,
       "sell_count": 1,
-      "buy_notional_est": 32500.5,
+      "buy_notional_est": 0.0,
       "sell_notional_est": 32500.5,
       "politicians": [
-        "Kevin Hern",
-        "Alan Armstrong"
+        "Kevin Hern"
       ],
       "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Alan Armstrong",
-          "date": "2026-03-30",
-          "filing_date": "2026-07-21",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
+      "recent_buys": [],
       "pelosi_buy": false,
       "last_filing_date": "2026-09-25",
-      "net_flow_score": 0.0,
-      "congress_score": 0.0,
-      "congress_boost": 1.0
+      "net_flow_score": -1.0,
+      "congress_score": -0.065,
+      "congress_boost": 0.9902
     },
     "AAPL": {
       "symbol": "AAPL",
@@ -5793,16 +5810,13 @@
     "CAT": {
       "symbol": "CAT",
       "buy_count": 2,
-      "sell_count": 2,
+      "sell_count": 1,
       "buy_notional_est": 107501.0,
-      "sell_notional_est": 242501.1,
+      "sell_notional_est": 32500.5,
       "politicians": [
-        "Donald J Trump",
-        "Markwayne Mullin"
+        "Donald J Trump"
       ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
+      "notable_politicians": [],
       "recent_buys": [
         {
           "politician": "Donald J Trump",
@@ -5821,9 +5835,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-09-22",
-      "net_flow_score": 0.0,
-      "congress_score": 0.23,
-      "congress_boost": 1.0345
+      "net_flow_score": 0.3333,
+      "congress_score": 0.15,
+      "congress_boost": 1.0225
     },
     "RSG": {
       "symbol": "RSG",
@@ -5927,16 +5941,13 @@
     "BLK": {
       "symbol": "BLK",
       "buy_count": 1,
-      "sell_count": 3,
+      "sell_count": 2,
       "buy_notional_est": 175000.5,
-      "sell_notional_est": 240001.59999999998,
+      "sell_notional_est": 150001.0,
       "politicians": [
-        "Donald J Trump",
-        "Markwayne Mullin"
+        "Donald J Trump"
       ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
+      "notable_politicians": [],
       "recent_buys": [
         {
           "politician": "Donald J Trump",
@@ -5948,23 +5959,20 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-09-22",
-      "net_flow_score": -0.5,
-      "congress_score": 0.37,
-      "congress_boost": 1.0555
+      "net_flow_score": -0.3333,
+      "congress_score": 0.05,
+      "congress_boost": 1.0075
     },
     "PH": {
       "symbol": "PH",
       "buy_count": 2,
-      "sell_count": 2,
+      "sell_count": 1,
       "buy_notional_est": 207501.0,
-      "sell_notional_est": 122501.09999999999,
+      "sell_notional_est": 32500.5,
       "politicians": [
-        "Donald J Trump",
-        "Markwayne Mullin"
+        "Donald J Trump"
       ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
+      "notable_politicians": [],
       "recent_buys": [
         {
           "politician": "Donald J Trump",
@@ -5983,9 +5991,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-09-22",
-      "net_flow_score": 0.0,
-      "congress_score": 0.67,
-      "congress_boost": 1.1005
+      "net_flow_score": 0.3333,
+      "congress_score": 0.35,
+      "congress_boost": 1.0525
     },
     "OMC": {
       "symbol": "OMC",
@@ -6211,16 +6219,13 @@
     "PM": {
       "symbol": "PM",
       "buy_count": 1,
-      "sell_count": 2,
+      "sell_count": 1,
       "buy_notional_est": 375000.5,
-      "sell_notional_est": 71501.1,
+      "sell_notional_est": 32500.5,
       "politicians": [
-        "Donald J Trump",
-        "Markwayne Mullin"
+        "Donald J Trump"
       ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
+      "notable_politicians": [],
       "recent_buys": [
         {
           "politician": "Donald J Trump",
@@ -6232,9 +6237,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-09-22",
-      "net_flow_score": -0.3333,
-      "congress_score": 1.0,
-      "congress_boost": 1.15
+      "net_flow_score": 0.0,
+      "congress_score": 0.685,
+      "congress_boost": 1.1027
     },
     "IBM": {
       "symbol": "IBM",
@@ -6264,17 +6269,15 @@
     "COST": {
       "symbol": "COST",
       "buy_count": 1,
-      "sell_count": 6,
+      "sell_count": 5,
       "buy_notional_est": 175000.5,
-      "sell_notional_est": 3985003.15,
+      "sell_notional_est": 3775002.55,
       "politicians": [
         "Donald J Trump",
-        "Rohit Khanna",
-        "Markwayne Mullin"
+        "Rohit Khanna"
       ],
       "notable_politicians": [
-        "Rohit Khanna",
-        "Markwayne Mullin"
+        "Rohit Khanna"
       ],
       "recent_buys": [
         {
@@ -6287,9 +6290,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-09-22",
-      "net_flow_score": -0.7143,
-      "congress_score": -6.62,
-      "congress_boost": 0.007
+      "net_flow_score": -0.6667,
+      "congress_score": -6.7,
+      "congress_boost": -0.005
     },
     "JCI": {
       "symbol": "JCI",
@@ -6438,16 +6441,13 @@
     "SHW": {
       "symbol": "SHW",
       "buy_count": 3,
-      "sell_count": 2,
+      "sell_count": 1,
       "buy_notional_est": 182501.5,
-      "sell_notional_est": 122501.09999999999,
+      "sell_notional_est": 32500.5,
       "politicians": [
-        "Donald J Trump",
-        "Markwayne Mullin"
+        "Donald J Trump"
       ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
+      "notable_politicians": [],
       "recent_buys": [
         {
           "politician": "Donald J Trump",
@@ -6473,24 +6473,22 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-09-22",
-      "net_flow_score": 0.2,
-      "congress_score": 0.62,
-      "congress_boost": 1.093
+      "net_flow_score": 0.5,
+      "congress_score": 0.3,
+      "congress_boost": 1.045
     },
     "LLY": {
       "symbol": "LLY",
       "buy_count": 2,
-      "sell_count": 2,
+      "sell_count": 1,
       "buy_notional_est": 207501.0,
-      "sell_notional_est": 255501.3,
+      "sell_notional_est": 45500.7,
       "politicians": [
         "Donald J Trump",
-        "Thomas H Tuberville",
-        "Markwayne Mullin"
+        "Thomas H Tuberville"
       ],
       "notable_politicians": [
-        "Thomas H Tuberville",
-        "Markwayne Mullin"
+        "Thomas H Tuberville"
       ],
       "recent_buys": [
         {
@@ -6510,9 +6508,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-09-22",
-      "net_flow_score": 0.0,
-      "congress_score": 0.904,
-      "congress_boost": 1.1356
+      "net_flow_score": 0.3333,
+      "congress_score": 0.824,
+      "congress_boost": 1.1236
     },
     "CVNA": {
       "symbol": "CVNA",
@@ -6763,16 +6761,13 @@
     "ICE": {
       "symbol": "ICE",
       "buy_count": 1,
-      "sell_count": 2,
+      "sell_count": 1,
       "buy_notional_est": 75000.5,
-      "sell_notional_est": 165001.09999999998,
+      "sell_notional_est": 75000.5,
       "politicians": [
-        "Donald J Trump",
-        "Markwayne Mullin"
+        "Donald J Trump"
       ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
+      "notable_politicians": [],
       "recent_buys": [
         {
           "politician": "Donald J Trump",
@@ -6784,26 +6779,23 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-09-22",
-      "net_flow_score": -0.3333,
-      "congress_score": 0.32,
-      "congress_boost": 1.048
+      "net_flow_score": 0.0,
+      "congress_score": 0.0,
+      "congress_boost": 1.0
     },
     "ADBE": {
       "symbol": "ADBE",
-      "buy_count": 7,
-      "sell_count": 7,
-      "buy_notional_est": 1803003.7,
-      "sell_notional_est": 438503.89999999997,
+      "buy_count": 6,
+      "sell_count": 5,
+      "buy_notional_est": 1728003.2,
+      "sell_notional_est": 360502.7,
       "politicians": [
         "Donald J Trump",
         "Kevin Hern",
-        "Thomas H Tuberville",
-        "Markwayne Mullin",
-        "Tony Wied"
+        "Thomas H Tuberville"
       ],
       "notable_politicians": [
-        "Thomas H Tuberville",
-        "Markwayne Mullin"
+        "Thomas H Tuberville"
       ],
       "recent_buys": [
         {
@@ -6844,7 +6836,7 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-09-22",
-      "net_flow_score": 0.0,
+      "net_flow_score": 0.0909,
       "congress_score": 1.0,
       "congress_boost": 1.15
     },
@@ -7136,16 +7128,13 @@
     "KO": {
       "symbol": "KO",
       "buy_count": 1,
-      "sell_count": 2,
+      "sell_count": 1,
       "buy_notional_est": 75000.5,
-      "sell_notional_est": 265001.1,
+      "sell_notional_est": 175000.5,
       "politicians": [
-        "Donald J Trump",
-        "Markwayne Mullin"
+        "Donald J Trump"
       ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
+      "notable_politicians": [],
       "recent_buys": [
         {
           "politician": "Donald J Trump",
@@ -7157,23 +7146,20 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-09-22",
-      "net_flow_score": -0.3333,
-      "congress_score": 0.12,
-      "congress_boost": 1.018
+      "net_flow_score": 0.0,
+      "congress_score": -0.2,
+      "congress_boost": 0.97
     },
     "RTX": {
       "symbol": "RTX",
       "buy_count": 1,
-      "sell_count": 2,
+      "sell_count": 1,
       "buy_notional_est": 32500.5,
-      "sell_notional_est": 385001.1,
+      "sell_notional_est": 175000.5,
       "politicians": [
-        "Donald J Trump",
-        "Markwayne Mullin"
+        "Donald J Trump"
       ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
+      "notable_politicians": [],
       "recent_buys": [
         {
           "politician": "Donald J Trump",
@@ -7185,9 +7171,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-09-22",
-      "net_flow_score": -0.3333,
-      "congress_score": -0.205,
-      "congress_boost": 0.9693
+      "net_flow_score": 0.0,
+      "congress_score": -0.285,
+      "congress_boost": 0.9573
     },
     "CFG": {
       "symbol": "CFG",
@@ -7404,16 +7390,13 @@
     "VSEC": {
       "symbol": "VSEC",
       "buy_count": 1,
-      "sell_count": 3,
+      "sell_count": 1,
       "buy_notional_est": 32500.5,
-      "sell_notional_est": 161501.7,
+      "sell_notional_est": 32500.5,
       "politicians": [
-        "Donald J Trump",
-        "Markwayne Mullin"
+        "Donald J Trump"
       ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
+      "notable_politicians": [],
       "recent_buys": [
         {
           "politician": "Donald J Trump",
@@ -7425,9 +7408,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-09-22",
-      "net_flow_score": -0.5,
-      "congress_score": 0.242,
-      "congress_boost": 1.0363
+      "net_flow_score": 0.0,
+      "congress_score": 0.0,
+      "congress_boost": 1.0
     },
     "NTCT": {
       "symbol": "NTCT",
@@ -10328,56 +10311,6 @@
       "congress_score": 0.5,
       "congress_boost": 1.075
     },
-    "WFC": {
-      "symbol": "WFC",
-      "buy_count": 4,
-      "sell_count": 0,
-      "buy_notional_est": 522502.05,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "A. Mitchell",
-        "Rohit Khanna",
-        "Donald J Trump"
-      ],
-      "notable_politicians": [
-        "Rohit Khanna"
-      ],
-      "recent_buys": [
-        {
-          "politician": "A. Mitchell",
-          "date": "2026-09-01",
-          "filing_date": "2026-09-21",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Rohit Khanna",
-          "date": "2026-08-27",
-          "filing_date": "2026-09-04",
-          "amount_label": "$50,001 - $100,000",
-          "weight": 1.1
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-06-12",
-          "filing_date": "2026-08-22",
-          "amount_label": "$250,001 - $500,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-06-01",
-          "filing_date": "2026-08-22",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-09-21",
-      "net_flow_score": 1.0,
-      "congress_score": 1.0,
-      "congress_boost": 1.15
-    },
     "GABUX": {
       "symbol": "GABUX",
       "buy_count": 0,
@@ -10415,9 +10348,9 @@
     "WMB": {
       "symbol": "WMB",
       "buy_count": 1,
-      "sell_count": 2,
+      "sell_count": 0,
       "buy_notional_est": 32500.5,
-      "sell_notional_est": 15375001.0,
+      "sell_notional_est": 0.0,
       "politicians": [
         "Alan Armstrong"
       ],
@@ -10433,9 +10366,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-09-17",
-      "net_flow_score": -0.3333,
-      "congress_score": -30.685,
-      "congress_boost": -3.6027
+      "net_flow_score": 1.0,
+      "congress_score": 0.065,
+      "congress_boost": 1.0097
     },
     "WWSYX": {
       "symbol": "WWSYX",
@@ -10608,9 +10541,9 @@
     "WAB": {
       "symbol": "WAB",
       "buy_count": 0,
-      "sell_count": 3,
+      "sell_count": 2,
       "buy_notional_est": 0.0,
-      "sell_notional_est": 240001.5,
+      "sell_notional_est": 207501.0,
       "politicians": [
         "April McClain Delaney"
       ],
@@ -10619,8 +10552,8 @@
       "pelosi_buy": false,
       "last_filing_date": "2026-09-09",
       "net_flow_score": -1.0,
-      "congress_score": -0.48,
-      "congress_boost": 0.928
+      "congress_score": -0.415,
+      "congress_boost": 0.9377
     },
     "VIK": {
       "symbol": "VIK",
@@ -10849,9 +10782,9 @@
     },
     "LTH": {
       "symbol": "LTH",
-      "buy_count": 3,
+      "buy_count": 2,
       "sell_count": 1,
-      "buy_notional_est": 97501.5,
+      "buy_notional_est": 65001.0,
       "sell_notional_est": 175000.5,
       "politicians": [
         "April McClain Delaney"
@@ -10871,26 +10804,19 @@
           "filing_date": "2026-08-03",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
-        },
-        {
-          "politician": "April McClain Delaney",
-          "date": "2026-07-24",
-          "filing_date": "2026-08-03",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
         }
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-09-09",
-      "net_flow_score": 0.5,
-      "congress_score": -0.155,
-      "congress_boost": 0.9768
+      "net_flow_score": 0.3333,
+      "congress_score": -0.22,
+      "congress_boost": 0.967
     },
     "FWONK": {
       "symbol": "FWONK",
-      "buy_count": 6,
+      "buy_count": 4,
       "sell_count": 1,
-      "buy_notional_est": 195003.0,
+      "buy_notional_est": 130002.0,
       "sell_notional_est": 175000.5,
       "politicians": [
         "April McClain Delaney"
@@ -10924,20 +10850,13 @@
           "filing_date": "2026-08-03",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
-        },
-        {
-          "politician": "April McClain Delaney",
-          "date": "2026-07-24",
-          "filing_date": "2026-08-03",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
         }
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-09-09",
-      "net_flow_score": 0.7143,
-      "congress_score": 0.04,
-      "congress_boost": 1.006
+      "net_flow_score": 0.6,
+      "congress_score": -0.09,
+      "congress_boost": 0.9865
     },
     "LH": {
       "symbol": "LH",
@@ -11048,28 +10967,20 @@
     },
     "BWXT": {
       "symbol": "BWXT",
-      "buy_count": 1,
+      "buy_count": 0,
       "sell_count": 1,
-      "buy_notional_est": 32500.5,
+      "buy_notional_est": 0.0,
       "sell_notional_est": 175000.5,
       "politicians": [
         "April McClain Delaney"
       ],
       "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "April McClain Delaney",
-          "date": "2026-07-24",
-          "filing_date": "2026-08-03",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
+      "recent_buys": [],
       "pelosi_buy": false,
       "last_filing_date": "2026-09-09",
-      "net_flow_score": 0.0,
-      "congress_score": -0.285,
-      "congress_boost": 0.9573
+      "net_flow_score": -1.0,
+      "congress_score": -0.35,
+      "congress_boost": 0.9475
     },
     "CB": {
       "symbol": "CB",
@@ -11146,25 +11057,6 @@
       "net_flow_score": -1.0,
       "congress_score": -0.065,
       "congress_boost": 0.9902
-    },
-    "NEW": {
-      "symbol": "NEW",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 35750.55,
-      "politicians": [
-        "Rohit Khanna"
-      ],
-      "notable_politicians": [
-        "Rohit Khanna"
-      ],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-09-04",
-      "net_flow_score": -1.0,
-      "congress_score": 0.4285,
-      "congress_boost": 1.0643
     },
     "MSB": {
       "symbol": "MSB",
@@ -11294,9 +11186,9 @@
     },
     "HUBS": {
       "symbol": "HUBS",
-      "buy_count": 2,
+      "buy_count": 1,
       "sell_count": 2,
-      "buy_notional_est": 65001.0,
+      "buy_notional_est": 32500.5,
       "sell_notional_est": 65001.0,
       "politicians": [
         "Tony Wied",
@@ -11310,20 +11202,13 @@
           "filing_date": "2026-09-02",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
-        },
-        {
-          "politician": "Tony Wied",
-          "date": "2026-06-09",
-          "filing_date": "2026-07-24",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
         }
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-09-02",
-      "net_flow_score": 0.0,
-      "congress_score": 0.0,
-      "congress_boost": 1.0
+      "net_flow_score": -0.3333,
+      "congress_score": -0.065,
+      "congress_boost": 0.9902
     },
     "ICLR": {
       "symbol": "ICLR",
@@ -11976,19 +11861,16 @@
     },
     "GS": {
       "symbol": "GS",
-      "buy_count": 2,
-      "sell_count": 2,
-      "buy_notional_est": 407501.0,
-      "sell_notional_est": 255501.3,
+      "buy_count": 1,
+      "sell_count": 1,
+      "buy_notional_est": 375000.5,
+      "sell_notional_est": 45500.7,
       "politicians": [
         "Donald J Trump",
-        "Thomas H Tuberville",
-        "Markwayne Mullin",
-        "Debbie Dingell"
+        "Thomas H Tuberville"
       ],
       "notable_politicians": [
-        "Thomas H Tuberville",
-        "Markwayne Mullin"
+        "Thomas H Tuberville"
       ],
       "recent_buys": [
         {
@@ -11996,13 +11878,6 @@
           "date": "2026-06-15",
           "filing_date": "2026-08-22",
           "amount_label": "$250,001 - $500,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Debbie Dingell",
-          "date": "2026-07-14",
-          "filing_date": "2026-07-22",
-          "amount_label": "$15,001 - $50,000",
           "weight": 1.0
         }
       ],
@@ -12246,16 +12121,13 @@
     "DE": {
       "symbol": "DE",
       "buy_count": 1,
-      "sell_count": 1,
+      "sell_count": 0,
       "buy_notional_est": 32500.5,
-      "sell_notional_est": 90000.59999999999,
+      "sell_notional_est": 0.0,
       "politicians": [
-        "Donald J Trump",
-        "Markwayne Mullin"
+        "Donald J Trump"
       ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
+      "notable_politicians": [],
       "recent_buys": [
         {
           "politician": "Donald J Trump",
@@ -12267,9 +12139,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-08-22",
-      "net_flow_score": 0.0,
-      "congress_score": 0.385,
-      "congress_boost": 1.0577
+      "net_flow_score": 1.0,
+      "congress_score": 0.065,
+      "congress_boost": 1.0097
     },
     "FE": {
       "symbol": "FE",
@@ -12434,16 +12306,13 @@
     "MCK": {
       "symbol": "MCK",
       "buy_count": 1,
-      "sell_count": 2,
+      "sell_count": 0,
       "buy_notional_est": 175000.5,
-      "sell_notional_est": 78001.2,
+      "sell_notional_est": 0.0,
       "politicians": [
-        "Donald J Trump",
-        "Markwayne Mullin"
+        "Donald J Trump"
       ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
+      "notable_politicians": [],
       "recent_buys": [
         {
           "politician": "Donald J Trump",
@@ -12455,9 +12324,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-08-22",
-      "net_flow_score": -0.3333,
-      "congress_score": 0.694,
-      "congress_boost": 1.1041
+      "net_flow_score": 1.0,
+      "congress_score": 0.35,
+      "congress_boost": 1.0525
     },
     "DOCU": {
       "symbol": "DOCU",
@@ -13109,9 +12978,9 @@
     "HOOD": {
       "symbol": "HOOD",
       "buy_count": 0,
-      "sell_count": 2,
+      "sell_count": 1,
       "buy_notional_est": 0.0,
-      "sell_notional_est": 925001.0,
+      "sell_notional_est": 175000.5,
       "politicians": [
         "Scott A Kupor"
       ],
@@ -13120,15 +12989,15 @@
       "pelosi_buy": false,
       "last_filing_date": "2026-08-21",
       "net_flow_score": -1.0,
-      "congress_score": -1.85,
-      "congress_boost": 0.7225
+      "congress_score": -0.35,
+      "congress_boost": 0.9475
     },
     "OKTA": {
       "symbol": "OKTA",
       "buy_count": 0,
-      "sell_count": 2,
+      "sell_count": 1,
       "buy_notional_est": 0.0,
-      "sell_notional_est": 3750001.0,
+      "sell_notional_est": 3000000.5,
       "politicians": [
         "Scott A Kupor"
       ],
@@ -13137,8 +13006,8 @@
       "pelosi_buy": false,
       "last_filing_date": "2026-08-21",
       "net_flow_score": -1.0,
-      "congress_score": -7.5,
-      "congress_boost": -0.125
+      "congress_score": -6.0,
+      "congress_boost": 0.1
     },
     "IOT": {
       "symbol": "IOT",
@@ -13579,31 +13448,22 @@
     },
     "ASML": {
       "symbol": "ASML",
-      "buy_count": 1,
+      "buy_count": 0,
       "sell_count": 1,
-      "buy_notional_est": 75000.5,
+      "buy_notional_est": 0.0,
       "sell_notional_est": 45500.7,
       "politicians": [
-        "Thomas H Tuberville",
-        "Alan Armstrong"
+        "Thomas H Tuberville"
       ],
       "notable_politicians": [
         "Thomas H Tuberville"
       ],
-      "recent_buys": [
-        {
-          "politician": "Alan Armstrong",
-          "date": "2026-03-30",
-          "filing_date": "2026-07-21",
-          "amount_label": "$50,001 - $100,000",
-          "weight": 1.0
-        }
-      ],
+      "recent_buys": [],
       "pelosi_buy": false,
       "last_filing_date": "2026-08-05",
-      "net_flow_score": 0.0,
-      "congress_score": 0.559,
-      "congress_boost": 1.0838
+      "net_flow_score": -1.0,
+      "congress_score": 0.409,
+      "congress_boost": 1.0614
     },
     "HUMA": {
       "symbol": "HUMA",
@@ -13658,1127 +13518,23 @@
       "net_flow_score": 1.0,
       "congress_score": 0.591,
       "congress_boost": 1.0886
-    },
-    "VPU": {
-      "symbol": "VPU",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 90000.59999999999,
-      "politicians": [
-        "Markwayne Mullin"
-      ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-25",
-      "net_flow_score": -1.0,
-      "congress_score": 0.32,
-      "congress_boost": 1.048
-    },
-    "VLO": {
-      "symbol": "VLO",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 210000.6,
-      "politicians": [
-        "Markwayne Mullin"
-      ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-25",
-      "net_flow_score": -1.0,
-      "congress_score": 0.08,
-      "congress_boost": 1.012
-    },
-    "UNP": {
-      "symbol": "UNP",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 90000.59999999999,
-      "politicians": [
-        "Markwayne Mullin"
-      ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-25",
-      "net_flow_score": -1.0,
-      "congress_score": 0.32,
-      "congress_boost": 1.048
-    },
-    "TMO": {
-      "symbol": "TMO",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 39000.6,
-      "politicians": [
-        "Markwayne Mullin"
-      ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-25",
-      "net_flow_score": -1.0,
-      "congress_score": 0.422,
-      "congress_boost": 1.0633
-    },
-    "LRCX": {
-      "symbol": "LRCX",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 450000.6,
-      "politicians": [
-        "Markwayne Mullin"
-      ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-25",
-      "net_flow_score": -1.0,
-      "congress_score": -0.4,
-      "congress_boost": 0.94
-    },
-    "LHX": {
-      "symbol": "LHX",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 210000.6,
-      "politicians": [
-        "Markwayne Mullin"
-      ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-25",
-      "net_flow_score": -1.0,
-      "congress_score": 0.08,
-      "congress_boost": 1.012
-    },
-    "HLT": {
-      "symbol": "HLT",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 210000.6,
-      "politicians": [
-        "Markwayne Mullin"
-      ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-25",
-      "net_flow_score": -1.0,
-      "congress_score": 0.08,
-      "congress_boost": 1.012
-    },
-    "APPL": {
-      "symbol": "APPL",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 450000.6,
-      "politicians": [
-        "Markwayne Mullin"
-      ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-25",
-      "net_flow_score": -1.0,
-      "congress_score": -0.4,
-      "congress_boost": 0.94
-    },
-    "LPLA": {
-      "symbol": "LPLA",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 90000.59999999999,
-      "politicians": [
-        "Markwayne Mullin"
-      ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-25",
-      "net_flow_score": -1.0,
-      "congress_score": 0.32,
-      "congress_boost": 1.048
-    },
-    "ELV": {
-      "symbol": "ELV",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 90000.59999999999,
-      "politicians": [
-        "Markwayne Mullin"
-      ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-25",
-      "net_flow_score": -1.0,
-      "congress_score": 0.32,
-      "congress_boost": 1.048
-    },
-    "C": {
-      "symbol": "C",
-      "buy_count": 0,
-      "sell_count": 2,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 129001.19999999998,
-      "politicians": [
-        "Markwayne Mullin"
-      ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-25",
-      "net_flow_score": -1.0,
-      "congress_score": 0.242,
-      "congress_boost": 1.0363
-    },
-    "LRN": {
-      "symbol": "LRN",
-      "buy_count": 0,
-      "sell_count": 2,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 129001.19999999998,
-      "politicians": [
-        "Markwayne Mullin"
-      ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-25",
-      "net_flow_score": -1.0,
-      "congress_score": 0.242,
-      "congress_boost": 1.0363
-    },
-    "FCFS": {
-      "symbol": "FCFS",
-      "buy_count": 0,
-      "sell_count": 2,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 129001.19999999998,
-      "politicians": [
-        "Markwayne Mullin"
-      ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-25",
-      "net_flow_score": -1.0,
-      "congress_score": 0.242,
-      "congress_boost": 1.0363
-    },
-    "CRS": {
-      "symbol": "CRS",
-      "buy_count": 0,
-      "sell_count": 2,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 129001.19999999998,
-      "politicians": [
-        "Markwayne Mullin"
-      ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-25",
-      "net_flow_score": -1.0,
-      "congress_score": 0.242,
-      "congress_boost": 1.0363
-    },
-    "APG": {
-      "symbol": "APG",
-      "buy_count": 0,
-      "sell_count": 2,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 129001.19999999998,
-      "politicians": [
-        "Markwayne Mullin"
-      ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-25",
-      "net_flow_score": -1.0,
-      "congress_score": 0.242,
-      "congress_boost": 1.0363
-    },
-    "AMKR": {
-      "symbol": "AMKR",
-      "buy_count": 0,
-      "sell_count": 2,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 129001.19999999998,
-      "politicians": [
-        "Markwayne Mullin"
-      ],
-      "notable_politicians": [
-        "Markwayne Mullin"
-      ],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-25",
-      "net_flow_score": -1.0,
-      "congress_score": 0.242,
-      "congress_boost": 1.0363
-    },
-    "ALIZY": {
-      "symbol": "ALIZY",
-      "buy_count": 1,
-      "sell_count": 0,
-      "buy_notional_est": 32500.5,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Alan Armstrong"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Alan Armstrong",
-          "date": "2026-03-30",
-          "filing_date": "2026-07-21",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-21",
-      "net_flow_score": 1.0,
-      "congress_score": 0.065,
-      "congress_boost": 1.0097
-    },
-    "ANZGY": {
-      "symbol": "ANZGY",
-      "buy_count": 1,
-      "sell_count": 0,
-      "buy_notional_est": 32500.5,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Alan Armstrong"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Alan Armstrong",
-          "date": "2026-03-30",
-          "filing_date": "2026-07-21",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-21",
-      "net_flow_score": 1.0,
-      "congress_score": 0.065,
-      "congress_boost": 1.0097
-    },
-    "AZN": {
-      "symbol": "AZN",
-      "buy_count": 1,
-      "sell_count": 0,
-      "buy_notional_est": 32500.5,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Alan Armstrong"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Alan Armstrong",
-          "date": "2026-03-30",
-          "filing_date": "2026-07-21",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-21",
-      "net_flow_score": 1.0,
-      "congress_score": 0.065,
-      "congress_boost": 1.0097
-    },
-    "BAESY": {
-      "symbol": "BAESY",
-      "buy_count": 1,
-      "sell_count": 0,
-      "buy_notional_est": 32500.5,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Alan Armstrong"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Alan Armstrong",
-          "date": "2026-03-30",
-          "filing_date": "2026-07-21",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-21",
-      "net_flow_score": 1.0,
-      "congress_score": 0.065,
-      "congress_boost": 1.0097
-    },
-    "BBVA": {
-      "symbol": "BBVA",
-      "buy_count": 1,
-      "sell_count": 0,
-      "buy_notional_est": 32500.5,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Alan Armstrong"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Alan Armstrong",
-          "date": "2026-03-30",
-          "filing_date": "2026-07-21",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-21",
-      "net_flow_score": 1.0,
-      "congress_score": 0.065,
-      "congress_boost": 1.0097
-    },
-    "SAN": {
-      "symbol": "SAN",
-      "buy_count": 1,
-      "sell_count": 0,
-      "buy_notional_est": 32500.5,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Alan Armstrong"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Alan Armstrong",
-          "date": "2026-03-30",
-          "filing_date": "2026-07-21",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-21",
-      "net_flow_score": 1.0,
-      "congress_score": 0.065,
-      "congress_boost": 1.0097
-    },
-    "BHP": {
-      "symbol": "BHP",
-      "buy_count": 1,
-      "sell_count": 0,
-      "buy_notional_est": 32500.5,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Alan Armstrong"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Alan Armstrong",
-          "date": "2026-03-30",
-          "filing_date": "2026-07-21",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-21",
-      "net_flow_score": 1.0,
-      "congress_score": 0.065,
-      "congress_boost": 1.0097
-    },
-    "BNPQY": {
-      "symbol": "BNPQY",
-      "buy_count": 1,
-      "sell_count": 0,
-      "buy_notional_est": 32500.5,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Alan Armstrong"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Alan Armstrong",
-          "date": "2026-03-30",
-          "filing_date": "2026-07-21",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-21",
-      "net_flow_score": 1.0,
-      "congress_score": 0.065,
-      "congress_boost": 1.0097
-    },
-    "BTI": {
-      "symbol": "BTI",
-      "buy_count": 1,
-      "sell_count": 0,
-      "buy_notional_est": 32500.5,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Alan Armstrong"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Alan Armstrong",
-          "date": "2026-03-30",
-          "filing_date": "2026-07-21",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-21",
-      "net_flow_score": 1.0,
-      "congress_score": 0.065,
-      "congress_boost": 1.0097
-    },
-    "CMWAY": {
-      "symbol": "CMWAY",
-      "buy_count": 1,
-      "sell_count": 0,
-      "buy_notional_est": 32500.5,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Alan Armstrong"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Alan Armstrong",
-          "date": "2026-03-30",
-          "filing_date": "2026-07-21",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-21",
-      "net_flow_score": 1.0,
-      "congress_score": 0.065,
-      "congress_boost": 1.0097
-    },
-    "DBSDY": {
-      "symbol": "DBSDY",
-      "buy_count": 1,
-      "sell_count": 0,
-      "buy_notional_est": 32500.5,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Alan Armstrong"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Alan Armstrong",
-          "date": "2026-03-30",
-          "filing_date": "2026-07-21",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-21",
-      "net_flow_score": 1.0,
-      "congress_score": 0.065,
-      "congress_boost": 1.0097
-    },
-    "DBOEY": {
-      "symbol": "DBOEY",
-      "buy_count": 1,
-      "sell_count": 0,
-      "buy_notional_est": 32500.5,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Alan Armstrong"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Alan Armstrong",
-          "date": "2026-03-30",
-          "filing_date": "2026-07-21",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-21",
-      "net_flow_score": 1.0,
-      "congress_score": 0.065,
-      "congress_boost": 1.0097
-    },
-    "DTEGY": {
-      "symbol": "DTEGY",
-      "buy_count": 1,
-      "sell_count": 0,
-      "buy_notional_est": 32500.5,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Alan Armstrong"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Alan Armstrong",
-          "date": "2026-03-30",
-          "filing_date": "2026-07-21",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-21",
-      "net_flow_score": 1.0,
-      "congress_score": 0.065,
-      "congress_boost": 1.0097
-    },
-    "GSK": {
-      "symbol": "GSK",
-      "buy_count": 1,
-      "sell_count": 0,
-      "buy_notional_est": 32500.5,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Alan Armstrong"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Alan Armstrong",
-          "date": "2026-03-30",
-          "filing_date": "2026-07-21",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-21",
-      "net_flow_score": 1.0,
-      "congress_score": 0.065,
-      "congress_boost": 1.0097
-    },
-    "ABBNY": {
-      "symbol": "ABBNY",
-      "buy_count": 1,
-      "sell_count": 0,
-      "buy_notional_est": 32500.5,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Alan Armstrong"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Alan Armstrong",
-          "date": "2026-03-30",
-          "filing_date": "2026-07-21",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-21",
-      "net_flow_score": 1.0,
-      "congress_score": 0.065,
-      "congress_boost": 1.0097
-    },
-    "HTHIY": {
-      "symbol": "HTHIY",
-      "buy_count": 1,
-      "sell_count": 0,
-      "buy_notional_est": 32500.5,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Alan Armstrong"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Alan Armstrong",
-          "date": "2026-03-30",
-          "filing_date": "2026-07-21",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-21",
-      "net_flow_score": 1.0,
-      "congress_score": 0.065,
-      "congress_boost": 1.0097
-    },
-    "HSBC": {
-      "symbol": "HSBC",
-      "buy_count": 1,
-      "sell_count": 0,
-      "buy_notional_est": 32500.5,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Alan Armstrong"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Alan Armstrong",
-          "date": "2026-03-30",
-          "filing_date": "2026-07-21",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-21",
-      "net_flow_score": 1.0,
-      "congress_score": 0.065,
-      "congress_boost": 1.0097
-    },
-    "ATEYY": {
-      "symbol": "ATEYY",
-      "buy_count": 1,
-      "sell_count": 0,
-      "buy_notional_est": 32500.5,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Alan Armstrong"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Alan Armstrong",
-          "date": "2026-03-30",
-          "filing_date": "2026-07-21",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-21",
-      "net_flow_score": 1.0,
-      "congress_score": 0.065,
-      "congress_boost": 1.0097
-    },
-    "ISNPY": {
-      "symbol": "ISNPY",
-      "buy_count": 1,
-      "sell_count": 0,
-      "buy_notional_est": 32500.5,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Alan Armstrong"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Alan Armstrong",
-          "date": "2026-03-30",
-          "filing_date": "2026-07-21",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-21",
-      "net_flow_score": 1.0,
-      "congress_score": 0.065,
-      "congress_boost": 1.0097
-    },
-    "AIQUY": {
-      "symbol": "AIQUY",
-      "buy_count": 1,
-      "sell_count": 0,
-      "buy_notional_est": 32500.5,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Alan Armstrong"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Alan Armstrong",
-          "date": "2026-03-30",
-          "filing_date": "2026-07-21",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-21",
-      "net_flow_score": 1.0,
-      "congress_score": 0.065,
-      "congress_boost": 1.0097
-    },
-    "EADSY": {
-      "symbol": "EADSY",
-      "buy_count": 1,
-      "sell_count": 0,
-      "buy_notional_est": 32500.5,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Alan Armstrong"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Alan Armstrong",
-          "date": "2026-03-30",
-          "filing_date": "2026-07-21",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-21",
-      "net_flow_score": 1.0,
-      "congress_score": 0.065,
-      "congress_boost": 1.0097
-    },
-    "LRLCY": {
-      "symbol": "LRLCY",
-      "buy_count": 1,
-      "sell_count": 0,
-      "buy_notional_est": 32500.5,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Alan Armstrong"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Alan Armstrong",
-          "date": "2026-03-30",
-          "filing_date": "2026-07-21",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-21",
-      "net_flow_score": 1.0,
-      "congress_score": 0.065,
-      "congress_boost": 1.0097
-    },
-    "MTSUY": {
-      "symbol": "MTSUY",
-      "buy_count": 1,
-      "sell_count": 0,
-      "buy_notional_est": 32500.5,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Alan Armstrong"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Alan Armstrong",
-          "date": "2026-03-30",
-          "filing_date": "2026-07-21",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-21",
-      "net_flow_score": 1.0,
-      "congress_score": 0.065,
-      "congress_boost": 1.0097
-    },
-    "MHVIY": {
-      "symbol": "MHVIY",
-      "buy_count": 1,
-      "sell_count": 0,
-      "buy_notional_est": 32500.5,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Alan Armstrong"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Alan Armstrong",
-          "date": "2026-03-30",
-          "filing_date": "2026-07-21",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-21",
-      "net_flow_score": 1.0,
-      "congress_score": 0.065,
-      "congress_boost": 1.0097
-    },
-    "MITSY": {
-      "symbol": "MITSY",
-      "buy_count": 1,
-      "sell_count": 0,
-      "buy_notional_est": 32500.5,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Alan Armstrong"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Alan Armstrong",
-          "date": "2026-03-30",
-          "filing_date": "2026-07-21",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-21",
-      "net_flow_score": 1.0,
-      "congress_score": 0.065,
-      "congress_boost": 1.0097
-    },
-    "MFG": {
-      "symbol": "MFG",
-      "buy_count": 1,
-      "sell_count": 0,
-      "buy_notional_est": 32500.5,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Alan Armstrong"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Alan Armstrong",
-          "date": "2026-03-30",
-          "filing_date": "2026-07-21",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-21",
-      "net_flow_score": 1.0,
-      "congress_score": 0.065,
-      "congress_boost": 1.0097
-    },
-    "NABZY": {
-      "symbol": "NABZY",
-      "buy_count": 1,
-      "sell_count": 0,
-      "buy_notional_est": 32500.5,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Alan Armstrong"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Alan Armstrong",
-          "date": "2026-03-30",
-          "filing_date": "2026-07-21",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-21",
-      "net_flow_score": 1.0,
-      "congress_score": 0.065,
-      "congress_boost": 1.0097
-    },
-    "NSRGY": {
-      "symbol": "NSRGY",
-      "buy_count": 1,
-      "sell_count": 0,
-      "buy_notional_est": 32500.5,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Alan Armstrong"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Alan Armstrong",
-          "date": "2026-03-30",
-          "filing_date": "2026-07-21",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-21",
-      "net_flow_score": 1.0,
-      "congress_score": 0.065,
-      "congress_boost": 1.0097
-    },
-    "NVO": {
-      "symbol": "NVO",
-      "buy_count": 1,
-      "sell_count": 0,
-      "buy_notional_est": 32500.5,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Alan Armstrong"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Alan Armstrong",
-          "date": "2026-03-30",
-          "filing_date": "2026-07-21",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-21",
-      "net_flow_score": 1.0,
-      "congress_score": 0.065,
-      "congress_boost": 1.0097
-    },
-    "RIO": {
-      "symbol": "RIO",
-      "buy_count": 1,
-      "sell_count": 0,
-      "buy_notional_est": 32500.5,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Alan Armstrong"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Alan Armstrong",
-          "date": "2026-03-30",
-          "filing_date": "2026-07-21",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-21",
-      "net_flow_score": 1.0,
-      "congress_score": 0.065,
-      "congress_boost": 1.0097
-    },
-    "RHHBY": {
-      "symbol": "RHHBY",
-      "buy_count": 1,
-      "sell_count": 0,
-      "buy_notional_est": 32500.5,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Alan Armstrong"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Alan Armstrong",
-          "date": "2026-03-30",
-          "filing_date": "2026-07-21",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-21",
-      "net_flow_score": 1.0,
-      "congress_score": 0.065,
-      "congress_boost": 1.0097
-    },
-    "RYCEY": {
-      "symbol": "RYCEY",
-      "buy_count": 1,
-      "sell_count": 0,
-      "buy_notional_est": 32500.5,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Alan Armstrong"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Alan Armstrong",
-          "date": "2026-03-30",
-          "filing_date": "2026-07-21",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-07-21",
-      "net_flow_score": 1.0,
-      "congress_score": 0.065,
-      "congress_boost": 1.0097
     }
   },
   "leaderboard": [
+    {
+      "politician": "Rohit Khanna",
+      "buys": 13,
+      "sells": 14,
+      "unique_symbols": 15,
+      "weight": 1.1,
+      "notable": true
+    },
     {
       "politician": "Thomas H Tuberville",
       "buys": 12,
       "sells": 53,
       "unique_symbols": 43,
       "weight": 1.4,
-      "notable": true
-    },
-    {
-      "politician": "Rohit Khanna",
-      "buys": 7,
-      "sells": 9,
-      "unique_symbols": 14,
-      "weight": 1.1,
       "notable": true
     },
     {
@@ -14798,14 +13554,6 @@
       "notable": true
     },
     {
-      "politician": "Markwayne Mullin",
-      "buys": 0,
-      "sells": 70,
-      "unique_symbols": 60,
-      "weight": 1.2,
-      "notable": true
-    },
-    {
       "politician": "Donald J Trump",
       "buys": 498,
       "sells": 496,
@@ -14814,26 +13562,10 @@
       "notable": false
     },
     {
-      "politician": "Alan Armstrong",
-      "buys": 35,
-      "sells": 2,
-      "unique_symbols": 35,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
       "politician": "April McClain Delaney",
-      "buys": 17,
-      "sells": 38,
+      "buys": 12,
+      "sells": 37,
       "unique_symbols": 33,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "Tony Wied",
-      "buys": 8,
-      "sells": 7,
-      "unique_symbols": 5,
       "weight": 1.0,
       "notable": false
     },
@@ -14842,6 +13574,14 @@
       "buys": 8,
       "sells": 10,
       "unique_symbols": 14,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
+      "politician": "Tony Wied",
+      "buys": 4,
+      "sells": 6,
+      "unique_symbols": 4,
       "weight": 1.0,
       "notable": false
     },
@@ -14870,6 +13610,14 @@
       "notable": false
     },
     {
+      "politician": "Alan Armstrong",
+      "buys": 1,
+      "sells": 0,
+      "unique_symbols": 1,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
       "politician": "Eric M Ueland",
       "buys": 1,
       "sells": 0,
@@ -14887,14 +13635,6 @@
     },
     {
       "politician": "Frank J Bisignano",
-      "buys": 1,
-      "sells": 0,
-      "unique_symbols": 1,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "Debbie Dingell",
       "buys": 1,
       "sells": 0,
       "unique_symbols": 1,
@@ -14936,7 +13676,7 @@
     {
       "politician": "Scott A Kupor",
       "buys": 0,
-      "sells": 9,
+      "sells": 7,
       "unique_symbols": 7,
       "weight": 1.0,
       "notable": false
@@ -15052,17 +13792,163 @@
       "unique_symbols": 1,
       "weight": 1.0,
       "notable": false
-    },
-    {
-      "politician": "Sam T. Liccardo",
-      "buys": 0,
-      "sells": 1,
-      "unique_symbols": 1,
-      "weight": 1.0,
-      "notable": false
     }
   ],
   "notableTrades": [
+    {
+      "id": "house_9116376_g203",
+      "symbol": "HD",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "sell",
+      "transaction_date": "2026-09-25",
+      "filing_date": "2026-10-07",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_9116376_g202",
+      "symbol": "LIN",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "sell",
+      "transaction_date": "2026-09-25",
+      "filing_date": "2026-10-07",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_9116376_g127",
+      "symbol": "PEP",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "buy",
+      "transaction_date": "2026-09-25",
+      "filing_date": "2026-10-07",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_9116376_g125",
+      "symbol": "VZ",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "buy",
+      "transaction_date": "2026-09-25",
+      "filing_date": "2026-10-07",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_9116376_g433",
+      "symbol": "AVGO",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "sell",
+      "transaction_date": "2026-09-23",
+      "filing_date": "2026-10-07",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_9116376_g7",
+      "symbol": "WFC",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "buy",
+      "transaction_date": "2026-09-17",
+      "filing_date": "2026-10-07",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_9116376_g74",
+      "symbol": "WMT",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "sell",
+      "transaction_date": "2026-09-11",
+      "filing_date": "2026-10-07",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_9116376_g73",
+      "symbol": "HD",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "sell",
+      "transaction_date": "2026-09-11",
+      "filing_date": "2026-10-07",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_9116376_g23",
+      "symbol": "TSLA",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "buy",
+      "transaction_date": "2026-09-11",
+      "filing_date": "2026-10-07",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_9116376_g21",
+      "symbol": "PEP",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "buy",
+      "transaction_date": "2026-09-11",
+      "filing_date": "2026-10-07",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_9116376_g19",
+      "symbol": "NEW",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "buy",
+      "transaction_date": "2026-09-11",
+      "filing_date": "2026-10-07",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
     {
       "id": "house_20035455_g4",
       "symbol": "MSFT",
@@ -16265,991 +15151,165 @@
       "amount_mid_usd": 32500.5,
       "amount_label": "$15,001 - $50,000",
       "is_late": true,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t65",
-      "symbol": "V",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t64",
-      "symbol": "VPU",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t63",
-      "symbol": "VLO",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 175000.5,
-      "amount_label": "$100,001 - $250,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t61",
-      "symbol": "UNP",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t60",
-      "symbol": "TJX",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t59",
-      "symbol": "TMO",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t58",
-      "symbol": "SHW",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t53",
-      "symbol": "SPGI",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t52",
-      "symbol": "RTX",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 175000.5,
-      "amount_label": "$100,001 - $250,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t50",
-      "symbol": "PM",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t48",
-      "symbol": "PH",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t47",
-      "symbol": "PANW",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 175000.5,
-      "amount_label": "$100,001 - $250,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t46",
-      "symbol": "OKE",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t45",
-      "symbol": "NVDA",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 750000.5,
-      "amount_label": "$500,001 - $1,000,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t41",
-      "symbol": "META",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 375000.5,
-      "amount_label": "$250,001 - $500,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t36",
-      "symbol": "LLY",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 175000.5,
-      "amount_label": "$100,001 - $250,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t35",
-      "symbol": "LRCX",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 375000.5,
-      "amount_label": "$250,001 - $500,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t34",
-      "symbol": "LHX",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 175000.5,
-      "amount_label": "$100,001 - $250,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t33",
-      "symbol": "KLAC",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 375000.5,
-      "amount_label": "$250,001 - $500,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t31",
-      "symbol": "JPM",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 175000.5,
-      "amount_label": "$100,001 - $250,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t27",
-      "symbol": "ICE",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t25",
-      "symbol": "HLT",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 175000.5,
-      "amount_label": "$100,001 - $250,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t24",
-      "symbol": "GS",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 175000.5,
-      "amount_label": "$100,001 - $250,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t20",
-      "symbol": "EMR",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t18",
-      "symbol": "DE",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t17",
-      "symbol": "COST",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 175000.5,
-      "amount_label": "$100,001 - $250,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t14",
-      "symbol": "COP",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t13",
-      "symbol": "KO",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t11",
-      "symbol": "CVX",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 175000.5,
-      "amount_label": "$100,001 - $250,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t10",
-      "symbol": "CAT",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 175000.5,
-      "amount_label": "$100,001 - $250,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t7",
-      "symbol": "BLK",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t5",
-      "symbol": "AMAT",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 175000.5,
-      "amount_label": "$100,001 - $250,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t4",
-      "symbol": "APPL",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 375000.5,
-      "amount_label": "$250,001 - $500,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t3",
-      "symbol": "AXP",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 175000.5,
-      "amount_label": "$100,001 - $250,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t2",
-      "symbol": "AMZN",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 375000.5,
-      "amount_label": "$250,001 - $500,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t1",
-      "symbol": "GOOGL",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 375000.5,
-      "amount_label": "$250,001 - $500,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t62",
-      "symbol": "UNH",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-05-18",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 175000.5,
-      "amount_label": "$100,001 - $250,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t57",
-      "symbol": "NOW",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-05-18",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t55",
-      "symbol": "CRM",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-05-18",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t51",
-      "symbol": "PG",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-05-18",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t49",
-      "symbol": "PNR",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-05-18",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t43",
-      "symbol": "MSFT",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-05-18",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 750000.5,
-      "amount_label": "$500,001 - $1,000,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t40",
-      "symbol": "MA",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-05-18",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 175000.5,
-      "amount_label": "$100,001 - $250,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t37",
-      "symbol": "LPLA",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-05-18",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t30",
-      "symbol": "IQV",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-05-18",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t28",
-      "symbol": "ISRG",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-05-18",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t26",
-      "symbol": "HD",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-05-18",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t19",
-      "symbol": "ELV",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-05-18",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t9",
-      "symbol": "COF",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-05-18",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 175000.5,
-      "amount_label": "$100,001 - $250,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t8",
-      "symbol": "BSX",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-05-18",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_26_2026-278T_pdf_t21",
-      "symbol": "C",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-04-16",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_26_2026-278T_pdf_t20",
-      "symbol": "ADBE",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-04-16",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_26_2026-278T_pdf_t19",
-      "symbol": "VSEC",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-04-16",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_26_2026-278T_pdf_t18",
-      "symbol": "MPWR",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-04-16",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_26_2026-278T_pdf_t17",
-      "symbol": "MCK",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-04-16",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_26_2026-278T_pdf_t16",
-      "symbol": "LRN",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-04-16",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_26_2026-278T_pdf_t15",
-      "symbol": "FCFS",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-04-16",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_26_2026-278T_pdf_t14",
-      "symbol": "CRS",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-04-16",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_26_2026-278T_pdf_t12",
-      "symbol": "APG",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-04-16",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_26_2026-278T_pdf_t11",
-      "symbol": "AMKR",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-04-16",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_26_2026-278T_pdf_t9",
-      "symbol": "VSEC",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-04-15",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_26_2026-278T_pdf_t8",
-      "symbol": "MPWR",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-04-15",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_26_2026-278T_pdf_t7",
-      "symbol": "MCK",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-04-15",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_26_2026-278T_pdf_t6",
-      "symbol": "LRN",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-04-15",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_26_2026-278T_pdf_t5",
-      "symbol": "FCFS",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-04-15",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_26_2026-278T_pdf_t4",
-      "symbol": "CRS",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-04-15",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_26_2026-278T_pdf_t3",
-      "symbol": "C",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-04-15",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_26_2026-278T_pdf_t2",
-      "symbol": "APG",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-04-15",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_26_2026-278T_pdf_t1",
-      "symbol": "AMKR",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-04-15",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_26_2026-278T_pdf_t0",
-      "symbol": "ADBE",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-04-15",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": false,
       "source": "kadoa_congress_monitor"
     }
   ],
   "watchlistHistory": [
     {
+      "id": "house_9116376_g203",
+      "symbol": "HD",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "sell",
+      "transaction_date": "2026-09-25",
+      "filing_date": "2026-10-07",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_9116376_g202",
+      "symbol": "LIN",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "sell",
+      "transaction_date": "2026-09-25",
+      "filing_date": "2026-10-07",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_9116376_g127",
+      "symbol": "PEP",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "buy",
+      "transaction_date": "2026-09-25",
+      "filing_date": "2026-10-07",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_9116376_g125",
+      "symbol": "VZ",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "buy",
+      "transaction_date": "2026-09-25",
+      "filing_date": "2026-10-07",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_9116376_g433",
+      "symbol": "AVGO",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "sell",
+      "transaction_date": "2026-09-23",
+      "filing_date": "2026-10-07",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_9116376_g7",
+      "symbol": "WFC",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "buy",
+      "transaction_date": "2026-09-17",
+      "filing_date": "2026-10-07",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_9116376_g74",
+      "symbol": "WMT",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "sell",
+      "transaction_date": "2026-09-11",
+      "filing_date": "2026-10-07",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_9116376_g73",
+      "symbol": "HD",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "sell",
+      "transaction_date": "2026-09-11",
+      "filing_date": "2026-10-07",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_9116376_g23",
+      "symbol": "TSLA",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "buy",
+      "transaction_date": "2026-09-11",
+      "filing_date": "2026-10-07",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_9116376_g21",
+      "symbol": "PEP",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "buy",
+      "transaction_date": "2026-09-11",
+      "filing_date": "2026-10-07",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_9116376_g19",
+      "symbol": "NEW",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "buy",
+      "transaction_date": "2026-09-11",
+      "filing_date": "2026-10-07",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
       "id": "house_20035455_g4",
       "symbol": "MSFT",
       "politician": "Josh Gottheimer",
@@ -18451,986 +16511,6 @@
       "amount_mid_usd": 32500.5,
       "amount_label": "$15,001 - $50,000",
       "is_late": true,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t65",
-      "symbol": "V",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t64",
-      "symbol": "VPU",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t63",
-      "symbol": "VLO",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 175000.5,
-      "amount_label": "$100,001 - $250,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t61",
-      "symbol": "UNP",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t60",
-      "symbol": "TJX",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t59",
-      "symbol": "TMO",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t58",
-      "symbol": "SHW",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t53",
-      "symbol": "SPGI",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t52",
-      "symbol": "RTX",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 175000.5,
-      "amount_label": "$100,001 - $250,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t50",
-      "symbol": "PM",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t48",
-      "symbol": "PH",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t47",
-      "symbol": "PANW",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 175000.5,
-      "amount_label": "$100,001 - $250,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t46",
-      "symbol": "OKE",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t45",
-      "symbol": "NVDA",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 750000.5,
-      "amount_label": "$500,001 - $1,000,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t41",
-      "symbol": "META",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 375000.5,
-      "amount_label": "$250,001 - $500,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t36",
-      "symbol": "LLY",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 175000.5,
-      "amount_label": "$100,001 - $250,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t35",
-      "symbol": "LRCX",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 375000.5,
-      "amount_label": "$250,001 - $500,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t34",
-      "symbol": "LHX",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 175000.5,
-      "amount_label": "$100,001 - $250,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t33",
-      "symbol": "KLAC",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 375000.5,
-      "amount_label": "$250,001 - $500,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t31",
-      "symbol": "JPM",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 175000.5,
-      "amount_label": "$100,001 - $250,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t27",
-      "symbol": "ICE",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t25",
-      "symbol": "HLT",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 175000.5,
-      "amount_label": "$100,001 - $250,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t24",
-      "symbol": "GS",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 175000.5,
-      "amount_label": "$100,001 - $250,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t20",
-      "symbol": "EMR",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t18",
-      "symbol": "DE",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t17",
-      "symbol": "COST",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 175000.5,
-      "amount_label": "$100,001 - $250,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t14",
-      "symbol": "COP",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t13",
-      "symbol": "KO",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t11",
-      "symbol": "CVX",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 175000.5,
-      "amount_label": "$100,001 - $250,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t10",
-      "symbol": "CAT",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 175000.5,
-      "amount_label": "$100,001 - $250,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t7",
-      "symbol": "BLK",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t5",
-      "symbol": "AMAT",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 175000.5,
-      "amount_label": "$100,001 - $250,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t4",
-      "symbol": "APPL",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 375000.5,
-      "amount_label": "$250,001 - $500,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t3",
-      "symbol": "AXP",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 175000.5,
-      "amount_label": "$100,001 - $250,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t2",
-      "symbol": "AMZN",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 375000.5,
-      "amount_label": "$250,001 - $500,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t1",
-      "symbol": "GOOGL",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-06-10",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 375000.5,
-      "amount_label": "$250,001 - $500,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t62",
-      "symbol": "UNH",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-05-18",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 175000.5,
-      "amount_label": "$100,001 - $250,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t57",
-      "symbol": "NOW",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-05-18",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t55",
-      "symbol": "CRM",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-05-18",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t51",
-      "symbol": "PG",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-05-18",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t49",
-      "symbol": "PNR",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-05-18",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t43",
-      "symbol": "MSFT",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-05-18",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 750000.5,
-      "amount_label": "$500,001 - $1,000,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t40",
-      "symbol": "MA",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-05-18",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 175000.5,
-      "amount_label": "$100,001 - $250,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t37",
-      "symbol": "LPLA",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-05-18",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t30",
-      "symbol": "IQV",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-05-18",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t28",
-      "symbol": "ISRG",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-05-18",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t26",
-      "symbol": "HD",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-05-18",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t19",
-      "symbol": "ELV",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-05-18",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t9",
-      "symbol": "COF",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-05-18",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 175000.5,
-      "amount_label": "$100,001 - $250,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_24_2026-278T_pdf_t8",
-      "symbol": "BSX",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-05-18",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_26_2026-278T_pdf_t21",
-      "symbol": "C",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-04-16",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_26_2026-278T_pdf_t20",
-      "symbol": "ADBE",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-04-16",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_26_2026-278T_pdf_t19",
-      "symbol": "VSEC",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-04-16",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_26_2026-278T_pdf_t18",
-      "symbol": "MPWR",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-04-16",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_26_2026-278T_pdf_t17",
-      "symbol": "MCK",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-04-16",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_26_2026-278T_pdf_t16",
-      "symbol": "LRN",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-04-16",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_26_2026-278T_pdf_t15",
-      "symbol": "FCFS",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-04-16",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_26_2026-278T_pdf_t14",
-      "symbol": "CRS",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-04-16",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_26_2026-278T_pdf_t12",
-      "symbol": "APG",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-04-16",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_26_2026-278T_pdf_t11",
-      "symbol": "AMKR",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-04-16",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_26_2026-278T_pdf_t9",
-      "symbol": "VSEC",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-04-15",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_26_2026-278T_pdf_t8",
-      "symbol": "MPWR",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-04-15",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_26_2026-278T_pdf_t7",
-      "symbol": "MCK",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-04-15",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_26_2026-278T_pdf_t6",
-      "symbol": "LRN",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-04-15",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_26_2026-278T_pdf_t5",
-      "symbol": "FCFS",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-04-15",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_26_2026-278T_pdf_t4",
-      "symbol": "CRS",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-04-15",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_26_2026-278T_pdf_t3",
-      "symbol": "C",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-04-15",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_26_2026-278T_pdf_t2",
-      "symbol": "APG",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-04-15",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_26_2026-278T_pdf_t1",
-      "symbol": "AMKR",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-04-15",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Markwayne-Mullin-06_26_2026-278T_pdf_t0",
-      "symbol": "ADBE",
-      "politician": "Markwayne Mullin",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-04-15",
-      "filing_date": "2026-07-25",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": false,
       "source": "kadoa_congress_monitor"
     }
   ]

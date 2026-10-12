@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-10-09T10:20:05Z",
+  "generatedAt": "2026-10-12T10:24:13Z",
   "leaderboard": [
+    {
+      "politician": "Rohit Khanna",
+      "buys": 13,
+      "sells": 14,
+      "unique_symbols": 15,
+      "weight": 1.1,
+      "notable": true
+    },
     {
       "politician": "Thomas H Tuberville",
       "buys": 12,
       "sells": 53,
       "unique_symbols": 43,
       "weight": 1.4,
-      "notable": true
-    },
-    {
-      "politician": "Rohit Khanna",
-      "buys": 7,
-      "sells": 9,
-      "unique_symbols": 14,
-      "weight": 1.1,
       "notable": true
     },
     {
@@ -34,14 +34,6 @@
       "notable": true
     },
     {
-      "politician": "Markwayne Mullin",
-      "buys": 0,
-      "sells": 70,
-      "unique_symbols": 60,
-      "weight": 1.2,
-      "notable": true
-    },
-    {
       "politician": "Donald J Trump",
       "buys": 498,
       "sells": 496,
@@ -50,26 +42,10 @@
       "notable": false
     },
     {
-      "politician": "Alan Armstrong",
-      "buys": 35,
-      "sells": 2,
-      "unique_symbols": 35,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
       "politician": "April McClain Delaney",
-      "buys": 17,
-      "sells": 38,
+      "buys": 12,
+      "sells": 37,
       "unique_symbols": 33,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "Tony Wied",
-      "buys": 8,
-      "sells": 7,
-      "unique_symbols": 5,
       "weight": 1.0,
       "notable": false
     },
@@ -78,6 +54,14 @@
       "buys": 8,
       "sells": 10,
       "unique_symbols": 14,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
+      "politician": "Tony Wied",
+      "buys": 4,
+      "sells": 6,
+      "unique_symbols": 4,
       "weight": 1.0,
       "notable": false
     },
@@ -106,6 +90,14 @@
       "notable": false
     },
     {
+      "politician": "Alan Armstrong",
+      "buys": 1,
+      "sells": 0,
+      "unique_symbols": 1,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
       "politician": "Eric M Ueland",
       "buys": 1,
       "sells": 0,
@@ -123,14 +115,6 @@
     },
     {
       "politician": "Frank J Bisignano",
-      "buys": 1,
-      "sells": 0,
-      "unique_symbols": 1,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "Debbie Dingell",
       "buys": 1,
       "sells": 0,
       "unique_symbols": 1,
@@ -172,7 +156,7 @@
     {
       "politician": "Scott A Kupor",
       "buys": 0,
-      "sells": 9,
+      "sells": 7,
       "unique_symbols": 7,
       "weight": 1.0,
       "notable": false
@@ -283,14 +267,6 @@
     },
     {
       "politician": "Shelley M Capito",
-      "buys": 0,
-      "sells": 1,
-      "unique_symbols": 1,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "Sam T. Liccardo",
       "buys": 0,
       "sells": 1,
       "unique_symbols": 1,
