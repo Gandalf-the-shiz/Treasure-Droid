@@ -1,6 +1,6 @@
 {
   "date": "2026-10-09",
-  "generatedAt": "2026-10-13T09:46:40Z",
+  "generatedAt": "2026-10-14T09:41:31Z",
   "fredApiAvailable": false,
   "series": {
     "DFF": 3.88,
@@ -11,7 +11,7 @@
     "SP500": 7811.54,
     "M2SL": 23342.8,
     "T10Y3M": 0.99,
-    "BAMLH0A0HYM2": 3.15,
+    "BAMLH0A0HYM2": 3.11,
     "UNRATE": 4.2,
     "CPIAUCSL": 334.131,
     "INDPRO": 103.0682
@@ -38,7 +38,7 @@
     "macro_sentiment_norm": 0.0283,
     "macro_claims_norm": 0.8956,
     "macro_t10y3m_norm": 0.7475,
-    "macro_hy_oas_norm": 0.1437,
+    "macro_hy_oas_norm": 0.1387,
     "macro_unrate_norm": 0.8286,
     "macro_cpi_norm": 0.8413,
     "macro_indpro_norm": 0.6534,
