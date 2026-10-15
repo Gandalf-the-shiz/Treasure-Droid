@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-10-14T01:38:18Z",
+  "generatedAt": "2026-10-15T01:43:44Z",
   "status": "degraded",
   "reasons": [
     "drawdown_above_threshold",
     "recent_window_return_below_threshold"
   ],
   "metrics": {
-    "daysProcessed": 46,
+    "daysProcessed": 47,
     "tradeCount": 165,
     "totalReturnPct": 9.5102,
     "maxDrawdownPct": 11.2449,
-    "onlineLearningDelta": 0.0234,
+    "onlineLearningDelta": 0.0375,
     "recentWindow": {
       "windowDays": 20,
       "returnPct": -0.741,
