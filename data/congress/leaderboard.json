@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T10:18:54Z",
+  "generatedAt": "2026-10-15T10:18:41Z",
   "leaderboard": [
     {
       "politician": "Rohit Khanna",
@@ -11,9 +11,9 @@
     },
     {
       "politician": "Thomas H Tuberville",
-      "buys": 12,
-      "sells": 53,
-      "unique_symbols": 43,
+      "buys": 9,
+      "sells": 50,
+      "unique_symbols": 42,
       "weight": 1.4,
       "notable": true
     },
@@ -42,18 +42,18 @@
       "notable": false
     },
     {
-      "politician": "April McClain Delaney",
-      "buys": 12,
-      "sells": 37,
-      "unique_symbols": 33,
+      "politician": "Gilbert Cisneros",
+      "buys": 11,
+      "sells": 15,
+      "unique_symbols": 21,
       "weight": 1.0,
       "notable": false
     },
     {
-      "politician": "Gilbert Cisneros",
-      "buys": 8,
-      "sells": 10,
-      "unique_symbols": 14,
+      "politician": "April McClain Delaney",
+      "buys": 5,
+      "sells": 36,
+      "unique_symbols": 33,
       "weight": 1.0,
       "notable": false
     },
@@ -61,6 +61,14 @@
       "politician": "Tony Wied",
       "buys": 4,
       "sells": 6,
+      "unique_symbols": 4,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
+      "politician": "Lisa McClain",
+      "buys": 3,
+      "sells": 1,
       "unique_symbols": 4,
       "weight": 1.0,
       "notable": false
@@ -259,14 +267,6 @@
     },
     {
       "politician": "Christian D. Menefee",
-      "buys": 0,
-      "sells": 1,
-      "unique_symbols": 1,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "Shelley M Capito",
       "buys": 0,
       "sells": 1,
       "unique_symbols": 1,

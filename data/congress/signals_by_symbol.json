@@ -1,9 +1,253 @@
 {
-  "generatedAt": "2026-10-14T10:18:54Z",
+  "generatedAt": "2026-10-15T10:18:41Z",
   "windowDays": 90,
-  "tradeCount": 1268,
-  "symbolCount": 546,
+  "tradeCount": 1265,
+  "symbolCount": 554,
   "bySymbol": {
+    "BHE": {
+      "symbol": "BHE",
+      "buy_count": 1,
+      "sell_count": 0,
+      "buy_notional_est": 32500.5,
+      "sell_notional_est": 0.0,
+      "politicians": [
+        "Gilbert Cisneros"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [
+        {
+          "politician": "Gilbert Cisneros",
+          "date": "2026-10-01",
+          "filing_date": "2026-10-12",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-10-12",
+      "net_flow_score": 1.0,
+      "congress_score": 0.065,
+      "congress_boost": 1.0097
+    },
+    "STX": {
+      "symbol": "STX",
+      "buy_count": 0,
+      "sell_count": 1,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 32500.5,
+      "politicians": [
+        "Lisa McClain"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-10-12",
+      "net_flow_score": -1.0,
+      "congress_score": -0.065,
+      "congress_boost": 0.9902
+    },
+    "MTSI": {
+      "symbol": "MTSI",
+      "buy_count": 0,
+      "sell_count": 1,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 32500.5,
+      "politicians": [
+        "Gilbert Cisneros"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-10-12",
+      "net_flow_score": -1.0,
+      "congress_score": -0.065,
+      "congress_boost": 0.9902
+    },
+    "ITT": {
+      "symbol": "ITT",
+      "buy_count": 0,
+      "sell_count": 3,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 440001.5,
+      "politicians": [
+        "Gilbert Cisneros",
+        "April McClain Delaney"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-10-12",
+      "net_flow_score": -1.0,
+      "congress_score": -0.88,
+      "congress_boost": 0.868
+    },
+    "ON": {
+      "symbol": "ON",
+      "buy_count": 1,
+      "sell_count": 0,
+      "buy_notional_est": 32500.5,
+      "sell_notional_est": 0.0,
+      "politicians": [
+        "Gilbert Cisneros"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [
+        {
+          "politician": "Gilbert Cisneros",
+          "date": "2026-09-28",
+          "filing_date": "2026-10-12",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-10-12",
+      "net_flow_score": 1.0,
+      "congress_score": 0.065,
+      "congress_boost": 1.0097
+    },
+    "RBC": {
+      "symbol": "RBC",
+      "buy_count": 0,
+      "sell_count": 1,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 32500.5,
+      "politicians": [
+        "Gilbert Cisneros"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-10-12",
+      "net_flow_score": -1.0,
+      "congress_score": -0.065,
+      "congress_boost": 0.9902
+    },
+    "RIG": {
+      "symbol": "RIG",
+      "buy_count": 1,
+      "sell_count": 0,
+      "buy_notional_est": 32500.5,
+      "sell_notional_est": 0.0,
+      "politicians": [
+        "Lisa McClain"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [
+        {
+          "politician": "Lisa McClain",
+          "date": "2026-09-14",
+          "filing_date": "2026-10-12",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-10-12",
+      "net_flow_score": 1.0,
+      "congress_score": 0.065,
+      "congress_boost": 1.0097
+    },
+    "OLN": {
+      "symbol": "OLN",
+      "buy_count": 1,
+      "sell_count": 0,
+      "buy_notional_est": 32500.5,
+      "sell_notional_est": 0.0,
+      "politicians": [
+        "Lisa McClain"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [
+        {
+          "politician": "Lisa McClain",
+          "date": "2026-09-14",
+          "filing_date": "2026-10-12",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-10-12",
+      "net_flow_score": 1.0,
+      "congress_score": 0.065,
+      "congress_boost": 1.0097
+    },
+    "CACI": {
+      "symbol": "CACI",
+      "buy_count": 1,
+      "sell_count": 0,
+      "buy_notional_est": 32500.5,
+      "sell_notional_est": 0.0,
+      "politicians": [
+        "Lisa McClain"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [
+        {
+          "politician": "Lisa McClain",
+          "date": "2026-09-14",
+          "filing_date": "2026-10-12",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-10-12",
+      "net_flow_score": 1.0,
+      "congress_score": 0.065,
+      "congress_boost": 1.0097
+    },
+    "RVTY": {
+      "symbol": "RVTY",
+      "buy_count": 0,
+      "sell_count": 1,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 32500.5,
+      "politicians": [
+        "Gilbert Cisneros"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-10-12",
+      "net_flow_score": -1.0,
+      "congress_score": -0.065,
+      "congress_boost": 0.9902
+    },
+    "NXPI": {
+      "symbol": "NXPI",
+      "buy_count": 2,
+      "sell_count": 0,
+      "buy_notional_est": 65001.0,
+      "sell_notional_est": 0.0,
+      "politicians": [
+        "Gilbert Cisneros",
+        "Donald J Trump"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [
+        {
+          "politician": "Gilbert Cisneros",
+          "date": "2026-09-09",
+          "filing_date": "2026-10-12",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-08-28",
+          "filing_date": "2026-10-08",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-10-12",
+      "net_flow_score": 1.0,
+      "congress_score": 0.13,
+      "congress_boost": 1.0195
+    },
     "AGX": {
       "symbol": "AGX",
       "buy_count": 2,
@@ -1874,31 +2118,6 @@
       "congress_score": 0.065,
       "congress_boost": 1.0097
     },
-    "NXPI": {
-      "symbol": "NXPI",
-      "buy_count": 1,
-      "sell_count": 0,
-      "buy_notional_est": 32500.5,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Donald J Trump"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-08-28",
-          "filing_date": "2026-10-08",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-10-08",
-      "net_flow_score": 1.0,
-      "congress_score": 0.065,
-      "congress_boost": 1.0097
-    },
     "AZO": {
       "symbol": "AZO",
       "buy_count": 3,
@@ -2364,9 +2583,9 @@
     "MSFT": {
       "symbol": "MSFT",
       "buy_count": 15,
-      "sell_count": 15,
+      "sell_count": 14,
       "buy_notional_est": 5838257.75,
-      "sell_notional_est": 20105258.499999996,
+      "sell_notional_est": 20072757.999999996,
       "politicians": [
         "Donald J Trump",
         "Josh Gottheimer",
@@ -2375,8 +2594,7 @@
         "Rohit Khanna",
         "Kevin Hern",
         "David J. Taylor",
-        "Thomas H Tuberville",
-        "Shelley M Capito"
+        "Thomas H Tuberville"
       ],
       "notable_politicians": [
         "Josh Gottheimer",
@@ -2422,9 +2640,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-10-08",
-      "net_flow_score": 0.0,
-      "congress_score": -27.034,
-      "congress_boost": -3.0551
+      "net_flow_score": 0.0345,
+      "congress_score": -26.969,
+      "congress_boost": -3.0454
     },
     "CMCSA": {
       "symbol": "CMCSA",
@@ -5601,9 +5819,9 @@
     "AAPL": {
       "symbol": "AAPL",
       "buy_count": 2,
-      "sell_count": 10,
+      "sell_count": 9,
       "buy_notional_est": 65001.0,
-      "sell_notional_est": 803006.3999999997,
+      "sell_notional_est": 757505.6999999997,
       "politicians": [
         "Pete Sessions",
         "Donald J Trump",
@@ -5631,9 +5849,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-09-22",
-      "net_flow_score": -0.6667,
-      "congress_score": -0.976,
-      "congress_boost": 0.8536
+      "net_flow_score": -0.6364,
+      "congress_score": -0.885,
+      "congress_boost": 0.8672
     },
     "BNS": {
       "symbol": "BNS",
@@ -6986,9 +7204,9 @@
     "QCOM": {
       "symbol": "QCOM",
       "buy_count": 2,
-      "sell_count": 4,
+      "sell_count": 3,
       "buy_notional_est": 65001.0,
-      "sell_notional_est": 156002.4,
+      "sell_notional_est": 110501.7,
       "politicians": [
         "Donald J Trump",
         "Thomas H Tuberville"
@@ -7014,9 +7232,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-09-22",
-      "net_flow_score": -0.3333,
-      "congress_score": 0.318,
-      "congress_boost": 1.0477
+      "net_flow_score": -0.2,
+      "congress_score": 0.409,
+      "congress_boost": 1.0614
     },
     "ADP": {
       "symbol": "ADP",
@@ -10592,9 +10810,9 @@
     "TSCO": {
       "symbol": "TSCO",
       "buy_count": 0,
-      "sell_count": 3,
+      "sell_count": 2,
       "buy_notional_est": 0.0,
-      "sell_notional_est": 110501.7,
+      "sell_notional_est": 78001.2,
       "politicians": [
         "April McClain Delaney",
         "Thomas H Tuberville"
@@ -10606,8 +10824,8 @@
       "pelosi_buy": false,
       "last_filing_date": "2026-09-09",
       "net_flow_score": -1.0,
-      "congress_score": 0.279,
-      "congress_boost": 1.0418
+      "congress_score": 0.344,
+      "congress_boost": 1.0516
     },
     "MIDD": {
       "symbol": "MIDD",
@@ -10645,28 +10863,20 @@
     },
     "SGI": {
       "symbol": "SGI",
-      "buy_count": 1,
+      "buy_count": 0,
       "sell_count": 1,
-      "buy_notional_est": 32500.5,
+      "buy_notional_est": 0.0,
       "sell_notional_est": 175000.5,
       "politicians": [
         "April McClain Delaney"
       ],
       "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "April McClain Delaney",
-          "date": "2026-07-30",
-          "filing_date": "2026-08-03",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
+      "recent_buys": [],
       "pelosi_buy": false,
       "last_filing_date": "2026-09-09",
-      "net_flow_score": 0.0,
-      "congress_score": -0.285,
-      "congress_boost": 0.9573
+      "net_flow_score": -1.0,
+      "congress_score": -0.35,
+      "congress_boost": 0.9475
     },
     "SIG": {
       "symbol": "SIG",
@@ -10739,29 +10949,21 @@
     },
     "MLM": {
       "symbol": "MLM",
-      "buy_count": 1,
+      "buy_count": 0,
       "sell_count": 2,
-      "buy_notional_est": 32500.5,
+      "buy_notional_est": 0.0,
       "sell_notional_est": 407501.0,
       "politicians": [
         "April McClain Delaney",
         "Donald J Trump"
       ],
       "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "April McClain Delaney",
-          "date": "2026-07-24",
-          "filing_date": "2026-08-03",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
+      "recent_buys": [],
       "pelosi_buy": false,
       "last_filing_date": "2026-09-09",
-      "net_flow_score": -0.3333,
-      "congress_score": -0.75,
-      "congress_boost": 0.8875
+      "net_flow_score": -1.0,
+      "congress_score": -0.815,
+      "congress_boost": 0.8778
     },
     "LYV": {
       "symbol": "LYV",
@@ -10782,9 +10984,9 @@
     },
     "LTH": {
       "symbol": "LTH",
-      "buy_count": 2,
+      "buy_count": 1,
       "sell_count": 1,
-      "buy_notional_est": 65001.0,
+      "buy_notional_est": 32500.5,
       "sell_notional_est": 175000.5,
       "politicians": [
         "April McClain Delaney"
@@ -10797,26 +10999,19 @@
           "filing_date": "2026-09-09",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
-        },
-        {
-          "politician": "April McClain Delaney",
-          "date": "2026-07-31",
-          "filing_date": "2026-08-03",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
         }
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-09-09",
-      "net_flow_score": 0.3333,
-      "congress_score": -0.22,
-      "congress_boost": 0.967
+      "net_flow_score": 0.0,
+      "congress_score": -0.285,
+      "congress_boost": 0.9573
     },
     "FWONK": {
       "symbol": "FWONK",
-      "buy_count": 4,
+      "buy_count": 2,
       "sell_count": 1,
-      "buy_notional_est": 130002.0,
+      "buy_notional_est": 65001.0,
       "sell_notional_est": 175000.5,
       "politicians": [
         "April McClain Delaney"
@@ -10836,27 +11031,13 @@
           "filing_date": "2026-09-09",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
-        },
-        {
-          "politician": "April McClain Delaney",
-          "date": "2026-07-31",
-          "filing_date": "2026-08-03",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "April McClain Delaney",
-          "date": "2026-07-28",
-          "filing_date": "2026-08-03",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
         }
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-09-09",
-      "net_flow_score": 0.6,
-      "congress_score": -0.09,
-      "congress_boost": 0.9865
+      "net_flow_score": 0.3333,
+      "congress_score": -0.22,
+      "congress_boost": 0.967
     },
     "LH": {
       "symbol": "LH",
@@ -10874,23 +11055,6 @@
       "net_flow_score": -1.0,
       "congress_score": -0.35,
       "congress_boost": 0.9475
-    },
-    "ITT": {
-      "symbol": "ITT",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 375000.5,
-      "politicians": [
-        "April McClain Delaney"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-09-09",
-      "net_flow_score": -1.0,
-      "congress_score": -0.75,
-      "congress_boost": 0.8875
     },
     "ENTG": {
       "symbol": "ENTG",
@@ -10928,9 +11092,9 @@
     },
     "CHRW": {
       "symbol": "CHRW",
-      "buy_count": 3,
+      "buy_count": 1,
       "sell_count": 1,
-      "buy_notional_est": 97501.5,
+      "buy_notional_est": 32500.5,
       "sell_notional_est": 175000.5,
       "politicians": [
         "April McClain Delaney"
@@ -10943,27 +11107,13 @@
           "filing_date": "2026-09-09",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
-        },
-        {
-          "politician": "April McClain Delaney",
-          "date": "2026-07-31",
-          "filing_date": "2026-08-03",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "April McClain Delaney",
-          "date": "2026-07-27",
-          "filing_date": "2026-08-03",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
         }
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-09-09",
-      "net_flow_score": 0.5,
-      "congress_score": -0.155,
-      "congress_boost": 0.9768
+      "net_flow_score": 0.0,
+      "congress_score": -0.285,
+      "congress_boost": 0.9573
     },
     "BWXT": {
       "symbol": "BWXT",
@@ -13216,9 +13366,9 @@
     "CSX": {
       "symbol": "CSX",
       "buy_count": 0,
-      "sell_count": 2,
+      "sell_count": 1,
       "buy_notional_est": 0.0,
-      "sell_notional_est": 91001.4,
+      "sell_notional_est": 45500.7,
       "politicians": [
         "Thomas H Tuberville"
       ],
@@ -13229,8 +13379,8 @@
       "pelosi_buy": false,
       "last_filing_date": "2026-08-05",
       "net_flow_score": -1.0,
-      "congress_score": 0.318,
-      "congress_boost": 1.0477
+      "congress_score": 0.409,
+      "congress_boost": 1.0614
     },
     "USIG": {
       "symbol": "USIG",
@@ -13383,9 +13533,9 @@
     },
     "PARA": {
       "symbol": "PARA",
-      "buy_count": 1,
+      "buy_count": 0,
       "sell_count": 1,
-      "buy_notional_est": 45500.7,
+      "buy_notional_est": 0.0,
       "sell_notional_est": 245000.69999999998,
       "politicians": [
         "Thomas H Tuberville"
@@ -13393,20 +13543,12 @@
       "notable_politicians": [
         "Thomas H Tuberville"
       ],
-      "recent_buys": [
-        {
-          "politician": "Thomas H Tuberville",
-          "date": "2024-03-21",
-          "filing_date": "2026-08-05",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.4
-        }
-      ],
+      "recent_buys": [],
       "pelosi_buy": false,
       "last_filing_date": "2026-08-05",
-      "net_flow_score": 0.0,
-      "congress_score": 0.101,
-      "congress_boost": 1.0151
+      "net_flow_score": -1.0,
+      "congress_score": 0.01,
+      "congress_boost": 1.0015
     },
     "GOLD": {
       "symbol": "GOLD",
@@ -13467,9 +13609,9 @@
     },
     "HUMA": {
       "symbol": "HUMA",
-      "buy_count": 1,
+      "buy_count": 0,
       "sell_count": 1,
-      "buy_notional_est": 45500.7,
+      "buy_notional_est": 0.0,
       "sell_notional_est": 45500.7,
       "politicians": [
         "Thomas H Tuberville"
@@ -13477,47 +13619,12 @@
       "notable_politicians": [
         "Thomas H Tuberville"
       ],
-      "recent_buys": [
-        {
-          "politician": "Thomas H Tuberville",
-          "date": "2024-03-21",
-          "filing_date": "2026-08-05",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.4
-        }
-      ],
+      "recent_buys": [],
       "pelosi_buy": false,
       "last_filing_date": "2026-08-05",
-      "net_flow_score": 0.0,
-      "congress_score": 0.5,
-      "congress_boost": 1.075
-    },
-    "WBA": {
-      "symbol": "WBA",
-      "buy_count": 1,
-      "sell_count": 0,
-      "buy_notional_est": 45500.7,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Thomas H Tuberville"
-      ],
-      "notable_politicians": [
-        "Thomas H Tuberville"
-      ],
-      "recent_buys": [
-        {
-          "politician": "Thomas H Tuberville",
-          "date": "2024-03-21",
-          "filing_date": "2026-08-05",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.4
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-08-05",
-      "net_flow_score": 1.0,
-      "congress_score": 0.591,
-      "congress_boost": 1.0886
+      "net_flow_score": -1.0,
+      "congress_score": 0.409,
+      "congress_boost": 1.0614
     }
   },
   "leaderboard": [
@@ -13531,9 +13638,9 @@
     },
     {
       "politician": "Thomas H Tuberville",
-      "buys": 12,
-      "sells": 53,
-      "unique_symbols": 43,
+      "buys": 9,
+      "sells": 50,
+      "unique_symbols": 42,
       "weight": 1.4,
       "notable": true
     },
@@ -13562,18 +13669,18 @@
       "notable": false
     },
     {
-      "politician": "April McClain Delaney",
-      "buys": 12,
-      "sells": 37,
-      "unique_symbols": 33,
+      "politician": "Gilbert Cisneros",
+      "buys": 11,
+      "sells": 15,
+      "unique_symbols": 21,
       "weight": 1.0,
       "notable": false
     },
     {
-      "politician": "Gilbert Cisneros",
-      "buys": 8,
-      "sells": 10,
-      "unique_symbols": 14,
+      "politician": "April McClain Delaney",
+      "buys": 5,
+      "sells": 36,
+      "unique_symbols": 33,
       "weight": 1.0,
       "notable": false
     },
@@ -13581,6 +13688,14 @@
       "politician": "Tony Wied",
       "buys": 4,
       "sells": 6,
+      "unique_symbols": 4,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
+      "politician": "Lisa McClain",
+      "buys": 3,
+      "sells": 1,
       "unique_symbols": 4,
       "weight": 1.0,
       "notable": false
@@ -13779,14 +13894,6 @@
     },
     {
       "politician": "Christian D. Menefee",
-      "buys": 0,
-      "sells": 1,
-      "unique_symbols": 1,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "Shelley M Capito",
       "buys": 0,
       "sells": 1,
       "unique_symbols": 1,
@@ -15068,90 +15175,6 @@
       "amount_label": "$15,001 - $50,000",
       "is_late": true,
       "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "senate_548cacbf-7cf2-42cb-9f23-71250938caae_t5",
-      "symbol": "HUMA",
-      "politician": "Thomas H Tuberville",
-      "chamber": "senate",
-      "party": "R",
-      "side": "buy",
-      "transaction_date": "2024-03-21",
-      "filing_date": "2026-08-05",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": true,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "senate_548cacbf-7cf2-42cb-9f23-71250938caae_t1",
-      "symbol": "PARA",
-      "politician": "Thomas H Tuberville",
-      "chamber": "senate",
-      "party": "R",
-      "side": "buy",
-      "transaction_date": "2024-03-21",
-      "filing_date": "2026-08-05",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": true,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "senate_548cacbf-7cf2-42cb-9f23-71250938caae_t0",
-      "symbol": "WBA",
-      "politician": "Thomas H Tuberville",
-      "chamber": "senate",
-      "party": "R",
-      "side": "buy",
-      "transaction_date": "2024-03-21",
-      "filing_date": "2026-08-05",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": true,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "senate_548cacbf-7cf2-42cb-9f23-71250938caae_t6",
-      "symbol": "QCOM",
-      "politician": "Thomas H Tuberville",
-      "chamber": "senate",
-      "party": "R",
-      "side": "sell",
-      "transaction_date": "2024-03-13",
-      "filing_date": "2026-08-05",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": true,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "senate_548cacbf-7cf2-42cb-9f23-71250938caae_t12",
-      "symbol": "CSX",
-      "politician": "Thomas H Tuberville",
-      "chamber": "senate",
-      "party": "R",
-      "side": "sell",
-      "transaction_date": "2024-03-12",
-      "filing_date": "2026-08-05",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": true,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "senate_548cacbf-7cf2-42cb-9f23-71250938caae_t10",
-      "symbol": "AAPL",
-      "politician": "Thomas H Tuberville",
-      "chamber": "senate",
-      "party": "R",
-      "side": "sell",
-      "transaction_date": "2024-03-12",
-      "filing_date": "2026-08-05",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": true,
-      "source": "kadoa_congress_monitor"
     }
   ],
   "watchlistHistory": [
@@ -16423,90 +16446,6 @@
       "party": "R",
       "side": "sell",
       "transaction_date": "2024-05-03",
-      "filing_date": "2026-08-05",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": true,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "senate_548cacbf-7cf2-42cb-9f23-71250938caae_t5",
-      "symbol": "HUMA",
-      "politician": "Thomas H Tuberville",
-      "chamber": "senate",
-      "party": "R",
-      "side": "buy",
-      "transaction_date": "2024-03-21",
-      "filing_date": "2026-08-05",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": true,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "senate_548cacbf-7cf2-42cb-9f23-71250938caae_t1",
-      "symbol": "PARA",
-      "politician": "Thomas H Tuberville",
-      "chamber": "senate",
-      "party": "R",
-      "side": "buy",
-      "transaction_date": "2024-03-21",
-      "filing_date": "2026-08-05",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": true,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "senate_548cacbf-7cf2-42cb-9f23-71250938caae_t0",
-      "symbol": "WBA",
-      "politician": "Thomas H Tuberville",
-      "chamber": "senate",
-      "party": "R",
-      "side": "buy",
-      "transaction_date": "2024-03-21",
-      "filing_date": "2026-08-05",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": true,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "senate_548cacbf-7cf2-42cb-9f23-71250938caae_t6",
-      "symbol": "QCOM",
-      "politician": "Thomas H Tuberville",
-      "chamber": "senate",
-      "party": "R",
-      "side": "sell",
-      "transaction_date": "2024-03-13",
-      "filing_date": "2026-08-05",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": true,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "senate_548cacbf-7cf2-42cb-9f23-71250938caae_t12",
-      "symbol": "CSX",
-      "politician": "Thomas H Tuberville",
-      "chamber": "senate",
-      "party": "R",
-      "side": "sell",
-      "transaction_date": "2024-03-12",
-      "filing_date": "2026-08-05",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": true,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "senate_548cacbf-7cf2-42cb-9f23-71250938caae_t10",
-      "symbol": "AAPL",
-      "politician": "Thomas H Tuberville",
-      "chamber": "senate",
-      "party": "R",
-      "side": "sell",
-      "transaction_date": "2024-03-12",
       "filing_date": "2026-08-05",
       "amount_mid_usd": 32500.5,
       "amount_label": "$15,001 - $50,000",
