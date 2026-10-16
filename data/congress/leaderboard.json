@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T10:18:41Z",
+  "generatedAt": "2026-10-16T10:18:40Z",
   "leaderboard": [
     {
       "politician": "Rohit Khanna",
@@ -12,8 +12,8 @@
     {
       "politician": "Thomas H Tuberville",
       "buys": 9,
-      "sells": 50,
-      "unique_symbols": 42,
+      "sells": 47,
+      "unique_symbols": 40,
       "weight": 1.4,
       "notable": true
     },
@@ -130,18 +130,18 @@
       "notable": false
     },
     {
-      "politician": "Sheldon Whitehouse",
+      "politician": "Kevin Hern",
       "buys": 0,
-      "sells": 1,
-      "unique_symbols": 1,
+      "sells": 70,
+      "unique_symbols": 39,
       "weight": 1.0,
       "notable": false
     },
     {
-      "politician": "Kevin Hern",
+      "politician": "Sheldon Whitehouse",
       "buys": 0,
-      "sells": 57,
-      "unique_symbols": 37,
+      "sells": 1,
+      "unique_symbols": 1,
       "weight": 1.0,
       "notable": false
     },

@@ -1,9 +1,267 @@
 {
-  "generatedAt": "2026-10-15T10:18:41Z",
+  "generatedAt": "2026-10-16T10:18:40Z",
   "windowDays": 90,
-  "tradeCount": 1265,
-  "symbolCount": 554,
+  "tradeCount": 1275,
+  "symbolCount": 553,
   "bySymbol": {
+    "NEE": {
+      "symbol": "NEE",
+      "buy_count": 0,
+      "sell_count": 3,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 97501.5,
+      "politicians": [
+        "Kevin Hern",
+        "Donald J Trump"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-10-13",
+      "net_flow_score": -1.0,
+      "congress_score": -0.195,
+      "congress_boost": 0.9708
+    },
+    "AIO": {
+      "symbol": "AIO",
+      "buy_count": 0,
+      "sell_count": 3,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 97501.5,
+      "politicians": [
+        "Kevin Hern"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-10-13",
+      "net_flow_score": -1.0,
+      "congress_score": -0.195,
+      "congress_boost": 0.9708
+    },
+    "UNH": {
+      "symbol": "UNH",
+      "buy_count": 1,
+      "sell_count": 3,
+      "buy_notional_est": 175000.5,
+      "sell_notional_est": 240001.5,
+      "politicians": [
+        "Kevin Hern",
+        "Donald J Trump"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-07-31",
+          "filing_date": "2026-09-22",
+          "amount_label": "$100,001 - $250,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-10-13",
+      "net_flow_score": -0.5,
+      "congress_score": -0.13,
+      "congress_boost": 0.9805
+    },
+    "SBUX": {
+      "symbol": "SBUX",
+      "buy_count": 0,
+      "sell_count": 2,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 65001.0,
+      "politicians": [
+        "Kevin Hern",
+        "Donald J Trump"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-10-13",
+      "net_flow_score": -1.0,
+      "congress_score": -0.13,
+      "congress_boost": 0.9805
+    },
+    "MRSH": {
+      "symbol": "MRSH",
+      "buy_count": 0,
+      "sell_count": 3,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 325001.5,
+      "politicians": [
+        "Kevin Hern"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-10-13",
+      "net_flow_score": -1.0,
+      "congress_score": -0.65,
+      "congress_boost": 0.9025
+    },
+    "LMT": {
+      "symbol": "LMT",
+      "buy_count": 0,
+      "sell_count": 5,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 305002.5,
+      "politicians": [
+        "Kevin Hern",
+        "Donald J Trump"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-10-13",
+      "net_flow_score": -1.0,
+      "congress_score": -0.61,
+      "congress_boost": 0.9085
+    },
+    "DVN": {
+      "symbol": "DVN",
+      "buy_count": 0,
+      "sell_count": 5,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 447502.5,
+      "politicians": [
+        "Kevin Hern"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-10-13",
+      "net_flow_score": -1.0,
+      "congress_score": -0.895,
+      "congress_boost": 0.8658
+    },
+    "CVX": {
+      "symbol": "CVX",
+      "buy_count": 3,
+      "sell_count": 2,
+      "buy_notional_est": 3107501.5,
+      "sell_notional_est": 65001.0,
+      "politicians": [
+        "Kevin Hern",
+        "Donald J Trump"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [
+        {
+          "politician": "Donald J Trump",
+          "date": "2024-08-26",
+          "filing_date": "2026-10-08",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2024-08-21",
+          "filing_date": "2026-10-08",
+          "amount_label": "$1,000,001 - $5,000,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-06-15",
+          "filing_date": "2026-08-22",
+          "amount_label": "$50,001 - $100,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-10-13",
+      "net_flow_score": 0.2,
+      "congress_score": 1.0,
+      "congress_boost": 1.15
+    },
+    "ROK": {
+      "symbol": "ROK",
+      "buy_count": 0,
+      "sell_count": 5,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 305002.5,
+      "politicians": [
+        "Kevin Hern",
+        "Donald J Trump"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-10-13",
+      "net_flow_score": -1.0,
+      "congress_score": -0.61,
+      "congress_boost": 0.9085
+    },
+    "LIN": {
+      "symbol": "LIN",
+      "buy_count": 2,
+      "sell_count": 5,
+      "buy_notional_est": 65001.0,
+      "sell_notional_est": 165752.55,
+      "politicians": [
+        "Kevin Hern",
+        "Rohit Khanna",
+        "Donald J Trump"
+      ],
+      "notable_politicians": [
+        "Rohit Khanna"
+      ],
+      "recent_buys": [
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-07-31",
+          "filing_date": "2026-09-22",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2024-07-20",
+          "filing_date": "2026-09-22",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-10-13",
+      "net_flow_score": -0.4286,
+      "congress_score": 0.2985,
+      "congress_boost": 1.0448
+    },
+    "EMR": {
+      "symbol": "EMR",
+      "buy_count": 2,
+      "sell_count": 2,
+      "buy_notional_est": 65001.0,
+      "sell_notional_est": 65001.0,
+      "politicians": [
+        "Kevin Hern",
+        "Donald J Trump"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [
+        {
+          "politician": "Donald J Trump",
+          "date": "2024-08-26",
+          "filing_date": "2026-10-08",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-06-23",
+          "filing_date": "2026-08-22",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-10-13",
+      "net_flow_score": 0.0,
+      "congress_score": 0.0,
+      "congress_boost": 1.0
+    },
     "BHE": {
       "symbol": "BHE",
       "buy_count": 1,
@@ -2963,45 +3221,6 @@
       "congress_score": 1.0,
       "congress_boost": 1.15
     },
-    "CVX": {
-      "symbol": "CVX",
-      "buy_count": 3,
-      "sell_count": 1,
-      "buy_notional_est": 3107501.5,
-      "sell_notional_est": 32500.5,
-      "politicians": [
-        "Donald J Trump"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Donald J Trump",
-          "date": "2024-08-26",
-          "filing_date": "2026-10-08",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2024-08-21",
-          "filing_date": "2026-10-08",
-          "amount_label": "$1,000,001 - $5,000,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-06-15",
-          "filing_date": "2026-08-22",
-          "amount_label": "$50,001 - $100,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-10-08",
-      "net_flow_score": 0.5,
-      "congress_score": 1.0,
-      "congress_boost": 1.15
-    },
     "DLR": {
       "symbol": "DLR",
       "buy_count": 0,
@@ -3018,39 +3237,6 @@
       "net_flow_score": -1.0,
       "congress_score": -0.35,
       "congress_boost": 0.9475
-    },
-    "EMR": {
-      "symbol": "EMR",
-      "buy_count": 2,
-      "sell_count": 1,
-      "buy_notional_est": 65001.0,
-      "sell_notional_est": 32500.5,
-      "politicians": [
-        "Donald J Trump",
-        "Kevin Hern"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Donald J Trump",
-          "date": "2024-08-26",
-          "filing_date": "2026-10-08",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-06-23",
-          "filing_date": "2026-08-22",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-10-08",
-      "net_flow_score": 0.3333,
-      "congress_score": 0.065,
-      "congress_boost": 1.0097
     },
     "MRNA": {
       "symbol": "MRNA",
@@ -3831,32 +4017,6 @@
       "net_flow_score": -1.0,
       "congress_score": -0.35,
       "congress_boost": 0.9475
-    },
-    "UNH": {
-      "symbol": "UNH",
-      "buy_count": 1,
-      "sell_count": 2,
-      "buy_notional_est": 175000.5,
-      "sell_notional_est": 207501.0,
-      "politicians": [
-        "Donald J Trump",
-        "Kevin Hern"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-07-31",
-          "filing_date": "2026-09-22",
-          "amount_label": "$100,001 - $250,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-10-08",
-      "net_flow_score": -0.3333,
-      "congress_score": -0.065,
-      "congress_boost": 0.9902
     },
     "KLAC": {
       "symbol": "KLAC",
@@ -5227,42 +5387,6 @@
       "congress_score": -0.25,
       "congress_boost": 0.9625
     },
-    "LIN": {
-      "symbol": "LIN",
-      "buy_count": 2,
-      "sell_count": 4,
-      "buy_notional_est": 65001.0,
-      "sell_notional_est": 133252.05,
-      "politicians": [
-        "Rohit Khanna",
-        "Kevin Hern",
-        "Donald J Trump"
-      ],
-      "notable_politicians": [
-        "Rohit Khanna"
-      ],
-      "recent_buys": [
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-07-31",
-          "filing_date": "2026-09-22",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2024-07-20",
-          "filing_date": "2026-09-22",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-10-07",
-      "net_flow_score": -0.3333,
-      "congress_score": 0.3635,
-      "congress_boost": 1.0545
-    },
     "WFC": {
       "symbol": "WFC",
       "buy_count": 5,
@@ -5425,76 +5549,6 @@
       "congress_score": -0.415,
       "congress_boost": 0.9377
     },
-    "AIO": {
-      "symbol": "AIO",
-      "buy_count": 0,
-      "sell_count": 2,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 65001.0,
-      "politicians": [
-        "Kevin Hern"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-09-25",
-      "net_flow_score": -1.0,
-      "congress_score": -0.13,
-      "congress_boost": 0.9805
-    },
-    "ROK": {
-      "symbol": "ROK",
-      "buy_count": 0,
-      "sell_count": 4,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 272502.0,
-      "politicians": [
-        "Kevin Hern",
-        "Donald J Trump"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-09-25",
-      "net_flow_score": -1.0,
-      "congress_score": -0.545,
-      "congress_boost": 0.9183
-    },
-    "NEE": {
-      "symbol": "NEE",
-      "buy_count": 0,
-      "sell_count": 2,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 65001.0,
-      "politicians": [
-        "Kevin Hern",
-        "Donald J Trump"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-09-25",
-      "net_flow_score": -1.0,
-      "congress_score": -0.13,
-      "congress_boost": 0.9805
-    },
-    "DVN": {
-      "symbol": "DVN",
-      "buy_count": 0,
-      "sell_count": 4,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 415002.0,
-      "politicians": [
-        "Kevin Hern"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-09-25",
-      "net_flow_score": -1.0,
-      "congress_score": -0.83,
-      "congress_boost": 0.8755
-    },
     "CDNS": {
       "symbol": "CDNS",
       "buy_count": 0,
@@ -5537,23 +5591,6 @@
       "net_flow_score": -0.5,
       "congress_score": 1.0,
       "congress_boost": 1.15
-    },
-    "MRSH": {
-      "symbol": "MRSH",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 175000.5,
-      "politicians": [
-        "Kevin Hern"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-09-25",
-      "net_flow_score": -1.0,
-      "congress_score": -0.35,
-      "congress_boost": 0.9475
     },
     "ITW": {
       "symbol": "ITW",
@@ -5632,24 +5669,6 @@
       "net_flow_score": -1.0,
       "congress_score": -1.78,
       "congress_boost": 0.733
-    },
-    "LMT": {
-      "symbol": "LMT",
-      "buy_count": 0,
-      "sell_count": 3,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 240001.5,
-      "politicians": [
-        "Kevin Hern",
-        "Donald J Trump"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-09-25",
-      "net_flow_score": -1.0,
-      "congress_score": -0.48,
-      "congress_boost": 0.928
     },
     "PRGS": {
       "symbol": "PRGS",
@@ -6291,17 +6310,14 @@
     "PFE": {
       "symbol": "PFE",
       "buy_count": 2,
-      "sell_count": 4,
+      "sell_count": 3,
       "buy_notional_est": 207501.0,
-      "sell_notional_est": 185502.2,
+      "sell_notional_est": 140001.5,
       "politicians": [
         "Donald J Trump",
-        "Carol Devine Miller",
-        "Thomas H Tuberville"
+        "Carol Devine Miller"
       ],
-      "notable_politicians": [
-        "Thomas H Tuberville"
-      ],
+      "notable_politicians": [],
       "recent_buys": [
         {
           "politician": "Donald J Trump",
@@ -6320,9 +6336,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-09-22",
-      "net_flow_score": -0.3333,
-      "congress_score": 0.544,
-      "congress_boost": 1.0816
+      "net_flow_score": -0.2,
+      "congress_score": 0.135,
+      "congress_boost": 1.0203
     },
     "FAST": {
       "symbol": "FAST",
@@ -9962,23 +9978,6 @@
       "congress_score": -0.065,
       "congress_boost": 0.9902
     },
-    "SBUX": {
-      "symbol": "SBUX",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 32500.5,
-      "politicians": [
-        "Donald J Trump"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-09-22",
-      "net_flow_score": -1.0,
-      "congress_score": -0.065,
-      "congress_boost": 0.9902
-    },
     "TKO": {
       "symbol": "TKO",
       "buy_count": 0,
@@ -11631,9 +11630,9 @@
     "PYPL": {
       "symbol": "PYPL",
       "buy_count": 1,
-      "sell_count": 3,
+      "sell_count": 2,
       "buy_notional_est": 32500.5,
-      "sell_notional_est": 465501.9,
+      "sell_notional_est": 220501.2,
       "politicians": [
         "Donald J Trump",
         "Thomas H Tuberville"
@@ -11652,9 +11651,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-08-22",
-      "net_flow_score": -0.5,
-      "congress_score": -0.366,
-      "congress_boost": 0.9451
+      "net_flow_score": -0.3333,
+      "congress_score": 0.124,
+      "congress_boost": 1.0186
     },
     "COIN": {
       "symbol": "COIN",
@@ -13606,25 +13605,6 @@
       "net_flow_score": -1.0,
       "congress_score": 0.409,
       "congress_boost": 1.0614
-    },
-    "HUMA": {
-      "symbol": "HUMA",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 45500.7,
-      "politicians": [
-        "Thomas H Tuberville"
-      ],
-      "notable_politicians": [
-        "Thomas H Tuberville"
-      ],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-08-05",
-      "net_flow_score": -1.0,
-      "congress_score": 0.409,
-      "congress_boost": 1.0614
     }
   },
   "leaderboard": [
@@ -13639,8 +13619,8 @@
     {
       "politician": "Thomas H Tuberville",
       "buys": 9,
-      "sells": 50,
-      "unique_symbols": 42,
+      "sells": 47,
+      "unique_symbols": 40,
       "weight": 1.4,
       "notable": true
     },
@@ -13757,18 +13737,18 @@
       "notable": false
     },
     {
-      "politician": "Sheldon Whitehouse",
+      "politician": "Kevin Hern",
       "buys": 0,
-      "sells": 1,
-      "unique_symbols": 1,
+      "sells": 70,
+      "unique_symbols": 39,
       "weight": 1.0,
       "notable": false
     },
     {
-      "politician": "Kevin Hern",
+      "politician": "Sheldon Whitehouse",
       "buys": 0,
-      "sells": 57,
-      "unique_symbols": 37,
+      "sells": 1,
+      "unique_symbols": 1,
       "weight": 1.0,
       "notable": false
     },
@@ -15133,48 +15113,6 @@
       "amount_label": "$15,001 - $50,000",
       "is_late": true,
       "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "senate_0a25588d-a3f8-4ed6-971a-706097f78e3a_t69",
-      "symbol": "HUMA",
-      "politician": "Thomas H Tuberville",
-      "chamber": "senate",
-      "party": "R",
-      "side": "sell",
-      "transaction_date": "2024-05-03",
-      "filing_date": "2026-08-05",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": true,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "senate_0a25588d-a3f8-4ed6-971a-706097f78e3a_t54",
-      "symbol": "PYPL",
-      "politician": "Thomas H Tuberville",
-      "chamber": "senate",
-      "party": "R",
-      "side": "sell",
-      "transaction_date": "2024-05-03",
-      "filing_date": "2026-08-05",
-      "amount_mid_usd": 175000.5,
-      "amount_label": "$100,001 - $250,000",
-      "is_late": true,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "senate_0a25588d-a3f8-4ed6-971a-706097f78e3a_t52",
-      "symbol": "PFE",
-      "politician": "Thomas H Tuberville",
-      "chamber": "senate",
-      "party": "R",
-      "side": "sell",
-      "transaction_date": "2024-05-03",
-      "filing_date": "2026-08-05",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": true,
-      "source": "kadoa_congress_monitor"
     }
   ],
   "watchlistHistory": [
@@ -16399,48 +16337,6 @@
     {
       "id": "senate_0a25588d-a3f8-4ed6-971a-706097f78e3a_t84",
       "symbol": "ASML",
-      "politician": "Thomas H Tuberville",
-      "chamber": "senate",
-      "party": "R",
-      "side": "sell",
-      "transaction_date": "2024-05-03",
-      "filing_date": "2026-08-05",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": true,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "senate_0a25588d-a3f8-4ed6-971a-706097f78e3a_t69",
-      "symbol": "HUMA",
-      "politician": "Thomas H Tuberville",
-      "chamber": "senate",
-      "party": "R",
-      "side": "sell",
-      "transaction_date": "2024-05-03",
-      "filing_date": "2026-08-05",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": true,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "senate_0a25588d-a3f8-4ed6-971a-706097f78e3a_t54",
-      "symbol": "PYPL",
-      "politician": "Thomas H Tuberville",
-      "chamber": "senate",
-      "party": "R",
-      "side": "sell",
-      "transaction_date": "2024-05-03",
-      "filing_date": "2026-08-05",
-      "amount_mid_usd": 175000.5,
-      "amount_label": "$100,001 - $250,000",
-      "is_late": true,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "senate_0a25588d-a3f8-4ed6-971a-706097f78e3a_t52",
-      "symbol": "PFE",
       "politician": "Thomas H Tuberville",
       "chamber": "senate",
       "party": "R",
