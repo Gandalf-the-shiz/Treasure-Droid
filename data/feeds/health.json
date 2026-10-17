@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-16T09:30:56Z",
+  "generatedAt": "2026-10-17T09:27:10Z",
   "probeSymbol": "AAPL",
   "providers": {
     "yfinance": {
       "ok": true,
       "rows": 10,
-      "latencyMs": 638.59,
+      "latencyMs": 329.04,
       "error": ""
     },
     "stooq": {
@@ -18,13 +18,13 @@
     "fred": {
       "ok": true,
       "rows": 59,
-      "latencyMs": 659.37,
+      "latencyMs": 411.86,
       "error": ""
     },
     "gdelt": {
-      "ok": true,
-      "rows": 3,
-      "latencyMs": 19814.24,
+      "ok": false,
+      "rows": 0,
+      "latencyMs": 24913.56,
       "error": ""
     },
     "tiingo": {
@@ -43,7 +43,7 @@
     }
   },
   "summary": {
-    "okCount": 3,
+    "okCount": 2,
     "totalProviders": 3,
     "skippedProviders": 3
   },
