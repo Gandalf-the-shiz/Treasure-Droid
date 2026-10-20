@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-19T10:18:36Z",
+  "generatedAt": "2026-10-20T10:17:16Z",
   "windowDays": 90,
-  "tradeCount": 1254,
-  "symbolCount": 553,
+  "tradeCount": 1284,
+  "symbolCount": 557,
   "bySymbol": {
     "AZO": {
       "symbol": "AZO",
@@ -1009,14 +1009,17 @@
     },
     "ON": {
       "symbol": "ON",
-      "buy_count": 1,
+      "buy_count": 2,
       "sell_count": 0,
-      "buy_notional_est": 32500.5,
+      "buy_notional_est": 68251.05,
       "sell_notional_est": 0.0,
       "politicians": [
-        "Gilbert Cisneros"
+        "Gilbert Cisneros",
+        "Rohit Khanna"
       ],
-      "notable_politicians": [],
+      "notable_politicians": [
+        "Rohit Khanna"
+      ],
       "recent_buys": [
         {
           "politician": "Gilbert Cisneros",
@@ -1024,13 +1027,20 @@
           "filing_date": "2026-10-12",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
+        },
+        {
+          "politician": "Rohit Khanna",
+          "date": "2026-09-23",
+          "filing_date": "2026-10-07",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.1
         }
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-10-12",
       "net_flow_score": 1.0,
-      "congress_score": 0.065,
-      "congress_boost": 1.0097
+      "congress_score": 0.6365,
+      "congress_boost": 1.0955
     },
     "RBC": {
       "symbol": "RBC",
@@ -1870,15 +1880,18 @@
     },
     "MCD": {
       "symbol": "MCD",
-      "buy_count": 5,
-      "sell_count": 7,
-      "buy_notional_est": 4132502.5,
-      "sell_notional_est": 4140003.5,
+      "buy_count": 6,
+      "sell_count": 9,
+      "buy_notional_est": 4168253.05,
+      "sell_notional_est": 4211504.6,
       "politicians": [
         "Donald J Trump",
+        "Rohit Khanna",
         "Cory A Booker"
       ],
-      "notable_politicians": [],
+      "notable_politicians": [
+        "Rohit Khanna"
+      ],
       "recent_buys": [
         {
           "politician": "Donald J Trump",
@@ -1902,25 +1915,25 @@
           "weight": 1.0
         },
         {
-          "politician": "Donald J Trump",
-          "date": "2024-07-27",
-          "filing_date": "2026-09-22",
-          "amount_label": "$100,001 - $250,000",
-          "weight": 1.0
+          "politician": "Rohit Khanna",
+          "date": "2026-09-11",
+          "filing_date": "2026-10-07",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.1
         },
         {
           "politician": "Donald J Trump",
-          "date": "2026-06-12",
-          "filing_date": "2026-08-22",
+          "date": "2024-07-27",
+          "filing_date": "2026-09-22",
           "amount_label": "$100,001 - $250,000",
           "weight": 1.0
         }
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-10-08",
-      "net_flow_score": -0.1667,
-      "congress_score": -0.015,
-      "congress_boost": 0.9978
+      "net_flow_score": -0.2,
+      "congress_score": 0.4135,
+      "congress_boost": 1.062
     },
     "TSLA": {
       "symbol": "TSLA",
@@ -3121,6 +3134,32 @@
       "congress_score": 0.065,
       "congress_boost": 1.0097
     },
+    "TSCO": {
+      "symbol": "TSCO",
+      "buy_count": 1,
+      "sell_count": 2,
+      "buy_notional_est": 32500.5,
+      "sell_notional_est": 107501.0,
+      "politicians": [
+        "Donald J Trump",
+        "April McClain Delaney"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-08-28",
+          "filing_date": "2026-10-08",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-10-08",
+      "net_flow_score": -0.3333,
+      "congress_score": -0.15,
+      "congress_boost": 0.9775
+    },
     "PG": {
       "symbol": "PG",
       "buy_count": 6,
@@ -4166,12 +4205,13 @@
     },
     "TTD": {
       "symbol": "TTD",
-      "buy_count": 1,
-      "sell_count": 2,
-      "buy_notional_est": 375000.5,
-      "sell_notional_est": 407501.0,
+      "buy_count": 2,
+      "sell_count": 6,
+      "buy_notional_est": 407501.0,
+      "sell_notional_est": 537503.0,
       "politicians": [
-        "Donald J Trump"
+        "Donald J Trump",
+        "Tony Wied"
       ],
       "notable_politicians": [],
       "recent_buys": [
@@ -4181,13 +4221,20 @@
           "filing_date": "2026-09-22",
           "amount_label": "$250,001 - $500,000",
           "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2024-06-24",
+          "filing_date": "2026-08-22",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
         }
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-10-08",
-      "net_flow_score": -0.3333,
-      "congress_score": -0.065,
-      "congress_boost": 0.9902
+      "net_flow_score": -0.5,
+      "congress_score": -0.26,
+      "congress_boost": 0.961
     },
     "INVH": {
       "symbol": "INVH",
@@ -4626,13 +4673,16 @@
     "IDXX": {
       "symbol": "IDXX",
       "buy_count": 1,
-      "sell_count": 2,
+      "sell_count": 3,
       "buy_notional_est": 32500.5,
-      "sell_notional_est": 107501.0,
+      "sell_notional_est": 143251.55,
       "politicians": [
-        "Donald J Trump"
+        "Donald J Trump",
+        "Rohit Khanna"
       ],
-      "notable_politicians": [],
+      "notable_politicians": [
+        "Rohit Khanna"
+      ],
       "recent_buys": [
         {
           "politician": "Donald J Trump",
@@ -4644,9 +4694,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-10-08",
-      "net_flow_score": -0.3333,
-      "congress_score": -0.15,
-      "congress_boost": 0.9775
+      "net_flow_score": -0.5,
+      "congress_score": 0.2785,
+      "congress_boost": 1.0418
     },
     "TPR": {
       "symbol": "TPR",
@@ -5299,13 +5349,16 @@
     "SYK": {
       "symbol": "SYK",
       "buy_count": 4,
-      "sell_count": 1,
+      "sell_count": 2,
       "buy_notional_est": 757502.0,
-      "sell_notional_est": 32500.5,
+      "sell_notional_est": 68251.05,
       "politicians": [
-        "Donald J Trump"
+        "Donald J Trump",
+        "Rohit Khanna"
       ],
-      "notable_politicians": [],
+      "notable_politicians": [
+        "Rohit Khanna"
+      ],
       "recent_buys": [
         {
           "politician": "Donald J Trump",
@@ -5338,7 +5391,7 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-10-08",
-      "net_flow_score": 0.6,
+      "net_flow_score": 0.3333,
       "congress_score": 1.0,
       "congress_boost": 1.15
     },
@@ -5754,6 +5807,45 @@
       "congress_score": -0.25,
       "congress_boost": 0.9625
     },
+    "ED": {
+      "symbol": "ED",
+      "buy_count": 0,
+      "sell_count": 2,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 210751.05,
+      "politicians": [
+        "Rohit Khanna",
+        "Donald J Trump"
+      ],
+      "notable_politicians": [
+        "Rohit Khanna"
+      ],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-10-07",
+      "net_flow_score": -1.0,
+      "congress_score": 0.0785,
+      "congress_boost": 1.0118
+    },
+    "AEP": {
+      "symbol": "AEP",
+      "buy_count": 0,
+      "sell_count": 1,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 35750.55,
+      "politicians": [
+        "Rohit Khanna"
+      ],
+      "notable_politicians": [
+        "Rohit Khanna"
+      ],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-10-07",
+      "net_flow_score": -1.0,
+      "congress_score": 0.4285,
+      "congress_boost": 1.0643
+    },
     "WFC": {
       "symbol": "WFC",
       "buy_count": 5,
@@ -5810,6 +5902,157 @@
       "net_flow_score": 1.0,
       "congress_score": 1.0,
       "congress_boost": 1.15
+    },
+    "LOW": {
+      "symbol": "LOW",
+      "buy_count": 1,
+      "sell_count": 3,
+      "buy_notional_est": 175000.5,
+      "sell_notional_est": 246501.59999999998,
+      "politicians": [
+        "Rohit Khanna",
+        "Donald J Trump"
+      ],
+      "notable_politicians": [
+        "Rohit Khanna"
+      ],
+      "recent_buys": [
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-07-23",
+          "filing_date": "2026-09-22",
+          "amount_label": "$100,001 - $250,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-10-07",
+      "net_flow_score": -0.5,
+      "congress_score": 0.357,
+      "congress_boost": 1.0535
+    },
+    "PLD": {
+      "symbol": "PLD",
+      "buy_count": 1,
+      "sell_count": 1,
+      "buy_notional_est": 75000.5,
+      "sell_notional_est": 35750.55,
+      "politicians": [
+        "Rohit Khanna",
+        "Donald J Trump"
+      ],
+      "notable_politicians": [
+        "Rohit Khanna"
+      ],
+      "recent_buys": [
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-06-15",
+          "filing_date": "2026-08-22",
+          "amount_label": "$50,001 - $100,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-10-07",
+      "net_flow_score": 0.0,
+      "congress_score": 0.5785,
+      "congress_boost": 1.0868
+    },
+    "TXN": {
+      "symbol": "TXN",
+      "buy_count": 0,
+      "sell_count": 1,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 35750.55,
+      "politicians": [
+        "Rohit Khanna"
+      ],
+      "notable_politicians": [
+        "Rohit Khanna"
+      ],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-10-07",
+      "net_flow_score": -1.0,
+      "congress_score": 0.4285,
+      "congress_boost": 1.0643
+    },
+    "QCOM": {
+      "symbol": "QCOM",
+      "buy_count": 4,
+      "sell_count": 4,
+      "buy_notional_est": 136502.1,
+      "sell_notional_est": 136502.1,
+      "politicians": [
+        "Rohit Khanna",
+        "Donald J Trump"
+      ],
+      "notable_politicians": [
+        "Rohit Khanna"
+      ],
+      "recent_buys": [
+        {
+          "politician": "Rohit Khanna",
+          "date": "2026-09-11",
+          "filing_date": "2026-10-07",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.1
+        },
+        {
+          "politician": "Rohit Khanna",
+          "date": "2026-08-24",
+          "filing_date": "2026-09-04",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.1
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-06-16",
+          "filing_date": "2026-08-22",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-06-15",
+          "filing_date": "2026-08-22",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-10-07",
+      "net_flow_score": 0.0,
+      "congress_score": 0.5,
+      "congress_boost": 1.075
+    },
+    "PHM": {
+      "symbol": "PHM",
+      "buy_count": 1,
+      "sell_count": 0,
+      "buy_notional_est": 35750.55,
+      "sell_notional_est": 0.0,
+      "politicians": [
+        "Rohit Khanna"
+      ],
+      "notable_politicians": [
+        "Rohit Khanna"
+      ],
+      "recent_buys": [
+        {
+          "politician": "Rohit Khanna",
+          "date": "2026-09-11",
+          "filing_date": "2026-10-07",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.1
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-10-07",
+      "net_flow_score": 1.0,
+      "congress_score": 0.5715,
+      "congress_boost": 1.0857
     },
     "NEW": {
       "symbol": "NEW",
@@ -6097,20 +6340,43 @@
     },
     "DHR": {
       "symbol": "DHR",
-      "buy_count": 0,
+      "buy_count": 3,
       "sell_count": 1,
-      "buy_notional_est": 0.0,
+      "buy_notional_est": 425001.5,
       "sell_notional_est": 32500.5,
       "politicians": [
-        "Kevin Hern"
+        "Kevin Hern",
+        "Donald J Trump"
       ],
       "notable_politicians": [],
-      "recent_buys": [],
+      "recent_buys": [
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-07-23",
+          "filing_date": "2026-09-22",
+          "amount_label": "$100,001 - $250,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2024-07-27",
+          "filing_date": "2026-09-22",
+          "amount_label": "$50,001 - $100,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2024-07-20",
+          "filing_date": "2026-09-22",
+          "amount_label": "$100,001 - $250,000",
+          "weight": 1.0
+        }
+      ],
       "pelosi_buy": false,
       "last_filing_date": "2026-09-25",
-      "net_flow_score": -1.0,
-      "congress_score": -0.065,
-      "congress_boost": 0.9902
+      "net_flow_score": 0.5,
+      "congress_score": 0.785,
+      "congress_boost": 1.1178
     },
     "CXT": {
       "symbol": "CXT",
@@ -7421,12 +7687,12 @@
       "congress_score": 1.0,
       "congress_boost": 1.15
     },
-    "LOW": {
-      "symbol": "LOW",
+    "CRL": {
+      "symbol": "CRL",
       "buy_count": 1,
-      "sell_count": 1,
+      "sell_count": 0,
       "buy_notional_est": 175000.5,
-      "sell_notional_est": 175000.5,
+      "sell_notional_est": 0.0,
       "politicians": [
         "Donald J Trump"
       ],
@@ -7442,9 +7708,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-09-22",
-      "net_flow_score": 0.0,
-      "congress_score": 0.0,
-      "congress_boost": 1.0
+      "net_flow_score": 1.0,
+      "congress_score": 0.35,
+      "congress_boost": 1.0525
     },
     "CI": {
       "symbol": "CI",
@@ -7538,38 +7804,6 @@
       "net_flow_score": -1.0,
       "congress_score": -0.065,
       "congress_boost": 0.9902
-    },
-    "QCOM": {
-      "symbol": "QCOM",
-      "buy_count": 2,
-      "sell_count": 2,
-      "buy_notional_est": 65001.0,
-      "sell_notional_est": 65001.0,
-      "politicians": [
-        "Donald J Trump"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-06-16",
-          "filing_date": "2026-08-22",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-06-15",
-          "filing_date": "2026-08-22",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-09-22",
-      "net_flow_score": 0.0,
-      "congress_score": 0.0,
-      "congress_boost": 1.0
     },
     "ADP": {
       "symbol": "ADP",
@@ -10441,13 +10675,16 @@
     "CNC": {
       "symbol": "CNC",
       "buy_count": 1,
-      "sell_count": 0,
+      "sell_count": 1,
       "buy_notional_est": 32500.5,
-      "sell_notional_est": 0.0,
+      "sell_notional_est": 35750.55,
       "politicians": [
-        "Donald J Trump"
+        "Donald J Trump",
+        "Rohit Khanna"
       ],
-      "notable_politicians": [],
+      "notable_politicians": [
+        "Rohit Khanna"
+      ],
       "recent_buys": [
         {
           "politician": "Donald J Trump",
@@ -10459,9 +10696,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-09-22",
-      "net_flow_score": 1.0,
-      "congress_score": 0.065,
-      "congress_boost": 1.0097
+      "net_flow_score": 0.0,
+      "congress_score": 0.4935,
+      "congress_boost": 1.074
     },
     "AGNT": {
       "symbol": "AGNT",
@@ -11082,23 +11319,6 @@
       "net_flow_score": -1.0,
       "congress_score": -0.35,
       "congress_boost": 0.9475
-    },
-    "TSCO": {
-      "symbol": "TSCO",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 32500.5,
-      "politicians": [
-        "April McClain Delaney"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-09-09",
-      "net_flow_score": -1.0,
-      "congress_score": -0.065,
-      "congress_boost": 0.9902
     },
     "MIDD": {
       "symbol": "MIDD",
@@ -12229,31 +12449,6 @@
       "congress_score": 0.065,
       "congress_boost": 1.0097
     },
-    "PLD": {
-      "symbol": "PLD",
-      "buy_count": 1,
-      "sell_count": 0,
-      "buy_notional_est": 75000.5,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Donald J Trump"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-06-15",
-          "filing_date": "2026-08-22",
-          "amount_label": "$50,001 - $100,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-08-22",
-      "net_flow_score": 1.0,
-      "congress_score": 0.15,
-      "congress_boost": 1.0225
-    },
     "MET": {
       "symbol": "MET",
       "buy_count": 1,
@@ -12328,23 +12523,6 @@
       "net_flow_score": 0.0,
       "congress_score": -0.2,
       "congress_boost": 0.97
-    },
-    "ED": {
-      "symbol": "ED",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 175000.5,
-      "politicians": [
-        "Donald J Trump"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-08-22",
-      "net_flow_score": -1.0,
-      "congress_score": -0.35,
-      "congress_boost": 0.9475
     },
     "NSC": {
       "symbol": "NSC",
@@ -13491,19 +13669,22 @@
     "PINS": {
       "symbol": "PINS",
       "buy_count": 0,
-      "sell_count": 1,
+      "sell_count": 2,
       "buy_notional_est": 0.0,
-      "sell_notional_est": 32500.5,
+      "sell_notional_est": 68251.05,
       "politicians": [
-        "Christian D. Menefee"
+        "Christian D. Menefee",
+        "Rohit Khanna"
       ],
-      "notable_politicians": [],
+      "notable_politicians": [
+        "Rohit Khanna"
+      ],
       "recent_buys": [],
       "pelosi_buy": false,
       "last_filing_date": "2026-08-07",
       "net_flow_score": -1.0,
-      "congress_score": -0.065,
-      "congress_boost": 0.9902
+      "congress_score": 0.3635,
+      "congress_boost": 1.0545
     },
     "ZBH": {
       "symbol": "ZBH",
@@ -13627,19 +13808,19 @@
   },
   "leaderboard": [
     {
+      "politician": "Rohit Khanna",
+      "buys": 18,
+      "sells": 28,
+      "unique_symbols": 28,
+      "weight": 1.1,
+      "notable": true
+    },
+    {
       "politician": "Michael T. McCaul",
       "buys": 13,
       "sells": 11,
       "unique_symbols": 20,
       "weight": 1.2,
-      "notable": true
-    },
-    {
-      "politician": "Rohit Khanna",
-      "buys": 13,
-      "sells": 14,
-      "unique_symbols": 15,
-      "weight": 1.1,
       "notable": true
     },
     {
@@ -13668,9 +13849,9 @@
     },
     {
       "politician": "Donald J Trump",
-      "buys": 498,
-      "sells": 496,
-      "unique_symbols": 460,
+      "buys": 504,
+      "sells": 498,
+      "unique_symbols": 463,
       "weight": 1.0,
       "notable": false
     },
@@ -13693,8 +13874,8 @@
     {
       "politician": "Tony Wied",
       "buys": 4,
-      "sells": 6,
-      "unique_symbols": 4,
+      "sells": 9,
+      "unique_symbols": 5,
       "weight": 1.0,
       "notable": false
     },
@@ -14273,6 +14454,34 @@
       "source": "kadoa_congress_monitor"
     },
     {
+      "id": "house_9116376_g201",
+      "symbol": "ED",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "sell",
+      "transaction_date": "2026-09-25",
+      "filing_date": "2026-10-07",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_9116376_g200",
+      "symbol": "AEP",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "sell",
+      "transaction_date": "2026-09-25",
+      "filing_date": "2026-10-07",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
       "id": "house_9116376_g127",
       "symbol": "PEP",
       "politician": "Rohit Khanna",
@@ -14315,6 +14524,20 @@
       "source": "kadoa_congress_monitor"
     },
     {
+      "id": "house_9116376_g420",
+      "symbol": "ON",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "buy",
+      "transaction_date": "2026-09-23",
+      "filing_date": "2026-10-07",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
       "id": "house_9116376_g7",
       "symbol": "WFC",
       "politician": "Rohit Khanna",
@@ -14322,6 +14545,76 @@
       "party": "D",
       "side": "buy",
       "transaction_date": "2026-09-17",
+      "filing_date": "2026-10-07",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_9116376_g79",
+      "symbol": "IDXX",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "sell",
+      "transaction_date": "2026-09-11",
+      "filing_date": "2026-10-07",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_9116376_g78",
+      "symbol": "LOW",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "sell",
+      "transaction_date": "2026-09-11",
+      "filing_date": "2026-10-07",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_9116376_g77",
+      "symbol": "SYK",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "sell",
+      "transaction_date": "2026-09-11",
+      "filing_date": "2026-10-07",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_9116376_g76",
+      "symbol": "PLD",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "sell",
+      "transaction_date": "2026-09-11",
+      "filing_date": "2026-10-07",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_9116376_g75",
+      "symbol": "TXN",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "sell",
+      "transaction_date": "2026-09-11",
       "filing_date": "2026-10-07",
       "amount_mid_usd": 32500.5,
       "amount_label": "$15,001 - $50,000",
@@ -14371,6 +14664,20 @@
       "source": "kadoa_congress_monitor"
     },
     {
+      "id": "house_9116376_g22",
+      "symbol": "QCOM",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "buy",
+      "transaction_date": "2026-09-11",
+      "filing_date": "2026-10-07",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
       "id": "house_9116376_g21",
       "symbol": "PEP",
       "politician": "Rohit Khanna",
@@ -14385,8 +14692,36 @@
       "source": "kadoa_congress_monitor"
     },
     {
+      "id": "house_9116376_g20",
+      "symbol": "PHM",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "buy",
+      "transaction_date": "2026-09-11",
+      "filing_date": "2026-10-07",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
       "id": "house_9116376_g19",
       "symbol": "NEW",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "buy",
+      "transaction_date": "2026-09-11",
+      "filing_date": "2026-10-07",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_9116376_g18",
+      "symbol": "MCD",
       "politician": "Rohit Khanna",
       "chamber": "house",
       "party": "D",
@@ -14451,6 +14786,62 @@
       "filing_date": "2026-09-04",
       "amount_mid_usd": 75000.5,
       "amount_label": "$50,001 - $100,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_9116328_g78",
+      "symbol": "QCOM",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "buy",
+      "transaction_date": "2026-08-24",
+      "filing_date": "2026-09-04",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_9116328_g50",
+      "symbol": "CNC",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "sell",
+      "transaction_date": "2026-08-10",
+      "filing_date": "2026-09-04",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_9116328_g49",
+      "symbol": "QCOM",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "sell",
+      "transaction_date": "2026-08-10",
+      "filing_date": "2026-09-04",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_9116328_g48",
+      "symbol": "MCD",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "sell",
+      "transaction_date": "2026-08-10",
+      "filing_date": "2026-09-04",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
       "is_late": false,
       "source": "kadoa_congress_monitor"
     },
@@ -14605,6 +14996,62 @@
       "filing_date": "2026-08-21",
       "amount_mid_usd": 3000000.5,
       "amount_label": "$1,000,001 - $5,000,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_9116267_g185",
+      "symbol": "PINS",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "sell",
+      "transaction_date": "2026-07-30",
+      "filing_date": "2026-08-07",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_9116267_g187",
+      "symbol": "QCOM",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "sell",
+      "transaction_date": "2026-07-20",
+      "filing_date": "2026-08-07",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_9116267_g183",
+      "symbol": "LOW",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "sell",
+      "transaction_date": "2026-07-20",
+      "filing_date": "2026-08-07",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_9116267_g182",
+      "symbol": "MCD",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "sell",
+      "transaction_date": "2026-07-20",
+      "filing_date": "2026-08-07",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
       "is_late": false,
       "source": "kadoa_congress_monitor"
     },
@@ -15199,6 +15646,34 @@
       "source": "kadoa_congress_monitor"
     },
     {
+      "id": "house_9116376_g201",
+      "symbol": "ED",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "sell",
+      "transaction_date": "2026-09-25",
+      "filing_date": "2026-10-07",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_9116376_g200",
+      "symbol": "AEP",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "sell",
+      "transaction_date": "2026-09-25",
+      "filing_date": "2026-10-07",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
       "id": "house_9116376_g127",
       "symbol": "PEP",
       "politician": "Rohit Khanna",
@@ -15241,6 +15716,20 @@
       "source": "kadoa_congress_monitor"
     },
     {
+      "id": "house_9116376_g420",
+      "symbol": "ON",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "buy",
+      "transaction_date": "2026-09-23",
+      "filing_date": "2026-10-07",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
       "id": "house_9116376_g7",
       "symbol": "WFC",
       "politician": "Rohit Khanna",
@@ -15248,6 +15737,76 @@
       "party": "D",
       "side": "buy",
       "transaction_date": "2026-09-17",
+      "filing_date": "2026-10-07",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_9116376_g79",
+      "symbol": "IDXX",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "sell",
+      "transaction_date": "2026-09-11",
+      "filing_date": "2026-10-07",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_9116376_g78",
+      "symbol": "LOW",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "sell",
+      "transaction_date": "2026-09-11",
+      "filing_date": "2026-10-07",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_9116376_g77",
+      "symbol": "SYK",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "sell",
+      "transaction_date": "2026-09-11",
+      "filing_date": "2026-10-07",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_9116376_g76",
+      "symbol": "PLD",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "sell",
+      "transaction_date": "2026-09-11",
+      "filing_date": "2026-10-07",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_9116376_g75",
+      "symbol": "TXN",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "sell",
+      "transaction_date": "2026-09-11",
       "filing_date": "2026-10-07",
       "amount_mid_usd": 32500.5,
       "amount_label": "$15,001 - $50,000",
@@ -15297,6 +15856,20 @@
       "source": "kadoa_congress_monitor"
     },
     {
+      "id": "house_9116376_g22",
+      "symbol": "QCOM",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "buy",
+      "transaction_date": "2026-09-11",
+      "filing_date": "2026-10-07",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
       "id": "house_9116376_g21",
       "symbol": "PEP",
       "politician": "Rohit Khanna",
@@ -15311,8 +15884,36 @@
       "source": "kadoa_congress_monitor"
     },
     {
+      "id": "house_9116376_g20",
+      "symbol": "PHM",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "buy",
+      "transaction_date": "2026-09-11",
+      "filing_date": "2026-10-07",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
       "id": "house_9116376_g19",
       "symbol": "NEW",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "buy",
+      "transaction_date": "2026-09-11",
+      "filing_date": "2026-10-07",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_9116376_g18",
+      "symbol": "MCD",
       "politician": "Rohit Khanna",
       "chamber": "house",
       "party": "D",
@@ -15377,6 +15978,62 @@
       "filing_date": "2026-09-04",
       "amount_mid_usd": 75000.5,
       "amount_label": "$50,001 - $100,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_9116328_g78",
+      "symbol": "QCOM",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "buy",
+      "transaction_date": "2026-08-24",
+      "filing_date": "2026-09-04",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_9116328_g50",
+      "symbol": "CNC",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "sell",
+      "transaction_date": "2026-08-10",
+      "filing_date": "2026-09-04",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_9116328_g49",
+      "symbol": "QCOM",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "sell",
+      "transaction_date": "2026-08-10",
+      "filing_date": "2026-09-04",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_9116328_g48",
+      "symbol": "MCD",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "sell",
+      "transaction_date": "2026-08-10",
+      "filing_date": "2026-09-04",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
       "is_late": false,
       "source": "kadoa_congress_monitor"
     },
@@ -15531,6 +16188,62 @@
       "filing_date": "2026-08-21",
       "amount_mid_usd": 3000000.5,
       "amount_label": "$1,000,001 - $5,000,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_9116267_g185",
+      "symbol": "PINS",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "sell",
+      "transaction_date": "2026-07-30",
+      "filing_date": "2026-08-07",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_9116267_g187",
+      "symbol": "QCOM",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "sell",
+      "transaction_date": "2026-07-20",
+      "filing_date": "2026-08-07",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_9116267_g183",
+      "symbol": "LOW",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "sell",
+      "transaction_date": "2026-07-20",
+      "filing_date": "2026-08-07",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_9116267_g182",
+      "symbol": "MCD",
+      "politician": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "side": "sell",
+      "transaction_date": "2026-07-20",
+      "filing_date": "2026-08-07",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
       "is_late": false,
       "source": "kadoa_congress_monitor"
     },

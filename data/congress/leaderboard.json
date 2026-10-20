@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-10-19T10:18:36Z",
+  "generatedAt": "2026-10-20T10:17:16Z",
   "leaderboard": [
+    {
+      "politician": "Rohit Khanna",
+      "buys": 18,
+      "sells": 28,
+      "unique_symbols": 28,
+      "weight": 1.1,
+      "notable": true
+    },
     {
       "politician": "Michael T. McCaul",
       "buys": 13,
       "sells": 11,
       "unique_symbols": 20,
       "weight": 1.2,
-      "notable": true
-    },
-    {
-      "politician": "Rohit Khanna",
-      "buys": 13,
-      "sells": 14,
-      "unique_symbols": 15,
-      "weight": 1.1,
       "notable": true
     },
     {
@@ -43,9 +43,9 @@
     },
     {
       "politician": "Donald J Trump",
-      "buys": 498,
-      "sells": 496,
-      "unique_symbols": 460,
+      "buys": 504,
+      "sells": 498,
+      "unique_symbols": 463,
       "weight": 1.0,
       "notable": false
     },
@@ -68,8 +68,8 @@
     {
       "politician": "Tony Wied",
       "buys": 4,
-      "sells": 6,
-      "unique_symbols": 4,
+      "sells": 9,
+      "unique_symbols": 5,
       "weight": 1.0,
       "notable": false
     },
