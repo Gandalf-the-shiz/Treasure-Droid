@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-10-20T10:17:16Z",
-  "count": 1284,
+  "generatedAt": "2026-10-21T10:18:16Z",
+  "count": 1286,
   "trades": [
+    {
+      "id": "house_20035490_g1",
+      "symbol": "NOKBF",
+      "politician": "Laurel Lee",
+      "chamber": "house",
+      "party": "R",
+      "side": "buy",
+      "transaction_date": "2026-09-18",
+      "filing_date": "2026-10-16",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_20035490_g0",
+      "symbol": "BAC",
+      "politician": "Laurel Lee",
+      "chamber": "house",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2026-08-24",
+      "filing_date": "2026-10-16",
+      "amount_mid_usd": 75000.5,
+      "amount_label": "$50,001 - $100,000",
+      "is_late": true,
+      "source": "kadoa_congress_monitor"
+    },
     {
       "id": "house_20035648_g0",
       "symbol": "AZO",

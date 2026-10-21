@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T10:17:16Z",
+  "generatedAt": "2026-10-21T10:18:16Z",
   "leaderboard": [
     {
       "politician": "Rohit Khanna",
@@ -84,6 +84,14 @@
     {
       "politician": "Maria Elvira Salazar",
       "buys": 2,
+      "sells": 1,
+      "unique_symbols": 2,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
+      "politician": "Laurel Lee",
+      "buys": 1,
       "sells": 1,
       "unique_symbols": 2,
       "weight": 1.0,

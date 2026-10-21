@@ -1,9 +1,67 @@
 {
-  "generatedAt": "2026-10-20T10:17:16Z",
+  "generatedAt": "2026-10-21T10:18:16Z",
   "windowDays": 90,
-  "tradeCount": 1284,
-  "symbolCount": 557,
+  "tradeCount": 1286,
+  "symbolCount": 558,
   "bySymbol": {
+    "NOKBF": {
+      "symbol": "NOKBF",
+      "buy_count": 1,
+      "sell_count": 0,
+      "buy_notional_est": 32500.5,
+      "sell_notional_est": 0.0,
+      "politicians": [
+        "Laurel Lee"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [
+        {
+          "politician": "Laurel Lee",
+          "date": "2026-09-18",
+          "filing_date": "2026-10-16",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-10-16",
+      "net_flow_score": 1.0,
+      "congress_score": 0.065,
+      "congress_boost": 1.0097
+    },
+    "BAC": {
+      "symbol": "BAC",
+      "buy_count": 2,
+      "sell_count": 1,
+      "buy_notional_est": 65001.0,
+      "sell_notional_est": 75000.5,
+      "politicians": [
+        "Laurel Lee",
+        "Donald J Trump"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-06-12",
+          "filing_date": "2026-08-22",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-06-01",
+          "filing_date": "2026-08-22",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-10-16",
+      "net_flow_score": 0.3333,
+      "congress_score": -0.02,
+      "congress_boost": 0.997
+    },
     "AZO": {
       "symbol": "AZO",
       "buy_count": 3,
@@ -12810,38 +12868,6 @@
       "congress_score": 0.065,
       "congress_boost": 1.0097
     },
-    "BAC": {
-      "symbol": "BAC",
-      "buy_count": 2,
-      "sell_count": 0,
-      "buy_notional_est": 65001.0,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Donald J Trump"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-06-12",
-          "filing_date": "2026-08-22",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-06-01",
-          "filing_date": "2026-08-22",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-08-22",
-      "net_flow_score": 1.0,
-      "congress_score": 0.13,
-      "congress_boost": 1.0195
-    },
     "AMGN": {
       "symbol": "AMGN",
       "buy_count": 1,
@@ -13890,6 +13916,14 @@
     {
       "politician": "Maria Elvira Salazar",
       "buys": 2,
+      "sells": 1,
+      "unique_symbols": 2,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
+      "politician": "Laurel Lee",
+      "buys": 1,
       "sells": 1,
       "unique_symbols": 2,
       "weight": 1.0,
