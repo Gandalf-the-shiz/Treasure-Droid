@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T10:17:54Z",
+  "generatedAt": "2026-10-26T10:20:46Z",
   "leaderboard": [
     {
       "politician": "Rohit Khanna",
@@ -28,8 +28,8 @@
     {
       "politician": "Thomas H Tuberville",
       "buys": 3,
-      "sells": 7,
-      "unique_symbols": 9,
+      "sells": 1,
+      "unique_symbols": 4,
       "weight": 1.4,
       "notable": true
     },
@@ -98,6 +98,22 @@
       "notable": false
     },
     {
+      "politician": "Michael J Kratsios",
+      "buys": 1,
+      "sells": 1,
+      "unique_symbols": 2,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
+      "politician": "Alan Armstrong",
+      "buys": 1,
+      "sells": 1,
+      "unique_symbols": 1,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
       "politician": "Laurel Lee",
       "buys": 1,
       "sells": 1,
@@ -115,14 +131,6 @@
     },
     {
       "politician": "A. Mitchell",
-      "buys": 1,
-      "sells": 0,
-      "unique_symbols": 1,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "Alan Armstrong",
       "buys": 1,
       "sells": 0,
       "unique_symbols": 1,
@@ -150,6 +158,14 @@
       "buys": 1,
       "sells": 0,
       "unique_symbols": 1,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
+      "politician": "Scott A Kupor",
+      "buys": 0,
+      "sells": 13,
+      "unique_symbols": 8,
       "weight": 1.0,
       "notable": false
     },
@@ -190,14 +206,6 @@
       "buys": 0,
       "sells": 3,
       "unique_symbols": 3,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "Scott A Kupor",
-      "buys": 0,
-      "sells": 7,
-      "unique_symbols": 7,
       "weight": 1.0,
       "notable": false
     },
