@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T10:14:33Z",
+  "generatedAt": "2026-10-30T10:14:24Z",
   "trades90d": [
     {
       "id": "house_9116378_g87",
@@ -1049,62 +1049,6 @@
       "amount_mid_usd": 32500.5,
       "amount_label": "$15,001 - $50,000",
       "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "senate_57cf1745-e3dd-4afd-8685-228153848631_t3",
-      "symbol": "AAPL",
-      "politician": "Thomas H Tuberville",
-      "chamber": "senate",
-      "party": "R",
-      "side": "sell",
-      "transaction_date": "2025-12-17",
-      "filing_date": "2026-08-05",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": true,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "senate_57cf1745-e3dd-4afd-8685-228153848631_t2",
-      "symbol": "XLV",
-      "politician": "Thomas H Tuberville",
-      "chamber": "senate",
-      "party": "R",
-      "side": "buy",
-      "transaction_date": "2025-12-17",
-      "filing_date": "2026-08-05",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": true,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "senate_57cf1745-e3dd-4afd-8685-228153848631_t1",
-      "symbol": "XLP",
-      "politician": "Thomas H Tuberville",
-      "chamber": "senate",
-      "party": "R",
-      "side": "buy",
-      "transaction_date": "2025-12-17",
-      "filing_date": "2026-08-05",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": true,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "senate_57cf1745-e3dd-4afd-8685-228153848631_t0",
-      "symbol": "XLU",
-      "politician": "Thomas H Tuberville",
-      "chamber": "senate",
-      "party": "R",
-      "side": "buy",
-      "transaction_date": "2025-12-17",
-      "filing_date": "2026-08-05",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": true,
       "source": "kadoa_congress_monitor"
     }
   ],
@@ -2157,62 +2101,6 @@
       "amount_mid_usd": 32500.5,
       "amount_label": "$15,001 - $50,000",
       "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "senate_57cf1745-e3dd-4afd-8685-228153848631_t3",
-      "symbol": "AAPL",
-      "politician": "Thomas H Tuberville",
-      "chamber": "senate",
-      "party": "R",
-      "side": "sell",
-      "transaction_date": "2025-12-17",
-      "filing_date": "2026-08-05",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": true,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "senate_57cf1745-e3dd-4afd-8685-228153848631_t2",
-      "symbol": "XLV",
-      "politician": "Thomas H Tuberville",
-      "chamber": "senate",
-      "party": "R",
-      "side": "buy",
-      "transaction_date": "2025-12-17",
-      "filing_date": "2026-08-05",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": true,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "senate_57cf1745-e3dd-4afd-8685-228153848631_t1",
-      "symbol": "XLP",
-      "politician": "Thomas H Tuberville",
-      "chamber": "senate",
-      "party": "R",
-      "side": "buy",
-      "transaction_date": "2025-12-17",
-      "filing_date": "2026-08-05",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": true,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "senate_57cf1745-e3dd-4afd-8685-228153848631_t0",
-      "symbol": "XLU",
-      "politician": "Thomas H Tuberville",
-      "chamber": "senate",
-      "party": "R",
-      "side": "buy",
-      "transaction_date": "2025-12-17",
-      "filing_date": "2026-08-05",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": true,
       "source": "kadoa_congress_monitor"
     }
   ]

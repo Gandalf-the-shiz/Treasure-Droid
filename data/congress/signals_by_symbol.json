@@ -1,9 +1,771 @@
 {
-  "generatedAt": "2026-10-29T10:14:33Z",
+  "generatedAt": "2026-10-30T10:14:24Z",
   "windowDays": 90,
-  "tradeCount": 1295,
-  "symbolCount": 562,
+  "tradeCount": 1311,
+  "symbolCount": 559,
   "bySymbol": {
+    "AMZN": {
+      "symbol": "AMZN",
+      "buy_count": 3,
+      "sell_count": 6,
+      "buy_notional_est": 440001.5,
+      "sell_notional_est": 1107503.0,
+      "politicians": [
+        "Pete Sessions",
+        "Donald J Trump",
+        "Cory A Booker"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [
+        {
+          "politician": "Donald J Trump",
+          "date": "2024-08-26",
+          "filing_date": "2026-10-08",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2024-08-17",
+          "filing_date": "2026-10-08",
+          "amount_label": "$250,001 - $500,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-06-15",
+          "filing_date": "2026-08-22",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-10-27",
+      "net_flow_score": -0.3333,
+      "congress_score": -1.335,
+      "congress_boost": 0.7997
+    },
+    "LOW": {
+      "symbol": "LOW",
+      "buy_count": 1,
+      "sell_count": 4,
+      "buy_notional_est": 175000.5,
+      "sell_notional_est": 279002.1,
+      "politicians": [
+        "Pete Sessions",
+        "Rohit Khanna",
+        "Donald J Trump"
+      ],
+      "notable_politicians": [
+        "Rohit Khanna"
+      ],
+      "recent_buys": [
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-07-23",
+          "filing_date": "2026-09-22",
+          "amount_label": "$100,001 - $250,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-10-27",
+      "net_flow_score": -0.6,
+      "congress_score": 0.292,
+      "congress_boost": 1.0438
+    },
+    "CVX": {
+      "symbol": "CVX",
+      "buy_count": 3,
+      "sell_count": 3,
+      "buy_notional_est": 3107501.5,
+      "sell_notional_est": 97501.5,
+      "politicians": [
+        "Pete Sessions",
+        "Kevin Hern",
+        "Donald J Trump"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [
+        {
+          "politician": "Donald J Trump",
+          "date": "2024-08-26",
+          "filing_date": "2026-10-08",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2024-08-21",
+          "filing_date": "2026-10-08",
+          "amount_label": "$1,000,001 - $5,000,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-06-15",
+          "filing_date": "2026-08-22",
+          "amount_label": "$50,001 - $100,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-10-27",
+      "net_flow_score": 0.0,
+      "congress_score": 1.0,
+      "congress_boost": 1.15
+    },
+    "COST": {
+      "symbol": "COST",
+      "buy_count": 1,
+      "sell_count": 7,
+      "buy_notional_est": 175000.5,
+      "sell_notional_est": 4325003.55,
+      "politicians": [
+        "Pete Sessions",
+        "Donald J Trump",
+        "Rohit Khanna"
+      ],
+      "notable_politicians": [
+        "Rohit Khanna"
+      ],
+      "recent_buys": [
+        {
+          "politician": "Donald J Trump",
+          "date": "2024-07-27",
+          "filing_date": "2026-09-22",
+          "amount_label": "$100,001 - $250,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-10-27",
+      "net_flow_score": -0.75,
+      "congress_score": -7.8,
+      "congress_boost": -0.17
+    },
+    "WMT": {
+      "symbol": "WMT",
+      "buy_count": 3,
+      "sell_count": 6,
+      "buy_notional_est": 1100001.5,
+      "sell_notional_est": 471503.1,
+      "politicians": [
+        "Pete Sessions",
+        "Jonathan Jackson",
+        "Donald J Trump",
+        "Rohit Khanna"
+      ],
+      "notable_politicians": [
+        "Rohit Khanna"
+      ],
+      "recent_buys": [
+        {
+          "politician": "Donald J Trump",
+          "date": "2024-08-21",
+          "filing_date": "2026-10-08",
+          "amount_label": "$500,001 - $1,000,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-07-31",
+          "filing_date": "2026-09-22",
+          "amount_label": "$100,001 - $250,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-07-23",
+          "filing_date": "2026-09-22",
+          "amount_label": "$100,001 - $250,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-10-27",
+      "net_flow_score": -0.3333,
+      "congress_score": 1.0,
+      "congress_boost": 1.15
+    },
+    "V": {
+      "symbol": "V",
+      "buy_count": 6,
+      "sell_count": 3,
+      "buy_notional_est": 3935753.05,
+      "sell_notional_est": 482501.5,
+      "politicians": [
+        "Pete Sessions",
+        "Donald J Trump",
+        "Rohit Khanna"
+      ],
+      "notable_politicians": [
+        "Rohit Khanna"
+      ],
+      "recent_buys": [
+        {
+          "politician": "Donald J Trump",
+          "date": "2024-08-21",
+          "filing_date": "2026-10-08",
+          "amount_label": "$250,001 - $500,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-07-31",
+          "filing_date": "2026-09-22",
+          "amount_label": "$100,001 - $250,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2024-07-20",
+          "filing_date": "2026-09-22",
+          "amount_label": "$100,001 - $250,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-06-18",
+          "filing_date": "2026-08-22",
+          "amount_label": "$1,000,001 - $5,000,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-06-12",
+          "filing_date": "2026-08-22",
+          "amount_label": "$100,001 - $250,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-10-27",
+      "net_flow_score": 0.3333,
+      "congress_score": 1.0,
+      "congress_boost": 1.15
+    },
+    "VZ": {
+      "symbol": "VZ",
+      "buy_count": 5,
+      "sell_count": 4,
+      "buy_notional_est": 850752.55,
+      "sell_notional_est": 275752.05,
+      "politicians": [
+        "Pete Sessions",
+        "Donald J Trump",
+        "Rohit Khanna"
+      ],
+      "notable_politicians": [
+        "Rohit Khanna"
+      ],
+      "recent_buys": [
+        {
+          "politician": "Donald J Trump",
+          "date": "2024-08-21",
+          "filing_date": "2026-10-08",
+          "amount_label": "$250,001 - $500,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Rohit Khanna",
+          "date": "2026-09-25",
+          "filing_date": "2026-10-07",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.1
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-07-31",
+          "filing_date": "2026-09-22",
+          "amount_label": "$250,001 - $500,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-06-15",
+          "filing_date": "2026-08-22",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2024-06-24",
+          "filing_date": "2026-08-22",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-10-27",
+      "net_flow_score": 0.1111,
+      "congress_score": 1.0,
+      "congress_boost": 1.15
+    },
+    "TJX": {
+      "symbol": "TJX",
+      "buy_count": 0,
+      "sell_count": 3,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 97501.5,
+      "politicians": [
+        "Pete Sessions",
+        "Kevin Hern"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-10-27",
+      "net_flow_score": -1.0,
+      "congress_score": -0.195,
+      "congress_boost": 0.9708
+    },
+    "TSLA": {
+      "symbol": "TSLA",
+      "buy_count": 4,
+      "sell_count": 7,
+      "buy_notional_est": 418252.05,
+      "sell_notional_est": 415753.55,
+      "politicians": [
+        "Pete Sessions",
+        "Donald J Trump",
+        "Rohit Khanna"
+      ],
+      "notable_politicians": [
+        "Rohit Khanna"
+      ],
+      "recent_buys": [
+        {
+          "politician": "Rohit Khanna",
+          "date": "2026-09-11",
+          "filing_date": "2026-10-07",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.1
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2024-07-27",
+          "filing_date": "2026-09-22",
+          "amount_label": "$100,001 - $250,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-06-16",
+          "filing_date": "2026-08-22",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-06-15",
+          "filing_date": "2026-08-22",
+          "amount_label": "$100,001 - $250,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-10-27",
+      "net_flow_score": -0.2727,
+      "congress_score": 0.505,
+      "congress_boost": 1.0757
+    },
+    "SBUX": {
+      "symbol": "SBUX",
+      "buy_count": 0,
+      "sell_count": 3,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 97501.5,
+      "politicians": [
+        "Pete Sessions",
+        "Kevin Hern",
+        "Donald J Trump"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-10-27",
+      "net_flow_score": -1.0,
+      "congress_score": -0.195,
+      "congress_boost": 0.9708
+    },
+    "NVDA": {
+      "symbol": "NVDA",
+      "buy_count": 5,
+      "sell_count": 7,
+      "buy_notional_est": 2082502.5,
+      "sell_notional_est": 1805003.5,
+      "politicians": [
+        "Pete Sessions",
+        "Donald J Trump",
+        "Cory A Booker"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-08-03",
+          "filing_date": "2026-10-08",
+          "amount_label": "$250,001 - $500,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2024-08-26",
+          "filing_date": "2026-10-08",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2024-08-17",
+          "filing_date": "2026-10-08",
+          "amount_label": "$500,001 - $1,000,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2024-07-20",
+          "filing_date": "2026-09-22",
+          "amount_label": "$500,001 - $1,000,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-06-15",
+          "filing_date": "2026-08-22",
+          "amount_label": "$100,001 - $250,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-10-27",
+      "net_flow_score": -0.1667,
+      "congress_score": 0.555,
+      "congress_boost": 1.0833
+    },
+    "MSFT": {
+      "symbol": "MSFT",
+      "buy_count": 15,
+      "sell_count": 11,
+      "buy_notional_est": 5838257.75,
+      "sell_notional_est": 20265755.7,
+      "politicians": [
+        "Pete Sessions",
+        "Donald J Trump",
+        "Josh Gottheimer",
+        "Thomas H. Kean Jr",
+        "Gilbert Cisneros",
+        "Rohit Khanna",
+        "Kevin Hern",
+        "David J. Taylor"
+      ],
+      "notable_politicians": [
+        "Josh Gottheimer",
+        "Rohit Khanna"
+      ],
+      "recent_buys": [
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-08-28",
+          "filing_date": "2026-10-08",
+          "amount_label": "$100,001 - $250,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-08-10",
+          "filing_date": "2026-10-08",
+          "amount_label": "$1,000,001 - $5,000,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2024-08-26",
+          "filing_date": "2026-10-08",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2024-08-17",
+          "filing_date": "2026-10-08",
+          "amount_label": "$500,001 - $1,000,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-07-23",
+          "filing_date": "2026-09-22",
+          "amount_label": "$100,001 - $250,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-10-27",
+      "net_flow_score": 0.1538,
+      "congress_score": -27.855,
+      "congress_boost": -3.1783
+    },
+    "MCD": {
+      "symbol": "MCD",
+      "buy_count": 6,
+      "sell_count": 10,
+      "buy_notional_est": 4168253.05,
+      "sell_notional_est": 4244005.1,
+      "politicians": [
+        "Pete Sessions",
+        "Donald J Trump",
+        "Rohit Khanna",
+        "Cory A Booker"
+      ],
+      "notable_politicians": [
+        "Rohit Khanna"
+      ],
+      "recent_buys": [
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-08-10",
+          "filing_date": "2026-10-08",
+          "amount_label": "$1,000,001 - $5,000,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2024-08-21",
+          "filing_date": "2026-10-08",
+          "amount_label": "$500,001 - $1,000,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2024-08-17",
+          "filing_date": "2026-10-08",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Rohit Khanna",
+          "date": "2026-09-11",
+          "filing_date": "2026-10-07",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.1
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2024-07-27",
+          "filing_date": "2026-09-22",
+          "amount_label": "$100,001 - $250,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-10-27",
+      "net_flow_score": -0.25,
+      "congress_score": 0.3485,
+      "congress_boost": 1.0523
+    },
+    "MA": {
+      "symbol": "MA",
+      "buy_count": 6,
+      "sell_count": 3,
+      "buy_notional_est": 3732503.0,
+      "sell_notional_est": 140001.5,
+      "politicians": [
+        "Pete Sessions",
+        "Donald J Trump"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [
+        {
+          "politician": "Donald J Trump",
+          "date": "2024-08-21",
+          "filing_date": "2026-10-08",
+          "amount_label": "$100,001 - $250,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2024-07-20",
+          "filing_date": "2026-09-22",
+          "amount_label": "$100,001 - $250,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2024-07-08",
+          "filing_date": "2026-09-22",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-06-18",
+          "filing_date": "2026-08-22",
+          "amount_label": "$1,000,001 - $5,000,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-06-12",
+          "filing_date": "2026-08-22",
+          "amount_label": "$100,001 - $250,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-10-27",
+      "net_flow_score": 0.3333,
+      "congress_score": 1.0,
+      "congress_boost": 1.15
+    },
+    "CMG": {
+      "symbol": "CMG",
+      "buy_count": 3,
+      "sell_count": 2,
+      "buy_notional_est": 282501.5,
+      "sell_notional_est": 65001.0,
+      "politicians": [
+        "Pete Sessions",
+        "Donald J Trump"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [
+        {
+          "politician": "Donald J Trump",
+          "date": "2024-07-20",
+          "filing_date": "2026-09-22",
+          "amount_label": "$100,001 - $250,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-06-18",
+          "filing_date": "2026-08-22",
+          "amount_label": "$50,001 - $100,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-06-12",
+          "filing_date": "2026-08-22",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-10-27",
+      "net_flow_score": 0.2,
+      "congress_score": 0.435,
+      "congress_boost": 1.0653
+    },
+    "AAPL": {
+      "symbol": "AAPL",
+      "buy_count": 2,
+      "sell_count": 4,
+      "buy_notional_est": 65001.0,
+      "sell_notional_est": 800002.0,
+      "politicians": [
+        "Pete Sessions",
+        "Donald J Trump",
+        "Shri Thanedar"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-06-16",
+          "filing_date": "2026-08-22",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-06-15",
+          "filing_date": "2026-08-22",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-10-27",
+      "net_flow_score": -0.3333,
+      "congress_score": -1.47,
+      "congress_boost": 0.7795
+    },
+    "GOOG": {
+      "symbol": "GOOG",
+      "buy_count": 0,
+      "sell_count": 2,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 250001.0,
+      "politicians": [
+        "Pete Sessions",
+        "Michael Rulli"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-10-27",
+      "net_flow_score": -1.0,
+      "congress_score": -0.5,
+      "congress_boost": 0.925
+    },
+    "ABT": {
+      "symbol": "ABT",
+      "buy_count": 6,
+      "sell_count": 3,
+      "buy_notional_est": 4307503.0,
+      "sell_notional_est": 482501.5,
+      "politicians": [
+        "Pete Sessions",
+        "Donald J Trump",
+        "Richard W. Allen"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [
+        {
+          "politician": "Donald J Trump",
+          "date": "2024-08-26",
+          "filing_date": "2026-10-08",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2024-08-21",
+          "filing_date": "2026-10-08",
+          "amount_label": "$1,000,001 - $5,000,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-07-31",
+          "filing_date": "2026-09-22",
+          "amount_label": "$100,001 - $250,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-06-12",
+          "filing_date": "2026-08-22",
+          "amount_label": "$100,001 - $250,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2024-06-24",
+          "filing_date": "2026-08-22",
+          "amount_label": "$100,001 - $250,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-10-27",
+      "net_flow_score": 0.3333,
+      "congress_score": 1.0,
+      "congress_boost": 1.15
+    },
     "OKTA": {
       "symbol": "OKTA",
       "buy_count": 0,
@@ -151,66 +913,6 @@
       "net_flow_score": 0.0,
       "congress_score": -0.685,
       "congress_boost": 0.8972
-    },
-    "GOOG": {
-      "symbol": "GOOG",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 75000.5,
-      "politicians": [
-        "Michael Rulli"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-10-19",
-      "net_flow_score": -1.0,
-      "congress_score": -0.15,
-      "congress_boost": 0.9775
-    },
-    "WMT": {
-      "symbol": "WMT",
-      "buy_count": 3,
-      "sell_count": 5,
-      "buy_notional_est": 1100001.5,
-      "sell_notional_est": 396502.6,
-      "politicians": [
-        "Jonathan Jackson",
-        "Donald J Trump",
-        "Rohit Khanna"
-      ],
-      "notable_politicians": [
-        "Rohit Khanna"
-      ],
-      "recent_buys": [
-        {
-          "politician": "Donald J Trump",
-          "date": "2024-08-21",
-          "filing_date": "2026-10-08",
-          "amount_label": "$500,001 - $1,000,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-07-31",
-          "filing_date": "2026-09-22",
-          "amount_label": "$100,001 - $250,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-07-23",
-          "filing_date": "2026-09-22",
-          "amount_label": "$100,001 - $250,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-10-19",
-      "net_flow_score": -0.25,
-      "congress_score": 1.0,
-      "congress_boost": 1.15
     },
     "VSAT": {
       "symbol": "VSAT",
@@ -1115,24 +1817,6 @@
       "congress_score": -0.13,
       "congress_boost": 0.9805
     },
-    "SBUX": {
-      "symbol": "SBUX",
-      "buy_count": 0,
-      "sell_count": 2,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 65001.0,
-      "politicians": [
-        "Kevin Hern",
-        "Donald J Trump"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-10-13",
-      "net_flow_score": -1.0,
-      "congress_score": -0.13,
-      "congress_boost": 0.9805
-    },
     "MRSH": {
       "symbol": "MRSH",
       "buy_count": 0,
@@ -1184,46 +1868,6 @@
       "net_flow_score": -1.0,
       "congress_score": -0.895,
       "congress_boost": 0.8658
-    },
-    "CVX": {
-      "symbol": "CVX",
-      "buy_count": 3,
-      "sell_count": 2,
-      "buy_notional_est": 3107501.5,
-      "sell_notional_est": 65001.0,
-      "politicians": [
-        "Kevin Hern",
-        "Donald J Trump"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Donald J Trump",
-          "date": "2024-08-26",
-          "filing_date": "2026-10-08",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2024-08-21",
-          "filing_date": "2026-10-08",
-          "amount_label": "$1,000,001 - $5,000,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-06-15",
-          "filing_date": "2026-08-22",
-          "amount_label": "$50,001 - $100,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-10-13",
-      "net_flow_score": 0.2,
-      "congress_score": 1.0,
-      "congress_boost": 1.15
     },
     "ROK": {
       "symbol": "ROK",
@@ -2259,112 +2903,6 @@
       "net_flow_score": -0.0526,
       "congress_score": 1.0,
       "congress_boost": 1.15
-    },
-    "MCD": {
-      "symbol": "MCD",
-      "buy_count": 6,
-      "sell_count": 9,
-      "buy_notional_est": 4168253.05,
-      "sell_notional_est": 4211504.6,
-      "politicians": [
-        "Donald J Trump",
-        "Rohit Khanna",
-        "Cory A Booker"
-      ],
-      "notable_politicians": [
-        "Rohit Khanna"
-      ],
-      "recent_buys": [
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-08-10",
-          "filing_date": "2026-10-08",
-          "amount_label": "$1,000,001 - $5,000,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2024-08-21",
-          "filing_date": "2026-10-08",
-          "amount_label": "$500,001 - $1,000,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2024-08-17",
-          "filing_date": "2026-10-08",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Rohit Khanna",
-          "date": "2026-09-11",
-          "filing_date": "2026-10-07",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.1
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2024-07-27",
-          "filing_date": "2026-09-22",
-          "amount_label": "$100,001 - $250,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-10-08",
-      "net_flow_score": -0.2,
-      "congress_score": 0.4135,
-      "congress_boost": 1.062
-    },
-    "TSLA": {
-      "symbol": "TSLA",
-      "buy_count": 4,
-      "sell_count": 6,
-      "buy_notional_est": 418252.05,
-      "sell_notional_est": 383253.05,
-      "politicians": [
-        "Donald J Trump",
-        "Rohit Khanna"
-      ],
-      "notable_politicians": [
-        "Rohit Khanna"
-      ],
-      "recent_buys": [
-        {
-          "politician": "Rohit Khanna",
-          "date": "2026-09-11",
-          "filing_date": "2026-10-07",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.1
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2024-07-27",
-          "filing_date": "2026-09-22",
-          "amount_label": "$100,001 - $250,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-06-16",
-          "filing_date": "2026-08-22",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-06-15",
-          "filing_date": "2026-08-22",
-          "amount_label": "$100,001 - $250,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-10-08",
-      "net_flow_score": -0.2,
-      "congress_score": 0.57,
-      "congress_boost": 1.0855
     },
     "AMRZ": {
       "symbol": "AMRZ",
@@ -3753,68 +4291,6 @@
       "congress_score": -5.8435,
       "congress_boost": 0.1235
     },
-    "MSFT": {
-      "symbol": "MSFT",
-      "buy_count": 15,
-      "sell_count": 10,
-      "buy_notional_est": 5838257.75,
-      "sell_notional_est": 19890755.2,
-      "politicians": [
-        "Donald J Trump",
-        "Josh Gottheimer",
-        "Thomas H. Kean Jr",
-        "Gilbert Cisneros",
-        "Rohit Khanna",
-        "Kevin Hern",
-        "David J. Taylor"
-      ],
-      "notable_politicians": [
-        "Josh Gottheimer",
-        "Rohit Khanna"
-      ],
-      "recent_buys": [
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-08-28",
-          "filing_date": "2026-10-08",
-          "amount_label": "$100,001 - $250,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-08-10",
-          "filing_date": "2026-10-08",
-          "amount_label": "$1,000,001 - $5,000,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2024-08-26",
-          "filing_date": "2026-10-08",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2024-08-17",
-          "filing_date": "2026-10-08",
-          "amount_label": "$500,001 - $1,000,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-07-23",
-          "filing_date": "2026-09-22",
-          "amount_label": "$100,001 - $250,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-10-08",
-      "net_flow_score": 0.2,
-      "congress_score": -27.105,
-      "congress_boost": -3.0657
-    },
     "CMCSA": {
       "symbol": "CMCSA",
       "buy_count": 4,
@@ -3877,60 +4353,6 @@
       "net_flow_score": -1.0,
       "congress_score": -6.0,
       "congress_boost": 0.1
-    },
-    "NVDA": {
-      "symbol": "NVDA",
-      "buy_count": 5,
-      "sell_count": 6,
-      "buy_notional_est": 2082502.5,
-      "sell_notional_est": 1772503.0,
-      "politicians": [
-        "Donald J Trump",
-        "Cory A Booker"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-08-03",
-          "filing_date": "2026-10-08",
-          "amount_label": "$250,001 - $500,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2024-08-26",
-          "filing_date": "2026-10-08",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2024-08-17",
-          "filing_date": "2026-10-08",
-          "amount_label": "$500,001 - $1,000,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2024-07-20",
-          "filing_date": "2026-09-22",
-          "amount_label": "$500,001 - $1,000,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-06-15",
-          "filing_date": "2026-08-22",
-          "amount_label": "$100,001 - $250,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-10-08",
-      "net_flow_score": -0.0909,
-      "congress_score": 0.62,
-      "congress_boost": 1.093
     },
     "AVGO": {
       "symbol": "AVGO",
@@ -3998,46 +4420,6 @@
       "net_flow_score": -1.0,
       "congress_score": -0.13,
       "congress_boost": 0.9805
-    },
-    "AMZN": {
-      "symbol": "AMZN",
-      "buy_count": 3,
-      "sell_count": 4,
-      "buy_notional_est": 440001.5,
-      "sell_notional_est": 900002.0,
-      "politicians": [
-        "Donald J Trump",
-        "Cory A Booker"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Donald J Trump",
-          "date": "2024-08-26",
-          "filing_date": "2026-10-08",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2024-08-17",
-          "filing_date": "2026-10-08",
-          "amount_label": "$250,001 - $500,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-06-15",
-          "filing_date": "2026-08-22",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-10-08",
-      "net_flow_score": -0.1429,
-      "congress_score": -0.92,
-      "congress_boost": 0.862
     },
     "RMD": {
       "symbol": "RMD",
@@ -4128,60 +4510,6 @@
       "net_flow_score": -1.0,
       "congress_score": -0.065,
       "congress_boost": 0.9902
-    },
-    "ABT": {
-      "symbol": "ABT",
-      "buy_count": 6,
-      "sell_count": 2,
-      "buy_notional_est": 4307503.0,
-      "sell_notional_est": 407501.0,
-      "politicians": [
-        "Donald J Trump",
-        "Richard W. Allen"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Donald J Trump",
-          "date": "2024-08-26",
-          "filing_date": "2026-10-08",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2024-08-21",
-          "filing_date": "2026-10-08",
-          "amount_label": "$1,000,001 - $5,000,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-07-31",
-          "filing_date": "2026-09-22",
-          "amount_label": "$100,001 - $250,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-06-12",
-          "filing_date": "2026-08-22",
-          "amount_label": "$100,001 - $250,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2024-06-24",
-          "filing_date": "2026-08-22",
-          "amount_label": "$100,001 - $250,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-10-08",
-      "net_flow_score": 0.5,
-      "congress_score": 1.0,
-      "congress_boost": 1.15
     },
     "GEHC": {
       "symbol": "GEHC",
@@ -5142,59 +5470,6 @@
       "congress_score": 0.2,
       "congress_boost": 1.03
     },
-    "MA": {
-      "symbol": "MA",
-      "buy_count": 6,
-      "sell_count": 2,
-      "buy_notional_est": 3732503.0,
-      "sell_notional_est": 107501.0,
-      "politicians": [
-        "Donald J Trump"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Donald J Trump",
-          "date": "2024-08-21",
-          "filing_date": "2026-10-08",
-          "amount_label": "$100,001 - $250,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2024-07-20",
-          "filing_date": "2026-09-22",
-          "amount_label": "$100,001 - $250,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2024-07-08",
-          "filing_date": "2026-09-22",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-06-18",
-          "filing_date": "2026-08-22",
-          "amount_label": "$1,000,001 - $5,000,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-06-12",
-          "filing_date": "2026-08-22",
-          "amount_label": "$100,001 - $250,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-10-08",
-      "net_flow_score": 0.5,
-      "congress_score": 1.0,
-      "congress_boost": 1.15
-    },
     "COF": {
       "symbol": "COF",
       "buy_count": 2,
@@ -5226,62 +5501,6 @@
       "net_flow_score": 1.0,
       "congress_score": 0.5,
       "congress_boost": 1.075
-    },
-    "VZ": {
-      "symbol": "VZ",
-      "buy_count": 5,
-      "sell_count": 3,
-      "buy_notional_est": 850752.55,
-      "sell_notional_est": 243251.55,
-      "politicians": [
-        "Donald J Trump",
-        "Rohit Khanna"
-      ],
-      "notable_politicians": [
-        "Rohit Khanna"
-      ],
-      "recent_buys": [
-        {
-          "politician": "Donald J Trump",
-          "date": "2024-08-21",
-          "filing_date": "2026-10-08",
-          "amount_label": "$250,001 - $500,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Rohit Khanna",
-          "date": "2026-09-25",
-          "filing_date": "2026-10-07",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.1
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-07-31",
-          "filing_date": "2026-09-22",
-          "amount_label": "$250,001 - $500,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-06-15",
-          "filing_date": "2026-08-22",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2024-06-24",
-          "filing_date": "2026-08-22",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-10-08",
-      "net_flow_score": 0.25,
-      "congress_score": 1.0,
-      "congress_boost": 1.15
     },
     "BX": {
       "symbol": "BX",
@@ -5424,62 +5643,6 @@
       "net_flow_score": 0.3333,
       "congress_score": 0.75,
       "congress_boost": 1.1125
-    },
-    "V": {
-      "symbol": "V",
-      "buy_count": 6,
-      "sell_count": 2,
-      "buy_notional_est": 3935753.05,
-      "sell_notional_est": 450001.0,
-      "politicians": [
-        "Donald J Trump",
-        "Rohit Khanna"
-      ],
-      "notable_politicians": [
-        "Rohit Khanna"
-      ],
-      "recent_buys": [
-        {
-          "politician": "Donald J Trump",
-          "date": "2024-08-21",
-          "filing_date": "2026-10-08",
-          "amount_label": "$250,001 - $500,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-07-31",
-          "filing_date": "2026-09-22",
-          "amount_label": "$100,001 - $250,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2024-07-20",
-          "filing_date": "2026-09-22",
-          "amount_label": "$100,001 - $250,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-06-18",
-          "filing_date": "2026-08-22",
-          "amount_label": "$1,000,001 - $5,000,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-06-12",
-          "filing_date": "2026-08-22",
-          "amount_label": "$100,001 - $250,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-10-08",
-      "net_flow_score": 0.5,
-      "congress_score": 1.0,
-      "congress_boost": 1.15
     },
     "DIS": {
       "symbol": "DIS",
@@ -6209,34 +6372,6 @@
       "congress_score": 1.0,
       "congress_boost": 1.15
     },
-    "LOW": {
-      "symbol": "LOW",
-      "buy_count": 1,
-      "sell_count": 3,
-      "buy_notional_est": 175000.5,
-      "sell_notional_est": 246501.59999999998,
-      "politicians": [
-        "Rohit Khanna",
-        "Donald J Trump"
-      ],
-      "notable_politicians": [
-        "Rohit Khanna"
-      ],
-      "recent_buys": [
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-07-23",
-          "filing_date": "2026-09-22",
-          "amount_label": "$100,001 - $250,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-10-07",
-      "net_flow_score": -0.5,
-      "congress_score": 0.357,
-      "congress_boost": 1.0535
-    },
     "PLD": {
       "symbol": "PLD",
       "buy_count": 1,
@@ -6549,23 +6684,6 @@
       "congress_score": -0.215,
       "congress_boost": 0.9677
     },
-    "TJX": {
-      "symbol": "TJX",
-      "buy_count": 0,
-      "sell_count": 2,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 65001.0,
-      "politicians": [
-        "Kevin Hern"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-09-25",
-      "net_flow_score": -1.0,
-      "congress_score": -0.13,
-      "congress_boost": 0.9805
-    },
     "ORLY": {
       "symbol": "ORLY",
       "buy_count": 0,
@@ -6768,43 +6886,6 @@
       "net_flow_score": -1.0,
       "congress_score": -0.065,
       "congress_boost": 0.9902
-    },
-    "AAPL": {
-      "symbol": "AAPL",
-      "buy_count": 2,
-      "sell_count": 4,
-      "buy_notional_est": 65001.0,
-      "sell_notional_est": 530002.2,
-      "politicians": [
-        "Pete Sessions",
-        "Donald J Trump",
-        "Shri Thanedar",
-        "Thomas H Tuberville"
-      ],
-      "notable_politicians": [
-        "Thomas H Tuberville"
-      ],
-      "recent_buys": [
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-06-16",
-          "filing_date": "2026-08-22",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-06-15",
-          "filing_date": "2026-08-22",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-09-22",
-      "net_flow_score": -0.3333,
-      "congress_score": -0.43,
-      "congress_boost": 0.9355
     },
     "BNS": {
       "symbol": "BNS",
@@ -7427,34 +7508,6 @@
       "net_flow_score": 0.0,
       "congress_score": -0.2,
       "congress_boost": 0.97
-    },
-    "COST": {
-      "symbol": "COST",
-      "buy_count": 1,
-      "sell_count": 5,
-      "buy_notional_est": 175000.5,
-      "sell_notional_est": 3775002.55,
-      "politicians": [
-        "Donald J Trump",
-        "Rohit Khanna"
-      ],
-      "notable_politicians": [
-        "Rohit Khanna"
-      ],
-      "recent_buys": [
-        {
-          "politician": "Donald J Trump",
-          "date": "2024-07-27",
-          "filing_date": "2026-09-22",
-          "amount_label": "$100,001 - $250,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-09-22",
-      "net_flow_score": -0.6667,
-      "congress_score": -6.7,
-      "congress_boost": -0.005
     },
     "JCI": {
       "symbol": "JCI",
@@ -10265,45 +10318,6 @@
       "net_flow_score": 1.0,
       "congress_score": 1.0,
       "congress_boost": 1.15
-    },
-    "CMG": {
-      "symbol": "CMG",
-      "buy_count": 3,
-      "sell_count": 1,
-      "buy_notional_est": 282501.5,
-      "sell_notional_est": 32500.5,
-      "politicians": [
-        "Donald J Trump"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Donald J Trump",
-          "date": "2024-07-20",
-          "filing_date": "2026-09-22",
-          "amount_label": "$100,001 - $250,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-06-18",
-          "filing_date": "2026-08-22",
-          "amount_label": "$50,001 - $100,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-06-12",
-          "filing_date": "2026-08-22",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-09-22",
-      "net_flow_score": 0.5,
-      "congress_score": 0.5,
-      "congress_boost": 1.075
     },
     "PAYX": {
       "symbol": "PAYX",
@@ -13841,87 +13855,6 @@
       "net_flow_score": -1.0,
       "congress_score": 0.4285,
       "congress_boost": 1.0643
-    },
-    "XLV": {
-      "symbol": "XLV",
-      "buy_count": 1,
-      "sell_count": 0,
-      "buy_notional_est": 45500.7,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Thomas H Tuberville"
-      ],
-      "notable_politicians": [
-        "Thomas H Tuberville"
-      ],
-      "recent_buys": [
-        {
-          "politician": "Thomas H Tuberville",
-          "date": "2025-12-17",
-          "filing_date": "2026-08-05",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.4
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-08-05",
-      "net_flow_score": 1.0,
-      "congress_score": 0.591,
-      "congress_boost": 1.0886
-    },
-    "XLP": {
-      "symbol": "XLP",
-      "buy_count": 1,
-      "sell_count": 0,
-      "buy_notional_est": 45500.7,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Thomas H Tuberville"
-      ],
-      "notable_politicians": [
-        "Thomas H Tuberville"
-      ],
-      "recent_buys": [
-        {
-          "politician": "Thomas H Tuberville",
-          "date": "2025-12-17",
-          "filing_date": "2026-08-05",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.4
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-08-05",
-      "net_flow_score": 1.0,
-      "congress_score": 0.591,
-      "congress_boost": 1.0886
-    },
-    "XLU": {
-      "symbol": "XLU",
-      "buy_count": 1,
-      "sell_count": 0,
-      "buy_notional_est": 45500.7,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Thomas H Tuberville"
-      ],
-      "notable_politicians": [
-        "Thomas H Tuberville"
-      ],
-      "recent_buys": [
-        {
-          "politician": "Thomas H Tuberville",
-          "date": "2025-12-17",
-          "filing_date": "2026-08-05",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.4
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-08-05",
-      "net_flow_score": 1.0,
-      "congress_score": 0.591,
-      "congress_boost": 1.0886
     }
   },
   "leaderboard": [
@@ -13947,14 +13880,6 @@
       "sells": 0,
       "unique_symbols": 2,
       "weight": 2.0,
-      "notable": true
-    },
-    {
-      "politician": "Thomas H Tuberville",
-      "buys": 3,
-      "sells": 1,
-      "unique_symbols": 4,
-      "weight": 1.4,
       "notable": true
     },
     {
@@ -14086,6 +14011,14 @@
       "notable": false
     },
     {
+      "politician": "Pete Sessions",
+      "buys": 0,
+      "sells": 23,
+      "unique_symbols": 20,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
       "politician": "Scott A Kupor",
       "buys": 0,
       "sells": 13,
@@ -14122,14 +14055,6 @@
       "buys": 0,
       "sells": 1,
       "unique_symbols": 1,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "Pete Sessions",
-      "buys": 0,
-      "sells": 3,
-      "unique_symbols": 3,
       "weight": 1.0,
       "notable": false
     },
@@ -15280,62 +15205,6 @@
       "amount_label": "$15,001 - $50,000",
       "is_late": false,
       "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "senate_57cf1745-e3dd-4afd-8685-228153848631_t3",
-      "symbol": "AAPL",
-      "politician": "Thomas H Tuberville",
-      "chamber": "senate",
-      "party": "R",
-      "side": "sell",
-      "transaction_date": "2025-12-17",
-      "filing_date": "2026-08-05",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": true,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "senate_57cf1745-e3dd-4afd-8685-228153848631_t2",
-      "symbol": "XLV",
-      "politician": "Thomas H Tuberville",
-      "chamber": "senate",
-      "party": "R",
-      "side": "buy",
-      "transaction_date": "2025-12-17",
-      "filing_date": "2026-08-05",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": true,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "senate_57cf1745-e3dd-4afd-8685-228153848631_t1",
-      "symbol": "XLP",
-      "politician": "Thomas H Tuberville",
-      "chamber": "senate",
-      "party": "R",
-      "side": "buy",
-      "transaction_date": "2025-12-17",
-      "filing_date": "2026-08-05",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": true,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "senate_57cf1745-e3dd-4afd-8685-228153848631_t0",
-      "symbol": "XLU",
-      "politician": "Thomas H Tuberville",
-      "chamber": "senate",
-      "party": "R",
-      "side": "buy",
-      "transaction_date": "2025-12-17",
-      "filing_date": "2026-08-05",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": true,
-      "source": "kadoa_congress_monitor"
     }
   ],
   "watchlistHistory": [
@@ -16387,62 +16256,6 @@
       "amount_mid_usd": 32500.5,
       "amount_label": "$15,001 - $50,000",
       "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "senate_57cf1745-e3dd-4afd-8685-228153848631_t3",
-      "symbol": "AAPL",
-      "politician": "Thomas H Tuberville",
-      "chamber": "senate",
-      "party": "R",
-      "side": "sell",
-      "transaction_date": "2025-12-17",
-      "filing_date": "2026-08-05",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": true,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "senate_57cf1745-e3dd-4afd-8685-228153848631_t2",
-      "symbol": "XLV",
-      "politician": "Thomas H Tuberville",
-      "chamber": "senate",
-      "party": "R",
-      "side": "buy",
-      "transaction_date": "2025-12-17",
-      "filing_date": "2026-08-05",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": true,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "senate_57cf1745-e3dd-4afd-8685-228153848631_t1",
-      "symbol": "XLP",
-      "politician": "Thomas H Tuberville",
-      "chamber": "senate",
-      "party": "R",
-      "side": "buy",
-      "transaction_date": "2025-12-17",
-      "filing_date": "2026-08-05",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": true,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "senate_57cf1745-e3dd-4afd-8685-228153848631_t0",
-      "symbol": "XLU",
-      "politician": "Thomas H Tuberville",
-      "chamber": "senate",
-      "party": "R",
-      "side": "buy",
-      "transaction_date": "2025-12-17",
-      "filing_date": "2026-08-05",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": true,
       "source": "kadoa_congress_monitor"
     }
   ]
