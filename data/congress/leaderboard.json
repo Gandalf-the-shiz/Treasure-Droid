@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T10:14:24Z",
+  "generatedAt": "2026-11-02T10:14:09Z",
   "leaderboard": [
     {
       "politician": "Rohit Khanna",
@@ -90,6 +90,14 @@
       "notable": false
     },
     {
+      "politician": "Diana Harshbarger",
+      "buys": 1,
+      "sells": 0,
+      "unique_symbols": 1,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
       "politician": "Michael J Kratsios",
       "buys": 1,
       "sells": 1,
@@ -154,6 +162,14 @@
       "notable": false
     },
     {
+      "politician": "Kevin Hern",
+      "buys": 0,
+      "sells": 73,
+      "unique_symbols": 42,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
       "politician": "Pete Sessions",
       "buys": 0,
       "sells": 23,
@@ -182,14 +198,6 @@
       "buys": 0,
       "sells": 3,
       "unique_symbols": 3,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "Kevin Hern",
-      "buys": 0,
-      "sells": 70,
-      "unique_symbols": 39,
       "weight": 1.0,
       "notable": false
     },

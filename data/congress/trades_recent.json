@@ -1,7 +1,49 @@
 {
-  "generatedAt": "2026-10-30T10:14:24Z",
-  "count": 1311,
+  "generatedAt": "2026-11-02T10:14:09Z",
+  "count": 1315,
   "trades": [
+    {
+      "id": "house_20035710_g1",
+      "symbol": "STX",
+      "politician": "Kevin Hern",
+      "chamber": "house",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2026-10-23",
+      "filing_date": "2026-10-28",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_20035710_g0",
+      "symbol": "ASML",
+      "politician": "Kevin Hern",
+      "chamber": "house",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2026-10-23",
+      "filing_date": "2026-10-28",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_20035710_g2",
+      "symbol": "TXN",
+      "politician": "Kevin Hern",
+      "chamber": "house",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2026-10-14",
+      "filing_date": "2026-10-28",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
     {
       "id": "house_20035563_g3",
       "symbol": "AMZN",
@@ -279,6 +321,20 @@
       "filing_date": "2026-10-27",
       "amount_mid_usd": 75000.5,
       "amount_label": "$50,001 - $100,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
+    {
+      "id": "house_9116391_g10",
+      "symbol": "CSCO",
+      "politician": "Diana Harshbarger",
+      "chamber": "house",
+      "party": "R",
+      "side": "buy",
+      "transaction_date": "2026-09-22",
+      "filing_date": "2026-10-27",
+      "amount_mid_usd": 32500.5,
+      "amount_label": "$15,001 - $50,000",
       "is_late": false,
       "source": "kadoa_congress_monitor"
     },
