@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T10:14:09Z",
+  "generatedAt": "2026-11-03T10:13:36Z",
   "trades90d": [
     {
       "id": "house_9116378_g87",
@@ -1031,20 +1031,6 @@
       "party": "D",
       "side": "sell",
       "transaction_date": "2026-07-07",
-      "filing_date": "2026-08-07",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "house_9116267_g186",
-      "symbol": "ZBH",
-      "politician": "Rohit Khanna",
-      "chamber": "house",
-      "party": "D",
-      "side": "sell",
-      "transaction_date": "2026-07-06",
       "filing_date": "2026-08-07",
       "amount_mid_usd": 32500.5,
       "amount_label": "$15,001 - $50,000",
@@ -2083,20 +2069,6 @@
       "party": "D",
       "side": "sell",
       "transaction_date": "2026-07-07",
-      "filing_date": "2026-08-07",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "house_9116267_g186",
-      "symbol": "ZBH",
-      "politician": "Rohit Khanna",
-      "chamber": "house",
-      "party": "D",
-      "side": "sell",
-      "transaction_date": "2026-07-06",
       "filing_date": "2026-08-07",
       "amount_mid_usd": 32500.5,
       "amount_label": "$15,001 - $50,000",

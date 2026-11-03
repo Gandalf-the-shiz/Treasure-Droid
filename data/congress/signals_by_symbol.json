@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T10:14:09Z",
+  "generatedAt": "2026-11-03T10:13:36Z",
   "windowDays": 90,
   "tradeCount": 1315,
   "symbolCount": 559,
@@ -864,6 +864,23 @@
       "net_flow_score": 0.3333,
       "congress_score": 0.665,
       "congress_boost": 1.0998
+    },
+    "STLN": {
+      "symbol": "STLN",
+      "buy_count": 0,
+      "sell_count": 2,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 65001.0,
+      "politicians": [
+        "Richard Blumenthal"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-10-26",
+      "net_flow_score": -1.0,
+      "congress_score": -0.13,
+      "congress_boost": 0.9805
     },
     "OKTA": {
       "symbol": "OKTA",
@@ -11875,28 +11892,20 @@
     },
     "CB": {
       "symbol": "CB",
-      "buy_count": 1,
+      "buy_count": 0,
       "sell_count": 1,
-      "buy_notional_est": 32500.5,
+      "buy_notional_est": 0.0,
       "sell_notional_est": 32500.5,
       "politicians": [
         "Maria Elvira Salazar"
       ],
       "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Maria Elvira Salazar",
-          "date": "2026-07-01",
-          "filing_date": "2026-08-07",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
+      "recent_buys": [],
       "pelosi_buy": false,
       "last_filing_date": "2026-09-09",
-      "net_flow_score": 0.0,
-      "congress_score": 0.0,
-      "congress_boost": 1.0
+      "net_flow_score": -1.0,
+      "congress_score": -0.065,
+      "congress_boost": 0.9902
     },
     "CPAY": {
       "symbol": "CPAY",
@@ -13847,33 +13856,14 @@
       "net_flow_score": -1.0,
       "congress_score": -0.065,
       "congress_boost": 0.9902
-    },
-    "ZBH": {
-      "symbol": "ZBH",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 35750.55,
-      "politicians": [
-        "Rohit Khanna"
-      ],
-      "notable_politicians": [
-        "Rohit Khanna"
-      ],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-08-07",
-      "net_flow_score": -1.0,
-      "congress_score": 0.4285,
-      "congress_boost": 1.0643
     }
   },
   "leaderboard": [
     {
       "politician": "Rohit Khanna",
       "buys": 18,
-      "sells": 28,
-      "unique_symbols": 28,
+      "sells": 27,
+      "unique_symbols": 27,
       "weight": 1.1,
       "notable": true
     },
@@ -13950,14 +13940,6 @@
       "notable": false
     },
     {
-      "politician": "Maria Elvira Salazar",
-      "buys": 2,
-      "sells": 1,
-      "unique_symbols": 2,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
       "politician": "Diana Harshbarger",
       "buys": 1,
       "sells": 0,
@@ -14014,6 +13996,14 @@
       "notable": false
     },
     {
+      "politician": "Maria Elvira Salazar",
+      "buys": 1,
+      "sells": 1,
+      "unique_symbols": 2,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
       "politician": "Steve Cohen",
       "buys": 1,
       "sells": 0,
@@ -14042,6 +14032,14 @@
       "buys": 0,
       "sells": 23,
       "unique_symbols": 20,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
+      "politician": "Richard Blumenthal",
+      "buys": 0,
+      "sells": 2,
+      "unique_symbols": 1,
       "weight": 1.0,
       "notable": false
     },
@@ -15210,20 +15208,6 @@
       "amount_label": "$15,001 - $50,000",
       "is_late": false,
       "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "house_9116267_g186",
-      "symbol": "ZBH",
-      "politician": "Rohit Khanna",
-      "chamber": "house",
-      "party": "D",
-      "side": "sell",
-      "transaction_date": "2026-07-06",
-      "filing_date": "2026-08-07",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
     }
   ],
   "watchlistHistory": [
@@ -16257,20 +16241,6 @@
       "party": "D",
       "side": "sell",
       "transaction_date": "2026-07-07",
-      "filing_date": "2026-08-07",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "house_9116267_g186",
-      "symbol": "ZBH",
-      "politician": "Rohit Khanna",
-      "chamber": "house",
-      "party": "D",
-      "side": "sell",
-      "transaction_date": "2026-07-06",
       "filing_date": "2026-08-07",
       "amount_mid_usd": 32500.5,
       "amount_label": "$15,001 - $50,000",
