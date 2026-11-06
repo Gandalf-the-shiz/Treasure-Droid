@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-05T10:13:23Z",
+  "generatedAt": "2026-11-06T10:12:36Z",
   "leaderboard": [
     {
       "politician": "Rohit Khanna",
-      "buys": 18,
-      "sells": 27,
-      "unique_symbols": 27,
+      "buys": 17,
+      "sells": 19,
+      "unique_symbols": 24,
       "weight": 1.1,
       "notable": true
     },
@@ -299,14 +299,6 @@
     },
     {
       "politician": "Mike Kelly",
-      "buys": 0,
-      "sells": 1,
-      "unique_symbols": 1,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "Christian D. Menefee",
       "buys": 0,
       "sells": 1,
       "unique_symbols": 1,
