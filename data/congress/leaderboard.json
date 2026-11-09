@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T10:12:36Z",
+  "generatedAt": "2026-11-09T10:13:01Z",
   "leaderboard": [
     {
       "politician": "Rohit Khanna",
@@ -154,10 +154,10 @@
       "notable": false
     },
     {
-      "politician": "Frank J Bisignano",
-      "buys": 1,
-      "sells": 0,
-      "unique_symbols": 1,
+      "politician": "Sheldon Whitehouse",
+      "buys": 0,
+      "sells": 2,
+      "unique_symbols": 2,
       "weight": 1.0,
       "notable": false
     },
@@ -206,14 +206,6 @@
       "buys": 0,
       "sells": 3,
       "unique_symbols": 3,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "Sheldon Whitehouse",
-      "buys": 0,
-      "sells": 1,
-      "unique_symbols": 1,
       "weight": 1.0,
       "notable": false
     },

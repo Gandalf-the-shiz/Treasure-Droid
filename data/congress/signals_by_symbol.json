@@ -1,9 +1,35 @@
 {
-  "generatedAt": "2026-11-06T10:12:36Z",
+  "generatedAt": "2026-11-09T10:13:01Z",
   "windowDays": 90,
   "tradeCount": 1305,
   "symbolCount": 559,
   "bySymbol": {
+    "AMGN": {
+      "symbol": "AMGN",
+      "buy_count": 1,
+      "sell_count": 1,
+      "buy_notional_est": 32500.5,
+      "sell_notional_est": 32500.5,
+      "politicians": [
+        "Sheldon Whitehouse",
+        "Donald J Trump"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-06-12",
+          "filing_date": "2026-08-22",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-11-02",
+      "net_flow_score": 0.0,
+      "congress_score": 0.0,
+      "congress_boost": 1.0
+    },
     "STX": {
       "symbol": "STX",
       "buy_count": 0,
@@ -13066,31 +13092,6 @@
       "congress_score": 0.065,
       "congress_boost": 1.0097
     },
-    "AMGN": {
-      "symbol": "AMGN",
-      "buy_count": 1,
-      "sell_count": 0,
-      "buy_notional_est": 32500.5,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Donald J Trump"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-06-12",
-          "filing_date": "2026-08-22",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-08-22",
-      "net_flow_score": 1.0,
-      "congress_score": 0.065,
-      "congress_boost": 1.0097
-    },
     "COR": {
       "symbol": "COR",
       "buy_count": 1,
@@ -13723,13 +13724,12 @@
     },
     "SPY": {
       "symbol": "SPY",
-      "buy_count": 2,
+      "buy_count": 1,
       "sell_count": 0,
-      "buy_notional_est": 3075001.0,
+      "buy_notional_est": 3000000.5,
       "sell_notional_est": 0.0,
       "politicians": [
-        "Donald J Trump",
-        "Frank J Bisignano"
+        "Donald J Trump"
       ],
       "notable_politicians": [],
       "recent_buys": [
@@ -13738,13 +13738,6 @@
           "date": "2024-06-02",
           "filing_date": "2026-08-22",
           "amount_label": "$1,000,001 - $5,000,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Frank J Bisignano",
-          "date": "2026-06-16",
-          "filing_date": "2026-08-08",
-          "amount_label": "$50,001 - $100,000",
           "weight": 1.0
         }
       ],
@@ -14011,10 +14004,10 @@
       "notable": false
     },
     {
-      "politician": "Frank J Bisignano",
-      "buys": 1,
-      "sells": 0,
-      "unique_symbols": 1,
+      "politician": "Sheldon Whitehouse",
+      "buys": 0,
+      "sells": 2,
+      "unique_symbols": 2,
       "weight": 1.0,
       "notable": false
     },
@@ -14063,14 +14056,6 @@
       "buys": 0,
       "sells": 3,
       "unique_symbols": 3,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "Sheldon Whitehouse",
-      "buys": 0,
-      "sells": 1,
-      "unique_symbols": 1,
       "weight": 1.0,
       "notable": false
     },
