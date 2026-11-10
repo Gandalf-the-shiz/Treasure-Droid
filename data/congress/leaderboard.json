@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-09T10:13:01Z",
+  "generatedAt": "2026-11-10T10:12:24Z",
   "leaderboard": [
     {
       "politician": "Rohit Khanna",
-      "buys": 17,
-      "sells": 19,
-      "unique_symbols": 24,
+      "buys": 26,
+      "sells": 23,
+      "unique_symbols": 28,
       "weight": 1.1,
       "notable": true
     },
@@ -20,8 +20,8 @@
     {
       "politician": "Nancy Pelosi",
       "buys": 3,
-      "sells": 0,
-      "unique_symbols": 2,
+      "sells": 1,
+      "unique_symbols": 3,
       "weight": 2.0,
       "notable": true
     },
@@ -286,14 +286,6 @@
       "buys": 0,
       "sells": 4,
       "unique_symbols": 4,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "Mike Kelly",
-      "buys": 0,
-      "sells": 1,
-      "unique_symbols": 1,
       "weight": 1.0,
       "notable": false
     }
