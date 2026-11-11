@@ -1,7 +1,21 @@
 {
-  "generatedAt": "2026-11-10T10:12:24Z",
-  "count": 2958,
+  "generatedAt": "2026-11-11T10:12:35Z",
+  "count": 2956,
   "trades": [
+    {
+      "id": "house_20024921_g0",
+      "symbol": "WBD",
+      "politician": "David Kustoff",
+      "chamber": "house",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2026-10-07",
+      "filing_date": "2026-11-09",
+      "amount_mid_usd": 8000.5,
+      "amount_label": "$1,001 - $15,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
     {
       "id": "house_20035775_g0",
       "symbol": "WDC",
@@ -41361,48 +41375,6 @@
     {
       "id": "house_9116292_g8",
       "symbol": "META",
-      "politician": "Tracey Robert Mann",
-      "chamber": "house",
-      "party": "R",
-      "side": "sell",
-      "transaction_date": "2024-09-09",
-      "filing_date": "2026-08-13",
-      "amount_mid_usd": 8000.5,
-      "amount_label": "$1,001 - $15,000",
-      "is_late": true,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "house_9116292_g7",
-      "symbol": "MSFT",
-      "politician": "Tracey Robert Mann",
-      "chamber": "house",
-      "party": "R",
-      "side": "sell",
-      "transaction_date": "2024-09-09",
-      "filing_date": "2026-08-13",
-      "amount_mid_usd": 8000.5,
-      "amount_label": "$1,001 - $15,000",
-      "is_late": true,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "house_9116292_g6",
-      "symbol": "GOOGL",
-      "politician": "Tracey Robert Mann",
-      "chamber": "house",
-      "party": "R",
-      "side": "sell",
-      "transaction_date": "2024-09-09",
-      "filing_date": "2026-08-13",
-      "amount_mid_usd": 8000.5,
-      "amount_label": "$1,001 - $15,000",
-      "is_late": true,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "house_9116292_g5",
-      "symbol": "AAPL",
       "politician": "Tracey Robert Mann",
       "chamber": "house",
       "party": "R",
