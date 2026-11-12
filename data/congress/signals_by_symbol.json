@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-11T10:12:35Z",
+  "generatedAt": "2026-11-12T10:12:35Z",
   "windowDays": 90,
-  "tradeCount": 1318,
-  "symbolCount": 560,
+  "tradeCount": 1312,
+  "symbolCount": 558,
   "bySymbol": {
     "WBD": {
       "symbol": "WBD",
@@ -475,14 +475,13 @@
     "AAPL": {
       "symbol": "AAPL",
       "buy_count": 3,
-      "sell_count": 4,
+      "sell_count": 3,
       "buy_notional_est": 100751.55,
-      "sell_notional_est": 800002.0,
+      "sell_notional_est": 625001.5,
       "politicians": [
         "Rohit Khanna",
         "Pete Sessions",
-        "Donald J Trump",
-        "Shri Thanedar"
+        "Donald J Trump"
       ],
       "notable_politicians": [
         "Rohit Khanna"
@@ -512,9 +511,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-11-05",
-      "net_flow_score": -0.1429,
-      "congress_score": -0.8985,
-      "congress_boost": 0.8652
+      "net_flow_score": 0.0,
+      "congress_score": -0.5485,
+      "congress_boost": 0.9177
     },
     "AXP": {
       "symbol": "AXP",
@@ -7448,12 +7447,11 @@
     "PFE": {
       "symbol": "PFE",
       "buy_count": 2,
-      "sell_count": 3,
+      "sell_count": 2,
       "buy_notional_est": 207501.0,
-      "sell_notional_est": 140001.5,
+      "sell_notional_est": 107501.0,
       "politicians": [
-        "Donald J Trump",
-        "Carol Devine Miller"
+        "Donald J Trump"
       ],
       "notable_politicians": [],
       "recent_buys": [
@@ -7474,9 +7472,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-09-22",
-      "net_flow_score": -0.2,
-      "congress_score": 0.135,
-      "congress_boost": 1.0203
+      "net_flow_score": 0.0,
+      "congress_score": 0.2,
+      "congress_boost": 1.03
     },
     "FAST": {
       "symbol": "FAST",
@@ -7714,20 +7712,19 @@
     "DGX": {
       "symbol": "DGX",
       "buy_count": 0,
-      "sell_count": 2,
+      "sell_count": 1,
       "buy_notional_est": 0.0,
-      "sell_notional_est": 65001.0,
+      "sell_notional_est": 32500.5,
       "politicians": [
-        "Donald J Trump",
-        "Carol Devine Miller"
+        "Donald J Trump"
       ],
       "notable_politicians": [],
       "recent_buys": [],
       "pelosi_buy": false,
       "last_filing_date": "2026-09-22",
       "net_flow_score": -1.0,
-      "congress_score": -0.13,
-      "congress_boost": 0.9805
+      "congress_score": -0.065,
+      "congress_boost": 0.9902
     },
     "LYB": {
       "symbol": "LYB",
@@ -10365,12 +10362,11 @@
     "TGT": {
       "symbol": "TGT",
       "buy_count": 1,
-      "sell_count": 1,
+      "sell_count": 0,
       "buy_notional_est": 175000.5,
-      "sell_notional_est": 32500.5,
+      "sell_notional_est": 0.0,
       "politicians": [
-        "Donald J Trump",
-        "Carol Devine Miller"
+        "Donald J Trump"
       ],
       "notable_politicians": [],
       "recent_buys": [
@@ -10384,9 +10380,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-09-22",
-      "net_flow_score": 0.0,
-      "congress_score": 0.285,
-      "congress_boost": 1.0428
+      "net_flow_score": 1.0,
+      "congress_score": 0.35,
+      "congress_boost": 1.0525
     },
     "AXON": {
       "symbol": "AXON",
@@ -13862,40 +13858,6 @@
       "net_flow_score": -1.0,
       "congress_score": -1.5,
       "congress_boost": 0.775
-    },
-    "MSTR": {
-      "symbol": "MSTR",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 32500.5,
-      "politicians": [
-        "Shri Thanedar"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-08-13",
-      "net_flow_score": -1.0,
-      "congress_score": -0.065,
-      "congress_boost": 0.9902
-    },
-    "USB": {
-      "symbol": "USB",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 32500.5,
-      "politicians": [
-        "Carol Devine Miller"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-08-13",
-      "net_flow_score": -1.0,
-      "congress_score": -0.065,
-      "congress_boost": 0.9902
     }
   },
   "leaderboard": [
@@ -14168,22 +14130,6 @@
       "buys": 0,
       "sells": 1,
       "unique_symbols": 1,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "Shri Thanedar",
-      "buys": 0,
-      "sells": 2,
-      "unique_symbols": 2,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "Carol Devine Miller",
-      "buys": 0,
-      "sells": 4,
-      "unique_symbols": 4,
       "weight": 1.0,
       "notable": false
     }

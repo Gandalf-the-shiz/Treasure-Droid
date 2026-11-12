@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-11T10:12:35Z",
-  "count": 1318,
+  "generatedAt": "2026-11-12T10:12:35Z",
+  "count": 1312,
   "trades": [
     {
       "id": "house_20035780_g0",
@@ -18368,90 +18368,6 @@
       "amount_mid_usd": 175000.5,
       "amount_label": "$100,001 - $250,000",
       "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "house_20033910_g0",
-      "symbol": "AAPL",
-      "politician": "Shri Thanedar",
-      "chamber": "house",
-      "party": "D",
-      "side": "sell",
-      "transaction_date": "2026-01-09",
-      "filing_date": "2026-08-13",
-      "amount_mid_usd": 175000.5,
-      "amount_label": "$100,001 - $250,000",
-      "is_late": true,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "house_20033910_g1",
-      "symbol": "MSTR",
-      "politician": "Shri Thanedar",
-      "chamber": "house",
-      "party": "D",
-      "side": "sell",
-      "transaction_date": "2025-10-21",
-      "filing_date": "2026-08-13",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": true,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "house_20033779_g3",
-      "symbol": "USB",
-      "politician": "Carol Devine Miller",
-      "chamber": "house",
-      "party": "R",
-      "side": "sell",
-      "transaction_date": "2025-03-10",
-      "filing_date": "2026-08-13",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": true,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "house_20033779_g2",
-      "symbol": "TGT",
-      "politician": "Carol Devine Miller",
-      "chamber": "house",
-      "party": "R",
-      "side": "sell",
-      "transaction_date": "2025-03-10",
-      "filing_date": "2026-08-13",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": true,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "house_20033779_g1",
-      "symbol": "DGX",
-      "politician": "Carol Devine Miller",
-      "chamber": "house",
-      "party": "R",
-      "side": "sell",
-      "transaction_date": "2025-03-10",
-      "filing_date": "2026-08-13",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": true,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "house_20033779_g0",
-      "symbol": "PFE",
-      "politician": "Carol Devine Miller",
-      "chamber": "house",
-      "party": "R",
-      "side": "sell",
-      "transaction_date": "2025-03-10",
-      "filing_date": "2026-08-13",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": true,
       "source": "kadoa_congress_monitor"
     }
   ]
