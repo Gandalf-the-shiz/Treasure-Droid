@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T10:12:35Z",
+  "generatedAt": "2026-11-13T10:12:26Z",
   "leaderboard": [
     {
       "politician": "Rohit Khanna",
@@ -43,9 +43,9 @@
     },
     {
       "politician": "Gilbert Cisneros",
-      "buys": 11,
-      "sells": 15,
-      "unique_symbols": 21,
+      "buys": 14,
+      "sells": 18,
+      "unique_symbols": 26,
       "weight": 1.0,
       "notable": false
     },

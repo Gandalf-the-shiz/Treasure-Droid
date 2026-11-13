@@ -1,9 +1,152 @@
 {
-  "generatedAt": "2026-11-12T10:12:35Z",
+  "generatedAt": "2026-11-13T10:12:26Z",
   "windowDays": 90,
-  "tradeCount": 1312,
-  "symbolCount": 558,
+  "tradeCount": 1318,
+  "symbolCount": 560,
   "bySymbol": {
+    "PTC": {
+      "symbol": "PTC",
+      "buy_count": 1,
+      "sell_count": 4,
+      "buy_notional_est": 750000.5,
+      "sell_notional_est": 215002.0,
+      "politicians": [
+        "Gilbert Cisneros",
+        "Kevin Hern",
+        "Donald J Trump"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [
+        {
+          "politician": "Donald J Trump",
+          "date": "2024-07-20",
+          "filing_date": "2026-09-22",
+          "amount_label": "$500,001 - $1,000,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-11-10",
+      "net_flow_score": -0.6,
+      "congress_score": 1.0,
+      "congress_boost": 1.15
+    },
+    "STRC": {
+      "symbol": "STRC",
+      "buy_count": 1,
+      "sell_count": 1,
+      "buy_notional_est": 32500.5,
+      "sell_notional_est": 75000.5,
+      "politicians": [
+        "Gilbert Cisneros"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [
+        {
+          "politician": "Gilbert Cisneros",
+          "date": "2026-06-05",
+          "filing_date": "2026-11-10",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-11-10",
+      "net_flow_score": 0.0,
+      "congress_score": -0.085,
+      "congress_boost": 0.9872
+    },
+    "MBGL": {
+      "symbol": "MBGL",
+      "buy_count": 2,
+      "sell_count": 1,
+      "buy_notional_est": 150001.0,
+      "sell_notional_est": 32500.5,
+      "politicians": [
+        "Gilbert Cisneros",
+        "Donald J Trump"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [
+        {
+          "politician": "Gilbert Cisneros",
+          "date": "2026-10-15",
+          "filing_date": "2026-11-10",
+          "amount_label": "$50,001 - $100,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2024-07-17",
+          "filing_date": "2026-09-22",
+          "amount_label": "$50,001 - $100,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-11-10",
+      "net_flow_score": 0.3333,
+      "congress_score": 0.235,
+      "congress_boost": 1.0353
+    },
+    "ARGX": {
+      "symbol": "ARGX",
+      "buy_count": 1,
+      "sell_count": 0,
+      "buy_notional_est": 32500.5,
+      "sell_notional_est": 0.0,
+      "politicians": [
+        "Gilbert Cisneros"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [
+        {
+          "politician": "Gilbert Cisneros",
+          "date": "2026-10-14",
+          "filing_date": "2026-11-10",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-11-10",
+      "net_flow_score": 1.0,
+      "congress_score": 0.065,
+      "congress_boost": 1.0097
+    },
+    "APP": {
+      "symbol": "APP",
+      "buy_count": 2,
+      "sell_count": 2,
+      "buy_notional_est": 107501.0,
+      "sell_notional_est": 407501.0,
+      "politicians": [
+        "Gilbert Cisneros",
+        "Donald J Trump"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-08-28",
+          "filing_date": "2026-10-08",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-06-18",
+          "filing_date": "2026-08-22",
+          "amount_label": "$50,001 - $100,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-11-10",
+      "net_flow_score": 0.0,
+      "congress_score": -0.6,
+      "congress_boost": 0.91
+    },
     "WBD": {
       "symbol": "WBD",
       "buy_count": 0,
@@ -3858,38 +4001,6 @@
       "congress_score": -0.285,
       "congress_boost": 0.9573
     },
-    "APP": {
-      "symbol": "APP",
-      "buy_count": 2,
-      "sell_count": 1,
-      "buy_notional_est": 107501.0,
-      "sell_notional_est": 375000.5,
-      "politicians": [
-        "Donald J Trump"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-08-28",
-          "filing_date": "2026-10-08",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-06-18",
-          "filing_date": "2026-08-22",
-          "amount_label": "$50,001 - $100,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-10-08",
-      "net_flow_score": 0.3333,
-      "congress_score": -0.535,
-      "congress_boost": 0.9197
-    },
     "AES": {
       "symbol": "AES",
       "buy_count": 1,
@@ -6771,32 +6882,6 @@
       "net_flow_score": -1.0,
       "congress_score": -0.13,
       "congress_boost": 0.9805
-    },
-    "PTC": {
-      "symbol": "PTC",
-      "buy_count": 1,
-      "sell_count": 3,
-      "buy_notional_est": 750000.5,
-      "sell_notional_est": 182501.5,
-      "politicians": [
-        "Kevin Hern",
-        "Donald J Trump"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Donald J Trump",
-          "date": "2024-07-20",
-          "filing_date": "2026-09-22",
-          "amount_label": "$500,001 - $1,000,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-09-25",
-      "net_flow_score": -0.5,
-      "congress_score": 1.0,
-      "congress_boost": 1.15
     },
     "ITW": {
       "symbol": "ITW",
@@ -10067,31 +10152,6 @@
       "net_flow_score": 0.0,
       "congress_score": 0.0,
       "congress_boost": 1.0
-    },
-    "MBGL": {
-      "symbol": "MBGL",
-      "buy_count": 1,
-      "sell_count": 1,
-      "buy_notional_est": 75000.5,
-      "sell_notional_est": 32500.5,
-      "politicians": [
-        "Donald J Trump"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Donald J Trump",
-          "date": "2024-07-17",
-          "filing_date": "2026-09-22",
-          "amount_label": "$50,001 - $100,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-09-22",
-      "net_flow_score": 0.0,
-      "congress_score": 0.085,
-      "congress_boost": 1.0128
     },
     "MRCY": {
       "symbol": "MRCY",
@@ -13903,9 +13963,9 @@
     },
     {
       "politician": "Gilbert Cisneros",
-      "buys": 11,
-      "sells": 15,
-      "unique_symbols": 21,
+      "buys": 14,
+      "sells": 18,
+      "unique_symbols": 26,
       "weight": 1.0,
       "notable": false
     },
