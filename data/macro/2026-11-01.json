@@ -1,19 +1,19 @@
 {
   "date": "2026-11-01",
-  "generatedAt": "2026-11-08T05:11:30Z",
+  "generatedAt": "2026-11-15T05:11:08Z",
   "fredApiAvailable": false,
   "series": {
     "DFF": 3.88,
     "T10Y2Y": 0.38,
     "VIXCLS": 19.42,
     "UMCSENT": 48.1,
-    "ICSA": 189000.0,
+    "ICSA": 191000.0,
     "SP500": 7580.07,
     "M2SL": 23413.9,
     "T10Y3M": 0.78,
     "BAMLH0A0HYM2": 3.44,
     "UNRATE": 4.1,
-    "CPIAUCSL": 336.298,
+    "CPIAUCSL": 337.476,
     "INDPRO": 103.9506
   },
   "seriesSource": {
@@ -36,11 +36,11 @@
     "macro_spread_norm": 0.595,
     "macro_fed_norm": 0.388,
     "macro_sentiment_norm": 0.0,
-    "macro_claims_norm": 0.9133,
+    "macro_claims_norm": 0.9089,
     "macro_t10y3m_norm": 0.695,
     "macro_hy_oas_norm": 0.18,
     "macro_unrate_norm": 0.8429,
-    "macro_cpi_norm": 0.863,
+    "macro_cpi_norm": 0.8748,
     "macro_indpro_norm": 0.6975,
     "macro_sp500_norm": 1.0,
     "macro_m2_norm": 0.9023
