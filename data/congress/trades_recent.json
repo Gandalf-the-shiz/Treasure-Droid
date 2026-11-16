@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-13T10:12:26Z",
-  "count": 1318,
+  "generatedAt": "2026-11-16T10:15:46Z",
+  "count": 1317,
   "trades": [
     {
       "id": "house_20035788_g44",
@@ -18437,20 +18437,6 @@
       "filing_date": "2026-08-18",
       "amount_mid_usd": 32500.5,
       "amount_label": "$15,001 - $50,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "house_20035235_g0",
-      "symbol": "JPM",
-      "politician": "Steve Cohen",
-      "chamber": "house",
-      "party": "D",
-      "side": "buy",
-      "transaction_date": "2026-08-05",
-      "filing_date": "2026-08-17",
-      "amount_mid_usd": 175000.5,
-      "amount_label": "$100,001 - $250,000",
       "is_late": false,
       "source": "kadoa_congress_monitor"
     }

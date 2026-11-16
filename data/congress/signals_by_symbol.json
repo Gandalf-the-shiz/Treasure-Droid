@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-13T10:12:26Z",
+  "generatedAt": "2026-11-16T10:15:46Z",
   "windowDays": 90,
-  "tradeCount": 1318,
+  "tradeCount": 1317,
   "symbolCount": 560,
   "bySymbol": {
     "PTC": {
@@ -490,15 +490,14 @@
     },
     "JPM": {
       "symbol": "JPM",
-      "buy_count": 9,
+      "buy_count": 8,
       "sell_count": 2,
-      "buy_notional_est": 755004.6000000001,
+      "buy_notional_est": 580004.1000000001,
       "sell_notional_est": 207501.0,
       "politicians": [
         "Rohit Khanna",
         "Sheldon Whitehouse",
-        "Donald J Trump",
-        "Steve Cohen"
+        "Donald J Trump"
       ],
       "notable_politicians": [
         "Rohit Khanna"
@@ -542,7 +541,7 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-11-05",
-      "net_flow_score": 0.6364,
+      "net_flow_score": 0.6,
       "congress_score": 1.0,
       "congress_boost": 1.15
     },
@@ -14062,14 +14061,6 @@
       "buys": 1,
       "sells": 1,
       "unique_symbols": 2,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "Steve Cohen",
-      "buys": 1,
-      "sells": 0,
-      "unique_symbols": 1,
       "weight": 1.0,
       "notable": false
     },

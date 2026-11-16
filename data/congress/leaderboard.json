@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T10:12:26Z",
+  "generatedAt": "2026-11-16T10:15:46Z",
   "leaderboard": [
     {
       "politician": "Rohit Khanna",
@@ -142,14 +142,6 @@
       "buys": 1,
       "sells": 1,
       "unique_symbols": 2,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "Steve Cohen",
-      "buys": 1,
-      "sells": 0,
-      "unique_symbols": 1,
       "weight": 1.0,
       "notable": false
     },
