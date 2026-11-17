@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T10:15:46Z",
+  "generatedAt": "2026-11-17T10:12:37Z",
   "leaderboard": [
     {
       "politician": "Rohit Khanna",
@@ -58,14 +58,6 @@
       "notable": false
     },
     {
-      "politician": "Tony Wied",
-      "buys": 4,
-      "sells": 9,
-      "unique_symbols": 5,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
       "politician": "Jonathan Jackson",
       "buys": 3,
       "sells": 2,
@@ -78,6 +70,14 @@
       "buys": 3,
       "sells": 1,
       "unique_symbols": 4,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
+      "politician": "Tony Wied",
+      "buys": 3,
+      "sells": 5,
+      "unique_symbols": 5,
       "weight": 1.0,
       "notable": false
     },
@@ -196,8 +196,8 @@
     {
       "politician": "Richard W. Allen",
       "buys": 0,
-      "sells": 3,
-      "unique_symbols": 3,
+      "sells": 2,
+      "unique_symbols": 2,
       "weight": 1.0,
       "notable": false
     },

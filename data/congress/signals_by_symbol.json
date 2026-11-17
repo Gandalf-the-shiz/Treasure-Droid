@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-16T10:15:46Z",
+  "generatedAt": "2026-11-17T10:12:37Z",
   "windowDays": 90,
-  "tradeCount": 1317,
+  "tradeCount": 1311,
   "symbolCount": 560,
   "bySymbol": {
     "PTC": {
@@ -1417,13 +1417,12 @@
     "ABT": {
       "symbol": "ABT",
       "buy_count": 6,
-      "sell_count": 3,
+      "sell_count": 2,
       "buy_notional_est": 4307503.0,
-      "sell_notional_est": 482501.5,
+      "sell_notional_est": 450001.0,
       "politicians": [
         "Pete Sessions",
-        "Donald J Trump",
-        "Richard W. Allen"
+        "Donald J Trump"
       ],
       "notable_politicians": [],
       "recent_buys": [
@@ -1465,7 +1464,7 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-10-27",
-      "net_flow_score": 0.3333,
+      "net_flow_score": 0.5,
       "congress_score": 1.0,
       "congress_boost": 1.15
     },
@@ -3856,29 +3855,21 @@
     },
     "UPST": {
       "symbol": "UPST",
-      "buy_count": 1,
+      "buy_count": 0,
       "sell_count": 3,
-      "buy_notional_est": 32500.5,
+      "buy_notional_est": 0.0,
       "sell_notional_est": 97501.5,
       "politicians": [
         "Donald J Trump",
         "Tony Wied"
       ],
       "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Tony Wied",
-          "date": "2026-07-14",
-          "filing_date": "2026-08-18",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
+      "recent_buys": [],
       "pelosi_buy": false,
       "last_filing_date": "2026-10-08",
-      "net_flow_score": -0.5,
-      "congress_score": -0.13,
-      "congress_boost": 0.9805
+      "net_flow_score": -1.0,
+      "congress_score": -0.195,
+      "congress_boost": 0.9708
     },
     "MKL": {
       "symbol": "MKL",
@@ -5362,9 +5353,9 @@
     "TTD": {
       "symbol": "TTD",
       "buy_count": 2,
-      "sell_count": 6,
+      "sell_count": 5,
       "buy_notional_est": 407501.0,
-      "sell_notional_est": 537503.0,
+      "sell_notional_est": 505002.5,
       "politicians": [
         "Donald J Trump",
         "Tony Wied"
@@ -5388,9 +5379,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-10-08",
-      "net_flow_score": -0.5,
-      "congress_score": -0.26,
-      "congress_boost": 0.961
+      "net_flow_score": -0.4286,
+      "congress_score": -0.195,
+      "congress_boost": 0.9708
     },
     "INVH": {
       "symbol": "INVH",
@@ -6470,9 +6461,9 @@
     "NOW": {
       "symbol": "NOW",
       "buy_count": 5,
-      "sell_count": 4,
+      "sell_count": 3,
       "buy_notional_est": 1165002.5,
-      "sell_notional_est": 172502.0,
+      "sell_notional_est": 140001.5,
       "politicians": [
         "Donald J Trump",
         "Tony Wied"
@@ -6517,16 +6508,16 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-10-08",
-      "net_flow_score": 0.1111,
+      "net_flow_score": 0.25,
       "congress_score": 1.0,
       "congress_boost": 1.15
     },
     "CRM": {
       "symbol": "CRM",
       "buy_count": 6,
-      "sell_count": 3,
+      "sell_count": 2,
       "buy_notional_est": 3490003.0,
-      "sell_notional_est": 240001.5,
+      "sell_notional_est": 207501.0,
       "politicians": [
         "Donald J Trump",
         "Tony Wied"
@@ -6571,7 +6562,7 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-10-08",
-      "net_flow_score": 0.3333,
+      "net_flow_score": 0.5,
       "congress_score": 1.0,
       "congress_boost": 1.15
     },
@@ -12215,9 +12206,9 @@
     "HUBS": {
       "symbol": "HUBS",
       "buy_count": 1,
-      "sell_count": 2,
+      "sell_count": 1,
       "buy_notional_est": 32500.5,
-      "sell_notional_est": 65001.0,
+      "sell_notional_est": 32500.5,
       "politicians": [
         "Tony Wied",
         "Donald J Trump"
@@ -12234,9 +12225,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-09-02",
-      "net_flow_score": -0.3333,
-      "congress_score": -0.065,
-      "congress_boost": 0.9902
+      "net_flow_score": 0.0,
+      "congress_score": 0.0,
+      "congress_boost": 1.0
     },
     "ICLR": {
       "symbol": "ICLR",
@@ -13977,14 +13968,6 @@
       "notable": false
     },
     {
-      "politician": "Tony Wied",
-      "buys": 4,
-      "sells": 9,
-      "unique_symbols": 5,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
       "politician": "Jonathan Jackson",
       "buys": 3,
       "sells": 2,
@@ -13997,6 +13980,14 @@
       "buys": 3,
       "sells": 1,
       "unique_symbols": 4,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
+      "politician": "Tony Wied",
+      "buys": 3,
+      "sells": 5,
+      "unique_symbols": 5,
       "weight": 1.0,
       "notable": false
     },
@@ -14115,8 +14106,8 @@
     {
       "politician": "Richard W. Allen",
       "buys": 0,
-      "sells": 3,
-      "unique_symbols": 3,
+      "sells": 2,
+      "unique_symbols": 2,
       "weight": 1.0,
       "notable": false
     },
