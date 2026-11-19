@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-18T10:13:03Z",
+  "generatedAt": "2026-11-19T10:12:39Z",
   "windowDays": 90,
-  "tradeCount": 1311,
-  "symbolCount": 560,
+  "tradeCount": 1306,
+  "symbolCount": 559,
   "bySymbol": {
     "PTC": {
       "symbol": "PTC",
@@ -1184,9 +1184,9 @@
     "MSFT": {
       "symbol": "MSFT",
       "buy_count": 15,
-      "sell_count": 10,
+      "sell_count": 9,
       "buy_notional_est": 5838257.75,
-      "sell_notional_est": 20230005.15,
+      "sell_notional_est": 20197504.65,
       "politicians": [
         "Pete Sessions",
         "Donald J Trump",
@@ -1194,8 +1194,7 @@
         "Thomas H. Kean Jr",
         "Gilbert Cisneros",
         "Rohit Khanna",
-        "Kevin Hern",
-        "David J. Taylor"
+        "Kevin Hern"
       ],
       "notable_politicians": [
         "Josh Gottheimer",
@@ -1240,9 +1239,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-10-27",
-      "net_flow_score": 0.2,
-      "congress_score": -27.7835,
-      "congress_boost": -3.1675
+      "net_flow_score": 0.25,
+      "congress_score": -27.7185,
+      "congress_boost": -3.1578
     },
     "MCD": {
       "symbol": "MCD",
@@ -1521,9 +1520,9 @@
     "OKTA": {
       "symbol": "OKTA",
       "buy_count": 0,
-      "sell_count": 3,
+      "sell_count": 2,
       "buy_notional_est": 0.0,
-      "sell_notional_est": 6175001.5,
+      "sell_notional_est": 3175001.0,
       "politicians": [
         "Scott A Kupor"
       ],
@@ -1532,8 +1531,8 @@
       "pelosi_buy": false,
       "last_filing_date": "2026-10-24",
       "net_flow_score": -1.0,
-      "congress_score": -12.35,
-      "congress_boost": -0.8525
+      "congress_score": -6.35,
+      "congress_boost": 0.0475
     },
     "ABNB": {
       "symbol": "ABNB",
@@ -1623,9 +1622,9 @@
     "IOT": {
       "symbol": "IOT",
       "buy_count": 0,
-      "sell_count": 2,
+      "sell_count": 1,
       "buy_notional_est": 0.0,
-      "sell_notional_est": 6000001.0,
+      "sell_notional_est": 3000000.5,
       "politicians": [
         "Scott A Kupor"
       ],
@@ -1634,8 +1633,8 @@
       "pelosi_buy": false,
       "last_filing_date": "2026-10-24",
       "net_flow_score": -1.0,
-      "congress_score": -12.0,
-      "congress_boost": -0.8
+      "congress_score": -6.0,
+      "congress_boost": 0.1
     },
     "WMB": {
       "symbol": "WMB",
@@ -6633,12 +6632,11 @@
     "T": {
       "symbol": "T",
       "buy_count": 3,
-      "sell_count": 3,
+      "sell_count": 2,
       "buy_notional_est": 382501.5,
-      "sell_notional_est": 140001.5,
+      "sell_notional_est": 65001.0,
       "politicians": [
-        "Donald J Trump",
-        "Tim Moore"
+        "Donald J Trump"
       ],
       "notable_politicians": [],
       "recent_buys": [
@@ -6666,9 +6664,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-10-08",
-      "net_flow_score": 0.0,
-      "congress_score": 0.485,
-      "congress_boost": 1.0728
+      "net_flow_score": 0.2,
+      "congress_score": 0.635,
+      "congress_boost": 1.0953
     },
     "CME": {
       "symbol": "CME",
@@ -13891,23 +13889,6 @@
       "net_flow_score": -1.0,
       "congress_score": -0.35,
       "congress_boost": 0.9475
-    },
-    "OMDA": {
-      "symbol": "OMDA",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 750000.5,
-      "politicians": [
-        "Scott A Kupor"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-08-21",
-      "net_flow_score": -1.0,
-      "congress_score": -1.5,
-      "congress_boost": 0.775
     }
   },
   "leaderboard": [
@@ -14090,8 +14071,8 @@
     {
       "politician": "Scott A Kupor",
       "buys": 0,
-      "sells": 13,
-      "unique_symbols": 8,
+      "sells": 10,
+      "unique_symbols": 7,
       "weight": 1.0,
       "notable": false
     },
@@ -14153,22 +14134,6 @@
     },
     {
       "politician": "Kelly Louise Morrison",
-      "buys": 0,
-      "sells": 1,
-      "unique_symbols": 1,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "Tim Moore",
-      "buys": 0,
-      "sells": 1,
-      "unique_symbols": 1,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "David J. Taylor",
       "buys": 0,
       "sells": 1,
       "unique_symbols": 1,

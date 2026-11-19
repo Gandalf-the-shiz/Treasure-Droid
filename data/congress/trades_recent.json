@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-18T10:13:03Z",
-  "count": 1311,
+  "generatedAt": "2026-11-19T10:12:39Z",
+  "count": 1306,
   "trades": [
     {
       "id": "house_20035788_g44",
@@ -18283,76 +18283,6 @@
       "filing_date": "2026-08-21",
       "amount_mid_usd": 175000.5,
       "amount_label": "$100,001 - $250,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Scott-A-Kupor-07_20_2026-278T_pdf_g1",
-      "symbol": "OKTA",
-      "politician": "Scott A Kupor",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-07-17",
-      "filing_date": "2026-08-21",
-      "amount_mid_usd": 3000000.5,
-      "amount_label": "$1,000,001 - $5,000,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Scott-A-Kupor-07_15_2026-278T_pdf_g1",
-      "symbol": "IOT",
-      "politician": "Scott A Kupor",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-07-14",
-      "filing_date": "2026-08-21",
-      "amount_mid_usd": 3000000.5,
-      "amount_label": "$1,000,001 - $5,000,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "oge_Scott-A-Kupor-07_15_2026-278T_pdf_g0",
-      "symbol": "OMDA",
-      "politician": "Scott A Kupor",
-      "chamber": "executive",
-      "party": "",
-      "side": "sell",
-      "transaction_date": "2026-07-14",
-      "filing_date": "2026-08-21",
-      "amount_mid_usd": 750000.5,
-      "amount_label": "$500,001 - $1,000,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "house_20035291_g0",
-      "symbol": "T",
-      "politician": "Tim Moore",
-      "chamber": "house",
-      "party": "R",
-      "side": "sell",
-      "transaction_date": "2026-08-14",
-      "filing_date": "2026-08-20",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "house_20035289_g2",
-      "symbol": "MSFT",
-      "politician": "David J. Taylor",
-      "chamber": "house",
-      "party": "R",
-      "side": "sell",
-      "transaction_date": "2026-08-11",
-      "filing_date": "2026-08-20",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
       "is_late": false,
       "source": "kadoa_congress_monitor"
     }

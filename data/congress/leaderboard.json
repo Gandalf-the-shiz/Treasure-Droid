@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T10:13:03Z",
+  "generatedAt": "2026-11-19T10:12:39Z",
   "leaderboard": [
     {
       "politician": "Rohit Khanna",
@@ -180,8 +180,8 @@
     {
       "politician": "Scott A Kupor",
       "buys": 0,
-      "sells": 13,
-      "unique_symbols": 8,
+      "sells": 10,
+      "unique_symbols": 7,
       "weight": 1.0,
       "notable": false
     },
@@ -243,22 +243,6 @@
     },
     {
       "politician": "Kelly Louise Morrison",
-      "buys": 0,
-      "sells": 1,
-      "unique_symbols": 1,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "Tim Moore",
-      "buys": 0,
-      "sells": 1,
-      "unique_symbols": 1,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "David J. Taylor",
       "buys": 0,
       "sells": 1,
       "unique_symbols": 1,
