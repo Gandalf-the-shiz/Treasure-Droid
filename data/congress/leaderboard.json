@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T10:12:39Z",
+  "generatedAt": "2026-11-20T10:12:36Z",
   "leaderboard": [
     {
       "politician": "Rohit Khanna",
@@ -18,14 +18,6 @@
       "notable": true
     },
     {
-      "politician": "Nancy Pelosi",
-      "buys": 3,
-      "sells": 1,
-      "unique_symbols": 3,
-      "weight": 2.0,
-      "notable": true
-    },
-    {
       "politician": "Josh Gottheimer",
       "buys": 1,
       "sells": 1,
@@ -34,10 +26,18 @@
       "notable": true
     },
     {
+      "politician": "Nancy Pelosi",
+      "buys": 0,
+      "sells": 1,
+      "unique_symbols": 1,
+      "weight": 2.0,
+      "notable": true
+    },
+    {
       "politician": "Donald J Trump",
-      "buys": 504,
-      "sells": 498,
-      "unique_symbols": 463,
+      "buys": 434,
+      "sells": 454,
+      "unique_symbols": 445,
       "weight": 1.0,
       "notable": false
     },
@@ -180,8 +180,8 @@
     {
       "politician": "Scott A Kupor",
       "buys": 0,
-      "sells": 10,
-      "unique_symbols": 7,
+      "sells": 9,
+      "unique_symbols": 6,
       "weight": 1.0,
       "notable": false
     },
