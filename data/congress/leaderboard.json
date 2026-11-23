@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T10:12:36Z",
+  "generatedAt": "2026-11-23T10:13:52Z",
   "leaderboard": [
     {
       "politician": "Rohit Khanna",
@@ -35,9 +35,9 @@
     },
     {
       "politician": "Donald J Trump",
-      "buys": 434,
-      "sells": 454,
-      "unique_symbols": 445,
+      "buys": 394,
+      "sells": 408,
+      "unique_symbols": 430,
       "weight": 1.0,
       "notable": false
     },
@@ -146,6 +146,14 @@
       "notable": false
     },
     {
+      "politician": "Thomas H. Kean Jr",
+      "buys": 0,
+      "sells": 2,
+      "unique_symbols": 1,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
       "politician": "Sheldon Whitehouse",
       "buys": 0,
       "sells": 2,
@@ -198,14 +206,6 @@
       "buys": 0,
       "sells": 2,
       "unique_symbols": 2,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "Thomas H. Kean Jr",
-      "buys": 0,
-      "sells": 1,
-      "unique_symbols": 1,
       "weight": 1.0,
       "notable": false
     },
