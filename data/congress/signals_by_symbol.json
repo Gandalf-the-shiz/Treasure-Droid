@@ -1,9 +1,35 @@
 {
-  "generatedAt": "2026-11-23T10:13:52Z",
+  "generatedAt": "2026-11-24T10:12:15Z",
   "windowDays": 90,
-  "tradeCount": 1103,
+  "tradeCount": 1102,
   "symbolCount": 527,
   "bySymbol": {
+    "GS": {
+      "symbol": "GS",
+      "buy_count": 1,
+      "sell_count": 2,
+      "buy_notional_est": 32500.5,
+      "sell_notional_est": 550001.0,
+      "politicians": [
+        "Rafael E Cruz",
+        "Donald J Trump"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [
+        {
+          "politician": "Donald J Trump",
+          "date": "2024-09-02",
+          "filing_date": "2026-11-19",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-11-20",
+      "net_flow_score": -0.3333,
+      "congress_score": -1.035,
+      "congress_boost": 0.8448
+    },
     "MSFT": {
       "symbol": "MSFT",
       "buy_count": 12,
@@ -1096,31 +1122,6 @@
       "net_flow_score": -0.5,
       "congress_score": 0.3635,
       "congress_boost": 1.0545
-    },
-    "GS": {
-      "symbol": "GS",
-      "buy_count": 1,
-      "sell_count": 1,
-      "buy_notional_est": 32500.5,
-      "sell_notional_est": 175000.5,
-      "politicians": [
-        "Donald J Trump"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Donald J Trump",
-          "date": "2024-09-02",
-          "filing_date": "2026-11-19",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-11-19",
-      "net_flow_score": 0.0,
-      "congress_score": -0.285,
-      "congress_boost": 0.9573
     },
     "DOV": {
       "symbol": "DOV",
@@ -3706,14 +3707,13 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "buy_count": 4,
-      "sell_count": 4,
+      "sell_count": 3,
       "buy_notional_est": 315002.0,
-      "sell_notional_est": 657502.0,
+      "sell_notional_est": 582501.5,
       "politicians": [
         "Donald J Trump",
         "Pete Sessions",
-        "John W. Rose",
-        "Michael Rulli"
+        "John W. Rose"
       ],
       "notable_politicians": [],
       "recent_buys": [
@@ -3748,9 +3748,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-11-19",
-      "net_flow_score": 0.0,
-      "congress_score": -0.685,
-      "congress_boost": 0.8972
+      "net_flow_score": 0.1429,
+      "congress_score": -0.535,
+      "congress_boost": 0.9197
     },
     "ORLY": {
       "symbol": "ORLY",
@@ -4132,14 +4132,13 @@
     "ACN": {
       "symbol": "ACN",
       "buy_count": 5,
-      "sell_count": 4,
+      "sell_count": 3,
       "buy_notional_est": 323252.75,
-      "sell_notional_est": 515002.0,
+      "sell_notional_est": 482501.5,
       "politicians": [
         "Rohit Khanna",
         "Michael T. McCaul",
-        "Donald J Trump",
-        "Kelly Louise Morrison"
+        "Donald J Trump"
       ],
       "notable_politicians": [
         "Rohit Khanna",
@@ -4184,9 +4183,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-11-05",
-      "net_flow_score": 0.1111,
-      "congress_score": 0.6165,
-      "congress_boost": 1.0925
+      "net_flow_score": 0.25,
+      "congress_score": 0.6815,
+      "congress_boost": 1.1022
     },
     "JNJ": {
       "symbol": "JNJ",
@@ -12808,6 +12807,14 @@
       "notable": false
     },
     {
+      "politician": "Rafael E Cruz",
+      "buys": 0,
+      "sells": 1,
+      "unique_symbols": 1,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
       "politician": "Thomas H. Kean Jr",
       "buys": 0,
       "sells": 2,
@@ -12858,8 +12865,8 @@
     {
       "politician": "Michael Rulli",
       "buys": 0,
-      "sells": 2,
-      "unique_symbols": 2,
+      "sells": 1,
+      "unique_symbols": 1,
       "weight": 1.0,
       "notable": false
     },
@@ -12897,14 +12904,6 @@
     },
     {
       "politician": "Sean McMaster",
-      "buys": 0,
-      "sells": 1,
-      "unique_symbols": 1,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "Kelly Louise Morrison",
       "buys": 0,
       "sells": 1,
       "unique_symbols": 1,

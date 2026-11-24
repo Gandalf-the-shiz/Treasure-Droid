@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T10:13:52Z",
+  "generatedAt": "2026-11-24T10:12:15Z",
   "leaderboard": [
     {
       "politician": "Rohit Khanna",
@@ -146,6 +146,14 @@
       "notable": false
     },
     {
+      "politician": "Rafael E Cruz",
+      "buys": 0,
+      "sells": 1,
+      "unique_symbols": 1,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
       "politician": "Thomas H. Kean Jr",
       "buys": 0,
       "sells": 2,
@@ -196,8 +204,8 @@
     {
       "politician": "Michael Rulli",
       "buys": 0,
-      "sells": 2,
-      "unique_symbols": 2,
+      "sells": 1,
+      "unique_symbols": 1,
       "weight": 1.0,
       "notable": false
     },
@@ -235,14 +243,6 @@
     },
     {
       "politician": "Sean McMaster",
-      "buys": 0,
-      "sells": 1,
-      "unique_symbols": 1,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "Kelly Louise Morrison",
       "buys": 0,
       "sells": 1,
       "unique_symbols": 1,

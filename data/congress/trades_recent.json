@@ -1,7 +1,21 @@
 {
-  "generatedAt": "2026-11-23T10:13:52Z",
-  "count": 1103,
+  "generatedAt": "2026-11-24T10:12:15Z",
+  "count": 1102,
   "trades": [
+    {
+      "id": "senate_f0f7eba0-ca09-4b80-a97b-64b6dafb835e_t0",
+      "symbol": "GS",
+      "politician": "Rafael E Cruz",
+      "chamber": "senate",
+      "party": "R",
+      "side": "sell",
+      "transaction_date": "2026-11-11",
+      "filing_date": "2026-11-20",
+      "amount_mid_usd": 375000.5,
+      "amount_label": "$250,001 - $500,000",
+      "is_late": false,
+      "source": "kadoa_congress_monitor"
+    },
     {
       "id": "house_20036844_g1",
       "symbol": "MSFT",
@@ -15411,34 +15425,6 @@
       "side": "sell",
       "transaction_date": "2026-08-10",
       "filing_date": "2026-09-01",
-      "amount_mid_usd": 32500.5,
-      "amount_label": "$15,001 - $50,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "house_20035309_g0",
-      "symbol": "GOOGL",
-      "politician": "Michael Rulli",
-      "chamber": "house",
-      "party": "R",
-      "side": "sell",
-      "transaction_date": "2026-08-24",
-      "filing_date": "2026-08-25",
-      "amount_mid_usd": 75000.5,
-      "amount_label": "$50,001 - $100,000",
-      "is_late": false,
-      "source": "kadoa_congress_monitor"
-    },
-    {
-      "id": "house_20035244_g2",
-      "symbol": "ACN",
-      "politician": "Kelly Louise Morrison",
-      "chamber": "house",
-      "party": "D",
-      "side": "sell",
-      "transaction_date": "2026-08-11",
-      "filing_date": "2026-08-25",
       "amount_mid_usd": 32500.5,
       "amount_label": "$15,001 - $50,000",
       "is_late": false,
