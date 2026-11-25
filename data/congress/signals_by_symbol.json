@@ -1,9 +1,67 @@
 {
-  "generatedAt": "2026-11-24T10:12:15Z",
+  "generatedAt": "2026-11-25T10:13:14Z",
   "windowDays": 90,
-  "tradeCount": 1102,
+  "tradeCount": 1101,
   "symbolCount": 527,
   "bySymbol": {
+    "VZ": {
+      "symbol": "VZ",
+      "buy_count": 5,
+      "sell_count": 3,
+      "buy_notional_est": 850752.55,
+      "sell_notional_est": 140001.5,
+      "politicians": [
+        "Jennifer McClellan",
+        "Donald J Trump",
+        "Pete Sessions",
+        "Rohit Khanna"
+      ],
+      "notable_politicians": [
+        "Rohit Khanna"
+      ],
+      "recent_buys": [
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-09-02",
+          "filing_date": "2026-11-19",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-09-01",
+          "filing_date": "2026-11-19",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-08-21",
+          "filing_date": "2026-10-08",
+          "amount_label": "$250,001 - $500,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Rohit Khanna",
+          "date": "2026-09-25",
+          "filing_date": "2026-10-07",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.1
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-07-31",
+          "filing_date": "2026-09-22",
+          "amount_label": "$250,001 - $500,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-11-20",
+      "net_flow_score": 0.25,
+      "congress_score": 1.0,
+      "congress_boost": 1.15
+    },
     "GS": {
       "symbol": "GS",
       "buy_count": 1,
@@ -18,7 +76,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-02",
+          "date": "2026-09-02",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -52,7 +110,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-02",
+          "date": "2026-09-02",
           "filing_date": "2026-11-19",
           "amount_label": "$100,001 - $250,000",
           "weight": 1.0
@@ -66,23 +124,23 @@
         },
         {
           "politician": "Donald J Trump",
-          "date": "2026-08-10",
-          "filing_date": "2026-10-08",
-          "amount_label": "$1,000,001 - $5,000,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2024-08-26",
+          "date": "2026-08-26",
           "filing_date": "2026-10-08",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-08-17",
+          "date": "2026-08-17",
           "filing_date": "2026-10-08",
           "amount_label": "$500,001 - $1,000,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-08-10",
+          "filing_date": "2026-10-08",
+          "amount_label": "$1,000,001 - $5,000,000",
           "weight": 1.0
         }
       ],
@@ -138,14 +196,14 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-01",
+          "date": "2026-09-01",
           "filing_date": "2026-11-19",
           "amount_label": "$100,001 - $250,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-27",
+          "date": "2026-07-27",
           "filing_date": "2026-09-22",
           "amount_label": "$100,001 - $250,000",
           "weight": 1.0
@@ -174,7 +232,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-02",
+          "date": "2026-09-02",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -195,7 +253,7 @@
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-27",
+          "date": "2026-07-27",
           "filing_date": "2026-09-22",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -225,16 +283,30 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-11",
+          "date": "2026-09-11",
           "filing_date": "2026-11-19",
           "amount_label": "$50,001 - $100,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-01",
+          "date": "2026-09-01",
           "filing_date": "2026-11-19",
           "amount_label": "$100,001 - $250,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-08-21",
+          "filing_date": "2026-10-08",
+          "amount_label": "$500,001 - $1,000,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-08-17",
+          "filing_date": "2026-10-08",
+          "amount_label": "$15,001 - $50,000",
           "weight": 1.0
         },
         {
@@ -242,20 +314,6 @@
           "date": "2026-08-10",
           "filing_date": "2026-10-08",
           "amount_label": "$1,000,001 - $5,000,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2024-08-21",
-          "filing_date": "2026-10-08",
-          "amount_label": "$500,001 - $1,000,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2024-08-17",
-          "filing_date": "2026-10-08",
-          "amount_label": "$15,001 - $50,000",
           "weight": 1.0
         }
       ],
@@ -278,23 +336,23 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2026-08-10",
-          "filing_date": "2026-10-08",
-          "amount_label": "$1,000,001 - $5,000,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2024-08-21",
+          "date": "2026-08-21",
           "filing_date": "2026-10-08",
           "amount_label": "$250,001 - $500,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-08-17",
+          "date": "2026-08-17",
           "filing_date": "2026-10-08",
           "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-08-10",
+          "filing_date": "2026-10-08",
+          "amount_label": "$1,000,001 - $5,000,000",
           "weight": 1.0
         },
         {
@@ -325,7 +383,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-01",
+          "date": "2026-09-01",
           "filing_date": "2026-11-19",
           "amount_label": "$50,001 - $100,000",
           "weight": 1.0
@@ -346,16 +404,16 @@
         },
         {
           "politician": "Donald J Trump",
-          "date": "2026-07-22",
+          "date": "2026-07-27",
           "filing_date": "2026-09-22",
-          "amount_label": "$250,001 - $500,000",
+          "amount_label": "$50,001 - $100,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-27",
+          "date": "2026-07-22",
           "filing_date": "2026-09-22",
-          "amount_label": "$50,001 - $100,000",
+          "amount_label": "$250,001 - $500,000",
           "weight": 1.0
         }
       ],
@@ -518,14 +576,14 @@
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-01",
+          "date": "2026-09-01",
           "filing_date": "2026-11-19",
           "amount_label": "$50,001 - $100,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-20",
+          "date": "2026-07-20",
           "filing_date": "2026-09-22",
           "amount_label": "$250,001 - $500,000",
           "weight": 1.0
@@ -574,9 +632,9 @@
     },
     "JPM": {
       "symbol": "JPM",
-      "buy_count": 6,
+      "buy_count": 5,
       "sell_count": 2,
-      "buy_notional_est": 515003.1000000001,
+      "buy_notional_est": 482502.6000000001,
       "sell_notional_est": 407501.0,
       "politicians": [
         "Donald J Trump",
@@ -589,7 +647,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-16",
+          "date": "2026-09-16",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -616,18 +674,18 @@
           "weight": 1.0
         },
         {
-          "politician": "Donald J Trump",
-          "date": "2024-07-31",
-          "filing_date": "2026-09-22",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
+          "politician": "Rohit Khanna",
+          "date": "2026-08-27",
+          "filing_date": "2026-09-04",
+          "amount_label": "$100,001 - $250,000",
+          "weight": 1.1
         }
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-11-19",
-      "net_flow_score": 0.5,
-      "congress_score": 0.715,
-      "congress_boost": 1.1073
+      "net_flow_score": 0.4286,
+      "congress_score": 0.65,
+      "congress_boost": 1.0975
     },
     "MSI": {
       "symbol": "MSI",
@@ -703,7 +761,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-02",
+          "date": "2026-09-02",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -738,14 +796,14 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-11",
+          "date": "2026-09-11",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-01",
+          "date": "2026-09-01",
           "filing_date": "2026-11-19",
           "amount_label": "$100,001 - $250,000",
           "weight": 1.0
@@ -759,7 +817,7 @@
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-08-17",
+          "date": "2026-08-17",
           "filing_date": "2026-10-08",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -791,21 +849,21 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-11",
+          "date": "2026-09-11",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-01",
+          "date": "2026-09-01",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-08-21",
+          "date": "2026-08-21",
           "filing_date": "2026-10-08",
           "amount_label": "$250,001 - $500,000",
           "weight": 1.0
@@ -830,14 +888,14 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-11",
+          "date": "2026-09-11",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-01",
+          "date": "2026-09-01",
           "filing_date": "2026-11-19",
           "amount_label": "$50,001 - $100,000",
           "weight": 1.0
@@ -858,7 +916,7 @@
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-20",
+          "date": "2026-07-20",
           "filing_date": "2026-09-22",
           "amount_label": "$500,001 - $1,000,000",
           "weight": 1.0
@@ -883,14 +941,14 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-11",
+          "date": "2026-09-11",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-08-17",
+          "date": "2026-08-17",
           "filing_date": "2026-10-08",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -918,7 +976,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-01",
+          "date": "2026-09-01",
           "filing_date": "2026-11-19",
           "amount_label": "$100,001 - $250,000",
           "weight": 1.0
@@ -932,16 +990,16 @@
         },
         {
           "politician": "Donald J Trump",
-          "date": "2026-07-17",
+          "date": "2026-07-20",
           "filing_date": "2026-09-22",
-          "amount_label": "$15,001 - $50,000",
+          "amount_label": "$500,001 - $1,000,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-20",
+          "date": "2026-07-17",
           "filing_date": "2026-09-22",
-          "amount_label": "$500,001 - $1,000,000",
+          "amount_label": "$15,001 - $50,000",
           "weight": 1.0
         }
       ],
@@ -999,7 +1057,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-02",
+          "date": "2026-09-02",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -1024,7 +1082,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-20",
+          "date": "2026-07-20",
           "filing_date": "2026-09-22",
           "amount_label": "$50,001 - $100,000",
           "weight": 1.0
@@ -1049,7 +1107,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-08-21",
+          "date": "2026-08-21",
           "filing_date": "2026-10-08",
           "amount_label": "$1,000,001 - $5,000,000",
           "weight": 1.0
@@ -1111,7 +1169,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-08-17",
+          "date": "2026-08-17",
           "filing_date": "2026-10-08",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -1170,7 +1228,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-10",
+          "date": "2026-09-10",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -1195,7 +1253,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-10",
+          "date": "2026-09-10",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -1220,7 +1278,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-10",
+          "date": "2026-09-10",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -1245,7 +1303,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-10",
+          "date": "2026-09-10",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -1277,7 +1335,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-10",
+          "date": "2026-09-10",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -1302,21 +1360,21 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-10",
+          "date": "2026-09-10",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-02",
+          "date": "2026-09-02",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-08",
+          "date": "2026-07-08",
           "filing_date": "2026-09-22",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -1341,21 +1399,21 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-10",
+          "date": "2026-09-10",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-01",
+          "date": "2026-09-01",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-20",
+          "date": "2026-07-20",
           "filing_date": "2026-09-22",
           "amount_label": "$100,001 - $250,000",
           "weight": 1.0
@@ -1380,7 +1438,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-10",
+          "date": "2026-09-10",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -1405,7 +1463,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-10",
+          "date": "2026-09-10",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -1430,21 +1488,21 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-10",
+          "date": "2026-09-10",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-20",
+          "date": "2026-07-20",
           "filing_date": "2026-09-22",
           "amount_label": "$500,001 - $1,000,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-08",
+          "date": "2026-07-08",
           "filing_date": "2026-09-22",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -1459,9 +1517,9 @@
     "BKNG": {
       "symbol": "BKNG",
       "buy_count": 2,
-      "sell_count": 4,
+      "sell_count": 3,
       "buy_notional_est": 407501.0,
-      "sell_notional_est": 521502.1,
+      "sell_notional_est": 489001.6,
       "politicians": [
         "Donald J Trump",
         "Michael T. McCaul"
@@ -1472,14 +1530,14 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-10",
+          "date": "2026-09-10",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-08-21",
+          "date": "2026-08-21",
           "filing_date": "2026-10-08",
           "amount_label": "$250,001 - $500,000",
           "weight": 1.0
@@ -1487,9 +1545,9 @@
       ],
       "pelosi_buy": false,
       "last_filing_date": "2026-11-19",
-      "net_flow_score": -0.3333,
-      "congress_score": 0.272,
-      "congress_boost": 1.0408
+      "net_flow_score": -0.2,
+      "congress_score": 0.337,
+      "congress_boost": 1.0506
     },
     "DELL": {
       "symbol": "DELL",
@@ -1504,7 +1562,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-10",
+          "date": "2026-09-10",
           "filing_date": "2026-11-19",
           "amount_label": "$50,001 - $100,000",
           "weight": 1.0
@@ -1529,7 +1587,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-10",
+          "date": "2026-09-10",
           "filing_date": "2026-11-19",
           "amount_label": "$50,001 - $100,000",
           "weight": 1.0
@@ -1554,9 +1612,16 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-09",
+          "date": "2026-09-09",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-07-27",
+          "filing_date": "2026-09-22",
+          "amount_label": "$50,001 - $100,000",
           "weight": 1.0
         },
         {
@@ -1568,14 +1633,7 @@
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-27",
-          "filing_date": "2026-09-22",
-          "amount_label": "$50,001 - $100,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2024-07-20",
+          "date": "2026-07-20",
           "filing_date": "2026-09-22",
           "amount_label": "$1,000,001 - $5,000,000",
           "weight": 1.0
@@ -1600,7 +1658,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-09",
+          "date": "2026-09-09",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -1611,63 +1669,6 @@
       "net_flow_score": 1.0,
       "congress_score": 0.065,
       "congress_boost": 1.0097
-    },
-    "VZ": {
-      "symbol": "VZ",
-      "buy_count": 5,
-      "sell_count": 2,
-      "buy_notional_est": 850752.55,
-      "sell_notional_est": 65001.0,
-      "politicians": [
-        "Donald J Trump",
-        "Pete Sessions",
-        "Rohit Khanna"
-      ],
-      "notable_politicians": [
-        "Rohit Khanna"
-      ],
-      "recent_buys": [
-        {
-          "politician": "Donald J Trump",
-          "date": "2024-09-02",
-          "filing_date": "2026-11-19",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2024-09-01",
-          "filing_date": "2026-11-19",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2024-08-21",
-          "filing_date": "2026-10-08",
-          "amount_label": "$250,001 - $500,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Rohit Khanna",
-          "date": "2026-09-25",
-          "filing_date": "2026-10-07",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.1
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-07-31",
-          "filing_date": "2026-09-22",
-          "amount_label": "$250,001 - $500,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-11-19",
-      "net_flow_score": 0.4286,
-      "congress_score": 1.0,
-      "congress_boost": 1.15
     },
     "SLB": {
       "symbol": "SLB",
@@ -1682,7 +1683,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-02",
+          "date": "2026-09-02",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -1707,14 +1708,14 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-02",
+          "date": "2026-09-02",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-01",
+          "date": "2026-09-01",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -1739,14 +1740,14 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-02",
+          "date": "2026-09-02",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-08",
+          "date": "2026-07-08",
           "filing_date": "2026-09-22",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -1771,14 +1772,14 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-02",
+          "date": "2026-09-02",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-01",
+          "date": "2026-09-01",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -1804,7 +1805,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-02",
+          "date": "2026-09-02",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -1843,7 +1844,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-02",
+          "date": "2026-09-02",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -1872,14 +1873,14 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-02",
+          "date": "2026-09-02",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-01",
+          "date": "2026-09-01",
           "filing_date": "2026-11-19",
           "amount_label": "$100,001 - $250,000",
           "weight": 1.0
@@ -1893,7 +1894,7 @@
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-27",
+          "date": "2026-07-27",
           "filing_date": "2026-09-22",
           "amount_label": "$100,001 - $250,000",
           "weight": 1.0
@@ -1918,21 +1919,21 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-02",
+          "date": "2026-09-02",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-01",
+          "date": "2026-09-01",
           "filing_date": "2026-11-19",
           "amount_label": "$100,001 - $250,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-08-17",
+          "date": "2026-08-17",
           "filing_date": "2026-10-08",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -1959,21 +1960,21 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-02",
+          "date": "2026-09-02",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-08-26",
+          "date": "2026-08-26",
           "filing_date": "2026-10-08",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-08-17",
+          "date": "2026-08-17",
           "filing_date": "2026-10-08",
           "amount_label": "$250,001 - $500,000",
           "weight": 1.0
@@ -1998,7 +1999,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-02",
+          "date": "2026-09-02",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -2032,9 +2033,23 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-02",
+          "date": "2026-09-02",
           "filing_date": "2026-11-19",
           "amount_label": "$50,001 - $100,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-08-26",
+          "filing_date": "2026-10-08",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-08-17",
+          "filing_date": "2026-10-08",
+          "amount_label": "$500,001 - $1,000,000",
           "weight": 1.0
         },
         {
@@ -2046,21 +2061,7 @@
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-08-26",
-          "filing_date": "2026-10-08",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2024-08-17",
-          "filing_date": "2026-10-08",
-          "amount_label": "$500,001 - $1,000,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2024-07-20",
+          "date": "2026-07-20",
           "filing_date": "2026-09-22",
           "amount_label": "$500,001 - $1,000,000",
           "weight": 1.0
@@ -2085,21 +2086,21 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-02",
+          "date": "2026-09-02",
           "filing_date": "2026-11-19",
           "amount_label": "$50,001 - $100,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-01",
+          "date": "2026-09-01",
           "filing_date": "2026-11-19",
           "amount_label": "$50,001 - $100,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-08",
+          "date": "2026-07-08",
           "filing_date": "2026-09-22",
           "amount_label": "$100,001 - $250,000",
           "weight": 1.0
@@ -2125,28 +2126,28 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-02",
+          "date": "2026-09-02",
           "filing_date": "2026-11-19",
           "amount_label": "$50,001 - $100,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-08-21",
+          "date": "2026-08-21",
           "filing_date": "2026-10-08",
           "amount_label": "$100,001 - $250,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-20",
+          "date": "2026-07-20",
           "filing_date": "2026-09-22",
           "amount_label": "$100,001 - $250,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-08",
+          "date": "2026-07-08",
           "filing_date": "2026-09-22",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -2174,14 +2175,14 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-02",
+          "date": "2026-09-02",
           "filing_date": "2026-11-19",
           "amount_label": "$100,001 - $250,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-01",
+          "date": "2026-09-01",
           "filing_date": "2026-11-19",
           "amount_label": "$100,001 - $250,000",
           "weight": 1.0
@@ -2195,7 +2196,7 @@
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-08-17",
+          "date": "2026-08-17",
           "filing_date": "2026-10-08",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -2227,14 +2228,14 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-02",
+          "date": "2026-09-02",
           "filing_date": "2026-11-19",
           "amount_label": "$100,001 - $250,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-01",
+          "date": "2026-09-01",
           "filing_date": "2026-11-19",
           "amount_label": "$100,001 - $250,000",
           "weight": 1.0
@@ -2263,7 +2264,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-02",
+          "date": "2026-09-02",
           "filing_date": "2026-11-19",
           "amount_label": "$50,001 - $100,000",
           "weight": 1.0
@@ -2295,7 +2296,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-02",
+          "date": "2026-09-02",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -2320,14 +2321,14 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-02",
+          "date": "2026-09-02",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-08-17",
+          "date": "2026-08-17",
           "filing_date": "2026-10-08",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -2359,14 +2360,14 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-02",
+          "date": "2026-09-02",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-20",
+          "date": "2026-07-20",
           "filing_date": "2026-09-22",
           "amount_label": "$500,001 - $1,000,000",
           "weight": 1.0
@@ -2392,7 +2393,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-02",
+          "date": "2026-09-02",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -2417,7 +2418,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-02",
+          "date": "2026-09-02",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -2447,7 +2448,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-02",
+          "date": "2026-09-02",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -2461,7 +2462,7 @@
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-08-21",
+          "date": "2026-08-21",
           "filing_date": "2026-10-08",
           "amount_label": "$500,001 - $1,000,000",
           "weight": 1.0
@@ -2500,35 +2501,35 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-02",
+          "date": "2026-09-02",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-01",
+          "date": "2026-09-01",
           "filing_date": "2026-11-19",
           "amount_label": "$100,001 - $250,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-08-21",
+          "date": "2026-08-21",
           "filing_date": "2026-10-08",
           "amount_label": "$1,000,001 - $5,000,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-08-17",
+          "date": "2026-08-17",
           "filing_date": "2026-10-08",
           "amount_label": "$50,001 - $100,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-27",
+          "date": "2026-07-27",
           "filing_date": "2026-09-22",
           "amount_label": "$100,001 - $250,000",
           "weight": 1.0
@@ -2557,7 +2558,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-02",
+          "date": "2026-09-02",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -2610,7 +2611,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-02",
+          "date": "2026-09-02",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -2635,7 +2636,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-02",
+          "date": "2026-09-02",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -2660,14 +2661,14 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-02",
+          "date": "2026-09-02",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-08-17",
+          "date": "2026-08-17",
           "filing_date": "2026-10-08",
           "amount_label": "$50,001 - $100,000",
           "weight": 1.0
@@ -2700,14 +2701,14 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-02",
+          "date": "2026-09-02",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-08-21",
+          "date": "2026-08-21",
           "filing_date": "2026-10-08",
           "amount_label": "$250,001 - $500,000",
           "weight": 1.0
@@ -2721,7 +2722,7 @@
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-20",
+          "date": "2026-07-20",
           "filing_date": "2026-09-22",
           "amount_label": "$100,001 - $250,000",
           "weight": 1.0
@@ -2747,7 +2748,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-02",
+          "date": "2026-09-02",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -2761,7 +2762,7 @@
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-08-17",
+          "date": "2026-08-17",
           "filing_date": "2026-10-08",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -2793,7 +2794,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-02",
+          "date": "2026-09-02",
           "filing_date": "2026-11-19",
           "amount_label": "$50,001 - $100,000",
           "weight": 1.0
@@ -2807,14 +2808,14 @@
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-08-21",
+          "date": "2026-08-21",
           "filing_date": "2026-10-08",
           "amount_label": "$5,000,001 - $25,000,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-08-17",
+          "date": "2026-08-17",
           "filing_date": "2026-10-08",
           "amount_label": "$100,001 - $250,000",
           "weight": 1.0
@@ -2883,7 +2884,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-08-26",
+          "date": "2026-08-26",
           "filing_date": "2026-10-08",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -3007,7 +3008,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-20",
+          "date": "2026-07-20",
           "filing_date": "2026-09-22",
           "amount_label": "$250,001 - $500,000",
           "weight": 1.0
@@ -3075,14 +3076,14 @@
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-08-17",
+          "date": "2026-08-17",
           "filing_date": "2026-10-08",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-20",
+          "date": "2026-07-20",
           "filing_date": "2026-09-22",
           "amount_label": "$100,001 - $250,000",
           "weight": 1.0
@@ -3149,7 +3150,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-20",
+          "date": "2026-07-20",
           "filing_date": "2026-09-22",
           "amount_label": "$500,001 - $1,000,000",
           "weight": 1.0
@@ -3313,7 +3314,7 @@
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-20",
+          "date": "2026-07-20",
           "filing_date": "2026-09-22",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -3542,7 +3543,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-01",
+          "date": "2026-09-01",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -3567,7 +3568,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-01",
+          "date": "2026-09-01",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -3592,7 +3593,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-01",
+          "date": "2026-09-01",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -3617,7 +3618,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-01",
+          "date": "2026-09-01",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -3642,7 +3643,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-01",
+          "date": "2026-09-01",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -3667,7 +3668,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-01",
+          "date": "2026-09-01",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -3692,7 +3693,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-01",
+          "date": "2026-09-01",
           "filing_date": "2026-11-19",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -3719,14 +3720,14 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-01",
+          "date": "2026-09-01",
           "filing_date": "2026-11-19",
           "amount_label": "$50,001 - $100,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-08-17",
+          "date": "2026-08-17",
           "filing_date": "2026-10-08",
           "amount_label": "$100,001 - $250,000",
           "weight": 1.0
@@ -3740,7 +3741,7 @@
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-08",
+          "date": "2026-07-08",
           "filing_date": "2026-09-22",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -3766,7 +3767,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-01",
+          "date": "2026-09-01",
           "filing_date": "2026-11-19",
           "amount_label": "$50,001 - $100,000",
           "weight": 1.0
@@ -3791,7 +3792,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-01",
+          "date": "2026-09-01",
           "filing_date": "2026-11-19",
           "amount_label": "$50,001 - $100,000",
           "weight": 1.0
@@ -3816,7 +3817,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-01",
+          "date": "2026-09-01",
           "filing_date": "2026-11-19",
           "amount_label": "$50,001 - $100,000",
           "weight": 1.0
@@ -3842,7 +3843,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-01",
+          "date": "2026-09-01",
           "filing_date": "2026-11-19",
           "amount_label": "$100,001 - $250,000",
           "weight": 1.0
@@ -3856,21 +3857,21 @@
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-08-17",
+          "date": "2026-08-17",
           "filing_date": "2026-10-08",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-27",
+          "date": "2026-07-27",
           "filing_date": "2026-09-22",
           "amount_label": "$50,001 - $100,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-20",
+          "date": "2026-07-20",
           "filing_date": "2026-09-22",
           "amount_label": "$250,001 - $500,000",
           "weight": 1.0
@@ -3897,7 +3898,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-01",
+          "date": "2026-09-01",
           "filing_date": "2026-11-19",
           "amount_label": "$100,001 - $250,000",
           "weight": 1.0
@@ -3923,14 +3924,14 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-01",
+          "date": "2026-09-01",
           "filing_date": "2026-11-19",
           "amount_label": "$100,001 - $250,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-08-17",
+          "date": "2026-08-17",
           "filing_date": "2026-10-08",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -3955,14 +3956,14 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-09-01",
+          "date": "2026-09-01",
           "filing_date": "2026-11-19",
           "amount_label": "$250,001 - $500,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-20",
+          "date": "2026-07-20",
           "filing_date": "2026-09-22",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -3989,7 +3990,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-20",
+          "date": "2026-07-20",
           "filing_date": "2026-09-22",
           "amount_label": "$500,001 - $1,000,000",
           "weight": 1.0
@@ -4047,7 +4048,7 @@
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-17",
+          "date": "2026-07-17",
           "filing_date": "2026-09-22",
           "amount_label": "$50,001 - $100,000",
           "weight": 1.0
@@ -4168,7 +4169,7 @@
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-08-17",
+          "date": "2026-08-17",
           "filing_date": "2026-10-08",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -4272,7 +4273,7 @@
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-08-05",
+          "date": "2026-08-05",
           "filing_date": "2026-10-08",
           "amount_label": "$100,001 - $250,000",
           "weight": 1.0
@@ -4418,14 +4419,14 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-08-26",
+          "date": "2026-08-26",
           "filing_date": "2026-10-08",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-08-21",
+          "date": "2026-08-21",
           "filing_date": "2026-10-08",
           "amount_label": "$1,000,001 - $5,000,000",
           "weight": 1.0
@@ -4488,7 +4489,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-20",
+          "date": "2026-07-20",
           "filing_date": "2026-09-22",
           "amount_label": "$100,001 - $250,000",
           "weight": 1.0
@@ -4532,14 +4533,14 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-08-26",
+          "date": "2026-08-26",
           "filing_date": "2026-10-08",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-08-21",
+          "date": "2026-08-21",
           "filing_date": "2026-10-08",
           "amount_label": "$1,000,001 - $5,000,000",
           "weight": 1.0
@@ -4766,7 +4767,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-08",
+          "date": "2026-07-08",
           "filing_date": "2026-09-22",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -4849,7 +4850,7 @@
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-20",
+          "date": "2026-07-20",
           "filing_date": "2026-09-22",
           "amount_label": "$500,001 - $1,000,000",
           "weight": 1.0
@@ -4924,16 +4925,16 @@
         },
         {
           "politician": "Donald J Trump",
-          "date": "2026-07-23",
+          "date": "2026-07-27",
           "filing_date": "2026-09-22",
-          "amount_label": "$50,001 - $100,000",
+          "amount_label": "$15,001 - $50,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-27",
+          "date": "2026-07-23",
           "filing_date": "2026-09-22",
-          "amount_label": "$15,001 - $50,000",
+          "amount_label": "$50,001 - $100,000",
           "weight": 1.0
         }
       ],
@@ -5077,7 +5078,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-20",
+          "date": "2026-07-20",
           "filing_date": "2026-09-22",
           "amount_label": "$500,001 - $1,000,000",
           "weight": 1.0
@@ -5194,7 +5195,7 @@
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-08-21",
+          "date": "2026-08-21",
           "filing_date": "2026-10-08",
           "amount_label": "$250,001 - $500,000",
           "weight": 1.0
@@ -5289,7 +5290,7 @@
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-08-17",
+          "date": "2026-08-17",
           "filing_date": "2026-10-08",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -5465,7 +5466,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-08-26",
+          "date": "2026-08-26",
           "filing_date": "2026-10-08",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -5779,7 +5780,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-08",
+          "date": "2026-07-08",
           "filing_date": "2026-09-22",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -5804,7 +5805,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-17",
+          "date": "2026-07-17",
           "filing_date": "2026-09-22",
           "amount_label": "$50,001 - $100,000",
           "weight": 1.0
@@ -5929,7 +5930,7 @@
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-08",
+          "date": "2026-07-08",
           "filing_date": "2026-09-22",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -5961,7 +5962,7 @@
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-08",
+          "date": "2026-07-08",
           "filing_date": "2026-09-22",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -6093,7 +6094,7 @@
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-08",
+          "date": "2026-07-08",
           "filing_date": "2026-09-22",
           "amount_label": "$50,001 - $100,000",
           "weight": 1.0
@@ -6175,7 +6176,7 @@
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-08",
+          "date": "2026-07-08",
           "filing_date": "2026-09-22",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -6207,14 +6208,14 @@
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-22",
+          "date": "2026-07-22",
           "filing_date": "2026-09-22",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-08",
+          "date": "2026-07-08",
           "filing_date": "2026-09-22",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -6281,7 +6282,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-27",
+          "date": "2026-07-27",
           "filing_date": "2026-09-22",
           "amount_label": "$50,001 - $100,000",
           "weight": 1.0
@@ -6324,14 +6325,14 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-20",
+          "date": "2026-07-20",
           "filing_date": "2026-09-22",
           "amount_label": "$500,001 - $1,000,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-08",
+          "date": "2026-07-08",
           "filing_date": "2026-09-22",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -7059,23 +7060,6 @@
       "congress_score": 0.065,
       "congress_boost": 1.0097
     },
-    "IAU": {
-      "symbol": "IAU",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 3000000.5,
-      "politicians": [
-        "Donald J Trump"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-10-08",
-      "net_flow_score": -1.0,
-      "congress_score": -6.0,
-      "congress_boost": 0.1
-    },
     "RMD": {
       "symbol": "RMD",
       "buy_count": 0,
@@ -7106,7 +7090,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-08-26",
+          "date": "2026-08-26",
           "filing_date": "2026-10-08",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -7217,7 +7201,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-08-26",
+          "date": "2026-08-26",
           "filing_date": "2026-10-08",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -7242,7 +7226,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-20",
+          "date": "2026-07-20",
           "filing_date": "2026-09-22",
           "amount_label": "$500,001 - $1,000,000",
           "weight": 1.0
@@ -7267,7 +7251,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-20",
+          "date": "2026-07-20",
           "filing_date": "2026-09-22",
           "amount_label": "$500,001 - $1,000,000",
           "weight": 1.0
@@ -7292,7 +7276,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-20",
+          "date": "2026-07-20",
           "filing_date": "2026-09-22",
           "amount_label": "$250,001 - $500,000",
           "weight": 1.0
@@ -7317,7 +7301,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-20",
+          "date": "2026-07-20",
           "filing_date": "2026-09-22",
           "amount_label": "$250,001 - $500,000",
           "weight": 1.0
@@ -7359,7 +7343,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-20",
+          "date": "2026-07-20",
           "filing_date": "2026-09-22",
           "amount_label": "$250,001 - $500,000",
           "weight": 1.0
@@ -7384,7 +7368,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-20",
+          "date": "2026-07-20",
           "filing_date": "2026-09-22",
           "amount_label": "$250,001 - $500,000",
           "weight": 1.0
@@ -7409,14 +7393,14 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-20",
+          "date": "2026-07-20",
           "filing_date": "2026-09-22",
           "amount_label": "$250,001 - $500,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-08",
+          "date": "2026-07-08",
           "filing_date": "2026-09-22",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -7441,7 +7425,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-20",
+          "date": "2026-07-20",
           "filing_date": "2026-09-22",
           "amount_label": "$250,001 - $500,000",
           "weight": 1.0
@@ -7484,7 +7468,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-20",
+          "date": "2026-07-20",
           "filing_date": "2026-09-22",
           "amount_label": "$100,001 - $250,000",
           "weight": 1.0
@@ -7536,7 +7520,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-20",
+          "date": "2026-07-20",
           "filing_date": "2026-09-22",
           "amount_label": "$100,001 - $250,000",
           "weight": 1.0
@@ -7620,7 +7604,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-20",
+          "date": "2026-07-20",
           "filing_date": "2026-09-22",
           "amount_label": "$50,001 - $100,000",
           "weight": 1.0
@@ -7699,7 +7683,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-08-21",
+          "date": "2026-08-21",
           "filing_date": "2026-10-08",
           "amount_label": "$100,001 - $250,000",
           "weight": 1.0
@@ -7724,7 +7708,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-08-21",
+          "date": "2026-08-21",
           "filing_date": "2026-10-08",
           "amount_label": "$100,001 - $250,000",
           "weight": 1.0
@@ -7749,14 +7733,14 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-08-21",
+          "date": "2026-08-21",
           "filing_date": "2026-10-08",
           "amount_label": "$100,001 - $250,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-27",
+          "date": "2026-07-27",
           "filing_date": "2026-09-22",
           "amount_label": "$50,001 - $100,000",
           "weight": 1.0
@@ -7781,7 +7765,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-08-21",
+          "date": "2026-08-21",
           "filing_date": "2026-10-08",
           "amount_label": "$250,001 - $500,000",
           "weight": 1.0
@@ -7806,14 +7790,14 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-08-21",
+          "date": "2026-08-21",
           "filing_date": "2026-10-08",
           "amount_label": "$250,001 - $500,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-20",
+          "date": "2026-07-20",
           "filing_date": "2026-09-22",
           "amount_label": "$50,001 - $100,000",
           "weight": 1.0
@@ -7838,7 +7822,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-08-21",
+          "date": "2026-08-21",
           "filing_date": "2026-10-08",
           "amount_label": "$250,001 - $500,000",
           "weight": 1.0
@@ -7864,7 +7848,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-08-21",
+          "date": "2026-08-21",
           "filing_date": "2026-10-08",
           "amount_label": "$500,001 - $1,000,000",
           "weight": 1.0
@@ -7889,7 +7873,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-08-21",
+          "date": "2026-08-21",
           "filing_date": "2026-10-08",
           "amount_label": "$500,001 - $1,000,000",
           "weight": 1.0
@@ -7915,14 +7899,14 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-08-21",
+          "date": "2026-08-21",
           "filing_date": "2026-10-08",
           "amount_label": "$500,001 - $1,000,000",
           "weight": 1.0
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-08",
+          "date": "2026-07-08",
           "filing_date": "2026-09-22",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -7948,9 +7932,16 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-08-17",
+          "date": "2026-08-17",
           "filing_date": "2026-10-08",
           "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-07-27",
+          "filing_date": "2026-09-22",
+          "amount_label": "$100,001 - $250,000",
           "weight": 1.0
         },
         {
@@ -7958,13 +7949,6 @@
           "date": "2026-07-20",
           "filing_date": "2026-09-22",
           "amount_label": "$500,001 - $1,000,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2024-07-27",
-          "filing_date": "2026-09-22",
-          "amount_label": "$100,001 - $250,000",
           "weight": 1.0
         },
         {
@@ -7995,7 +7979,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-08-17",
+          "date": "2026-08-17",
           "filing_date": "2026-10-08",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -8009,7 +7993,7 @@
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-20",
+          "date": "2026-07-20",
           "filing_date": "2026-09-22",
           "amount_label": "$1,000,001 - $5,000,000",
           "weight": 1.0
@@ -8041,7 +8025,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-08-17",
+          "date": "2026-08-17",
           "filing_date": "2026-10-08",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -8059,6 +8043,23 @@
       "net_flow_score": 0.3333,
       "congress_score": 0.065,
       "congress_boost": 1.0097
+    },
+    "IAU": {
+      "symbol": "IAU",
+      "buy_count": 0,
+      "sell_count": 1,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 3000000.5,
+      "politicians": [
+        "Donald J Trump"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-10-08",
+      "net_flow_score": -1.0,
+      "congress_score": -6.0,
+      "congress_boost": 0.1
     },
     "ED": {
       "symbol": "ED",
@@ -8236,6 +8237,13 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
+          "date": "2026-07-27",
+          "filing_date": "2026-09-22",
+          "amount_label": "$50,001 - $100,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
           "date": "2026-07-23",
           "filing_date": "2026-09-22",
           "amount_label": "$100,001 - $250,000",
@@ -8243,14 +8251,7 @@
         },
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-27",
-          "filing_date": "2026-09-22",
-          "amount_label": "$50,001 - $100,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2024-07-20",
+          "date": "2026-07-20",
           "filing_date": "2026-09-22",
           "amount_label": "$100,001 - $250,000",
           "weight": 1.0
@@ -8371,6 +8372,108 @@
       "net_flow_score": 0.0,
       "congress_score": 0.0,
       "congress_boost": 1.0
+    },
+    "MRK": {
+      "symbol": "MRK",
+      "buy_count": 1,
+      "sell_count": 1,
+      "buy_notional_est": 32500.5,
+      "sell_notional_est": 375000.5,
+      "politicians": [
+        "Donald J Trump",
+        "Maria Elvira Salazar"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [
+        {
+          "politician": "Maria Elvira Salazar",
+          "date": "2026-08-19",
+          "filing_date": "2026-09-09",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-09-22",
+      "net_flow_score": 0.0,
+      "congress_score": -0.685,
+      "congress_boost": 0.8972
+    },
+    "CVS": {
+      "symbol": "CVS",
+      "buy_count": 0,
+      "sell_count": 1,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 175000.5,
+      "politicians": [
+        "Donald J Trump"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-09-22",
+      "net_flow_score": -1.0,
+      "congress_score": -0.35,
+      "congress_boost": 0.9475
+    },
+    "KO": {
+      "symbol": "KO",
+      "buy_count": 0,
+      "sell_count": 1,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 175000.5,
+      "politicians": [
+        "Donald J Trump"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-09-22",
+      "net_flow_score": -1.0,
+      "congress_score": -0.35,
+      "congress_boost": 0.9475
+    },
+    "RTX": {
+      "symbol": "RTX",
+      "buy_count": 1,
+      "sell_count": 1,
+      "buy_notional_est": 32500.5,
+      "sell_notional_est": 175000.5,
+      "politicians": [
+        "Donald J Trump"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-07-08",
+          "filing_date": "2026-09-22",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-09-22",
+      "net_flow_score": 0.0,
+      "congress_score": -0.285,
+      "congress_boost": 0.9573
+    },
+    "MS": {
+      "symbol": "MS",
+      "buy_count": 0,
+      "sell_count": 1,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 75000.5,
+      "politicians": [
+        "Donald J Trump"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-09-22",
+      "net_flow_score": -1.0,
+      "congress_score": -0.15,
+      "congress_boost": 0.9775
     },
     "ECL": {
       "symbol": "ECL",
@@ -8704,532 +8807,6 @@
       "congress_score": 0.75,
       "congress_boost": 1.1125
     },
-    "UAL": {
-      "symbol": "UAL",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 32500.5,
-      "politicians": [
-        "Donald J Trump"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-09-22",
-      "net_flow_score": -1.0,
-      "congress_score": -0.065,
-      "congress_boost": 0.9902
-    },
-    "VMC": {
-      "symbol": "VMC",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 32500.5,
-      "politicians": [
-        "Donald J Trump"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-09-22",
-      "net_flow_score": -1.0,
-      "congress_score": -0.065,
-      "congress_boost": 0.9902
-    },
-    "CCI": {
-      "symbol": "CCI",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 32500.5,
-      "politicians": [
-        "Donald J Trump"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-09-22",
-      "net_flow_score": -1.0,
-      "congress_score": -0.065,
-      "congress_boost": 0.9902
-    },
-    "BAX": {
-      "symbol": "BAX",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 32500.5,
-      "politicians": [
-        "Donald J Trump"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-09-22",
-      "net_flow_score": -1.0,
-      "congress_score": -0.065,
-      "congress_boost": 0.9902
-    },
-    "DGX": {
-      "symbol": "DGX",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 32500.5,
-      "politicians": [
-        "Donald J Trump"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-09-22",
-      "net_flow_score": -1.0,
-      "congress_score": -0.065,
-      "congress_boost": 0.9902
-    },
-    "LYB": {
-      "symbol": "LYB",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 32500.5,
-      "politicians": [
-        "Donald J Trump"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-09-22",
-      "net_flow_score": -1.0,
-      "congress_score": -0.065,
-      "congress_boost": 0.9902
-    },
-    "CVNA": {
-      "symbol": "CVNA",
-      "buy_count": 1,
-      "sell_count": 1,
-      "buy_notional_est": 32500.5,
-      "sell_notional_est": 175000.5,
-      "politicians": [
-        "Donald J Trump"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-07-23",
-          "filing_date": "2026-09-22",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-09-22",
-      "net_flow_score": 0.0,
-      "congress_score": -0.285,
-      "congress_boost": 0.9573
-    },
-    "GILD": {
-      "symbol": "GILD",
-      "buy_count": 1,
-      "sell_count": 0,
-      "buy_notional_est": 32500.5,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Donald J Trump"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-07-23",
-          "filing_date": "2026-09-22",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-09-22",
-      "net_flow_score": 1.0,
-      "congress_score": 0.065,
-      "congress_boost": 1.0097
-    },
-    "ADSK": {
-      "symbol": "ADSK",
-      "buy_count": 2,
-      "sell_count": 0,
-      "buy_notional_est": 407501.0,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Donald J Trump"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-07-23",
-          "filing_date": "2026-09-22",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2024-07-20",
-          "filing_date": "2026-09-22",
-          "amount_label": "$250,001 - $500,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-09-22",
-      "net_flow_score": 1.0,
-      "congress_score": 0.815,
-      "congress_boost": 1.1222
-    },
-    "REGN": {
-      "symbol": "REGN",
-      "buy_count": 1,
-      "sell_count": 0,
-      "buy_notional_est": 75000.5,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Donald J Trump"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-07-23",
-          "filing_date": "2026-09-22",
-          "amount_label": "$50,001 - $100,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-09-22",
-      "net_flow_score": 1.0,
-      "congress_score": 0.15,
-      "congress_boost": 1.0225
-    },
-    "HCA": {
-      "symbol": "HCA",
-      "buy_count": 2,
-      "sell_count": 1,
-      "buy_notional_est": 107501.0,
-      "sell_notional_est": 375000.5,
-      "politicians": [
-        "Donald J Trump"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-07-23",
-          "filing_date": "2026-09-22",
-          "amount_label": "$50,001 - $100,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2024-07-08",
-          "filing_date": "2026-09-22",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-09-22",
-      "net_flow_score": 0.3333,
-      "congress_score": -0.535,
-      "congress_boost": 0.9197
-    },
-    "ICE": {
-      "symbol": "ICE",
-      "buy_count": 1,
-      "sell_count": 0,
-      "buy_notional_est": 75000.5,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Donald J Trump"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-07-23",
-          "filing_date": "2026-09-22",
-          "amount_label": "$50,001 - $100,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-09-22",
-      "net_flow_score": 1.0,
-      "congress_score": 0.15,
-      "congress_boost": 1.0225
-    },
-    "ADBE": {
-      "symbol": "ADBE",
-      "buy_count": 3,
-      "sell_count": 2,
-      "buy_notional_est": 900001.5,
-      "sell_notional_est": 65001.0,
-      "politicians": [
-        "Donald J Trump",
-        "Kevin Hern"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-07-23",
-          "filing_date": "2026-09-22",
-          "amount_label": "$50,001 - $100,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2024-07-27",
-          "filing_date": "2026-09-22",
-          "amount_label": "$50,001 - $100,000",
-          "weight": 1.0
-        },
-        {
-          "politician": "Donald J Trump",
-          "date": "2024-07-20",
-          "filing_date": "2026-09-22",
-          "amount_label": "$500,001 - $1,000,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-09-22",
-      "net_flow_score": 0.2,
-      "congress_score": 1.0,
-      "congress_boost": 1.15
-    },
-    "CRL": {
-      "symbol": "CRL",
-      "buy_count": 1,
-      "sell_count": 0,
-      "buy_notional_est": 175000.5,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Donald J Trump"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-07-23",
-          "filing_date": "2026-09-22",
-          "amount_label": "$100,001 - $250,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-09-22",
-      "net_flow_score": 1.0,
-      "congress_score": 0.35,
-      "congress_boost": 1.0525
-    },
-    "UHS": {
-      "symbol": "UHS",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 75000.5,
-      "politicians": [
-        "Donald J Trump"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-09-22",
-      "net_flow_score": -1.0,
-      "congress_score": -0.15,
-      "congress_boost": 0.9775
-    },
-    "APO": {
-      "symbol": "APO",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 175000.5,
-      "politicians": [
-        "Donald J Trump"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-09-22",
-      "net_flow_score": -1.0,
-      "congress_score": -0.35,
-      "congress_boost": 0.9475
-    },
-    "CPRT": {
-      "symbol": "CPRT",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 375000.5,
-      "politicians": [
-        "Donald J Trump"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-09-22",
-      "net_flow_score": -1.0,
-      "congress_score": -0.75,
-      "congress_boost": 0.8875
-    },
-    "Q": {
-      "symbol": "Q",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 32500.5,
-      "politicians": [
-        "Donald J Trump"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-09-22",
-      "net_flow_score": -1.0,
-      "congress_score": -0.065,
-      "congress_boost": 0.9902
-    },
-    "ADP": {
-      "symbol": "ADP",
-      "buy_count": 1,
-      "sell_count": 0,
-      "buy_notional_est": 32500.5,
-      "sell_notional_est": 0.0,
-      "politicians": [
-        "Donald J Trump"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Donald J Trump",
-          "date": "2026-07-17",
-          "filing_date": "2026-09-22",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-09-22",
-      "net_flow_score": 1.0,
-      "congress_score": 0.065,
-      "congress_boost": 1.0097
-    },
-    "MRK": {
-      "symbol": "MRK",
-      "buy_count": 1,
-      "sell_count": 1,
-      "buy_notional_est": 32500.5,
-      "sell_notional_est": 375000.5,
-      "politicians": [
-        "Donald J Trump",
-        "Maria Elvira Salazar"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Maria Elvira Salazar",
-          "date": "2026-08-19",
-          "filing_date": "2026-09-09",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-09-22",
-      "net_flow_score": 0.0,
-      "congress_score": -0.685,
-      "congress_boost": 0.8972
-    },
-    "CVS": {
-      "symbol": "CVS",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 175000.5,
-      "politicians": [
-        "Donald J Trump"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-09-22",
-      "net_flow_score": -1.0,
-      "congress_score": -0.35,
-      "congress_boost": 0.9475
-    },
-    "KO": {
-      "symbol": "KO",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 175000.5,
-      "politicians": [
-        "Donald J Trump"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-09-22",
-      "net_flow_score": -1.0,
-      "congress_score": -0.35,
-      "congress_boost": 0.9475
-    },
-    "RTX": {
-      "symbol": "RTX",
-      "buy_count": 1,
-      "sell_count": 1,
-      "buy_notional_est": 32500.5,
-      "sell_notional_est": 175000.5,
-      "politicians": [
-        "Donald J Trump"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [
-        {
-          "politician": "Donald J Trump",
-          "date": "2024-07-08",
-          "filing_date": "2026-09-22",
-          "amount_label": "$15,001 - $50,000",
-          "weight": 1.0
-        }
-      ],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-09-22",
-      "net_flow_score": 0.0,
-      "congress_score": -0.285,
-      "congress_boost": 0.9573
-    },
-    "MS": {
-      "symbol": "MS",
-      "buy_count": 0,
-      "sell_count": 1,
-      "buy_notional_est": 0.0,
-      "sell_notional_est": 75000.5,
-      "politicians": [
-        "Donald J Trump"
-      ],
-      "notable_politicians": [],
-      "recent_buys": [],
-      "pelosi_buy": false,
-      "last_filing_date": "2026-09-22",
-      "net_flow_score": -1.0,
-      "congress_score": -0.15,
-      "congress_boost": 0.9775
-    },
     "FHB": {
       "symbol": "FHB",
       "buy_count": 0,
@@ -9396,7 +8973,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-22",
+          "date": "2026-07-22",
           "filing_date": "2026-09-22",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -9421,7 +8998,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-22",
+          "date": "2026-07-22",
           "filing_date": "2026-09-22",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -9565,7 +9142,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-08",
+          "date": "2026-07-08",
           "filing_date": "2026-09-22",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -9641,7 +9218,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-08",
+          "date": "2026-07-08",
           "filing_date": "2026-09-22",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -9853,7 +9430,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-08",
+          "date": "2026-07-08",
           "filing_date": "2026-09-22",
           "amount_label": "$50,001 - $100,000",
           "weight": 1.0
@@ -9929,7 +9506,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-08",
+          "date": "2026-07-08",
           "filing_date": "2026-09-22",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -10498,7 +10075,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-08",
+          "date": "2026-07-08",
           "filing_date": "2026-09-22",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -10523,7 +10100,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-08",
+          "date": "2026-07-08",
           "filing_date": "2026-09-22",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -10565,7 +10142,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-08",
+          "date": "2026-07-08",
           "filing_date": "2026-09-22",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -10590,7 +10167,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-08",
+          "date": "2026-07-08",
           "filing_date": "2026-09-22",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -10649,7 +10226,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-22",
+          "date": "2026-07-22",
           "filing_date": "2026-09-22",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -10726,7 +10303,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-08",
+          "date": "2026-07-08",
           "filing_date": "2026-09-22",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -10751,7 +10328,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-17",
+          "date": "2026-07-17",
           "filing_date": "2026-09-22",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -10793,7 +10370,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-08",
+          "date": "2026-07-08",
           "filing_date": "2026-09-22",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -10852,7 +10429,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-08",
+          "date": "2026-07-08",
           "filing_date": "2026-09-22",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -10915,6 +10492,46 @@
       "congress_score": -0.065,
       "congress_boost": 0.9902
     },
+    "ADBE": {
+      "symbol": "ADBE",
+      "buy_count": 3,
+      "sell_count": 2,
+      "buy_notional_est": 900001.5,
+      "sell_notional_est": 65001.0,
+      "politicians": [
+        "Donald J Trump",
+        "Kevin Hern"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-07-27",
+          "filing_date": "2026-09-22",
+          "amount_label": "$50,001 - $100,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-07-23",
+          "filing_date": "2026-09-22",
+          "amount_label": "$50,001 - $100,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-07-20",
+          "filing_date": "2026-09-22",
+          "amount_label": "$500,001 - $1,000,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-09-22",
+      "net_flow_score": 0.2,
+      "congress_score": 1.0,
+      "congress_boost": 1.15
+    },
     "KRYS": {
       "symbol": "KRYS",
       "buy_count": 0,
@@ -10932,8 +10549,350 @@
       "congress_score": -0.35,
       "congress_boost": 0.9475
     },
+    "UAL": {
+      "symbol": "UAL",
+      "buy_count": 0,
+      "sell_count": 1,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 32500.5,
+      "politicians": [
+        "Donald J Trump"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-09-22",
+      "net_flow_score": -1.0,
+      "congress_score": -0.065,
+      "congress_boost": 0.9902
+    },
+    "VMC": {
+      "symbol": "VMC",
+      "buy_count": 0,
+      "sell_count": 1,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 32500.5,
+      "politicians": [
+        "Donald J Trump"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-09-22",
+      "net_flow_score": -1.0,
+      "congress_score": -0.065,
+      "congress_boost": 0.9902
+    },
+    "CCI": {
+      "symbol": "CCI",
+      "buy_count": 0,
+      "sell_count": 1,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 32500.5,
+      "politicians": [
+        "Donald J Trump"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-09-22",
+      "net_flow_score": -1.0,
+      "congress_score": -0.065,
+      "congress_boost": 0.9902
+    },
+    "BAX": {
+      "symbol": "BAX",
+      "buy_count": 0,
+      "sell_count": 1,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 32500.5,
+      "politicians": [
+        "Donald J Trump"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-09-22",
+      "net_flow_score": -1.0,
+      "congress_score": -0.065,
+      "congress_boost": 0.9902
+    },
+    "DGX": {
+      "symbol": "DGX",
+      "buy_count": 0,
+      "sell_count": 1,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 32500.5,
+      "politicians": [
+        "Donald J Trump"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-09-22",
+      "net_flow_score": -1.0,
+      "congress_score": -0.065,
+      "congress_boost": 0.9902
+    },
+    "LYB": {
+      "symbol": "LYB",
+      "buy_count": 0,
+      "sell_count": 1,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 32500.5,
+      "politicians": [
+        "Donald J Trump"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-09-22",
+      "net_flow_score": -1.0,
+      "congress_score": -0.065,
+      "congress_boost": 0.9902
+    },
+    "CVNA": {
+      "symbol": "CVNA",
+      "buy_count": 1,
+      "sell_count": 1,
+      "buy_notional_est": 32500.5,
+      "sell_notional_est": 175000.5,
+      "politicians": [
+        "Donald J Trump"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-07-23",
+          "filing_date": "2026-09-22",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-09-22",
+      "net_flow_score": 0.0,
+      "congress_score": -0.285,
+      "congress_boost": 0.9573
+    },
+    "GILD": {
+      "symbol": "GILD",
+      "buy_count": 1,
+      "sell_count": 0,
+      "buy_notional_est": 32500.5,
+      "sell_notional_est": 0.0,
+      "politicians": [
+        "Donald J Trump"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-07-23",
+          "filing_date": "2026-09-22",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-09-22",
+      "net_flow_score": 1.0,
+      "congress_score": 0.065,
+      "congress_boost": 1.0097
+    },
+    "ADSK": {
+      "symbol": "ADSK",
+      "buy_count": 2,
+      "sell_count": 0,
+      "buy_notional_est": 407501.0,
+      "sell_notional_est": 0.0,
+      "politicians": [
+        "Donald J Trump"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-07-23",
+          "filing_date": "2026-09-22",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-07-20",
+          "filing_date": "2026-09-22",
+          "amount_label": "$250,001 - $500,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-09-22",
+      "net_flow_score": 1.0,
+      "congress_score": 0.815,
+      "congress_boost": 1.1222
+    },
+    "REGN": {
+      "symbol": "REGN",
+      "buy_count": 1,
+      "sell_count": 0,
+      "buy_notional_est": 75000.5,
+      "sell_notional_est": 0.0,
+      "politicians": [
+        "Donald J Trump"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-07-23",
+          "filing_date": "2026-09-22",
+          "amount_label": "$50,001 - $100,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-09-22",
+      "net_flow_score": 1.0,
+      "congress_score": 0.15,
+      "congress_boost": 1.0225
+    },
+    "HCA": {
+      "symbol": "HCA",
+      "buy_count": 2,
+      "sell_count": 1,
+      "buy_notional_est": 107501.0,
+      "sell_notional_est": 375000.5,
+      "politicians": [
+        "Donald J Trump"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-07-23",
+          "filing_date": "2026-09-22",
+          "amount_label": "$50,001 - $100,000",
+          "weight": 1.0
+        },
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-07-08",
+          "filing_date": "2026-09-22",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-09-22",
+      "net_flow_score": 0.3333,
+      "congress_score": -0.535,
+      "congress_boost": 0.9197
+    },
+    "ICE": {
+      "symbol": "ICE",
+      "buy_count": 1,
+      "sell_count": 0,
+      "buy_notional_est": 75000.5,
+      "sell_notional_est": 0.0,
+      "politicians": [
+        "Donald J Trump"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-07-23",
+          "filing_date": "2026-09-22",
+          "amount_label": "$50,001 - $100,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-09-22",
+      "net_flow_score": 1.0,
+      "congress_score": 0.15,
+      "congress_boost": 1.0225
+    },
+    "CRL": {
+      "symbol": "CRL",
+      "buy_count": 1,
+      "sell_count": 0,
+      "buy_notional_est": 175000.5,
+      "sell_notional_est": 0.0,
+      "politicians": [
+        "Donald J Trump"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-07-23",
+          "filing_date": "2026-09-22",
+          "amount_label": "$100,001 - $250,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-09-22",
+      "net_flow_score": 1.0,
+      "congress_score": 0.35,
+      "congress_boost": 1.0525
+    },
     "MOH": {
       "symbol": "MOH",
+      "buy_count": 0,
+      "sell_count": 1,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 375000.5,
+      "politicians": [
+        "Donald J Trump"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-09-22",
+      "net_flow_score": -1.0,
+      "congress_score": -0.75,
+      "congress_boost": 0.8875
+    },
+    "UHS": {
+      "symbol": "UHS",
+      "buy_count": 0,
+      "sell_count": 1,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 75000.5,
+      "politicians": [
+        "Donald J Trump"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-09-22",
+      "net_flow_score": -1.0,
+      "congress_score": -0.15,
+      "congress_boost": 0.9775
+    },
+    "APO": {
+      "symbol": "APO",
+      "buy_count": 0,
+      "sell_count": 1,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 175000.5,
+      "politicians": [
+        "Donald J Trump"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-09-22",
+      "net_flow_score": -1.0,
+      "congress_score": -0.35,
+      "congress_boost": 0.9475
+    },
+    "CPRT": {
+      "symbol": "CPRT",
       "buy_count": 0,
       "sell_count": 1,
       "buy_notional_est": 0.0,
@@ -10962,7 +10921,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-20",
+          "date": "2026-07-20",
           "filing_date": "2026-09-22",
           "amount_label": "$100,001 - $250,000",
           "weight": 1.0
@@ -10987,7 +10946,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-20",
+          "date": "2026-07-20",
           "filing_date": "2026-09-22",
           "amount_label": "$250,001 - $500,000",
           "weight": 1.0
@@ -11013,7 +10972,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-20",
+          "date": "2026-07-20",
           "filing_date": "2026-09-22",
           "amount_label": "$500,001 - $1,000,000",
           "weight": 1.0
@@ -11038,7 +10997,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-20",
+          "date": "2026-07-20",
           "filing_date": "2026-09-22",
           "amount_label": "$500,001 - $1,000,000",
           "weight": 1.0
@@ -11063,7 +11022,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-20",
+          "date": "2026-07-20",
           "filing_date": "2026-09-22",
           "amount_label": "$250,001 - $500,000",
           "weight": 1.0
@@ -11088,7 +11047,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-20",
+          "date": "2026-07-20",
           "filing_date": "2026-09-22",
           "amount_label": "$50,001 - $100,000",
           "weight": 1.0
@@ -11113,7 +11072,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-20",
+          "date": "2026-07-20",
           "filing_date": "2026-09-22",
           "amount_label": "$250,001 - $500,000",
           "weight": 1.0
@@ -11138,7 +11097,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-20",
+          "date": "2026-07-20",
           "filing_date": "2026-09-22",
           "amount_label": "$500,001 - $1,000,000",
           "weight": 1.0
@@ -11163,7 +11122,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-20",
+          "date": "2026-07-20",
           "filing_date": "2026-09-22",
           "amount_label": "$500,001 - $1,000,000",
           "weight": 1.0
@@ -11188,7 +11147,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-20",
+          "date": "2026-07-20",
           "filing_date": "2026-09-22",
           "amount_label": "$50,001 - $100,000",
           "weight": 1.0
@@ -11216,6 +11175,48 @@
       "net_flow_score": -1.0,
       "congress_score": -0.35,
       "congress_boost": 0.9475
+    },
+    "Q": {
+      "symbol": "Q",
+      "buy_count": 0,
+      "sell_count": 1,
+      "buy_notional_est": 0.0,
+      "sell_notional_est": 32500.5,
+      "politicians": [
+        "Donald J Trump"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-09-22",
+      "net_flow_score": -1.0,
+      "congress_score": -0.065,
+      "congress_boost": 0.9902
+    },
+    "ADP": {
+      "symbol": "ADP",
+      "buy_count": 1,
+      "sell_count": 0,
+      "buy_notional_est": 32500.5,
+      "sell_notional_est": 0.0,
+      "politicians": [
+        "Donald J Trump"
+      ],
+      "notable_politicians": [],
+      "recent_buys": [
+        {
+          "politician": "Donald J Trump",
+          "date": "2026-07-17",
+          "filing_date": "2026-09-22",
+          "amount_label": "$15,001 - $50,000",
+          "weight": 1.0
+        }
+      ],
+      "pelosi_buy": false,
+      "last_filing_date": "2026-09-22",
+      "net_flow_score": 1.0,
+      "congress_score": 0.065,
+      "congress_boost": 1.0097
     },
     "GPC": {
       "symbol": "GPC",
@@ -11434,7 +11435,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-08",
+          "date": "2026-07-08",
           "filing_date": "2026-09-22",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -11459,7 +11460,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-08",
+          "date": "2026-07-08",
           "filing_date": "2026-09-22",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -11484,7 +11485,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-08",
+          "date": "2026-07-08",
           "filing_date": "2026-09-22",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -11509,7 +11510,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-08",
+          "date": "2026-07-08",
           "filing_date": "2026-09-22",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -11534,7 +11535,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-08",
+          "date": "2026-07-08",
           "filing_date": "2026-09-22",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -11562,7 +11563,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-08",
+          "date": "2026-07-08",
           "filing_date": "2026-09-22",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -11723,7 +11724,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-08",
+          "date": "2026-07-08",
           "filing_date": "2026-09-22",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -11748,7 +11749,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-08",
+          "date": "2026-07-08",
           "filing_date": "2026-09-22",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -11773,7 +11774,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-08",
+          "date": "2026-07-08",
           "filing_date": "2026-09-22",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -11798,7 +11799,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-08",
+          "date": "2026-07-08",
           "filing_date": "2026-09-22",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -11823,7 +11824,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-08",
+          "date": "2026-07-08",
           "filing_date": "2026-09-22",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -11848,7 +11849,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-08",
+          "date": "2026-07-08",
           "filing_date": "2026-09-22",
           "amount_label": "$15,001 - $50,000",
           "weight": 1.0
@@ -11873,7 +11874,7 @@
       "recent_buys": [
         {
           "politician": "Donald J Trump",
-          "date": "2024-07-08",
+          "date": "2026-07-08",
           "filing_date": "2026-09-22",
           "amount_label": "$100,001 - $250,000",
           "weight": 1.0
@@ -12696,8 +12697,8 @@
     },
     {
       "politician": "Donald J Trump",
-      "buys": 394,
-      "sells": 408,
+      "buys": 393,
+      "sells": 407,
       "unique_symbols": 430,
       "weight": 1.0,
       "notable": false
@@ -12803,6 +12804,14 @@
       "buys": 1,
       "sells": 1,
       "unique_symbols": 2,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
+      "politician": "Jennifer McClellan",
+      "buys": 0,
+      "sells": 1,
+      "unique_symbols": 1,
       "weight": 1.0,
       "notable": false
     },
