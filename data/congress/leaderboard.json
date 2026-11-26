@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T10:13:14Z",
+  "generatedAt": "2026-11-26T10:13:01Z",
   "leaderboard": [
     {
       "politician": "Rohit Khanna",
@@ -54,6 +54,14 @@
       "buys": 5,
       "sells": 36,
       "unique_symbols": 33,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
+      "politician": "Harriet Hageman",
+      "buys": 4,
+      "sells": 6,
+      "unique_symbols": 7,
       "weight": 1.0,
       "notable": false
     },
@@ -146,6 +154,22 @@
       "notable": false
     },
     {
+      "politician": "Kevin Hern",
+      "buys": 0,
+      "sells": 81,
+      "unique_symbols": 46,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
+      "politician": "Robert For Onder",
+      "buys": 0,
+      "sells": 4,
+      "unique_symbols": 4,
+      "weight": 1.0,
+      "notable": false
+    },
+    {
       "politician": "Jennifer McClellan",
       "buys": 0,
       "sells": 1,
@@ -174,14 +198,6 @@
       "buys": 0,
       "sells": 2,
       "unique_symbols": 2,
-      "weight": 1.0,
-      "notable": false
-    },
-    {
-      "politician": "Kevin Hern",
-      "buys": 0,
-      "sells": 73,
-      "unique_symbols": 42,
       "weight": 1.0,
       "notable": false
     },
